@@ -1,0 +1,33 @@
+{
+  "filename": "RRS.txt",
+  "matkul": "Sistem Operasi",
+  "teknik": "recursive",
+  "total_chunks": 5,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 910,
+      "text": "Pengertian\nRound-Robin Scheduling (RRS) merupakan salah satu algoritma scheduling pada CPU dimana\nsemua proses yang dijalankan oleh algoritma ini akan dieksekusi secara Cyclic. Dengan kata\nlain, algoritma ini akan menjalankan suatu proses dalam batas waktu tertentu dan apabila\nproses tersebut telah berjalan melewati batas waktu yang ditentukan, maka proses ini akan\notomatis diberhentikan sementara (pause) dan dimasukkan ke dalam antrian proses (queue)\nyang paling belakang (kemudian algoritma ini akan lanjut menjalankan proses lain dari\nqueue yang paling depan). Round-Robin adalah salah satu algoritma scheduling yang paling tua,\nmudah diterapkan, serta paling sederhana untuk digunakan. Hal tersebutlah yang menyebabkan\nRRS Algorithm banyak digunakan untuk menjalankan berbagai proses secara multitasking. Selain\nitu, algoritma Round-Robin juga bersifat starvation-free, yang berarti algoritma ini dapat"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 950,
+      "text": "menjalankan semua proses secara bergantian tanpa memprioritaskan proses-proses tertentu (low\npriority process tidak diblokir dan high priority process tidak akan terus terexecute). Selain untuk\nmenjalankan suatu proses, Round-Robin Scheduling juga dapat digunakan untuk menangani\nmasalah lain pada sistem operasi, seperti scheduling terhadap paket data pada jaringan komputer\ndan sebagainya.\nKonsep Kerja\nSeperti yang telah dijelaskan sebelumnya, algoritma Round-Robin Scheduling bekerja dengan\nmenggunakan sistem time sharing atau pembagian waktu secara adil pada setiap proses yang akan\ndieksekusi atau dijalankan, yakni dengan menggunakan static quantum time (setiap proses\nmemperoleh 1/n waktu keseluruhan CPU). Hal ini berarti algoritma ini akan mengeksekusi atau\nmenjalankan suatu proses berdasarkan quantum time yang telah diberikan. Apabila waktu eksekusi\ntersebut telah habis, maka algoritma ini akan berhenti menjalankan proses tersebut dan"
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 935,
+      "text": "memasukkannya pada queue terakhir. Kemudian, algoritma ini akan melanjutkan eksekusi pada\nproses lain yang berada pada antrian (queue) paling depan berdasarkan quantum time yang\ndiberikan dengan urutan kerja yang sama dengan proses sebelumnya. Singkatnya, setiap proses\nakan mengalami eksekusi dan pause yang sama berdasarkan quantum time yang diberikan serta\ntidak ada prioritas tertentu dalam algoritma ini.\nKonsep kerja dari algoritma Round-Robin ini tentunya sangat bergantung pada quantum time yang\ntelah ditentukan (umumnya antara 10 - 100 milisekon). Hal ini dikarenakan apabila quantum time\nyang diberikan terlalu kecil, maka akan menimbulkan adanya context switching yang lebih besar\npada proses sehingga dapat menyebabkan terjadinya overhead pada CPU. Sebaliknya, apabila\nquantum time terlalu besar, maka response time dari proses- proses yang terkait akan semakin\ntinggi.\nContoh Pengaplikasian Algoritma di Dalam\nOS Komputer"
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 983,
+      "text": "Berikut contoh implementasi algoritma Round-Robin dalam Operating System:\nSebuah CPU dengan quantum 4 mendapat beberapa proses dengan waktu kedatangan yang\nbersamaan seperti berikut:\nLangkah Pertama:\nMembuat Gantt Chart\nMasukkan proses yang berurutan, kemudian kurangi Burst Time dengan nilai quantum.\nP1:\nBurst time - Quantum 4 - 4 = 0.\nWaktu = 4\nP2:\nBurst time - Quantum 9 - 4 = 5.\nSisa = 5\nWaktu = 4\nP3:\nBurst time - Quantum 6 - 4 = 2.\nSisa = 2\nWaktu = 4\nP4:\nBurst time - Quantum 5 - 4 = 1.\nSisa = 1\nWaktu antrian = 4\nP5:\nBurst time - Quantum\n3 - 4 = (-1).\nWaktu antrian = 3\nProses yang memiliki sisa, kemudian dimasukkan kembali kedalam antrian sesuai dengan urutan\nProsesnya.\nP2:\nSisa burst time - Quantum 5 - 4 = 1\nSisa = 1\nWaktu antrian = 4\nP3:\nSisa Burst time - Quantum 2 - 4 = (-2)\nWaktu antrian = 2\nP4:\nSisa Burst time - Quantum 1 - 4 = (-3)\nWaktu antrian = 1\nP2:\nSisa Burst time - Quantum 1 - 4 = (-3)\nWaktu antrian = 1\nLangkah Kedua:\nMenghitung AWT (Average Waiting Time)"
+    },
+    {
+      "index": 5,
+      "panjang_karakter": 207,
+      "text": "AWT yang terjadi adalah: (0 + 18 + 19 + 21 + 16)/ 5 = 74 / 5 = 14,8\nLangkah Ketiga:\nMenghitung ATAT (Average Turn Arround Time)\nDari proses tersebut, dapat diketahui nilai ATAT dari CPU tersebut adalah 20,2."
+    }
+  ]
+}

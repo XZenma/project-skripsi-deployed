@@ -1,0 +1,33 @@
+LOGIKA PEMROGRAMAN
+ANALISA KASUS
+ANALISA KASUS
+ISB-212 Basis Data 2 (P)
+Modul Hari Ini
+Memahami penggunaan kalimat IF.
+Memahami penggunaan kalimat IF...ELSE.
+Memahami penggunaan IF...ELSE Bersarang (Nested).
+Penerapan logika dalam Stored Procedure.
+Pengenalan kalimat IF
+     Pernyataan aliran kontrol yang memungkinkan eksekusi
+atau melewati blok pernyataan berdasarkan kondisi tertentu.
+Cara Kerja:
+Jika ekspresi Boolean bernilai true, maka blok statement di dalam
+BEGIN ... END akan dijalankan.
+Jika tidak (false), blok tersebut akan dilewati dan kontrol program
+diteruskan setelah kata kunci END.
+Catatan Penting: Jika ekspresi Boolean menggunakan pernyataan
+SELECT, pernyataan tersebut harus diapit dalam tanda kurung.
+Sintaks Dasar
+Contoh Implementasi
+Fungsi ELSE: Digunakan ketika kondisi di klausa IF mengevaluasi ke
+FALSE dan kita ingin mengeksekusi blok pernyataan lain.
+Kalimat IF...ELSE
+Cara Kerja:
+Jika kondisi bernilai TRUE, maka blok pernyataan di klausa IF yang dijalankan.
+Jika kondisinya SALAH (FALSE), maka blok kode pada klausa ELSE yang
+dijalankan.
+IF...ELSE Bersarang (Nested)
+Konsep: SQL Server memungkinkan kita untuk menumpuk pernyataan IF ... ELSE di
+dalam pernyataan IF ... ELSE lainnya.
+THANK YOU
+Any Question?

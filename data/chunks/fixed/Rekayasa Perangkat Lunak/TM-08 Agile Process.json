@@ -1,0 +1,43 @@
+{
+  "filename": "TM-08 Agile Process.txt",
+  "matkul": "Rekayasa Perangkat Lunak",
+  "teknik": "fixed",
+  "total_chunks": 7,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 999,
+      "text": "I\nRekayasa\nPerangkat\nLunak\nTM-08 Agile Process/ Agile\nModel/ Agile Methodology\nSenin, 15/03/2021\nNAME OR LOGO\nOutline\n2\no Apa itu Agile?\no Apa itu SCRUM?\no Apa itu Sprint?\no Apa itu User Strory?\no Bagaimana memberi/ mengestimasikan Story Points?\no Apa arti Definition of Done (DoD) dengan Definition of Ready (DoR)?\no Perbedaan Sprint Activities\no Sprint Backlog, Sprint Review, dan Sprint Restropective\nISA-202 Rekayasa Perangkat Lunak\nNAME OR LOGO\nApa itu Agile\n3\no Agile adalah suatu pendekatan dari pengembangan perangkat lunak yang digunakan\nuntuk:\no (1) menemukan kebutuhan dan mengembangkan solusi melalui upaya kolaboratif\nantara tim proyek dengan customer nya.\no (2) perencanaan yang adaptif, pengembangan yang ber-evolusi, delivery (pengiriman)\nlebih awal, perbaikan berkelanjutan, dan merespon terhadap perubahan di tengah-\ntengah pengembangan.\no Antara fase pengembangan dengan pengujian dilakukan secara bersamaan, tidak\nseperti model Waterfall.\nISA-202 Rekayasa Perangkat Lunak\nNAME OR"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 1000,
+      "text": "LOGO\nEpic, Stories, dan\nTask (1)\n4\no\nEpic (Why) mendefinisikan kebutuhan bisnis.\no\nStories (What) mendefinisikan kebutuhan customer.\no\nAs a User, I want to bla bla, So that bla bla.\no\nTask (How) mendefinisikan solusi.\no\nContoh Epic (High-Level/Larger\nRequirements): Sebagai seorang nasabah, saya\ningin menggunakan Aplikasi Perbankan Online.\no\nStories 1 (Smaller Reqs): Sebagai sorang\nnasabah, saya ingin melakukan log in ke aplikasi.\no\nStories 2: Sebagai seorang nasabah, saya ingin\nmelihat saldo, sehingga saya dapat mengetahui\nberapa sisa saldo dalam rekening.\no\nSories 3: Sebagai seorang nasabah, saya ingin\nmentransfer uang ke sesama bank atau ke bank\nlain, sehingga pengiriman uang dapat dilakukan\nlebih cepat.\nISA-202 Rekayasa Perangkat Lunak\nFeatures\nNAME OR LOGO\nEpic, Stories, dan Task (2)\n5\no\nStories 1: Sebagai seorang nasabah, saya ingin melakukan login ke aplikasi perbankan online.\no\nDeveloper Task:\n\nDev-Task 1: Review the Story\n\nDev-Task 2: Estimate the Story\n\nDev-Task 3: Design\n\nDev"
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 1000,
+      "text": "-Task 4: Coding\n\nDev-Task 5: Unit Testing\n\nDev-Task 6: Integration Testing\no\nQA Task:\n\nQA-Task 1: Review the Story\n\nQA-Task 2: Prepare the Test Case\n\nQA-Task 3: Prepare the Test Scenario\n\nQA-Task 4: Prepare the Test Data\n\nQA-Task 4: Execute the Test Case\n\nQA-Task 5: Report the Bugs\nISA-202 Rekayasa Perangkat Lunak\nNAME OR LOGO\nSCRUM Roles\n6\no\nProduct Owner:\no\nmendefinisikan fitur dari produk (epic dan stories)\no\nmenentukan tanggal rilis produk\no\nmemprioritaskan fitur berdasarkan nilai pasar\no\nmenyesuaikan fitur dan prioritas setiap iterasi\no\nmenolak atau menerima hasil\no\nSCRUM Master:\no\nsebagai fasilitator untuk Agile Development Team\no\nmemungkinkan kerjasama yang erat antar tim\no\nBerorientasi pada proses bukan produk:\n\nApa kendala yang terjadi, Apa tantangannya, dan\nBagaimana cara mengatasi tantangan tersebut?\no\nsebagai mediator antara Product Owner, Developer, QA,\ndll.\no\nSCRUM Team:\no\nDeveloper\no\nQuality Assurance (QA)\nISA-202 Rekayasa Perangkat Lunak\nNAME OR LOGO\nDefinition of Ready"
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 999,
+      "text": "(DoR) dan Definition of Done (DoD)\n7\no DoR\no User story jelas\no User story dapat diuji\no User story layak\no User story memenuhi acceptance criteria\no Keterkaitan antar user story didefinisikan\no DoD\no Kode program telah dikembangkan\no Setiap kode diberi sudah diberi komentar dan di cek di dalam versioning control (Git)\no Kode program sudah melewati review (pair programming)\no Kode program tanpa error\no Unit testing sudah dilakukan\no Melewati fase UAT\nISA-202 Rekayasa Perangkat Lunak\nNAME OR LOGO\nAgile - SCRUM Framework (1)\n8\no Product Backlog adalah\ndokumen sederhana yang\ndipersiapkan oleh Product\nOwner yang berisi kebutuhan\n(epic, feature, stories) dari\ncustomer.\no Sprint Backlog\no Daily SCRUM Meeting (15\nmenit) :\no\nApa yang sudah dilakukan selama 24\njam kebelakang ?\no\nApa kendalanya?\no\nBagaimana cara mengatasinya?\no\nApa rencana besok hari?\no Sprint Restropective :\no\nApa yang sudah baik?\no\nApa yang masih salah\no\nApa yang perlu ditingkatkan\nISA-202 Rekayasa Perangkat Lunak\nNAME OR LOG"
+    },
+    {
+      "index": 5,
+      "panjang_karakter": 1000,
+      "text": "O\nAgile - SCRUM Framework (3) - Story Points\n9\no Tidak ada aturan baku dalam\nmendefinisikan Story Points\nkarena story points bukan\njumlah jam, atau jumlah hari.\no Biasa nya developer\nmenggunakan prinsip deret\nFibonacci untuk menentukan\nstory point: 1, 2, 3, 5, 8, 13,\n21\no Artinya semakin besar nilainya\nmaka semakin besar upaya\nuntuk mengerjakannya\nISA-202 Rekayasa Perangkat Lunak\nNAME OR LOGO\nAgile - SCRUM Framework (3) - Sprint Backlog\n10\no Sprint Backlog adalah\ndokumen yang berisi\nrequirement (stories) yang\nsiap untuk\ndiimplementasikan dan diuji\npada Sprint tertentu.\no Jika dalam Sprint tidak\nsemua user story dapat\ndiselesaikan\n(diimplementasikan dan\ndiuji) maka user story yang\nbelum selesai tersebut akan\nmasuk lagi ke dalam Product\nBacklog untuk dikerjakan\npada Sprint berikutnya.\no Selama pelaksanaan Sprint\nSCRUM Master memiliki\nperanan yang sangat penting\nuntuk memonitor proses\nAgile berjalan dengan baik\nISA-202 Rekayasa Perangkat Lunak\nNAME OR LOGO\nAgile - SCRUM Framework (3) - Bu"
+    },
+    {
+      "index": 6,
+      "panjang_karakter": 1000,
+      "text": "rndown Chart\n11\no Burndown Chart adalah representasi\ngrafis yang digunakan sebagai matrik\nuntuk mengetahui pekerjaan yang tersisa\nberdasarkan jumlah poin.\no Burndown chart dibuat oleh SCRUM\nMaster.\nISA-202 Rekayasa Perangkat Lunak\nNAME OR LOGO\nAgile - SCRUM Framework (3) - SCRUM Board\n12\nISA-202 Rekayasa Perangkat Lunak\nNAME OR LOGO\nKeuntungan dari Agile SCRUM\n13\no Dapat menghemat biaya dan waktu dari pengembangan proyek\no Kualitas dapat dijamin karena setiap Sprint dilakukan pengujian beberapa kali\no Dapat mengakomodasi perubahan walaupun sudah masuk pada fase\npengembangan\no Semua partisipan di dalam SCRUM transparansi, artinya apa yang mereka\nkerjakan jelas.\no Setiap Sprint, ada produk yang di-delivery kepada customer, sehingga dapat\nmengetahui apa yang membuat customer puas dan menghindari risiko-risiko\nyang tidak diinginkan oleh customer.\nISA-202 Rekayasa Perangkat Lunak\nNAME OR LOGO\nContoh Product Backlog\n14\nISA-202 Rekayasa Perangkat Lunak\nNAME OR LOGO\nContoh Sprint Backlog\n15\nIS"
+    },
+    {
+      "index": 7,
+      "panjang_karakter": 217,
+      "text": "A-202 Rekayasa Perangkat Lunak\nNAME OR LOGO\nContoh Task\n16\nISA-202 Rekayasa Perangkat Lunak\nThank\nYou\nKurnia Ramadhan Putra, S.Kom., M.T.\nkurniaramadhan@itenas.ac.id\nhttps://www.researchgate.net/profile/Ku\nrnia_Putra3"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "filename": "UDF Skalar dalam SQL Server 2012.txt",
+  "matkul": "Basis Data 2 Praktikum AA",
+  "teknik": "fixed",
+  "total_chunks": 3,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 1000,
+      "text": "User Defined Function (UDF)\nFungsi Skalar\nUser Defined Function (UDF)\nFungsi Skalar\nModul 7\nModul 7\nPraktikum Basis Data 2\nPraktikum Basis Data 2\nTujuan Pembelajaran\nMemahami konsep User Defined Function\n(UDF) dan memahami fungsi skalar beserta\nkarakteristiknya\nMampu membuat dan menjalankan fungsi\nskalar di SQL Server 2012 dengan benar\nFungsi adalah blok kode yang dapat dipanggil\nberulang kali untuk melakukan tugas tertentu\nUser Defined Function (UDF) adalah fungsi yang\ndibuat oleh pengguna sesuai kebutuhan\nFungsi selalu mengembalikan nilai (return value)\nKeuntungan: modularitas, reusability, kemudahan\nmaintenance\nPengertian Fungsi (UDF)\nJenis-Jenis Function di SQL Server\nScalar Function: mengembalikan satu nilai\ntunggal dengan tipe data tertentu (contoh:\nINT, VARCHAR, DATE). Fokus utama modul ini.\nInline Table Valued Function: mengembalikan\ntabel (Inline TVF dari satu SELECT, Multi\nStatement TVF dari beberapa statement).\nMulti Statement Table Valued Function:\nfungsi ini memberikan has"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 1000,
+      "text": "il keluaran berupa\ntabel dimana hasil dari query itu dimasukkan\nke dalam variabel dengan tipe data tabel\nFungsi yang mengembalikan satu\nnilai dengan tipe data spesifik\nCiri utama: menghasilkan single\nvalue, bukan tabel\nDapat digunakan dalam SELECT,\nWHERE, atau ekspresi lainnya\nFokus: Scalar Function\nStruktur Dasar Function\nCREATE FUNCTION nama_fungsi (@param TIPE_DATA)\nRETURNS TIPE_RETURN\nAS\nBEGIN\nDECLARE @hasil TIPE_RETURN;\nSET @hasil = [Nilai atau Ekspresi];\nRETURN @hasil;\nEND\nGO\nselect dbo.<nama_fungsi>\nCara Menjalankan\nScalar\nOutput\nContoh 1: Menghitung\nUmur (Hari)\nContoh 2: Menghitung\nUmur (Bulan)\nOutput\nContoh 2: Menghitung\nUmur (Bulan)\nPenggunaan IF dalam\nFunction\nOutput\nPenggunaan IF ELSEIF\nOutput\nPenggunaan CASE\nOutput\nPenggunaan\nPerulangan (WHILE)\nOutput\nKesimpulan:\nUDF memungkinkan membuat fungsi custom sesuai kebutuhan\nScalar Function mengembalikan satu nilai tunggal\nMeningkatkan modularitas dan reusability kode\nDapat menggunakan IF, CASE, dan WHILE untuk logika kompleks\nMa"
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 186,
+      "text": "nfaat: Kode lebih terstruktur, mengurangi duplikasi,\nmempermudah maintenance\nSesi Tanya Jawab (Q&A)\nPenutup\nWaktunya Live Coding Bareng\nGusy, Buka SSMS nya Yak!\nTerima\nTerima\nKasih\nKasih"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "filename": "TM-10 Pemodelan Menggunakan Activity Diagram.txt",
+  "matkul": "Rekayasa Perangkat Lunak",
+  "teknik": "fixed",
+  "total_chunks": 9,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 1000,
+      "text": "M-10\nPEMODELAN MENGGUNAKAN\nACTIVITY DIAGRAM\nISA-202 Rekayasa Perangkat Lunak\nKURNIA RAMADHAN PUTRA, S.KOM., M.T.\nOutline Materi\n01\n02\n03\n04\nPemodelan Proses Bisnis\nElemen Activity Diagram\nPanduan Membuat Activity Diagram\nStudi Kasus\nLangkah-Langkah Pengembangan Dengan Pendekatan UML\nKeterkaitan Antar Diagram UML\nActivity Diagram\nActivity Diagram adalah urutan aktivitas di dalam\nsebuah proses yang mencakup aktivitas sekuensial,\nparalel, serta keputusan yang dibuat.\nPemodelan Proses Bisnis\nPemodelan Proses Bisnis (1)\nPemodelan proses menggambarkan bagaimana sistem beroperasi, yang\nmengilustrasikan aktivitas yang dilakukan dan bagaimana data mengalir di\nantara mereka.\nPemodelan proses dapat digunakan untuk mendokumentasikan keadaan sistem\nsaat ini (as-is system) dan keadaan sistem yang baru yang sedang\ndikembangkan (to-be system) apakah terkomputerisasi atau tidak.\nActivity Diagram Untuk Pemodelan Proses Bisnis (2)\nContoh dari proses bisnis adalah \"membuat produk baru\" yang melibatkan\nban"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 1000,
+      "text": "yak aktivitas berbeda dan menggabungkan masing-masing pekerjaan\nbanyak karyawan di departemen berbeda.\nDari perspektif berorientasi objek sebelumnya, cenderung mengabaikan\npemodelan proses bisnis.\nNamun, saat ini disadari bahwa pemodelan proses bisnis itu sendiri adalah\naktivitas yang sangat penting yang dapat digunakan untuk memahami\nkebutuhan dari masing-masing stakeholder.\nBest Practice Pemodelan Proses Bisnis\n\nBe Realistic, karena hampir tidak memungkinkan jika mengidentifikasi semua fitur di dalam proses bisnis, namun\nsekalipun semuanya dapat diidentifikasi belum tentu semuanya penting.\n\nBe Agile, karena meskipun tidak mengidentifikasi setiap fitur dari proses bisnis, tetapi harus diidentifikasi dengan teliti.\n\nCollaborative, karena pemodelan proses bisnis harus dilakukan dengan tim, bukan individu. Ketika pemodelan hanya\ndilakukan secara individu, maka kemungkinan untuk menghilangkan task penting juga tinggi.\n\nDo not use a CASE Tools, karena untuk melakukan pemodelan sebaiknya me"
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 1000,
+      "text": "nggunakan papan tulis atau kertas, namun\nsetelah prosesnya dipahami maka dapat menggunakan CASE Tools (Astah, Visio, Draw.io) untuk mendokumentasikan\nproses tersebut.\n\nIterative, karena pemodelan proses bisni tidak cukup hanya dengan sekali pemodelan, Anda dapat merevisi model\ntersebut dan mendokumentasikannya menjadi beberapa versi.\n\nFocused on specific process, jika sebuah task terkait dengan proses bisnis lainnya yang sedang diidentifikasi, maka\nhanya cukup dicatat ke dalam todo list dan kembali pemodelan proses yang sedang dikerjakan.\n\nAbstraction, pemodelan proses bisnis adalah abstraksi dari hal yang sebenarnya sehingga Anda tidak boleh terlalu detail\ndalam mendeskripsikan proses bisnis saat ini.\nMartin Schedlbauer\nActivity Diagram Dalam Pemodelan Proses Bisnis\nActivity Diagram dapat digunakan untuk memodelkan perilaku dalam proses\nbisnis.\nActivity Diagram dapat dilihat sebagai workflow yang kaya akan notasi yang\ndapat dimanfaatkan untuk memodelkan aktivitas di dalam proses, baik"
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 998,
+      "text": "aktivitas\nsekuensial, paralel, maupun untuk pengambilan keputusan yang kompleks.\nDiagram aktivitas dapat digunakan untuk memodelkan segala sesuatu mulai\ndari alur kerja bisnis tingkat tinggi dari setiap use case berbeda sampai tahap\nyang lebih detail.\nElemen Activity Diagram\nActivity dan Action\n\nActivity dan action dapat mewakili aktivitas manual atau terkomputerisasi.\n\nActivity dan action digambarkan pada activity diagram dengan rounded rectangle (persegi panjang bulat).\n\nActivity dan action harus memiliki nama yang dimulai dengan kata kerja dan diakhiri dengan kata benda,\ncontohnya \"Memperoleh Informasi Pasien\" atau \"Memilih Metode Pembayaran\".\n\nNama activity dan action harus pendek, namun berisi informasi yang cukup sehingga pembaca dapat dengan\nmudah memahami apa aktivitas yang dilakukan.\n\nSatu-satunya perbedaan antara activity dan action adalah bahwa aktivitas dapat diuraikan menjadi lebih detail,\nsedangkan action mewakili bagian sederhana yang tidak dapat diuraikan lagi menjadi"
+    },
+    {
+      "index": 5,
+      "panjang_karakter": 999,
+      "text": "lebih detail.\n\nBiasanya, hanya activity yang digunakan untuk pemodelan proses bisnis atau pemodelan work flow.\nObject Nodes\nActivity dan action dapat memodifikasi atau mengubah objek.\nNode object memodelkan objek-objek ini dalam diagram aktivitas.\nNode object digambarkan di dalam activity diagram sebagai persegi panjang\nyang diberi nama dengan garis bawah.\nNode object merepresentasikan aliran informasi dari satu aktivitas ke aktivitas\nlainnya.\nControl Flow dan Object Flow\n\nDua jenis flow dalam Acitvity Diagram:\no\nControl Flow, memodelkan flow eksekusi setiap aktivitas yang ada di dalam proses bisnis.\no\nControl flow digambarkan sebagai garis penuh dengan panah di ujungnya yang menunjukkan arah aliran.\no\nControl flow hanya dapat menghubungkan antar activity atau action.\no\nObject Flow memodelkan flow objek dari setiap aktivitas yang ada dalam proses bisnis.\no\nKarena activity dan action memodifikasi atau mengubah objek, maka flow objek diperlukan untuk\nmenunjukkan objek yang mengalir baik"
+    },
+    {
+      "index": 6,
+      "panjang_karakter": 1000,
+      "text": "masuk dan keluar dari activity atau action.\no\nFlow object digambarkan dengan garis putus-putus dengan panah di atasnya yang menunjukkan arah\naliran.\nControl Nodes (1)\n\nAda tujuh tipe control node yang berbeda dalam activity diagram, yaitu initial node, final-activity, final-flow node, decision\nnode, merge node, fork node, dan join node.\n\nInitial Nodes menggambarkan awal dari serangkaian activity atau action yang digambarkan lingkaran kecil berwarna\nhitam penuh.\n\nFinal-flow node digunakan untuk menghentikan proses yang sedang dimodelkan, dimana final-flow activity tercapai,\nmaka activity dan action dihentikan. Final-flow activity digambarkan dengan lingkaran yang mengelilingi lingkaran hitam\nkecil di dalamnya.\n\nFinal-activity node mirip dengan final flow node yang digunakan untuk menghentikan jalur eksekusi tertentu yang\ndigambarkan dengan lingkaran dengan tanda \"X\" di dalamnya.\n\nDecision node digunakan untuk mewakili kondisi pengujian dan menentukan yang mana dari jalur yang keluar dar"
+    },
+    {
+      "index": 7,
+      "panjang_karakter": 1000,
+      "text": "i node\ndan mana keputusan yang akan diambil, dan guard condition mewakili nilai tes untuk jalur tertentu yang akan dijalankan.\n\nMerge node digunakan untuk menyatukan kembali beberapa jalur yang saling eksklusif yang telah dipisahkan\nberdasarkan keputusan sebelumnya.\n\nFork Node dan Join Node memungkinkan proses paralel dan bersamaan untuk dimodelkan.\nControl Nodes (2)\nSwimlane\nActivity atau action yang ada pada activity diagram kadang kalanya tidak hanya dijalankan\noleh satu objek atau individu tertentu, namun dapat dijalankan oleh beberapa individu,\nsehingga untuk memisahkan activity dan action antar individu tersebut dapat dicapai\ndengan penggunaan swimlane.\nContoh Activity Diagram\nActivity Diagram Meminjam Buku\nActivity Diagram Memesan Barang\nPanduan Membuat\nActivity Diagram\nPanduan Membuat Activity Diagram\nKarena activity diagram dapat digunakan untuk memodelkan segala jenis proses, Anda harus memastikan\nkonteks atau scope dari aktivitas yang dimodelkan. Setelah Anda menentukan scop"
+    },
+    {
+      "index": 8,
+      "panjang_karakter": 999,
+      "text": "e-nya,maka diagram dapat\ndiberi judul yang sesuai.\nDefine Scope\n01\nAnda harus mengidentifikasi activity, control flow, dan object flow yang terjadi di antara activity.\nIdentify the Activities\n02\nAnda harus mengidentifikasi setiap keputusan yang merupakan bagian dari proses yang sedang dimodelkan.\nIdentify the Decision\n03\nAnda harus mencoba mengidentifikasi prospek paralelisme dalam prosesnya.\nIdentify the Parallelism Process\n04\nAnda harus menggambar activity diagram.\nDraw the Activity Diagram\n04\nChoose a Business Process\nPertama, Anda harus memilih proses bisnis yang\nsebelumnya diidentifikasi sebagai model. Untuk\nmelakukan ini, Anda harus meninjau dari pendefinisian\ndan diagram use case.\nMeninjau semua dokumentasi yang dibuat selama proses\npengumpulan kebutuhan.\nIdentify Activities\nKedua, mengidentifikasi serangkaian aktivitas yang\ndiperlukan untuk mendukung proses bisnis. Contohnya,\nproses \"Mengelola Janji Kontrol\"\nProses \"Mengelola Janji\" tersebut memiliki beberapa\naktivitas seperti"
+    },
+    {
+      "index": 9,
+      "panjang_karakter": 925,
+      "text": "\"Memperbarui Informasi Pasien\", \"Memilih\nTipe Pembayaran\", \"Membuat Pasien Baru\", \"Membuat\nJanji\" \"Membatalkan Janji\", dan \"Mengubah Janji\"\nIdentify Control Flows and Nodes\nKetiga, mengidentifikasi control flow dan node yang\ndiperlukan untuk mendokumentasikan logika proses bisnis.\nIdentify Object Flows and Nodes\nKeempat, mengidentifikasi object flow dan node yang\ndiperlukan untuk mendukung logika proses bisnis\nLayout and Draw Diagram\nKelima, lay out dan menggambar activity diagram untuk\nmendokumentasikan proses bisnis.\nStudi Kasus:\nActivity Diagram Mesin ATM\nSection Break\nInsert the title of your subtitle Here\nUse Case Mesin ATM\nSumber: uml-diagram.org\nActivity Diagram \"Withdraw Cash\"\nTugas Mandiri Ke-3\nDari Use Case Mesin ATM, buatlah activity diagram untuk Transfer Funds\nBuatlah asumsi mengenai ATM yang kalian gunakan.\nGambar activity diagram ditulis tangan.\nTerima Kasih\nSemoga memperoleh ilmu yang bermanfaat!"
+    }
+  ]
+}

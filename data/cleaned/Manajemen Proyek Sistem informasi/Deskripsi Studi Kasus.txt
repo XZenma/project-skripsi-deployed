@@ -1,0 +1,1435 @@
+DESKRIPSI PROYEK UNIVERSITAS SUPERINDO
+Manajemen Proyek TI Gasal 2020/2021
+
+Universitas Superindo merupakan salah satu universitas yang terletak di Pulau
+
+Pyongyang dan telah berdiri sejak tahun 1908. Universitas Superindo memiliki visi
+
+untuk menjadi universitas dengan peringkat 100 besar dunia pada tahun 2022. Salah
+
+satu hal yang menjadi perhatian pimpinan Universitas Superindo adalah peningkatan
+
+layanan akademik universitas. Saat ini beberapa proses layanan akademik masih
+
+dilaksanakan secara manual, sehingga dari aspek efisiensi pelayanan di Universitas
+
+Superindo masih tergolong buruk. Sebagai salah satu persyaratan universitas kelas
+
+dunia, Universitas Superindo perlu mengembangkan sistem layanan akademik
+
+terintegrasi berbasis teknologi informasi. Setelah menyelenggarakan rapat pimpinan
+
+universitas, Universitas Superindo telah mendapatkan sejumlah ide pengembangan
+
+dan/atau
+perbaikan
+teknologi
+dan/atau
+sistem
+informasi
+yang
+mendukung
+
+peningkatan
+efisiensi
+layanan
+akademik
+Universitas. Dengan sistem informasi
+
+tersebut, Universitas Superindo dapat memberikan pelayanan yang prima bagi civitas
+
+academica
+sekaligus
+meningkatkan
+peringkat
+Universitas
+Superindo
+di
+level
+
+internasional.
+
+Berikut ini beberapa ide pengembangan dan/atau perbaikan teknologi dan/atau
+
+sistem informasi yang berhasil diidentifikasi:
+
+1. Room Management System
+Sebagai sebuah institusi pendidikan, Universitas Superindo memiliki jumlah ruang
+
+kelas yang tidak sedikit ditambah dengan fasilitas penunjang lainnya seperti
+
+perpustakaan, laboratorium, ruang BEM, dan lain-lain. Civitas Universitas Superindo
+
+tentunya perlu melakukan manajemen atas ruangan-ruangan yang ada. Selama ini,
+
+karena terdapat banyak sekali ruangan dan fasilitas yang ada, pegawai universitas
+
+yang bertugas untuk melakukan manajemen aset hanya melakukan pencatatan
+terhadap
+ruangan-ruangan
+besar
+seperti
+aula
+dan
+laboratorium
+dengan
+
+memanfaatkan aplikasi Excel sehingga mahasiswa seringkali kesulitan untuk dapat
+
+melakukan
+peminjaman
+ruangan
+yang
+ingin
+digunakan
+untuk
+kepentingan
+
+non-akademis.
+Melihat
+kondisi
+ini,
+pimpinan
+Universitas
+Superindo
+
+mempertimbangkan
+untuk
+memberikan
+layanan
+peminjaman
+ruangan
+beserta
+
+fasilitasnya seperti meja, kursi, layar proyektor, proyektor, dan lain sebagainya serta
+
+menghendaki adanya pencatatan dan pelaporan atas semua ruangan dan fasilitas
+
+yang dipinjam. Untuk mendukung hal tersebut, dibutuhkan sebuah sistem informasi
+
+yang dapat menunjang proses bisnis menjadi lebih transparan dan akuntabel yang
+
+akan mengakomodasi beberapa kebutuhan berikut ini:
+a. Sistem dapat memproses permintaan untuk meminjam ruangan
+b. Sistem dapat menampilkan daftar seluruh pengajuan peminjaman ruangan
+c. Sistem dapat digunakan untuk mengubah persetujuan peminjaman ruangan
+d. Sistem dapat memproses permintaan untuk meminjam fasilitas ruangan
+e. Sistem dapat menampilkan daftar seluruh pengajuan peminjaman fasilitas
+
+ruangan
+Dalam pembuatan sistem pemesanan online ini, seluruh ​requirement harus dikerjakan
+
+secara berurutan, kecuali ​requirement terkait proses permintaan peminjaman fasilitas
+
+ruangan dan daftar peminjaman fasilitas ruangan yang harus dilakukan secara paralel.
+
+Adapun ​cost dan ​benefit untuk proyek ini sudah diestimasi untuk 4 tahun ke depan,
+
+yaitu:
+
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 2000
+$ 1500
+$ 1000
+$ 400
+Estimated
+Benefit
+$ 500
+$ 2000
+$ 2050
+$ 1850
+
+2. Mailing System
+Saat ini, persuratan di Universitas Superindo secara umum masih berjalan manual,
+
+diproses langsung dari kantor sekretariat universitas. Namun, hal tersebut tidak
+seimbang dengan intensitas persuratan yang makin tinggi dan menuntut kecepatan
+
+waktu, apalagi jumlah mahasiswa Universitas Superindo juga kian bertambah. Sistem
+
+yang berjalan manual tersebut tentunya berimbas pada proses pencarian dan
+
+pembuatan surat yang membutuhkan waktu yang lama. Hal tersebut menyebabkan
+
+manajemen arsip persuratan di Universitas Superindo menjadi tidak efisien. Anggaran
+
+Universitas Superindo juga semakin besar karena pihak sekretariat harus membeli
+
+banyak kertas demi menunjang aktivitas persuratan di Universitas Superindo. Oleh
+
+karena itu, pihak sekretariat Universitas Superindo berencana untuk mengembangkan
+
+sebuah Mailing System yang nantinya diharapkan dapat mempercepat segala
+
+kegiatan yang berkaitan dengan persuratan. Adapun kebutuhan dari sistem yang
+
+akan dikembangkan adalah:
+a. Sistem dapat memproses pengajuan pembuatan surat
+b. Sistem dapat menampilkan daftar seluruh surat yang telah diproses
+c. Sistem dapat melakukan ​tracking ​status surat
+d. Sistem dapat membantu proses pengelolaan alur surat
+Pengerjaan ​requirement dari sistem tersebut dilakukan secara berurutan namun
+
+diperbolehkan juga untuk dilakukan secara paralel. Adapun ​cost dan ​benefit untuk
+
+proyek ini sudah diestimasi untuk empat tahun ke depan, yaitu sebagai berikut:
+
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 2000
+$ 1200
+$ 1000
+$ 600
+Estimated
+Benefit
+$2500
+$ 1300
+$ 2500
+$ 3500
+
+3. Scholarship Information System
+Undang-Undang Republik Indonesia Nomor 9 Tahun 2009 tentang Badan Hukum
+
+Pendidikan, Bab VI, Pasal 46 ayat (2), menyebutkan bahwa Badan Hukum Pendidikan
+
+wajib mengalokasikan beasiswa atau bantuan biaya pendidikan bagi peserta didik
+
+Warga Negara Indonesia yang kurang mampu secara ekonomi dan atau peserta didik
+
+yang memiliki potensi akademik tinggi paling sedikit 20% (dua puluh persen) dari
+jumlah seluruh peserta didik. Begitu pula dengan Universitas Superindo dimana
+
+terdapat banyak sekali beasiswa yang ditawarkan baik dari pemerintah maupun dari
+
+pihak
+swasta
+sekalipun.
+Namun,
+walaupun
+terdapat
+banyak
+beasiswa
+yang
+
+ditawarkan, masih belum ada sebuah sistem informasi yang memudahkan mahasiswa
+
+Universitas
+Superindo
+untuk
+mengakses
+informasi
+beasiswa
+yang
+ada
+dan
+
+mendaftarkan dirinya. Sistem informasi beasiswa yang berbasis web untuk membantu
+
+mahasiswa dan civitas Universitas Superindo lainnya masih belum dibuat dan selama
+
+ini prosesnya masih menggunakan cara manual. Melihat kondisi ini, pimpinan
+
+Universitas Superindo pun mempertimbangkan untuk membuat sebuah Scholarship
+
+Information System yang dapat menunjang proses tersebut. Adapun kebutuhan dari
+
+sistem yang akan dikembangkan adalah:
+a. Sistem dapat memproses pengajuan beasiswa dari tiap mahasiswa yang
+
+sesuai dengan persyaratan yang dibutuhkan
+b. Sistem dapat menyimpan data pendaftar beasiswa
+c. Sistem dapat menampilkan daftar seluruh pendaftar beasiswa
+d. Sistem dapat melakukan ​tracking ​status beasiswa
+Dalam pembuatan sistem pemesanan online ini, seluruh ​requirement harus dikerjakan
+
+secara berurutan, kecuali ​requirement terkait proses pengajuan beasiswa dan
+
+penyimpanan data pendaftar beasiswa yang harus dilakukan secara paralel. Adapun
+
+cost dan ​benefit untuk proyek ini sudah diestimasi untuk empat tahun ke depan, yaitu
+
+sebagai berikut:
+
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 1800
+$ 1000
+$ 1000
+$ 2000
+Estimated
+Benefit
+$ 1500
+$ 2500
+$ 2500
+$ 3000
+
+4. Judisium Information System
+Saat ini mahasiswa Universitas Superindo dalam mendaftarkan kelulusannya perlu
+
+dilakukan secara manual melalui ​excel ​lalu dikirimkan ke email sekretariat Universitas
+Superindo. Ketika tim sekretariat mengumpulkan data mahasiswa yang mendaftarkan
+
+kelulusan, tim sekretariat perlu memindahkan data mahasiswa ke ​excel ​gabungan
+
+secara manual lalu melakukan pemeriksaan secara manual untuk setiap mahasiswa
+
+apakah syarat-syarat kelulusan sudah terpenuhi atau belum. Hal ini berdampak pada
+
+kesalahan input data mahasiswa, proses pengecekan syarat-syarat kelulusan, serta
+
+hasil kelulusan mahasiswa. Dampak ini dikarenakan proses pendaftaran kelulusan
+
+yang sangat tidak efektif dan tidak efisien. Terkait hal tersebut, sistem yang dibuat
+
+diharapkan dapat membantu mahasiswa untuk melakukan pendaftaran kelulusan dan
+
+melakukan
+pengecekan
+terkait
+syarat-syarat
+kelulusan.
+Berikut
+ini
+beberapa
+
+requirement​ dari sistem yang akan dikembangkan:
+a. Sistem dapat terintegrasi dengan data akademis mahasiswa
+b. Sistem dapat mengelola pendaftaran kelulusan
+c. Sistem dapat melakukan pengecekan syarat-syarat kelulusan
+d. Sistem dapat menampilkan hasil kelulusan
+Nantinya, setiap ​requirement ​di atas harus dikerjakan secara berurutan. Adapun ​cost
+
+dan ​benefit​ untuk proyek ini sudah diestimasi untuk 4 tahun kedepan sebagai berikut:
+
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 1500
+$ 1500
+$ 800
+$ 800
+Estimated
+Benefit
+$ 800
+$ 1400
+$ 1500
+$ 1200
+
+5. Teaching Assistant Information System
+Saat ini Universitas Superindo telah memiliki ​website ​yang dapat digunakan oleh para
+
+mahasiswa yang menjadi asisten dosen maupun mahasiswa yang ingin mendaftar
+
+menjadi asisten dosen. Dalam ​website ​tersebut tersedia informasi umum mengenai
+
+profil mahasiswa, manual mahasiswa, daftar lowongan asisten, pengisian log, dan
+
+melihat honor pembayaran. Nantinya ​website ​ini akan dikembangkan agar asisten
+
+dosen dapat melihat daftar mahasiswa yang menjadi tanggung jawabnya serta
+
+melakukan konsultasi secara langsung. Hal ini dapat membantu asisten dosen untuk
+dapat menghubungi mahasiswa tersebut dan berkonsultasi secara langsung. Terkait
+
+hal tersebut, beberapa ​requirement​ ​website ​yang perlu ditambahkan nantinya adalah:
+e. Website ​dapat memfasilitasi daftar mahasiswa yang menjadi tanggung jawab
+
+para asisten dosen
+f.
+Terdapat fitur konsultasi secara langsung antara mahasiswa dan asisten dosen
+g. Website ​dapat menampilkan histori terkait konsultasi yang telah dilakukan
+h. Website dapat secara otomatis memasukkan log dari total sesi konsultasi yang
+
+telah dilakukan
+Nantinya, setiap ​requirement ​di atas harus dikerjakan secara berurutan. Adapun ​cost
+
+dan ​benefit​ untuk proyek ini sudah diestimasi untuk 4 tahun kedepan sebagai berikut:
+
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 1700
+$ 500
+$ 600
+$ 500
+Estimated
+Benefit
+$ 700
+$ 1200
+$ 800
+$ 1000
+
+6. Graduation Information System
+Saat ini mahasiswa Universitas Superindo dalam mendaftar wisuda perlu dilakukan
+
+secara manual melalui ​Google Form ​yang disediakan oleh Universitas Superindo.
+
+Selanjutnya, tim wisuda Universitas Superindo akan mengumpulkan data mahasiswa
+
+yang mendaftar melalui ​Google Form ​dan memindahkannya ke ​excel ​gabungan
+
+secara manual. Untuk pembelian aksesoris wisuda, para mahasiswa juga perlu
+
+mengisi ​Google Form ​yang berbeda saat melakukan pendaftaran wisuda. Hal ini
+
+berdampak pada kesalahan input data mahasiswa yang mendaftar dan seringkali
+
+mahasiswa
+tidak terdaftar dalam peserta wisuda ataupun tidak mendapatkan
+
+aksesoris wisuda yang telah dipesan. Terkait hal tersebut, sistem yang dibuat
+
+diharapkan dapat membantu mahasiswa untuk melakukan pendaftaran wisuda dan
+
+pemesanan aksesoris wisuda. Berikut ini beberapa ​requirement dari sistem yang akan
+
+dikembangkan:
+a. Sistem dapat terintegrasi dengan data mahasiswa
+b. Sistem dapat mengelola pendaftaran wisuda
+c. Sistem dapat menampilkan jadwal yang berkaitan dengan pelaksanaan wisuda
+d. Sistem dapat memfasilitasi proses pembelian plakat, toga, dan aksesoris
+
+wisuda lainnya.
+Nantinya, setiap ​requirement ​di atas harus dikerjakan secara berurutan. Adapun ​cost
+
+dan ​benefit​ untuk proyek ini sudah diestimasi untuk 4 tahun kedepan sebagai berikut:
+
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 2500
+$ 500
+$ 500
+$ 500
+Estimated
+Benefit
+$ -
+$ 1000
+$ 2000
+$ 2500
+
+7. Locker Management System
+Demi menunjang kebutuhan perkuliahan, organisasi, atau kepanitian mahasiswanya,
+
+Universitas
+Superindo
+menyediakan
+ratusan
+loker
+yang
+dapat
+dipinjam
+oleh
+
+mahasiswa dengan periode peminjaman selama satu semester. Melihat banyaknya
+
+jumlah loker yang tersedia, Universitas Superindo merasa bahwa akan lebih optimal
+
+jika proses peminjaman loker dikelola oleh suatu sistem. Oleh karena itu, Universitas
+
+Superindo ​berencana untuk mengembangkan sebuah ​Locker Management ​System
+
+yang
+dapat
+digunakan
+untuk
+mengelola
+peminjaman
+loker
+pada
+Universitas
+
+Superindo. Dengan adanya sistem ini, diharapkan proses peminjaman loker pada
+
+Universitas Superindo dapat berjalan dengan lebih efektif dan efisien.
+Berikut
+
+merupakan ​requirements ​dari sistem yang akan dikembangkan, antara lain:
+a. Sistem dapat menampilkan daftar loker yang tersedia
+b. Sistem dapat digunakan oleh mahasiswa untuk mengelola peminjaman loker
+c. Sistem dapat menampilkan ​progress ​serta status peminjaman loker
+d. Sistem dapat
+mengelola ​reminder ​untuk mahasiswa terkait pengembalian
+
+loker
+Nantinya, setiap ​requirement ​di atas harus dikerjakan secara berurutan. Adapun ​cost
+
+dan ​benefit​ untuk proyek ini sudah diestimasi untuk 4 tahun kedepan sebagai berikut:
+
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 1200
+$ 1000
+$ 600
+$ 600
+Estimated
+Benefit
+$ 800
+$ 1000
+$ 1200
+$ 1400
+
+8. Course Plan Management System
+Pada setiap awal semester, seluruh mahasiswa Universitas Superindo perlu mengisi
+
+formulir terkait rencana studi mereka pada semester tersebut. Sebelum proses
+
+pengisian rencana studi, pihak Universitas akan memberikan informasi kepada
+
+seluruh mahasiswa terkait daftar mata kuliah yang tersedia pada semester tersebut.
+
+Saat ini, proses dilakukan dengan bantuan ​google form ​dalam melakukan pendataan
+
+rencana studi untuk setiap mahasiswa Universitas Superindo. Namun, proses ini
+
+kerap membuat mahasiswa kebingungan karena mahasiswa tidak dapat mengetahui
+
+secara ​real-time ​apakah kapasitas internal kelas yang hendak dipilih sudah terisi
+
+penuh atau belum. Hal ini berdampak pada kelebihan kapasitas pada beberapa kelas
+
+yang tersedia. Selain itu, terdapat beberapa mahasiswa yang memilih mata kuliah
+
+namun tidak memenuhi prasyarat mata kuliah tersebut. Oleh karena itu, sekretariat
+
+Universitas Superindo mengajukan permintaan kepada pihak Universitas untuk
+
+membangun
+​Course
+Plan
+Management
+System.
+​Dengan
+adanya
+sistem
+ini,
+
+diharapkan proses pengisian rencana studi pada Universitas Superindo dapat
+
+berjalan dengan lebih efektif dan efisien. Berikut merupakan ​requirements ​dari sistem
+
+yang akan dikembangkan, antara lain:
+a. Sistem dapat terintegrasi dengan data akademis mahasiswa
+b. Sistem dapat menampilkan daftar kelas untuk setiap mata kuliah yang tersedia
+
+secara ​real-time
+c. Sistem dapat digunakan oleh mahasiswa untuk mengelola rencana studi
+d. Sistem dapat menampilkan hasil pengecekkan isian rencana studi
+Nantinya, setiap ​requirement ​di atas harus dikerjakan secara berurutan. Adapun ​cost
+
+dan ​benefit​ untuk proyek ini sudah diestimasi untuk 4 tahun kedepan sebagai berikut:
+
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 1700
+$ 1500
+$ 1500
+$ 1000
+Estimated
+Benefit
+$ 1500
+$ 2000
+$ 2000
+$ 2000
+
+9. Secretariat Appointment System
+Saat
+ini
+proses
+penjadwalan
+​appointment
+​pada
+loket
+sekretariat
+Universitas
+
+Superindo masih dilakukan secara manual. Jika hendak membuat ​appointment,
+
+mahasiswa perlu datang ke loket sekretariat untuk mengisi formulir pembuatan
+
+appointment​. Universitas Superindo ​melihat pengembangan sistem penjadwalan
+
+appointment
+​loket
+sekretariat
+merupakan
+peluang
+yang
+sangat
+baik
+untuk
+
+mengurangi ​cost ​dan meminimalisir adanya ​human error ​pada proses penjadwalan
+
+appointment ​yang masih konvensional. Oleh karena itu, Universitas Superindo
+
+​berencana untuk mengembangkan sebuah ​Secretariat Appointment ​System ​yang
+
+dapat digunakan untuk mengelola jadwal ​appointment ​pada loket sekretariat
+
+Universitas Superindo. Dengan adanya sistem ini, diharapkan proses penjadwalan
+
+appointment ​pada loket sekretariat Universitas Superindo dapat berjalan dengan
+
+lebih efektif dan efisien. Berikut merupakan ​requirements ​dari sistem yang akan
+
+dikembangkan, antara lain:
+a. Sistem dapat menampilkan jadwal loket sekretariat yang tersedia
+b. Sistem dapat digunakan oleh mahasiswa untuk mengelola penjadwalan
+
+appointment
+c. Sistem dapat menampilkan daftar ​appointment ​yang dibuat serta histori
+
+appointment
+d. Sistem dapat mengelola ​appointment reminder ​untuk mahasiswa terkait
+Nantinya, setiap ​requirement ​di atas harus dikerjakan secara berurutan. Adapun ​cost
+
+dan ​benefit​ untuk proyek ini sudah diestimasi untuk 4 tahun kedepan sebagai berikut:
+
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 1000
+$ 1000
+$ 800
+$ 800
+Estimated
+Benefit
+$ 600
+$ 800
+$ 1500
+$ 1600
+
+10. Library Information System
+Dalam melaksanakan aktivitasnya sebagai institusi pendidikan, Universitas Superindo
+
+memiliki perpustakaan yang menyediakan berbagai macam bahan literasi yang
+
+dibutuhkan oleh seluruh mahasiswa dan pengajar untuk menunjang perkuliahan.
+
+Mulai dari buku untuk setiap mata kuliah hingga buku populer seperti novel, jumlah
+
+buku yang disediakan oleh perpustakaan Universitas Superindo tentunya tidak
+
+sedikit. Perpustakaan memiliki proses bisnis yang cukup kompleks dalam mengelola
+
+ketersediaan, peminjaman, dan pengadaan buku. Oleh karena itu, untuk mendukung
+
+fungsi perpustakaan dibutuhkan sebuah sistem informasi yang dapat meningkatkan
+
+proses bisnis perpustakaan menjadi lebih cepat, transparan, dan akuntabel. Berikut ini
+
+adalah ​requirements ​yang akan diimplementasikan:
+a. Sistem dapat mengelola ketersediaan seluruh buku pada perpustakaan.
+b. Sistem dapat memproses permintaan untuk peminjaman buku.
+c. Sistem dapat menampilkan daftar seluruh pengajuan peminjaman buku.
+d. Sistem dapat memproses permintaan untuk pengadaan buku.
+e. Sistem dapat menampilkan daftar seluruh pengajuan pengadaan buku.
+Pengerjaan ​requirements dari sistem tersebut dilakukan secara berurutan, tetapi
+
+dapat juga dilakukan secara paralel. Adapun estimasi ​cost ​dan ​benefit ​dari proyek ini
+
+untuk 4 tahun ke depan, yaitu:
+
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 4000
+$ 1100
+$ 1100
+$ 1100
+Estimated
+Benefit
+$ 3000
+$ 5000
+$ 5000
+$ 5000
+
+11. Lecturer Scheduling Information System
+Universitas Superindo merupakan salah satu universitas terbaik di Indonesia yang
+
+didukung oleh pengajar berkualitas dalam jumlah yang banyak untuk memberikan
+
+pengajaran kepada ribuan mahasiswa. Perkuliahan pada Universitas Superindo
+
+dilakukan selama lima hari berturut-turut setiap minggunya (Senin s/d Jumat), yang
+
+mana dalam lima hari tersebut, setiap pengajar akan memiliki berbagai jadwal kelas
+
+perkuliahan yang berbeda-beda. Melihat banyaknya jumlah pengajar yang bekerja
+
+pada Universitas Superindo, penjadwalan kelas para pengajar untuk perkuliahan
+
+mahasiswa setiap harinya akan lebih optimal apabila dicatat dan dikelola dalam
+
+sebuah sistem penjadwalan. Adanya sistem tersebut diharapkan dapat menunjang
+
+pengaturan
+jadwal
+seluruh
+pengajar
+pada
+Universitas
+Superindo
+sehingga
+
+penjadwalan kelas untuk perkuliahan mahasiswa menjadi lebih mudah. Beberapa
+
+requirements ​yang akan diimplementasikan antara lain:
+a. Sistem dapat menampilkan jadwal kelas perkuliahan untuk seluruh pengajar.
+b. Sistem dapat menampilkan jadwal kelas perkuliahan setiap pengajar.
+c. Sistem dapat memproses penjadwalan kelas pengajar setiap harinya.
+d. Sistem dapat memproses permintaan perubahan jadwal dari pengajar.
+Setiap ​requirement di atas dikerjakan secara berurutan, kecuali untuk ​requirement
+
+"Sistem dapat menampilkan jadwal kelas perkuliahan untuk seluruh pengajar" dan
+
+"Sistem
+dapat
+menampilkan
+jadwal
+kelas perkuliahan setiap pengajar" harus
+
+dikerjakan secara paralel. Berikut adalah estimasi ​cost ​dan ​benefit ​dari proyek ini
+
+untuk 4 tahun ke depan:
+
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 2100
+$ 800
+$ 800
+$ 1200
+Estimated
+Benefit
+$ 1500
+$ 2000
+$ 2200
+$ 4000
+12. Exam Scheduling Information System
+Sebagai salah satu universitas favorit yang memiliki ribuan mahasiswa, Universitas
+
+Superindo
+belum
+memiliki
+sistem
+yang
+dapat
+memfasilitasi penjadwalan dan
+
+pengelolaan bangku ujian untuk seluruh mata kuliah yang ada. Saat ini, pengelolaan
+
+jadwal ujian dilakukan secara manual menggunakan Microsoft Excel. Begitu pula
+
+dengan pembagian bangku ujian untuk setiap mahasiswa per mata kuliah, yang mana
+
+informasinya
+hanya
+ditempelkan pada masing-masing ruangan ujian sehingga
+
+mahasiswa harus memeriksanya tepat sebelum ujian dimulai. Melihat banyaknya
+
+jumlah
+mahasiswa,
+Universitas
+Superindo
+merasa
+akan lebih optimal apabila
+
+penjadwalan dan pengelolaan bangku ujian untuk setiap mata kuliah dapat dilakukan
+
+dengan menggunakan sebuah sistem. Dengan adanya sistem ini, diharapkan proses
+
+penjadwalan ujian setiap mata kuliah dan pengelolaan bangku ujian untuk setiap
+
+mahasiswa menjadi lebih efektif dan efisien. Beberapa requirements yang akan
+
+diimplementasikan antara lain:
+a. Sistem dapat menampilkan jadwal ujian untuk seluruh mata kuliah.
+b. Sistem dapat mengelola pembagian bangku ujian untuk setiap mahasiswa per
+
+mata kuliah.
+c. Sistem dapat menampilkan seluruh jadwal beserta nomor bangku ujian untuk
+
+setiap mahasiswa.
+d. Sistem dapat memproses permintaan perubahan jadwal ujian.
+Pembuatan setiap ​requirement ​harus berurutan tanpa ada yang dilakukan secara
+
+paralel. Berikut adalah estimasi ​cost ​dan ​benefit ​dari proyek ini untuk 4 tahun ke
+
+depan:
+
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 2000
+$ 1000
+$ 700
+$ 700
+Estimated
+Benefit
+$ 500
+$ 900
+$ 1400
+$ 1800
+13. University Conference System
+Penelitian merupakan salah satu proses bisnis utama universitas di samping
+
+pendidikan dan pengabdian masyarakat. Salah satu tahapan penelitian adalah
+
+diseminasi hasil riset melalui konferensi bertaraf internasional. Universitas Superindo
+
+sebagai salah satu universitas kelas dunia secara rutin menyelenggarakan konferensi
+
+internasional
+di berbagai bidang. Namun demikian, saat ini penyelenggaraan
+
+konferensi
+masih
+terpisah
+antar
+fakultas
+sehingga
+pihak
+pimpinan
+kesulitan
+
+melakukan evaluasi terkait penyelenggaraan konferensi-konferensi tersebut. Oleh
+
+karena
+itu,
+Universitas
+Superindo
+berencana
+membangun
+sistem
+konferensi
+
+internasional yang dapat memfasilitasi proses penyelenggaraan konferensi mulai dari
+
+pendaftaran, pembayaran, pengunggahan makalah ilmiah, ​review ​artikel ilmiah,
+
+hingga evaluasi penyelenggaraan. Sistem tersebut diharapkan dapat mempermudah
+
+proses penyelenggaraan konferensi secara terintegrasi antar rumpun ilmu dan
+
+mempermudah evaluasi kualitas penyelenggaraan konferensi secara keseluruhan.
+
+Beberapa kebutuhan sistem yang akan dikembangkan antara lain:
+a. Sistem dapat mengelola pendaftaran peserta konferensi
+b. Sistem dapat mengelola proses pengajuan artikel ilmiah, pemberian umpan
+
+balik, hingga perbaikan artikel ilmiah
+c. Sistem dapat mengelola pembayaran biaya konferensi internasional untuk para
+
+peserta
+d. Sistem dapat menampilkan panduan lengkap terkait pelaksanaan konferensi
+
+internasional
+e. Sistem dapat mengelola masukan dari peserta terkait penyelenggaraan
+
+konferensi dan juga menampilkan statistik kepuasan peserta sebagai bahan
+
+evaluasi penyelenggaraan
+Setiap ​requirement ​di atas harus dikerjakan secara berurutan. Adapun ​cost dan
+
+benefit​ untuk proyek ini sudah diestimasi untuk 4 tahun kedepan sebagai berikut:
+
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 1000
+$ 1000
+$ 800
+$ 800
+Estimated
+Benefit
+$ 600
+$ 800
+$ 1500
+$ 1600
+
+14. Research Grant Information System
+Universitas Superindo merupakan salah satu universitas kelas dunia yang produktif
+
+menghasilkan riset berkualitas. Setiap tahun Universitas Superindo mengelola dana
+
+hibah penelitian dengan jumlah yang cukup besar dari berbagai sumber. Dana hibah
+
+tersebut perlu didistribusikan kepada para peneliti di Universitas Superindo dan
+
+setiap
+peneliti
+perlu
+memberikan
+laporan
+perkembangan
+riset
+dan
+laporan
+
+pertanggungjawaban di akhir periode hibah. Proses tersebut saat ini masih dilakukan
+
+secara manual menggunakan kertas dan tidak terintegrasi sehingga menimbulkan
+
+banyaknya kesalahan data ketika dilakukan audit. Oleh karena itu, Universitas
+
+Superindo membutuhkan sistem yang dapat menunjang proses pengelolaan dana
+
+hibah penelitian, mulai dari tahap pendaftaran hibah, persetujuan kontrak, pengiriman
+
+dana
+hibah,
+pembuatan
+laporan
+kemajuan,
+hingga
+pembuatan
+laporan
+
+pertanggungjawaban.
+Sistem
+tersebut
+diharapkan
+dapat
+membuat
+proses
+
+administrasi dana penelitian menjadi lebih efisien sehingga peneliti lebih fokus pada
+
+proses penelitian. Beberapa kebutuhan sistem yang akan dikembangkan antara lain:
+a. Sistem dapat mengelola data pendaftaran/pengajuan dana hibah penelitian
+b. Sistem dapat memfasilitasi proses persetujuan kontrak dan pengiriman dana
+
+hibah penelitian kepada penanggung jawab tim riset
+c. Sistem dapat mengelola data laporan kemajuan penelitian
+d. Sistem dapat mengelola data laporan pertanggungjawaban penelitian di akhir
+
+periode kontrak hibah
+e. Sistem dapat menampilkan statistik pengelolaan dana hibah yang meliputi total
+
+dana hibah yang tersedia setiap tahunnya, jumlah dana yang terserap, dan
+
+jumlah luaran penelitian
+Setiap ​requirement ​di atas harus dikerjakan secara berurutan. Adapun ​cost dan
+
+benefit​ untuk proyek ini sudah diestimasi untuk 4 tahun kedepan sebagai berikut:
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 1200
+$ 900
+$ 800
+$ 800
+Estimated
+Benefit
+$ 900
+$ 1000
+$ 1500
+$ 1600
+
+15. International Office Information System
+Sebagai universitas kelas dunia, Universitas Superindo aktif membangun relasi
+
+dengan banyak institusi internasional seperti universitas dan lembaga penelitian.
+
+Salah satu bentuk kerja sama tersebut, Universitas Superindo secara rutin membuka
+
+kesempatan bagi mahasiswa untuk dapat menjadi peserta pertukaran pelajar,
+
+magang
+riset,
+hingga
+kelas
+singkat.
+Universitas
+Superindo
+juga
+membuka
+
+kesempatan universitas mitra untuk mengirimkan mahasiswanya dalam beberapa
+
+kegiatan internasional yang diselenggarakan Universitas Superindo. Proses tersebut
+
+saat ini masih belum terintegrasi sehingga mahasiswa kerap kesulitan dalam mencari
+
+informasi kesempatan kegiatan internasional tersebut. Oleh karena itu Universitas
+
+Superindo membutuhkan sistem informasi yang dapat memfasilitasi mahasiswa baik
+
+yang berasal dari Universitas Superindo dan universitas luar untuk mengikuti kegiatan
+
+internasional. Sistem tersebut diharapkan mampu memberi kemudahan akses bagi
+
+mahasiswa untuk mendapatkan pengalaman internasional yang dapat menunjang
+
+perkembangan karir di masa depan. Beberapa kebutuhan sistem yang akan
+
+dikembangkan antara lain:
+a. Sistem dapat memfasilitasi pendaftaran program internasional di institusi mitra
+
+bagi mahasiswa Universitas Superindo
+b. Sistem
+dapat
+memfasilitasi
+pendaftaran
+program
+internasional
+yang
+
+diselenggarakan Universitas Superindo bagi mahasiswa/anggota institusi mitra
+c. Sistem dapat menampilkan informasi program internasional yang dapat diikuti
+
+beserta persyaratan dan tenggat waktu pendaftaran
+d. Sistem dapat memfasilitasi proses seleksi kandidat program internasional dan
+
+memberi pengumuman pada mahasiswa yang terpilih
+e. Sistem dapat memberikan panduan persiapan program internasional bagi
+
+mahasiswa yang terpilih
+Setiap ​requirement ​di atas harus dikerjakan secara berurutan. Adapun ​cost dan
+
+benefit​ untuk proyek ini sudah diestimasi untuk 4 tahun kedepan sebagai berikut:
+
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 1100
+$ 1000
+$ 800
+$ 600
+Estimated
+Benefit
+$ 400
+$ 600
+$ 900
+$ 1200
+
+16. Teacher Assessment Information System
+Sebagai Universitas ternama di Indonesia, Universitas Superindo selalu berusaha
+
+untuk mencari cara agar dapat mengoptimalkan performanya. Salah satu caranya
+
+adalah dengan meningkatkan kualitas dari para pengajar di Universitas Superindo.
+
+Mengingat pentingnya peran pengajar, Universitas Superindo ingin melakukan
+
+evaluasi terhadap kualitas dari seluruh dosen yang ada di Universitas Superindo.
+
+Rencananya evaluasi ini akan dilakukan melalui penyebaran survei daring yang akan
+
+diisi oleh seluruh mahasiswa di Universitas Superindo. Mahasiswa dijadikan penilai
+
+karena mahasiswa merupakan pihak yang memiliki interaksi paling sering dengan
+
+para dosen sehingga dianggap dapat memberikan penilaian yang adil dan sesuai.
+
+Maka dari itu, Universitas Superindo membutuhkan sebuah sistem informasi yang
+
+mampu memfasilitasi mahasiswa untuk mengisi survei penilaian dosen. Nantinya
+
+survei ini akan menggunakan skala ​likert ​dari 1-5 untuk memudahkan pengelolaan
+
+informasi. Sistem informasi ini diharapkan dapat memudahkan Universitas Superindo
+
+mengevaluasi
+kualitas
+dosen-dosennya berdasarkan penilaian dari mahasiswa.
+
+Berikut adalah beberapa ​requirements ​dari sistem informasi tersebut:
+a. Sistem dapat menampilkan daftar dosen yang harus diberikan penilaian *
+b. Sistem dapat mengelola isi survei
+c. Sistem dapat menampilkan hasil survei seluruh dosen per semester
+d. Sistem dapat mengelola ​reminder ​untuk mahasiswa terkait pengisian survei
+Pengerjaan ​requirements dari sistem tersebut dilakukan secara berurutan, tetapi
+
+dapat juga dilakukan secara paralel. Adapun ​cost dan ​benefit untuk proyek ini sudah
+
+diestimasi untuk 4 tahun kedepan sebagai berikut:
+
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 1200
+$ 1000
+$ 900
+$ 800
+Estimated
+Benefit
+$ 900
+$ 1000
+$ 1300
+$ 1600
+
+* Daftar dosen yang ditampilkan harus sesuai dengan mata kuliah yang sedang
+
+diambil mahasiswa pengisi survei pada semester yang sedang ditempuh.
+
+17. Tuition Information System
+Salah satu masalah yang dihadapi Universitas Superindo adalah masalah dalam
+
+mengelola pembayaran uang kuliah mahasiswanya. Selama ini Universitas Superindo
+
+menggunakan ​software ​umum yang sepertinya sudah tidak memadai mengingat
+
+jumlah mahasiswanya yang semakin banyak setiap tahunnya. Menanggapi masalah
+
+ini, Universitas Superindo berusaha mencari ​software ​lain yang bisa digunakan
+
+sebagai alternatif. Namun, pencarian yang telah dilakukan tidak membuahkan hasil
+
+karena Universitas Superindo membutuhkan sistem yang cukup rumit. Maka dari itu,
+
+Universitas Superindo ingin membuat sebuah sistem informasi untuk mengelola
+
+pembayaran uang kuliah mahasiswanya. Sistem informasi ini diharapkan dapat
+
+meningkatkan efektifitas dan efisiensi tim keuangan Universitas Superindo dalam
+
+pengelolaan pembayaran uang kuliah.
+Berikut adalah beberapa ​requirements ​dari
+
+sistem informasi tersebut:
+a. Sistem
+dapat
+menampilkan
+daftar
+mahasiswa
+yang
+telah
+melakukan
+
+pembayaran
+b. Sistem
+dapat
+menampilkan
+daftar
+mahasiswa
+yang
+belum
+melakukan
+
+pembayaran
+c. Sistem dapat
+mengelola ​reminder ​untuk mengingatkan mahasiswa yang
+
+belum melakukan pembayaran
+d. Sistem dapat mengelola status pembayaran uang kuliah mahasiswa
+
+Pengerjaan ​requirements dari sistem tersebut dilakukan secara berurutan, tetapi
+
+dapat juga dilakukan secara paralel. Adapun ​cost dan ​benefit untuk proyek ini sudah
+
+diestimasi untuk 4 tahun kedepan sebagai berikut:
+
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 1000
+$ 800
+$ 600
+$ 500
+Estimated
+Benefit
+$ 800
+$ 1000
+$ 950
+$ 1200
+
+18. Student Leave Information System
+Terkadang beberapa mahasiswa Universitas Superindo perlu mengajukan cuti dari
+
+perkuliahan. Universitas Superindo memberikan dua tipe cuti mahasiswa, yaitu cuti 6
+
+bulan (1 semester) atau cuti 1 tahun (2 semester). Jika mahasiswa mengajukan cuti di
+
+tengah semester, maka semester yang sedang ditempuh dianggap belum pernah
+
+diambil
+dan
+harus
+diulang.
+Selama
+ini,
+Universitas
+Superindo
+menggunakan
+
+pencatatan manual untuk mendata mahasiswa yang mengajukan cuti. Namun,
+
+dikarenakan pandemi yang sedang terjadi, permohonan cuti menjadi meningkat dan
+
+kemahasiswaan Universitas Superindo mulai kewalahan mengelola permohonan cuti
+
+tersebut. Oleh karena itu, Universitas Superindo membutuhkan sistem informasi yang
+
+dapat mengelola permohonan cuti mahasiswa. Sistem informasi ini diharapkan dapat
+
+membantu kemahasiswaan Universitas Superindo dalam pengelolaan cuti mahasiswa.
+
+Berikut adalah beberapa ​requirements ​dari sistem informasi tersebut:
+a. Sistem dapat menampilkan ​form ​pengajuan cuti
+b. Sistem dapat mengelola permohonan cuti yang diajukan mahasiswa
+c. Sistem dapat mengelola status permohonan cuti mahasiswa
+d. Sistem dapat menampilkan daftar mahasiswa yang mengajukan cuti
+
+Setiap ​requirement ​di atas harus dikerjakan secara berurutan. Adapun ​cost dan
+
+benefit​ untuk proyek ini sudah diestimasi untuk 4 tahun kedepan sebagai berikut:
+
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 1300
+$ 1000
+$ 900
+$ 700
+Estimated
+Benefit
+$ 1000
+$ 1100
+$ 1300
+$ 1400
+
+19. Attendance System
+Sistem absensi Universitas Superindo saat ini menggunakan sistem absensi secara
+
+fisik dan juga elektronik. Penggunaan kedua sistem absensi ini nantinya akan
+
+dilakukan sinkronisasi antara fisik dan elektronik. Dalam proses sinkronisasi seringkali
+
+terjadi
+kesalahan
+pencatatan
+absensi
+mahasiswa.
+Hal
+ini
+diakibatkan karena
+
+mahasiswa seringkali melakukan absensi secara fisik namun tidak melakukan absensi
+
+secara elektronik. Perbedaan absensi yang tercatat, mengakibatkan mahasiswa
+
+dianggap tidak menghadiri kelas dan absensi tidak terhitung. Tidak terhitungnya
+
+absensi mahasiswa mengakibatkan tingginya jumlah komplain mahasiswa kepada
+
+sekretariat.
+Hal
+tersebut
+diperpanjang
+dengan
+banyaknya
+mahasiswa
+yang
+
+melakukan komplain ketika data absensi sudah berakhir dimasukan ke dalam sistem.
+
+Banyaknya
+komplain
+yang
+dilakukan
+mengakibatkan
+beban
+kerja
+sekretariat
+
+bertambah, sehingga kepala sekretariat mengajukan pengembangan Attendance
+
+System untuk mengakomodasi absensi secara adil dan efisien. Adapun kebutuhan
+
+yang diakomodir oleh sistem adalah sebagai berikut:
+a. Sistem dapat mengelola absensi mahasiswa
+b. Sistem dapat menampilkan ringkasan absensi mahasiswa
+c. Sistem dapat memproses komplain mahasiswa
+d. Sistem dapat menampilkan status pengajuan komplain mahasiswa
+Adapun kebutuhan diatas dapat dilakukan secara paralel ataupun berurutan. Untuk
+
+kebutuhan a dan b harus dilakukan secara berurutan begitupun untuk kebutuhan c
+
+dan d. Namun kebutuhan a dan b dengan c dan d dapat dilakukan secara paralel.
+
+Berikut adalah estimasi ​cost​ dan ​benefit ​untuk proyek selama 4 tahun:
+
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 800
+$ 600
+$ 600
+$ 600
+Estimated
+Benefit
+$ 600
+$ 850
+$ 1500
+$ 1500
+
+20. Exam Supervisor Registration System
+Universitas
+Superindo
+menjunjung
+tinggi
+nilai
+keadilan
+dan
+kejujuran
+dalam
+
+melaksanakan ujian. Sebagai salah satu universitas yang terbuka, Universitas
+
+Superindo memberikan kesempatan kepada mahasiswa untuk mengawasi jalannya
+
+ujian secara adil, lancar dan jujur. Mahasiswa diberikan kebebasan untuk mendaftar
+
+secara langsung. Saat ini, Universitas Superindo memanfaatkan penggunaan platform
+
+formulir gratis berupa google form. Saat ini penggunaan google form dapat mengatasi
+
+sistematika
+pendaftaran
+pengawas,
+namun
+pihak
+penanggung
+jawab
+harus
+
+melakukan konfirmasi ulang terkait status penerimaan serta ruang ujian kepada calon
+
+pengawas. Untuk meminimalisir proses bisnis yang dilakukan penanggung jawab
+
+ujian, perusahaan berinisiatif untuk mengintegrasikan seluruh proses bisnis dalam
+
+Exam Supervisor Registration System. Beberapa kebutuhan yang diakomodasikan
+
+oleh sistem diantaranya:
+a. Sistem dapat mengelola pendaftaran pengawas
+b. Sistem dapat menyimpan identifikasi pengawas
+c. Sistem dapat mengelola alokasi ruang ujian
+d. Sistem dapat mengelola status penerimaan pengawas
+Adapun kebutuhan dari sistem nantinya harus dikerjakan secara berurutan. Adapun
+
+estimasi ​cost​ dan ​benefit​ dari proyek ini selama 4 tahun adalah sebagai berikut:
+
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 500
+$ 450
+$ 450
+$ 400
+Estimated
+Benefit
+$ 400
+$ 600
+$ 700
+$ 700
+
+21. Student Registration System
+Sebagai universitas yang memiliki daya tarik tinggi, jumlah calon mahasiswa di
+
+Universitas Superindo mencapai 30.000. Tingginya jumlah pendaftar membuat
+
+Universitas Superindo kesusahan dalam memberikan layanan pendaftaran yang
+
+mudah dan cepat. Saat ini pendaftaran mahasiswa di Universitas Superindo dilakukan
+
+melalui ​website ​universitas. Setelah melakukan pendaftaran secara online, calon
+
+mahasiswa harus melakukan pembayaran yang dapat dilakukan secara ​online
+
+maupun ​offline​. Kemudian mahasiswa diharuskan menyerahkan data pendaftaran dan
+
+bukti pembayaran secara langsung melalui humas Universitas Superindo untuk
+
+kemudian diberikan formulir pendaftaran beserta informasi tempat dan tanggal ujian.
+
+Penyerahan data pendaftaran dan bukti pembayaran memakan waktu yang lama. Tak
+
+jarang calon mahasiswa menyelesaikan pendaftaran dalam satu hari. Tak hanya
+
+menyulitkan mahasiswa, proses tersebut juga memberikan beban yang banyak
+
+kepada pihak Universitas Superindo. Melihat keadaan tersebut, Rektor Universitas
+
+Superindo memberikan perintah kepada bagian penerimaan untuk mengembangkan
+
+Student Registration System. Adapun kebutuhan yang diakomodasi oleh sistem
+
+adalah sebagai berikut:
+a. Sistem dapat mengelola pendaftaran mahasiswa
+b. Sistem dapat memproses data pembayaran
+c. Sistem dapat menampilkan informasi terkait pendaftaran Universitas Superindo
+d. Sistem dapat mengelola status pendaftaran mahasiswa termasuk informasi
+
+ujian.
+Kebutuhan sistem yang diusulkan di atas harus dilakukan secara berurutan kecuali
+
+kebutuhan c. Kebutuhan c dapat dilakukan secara paralel dengan kebutuhan lainnya.
+
+Adapun estimasi ​cost ​dan ​benefit​ proyek selama 4 tahun adalah sebagai berikut
+
+Tahun 1
+Tahun 2
+Tahun 3
+Tahun 4
+Estimated Cost
+$ 2000
+$ 1600
+$ 1600
+$ 1600
+Estimated
+Benefit
+$ 2200
+$ 3000
+$ 3200
+$ 3800

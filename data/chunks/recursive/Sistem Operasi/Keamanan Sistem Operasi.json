@@ -1,0 +1,53 @@
+{
+  "filename": "Keamanan Sistem Operasi.txt",
+  "matkul": "Sistem Operasi",
+  "teknik": "recursive",
+  "total_chunks": 9,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 972,
+      "text": "12/15/2019\n1\nKEAMANAN SISTEM OPERASI\nDiskusi Kelompok\nDiskusikan dengan\nkelompok anda,\nmasalah-masalah yang\nmuncul akibat lemahnya\nsistem operasi dan\ncontoh kasusnya\nminimal 2 contoh kasus\nAnalisis kira-kira apa\npenyebabnya dan\nbagaimana\npencegahannya\n12/15/2019\n2\nKeamanan Sistem\nKeamanan pada system operasi merupakan\nkebutuhan yang sangat utama dan penting\nKeamanan pada system operasi merupakan\nkebutuhan yang sangat utama dan penting\nJika sebuah system operasi tidak\ndilengkapi dengan keamanan yang bagus\nakan selalu mendapat serangan dari\nvirus, spam, worm, dan lain-lain.\nJika sebuah system operasi tidak\ndilengkapi dengan keamanan yang bagus\nakan selalu mendapat serangan dari\nvirus, spam, worm, dan lain-lain.\nKeamanan Sistem\nPokok masalah keamanan sistem salah\nsatunya disebabkan karena sistem time\nsharing dan akses jarak jauh, apalagi\ndengan meningkatnya perkembangan\njaringan komputer.\nPokok masalah keamanan sistem salah\nsatunya disebabkan karena sistem time"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 977,
+      "text": "sharing dan akses jarak jauh, apalagi\ndengan meningkatnya perkembangan\njaringan komputer.\nKeamanan sistem komputer adalah untuk\nmenjamin sumber daya sistem tidak\ndigunakan / dimodifikasi, diinterupsi dan\ndiganggu oleh orang yang tidak\ndiotorisasi.\nKeamanan sistem komputer adalah untuk\nmenjamin sumber daya sistem tidak\ndigunakan / dimodifikasi, diinterupsi dan\ndiganggu oleh orang yang tidak\ndiotorisasi.\n12/15/2019\n3\nKeamanan Sistem\nyaitu:\nPengamanan termasuk masalah teknis, manajerial\ndan legalitas. Keamanan sistem terbagi menjadi 3,\nyaitu:\nbencana alam, dll.\nKeamanan eksternal, berkaitan dengan\npengamanan fasilitas computer dari penyusup,\nbencana alam, dll.\n1\ndan data.\nKeamanan interface pemakai, berkaitan dengan\nidentifikasi pemakai sebelum mengakses program\ndan data.\n2\nprogram & data.\nKeamanan internal, berkaitan dengan pengaman\nberagam kendali yang dibangun pada perangkat\nkeras & sistem operasi untuk menjaga integritas\nprogram & data.\n3\nMasalah Keamanan Sistem"
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 986,
+      "text": "Pada keamanan, terdapat 2 masalah\npenting, yaitu :\nKehilangan data / data loss\n1\nPenyusup / intruder\n2\n12/15/2019\n4\nMasalah Keamanan Sistem\n1. Kehilangan data dapat disebabkan\noleh:\nBencana, contohnya kebakaran, banjir, gempa\nbumi, perang, kerusuhan, tikus, dll.\nKesalahan perangkat keras dan perangkat lunak,\ncontohnya ketidak berfungsinya pemroses, disk /\ntape yang tidak terbaca, kesalahan komunikasi,\nkesalahan program / bugs.\nKesalahan / kelalaian manusia, contohnya\nkesalahan pemasukkan data, memasang tape /\ndisk yang salah, kehilangan disk / tape.\nMasalah Keamanan Sistem\n2. Penyusup / intruder\nPenyusup pasif, yaitu yang membaca data yang\ntidak terotorisasi\nPenyusup aktif, yaitu mengubah data yang tidak\nterotorisasi.\nContohnya penyadapan oleh orang dalam, usaha\nhacker dalam mencari uang, spionase militer /\nbisnis, lirikan pada saat pengetikan password.\nSasaran keamanan adalah menghindari,\nmencegah dan mengatasi ancaman terhadap\nsistem\nSasaran keamanan adalah menghindari,"
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 999,
+      "text": "mencegah dan mengatasi ancaman terhadap\nsistem\n12/15/2019\n5\n3 Aspek Kebutuhan Keamanan Sistem\n3 aspek kebutuhan keamanan sistem komputer,\nyaitu :\nKerahasiaan / secrecy, diantaranya privasi\nKeterjaminan bahwa informasi di sistem komputer hanya\ndapat diakses oleh pihak-pihak yang terotorisasi dan\nmodifikasi tetap menjaga konsistensi dan keutuhan data di\nsistem\nIntegritas / integrity\nKeterjaminan bahwa sumber daya sistem komputer hanya\ndapat dimodifikasi oleh pihak-pihak yang terotorisasi\nKetersediaan / availability\nKeterjaminan bahwa sumber daya sistem komputer\ntersedia bagi pihak-pihak yang diotorisasi saat diperlukan\nAncaman Terhadap Sistem Komputer\nTipe ancaman terhadap keamanan sistem komputer\ndapat dimodelkan dengan memandang fungsi sistem\nkomputeer sebagai penyedia informasi.\nSumber\ninformasi\nSumber\ninformasi\nTujuan\ninformasi\nTujuan\ninformasi\nAliran normal\n12/15/2019\n6\nAncaman Terhadap Sistem Komputer\nBerdasarkan fungsi ini, ancaman terhadap\nsistem komputer dikategorikan menjadi 4"
+    },
+    {
+      "index": 5,
+      "panjang_karakter": 967,
+      "text": "ancaman, yaitu :\nInterupsi / interuption\nIntersepsi / interception\nModifikasi / modification\nFabrikasi / fabrication\nAncaman Terhadap Sistem Komputer\nInterupsi / interuption\nSumber daya sistem komputer dihancurkan /\nmenjadi tak tersedia / tak berguna. Merupakan\nancaman terhadap ketersediaan. Contohnya\npenghancuran harddisk, pemotongan kabel\nkomunikasi.\nSumber\ninformasi\nSumber\ninformasi\nTujuan\ninformasi\nTujuan\ninformasi\nInterupsi\n12/15/2019\n7\nAncaman Terhadap Sistem Komputer\nIntersepsi / interception\nPihak tak diotorisasi dapat mengakses sumber daya.\nMerupakan ancaman terhadap kerahasiaan. Pihak tak\ndiotorissasi dapat berupa orang / program\nkomputeer. Contohnya penyadapan, mengcopy file\ntanpa diotorisasi.\nAncaman Terhadap Sistem Komputer\nModifikasi / modification\nPihak tak diotorisasi tidak hanya mengakses tapi juga\nmerusak sumber daya. Merupakan ancaman\nterhadap integritas. Contohnya mengubah nilai file,\nmengubah program, memodifikasi pesan\n12/15/2019\n8"
+    },
+    {
+      "index": 6,
+      "panjang_karakter": 992,
+      "text": "Ancaman Terhadap Sistem Komputer\nFabrikasi / fabrication\nPihak tak diotorisasi menyisipkan / memasukkan\nobjek-objek palsu ke sistem. Merupakan ancaman\nterhadap integritas. Contohnya memasukkan pesan\npalsu ke jaringan, menambah record file.\n12/15/2019\n9\nOtentifikasi\nOtentifikasi pemakai / user authentification\nadalah identifikasi pemakai ketika login.\n3 cara otentifikasi :\nSesuatu yang diketahui pemakai\n1\nSesuatu yang dimiliki pemakai\n2\nSesuatu mengenai / merupakan ciri\n3\nOtentifikasi\nSesuatu yang diketahui pemakai\nSesuatu yang diketahui pemakai, misalnya password,\nkombinasi kunci, nama kecil ibu mertua, dll\nUntuk password, pemakai memilih suatu kata kode,\nmengingatnya dan menggetikkannya saat akan\nmengakses sistem komputer, saat diketikkan tidak\nakan terlihat dilayar kecuali misalnya tanda *.\nTetapi banyak kelemahan dan mudah ditembus\nkarena pemakai cenderung memilih password yang\nmudah diingat, misalnya nama kecil, nama\npanggilan, tanggal lahir, dll.\n12/15/2019\n10\nOtentifikasi"
+    },
+    {
+      "index": 7,
+      "panjang_karakter": 990,
+      "text": "Upaya pengamanan proteksi password :\nSalting, menambahkan string pendek ke string password\nyang diberikan pemakai sehingga mencapai panjang\npassword tertentu\none time password, pemakai harus mengganti password\nsecara teratur, misalnya pemakai mendapat 1 buku daftar\npassword. Setiap kali login pemakai menggunakan\npassword berikutnya yang terdapat pada daftar\npassword.\nsatu daftar panjang pertanyan dan jawaban, sehingga\npada saat login, komputer memilih salah satu dari\npertanyaan secara acak, menanyakan ke pemakai dan\nmemeriksa jawaban yang diberikan.\nOtentifikasi\nSesuatu yang dimiliki pemakai, misalnya bagde,\nkartu identitas, kunci, barcode KTM, ATM.\nSesuatu mengenai / merupakan ciri pemakai yang di\nsebut biometrik, misalnya sidik jari, sidik suara, foto,\ntanda tangan, dll\n12/15/2019\n11\nOtentifikasi\nUntuk memperkecil peluang penembusan\nkeamanan sistem komputer harus diberikan\npembatasan, misalnya :\nPembatasan login, misalnya pada terminal tertentu, pada\nwaktu dan hari tertentu"
+    },
+    {
+      "index": 8,
+      "panjang_karakter": 999,
+      "text": "Pembatasan dengan call back, yaitu login dapat\ndilakukan oleh siapapun, bila telah sukses, sistem\nmemutuskan koneksi dan memanggil nomor telepon\nyang disepakati. Penyusup tidak dapat menghibungu\nlewat sembarang saluran telepon, tapi hanya pada saluran\ntetepon tertentu.\nPembatasan jumlah usaha login, misalnya dibatasi\nsampai 3 kali, dan segera dikunci dan diberitahukan ke\nadministrator.\nProgram Jahat\nBacteria\nMereplikasi dirinya sendiri dengan tujuan mengkonsumsi sumber\ndaya sistem\nLogic bomb\nMemeriksa kondisi di sistem, setelah terpenuhi akan melakukan aksi\nyang tidak diotorisasi\nTrojan horse\nSubprogram/kode tersembunyi yang ditempelkan pada suatu\nprogram biasa. Bila dijalankan melakukan suatu fungsi yang tidak\ndiinginkan.\nVirus\nKode yang menempel pada suatu program yang jika dijalankan akan\nmereplikasi dirinya dan menginfeksi program/file lain\nWorm\nMereplikasi dirinya sendiri (tanpa harus dijalankan) dan menyebar ke\nkomputer lain melalui jaringan dan menjalankan fungsi yang tidak\ndii"
+    },
+    {
+      "index": 9,
+      "panjang_karakter": 715,
+      "text": "i k\n12/15/2019\n12\nTipe Virus\nParasitic virus\nMenempel ke file exe. Virus akan aktif dan mereplikasi\ndirinya ketika file exe yang terinfeksi dijalankan\nMemory resident virus\nMemuatkan diri ke memori utama sebagai bagian program\nyang menetap, menginfeksi semua program yang\ndijalankan\nBoot sector virus\nBerada di boot sector sebuah disk dan menyebar saat boot\ndari disk tersebut\nStealth virus\nDirancang agar tidak terdeteksi antivirus\nPolymorphic virus\nBermutasi setiap melakukan infeksi\nAnti virus\nPencegahan\nMencegah masuknya virus\nDeteksi\nDeteksi bahwa infeksi terjadi dan lokasi virus\nIdentifikasi\nMengetahui jenis virus\nPenghilangan\nHilangkan virus dan semua jejaknya\nRecovery\nPengembalian program seperti semula"
+    }
+  ]
+}

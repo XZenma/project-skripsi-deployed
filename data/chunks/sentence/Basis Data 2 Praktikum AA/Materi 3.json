@@ -1,0 +1,18 @@
+{
+  "filename": "Materi 3.txt",
+  "matkul": "Basis Data 2 Praktikum AA",
+  "teknik": "sentence",
+  "total_chunks": 2,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 484,
+      "text": "LOGIKA PEMROGRAMAN\nANALISA KASUS\nANALISA KASUS\nISB-212 Basis Data 2 (P)\nModul Hari Ini\nMemahami penggunaan kalimat IF.\nMemahami penggunaan kalimat IF...ELSE.\nMemahami penggunaan IF...ELSE Bersarang (Nested).\nPenerapan logika dalam Stored Procedure.\nPengenalan kalimat IF\nApa itu IF?\n\nPernyataan aliran kontrol yang memungkinkan eksekusi\natau melewati blok pernyataan berdasarkan kondisi tertentu.\nCara Kerja:\nJika ekspresi Boolean bernilai true, maka blok statement di dalam\nBEGIN ..."
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 965,
+      "text": "Pernyataan aliran kontrol yang memungkinkan eksekusi\natau melewati blok pernyataan berdasarkan kondisi tertentu.\nCara Kerja:\nJika ekspresi Boolean bernilai true, maka blok statement di dalam\nBEGIN ...\n\nEND akan dijalankan.\nJika tidak (false), blok tersebut akan dilewati dan kontrol program\nditeruskan setelah kata kunci END.\nCatatan Penting: Jika ekspresi Boolean menggunakan pernyataan\nSELECT, pernyataan tersebut harus diapit dalam tanda kurung.\nSintaks Dasar\nContoh Implementasi\nFungsi ELSE: Digunakan ketika kondisi di klausa IF mengevaluasi ke\nFALSE dan kita ingin mengeksekusi blok pernyataan lain.\nKalimat IF...ELSE\nCara Kerja:\nJika kondisi bernilai TRUE, maka blok pernyataan di klausa IF yang dijalankan.\nJika kondisinya SALAH (FALSE), maka blok kode pada klausa ELSE yang\ndijalankan.\nIF...ELSE Bersarang (Nested)\nKonsep: SQL Server memungkinkan kita untuk menumpuk pernyataan IF ...\n\nELSE di\ndalam pernyataan IF ...\n\nELSE lainnya.\nTHANK YOU\nAny Question?"
+    }
+  ]
+}

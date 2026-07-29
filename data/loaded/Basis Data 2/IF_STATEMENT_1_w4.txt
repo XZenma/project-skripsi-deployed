@@ -1,0 +1,152 @@
+Introduction to IF STATEMENT
+ISA 212 basisdata 2 
+week 4
+Mira Musrini Barmawi
+Introduction
+In real life, we make decisions based on the conditions. For example, 
+look at the following conditions.
+If I get a performance bonus this year, I will go for international 
+vacation or else I’ll take a domestic vacation
+If the weather becomes good, I will plan to go on a bike trip or else I 
+won’t
+In these examples, we decide as per the conditions. For example, if I get a bonus
+then only I will go for an international vacation else I will go for domestic vacations.
+We need to incorporate these conditions-based decisions in programming logic as
+well. SQL Server provides the capability to execute real-time programming logic
+using SQL IF Statement.
+Syntax
+In the following SQL IF Statement, it evaluates the expression, and if the condition is true, then it 
+executes the statement mentioned in IF block otherwise statements within ELSE clause is executed.
+IF (Expression )
+BEGIN
+-- If the condition is TRUE then execute the following statement
+True Statements;
+END
+ELSE
+BEGIN
+-- If the condition is False then execute the following 
+statement
+False Statements
+END
+FLOW CHART 
+The condition in SQL IF Statement should return a Boolean value to evaluate
+We can specify a Select statement as well in a Boolean expression, but it should 
+enclose in parentheses
+We can use BEGIN and END in the IF Statement to identify a statement block
+The ELSE condition is optional to use
+Example 2: IF Statement with a variable in a 
+Boolean expression
+In the following example, we use a variable in the Boolean expression to execute 
+the statement based on the condition. For example, if a student obtained more 
+than 80% marks, he passes an examination else, he is failed.
+DECLARE @StudentMarks INT= 91;
+IF @StudentMarks >= 80
+PRINT 'Passed, Congratulations!!';
+ELSE
+PRINT 'Failed, Try again ';
+Example 2: IF Statement with a variable in a 
+Boolean expression
+In the following example, we use a variable in the Boolean expression to execute 
+the statement based on the condition. For example, if a student obtained more 
+than 80% marks, he passes an examination else, he is failed.
+DECLARE @StudentMarks INT= 91;
+IF @StudentMarks >= 80
+PRINT 'Passed, Congratulations!!';
+ELSE
+PRINT 'Failed, Try again ';
+Example 2: IF Statement with a variable in a 
+Boolean expression
+Example 3: Multiple IF Statement with a variable in a 
+Boolean expression
+We can specify multiple SQL IF Statements and execute the statement 
+accordingly. Look at the following example
+a. If a student gets more than 90% marks, it should display a message 
+from the first IF statement
+b. If a student gets more than 80% marks, it should display a message 
+from the second IF statement
+c. Otherwise, it should print the message mentioned in ELSE 
+statement
+Example 3: Multiple IF Statement with a variable in a 
+Boolean expression
+DECLARE @StudentMarks INT= 91;
+IF @StudentMarks >= 90
+PRINT 'Congratulations, You are in Merit list!!';
+IF @StudentMarks >= 80
+PRINT 'Congratulations, You are in First division 
+list!!';
+ELSE
+PRINT 'Failed, Try again ';
+Example 3: Multiple IF Statement with a variable in a 
+Boolean expression
+In this example, student marks 91% satisfy the conditions for both SQL 
+IF statements, and it prints a message for both SQL IF statements.
+Example 3: Multiple IF Statement with a variable in a 
+Boolean expression
+We do not want the condition to satisfy both SQL IF statements. We 
+should define the condition appropriately.
+DECLARE @StudentMarks INT= 91;
+IF @StudentMarks >= 90
+PRINT 'Congratulations, You are in Merit list!!';
+IF @StudentMarks >= 80 and @StudentMarks < 90
+PRINT 'Congratulations, You are in First division list!!';
+ELSE
+PRINT 'Failed, Try again ';
+Example 3: Multiple IF Statement with a variable in a 
+Boolean expression
+In the output, we can see the following
+First, IF statement condition is TRUE. It prints the message inside the IF 
+statement block
+Second, IF statement condition is FALSE, it does not print the message 
+inside IF statement block
+It executes the ELSE statement and prints the message for it. In this 
+case, we have two SQL IF statements. The second IF statement 
+evaluates to false, therefore, it executes corresponding ELSE statement
+Example 3: Multiple IF Statement with a variable in a 
+Boolean expression
+Example 4: IF Statement without ELSE statement
+We specified above that Else statement is optional to use. We can use 
+SQL IF statement without ELSE as well.
+In the following, the expression evaluates to TRUE; therefore, it prints 
+the message.
+DECLARE @StudentMarks INT= 95;
+IF @StudentMarks >= 90
+PRINT 'Congratulations, You are in Merit list!!';
+Example 4: IF Statement without ELSE statement
+Example 4: IF Statement without ELSE statement
+if the expression evaluates to FALSE, it does not return any output. We 
+should use ELSE statement so that if an evaluation is not TRUE, we can 
+set default output.
+Example 6: IF with BEGIN and END block
+We can use BEGIN and END statement block in a SQL IF statement. Once a
+condition is satisfied, it executes the code inside the corresponding BEGIN and End
+block.
+DECLARE @StudentMarks INT= 70;
+IF @StudentMarks >= 90
+BEGIN
+PRINT 'Congratulations, You are in Merit list!!';
+END;
+ELSE
+BEGIN
+PRINT 'Failed, Try again ';
+END;
+Example 6: IF with BEGIN and END block
+Example 6: IF with BEGIN and END block
+We can specify multiple statements as well with SQL IF statement and 
+BEGIN END blocks. In the following query, we want to print a message 
+from two print statements once a condition is satisfied.
+Note: We should have an END statement with corresponding BEGIN 
+block.
+Example 6: IF with BEGIN and END block
+DECLARE @StudentMarks INT= 70;
+IF @StudentMarks >= 90
+BEGIN
+PRINT 'Congratulations, You are in Merit list!!';
+Print 'Second statement.'
+END;
+ELSE
+BEGIN
+PRINT 'Failed,Try again ';
+Print 'Second ELSE statement'
+END;
+Example 6: IF with BEGIN and END block
+STORE PROCEDURE WITH IF STATEMENT

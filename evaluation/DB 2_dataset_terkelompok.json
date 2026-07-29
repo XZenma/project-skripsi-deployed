@@ -1,0 +1,1007 @@
+{
+    "Case of while do ISA212 w5.txt": [
+        {
+            "pertanyaan": "Apa fungsi utama pernyataan CASE dalam SQL?",
+            "ground_truth": "Pernyataan CASE dalam SQL berfungsi untuk mengembalikan nilai berdasarkan kondisi yang ditentukan.",
+            "sumber_text": "The case statement in SQL returns a value on a specified condition."
+        },
+        {
+            "pertanyaan": "Di mana saja pernyataan CASE dapat digunakan dalam query SQL?",
+            "ground_truth": "Pernyataan CASE dapat digunakan dalam pernyataan SELECT bersama klausa WHERE, ORDER BY, dan GROUP BY, serta dapat dipakai dalam pernyataan INSERT.",
+            "sumber_text": "We can use a Case statement in select queries along with Where, Order By and Group By clause. It can be used in Insert statement as well."
+        },
+        {
+            "pertanyaan": "Bagaimana sintaks dasar pernyataan CASE sederhana?",
+            "ground_truth": "Sintaks dasarnya adalah:\r\nSELECT CASE Expression\r\nWHEN expression1 THEN Result1\r\nWHEN expression2 THEN Result2\r\n...\r\nELSE Result\r\nEND",
+            "sumber_text": "SELECT CASE Expression When expression1 Then Result1 When expression2 Then Result2 ... ELSE Result END"
+        },
+        {
+            "pertanyaan": "Berikan contoh penggunaan CASE untuk mengubah nilai kolom Gender menjadi 'MALE' atau 'FEMALE'.",
+            "ground_truth": "Contohnya:\r\nSelect EmployeeName,\r\nCASE\r\nWHEN gender ='F' THEN 'FEMALE'\r\nWHEN gender ='M' THEN 'MALE'\r\nELSE 'Unknown Gender'\r\nEND AS gender\r\nfrom Employee",
+            "sumber_text": "Select EmployeeName,\r\nCASE\r\nWHEN gender ='F' THEN 'FEMALE'\r\nWHEN gender ='M' THEN 'MALE'\r\nElse 'Unknown Gender'\r\nEND AS gender\r\nfrom Employee"
+        },
+        {
+            "pertanyaan": "Bagaimana cara menggunakan CASE untuk mengkategorikan Salary menjadi 'Director' atau 'Senior Consultant'?",
+            "ground_truth": "Contohnya:\r\nSelect EmployeeName,\r\nCASE\r\nWHEN Salary >=80000 AND Salary <=100000 THEN 'Director'\r\nWHEN Salary >=50000 AND Salary <80000 THEN 'Senior Consultant'\r\nELSE 'Director'\r\nEND AS Designation\r\nfrom Employee",
+            "sumber_text": "Select EmployeeName,\r\nCASE\r\nWHEN Salary >=80000 AND Salary <=100000 THEN 'Director'\r\nWHEN Salary >=50000 AND Salary <80000 THEN 'Senior\r\nConsultant'\r\nElse 'Director'\r\nEND AS Designation\r\nfrom Employee"
+        },
+        {
+            "pertanyaan": "Apa masalah pada kondisi CASE yang tumpang tindih dan bagaimana cara memperbaikinya?",
+            "ground_truth": "Jika kondisi CASE tumpang tindih, satu nilai dapat memenuhi lebih dari satu WHEN, sehingga urutan evaluasi menjadi penting. Cara yang lebih baik adalah menggunakan operator logika seperti AND, OR, NOT untuk membuat kondisi saling eksklusif.",
+            "sumber_text": "However, in the above script, the conditions are overlapping as. the model with a value greater than 2010 also has a value greater than 2000 and 1990. A better way to implement multiple conditions is to use logical operators like AND, OR, NOT, etc."
+        },
+        {
+            "pertanyaan": "Bagaimana cara menggabungkan CASE dengan GROUP BY untuk menghitung jumlah mobil baru dan lama?",
+            "ground_truth": "Contohnya:\r\nSELECT\r\nCASE WHEN model > 2000 THEN 'New'\r\nELSE 'Old' END AS condition,\r\nCOUNT(1) AS count\r\nFROM Cars\r\nGROUP BY CASE WHEN model > 2000 THEN 'New'\r\nELSE 'Old' END",
+            "sumber_text": "SELECT\r\nCASE WHEN model > 2000 THEN 'New'\r\nELSE 'Old' END AS condition,\r\nCOUNT(1) AS count\r\nFROM Cars\r\nGROUP BY CASE WHEN model > 2000 THEN 'New'\r\nELSE 'Old' END"
+        },
+        {
+            "pertanyaan": "Apa sintaks dasar pernyataan WHILE loop dalam SQL?",
+            "ground_truth": "Sintaks dasarnya adalah:\r\nWHILE condition\r\nBEGIN\r\n{...statements...}\r\nEND",
+            "sumber_text": "WHILE condition\r\nBEGIN\r\n{...statements...}\r\nEND"
+        },
+        {
+            "pertanyaan": "Bagaimana cara menghentikan loop WHILE secara paksa menggunakan pernyataan BREAK?",
+            "ground_truth": "Contohnya:\r\nDECLARE @Counter INT\r\nSET @Counter=1\r\nWHILE ( @Counter <= 10)\r\nBEGIN\r\nPRINT 'The counter value is = ' + CONVERT(VARCHAR,@Counter)\r\nIF @Counter >=7\r\nBEGIN\r\nBREAK\r\nEND\r\nSET @Counter = @Counter + 1\r\nEND",
+            "sumber_text": "DECLARE @Counter INT\r\nSET @Counter=1\r\nWHILE ( @Counter <= 10)\r\nBEGIN\r\nPRINT 'The counter value is = ' + CONVERT(VARCHAR,@Counter)\r\nIF @Counter >=7\r\nBEGIN\r\nBREAK\r\nEND\r\nSET @Counter = @Counter + 1\r\nEND"
+        },
+        {
+            "pertanyaan": "Bagaimana cara melewati iterasi saat ini dalam WHILE loop menggunakan pernyataan CONTINUE?",
+            "ground_truth": "Contohnya:\r\nDECLARE @Counter INT\r\nSET @Counter=1\r\nWHILE ( @Counter <= 20)\r\nBEGIN\r\nIF @Counter % 2 =1\r\nBEGIN\r\nSET @Counter = @Counter + 1\r\nCONTINUE\r\nEND\r\nPRINT 'The counter value is = ' + CONVERT(VARCHAR,@Counter)\r\nSET @Counter = @Counter + 1\r\nEND",
+            "sumber_text": "DECLARE @Counter INT\r\nSET @Counter=1\r\nWHILE ( @Counter <= 20)\r\nBEGIN\r\nIF @Counter % 2 =1\r\nBEGIN\r\nSET @Counter = @Counter + 1\r\nCONTINUE\r\nEND\r\nPRINT 'The counter value is = ' + CONVERT(VARCHAR,@Counter)\r\nSET @Counter = @Counter + 1\r\nEND"
+        }
+    ],
+    "CONSTRAINT IN SQL SERVER 2012.txt": [
+        {
+            "pertanyaan": "Apa yang dimaksud dengan constraint di SQL Server?",
+            "ground_truth": "Constraint di SQL Server adalah aturan dan pembatasan yang telah ditentukan sebelumnya dan diterapkan pada satu kolom atau beberapa kolom, untuk menjaga integritas, akurasi, dan keandalan data pada kolom tersebut.",
+            "sumber_text": "Constraints in SQL Server are predefined rules and restrictions that are enforced in a single column or multiple columns, regarding the values allowed in the columns, to maintain the integrity, accuracy, and reliability of that column's data."
+        },
+        {
+            "pertanyaan": "Sebutkan enam jenis constraint yang umum digunakan di SQL Server.",
+            "ground_truth": "Enam jenis constraint yang umum digunakan adalah NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY, CHECK, dan DEFAULT.",
+            "sumber_text": "These constraints are: SQL NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY, CHECK, DEFAULT."
+        },
+        {
+            "pertanyaan": "Pada contoh tabel ConstraintDemo1, kolom mana yang wajib diisi dan kolom mana yang boleh bernilai NULL?",
+            "ground_truth": "Kolom ID wajib diisi karena diberi constraint NOT NULL, sedangkan kolom Name boleh bernilai NULL.",
+            "sumber_text": "In the ID column definition statement, the SQL NOT NULL column-level constraint is enforced, considering the ID column as a mandatory column that should be provided with a valid SQL NOT NULL value. The case is different for the Name column that can be ignored in the INSERT statement, with the ability to provide it with NULL value."
+        },
+        {
+            "pertanyaan": "Mengapa perintah ALTER TABLE untuk mengubah kolom Name menjadi NOT NULL pada tabel ConstraintDemo1 gagal?",
+            "ground_truth": "Perintah tersebut gagal karena SQL Server memeriksa nilai NULL yang sudah ada pada kolom Name terlebih dahulu sebelum membuat constraint.",
+            "sumber_text": "You will see that the command will fail, as it will check the existing values of the Name column for NULL values first before creating the constraint."
+        },
+        {
+            "pertanyaan": "Bagaimana cara mengatasi nilai NULL pada kolom Name sehingga constraint NOT NULL dapat diterapkan?",
+            "ground_truth": "Dengan memperbarui semua nilai NULL pada kolom Name menjadi string kosong menggunakan pernyataan UPDATE.",
+            "sumber_text": "To enforce the NOT NULL Constraints in SQL, we should remove all NULL values of the Name column from the table, using the UPDATE statement below, that replaces the NULL values with empty string."
+        },
+        {
+            "pertanyaan": "Apa yang terjadi jika mencoba memasukkan nilai duplikat pada kolom ID yang memiliki constraint UNIQUE pada tabel ConstraintDemo2?",
+            "ground_truth": "Pernyataan INSERT akan gagal karena kolom ID tidak mengizinkan nilai duplikat yang sudah ada.",
+            "sumber_text": "The last INSERT statement will fail, as the ID column doesn't allow duplicate values and the provided ID value is already inserted to that column."
+        },
+        {
+            "pertanyaan": "Apa perbedaan utama antara constraint PRIMARY KEY dan UNIQUE?",
+            "ground_truth": "PRIMARY KEY menggabungkan constraint UNIQUE dan NOT NULL, hanya dapat ada satu per tabel, dan tidak mengizinkan nilai NULL; sedangkan UNIQUE dapat dibuat lebih dari satu per tabel, mengizinkan satu nilai NULL, dan tidak secara otomatis menambahkan NOT NULL.",
+            "sumber_text": "PRIMARY KEY constraint differs from the UNIQUE constraint in that; you can create multiple UNIQUE constraints in a table, with the ability to define only one SQL PRIMARY KEY per each table. Another difference is that the UNIQUE constraint allows for one NULL value, but the PRIMARY KEY does not allow NULL values."
+        },
+        {
+            "pertanyaan": "Pada contoh tabel ConstraintDemoChild, mengapa insert dengan ID = 4 gagal?",
+            "ground_truth": "Insert gagal karena nilai ID = 4 tidak ada di tabel induk ConstraintDemoParent, sehingga melanggar constraint FOREIGN KEY.",
+            "sumber_text": "Trying to insert the second record into the child table will fail because the ID value of 4 doesn't exist in the parent table, and due to the FOREIGN KEY constraint, you will not be able to insert an ID value to the child table that doesn't exist in the parent table."
+        },
+        {
+            "pertanyaan": "Apa fungsi dari CHECK constraint pada kolom Salary di tabel ConstraintDemo4?",
+            "ground_truth": "CHECK constraint memastikan bahwa nilai Salary yang dimasukkan harus lebih besar dari 0; jika tidak, operasi INSERT akan dibatalkan.",
+            "sumber_text": "The CHECK constraint comes into action to evaluate the inserted or modified values, where the value that satisfies the condition will be inserted into the table, otherwise, the insert operation will be discarded."
+        },
+        {
+            "pertanyaan": "Bagaimana cara menambahkan nilai default pada kolom EmployeeDate di tabel ConstraintDemo5?",
+            "ground_truth": "Dengan mendefinisikan DEFAULT constraint pada kolom EmployeeDate, misalnya DEFAULT GETDATE(), sehingga jika tidak ada nilai yang diberikan pada INSERT, nilai tanggal dan waktu saat itu akan otomatis terisi.",
+            "sumber_text": "A DEFAULT constraint is used to provide a default column value for the inserted rows if no value is specified for that column in the INSERT statement."
+        }
+    ],
+    "FORMAT LAPORAN UJIAN AKHIR ISB201 BASISDATA1.txt": [
+        {
+            "pertanyaan": "Siapa dosen pengampu mata kuliah Basisdata 2 pada laporan UAS?",
+            "ground_truth": "Mira Musrini Barmawi",
+            "sumber_text": "Dosen : Mira Musrini Barmawi"
+        },
+        {
+            "pertanyaan": "Pada semester berapa laporan UAS ini disusun?",
+            "ground_truth": "Semester Genap 2022-2023",
+            "sumber_text": "SEMESTER GENAP 2022-2023"
+        },
+        {
+            "pertanyaan": "Berapa jumlah query lanjutan (advanced query) yang harus disertakan dalam bab implementasi?",
+            "ground_truth": "Dua buah query advanced yang melibatkan minimal tiga tabel",
+            "sumber_text": "Advanced Query : 2 buah query advanced yang melibatkan minimal 3 tabel ."
+        },
+        {
+            "pertanyaan": "Apa saja komponen yang harus ada dalam Bab IV Analisis?",
+            "ground_truth": "Identifikasi entitas atribut dan Identifikasi relasi",
+            "sumber_text": "Identifikasi entitas atribut\r\nIdentifikasi relasi"
+        },
+        {
+            "pertanyaan": "Sebutkan dua jenis diagram yang harus disertakan dalam Bab V Desain beserta penjelasannya.",
+            "ground_truth": "Diagram Chen dan Diagram Crowfoot, masing‑masing beserta penjelasannya",
+            "sumber_text": "5.1 Diagram Chen ( beserta dengan penjelasannya)\r\n5.2 Diagram Crowfoot ( beserta dengan penjelasannya)"
+        },
+        {
+            "pertanyaan": "Apa yang harus disertakan dalam bagian Batch programming?",
+            "ground_truth": "Satu batch dengan kalimat IF (kompleks) dan satu batch dengan kalimat pengulangan, dapat berupa nested loop atau loop biasa",
+            "sumber_text": "5.3.1 satu batch dengan kalimat IF ( kompleks)\r\n5.3.2 Satu batch dengan kalimat pengulangan , bisa dengan nested loop, atau loop biasa"
+        },
+        {
+            "pertanyaan": "Berapa jumlah store procedure yang harus dibuat tanpa input dan output?",
+            "ground_truth": "Dua buah store procedure tanpa input output",
+            "sumber_text": "5.4.1 dua buah store procedure tanpa input output"
+        },
+        {
+            "pertanyaan": "Sebutkan tiga tipe fungsi yang harus dibuat beserta jumlah masing‑masing.",
+            "ground_truth": "Dua fungsi scalar, dua fungsi inline table, dan dua fungsi multistatement table",
+            "sumber_text": "5.5.1 dua buah fungsi bernilai scalar ( scalar user defined function)\r\n5.5.2 dua buah fungsi inline table ( Inline table Valued Function = ITVF)\r\n5.5.3 dua buah fungsi multistatement table ( MSTVF)"
+        },
+        {
+            "pertanyaan": "Apa saja jenis trigger yang harus dibuat dalam laporan?",
+            "ground_truth": "Satu query yang melibatkan output clause, inserted table, dan deleted table; satu trigger untuk insert; satu trigger untuk update; dan satu trigger untuk delete",
+            "sumber_text": "5.6.1 satu buah query yang melibatkan output clause , inserted table dan deleted table\r\n5.6.2 satu buah trigger for insert\r\n5.6.3 satu buah trigger for update\r\n5.6.4 satu buah trigger for delete"
+        },
+        {
+            "pertanyaan": "Apa yang harus ada dalam bagian VIEW?",
+            "ground_truth": "Satu view yang berisi advanced query dan satu view yang dienkripsi",
+            "sumber_text": "5.7.1 satu buah view berisi advanced query\r\n5.7.2 satu buah view yang dienkripsi"
+        }
+    ],
+    "Fungsi bernilai tabel.txt": [
+        {
+            "pertanyaan": "Apa saja jenis fungsi bernilai tabel yang ada di SQL Server 2012?",
+            "ground_truth": "Ada dua jenis fungsi bernilai tabel, yaitu Inline Table Valued Function dan Multi Statement Table Valued Function.",
+            "sumber_text": "Fungsi bernilai tabel dalam SQL server 2012 ada dua jenis , yaitu : a. Inline table valued function b. Multi Statement Tabled Valued Function"
+        },
+        {
+            "pertanyaan": "Apa perbedaan utama antara Inline Table Valued Function (ITVF) dan Multi Statement Table Valued Function (MSTVF)?",
+            "ground_truth": "ITVF tidak memiliki blok BEGIN...END, tidak dapat menggunakan pernyataan IF atau loop, dan penulisannya mirip view. Sedangkan MSTVF memiliki blok BEGIN...END, dapat mendeklarasikan variabel, menggunakan pernyataan IF, WHILE, serta mengembalikan variable table.",
+            "sumber_text": "Fungsi ini mengembalikan nilai dalam bentuk tabel. Cara penulisan fungsi mirip dengan View. Tidak ada blok begin...end. Pada fungsi ini tidak dapat dibuat program seperti kalimat IF dan kalimat pengulangan. | Fungsi ini mengembalikan nilai dalam bentuk tabel . Perbedaannya dengan ITVF adalah , pada MSTVF , dapat dideklarasikan variabel , dibuat logika program seperti kalimat IF dan kalimat pengulangan ( While ..do) ... Pada MSTVF selalu ada blok begin end, dan tipe data yang dikembalikan berupa variable table ."
+        },
+        {
+            "pertanyaan": "Di mana variabel tabel disimpan secara fisik?",
+            "ground_truth": "Variabel tabel disimpan dalam database tempdb.",
+            "sumber_text": "Jawaban atas pertanyaan ini adalah - variabel tabel disimpan dalam database tempdb."
+        },
+        {
+            "pertanyaan": "Bagaimana cara mendeklarasikan variabel tabel?",
+            "ground_truth": "Variabel tabel dideklarasikan dengan sintaks: DECLARE @namaVariabel TABLE (kolom1 TipeData, kolom2 TipeData, ...).",
+            "sumber_text": "DECLARE @LOCAL_TABLEVARIABLE TABLE (column_1 DATATYPE, column_2 DATATYPE, column_N DATATYPE )"
+        },
+        {
+            "pertanyaan": "Berikan contoh sederhana pembuatan Inline Table Valued Function yang mengembalikan semua baris dari tabel customers.",
+            "ground_truth": "CREATE FUNCTION dbo.fn_daftar_konsumen() RETURNS TABLE AS RETURN (SELECT * FROM customers);",
+            "sumber_text": "CREATE FUNCTION dbo.fn_daftar_konsumen() RETURNS TABLE AS RETURN (SELECT * from customers)"
+        },
+        {
+            "pertanyaan": "Berikan contoh pembuatan Multi Statement Table Valued Function yang mengembalikan nama dan alamat pelanggan.",
+            "ground_truth": "CREATE FUNCTION dbo.fn_contacts() RETURNS @contacts TABLE (customer_name VARCHAR(40), customer_address VARCHAR(40)) AS BEGIN INSERT INTO @contacts SELECT Custumer_name, Customer_address FROM customers; RETURN; END;",
+            "sumber_text": "CREATE FUNCTION dbo.fn_contacts() RETURNS @contacts TABLE ( customer_name VARCHAR(40), customer_address VARCHAR(40) ) AS BEGIN INSERT INTO @contacts SELECT Custumer_name, Customer_address FROM customers; RETURN; END;"
+        },
+        {
+            "pertanyaan": "Apa keuntungan menggunakan solusi dengan variable table dibandingkan menggunakan view untuk menghitung subtotal dan grand total?",
+            "ground_truth": "Solusi dengan variable table dapat dilakukan dalam satu batch, tidak memerlukan objek permanen, dan variable table bersifat sementara hanya selama batch dijalankan.",
+            "sumber_text": "Solusi 2 bisa dilakukan dalam 1 batch . Table variable adalah tabel sementara yang umurnya hanya sepanjang batch dijalankan."
+        },
+        {
+            "pertanyaan": "Dalam contoh solusi 2, apa nama variable table yang digunakan untuk menyimpan data invoice?",
+            "ground_truth": "Nama variable table yang digunakan adalah @invoice.",
+            "sumber_text": "DECLARE @invoice TABLE"
+        },
+        {
+            "pertanyaan": "Apa yang diminta pada kuis bagian a terkait fungsi bernilai skalar?",
+            "ground_truth": "Diminta dibuat fungsi bernilai skalar yang menghasilkan tanggal lahir paling akhir dari data mahasiswa.",
+            "sumber_text": "a. Buatlah fungsi bernilai sKalar, yang menghasilkan tanggal lahir paling akhir ."
+        },
+        {
+            "pertanyaan": "Apa definisi variabel tabel dalam konteks SQL Server?",
+            "ground_truth": "Variabel tabel adalah tipe khusus dari variabel lokal yang membantu menyimpan data sementara, mirip dengan tabel temporary di SQL Server.",
+            "sumber_text": "Variabel tabel adalah tipe khusus dari variabel lokal yang membantu menyimpan data sementara, mirip dengan tabel temp di SQL Server."
+        }
+    ],
+    "IF_STATEMENT_1_w4.txt": [
+        {
+            "pertanyaan": "Apa fungsi pernyataan IF dalam SQL Server?",
+            "ground_truth": "Pernyataan IF digunakan untuk mengeksekusi logika pemrograman berbasis kondisi secara real‑time di SQL Server.",
+            "sumber_text": "SQL Server provides the capability to execute real-time programming logic using SQL IF Statement."
+        },
+        {
+            "pertanyaan": "Bagaimana sintaks dasar pernyataan IF di SQL?",
+            "ground_truth": "Sintaks dasarnya adalah:\r\nIF (Expression )\r\nBEGIN\r\n   -- pernyataan bila kondisi TRUE\r\n   True Statements;\r\nEND\r\nELSE\r\nBEGIN\r\n   -- pernyataan bila kondisi FALSE\r\n   False Statements;\r\nEND",
+            "sumber_text": "IF (Expression ) BEGIN -- If the condition is TRUE then execute the following statement True Statements; END ELSE BEGIN -- If the condition is False then execute the following statement False Statements END"
+        },
+        {
+            "pertanyaan": "Apa yang harus dikembalikan oleh kondisi pada pernyataan IF?",
+            "ground_truth": "Kondisi pada pernyataan IF harus menghasilkan nilai Boolean (TRUE atau FALSE).",
+            "sumber_text": "The condition in SQL IF Statement should return a Boolean value to evaluate"
+        },
+        {
+            "pertanyaan": "Apakah pernyataan ELSE wajib digunakan dalam IF?",
+            "ground_truth": "Tidak, pernyataan ELSE bersifat opsional dan dapat tidak digunakan.",
+            "sumber_text": "The ELSE condition is optional to use"
+        },
+        {
+            "pertanyaan": "Bagaimana contoh penggunaan IF dengan variabel @StudentMarks untuk memeriksa nilai minimal 80?",
+            "ground_truth": "Contohnya:\r\nDECLARE @StudentMarks INT = 91;\r\nIF @StudentMarks >= 80\r\n   PRINT 'Passed, Congratulations!!';\r\nELSE\r\n   PRINT 'Failed, Try again ';",
+            "sumber_text": "DECLARE @StudentMarks INT= 91; IF @StudentMarks >= 80 PRINT 'Passed, Congratulations!!'; ELSE PRINT 'Failed, Try again ';"
+        },
+        {
+            "pertanyaan": "Mengapa pada contoh multiple IF nilai @StudentMarks = 91 dapat memenuhi kedua IF sekaligus?",
+            "ground_truth": "Karena kedua kondisi terpenuhi: pertama @StudentMarks >= 90 bernilai TRUE, dan kedua @StudentMarks >= 80 juga bernilai TRUE, sehingga kedua IF dijalankan.",
+            "sumber_text": "In this example, student marks 91% satisfy the conditions for both SQL IF statements, and it prints a message for both SQL IF statements."
+        },
+        {
+            "pertanyaan": "Bagaimana cara menulis kondisi agar nilai 91 hanya memenuhi IF pertama dan tidak memenuhi IF kedua?",
+            "ground_truth": "Gunakan rentang pada IF kedua, misalnya:\r\nIF @StudentMarks >= 80 AND @StudentMarks < 90\r\n   PRINT 'Congratulations, You are in First division list!!';",
+            "sumber_text": "IF @StudentMarks >= 80 and @StudentMarks < 90"
+        },
+        {
+            "pertanyaan": "Apa yang terjadi jika IF tanpa ELSE dieksekusi dan ekspresinya bernilai FALSE?",
+            "ground_truth": "Tidak ada output yang dihasilkan karena tidak ada pernyataan ELSE yang menangani kondisi FALSE.",
+            "sumber_text": "if the expression evaluates to FALSE, it does not return any output."
+        },
+        {
+            "pertanyaan": "Bagaimana menuliskan blok BEGIN...END pada IF untuk mengeksekusi lebih dari satu pernyataan?",
+            "ground_truth": "Contohnya:\r\nDECLARE @StudentMarks INT = 70;\r\nIF @StudentMarks >= 90\r\nBEGIN\r\n   PRINT 'Congratulations, You are in Merit list!!';\r\n   PRINT 'Second statement.'\r\nEND;\r\nELSE\r\nBEGIN\r\n   PRINT 'Failed,Try again ';\r\n   PRINT 'Second ELSE statement'\r\nEND;",
+            "sumber_text": "DECLARE @StudentMarks INT= 70; IF @StudentMarks >= 90 BEGIN PRINT 'Congratulations, You are in Merit list!!'; Print 'Second statement.' END; ELSE BEGIN PRINT 'Failed,Try again '; Print 'Second ELSE statement' END;"
+        },
+        {
+            "pertanyaan": "Apa perbedaan antara menggunakan IF dengan dan tanpa blok BEGIN...END?",
+            "ground_truth": "Tanpa BEGIN...END hanya satu pernyataan yang terkait dengan IF, sedangkan dengan BEGIN...END dapat mengeksekusi banyak pernyataan sebagai satu blok ketika kondisi terpenuhi.",
+            "sumber_text": "We can use BEGIN and END statement block in a SQL IF statement. Once a condition is satisfied, it executes the code inside the corresponding BEGIN and End block."
+        }
+    ],
+    "ISB_212_Basisdata2_RPS (1).txt": [
+        {
+            "pertanyaan": "Apa kode mata kuliah dan jumlah SKS untuk Basisdata 2?",
+            "ground_truth": "Kode mata kuliah Basisdata 2 adalah ISB 212 dengan bobot 4 SKS.",
+            "sumber_text": "Mata Kuliah ... Kode ... Bobot sks ... Basisdata 2 ISB 212 4"
+        },
+        {
+            "pertanyaan": "CPL Padu mana yang dibebankan pada mata kuliah ini beserta persentasenya?",
+            "ground_truth": "CPL 8 dengan persentase 62% dan CPL 9 dengan persentase 38% dibebankan pada mata kuliah ini.",
+            "sumber_text": "CPL 8: Mampu merancang dan mengimplementasi model data untuk sebuah sistem informasi (62%) CPL9: Mampu menganalisis informasi dan data menggunakan metode analisis data yang mutakhir untuk mengambil keputusan secara tepat (38%)"
+        },
+        {
+            "pertanyaan": "Apa deskripsi singkat mengenai materi yang diajarkan dalam mata kuliah Basisdata 2?",
+            "ground_truth": "Mata kuliah ini mempelajari perancangan basisdata (sebagai review dari Basisdata 1) serta semua pemrograman dalam lingkungan basisdata, termasuk constraint, kalimat IF, kalimat pengulangan, stored procedure, view, function, dan trigger.",
+            "sumber_text": "Deskripsi Singkat Mata Kuliah Matakuliah ini mempelajari perancangan basisdata ( sebagai review dari basisdata1) dan mempelajari tentang semua pemrograman dalam lingkungan basisdata ( constraint, kalimat IF, kalimat pengulangan, store prosedur, constraint, view, fungsi , trigger)"
+        },
+        {
+            "pertanyaan": "Sebutkan dua CPMK yang ditetapkan untuk mata kuliah ini.",
+            "ground_truth": "CPMK-1: Mahasiswa mampu menganalisa dan merancang basisdata. CPMK-2: Mahasiswa membuat batch program dalam lingkungan DBMS.",
+            "sumber_text": "CPMK-1 : Mahasiswa mampu menganalisa dan merancang basisdata CPMK-2 : Mahasiwa membuat bactth program dalam lingkungan DBMS"
+        },
+        {
+            "pertanyaan": "Apa saja subCPMK yang termasuk dalam CPMK-1?",
+            "ground_truth": "subCPMK-1-1: mahasiswa mampu menganalisa entitas dan relasi untuk studi kasus tertentu; subCPMK-1-2: Mahasiswa mampu menggambarkan diagram Chen dan CrowFoot untuk studi kasus tertentu.",
+            "sumber_text": "subCPMK-1-1 : mahasiswa mampu menganalisa entitas dan relasi untuk studi kasus tertentu subCPMK-1-2 : Mahasiswa mampu menggambarkan diagram Chen dan CrowFoot untuk studi kasus tertentu"
+        },
+        {
+            "pertanyaan": "Berapa persentase bobot penilaian untuk subCPMK-3?",
+            "ground_truth": "SubCPMK-3 memiliki bobot 17%, yang terdiri dari tugas terstruktur 5%, latihan kuis 5%, dan ujian subCPMK (UAS) 7%.",
+            "sumber_text": "sub CPMK 3 17 v tugas terstruktur (5%) Latihan Kuis(5%) Ujian Sub CPMK (UAS)(7%)"
+        },
+        {
+            "pertanyaan": "Mata kuliah apa yang menjadi prasyarat untuk mengikuti Basisdata 2?",
+            "ground_truth": "Mata kuliah prasyaratnya adalah ISB 211 Basisdata 1.",
+            "sumber_text": "Mata Kuliah Prasyarat ISB 211 Basisdata 1"
+        },
+        {
+            "pertanyaan": "Metode pembelajaran apa yang disebutkan dalam dokumen?",
+            "ground_truth": "Metode pembelajaran yang disebutkan meliputi small group discussion, discovery learning, cooperative learning, collaborative learning, contextual learning, project based learning, dan/atau metode lain yang setara.",
+            "sumber_text": "Metode pembelajaran: small grup discussion, discovery learning, cooperative learning, collaborative learning, contextual learning, project based learning, dan/atau metode lain yang setara"
+        },
+        {
+            "pertanyaan": "Bentuk pembelajaran apa yang dapat digunakan menurut dokumen?",
+            "ground_truth": "Bentuk pembelajaran yang dapat digunakan antara lain kuliah, seminar atau yang setara, responsi, tutorial, praktikum, praktik studio, praktik bengkel, praktik lapangan, penelitian, PkM, dan/atau bentuk pembelajaran lain yang setara.",
+            "sumber_text": "Bentuk pembelajaran: kuliah, seminar atau yang setara, responsi, tutorial, praktikum, praktik studio, praktik bengkel, praktik lapangan, penelitian, PkM, dan/atau bentuk pembelajaran lain yang setara"
+        },
+        {
+            "pertanyaan": "Berapa total bobot penilaian yang dialokasikan untuk subCPMK-6?",
+            "ground_truth": "SubCPMK-6 memiliki bobot 17%, yang terdiri dari tugas terstruktur 5%, latihan kuis 5%, dan ujian subCPMK (UAS) 7%.",
+            "sumber_text": "sub CPMK 6 17 v tugas terstruktur (5%) Latihan Kuis(5%) Ujian Sub CPMK (UAS)(7%)"
+        }
+    ],
+    "KODE SOAL ETS ISB 212 GENAP 25 26.txt": [
+        {
+            "pertanyaan": "Apa nama institusi yang menyelenggarakan evaluasi?",
+            "ground_truth": "INSTITUT TEKNOLOGI NASIONAL",
+            "sumber_text": "INSTITUT TEKNOLOGI NASIONAL"
+        },
+        {
+            "pertanyaan": "Apa alamat lengkap dan nomor telepon institusi tersebut?",
+            "ground_truth": "Jalan Penghulu K.H. Mustapa 23 Telp. 7272215, Bandung- 40124",
+            "sumber_text": "Jalan Penghulu K.H. Mustapa 23 Telp. 7272215, Bandung- 40124"
+        },
+        {
+            "pertanyaan": "Semester apa yang sedang dievaluasi?",
+            "ground_truth": "Semester Genap 2025/2026",
+            "sumber_text": "SEMESTER GENAP 2025/ 2026"
+        },
+        {
+            "pertanyaan": "Mata kuliah apa yang diuji pada evaluasi ini?",
+            "ground_truth": "ISB 212 - Basisdata 2",
+            "sumber_text": "ISB 212 - Basisdata 2"
+        },
+        {
+            "pertanyaan": "Pada hari dan tanggal berapa evaluasi tengah semester dilaksanakan?",
+            "ground_truth": "Rabu 15 April 2026",
+            "sumber_text": "Tanggal : Rabu 15 April 2026"
+        },
+        {
+            "pertanyaan": "Program studi apa yang mengikuti mata kuliah tersebut?",
+            "ground_truth": "Sistem Informasi",
+            "sumber_text": "Program Studi\r\n: Sistem Informasi"
+        },
+        {
+            "pertanyaan": "Berapa lama waktu pelaksanaan ujian?",
+            "ground_truth": "07.30 s.d 09.30",
+            "sumber_text": "Waktu : 07.30 s.d 09.30"
+        },
+        {
+            "pertanyaan": "Siapa dosen pengampu mata kuliah ini?",
+            "ground_truth": "Mira Musrini M.T.",
+            "sumber_text": "Dosen\r\n: Mira Musrini M.T."
+        },
+        {
+            "pertanyaan": "Apa sifat ujian yang diberikan (open note / close book)?",
+            "ground_truth": "open note / close book",
+            "sumber_text": "Sifat\r\n: open note / close book"
+        },
+        {
+            "pertanyaan": "Siapa mahasiswa dengan kode 16-2024-015 dan nilai apa yang diperoleh?",
+            "ground_truth": "MUHAMAD RIDWAN PRATAMA memperoleh nilai B",
+            "sumber_text": "16 16-2024-015 MUHAMAD RIDWAN PRATAMA B"
+        }
+    ],
+    "LABORATORIUM_ISA212_w4_teori.txt": [
+        {
+            "pertanyaan": "Apa perbedaan utama antara kalimat CASE .. OF dengan ekspresi sederhana dan kalimat CASE .. OF dengan perbandingan atau ekspresi pencarian?",
+            "ground_truth": "Kalimat CASE .. OF dengan ekspresi sederhana hanya memeriksa nilai yang setara dan tidak dapat berisi ekspresi Boolean, sedangkan kalimat CASE .. OF dengan perbandingan atau ekspresi pencarian dapat mengandung ekspresi Boolean atau operator pembanding.",
+            "sumber_text": "Kalimat CASE .. OF dengan ekspresi sederhana. Kalimat CASE..OF.. sederhana hanya memeriksa nilai yang setara dan tidak dapat berisi ekspresi Boolean. Kalimat Case ..OF mencari ekspresi pertama dalam daftar klausa, Jika sesuai maka akan mengeksekusi kalimat When selanjutnya. Jika tidak ada yang sesuai maka klausa else yang akan dievaluasi."
+        },
+        {
+            "pertanyaan": "Bagaimana sintaks umum untuk kalimat CASE .. OF dengan ekspresi sederhana?",
+            "ground_truth": "Sintaks umumnya adalah:\r\nCASE expression\r\nWHEN exp_1 THEN result_1\r\n[WHEN exp_2 THEN result_2]\r\n[...]\r\n[ELSE expression]\r\nEND",
+            "sumber_text": "Sintaks umum dari kalimat Case Of sederhana adalah sebagai berikut: CASE expression WHEN exp_1 THEN result_1 [WHEN exp_2 THEN result_2] [..................] [WHEN exp_n THEN result_n] [ELSE expression] END"
+        },
+        {
+            "pertanyaan": "Pada contoh pertama, apa output yang dihasilkan ketika variabel @Name berisi 'Rohatash'?",
+            "ground_truth": "Outputnya adalah 'Name Found Rohatash'.",
+            "sumber_text": "DECLARE @Name varchar(50) SET @Name = 'Rohatash' SELECT Case @Name WHEN 'Deepak' THEN 'Name Deepak' WHEN 'Manoj' THEN 'Name Found Manoj' WHEN 'Rohatash' THEN 'Name Found Rohatash' ELSE 'Name not Found' END"
+        },
+        {
+            "pertanyaan": "Mengapa pada contoh kedua output menjadi 'Name not Found' padahal nilai @Name adalah 'Rohatash'?",
+            "ground_truth": "Karena dalam pernyataan CASE tidak ada nilai yang cocok dengan 'Rohatash Kumar', sehingga klausa ELSE dieksekusi menghasilkan 'Name not Found'.",
+            "sumber_text": "DECLARE @Name varchar(50) SET @Name = 'Rohatash' SELECT Case @Name WHEN 'Deepak' THEN 'Name Found Deepak' WHEN 'Manoj' THEN 'Name Found Manoj' WHEN 'Rohatash Kumar' THEN 'Name Found Rohatash' ELSE 'Name not Found' END"
+        },
+        {
+            "pertanyaan": "Bagaimana sintaks umum untuk kalimat CASE .. OF dengan ekspresi pencarian?",
+            "ground_truth": "Sintaks umumnya adalah:\r\nCASE\r\nWHEN condition_1 THEN result_1\r\n[WHEN condition_2 THEN result_2]\r\n[...]\r\n[ELSE expression]\r\nEND",
+            "sumber_text": "Sintaks umum dari kalimat CASE..OF... dengan ekspresi pencarian : CASE WHEN condition_1 THEN result_1 [WHEN condition_2 THEN result_2] [..................] [WHEN condition_n THEN result_n] [ELSE expression] [else result_n] END"
+        },
+        {
+            "pertanyaan": "Bagaimana cara membuat tabel *student* beserta data contoh yang diberikan?",
+            "ground_truth": "Gunakan perintah:\r\nCREATE TABLE student (stu_id INT, stu_name VARCHAR(20), marks INT);\r\nINSERT INTO student VALUES (101,'ravi',65);\r\nINSERT INTO student VALUES (102,'sumit',32);\r\nINSERT INTO student VALUES (103,'rekha',76);\r\nINSERT INTO student VALUES (104,'Yong',34);\r\nINSERT INTO student VALUES (105,'Hem',78);",
+            "sumber_text": "create table student ( stu_id int, stu_name varchar(20), marks int ); Insert into student values('101','ravi','65'); Insert into student values('102','sumit','32'); Insert into student values('103','rekha','76'); Insert into student values('104','Yong','34'); Insert into student values('105','Hem','78');"
+        },
+        {
+            "pertanyaan": "Bagaimana menambahkan kolom *Remarks* dan *Grade* pada hasil query tabel *student* menggunakan pernyataan CASE?",
+            "ground_truth": "Gunakan query berikut:\r\nSELECT Stu_Id, Stu_Name, Marks,\r\nCASE WHEN Marks > 32 THEN 'Pass' ELSE 'Fail' END AS Remarks,\r\nCASE WHEN Marks >= 76 THEN 'A+' WHEN Marks >= 65 THEN 'A' WHEN Marks < 35 THEN 'E' END AS Grade\r\nFROM Student;",
+            "sumber_text": "Select Stu_Id,Stu_Name,Marks, Case When Marks > 32 Then 'Pass' Else 'Fail' End as Remarks, Case When Marks >= 76 Then 'A+' When Marks >= 65 Then 'A' When Marks < 35 Then 'E' End as Grade From Student"
+        },
+        {
+            "pertanyaan": "Bagaimana menampilkan hanya data mahasiswa dengan nilai *marks* kurang dari 35 menggunakan CASE dan klausa WHERE?",
+            "ground_truth": "Gunakan query:\r\nSELECT Stu_Id, Stu_Name, Marks,\r\nCASE WHEN Marks > 32 THEN 'Pass' ELSE 'Fail' END AS Remarks,\r\nCASE WHEN Marks >= 76 THEN 'A+' WHEN Marks >= 65 THEN 'A' WHEN Marks < 35 THEN 'E' END AS Grade\r\nFROM Student\r\nWHERE marks < 35;",
+            "sumber_text": "Select Stu_Id,Stu_Name,Marks, Case When Marks > 32 Then 'Pass' Else 'Fail' End as Remarks, Case When Marks >= 76 Then 'A+' When Marks >= 65 Then 'A' When Marks < 35 Then 'E' End as Grade From Student where marks< 35"
+        },
+        {
+            "pertanyaan": "Bagaimana mengurutkan hasil query tabel *student* berdasarkan kolom *Marks* menggunakan pernyataan CASE?",
+            "ground_truth": "Gunakan query:\r\nSELECT Stu_Id, Stu_Name, Marks,\r\nCASE WHEN Marks > 32 THEN 'Pass' ELSE 'Fail' END AS Remarks,\r\nCASE WHEN Marks >= 76 THEN 'A+' WHEN Marks >= 65 THEN 'A' WHEN Marks < 35 THEN 'E' END AS Grade\r\nFROM Student\r\nORDER BY Marks;",
+            "sumber_text": "Select Stu_Id,Stu_Name,Marks, Case When Marks > 32 Then 'Pass' Else 'Fail' End as Remarks, Case When Marks >= 76 Then 'A+' When Marks >= 65 Then 'A' When Marks < 35 Then 'E' End as Grade From Student order by Marks"
+        },
+        {
+            "pertanyaan": "Apa fungsi pernyataan BREAK dalam loop WHILE dan berikan contoh penggunaannya?",
+            "ground_truth": "BREAK digunakan untuk menghentikan loop WHILE secara paksa ketika kondisi tertentu terpenuhi. Contoh:\r\nDECLARE @Counter INT = 1;\r\nWHILE (@Counter <= 10)\r\nBEGIN\r\n  PRINT 'The counter value is = ' + CONVERT(VARCHAR,@Counter);\r\n  IF @Counter >= 7 BREAK;\r\n  SET @Counter = @Counter + 1;\r\nEND",
+            "sumber_text": "Pernyataan BREAK digunakan dalam pengulangan SQL WHILE untuk keluar dari pengulangan , yang sedang berjalan , jika memenuhi kondisi tertentu. ... Contoh program : DECLARE @Counter INT SET @Counter=1 WHILE ( @Counter <= 10) BEGIN PRINT 'The counter value is = ' + CONVERT(VARCHAR,@Counter) IF @Counter >=7 BEGIN BREAK END SET @Counter = @Counter + 1 END"
+        }
+    ],
+    "PENGENALAN STORED PROCEDURE_w4.txt": [
+        {
+            "pertanyaan": "Apa keuntungan utama dalam memodifikasi kode stored procedure dibandingkan mengubah kode di aplikasi?",
+            "ground_truth": "Keuntungan utamanya adalah kode dapat diubah tanpa harus menghentikan atau melakukan redeploy aplikasi; cukup menggunakan perintah ALTER PROCEDURE karena kode tersimpan di database.",
+            "sumber_text": "It can be easily modified: We can easily modify the code inside the stored procedure without the need to restart or deploying the application. For example, If the T-SQL queries are written in the application and if we need to change the logic, we must change the code in the application and re-deploy it. SQL Server Stored procedures eliminate such challenges by storing the code in the database. so, when we want to change the logic inside the procedure we can just do it by simple ALTER PROCEDURE statement."
+        },
+        {
+            "pertanyaan": "Bagaimana stored procedure dapat mengurangi lalu lintas jaringan?",
+            "ground_truth": "Stored procedure mengurangi lalu lintas jaringan karena yang dikirim hanya nama prosedur, bukan seluruh perintah T‑SQL.",
+            "sumber_text": "Reduced network traffic: When we use stored procedures instead of writing T-SQL queries at the application level, only the procedure name is passed over the network instead of the whole T-SQL code."
+        },
+        {
+            "pertanyaan": "Sebutkan dua jenis temporary stored procedure di SQL Server dan perbedaannya.",
+            "ground_truth": "Dua jenisnya adalah prosedur sementara lokal (diawali #, hanya dapat diakses dalam sesi pembuatnya dan otomatis dihapus saat koneksi ditutup) dan prosedur sementara global (diawali ##, dapat diakses oleh sesi lain dan dihapus ketika sesi pembuatnya ditutup).",
+            "sumber_text": "These procedures are created in the tempdb database. Local temporary SQL Server stored procedures: These are created with # as prefix and can be accessed only in the session where it created. This procedure is automatically dropped when the connection is closed. Global temporary SQL Server stored procedure: These procedures are created with ## as prefix and can be accessed on the other sessions as well. This procedure is automatically dropped when the connection which is used to create the procedure is closed."
+        },
+        {
+            "pertanyaan": "Bagaimana cara membuat stored procedure yang memiliki parameter default, dan nilai default apa yang diberikan pada contoh?",
+            "ground_truth": "Dengan mendefinisikan parameter dengan nilai default pada deklarasi, contoh: @PID INT = 706; jika tidak diberikan nilai saat pemanggilan, nilai 706 akan dipakai.",
+            "sumber_text": "CREATE PROCEDURE GetProductDesc_withDefaultparameters (@PID INT =706) AS BEGIN SET NOCOUNT ON SELECT P.ProductID,P.ProductName,PD.ProductDescription FROM Product P INNER JOIN ProductDescription PD ON P.ProductID=PD.ProductID WHERE P.ProductID=@PID END"
+        },
+        {
+            "pertanyaan": "Apa perintah yang digunakan untuk menampilkan kode sumber sebuah stored procedure?",
+            "ground_truth": "Perintahnya adalah sp_helptext diikuti nama prosedur, misalnya sp_helptext GetProductDesc.",
+            "sumber_text": "We can type Sp_helptext <store procedure's name> to print the source code of the store procedure."
+        },
+        {
+            "pertanyaan": "Bagaimana cara membuat stored procedure yang hasilnya dienkripsi sehingga tidak dapat dilihat dengan sp_helptext?",
+            "ground_truth": "Dengan menambahkan opsi WITH ENCRYPTION saat membuat prosedur, contoh: CREATE PROCEDURE GetEmployees WITH ENCRYPTION AS ...",
+            "sumber_text": "We can hide the source code in the stored procedure by creating the procedure with \"ENCRYPTION\" option. Following is the example of an encrypted stored procedure. CREATE PROCEDURE GetEmployees WITH ENCRYPTION AS BEGIN SET NOCOUNT ON SELECT EmpID,EmpName from Employee END"
+        },
+        {
+            "pertanyaan": "Apa perbedaan antara prosedur lokal dan prosedur global dalam hal visibilitas sesi?",
+            "ground_truth": "Prosedur lokal hanya dapat diakses dalam sesi yang membuatnya, sedangkan prosedur global dapat diakses oleh sesi lain.",
+            "sumber_text": "Local temporary SQL Server stored procedures: These are created with # as prefix and can be accessed only in the session where it created. Global temporary SQL Server stored procedure: These procedures are created with ## as prefix and can be accessed on the other sessions as well."
+        },
+        {
+            "pertanyaan": "Bagaimana cara menambahkan output parameter pada stored procedure untuk mendapatkan nilai identity yang baru dimasukkan?",
+            "ground_truth": "Tambahkan parameter OUTPUT pada deklarasi, misalnya @EId int OUTPUT, kemudian setelah INSERT gunakan SELECT @EId = SCOPE_IDENTITY(); saat memanggil, deklarasikan variabel dan gunakan OUTPUT untuk menerima nilai.",
+            "sumber_text": "Below is the example of a stored procedure with an output parameter. The following example retrieves the EmpID which is an auto identity column when a new employee is inserted. CREATE PROCEDURE ins_NewEmp_with_outputparamaters (@Ename varchar(50),@EId int output) AS BEGIN SET NOCOUNT ON INSERT INTO Employee (EmpName) VALUES (@Ename) SELECT @EId= SCOPE_IDENTITY() END"
+        },
+        {
+            "pertanyaan": "Perintah apa yang digunakan untuk mengubah (modify) sebuah stored procedure yang sudah ada?",
+            "ground_truth": "Gunakan perintah ALTER PROCEDURE diikuti definisi prosedur yang ingin diubah.",
+            "sumber_text": "Use the ALTER PROCEDURE statement to modify the existing stored procedure."
+        },
+        {
+            "pertanyaan": "Bagaimana cara mengganti nama sebuah stored procedure menggunakan T‑SQL?",
+            "ground_truth": "Gunakan prosedur sistem sp_rename dengan sintaks sp_rename 'NamaLama','NamaBaru'.",
+            "sumber_text": "To rename a stored procedure using T-SQL, use system stored procedure sp_rename. Following is the example that renames the procedure \"GetProductDesc\" to a new name \"GetProductDesc_new\". sp_rename 'GetProductDesc','GetProductDesc_new'"
+        }
+    ],
+    "scalar USER DEFINED FUNCTION.txt": [
+        {
+            "pertanyaan": "Apa saja tipe fungsi yang dapat didefinisikan pengguna (User Defined Function) dalam SQL Server?",
+            "ground_truth": "Terdapat tiga tipe: Scalar Function, Inline table-valued function, dan Multi-statement table-valued function.",
+            "sumber_text": "Types of User defined function Scalar Function Inline table-valued function Multi-statement table-valued function"
+        },
+        {
+            "pertanyaan": "Apa yang dimaksud dengan fungsi skalar (Scalar Function) dan apa kegunaannya?",
+            "ground_truth": "Fungsi skalar SQL Server mengambil satu atau beberapa parameter dan mengembalikan satu nilai; fungsi ini membantu menyederhanakan kode dengan merangkum perhitungan kompleks yang sering dipakai.",
+            "sumber_text": "Fungsi skalar SQL Server mengambil satu atau beberapa parameter dan mengembalikan satu nilai. Fungsi skalar membantu Anda menyederhanakan kode Anda."
+        },
+        {
+            "pertanyaan": "Bagaimana perbedaan utama antara Inline table-valued function dan Multi-statement table-valued function?",
+            "ground_truth": "Inline table-valued function selalu memberikan nilai dalam bentuk rowset mirip view dan dapat menggunakan variabel input, sedangkan Multi-statement table-valued function juga mengembalikan tabel tetapi hasil query dimasukkan ke dalam variabel tabel yang strukturnya didefinisikan di dalam fungsi.",
+            "sumber_text": "Inline table-valued function ... Hasil keluaran dari fungsi ini menyerupai view , hanya fungsi ini dapat menggunakan variabel input. Multi statement table valued function ... Perbedaannya dengan fungsi inline table , adalah hasil dari query itu dimasukkan ke dalam variabel dengan tipe data tabel (variabel jenis ini ada di sql server 2012)."
+        },
+        {
+            "pertanyaan": "Apa sintaks dasar untuk membuat (CREATE) sebuah fungsi pengguna di SQL Server?",
+            "ground_truth": "CREATE FUNCTION [database_name.]function_name (parameters) RETURNS data_type AS BEGIN SQL statements RETURN value END;",
+            "sumber_text": "CREATE FUNCTION CREATE FUNCTION [database_name.]function_name (parameters) RETURNS data_type AS BEGIN SQL statements RETURN value END;"
+        },
+        {
+            "pertanyaan": "Pada contoh fungsi east_or_west, nilai apa yang dikembalikan jika parameter longitude bernilai 0?",
+            "ground_truth": "Nilai yang dikembalikan adalah 'same'.",
+            "sumber_text": "DECLARE @return_value CHAR(4); SET @return_value = 'same'; IF (@long > 0.00) SET @return_value = 'east'; IF (@long < 0.00) SET @return_value = 'west'; RETURN @return_value"
+        },
+        {
+            "pertanyaan": "Bagaimana cara memanggil fungsi east_or_west untuk nilai longitude -1 dan apa hasilnya?",
+            "ground_truth": "Dipanggil dengan SELECT dbo.east_or_west(-1) dan hasilnya 'west'.",
+            "sumber_text": "SELECT dbo.east_or_west(0) AS argument_0, dbo.east_or_west(-1) AS argument_minus_1, dbo.east_or_west(1) AS argument_plus_1;"
+        },
+        {
+            "pertanyaan": "Fungsi fn_maxprice mengembalikan nilai apa dan tipe data apa?",
+            "ground_truth": "Fungsi fn_maxprice mengembalikan nilai maksimum Unit_price dari tabel products dengan tipe data decimal(6,2).",
+            "sumber_text": "create function dbo.fn_maxprice() returns decimal(6,2) as begin declare @maxprice as decimal(6,2) select @maxprice = max(Unit_price) from products return @maxprice end"
+        },
+        {
+            "pertanyaan": "Apa perbedaan antara penggunaan fungsi fn_avgprice dalam klausa WHERE dan penggunaan subquery avg(price) secara langsung?",
+            "ground_truth": "Kedua cara menghasilkan produk dengan Unit_price lebih besar dari rata‑rata, namun fn_avgprice memanggil fungsi skalar yang mengembalikan rata‑rata, sedangkan subquery menghitung rata‑rata secara inline dalam pernyataan SELECT.",
+            "sumber_text": "select product_id,product_name, unit_price, dbo.fn_avgprice() as 'average price' from products where unit_price > dbo.fn_avgprice() Go ... Select product_id, product_name, unit_price from products where unit_price> ( select avg(price) from products)"
+        },
+        {
+            "pertanyaan": "Fungsi fn_countcustomer menghitung berapa banyak pelanggan yang namanya mengandung kata apa?",
+            "ground_truth": "Fungsi fn_countcustomer menghitung jumlah Customer_name yang mengandung kata 'Furniture'.",
+            "sumber_text": "create function dbo.fn_countcustomer() returns int as begin declare @count int select @count = count (Customer_name) from customers where Customer_name like '%Furniture' return @count end"
+        },
+        {
+            "pertanyaan": "Bagaimana cara menggunakan fungsi fn_infoprice untuk mendapatkan harga unit produk dengan ID 3 dan nama 'Computer Desk'?",
+            "ground_truth": "Dengan memanggil SELECT dbo.fn_infoprice(3,'Computer Desk') dan hasilnya adalah nilai Unit_price produk tersebut.",
+            "sumber_text": "select dbo.fn_infoprice(3,'Computer Desk') as 'Unit_price'"
+        }
+    ],
+    "Store procedure dengan output parameter_W6.txt": [
+        {
+            "pertanyaan": "Bagaimana cara membuat stored procedure dengan parameter output?",
+            "ground_truth": "Dengan menggunakan kata kunci OUT atau OUTPUT pada definisi parameter; contoh: @EmployeeCount ditandai sebagai OUTPUT.",
+            "sumber_text": "To create a stored procedure with output parameter, we use the keywords OUT or OUTPUT. @EmployeeCount in the below stored procedure is an OUTPUT parameter. Notice that it is specified with OUTPUT keyword."
+        },
+        {
+            "pertanyaan": "Apa nama stored procedure contoh yang menghitung jumlah karyawan berdasarkan gender?",
+            "ground_truth": "Nama stored procedure tersebut adalah spGetEmployeeCountByGender.",
+            "sumber_text": "CREATE PROCEDURE spGetEmployeeCountByGender @Gender nvarchar(20), @EmployeeCount int Output"
+        },
+        {
+            "pertanyaan": "Langkah apa yang harus dilakukan sebelum mengeksekusi stored procedure dengan parameter output?",
+            "ground_truth": "Pertama, inisialisasi variabel dengan tipe data yang sama dengan parameter output; kedua, lewati variabel tersebut ke stored procedure dengan menyertakan kata kunci OUTPUT; ketiga, jalankan stored procedure.",
+            "sumber_text": "1. First, initialise a variable of same datatype as that of the output parameter. Here, we have declared @EmployeeTotal integer variable. 2. Then pass the @EmployeeTotal variable to the stored procedure. You have to specify the OUTPUT keyword. If you don't specify the OUTPUT keyword, the variable will be NULL. 3. Then execute the stored procedure."
+        },
+        {
+            "pertanyaan": "Apa yang terjadi jika tidak menyertakan kata kunci OUTPUT saat mengeksekusi stored procedure dengan parameter output?",
+            "ground_truth": "Variabel yang menerima nilai output akan berisi NULL.",
+            "sumber_text": "If you don't specify the OUTPUT keyword, the variable will be NULL."
+        },
+        {
+            "pertanyaan": "Berikan contoh perintah SQL untuk mengeksekusi stored procedure spGetEmployeeCountByGender dengan parameter output dan mencetak hasilnya.",
+            "ground_truth": "DECLARE @EmployeeTotal int; EXECUTE spGetEmployeeCountByGender 'Female', @EmployeeTotal OUTPUT; PRINT @EmployeeTotal.",
+            "sumber_text": "DECLARE @EmployeeTotal int EXECUTE spGetEmployeeCountByGender 'Female', @EmployeeTotal output PRINT @EmployeeTotal"
+        },
+        {
+            "pertanyaan": "Bagaimana cara mengeksekusi stored procedure dengan parameter output tanpa menyertakan kata kunci OUTPUT, dan apa hasilnya?",
+            "ground_truth": "DECLARE @EmployeeTotal int; EXECUTE spGetEmployeeCountByGender 'Female', @EmployeeTotal; kemudian @EmployeeTotal akan bernilai NULL, yang dapat diperiksa dengan IF(@EmployeeTotal IS NULL).",
+            "sumber_text": "DECLARE @EmployeeTotal int EXECUTE spGetEmployeeCountByGender 'Female', @EmployeeTotal IF(@EmployeeTotal is null) PRINT '@EmployeeTotal is null' ELSE PRINT '@EmployeeTotal is not null'"
+        },
+        {
+            "pertanyaan": "Apakah urutan parameter penting saat memanggil stored procedure dengan nama parameter?",
+            "ground_truth": "Tidak, parameter dapat dipanggil dalam urutan apa saja asalkan menggunakan nama parameternya.",
+            "sumber_text": "While using the parameter names, you can pass the parameters in any order."
+        },
+        {
+            "pertanyaan": "Berikan contoh pemanggilan stored procedure spGetEmployeeCountByGender dengan urutan parameter terbalik menggunakan nama parameter.",
+            "ground_truth": "DECLARE @EmployeeTotal int; EXECUTE spGetEmployeeCountByGender @EmployeeCount = @EmployeeTotal OUT, @Gender = 'Male'; PRINT @EmployeeTotal.",
+            "sumber_text": "DECLARE @EmployeeTotal int EXECUTE spGetEmployeeCountByGender @EmployeeCount = @EmployeeTotal OUT, @Gender = 'Male' PRINT @EmployeeTotal"
+        },
+        {
+            "pertanyaan": "Apa fungsi sistem stored procedure sp_help?",
+            "ground_truth": "sp_help menampilkan informasi tentang objek database seperti nama parameter, tipe data, indeks, dan lain‑lain; dapat dipakai untuk tabel, view, stored procedure, trigger, dll, dan dapat diakses dengan menekan ALT+F1 saat objek disorot.",
+            "sumber_text": "sp_help SP_Name: Used to view the information about the stored procedure like parameter names, their datatypes, etc. sp_help can be used with any database object, like Tables, Views, SPs, Triggers, etc. Alternatively, you can also press ALT+F1, when the name of the object is highlighted."
+        },
+        {
+            "pertanyaan": "Apa kegunaan sp_helptext?",
+            "ground_truth": "sp_helptext digunakan untuk menampilkan teks (source code) dari sebuah stored procedure.",
+            "sumber_text": "sp_helptext SP_Name: Used to view the Text of the stored procedure."
+        }
+    ],
+    "STUDI KASUS 10.txt": [
+        {
+            "pertanyaan": "Apa yang diproduksi oleh perusahaan penerbitan?",
+            "ground_truth": "Perusahaan penerbitan memproduksi buku ilmiah pada berbagai subjek.",
+            "sumber_text": "A publishing company produces scientific books on various subjects."
+        },
+        {
+            "pertanyaan": "Siapa yang menulis buku-buku tersebut?",
+            "ground_truth": "Buku-buku ditulis oleh penulis yang berspesialisasi pada satu subjek tertentu.",
+            "sumber_text": "The books are written by authors who specialize in one particular subject."
+        },
+        {
+            "pertanyaan": "Apakah editor harus menjadi spesialis dalam bidang tertentu?",
+            "ground_truth": "Tidak, editor tidak harus menjadi spesialis dalam bidang tertentu.",
+            "sumber_text": "The company employs editors who, not necessarily being specialists in a particular area,"
+        },
+        {
+            "pertanyaan": "Berapa banyak publikasi yang dapat diedit oleh satu editor?",
+            "ground_truth": "Setiap editor bertanggung jawab mengedit satu atau lebih publikasi.",
+            "sumber_text": "each take sole responsibility for editing one or more publications."
+        },
+        {
+            "pertanyaan": "Apa yang dicakup oleh sebuah publikasi?",
+            "ground_truth": "Sebuah publikasi mencakup satu subjek spesialis dan biasanya ditulis oleh satu penulis saja.",
+            "sumber_text": "A publication covers essentially one of the specialist subjects and is normally written by a single author."
+        },
+        {
+            "pertanyaan": "Bagaimana hubungan antara penulis dan editor dalam penulisan sebuah buku?",
+            "ground_truth": "Setiap penulis bekerja dengan seorang editor, namun dapat mengirimkan karya lain untuk diawasi oleh editor lain.",
+            "sumber_text": "When writing a particular book, each author works with an editor, but may submit another work for publication to be supervised by other editors."
+        },
+        {
+            "pertanyaan": "Apakah seorang penulis dapat menulis lebih dari satu karya untuk perusahaan?",
+            "ground_truth": "Ya, seorang penulis dapat mengirimkan karya lain untuk dipublikasikan dan diawasi oleh editor lain.",
+            "sumber_text": "When writing a particular book, each author works with an editor, but may submit another work for publication to be supervised by other editors."
+        },
+        {
+            "pertanyaan": "Apakah satu publikasi dapat ditulis oleh lebih dari satu penulis?",
+            "ground_truth": "Tidak, sebuah publikasi biasanya ditulis oleh satu penulis saja.",
+            "sumber_text": "A publication ... is normally written by a single author."
+        },
+        {
+            "pertanyaan": "Apakah perusahaan berusaha mempekerjakan penulis yang beragam?",
+            "ground_truth": "Ya, perusahaan berusaha mempekerjakan beragam penulis, dengan lebih dari satu penulis yang menjadi spesialis dalam subjek tertentu.",
+            "sumber_text": "To improve their competitiveness, the company tries to employ a variety of authors, more than one author being a specialist in a particular subject."
+        },
+        {
+            "pertanyaan": "Apakah editor dapat mengedit publikasi yang tidak sesuai dengan keahlian mereka?",
+            "ground_truth": "Ya, karena editor tidak harus menjadi spesialis dalam bidang tertentu, mereka dapat mengedit publikasi apa pun yang menjadi tanggung jawab mereka.",
+            "sumber_text": "The company employs editors who, not necessarily being specialists in a particular area,"
+        }
+    ],
+    "STUDI KASUS 2.txt": [
+        {
+            "pertanyaan": "Berapa banyak departemen yang dioperasikan oleh perusahaan?",
+            "ground_truth": "Perusahaan mengoperasikan empat departemen.",
+            "sumber_text": "A company operates four departements."
+        },
+        {
+            "pertanyaan": "Apa hubungan antara departemen dan karyawan menurut aturan bisnis?",
+            "ground_truth": "Setiap departemen mempekerjakan karyawan.",
+            "sumber_text": "Each departement employs employees."
+        },
+        {
+            "pertanyaan": "Apakah setiap karyawan wajib memiliki tanggungan?",
+            "ground_truth": "Tidak, setiap karyawan boleh memiliki satu atau lebih tanggungan atau tidak memiliki tanggungan sama sekali.",
+            "sumber_text": "Each of the employees may or may not have one or more dependents."
+        },
+        {
+            "pertanyaan": "Apakah setiap karyawan wajib memiliki riwayat pekerjaan?",
+            "ground_truth": "Tidak, setiap karyawan boleh memiliki riwayat pekerjaan atau tidak memiliki riwayat pekerjaan sama sekali.",
+            "sumber_text": "Each employee may or may not have an employement history."
+        },
+        {
+            "pertanyaan": "Entitas apa saja yang dapat diidentifikasi dari aturan bisnis tersebut?",
+            "ground_truth": "Entitas yang dapat diidentifikasi adalah Departemen, Karyawan, Tanggungan, dan Riwayat Pekerjaan.",
+            "sumber_text": "A company operates four departements. Each departement employs employees. Each of the employees may or may not have one or more dependents. Each employee may or may not have an employement history."
+        },
+        {
+            "pertanyaan": "Hubungan apa yang menghubungkan entitas Karyawan dengan Tanggungan?",
+            "ground_truth": "Hubungan \"memiliki\" antara Karyawan dan Tanggungan bersifat opsional dan dapat berupa satu atau lebih (zero‑to‑many).",
+            "sumber_text": "Each of the employees may or may not have one or more dependents."
+        },
+        {
+            "pertanyaan": "Hubungan apa yang menghubungkan entitas Karyawan dengan Riwayat Pekerjaan?",
+            "ground_truth": "Hubungan \"memiliki\" antara Karyawan dan Riwayat Pekerjaan bersifat opsional dan dapat berupa satu atau lebih (zero‑to‑many).",
+            "sumber_text": "Each employee may or may not have an employement history."
+        },
+        {
+            "pertanyaan": "Apa saja tugas yang diminta dalam studi kasus ini?",
+            "ground_truth": "Tugasnya meliputi: a) mendefinisikan entitas dan hubungan, b) menggambar model konseptual dengan diagram Chen, dan c) menggambar model konseptual dengan diagram Crow Foot.",
+            "sumber_text": "a. Define entity and relathionships b. Draw the conceptual model with Chen diagram c. Draw the conceptual model with Crow Foot diagram"
+        },
+        {
+            "pertanyaan": "Apakah hubungan antara Departemen dan Karyawan bersifat satu ke banyak?",
+            "ground_truth": "Ya, setiap departemen mempekerjakan banyak karyawan, sehingga hubungan tersebut bersifat satu‑ke‑banyak.",
+            "sumber_text": "Each departement employs employees."
+        },
+        {
+            "pertanyaan": "Apakah seorang karyawan dapat berada di lebih dari satu departemen sekaligus?",
+            "ground_truth": "Tidak disebutkan dalam aturan bisnis; berdasarkan kalimat yang ada, setiap karyawan diasumsikan berada di satu departemen saja.",
+            "sumber_text": "Each departement employs employees."
+        }
+    ],
+    "STUDI KASUS 3.txt": [
+        {
+            "pertanyaan": "Berapa banyak departemen yang dapat mempekerjakan seorang karyawan?",
+            "ground_truth": "Setiap karyawan hanya dipekerjakan oleh satu departemen.",
+            "sumber_text": "A department employs many employees, but each employee is employed by one department."
+        },
+        {
+            "pertanyaan": "Dapatkah sebuah departemen mempekerjakan lebih dari satu karyawan?",
+            "ground_truth": "Ya, sebuah departemen dapat mempekerjakan banyak karyawan.",
+            "sumber_text": "A department employs many employees, but each employee is employed by one department."
+        },
+        {
+            "pertanyaan": "Apakah semua karyawan harus terdaftar dalam suatu departemen?",
+            "ground_truth": "Tidak, ada karyawan yang disebut \"Rovers\" yang tidak ditugaskan ke departemen manapun.",
+            "sumber_text": "Some employees, known as \"Rovers\" are not assigned to any department."
+        },
+        {
+            "pertanyaan": "Bagaimana hubungan antara divisi dan departemen?",
+            "ground_truth": "Setiap divisi mengoperasikan banyak departemen, dan setiap departemen dioperasikan oleh satu divisi.",
+            "sumber_text": "Divisions operates many departements, but each departments is operated by one division."
+        },
+        {
+            "pertanyaan": "Apakah seorang karyawan dapat terlibat dalam lebih dari satu proyek?",
+            "ground_truth": "Ya, seorang karyawan dapat ditugaskan ke banyak proyek.",
+            "sumber_text": "An employee may be assigned to many projects, and a projects may have many employees assigned to it."
+        },
+        {
+            "pertanyaan": "Dapatkah sebuah proyek tidak memiliki karyawan yang ditugaskan?",
+            "ground_truth": "Tidak, sebuah proyek harus memiliki setidaknya satu karyawan yang ditugaskan.",
+            "sumber_text": "a project must have at least one employee assigned to it."
+        },
+        {
+            "pertanyaan": "Siapa yang mengelola sebuah departemen?",
+            "ground_truth": "Satu karyawan mengelola satu departemen, dan setiap departemen dikelola oleh hanya satu karyawan.",
+            "sumber_text": "One of the employees manages one department, and each department is managed by only one employee."
+        },
+        {
+            "pertanyaan": "Siapa yang memimpin sebuah divisi?",
+            "ground_truth": "Satu karyawan menjalankan sebuah divisi, dan setiap divisi dijalankan oleh satu karyawan.",
+            "sumber_text": "One of the employee runs a division, and each division is run by one employee."
+        },
+        {
+            "pertanyaan": "Apa jenis hubungan antara karyawan dan proyek?",
+            "ground_truth": "Hubungan many-to-many (banyak ke banyak) antara karyawan dan proyek.",
+            "sumber_text": "An employee may be assigned to many projects, and a projects may have many employees assigned to it."
+        },
+        {
+            "pertanyaan": "Apa jenis hubungan antara divisi dan departemen?",
+            "ground_truth": "Hubungan one-to-many (satu ke banyak) dari divisi ke departemen.",
+            "sumber_text": "Divisions operates many departements, but each departments is operated by one division."
+        }
+    ],
+    "STUDI KASUS 4.txt": [
+        {
+            "pertanyaan": "Apa singkatan JCBC dan apa jenis organisasinya?",
+            "ground_truth": "JCBC merupakan singkatan dari Johannes County BasketBall Conference, dan merupakan sebuah asosiasi basket amatir.",
+            "sumber_text": "The Johannes County BasketBall Conference ( JCBC) is an amateur Basketball association."
+        },
+        {
+            "pertanyaan": "Berapa tim yang dimiliki setiap kota dalam county?",
+            "ground_truth": "Setiap kota dalam county memiliki satu tim yang mewakilinya.",
+            "sumber_text": "Each city in the County has one team that represent it."
+        },
+        {
+            "pertanyaan": "Berapa jumlah pemain minimum dan maksimum yang boleh dimiliki sebuah tim?",
+            "ground_truth": "Sebuah tim harus memiliki minimal sembilan pemain dan maksimal dua belas pemain.",
+            "sumber_text": "Each team has maximum 12 players and a minimum of nine players."
+        },
+        {
+            "pertanyaan": "Berapa jumlah pelatih maksimal yang dapat dimiliki sebuah tim dan apa saja jenisnya?",
+            "ground_truth": "Sebuah tim dapat memiliki hingga tiga pelatih, yaitu pelatih ofensif, pelatih defensif, dan pelatih PT.",
+            "sumber_text": "Each team also has up to three coaches ( offensive,defensive, and PT coaches) ."
+        },
+        {
+            "pertanyaan": "Berapa kali setiap tim bertanding melawan tim lain dalam satu musim?",
+            "ground_truth": "Setiap tim bermain dua pertandingan melawan setiap tim lain, satu di kandang (home) dan satu di luar (visitor).",
+            "sumber_text": "Each team plays two games (home and visitor) against each other team during the season."
+        },
+        {
+            "pertanyaan": "Apakah sebuah tim boleh memiliki kurang dari sembilan pemain?",
+            "ground_truth": "Tidak, sebuah tim tidak boleh memiliki kurang dari sembilan pemain karena jumlah minimum pemain adalah sembilan.",
+            "sumber_text": "Each team has maximum 12 players and a minimum of nine players."
+        },
+        {
+            "pertanyaan": "Apakah sebuah tim boleh memiliki lebih dari tiga pelatih?",
+            "ground_truth": "Tidak, sebuah tim tidak boleh memiliki lebih dari tiga pelatih karena batas maksimal pelatih adalah tiga.",
+            "sumber_text": "Each team also has up to three coaches ( offensive,defensive, and PT coaches) ."
+        },
+        {
+            "pertanyaan": "Apakah JCBC merupakan liga profesional?",
+            "ground_truth": "Tidak, JCBC merupakan sebuah asosiasi basket amatir, bukan liga profesional.",
+            "sumber_text": "The Johannes County BasketBall Conference ( JCBC) is an amateur Basketball association."
+        },
+        {
+            "pertanyaan": "Apa saja jenis pelatih yang disebutkan dalam dokumen?",
+            "ground_truth": "Jenis pelatih yang disebutkan adalah pelatih ofensif, pelatih defensif, dan pelatih PT.",
+            "sumber_text": "Each team also has up to three coaches ( offensive,defensive, and PT coaches) ."
+        }
+    ],
+    "STUDI KASUS 5.txt": [
+        {
+            "pertanyaan": "Apa jenis kendaraan yang diproduksi oleh Automata Inc.?",
+            "ground_truth": "Limousine, truk, van, atau RV.",
+            "sumber_text": "The company operates several departments, each of builds a praticular vehicle, such as limousine, a truck, a van or an RV."
+        },
+        {
+            "pertanyaan": "Siapa yang mengirimkan pesanan komponen ketika kendaraan baru dibangun?",
+            "ground_truth": "Departemen yang membangun kendaraan mengirimkan pesanan ke departemen pembelian.",
+            "sumber_text": "When a new vehicle is built, the department places an order with purchasing department to request specific component."
+        },
+        {
+            "pertanyaan": "Apa tujuan departemen pembelian membuat basis data?",
+            "ground_truth": "Untuk melacak pesanan dan mempercepat proses pengiriman material.",
+            "sumber_text": "Automata's purchasing department is interested in creating database to keep track of orders and to accelerate the process of delivering materials,"
+        },
+        {
+            "pertanyaan": "Berapa banyak item yang dapat terdapat dalam satu pesanan?",
+            "ground_truth": "Beberapa item yang berbeda dapat terdapat dalam satu pesanan.",
+            "sumber_text": "The order received by purchasing department can contain several different items ."
+        },
+        {
+            "pertanyaan": "Apa yang dilakukan jika suatu item tidak ada dalam inventaris?",
+            "ground_truth": "Item tersebut harus dipesan dari pemasok.",
+            "sumber_text": "If an item is not in inventory, it must be ordered from a supplier ."
+        },
+        {
+            "pertanyaan": "Dapatkah satu item memiliki lebih dari satu pemasok?",
+            "ground_truth": "Ya, setiap item dapat memiliki beberapa pemasok.",
+            "sumber_text": "Each item may have several suppliers."
+        },
+        {
+            "pertanyaan": "Apa fokus utama inventaris yang dipelihara?",
+            "ground_truth": "Item yang paling sering diminta dipertahankan dalam inventaris.",
+            "sumber_text": "An inventory is maintained that is the most frequently requested item is inventory."
+        },
+        {
+            "pertanyaan": "Apa yang diminta dalam tugas studi kasus ini?",
+            "ground_truth": "Mendefinisikan entitas dan hubungan, serta menggambar diagram ER dengan notasi Chen dan Crow Foot.",
+            "sumber_text": "1. Define entity and relathionships.\r\n2. Draw the ER diagram with Chen diagram.\r\n3. Draw the ER diagram with Crow Foot diagram."
+        },
+        {
+            "pertanyaan": "Bagaimana proses pemesanan komponen dilakukan dalam alur produksi?",
+            "ground_truth": "Departemen produksi membuat kendaraan mengirimkan pesanan ke departemen pembelian, yang kemudian melacak dan mengatur pengiriman material.",
+            "sumber_text": "When a new vehicle is built, the department places an order with purchasing department to request specific component.\r\nAutomata's purchasing department is interested in creating database to keep track of orders and to accelerate the process of delivering materials,"
+        },
+        {
+            "pertanyaan": "Apakah satu item dapat berada di inventaris sekaligus dipesan dari pemasok?",
+            "ground_truth": "Jika item tidak ada dalam inventaris, barulah harus dipesan dari pemasok; jika ada, tidak perlu dipesan.",
+            "sumber_text": "If an item is not in inventory, it must be ordered from a supplier ."
+        }
+    ],
+    "STUDI KASUS 6.txt": [
+        {
+            "pertanyaan": "Apa hubungan antara pasien dan janji temu dalam sistem ini?",
+            "ground_truth": "Seorang pasien dapat membuat banyak janji temu dengan satu atau lebih dokter.",
+            "sumber_text": "A patient can make many appointments with one or more doctors in clinic"
+        },
+        {
+            "pertanyaan": "Apa hubungan antara dokter dan janji temu?",
+            "ground_truth": "Seorang dokter dapat menerima banyak janji temu dengan banyak pasien.",
+            "sumber_text": "and a doctor can accept many appointments with many patients."
+        },
+        {
+            "pertanyaan": "Berapa dokter yang terlibat dalam satu janji temu?",
+            "ground_truth": "Setiap janji temu hanya melibatkan satu dokter.",
+            "sumber_text": "However, each appointment made with only one doctor"
+        },
+        {
+            "pertanyaan": "Berapa pasien yang terlibat dalam satu janji temu?",
+            "ground_truth": "Setiap janji temu merujuk pada satu pasien.",
+            "sumber_text": "and each appointment references a single patient."
+        },
+        {
+            "pertanyaan": "Bagaimana penanganan kasus darurat dalam sistem janji temu?",
+            "ground_truth": "Kasus darurat tidak memerlukan janji temu, namun dimasukkan ke buku janji temu sebagai \"uncsheduled for appointment management purposes.",
+            "sumber_text": "Emergency cases do not require an appointment. However an emergency is entered into the appointment book as \"uncsheduled for appointment management purposes."
+        },
+        {
+            "pertanyaan": "Apa yang terjadi jika sebuah janji temu dipertahankan (kept)?",
+            "ground_truth": "Janji temu menghasilkan kunjungan dengan dokter yang ditentukan dalam janji temu.",
+            "sumber_text": "If Kept. an appointment yields a visit with the doctor specified in the appointment."
+        },
+        {
+            "pertanyaan": "Apa hasil dari sebuah kunjungan (visit) menurut dokumen?",
+            "ground_truth": "Kunjungan menghasilkan diagnosis dan, bila diperlukan, perawatan.",
+            "sumber_text": "The visit yields a diagnosis and , when appropriate , treatment."
+        },
+        {
+            "pertanyaan": "Bagaimana kunjungan mempengaruhi catatan medis pasien?",
+            "ground_truth": "Setiap kunjungan memperbarui catatan pasien untuk menyediakan riwayat medis.",
+            "sumber_text": "Each Visit updates the patients records to provide a medical history."
+        },
+        {
+            "pertanyaan": "Apa yang dihasilkan oleh setiap kunjungan pasien terkait penagihan?",
+            "ground_truth": "Setiap kunjungan pasien membuat tagihan.",
+            "sumber_text": "Each patient visit creates a bill."
+        },
+        {
+            "pertanyaan": "Bagaimana hubungan penagihan antara dokter dan pasien?",
+            "ground_truth": "Setiap kunjungan pasien ditagih oleh satu dokter, dan setiap dokter dapat menagih banyak pasien.",
+            "sumber_text": "Each Patient visit is billed by one doctor and each doctor can bill many patients."
+        }
+    ],
+    "STUDI KASUS 8.txt": [
+        {
+            "pertanyaan": "Apa tujuan utama perancangan basis data relasional dalam dokumen?",
+            "ground_truth": "Untuk merancang basis data relasional bagi sebuah perusahaan menengah yang bergerak dalam aplikasi industri komputer.",
+            "sumber_text": "A relational database is to be designed for a medium sized Company dealing with industrial applications of computers."
+        },
+        {
+            "pertanyaan": "Produk apa saja yang disediakan perusahaan kepada pelanggannya?",
+            "ground_truth": "Berbagai produk mulai dari program aplikasi tunggal hingga instalasi lengkap perangkat keras dengan perangkat lunak yang disesuaikan.",
+            "sumber_text": "The Company delivers various products to its customers ranging from a single application program through to complete installation of hardware with customized software."
+        },
+        {
+            "pertanyaan": "Siapa saja yang dipekerjakan oleh perusahaan?",
+            "ground_truth": "Berbagai ahli, konsultan, dan staf pendukung.",
+            "sumber_text": "The Company employs various experts, consultants and supporting staff."
+        },
+        {
+            "pertanyaan": "Apakah perusahaan memiliki staf jangka pendek atau temporer?",
+            "ground_truth": "Tidak, semua personel dipekerjakan secara jangka panjang dan tidak ada staf jangka pendek atau temporer.",
+            "sumber_text": "All personnel are employed on long-term basis, i.e.there are no short-term or temporary staff."
+        },
+        {
+            "pertanyaan": "Bagaimana struktur administratif perusahaan?",
+            "ground_truth": "Perusahaan terbagi menjadi departemen-departemen yang dipimpin oleh manajer departemen.",
+            "sumber_text": "the Company is somehow structured for administrative purposes (that is, it is divided into departments headed by department managers)"
+        },
+        {
+            "pertanyaan": "Bagaimana cara pelaksanaan proyek di perusahaan?",
+            "ground_truth": "Semua proyek dilaksanakan secara interdisipliner.",
+            "sumber_text": "all projects are carried out in an inter-disciplinary way."
+        },
+        {
+            "pertanyaan": "Bagaimana tim proyek dibentuk untuk setiap proyek?",
+            "ground_truth": "Untuk setiap proyek dipilih tim proyek yang mengelompokkan karyawan dari departemen yang berbeda.",
+            "sumber_text": "For each project a project team is selected, grouping employees from different departments"
+        },
+        {
+            "pertanyaan": "Siapa yang ditunjuk sebagai penanggung jawab utama proyek?",
+            "ground_truth": "Seorang Project Manager yang juga merupakan karyawan perusahaan, yang bertanggung jawab penuh dan eksklusif mengendalikan proyek secara independen dari hierarki perusahaan.",
+            "sumber_text": "and a Project Manager (also an employee of the Company) is appointed who is entirely and exclusively responsible for the control of the project, quite independently of the Company's hierarchy."
+        },
+        {
+            "pertanyaan": "Apa tanggung jawab utama Project Manager dalam proyek?",
+            "ground_truth": "Bertanggung jawab secara penuh dan eksklusif atas pengendalian proyek, terlepas dari hierarki perusahaan.",
+            "sumber_text": "Project Manager ... is appointed who is entirely and exclusively responsible for the control of the project, quite independently of the Company's hierarchy."
+        },
+        {
+            "pertanyaan": "Apakah tim proyek hanya terdiri dari karyawan satu departemen?",
+            "ground_truth": "Tidak, tim proyek mengelompokkan karyawan dari departemen yang berbeda.",
+            "sumber_text": "For each project a project team is selected, grouping employees from different departments"
+        }
+    ],
+    "TIPE DATA DI SQL SERVER 2012.txt": [
+        {
+            "pertanyaan": "Apa judul materi kuliah yang tercantum dalam dokumen?",
+            "ground_truth": "Judulnya adalah \"TIPE DATA DI SQL SERVER 2012\".",
+            "sumber_text": "TIPE DATA DI SQL SERVER 2012"
+        },
+        {
+            "pertanyaan": "Tahun berapa materi kuliah tersebut dibuat?",
+            "ground_truth": "Materi kuliah tersebut dibuat pada tahun 2012.",
+            "sumber_text": "TIPE DATA DI SQL SERVER 2012"
+        },
+        {
+            "pertanyaan": "Siapa penulis atau pembuat materi kuliah ini?",
+            "ground_truth": "Penulis atau pembuat materi kuliah ini adalah Mira Musrini Barmawi.",
+            "sumber_text": "Mira Musrini Barmawi"
+        },
+        {
+            "pertanyaan": "Topik apa yang dibahas dalam materi kuliah ini?",
+            "ground_truth": "Materi kuliah ini membahas tentang tipe data di SQL Server.",
+            "sumber_text": "TIPE DATA DI SQL SERVER 2012"
+        }
+    ],
+    "TRIGGER.txt": [
+        {
+            "pertanyaan": "Apa yang terjadi secara otomatis pada sebuah tabel ketika dilakukan operasi DML (INSERT, UPDATE, DELETE)?",
+            "ground_truth": "Tabel virtual INSERTED dan DELETED secara otomatis terbentuk.",
+            "sumber_text": "Jika kita melakukan operasi DML ( insert update delete ) pada suatu tabel, maka secara otomatis akan terbentuk tabel virtual INSERTED dan DELETED."
+        },
+        {
+            "pertanyaan": "Apa isi tabel INSERTED setelah operasi INSERT?",
+            "ground_truth": "Tabel INSERTED berisi data baru yang ditambahkan.",
+            "sumber_text": "Jika kita melakukan operasi insert, maka tabel inserted berisi data yang baru , yang ditambahkan."
+        },
+        {
+            "pertanyaan": "Apa isi tabel DELETED setelah operasi DELETE?",
+            "ground_truth": "Tabel DELETED berisi data lama yang telah dihapus.",
+            "sumber_text": "Jika kita melakukan operasi delete, maka tabel deleted berisi data lama , yang telah dihapus"
+        },
+        {
+            "pertanyaan": "Pada operasi UPDATE, tabel INSERTED dan DELETED masing-masing berisi data apa?",
+            "ground_truth": "Tabel DELETED berisi data lama yang telah diubah, sedangkan tabel INSERTED berisi data baru yang dimasukkan.",
+            "sumber_text": "Jika kita melakukan operasi update, maka tabel deleted berisi data lama yang telah dirubah, dan tabel inserted beri data baru yang telah dimasukkan."
+        },
+        {
+            "pertanyaan": "Bagaimana cara menampilkan isi tabel INSERTED menggunakan klausa OUTPUT pada operasi INSERT?",
+            "ground_truth": "Dengan menambahkan klausa OUTPUT pada pernyataan INSERT, misalnya: OUTPUT inserted.ID_makanan as new_makanan, inserted.nama_makanan as new_nama_makanan, Inserted.ukuran as new_ukuran, inserted.harga as new_harga.",
+            "sumber_text": "Gunakan klausa output untuk menampilkan isi dari tabel inserted."
+        },
+        {
+            "pertanyaan": "Bagaimana menampilkan isi tabel INSERTED dan DELETED secara bersamaan pada operasi UPDATE?",
+            "ground_truth": "Menggunakan klausa OUTPUT yang mencantumkan kolom dari inserted dan deleted, contoh: OUTPUT inserted.ID_makanan as new_id, ..., deleted.ID_makanan as old_id, ...",
+            "sumber_text": "Gunakan klausa output untuk menampilkan isi dari tabel inserted dan tabel deleted"
+        },
+        {
+            "pertanyaan": "Apa definisi trigger dalam basis data?",
+            "ground_truth": "Trigger adalah sekumpulan baris-baris kode program yang dijalankan akibat dari adanya aksi user atau event tertentu.",
+            "sumber_text": "Definisi : Sekumpulan baris-baris kode program yang dijalankan akibat dari adanya aksi user atau event tertentu."
+        },
+        {
+            "pertanyaan": "Sebutkan dua manfaat utama penggunaan trigger.",
+            "ground_truth": "1) Menjalankan aturan bisnis dan menjaga integritas data. 2) Mengevaluasi status tabel sebelum dan sesudah perubahan data serta melakukan aksi sesuai perbedaan yang terjadi.",
+            "sumber_text": "Trigger merupakan salah satu mekanisme untuk menjalankan aturan bisnis dan menjaga integritas data dalam sebuah basis data. Trigger dapat mengevaluasi status dari sebuah tabel sebelum dan sesudah terjadi perubahan data dan melakukan aksinya sesuai perbedaan yang terjadi"
+        },
+        {
+            "pertanyaan": "Bagaimana cara membuat trigger yang mencegah nilai negatif pada kolom harga saat INSERT pada tabel makanan?",
+            "ground_truth": "Buat trigger dbo.tr_insert_harga pada tabel makanan FOR INSERT; di dalamnya ambil nilai harga dari tabel inserted, periksa if @harga_new < 0 maka lakukan ROLLBACK dan tampilkan pesan bahwa harga negatif sehingga operasi INSERT dibatalkan.",
+            "sumber_text": "Create trigger dbo.tr_insert_harga on makanan for insert As Begin declare @harga_new integer select @harga_new = ins.harga from inserted ins if @harga_new<0 then begin rollback print 'harga makanan yang anda masukkan adalah negatif, sehingga operasi insert dibatalkan' End end"
+        },
+        {
+            "pertanyaan": "Apa yang dilakukan trigger tr_insert_wali ketika baris baru ditambahkan ke tabel wali?",
+            "ground_truth": "Trigger mengambil id_wali dari tabel inserted, kemudian menyisipkan baris ke tabel wali_audit dengan keterangan \"wali baru dengan id=... ditambahkan pada ...\" beserta timestamp saat itu.",
+            "sumber_text": "Create trigger dbo.tr_insert_wali for insert on wali As Begin Declare @id int Select @id =id_wali from inserted Insert into wali_audit Values (' wali baru dengan id=' + cast (@id as nvarchar(5)) + 'ditambahkan pada '+ cast (getdate() as nvarchar(20) )"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+  "filename": "Sub CPMK 2.txt",
+  "matkul": "Manajemen Proyek Sistem informasi",
+  "teknik": "recursive",
+  "total_chunks": 2,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 543,
+      "text": "Sub CPMK 2:\n\nSOAL A:\nPerusahaan XYZ sedang mempertimbangkan untuk mengimplementasikan proyek investasi baru.\nPada tahun pertama proyek sudah mendapatkan keuntungan hingga tahun ke-4 dengan data sebagai\nberikut:\nBiaya tahun ke-1 sebesar $2000, tahun ke2: $2000, tahun ke3: $2000, tahun ke-4:\n$2000. Pendapatan (benefit) tahunan yang diharapkan mulai pada tahun ke-1 sebesar $1000, tahun\nke-2 sebesar $2000, tahun ke-3 dan ke-4 sebesar sebesar $4000.\nDengan tingkat diskonto: 9% tentukan: nilai NPV, ROI dan Payback dengan mengisi tabel berikut!"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 529,
+      "text": "SOAL B:\nPerusahaan XYZ sedang mempertimbangkan untuk mengimplementasikan proyek investasi baru.\nPada tahun pertama proyek sudah mendapatkan keuntungan hingga tahun ke-4 dengan data sebagai\nberikut:\nBiaya tahun ke-1 sebesar $1000, tahun ke2: $2000, tahun ke3: $3000, tahun ke-4:\n$4000. Pendapatan (benefit) tahunan yang diharapkan mulai pada tahun ke-1 sebesar $500, tahun\nke-2 sebesar $2000, tahun ke-3 dan ke-4 sebesar sebesar $5000.\nDengan tingkat diskonto: 8% tentukan: nilai NPV, ROI dan Payback dengan mengisi tabel berikut!"
+    }
+  ]
+}

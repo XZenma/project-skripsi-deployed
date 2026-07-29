@@ -1,0 +1,25 @@
+STUDI KASUS 8 
+ 
+A relational database is to be designed for a medium sized Company dealing 
+with industrial applications of computers.  
+ 
+The Company delivers various products to its customers ranging from a single 
+application program through to complete installation of hardware with 
+customized software.  
+ 
+The Company employs various experts, consultants and supporting staff.  
+ 
+All personnel are employed on long-term basis, i.e.there are no short-term or 
+temporary staff.  
+ 
+Although the Company is somehow structured for administrative purposes (that 
+is, it is divided into departments headed by department managers) all projects 
+are carried out in an inter-disciplinary way.  
+ 
+For each project a project team is selected, grouping employees from different 
+departments, and a Project Manager (also an employee of the Company) is 
+appointed who is entirely and exclusively responsible for the control of the 
+project, quite independently of the Company’s hierarchy.  
+ 
+The following is a brief statement of some facts and policies adopted by the 
+Company.

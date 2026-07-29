@@ -1,0 +1,13 @@
+{
+  "filename": "STUDI KASUS I.txt",
+  "matkul": "Basis Data 2",
+  "teknik": "recursive",
+  "total_chunks": 1,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 797,
+      "text": "STUDI KASUS I\n\nThe Hudson Engineering Group (HEG) has contacted you to create a conceptual model\nwhose application will meet the expected database requirements for its training\nprogram. The HEG administrator gives you the following description of the training\ngroup's operating environment .\nThe HEG has 12 instructors and can handle up to 30 trainees per class. HEG offers five\n\"Advanced Technology\" courses each will generate several classes. If a class has fewer\nthan 10 trainees in it, it will be canceled. It is, therefore, possible for a course not to\ngenerate any classes. Each class is taught by one instructor. Each instructor may teach\nup to two classes per year.\n\na. Define entity and relathionships\nb. Draw the ER diagram with Chen diagram\nc. Draw the ER diagram with Crow Foot diagram"
+    }
+  ]
+}

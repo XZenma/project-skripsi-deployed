@@ -1,0 +1,123 @@
+{
+  "filename": "CONSTRAINT IN SQL SERVER 2012.txt",
+  "matkul": "Basis Data 2",
+  "teknik": "sentence",
+  "total_chunks": 23,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 998,
+      "text": "CONSTRAINT IN SQL SERVER\nISA 212 Basisdata 2 , Minggu 3\nMira Musrini Barmawi\nDefinition\nConstraints in SQL Server are predefined rules and restrictions that are\nenforced in a single column or multiple columns, regarding the values\nallowed in the columns, to maintain the integrity, accuracy, and\nreliability of that column's data.\n\nIn other words, if the inserted data\nmeets the constraint rule, it will be inserted successfully.\n\nIf the inserted\ndata violates the defined constraint, the insert operation will be\naborted.\nDefinition\nConstraints in SQL Server can be defined at the column level, where it\nis specified as part of the column definition and will be applied to that\ncolumn only, or declared independently at the table level.\n\nIn this case,\nthe constraint rules will be applied to more than one column in the\nspecified table.\n\nThe constraint can be created within the CREATE\nTABLE T-SQL command while creating the table or added using ALTER\nTABLE T-SQL command after creating the table."
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 935,
+      "text": "The constraint can be created within the CREATE\nTABLE T-SQL command while creating the table or added using ALTER\nTABLE T-SQL command after creating the table.\n\nAdding the constraint\nafter creating the table, the existing data will be checked for the\nconstraint rule before creating that constraint.\nTHE CONSTRAINT\n\n\nThere are six main constraints that are commonly used in SQL Server\nthat we will describe deeply with examples within this article and the\nnext one.\n\nThese constraints are:\nSQL NOT NULL\nUNIQUE\nPRIMARY KEY\nFOREIGN KEY\nCHECK\nDEFAULT\nNOT NULL Constraint in SQL\nAssume that we have the below simple CREATE TABLE statement that is\nused to define the ConstraintDemo1 table.\n\nThis table contains only two\ncolumns, ID and Name.\n\nIn the ID column definition statement, the SQL\nNOT NULL column-level constraint is enforced, considering the ID\ncolumn as a mandatory column that should be provided with a valid\nSQL NOT NULL value."
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 903,
+      "text": "In the ID column definition statement, the SQL\nNOT NULL column-level constraint is enforced, considering the ID\ncolumn as a mandatory column that should be provided with a valid\nSQL NOT NULL value.\n\nThe case is different for the Name column that\ncan be ignored in the INSERT statement, with the ability to provide it\nwith NULL value.\n\nIf the null-ability is not specified while defining the\ncolumn, it will accept the NULL value by default:\nEXERCISE\nCreate database SQLShackDemo\nGo\nUSE SQLShackDemo\nGO\nCREATE TABLE ConstraintDemo1\n(\nID INT NOT NULL,\nName VARCHAR(50) NULL\n)\nEXERCISE\nINSERT INTO ConstraintDemo1 ([ID],[NAME]) VALUES\n(1,'Ali')\nGO\nINSERT INTO ConstraintDemo1 ([ID])\n\nVALUES (2)\nGO\nINSERT INTO ConstraintDemo1 ([NAME]) VALUES\n('Fadi')\nGO\nEXERCISE\nYou will see that the first record will be inserted successfully, as both\nthe ID and Name column's values are provided in the INSERT\nstatement."
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 949,
+      "text": "Providing the ID only in the second INSERT statement will\nnot prevent the insertion process from being completed successfully,\ndue to the fact that the Name column is not mandatory and accepts\nNULL values.\n\nThe last insert operation will fail, as we only provide the\nINSERT statement with a value for the Name column, without providing\nvalue for the ID column that is mandatory and cannot be assigned NULL\nvalue,\nEXERCISE\nEXERCISE\nALTER TABLE ConstraintDemo1 ALTER COLUMN [Name]\nVARCHAR(50) NOT NULL\nYou will see that the command will fail, as it will check the existing values of the\nName column for NULL values first before creating the constraint, as shown in the\nerror message below:\nEXERCISE\nTo enforce the NOT NULL Constraints in SQL, we should remove all\nNULL values of the Name column from the table, using the UPDATE\nstatement below, that replaces the NULL values with empty string:\nUPDATE ConstraintDemo1 SET [Name]='' WHERE [Name] IS\nNULL"
+    },
+    {
+      "index": 5,
+      "panjang_karakter": 855,
+      "text": "If you try to create the Constraints in SQL again, it will be created successfully as\nshown below:\nEXERCISE\nUNIQUE Constraints in SQL\nThe UNIQUE constraint in SQL is used to ensure that no duplicate\nvalues will be inserted into a specific column or combination of\ncolumns that are participating in the UNIQUE constraint and not part of\nthe PRIMARY KEY.\n\nIn other words, the index that is automatically\ncreated when you define a UNIQUE constraint will guarantee that no\ntwo rows in that table can have the same value for the columns\nparticipating in that index, with the ability to insert only one unique\nNULL value to these columns, if the column allows NULL.\nUNIQUE Constraints in SQL\nLet us create a small table with two columns, ID and Name.\n\nThe ID\ncolumn cannot hold duplicate values due to the UNIQUE constraint\nspecified with the column definition."
+    },
+    {
+      "index": 6,
+      "panjang_karakter": 774,
+      "text": "The ID\ncolumn cannot hold duplicate values due to the UNIQUE constraint\nspecified with the column definition.\n\nNo restriction defined on the\nName column, as in the CREATE TABLE T-SQL statement below:\nUSE SQLShackDemo\nGO\nCREATE TABLE ConstraintDemo2\n(\nID INT UNIQUE,\nName VARCHAR(50) NULL\n)\nexercise\nINSERT INTO ConstraintDemo2 ([ID],[NAME]) VALUES (1,'Ali')\nGO\nINSERT INTO ConstraintDemo2 ([ID],[NAME]) VALUES (2,'Ali')\nGO\nINSERT INTO ConstraintDemo2 ([ID],[NAME]) VALUES (NULL,'Adel')\nGO\nINSERT INTO ConstraintDemo2 ([ID],[NAME]) VALUES (1,'Faris')\nThe first two records will be inserted successfully, with no constraint preventing\nduplicate values of the Name column.\n\nThe third record will be inserted successfully\ntoo, as the unique ID column allows only one NULL value."
+    },
+    {
+      "index": 7,
+      "panjang_karakter": 1176,
+      "text": "The last INSERT\nstatement will fail, as the ID column doesn't allow duplicate values and the\nprovided ID value is already inserted to that column, as shown in the error message\nbelow:\nEXERCISE\nThe three inserted rows will be as shown below:\nINFORMATION SCHEMA\nSELECT CONSTRAINT_NAME,\nTABLE_SCHEMA ,\nTABLE_NAME,\nCONSTRAINT_TYPE\nFROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS\nWHERE TABLE_NAME='ConstraintDemo2'\nDrop constraint unique\nUsing the constraint name retrieved from the\nINFORMATION_SCHEMA.TABLE_CONSTRAINTS system object, we can drop the\nUNIQUE constraint using the ALTER TABLE...DROP CONSTRAINT in SQL T-SQL\ncommand below:\nALTER TABLE ConstraintDemo2 DROP CONSTRAINT\n[UQ__Constrai__3214EC26B928E528]\nInsert duplicate values\nADD constraint Unique\nTrying to add the UNIQUE constraint in SQL again using the ALTER\nTABLE...ADD CONSTRAINT T-SQL command below:\nALTER TABLE ConstraintDemo2 ADD CONSTRAINT UQ__Constrai\nUNIQUE (ID)\nGO\nConstraint Unique\nChecking the inserted data, the duplicate values will be clear as shown\nbelow:\nPRIMARY KEY Constraint\nThe PRIMARY KEY constraint consists of one column or multiple\ncolumns with values that uniquely identify each row in the table."
+    },
+    {
+      "index": 8,
+      "panjang_karakter": 946,
+      "text": "The SQL PRIMARY KEY constraint combines between the UNIQUE and\nSQL NOT NULL constraints, where the column or set of columns that\nare participating in the PRIMARY KEY cannot accept a NULL value.\n\nIf the\nPRIMARY KEY is defined in multiple columns, you can insert duplicate\nvalues on each column individually, but the combination values of all\nPRIMARY KEY columns must be unique.\nPRIMARY KEY Constraint\n\n\nIn addition to providing fast access to the table data, the index that is\nautomatically created, when defining the SQL PRIMARY KEY, will\nenforce the data uniqueness.\n\nThe PRIMARY KEY is used mainly to\nenforce the entity integrity of the table.\n\nEntity integrity ensures that\neach row in the table is a uniquely identifiable entity.\nPRIMARY KEY Constraint\nPRIMARY KEY constraint differs from the UNIQUE constraint in that;\nyou can create multiple UNIQUE constraints in a table, with the ability\nto define only one SQL PRIMARY KEY per each table."
+    },
+    {
+      "index": 9,
+      "panjang_karakter": 740,
+      "text": "Another\ndifference is that the UNIQUE constraint allows for one NULL value,\nbut the PRIMARY KEY does not allow NULL values.\nPrimary key Constraint\nUSE SQLShackDemo\nGO\nCREATE TABLE ConstraintDemo3\n(\nID INT PRIMARY KEY,\nName VARCHAR(50) NULL\n)\n\n\nIf you try to run the three INSERT statements below:\nINSERT INTO ConstraintDemo3 ([ID],[NAME]) VALUES (1,'John')\nGO\nINSERT INTO ConstraintDemo3 ([NAME]) VALUES ('Fadi')\nGO\nINSERT INTO ConstraintDemo3 ([ID],[NAME]) VALUES (1,'Saeed')\nGO\nPrimary key constraint\nYou will see that the first record will be inserted successfully as both the ID and\nName values are valid.\n\nThe second insert operation will fail, as the ID column is\nmandatory and cannot be NULL, as the ID column is the SQL PRIMARY KEY."
+    },
+    {
+      "index": 10,
+      "panjang_karakter": 954,
+      "text": "The second insert operation will fail, as the ID column is\nmandatory and cannot be NULL, as the ID column is the SQL PRIMARY KEY.\n\nThe last\nINSERT statement will fail too as the provided ID value already exists and the\nduplicate values are not allowed in the PRIMARY KEY, as shown in the error\nmessage below:\n\nDROP CONSTRAINT PRIMARY KEY\nSELECT CONSTRAINT_NAME,\nTABLE_SCHEMA ,\nTABLE_NAME,\nCONSTRAINT_TYPE\nFROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS\nWHERE TABLE_NAME='ConstraintDemo3'\nWith the below result in our example:\nThe ALTER TABLE...DROP CONSTRAINT T-SQL statement can be used easily to drop\nthe previously defined PRIMARY KEY using the name derived from the previous\nresult:\nDROP CONSTRAINT PRIMARY KEY\nALTER TABLE ConstraintDemo3\nDROP CONSTRAINT PK__Constrai__3214EC27E0BEB1C4;\n\n\nIf you try to execute the previously failed two INSERT statements, you\nwill see that the first record will not be inserted as the ID column does\nnot allow NULL values."
+    },
+    {
+      "index": 11,
+      "panjang_karakter": 1031,
+      "text": "The second record will be inserted successfully\nas these is nothing prevent the duplicate values from being inserted\nafter dropping the SQL PRIMARY KEY, as shown below:\nConstraint primary key\nConstraint primary key\nALTER TABLE ConstraintDemo3\nADD PRIMARY KEY (ID);\nThe operation will fail, as while checking the existing ID values first for any NULL or\nduplicate values, SQL Server finds a duplicate ID value of 1 as shown in the error\nmessage below:\nFOREIGN KEY CONSTRAINT\nA Foreign Key is a database key that is used to link two tables together.\nThe FOREIGN KEY constraint identifies the relationships between the\ndatabase tables by referencing a column, or set of columns, in the Child\ntable that contains the foreign key, to the PRIMARY KEY column or set\nof columns, in the Parent table.\nThe FOREIGN KEY constraint differs from the PRIMARY KEY constraint in\nthat, you can create only one PRIMARY KEY per each table, with the\nability to create multiple FOREIGN KEY constraints in each table by\nreferencing multiple parent table."
+    },
+    {
+      "index": 12,
+      "panjang_karakter": 884,
+      "text": "Another difference is that the\nFOREIGN KEY allows inserting NULL values if there is no NOT NULL\nconstraint defined on this key, but the PRIMARY KEY does not accept\nNULLs.\nFOREIGN KEY CONSTRAINT\nThe FOREIGN KEY constraint provides you also with the ability to\ncontrol what action will be taken when the referenced value in the\nparent table is updated or deleted, using the ON UPDATE and ON\nDELETE clauses.\n\nThe supported actions that can be taken when\ndeleting or updating the parent table's values include:\nFOREIGN KEY CONSTRAINT\nNO ACTION:\n\nWhen the ON UPDATE or ON DELETE clauses are set to NO\nACTION, the performed update or delete operation in the parent table will\nfail with an error.\nCASCADE: Setting the ON UPDATE or ON DELETE clauses to CASCADE, the\nsame action performed on the referenced values of the parent table will be\nreflected to the related values in the child table."
+    },
+    {
+      "index": 13,
+      "panjang_karakter": 132,
+      "text": "For example, if the\nreferenced value is deleted in the parent table, all related rows in the child\ntable are also deleted.\nSET NULL:"
+    },
+    {
+      "index": 14,
+      "panjang_karakter": 988,
+      "text": "With this ON UPDATE and ON DELETE clauses option, if the\nreferenced values in the parent table are deleted or modified, all related\nvalues in the child table are set to NULL value.\nSET DEFAULT: Using the SET DEFAULT option of the ON UPDATE and ON\nDELETE clauses specifies that, if the referenced values in the parent table\nare updated or deleted, the related values in the child table with FOREIGN\nKEY columns will be set to its default value.\nEXERCISE\nUSE SQLShackDemo\nGO\nCREATE TABLE ConstraintDemoParent\n(\nID INT PRIMARY KEY,\nName VARCHAR(50) NULL\n)\nGO\nCREATE TABLE ConstraintDemoChild\n(\nCID INT PRIMARY KEY,\nID INT FOREIGN KEY REFERENCES ConstraintDemoParent(ID)\n)\nEXERCISE\nINSERT INTO ConstraintDemoParent ([ID],[NAME]) VALUES\n(1,'John'),(2,'Mika'),(3,'Sanya')\nGO\nINSERT INTO ConstraintDemoChild (CID,ID) VALUES (1,1)\nGO\nINSERT INTO ConstraintDemoChild (CID,ID) VALUES (2,4)\nGO\nEXERCISE\nThe result will show you that the three records are successfully inserted\ninto the parent table."
+    },
+    {
+      "index": 15,
+      "panjang_karakter": 725,
+      "text": "The first record that we tried to insert into the\nchild table is inserted without any error as the ID value of 1 already\nexists in the parent table.\n\nTrying to insert the second record into the\nchild table will fail because the ID value of 4 doesn't exist in the parent\ntable, and due to the FOREIGN KEY constraint, you will not be able to\ninsert an ID value to the child table that doesn't exist in the parent\ntable:\nEXERCISE\nEXERCISE\nSELECT CONSTRAINT_NAME,\nTABLE_SCHEMA ,\nTABLE_NAME,\nCONSTRAINT_TYPE\nFROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS\nWHERE TABLE_NAME='ConstraintDemoChild'\nDrop foreign key constraint\nThen we can easily use the previous result to drop the FOREIGN KEY\nconstraint using the following\nALTER TABEL ..."
+    },
+    {
+      "index": 16,
+      "panjang_karakter": 1062,
+      "text": "DROP CONSTRAINT T-SQL statement:\nALTER TABLE ConstraintDemoChild\nDROP CONSTRAINT FK__ConstraintDe__ID__0B91BA14;\nDrop foreign key constraint\nTrying to insert the second record into the child table again, the insert\noperation will succeed without any error as shown below:\nAdd FOREIGN KEY constraint\nALTER TABLE ConstraintDemoChild\nADD CONSTRAINT FK__ConstraintDe__ID\nFOREIGN KEY (ID) REFERENCES ConstraintDemoParent(ID);\nThe operation will fail, as the ID value of 4 does not exist in the parent\ntable and breaks the referential integrity between the child and parent\ntables, as seen in the following error message:\nAdd FOREIGN KEY constraint\nNow the FOREIGN KEY constraint will be created successfully without\nany error as shown below:\nUPDATE [dbo].[ConstraintDemoChild] SET ID =2 WHERE ID = 4\nhttps://www.sqlshack.com/commonly-used-sql-server-constraints-\nforeign-key-check-default/\nCHECK Constraint\nA CHECK constraint is defined on a column or set of columns to\nlimit the range of values, that can be inserted into these columns,\nusing a predefined condition."
+    },
+    {
+      "index": 17,
+      "panjang_karakter": 658,
+      "text": "The CHECK constraint comes into\naction to evaluate the inserted or modified values, where the\nvalue that satisfies the condition will be inserted into the table,\notherwise, the insert operation will be discarded.\n\nIt is allowed to\nspecify multiple CHECK constraints for the same column.\nCHECK Constraint\nDefining the CHECK constraint condition is somehow similar to\nwriting the WHERE clause of a query, using the different\ncomparison operators, such as AND, OR, BETWEEN, IN, LIKE and\nIS NULL to write its Boolean expression that will return TRUE,\nFALSE\nor\nUNKNOWN.\nThe\nCHECK\nconstraint\nwill\nreturn\nUNKNOWN value when a NULL value is present in the condition."
+    },
+    {
+      "index": 18,
+      "panjang_karakter": 827,
+      "text": "The CHECK constraint is used mainly to enforce the domain\nintegrity by limiting the inserted values to the ones that follow\nthe defined values, range or format rules.\nCheck constraint exercise\nLet us create a new simple table that has three columns; the ID column that\nis considered as the PRIMARY KEY of that table, Name, and Salary.\nCREATE TABLE ConstraintDemo4\n(\nID INT PRIMARY KEY,\nName VARCHAR(50) NULL,\nSalary INT CHECK (Salary>0)\n)\nGO\nINSERT INTO ConstraintDemo4 ([ID],[NAME],Salary) VALUES (1,'John',350)\nGO\nINSERT INTO ConstraintDemo4 ([ID],[NAME],Salary) VALUES (2,'Mike',0)\nGO\nINSERT INTO ConstraintDemo4 ([ID],[NAME],Salary) VALUES (3,'Nikola',-72)\nGO\nCHECK CONSTRAINT\n\n\nIt is clear from the generated result that the first record is inserted\nwith no error as the provided Salary value meets the checking\ncondition."
+    },
+    {
+      "index": 19,
+      "panjang_karakter": 791,
+      "text": "It is clear from the generated result that the first record is inserted\nwith no error as the provided Salary value meets the checking\ncondition.\n\nThe second and third INSERT statements will fail, as the\nprovided Salary values do not meet the CHECK constraint condition\ndue to inserting zero and negative Salary values, as you can see in the\nfollowing error message:\nCHECK CONSTRAINT\nCHECK CONSTRAINT\n\n\nWe mentioned earlier in this article that the CHECK constraint allows\ninserting NULL values if the participated columns allow NULL, and the\nNULL values will be evaluated as UNKNOWN without throwing any\nerror.\nCHECK CONSTRAINT\n\n\nIf you review the CHECK constraint definition in the previous CREATE TABLE\nstatement, you will see that we have not mentioned the name of the defined\nconstraint."
+    },
+    {
+      "index": 20,
+      "panjang_karakter": 895,
+      "text": "If you review the CHECK constraint definition in the previous CREATE TABLE\nstatement, you will see that we have not mentioned the name of the defined\nconstraint.\n\nIn this case, SQL Server will assign a unique name for that constraint\nthat can be shown by querying the INFORMATION_SCHEMA.TABLE_CONSTRAINTS\nsystem view for the ConstraintDemo4 table.\nSELECT CONSTRAINT_NAME,\nTABLE_SCHEMA ,\nTABLE_NAME,\nCONSTRAINT_TYPE\nFROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS\nWHERE TABLE_NAME='ConstraintDemo4'\nDROP CHECK CONSTRAINT\nThe CHECK constraint can be dropped using the ALTER TABLE T-SQL\nstatement.\n\nUsing the CHCEK constraint name we got previously,\nALTER TABLE ConstraintDemo4\nDROP CONSTRAINT CK__Constrain__Salar__0F624AF8;\nDROP CHECK CONSTRAINT\nADD CHECK CONSTRAINT\n\n\nTo be able to define the CHECK constraint again, we should modify or delete the\ndata that prevents the constraint from being created."
+    },
+    {
+      "index": 21,
+      "panjang_karakter": 900,
+      "text": "To be able to define the CHECK constraint again, we should modify or delete the\ndata that prevents the constraint from being created.\n\nWe will try modifying the\nSalary amount of the two records that break the constraint condition to a valid\npositive value, as in the following UPDATE statemenT\nUPDATE ConstraintDemo4 SET Salary =300 WHERE ID IN (2,3)\nNow, the CHECK constraint can be defined with no issue as shown below:\nDISABLE CHECK CONSTRAINT\nSQL Server allows you to disable the CHECK constraint for special cases, such as\ninserting huge amount of data without caring about meeting the constraint\ncondition for testing purposes, or due to changing in the business logic.\n\nT\nALTER TABLE ConstraintDemo4 NOCHECK CONSTRAINT\nCK__Constrain__Salar\nTrying to insert a negative Salary value will not fail, as there is no validation check\nperformed on that column, as shown below:\nENABLE CHECK CONSTRAINT"
+    },
+    {
+      "index": 22,
+      "panjang_karakter": 743,
+      "text": "If you try to drop the CHECK constraint and create it again using the NOCHECK\noption, you will see that the constraint is created without checking the existing\ndata, as shown below:\nDEFAULT Constraint\nA DEFAULT constraint is used to provide a default column value for the inserted rows if no\nvalue is specified for that column in the INSERT statement.\n\nThe Default constraint helps in\nmaintaining the domain integrity by providing proper values for the column, in case the\nuser does not provide a value for it.\n\nThe default value can be a constant value, a system\nfunction value or NULL.\nExample:\nCREATE TABLE ConstraintDemo5\n(\nID INT PRIMARY KEY,\nName VARCHAR(50) NULL,\nEmployeeDate DATETIME NOT NULL DEFAULT GETDATE()\n)\nGO\nDEFAULT Constraint"
+    },
+    {
+      "index": 23,
+      "panjang_karakter": 848,
+      "text": "If we execute the two INSERT statements below:\nINSERT INTO ConstraintDemo5 ([ID],[NAME],EmployeeDate) VALUES\n(1,'Lorance','2016/10/22')\nGO\nINSERT INTO ConstraintDemo5 ([ID],[NAME]) VALUES (2,'Shady')\nGO\nDROP DEFAULT Constraint\nExpanding the Constraints node under the current table will show us\nthe created DEFAULT constraint name, recalling that SQL Server will\nassign a unique name for it if we do not provide a name for it, as shown\nbelow:\nDROP DEFAULT Constraint\nThe DEFAULT constraint can be easily dropped using the ALTER TABLE\n...\n\nDROP CONSTRAINT T-SQL command below:\nALTER TABLE ConstraintDemo5\nDROP CONSTRAINT DF__Constrain__Emplo__1332DBDC;\nADD DEFAULT Constraint\nAnd created using the ALTER TABLE ...ADD CONSTRAINT T-SQL\ncommand below:\nALTER TABLE ConstraintDemo5\nAdd Constraint DF__Constrain__Emplo\nDEFAULT (GETDATE())\nFOR EmployeeDate"
+    }
+  ]
+}

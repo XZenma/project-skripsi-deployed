@@ -1,0 +1,13 @@
+{
+  "filename": "ISB-204 Week3 Tugas Mandiri.txt",
+  "matkul": "Struktur Data",
+  "teknik": "fixed",
+  "total_chunks": 1,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 533,
+      "text": "Tugas Mandiri TM-03\n\n1. Pasangan Bilangan\nInput: 1, 3, 4, 5\nOutput: 13, 14, 15, 34, 35, 45\n\nBuatlah analisis Time Complexity dari program tersebut!\n\n2. Pasangan Bilangan Matriks\n\nBuatlah analisis Time Complexity dari program tersebut!\n\n3. Pasangan Bilangan Bersarang\n\nBuatlah analisis Time Complexity dari program tersebut!\n4. Perpangkatan Rekursif\n\nBuatlah analisis Time Complexity dari program tersebut!\n\n5. Mana saja Notasi Big O berikut yang setara dengan O(n)?\nO(n + p), dimana p < n/2\nO(2n)\nO(n + log n)\nO(n + n log n)\nO(n + m)"
+    }
+  ]
+}

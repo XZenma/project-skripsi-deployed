@@ -1,0 +1,159 @@
+Store procedure
+Praktikum ISB 212 - Basisdata | Modul 5
+Apa itu store procedure?
+Store procedure merupakan kumpulan perintah yang disimpan
+dengan nama tertentu dan diproses sebagai satu kesatuan.
+Procedure ini dapat menerima input, menghasilkan output, berisi
+satu atau lebih operasi database, serta bisa memanggil
+procedure lain, dengan hasil berupa status berhasil atau gagal.
+Keuntungan Menggunakan Store Procedure
+Portabilitas: Bisa digunakan oleh berbagai aplikasi karena tersimpan di
+server database
+Performa lebih cepat: Diproses di server sehingga tidak membebani client
+Keamanan lebih baik: Business logic tersimpan di server dan dapat
+dienkripsi sehingga tidak mudah diakses pengguna
+Sintaks Umum store procedure
+dengan parameter output
+Create procedure nama_procedure @var <tipe data> output
+As
+Begin
+Query
+END
+go
+@var <tipe data> output merupakan variabel output
+dengan tipedata dan menandakan bahwa variabel
+yang digunakan akan mengembalikan nilai.
+AS menjadi penanda awal dari store procedure.
+Seluruh proses dilakukan di dalam Begin sampai End
+dan menyimpan isi query.
+Cara menjalankan Query
+Declare @var1 <tipedata>
+Exec <nama_prosedure> @var1 output
+Select @var1
+Go
+Declare digunakan untuk membuat variabel hasil dan tipe data
+harus sama dengan yang diinputkan saat membuat store
+procedure.
+Exec untuk menjalankan store procedure, @var1 output untuk
+mengambil dan menyimpan nilai hasil dari procedure.
+Select @var1 untuk menampilkan hasil yang sudah disimpan di
+dalam variabel.
+Contoh query
+Stored Procedure dengan Parameter Output
+CREATE PROCEDURE dbo.sp_total_customer
+@total_customer INT OUTPUT
+AS
+BEGIN
+SELECT @total_customer = COUNT(*)
+FROM customers
+END
+GO
+DECLARE @hasil INT
+EXEC dbo.sp_total_customer @hasil OUTPUT
+SELECT @hasil AS Total_Customer
+Menghitung total customer
+Store prosedur dengan satu variabel
+input dan satu variabel output
+Create procedure <nama_prosedure>
+@var_input <tipe data > , @var_output <tipe data>
+OUTPUT
+As
+Begin
+query
+end
+go
+@var_input merupakan variabel input yang digunakan
+sebagai parameter untuk proses dalam query contoh :
+id_customer/nama_produk.
+@var_output merupakan variabel output atau hasil dari
+proses yang digunakan untuk mengembalikan nilai dari
+procedure.
+Cara Menjalankan Query
+Declare @var_output <tipedata>
+Exec <nama_prosedure> <nilai variabel input>
+@var_output OUTPUT
+Select @var_output as 'nama kolom'
+Exec untuk menjalankan store procedure dan nilai input
+merupakan nilai yang dimasukkan ke parameter input dan
+@var_output Output akan mengambil dan menyimpan
+hasil dari procedure.
+Select akan menampilkan hasil output dan As untuk
+memberi nama tampilan di hasil.
+Contoh query store procedure
+Satu variabel input dan satu variabel output
+CREATE PROCEDURE dbo.sp_kota_customer
+@id_customer INT,
+@kota VARCHAR(25) OUTPUT
+AS
+BEGIN
+SELECT @kota = city
+FROM customers
+WHERE customer_id = @id_customer
+END
+GO
+DECLARE @hasil VARCHAR(25)
+EXEC dbo.sp_kota_customer 3, @hasil OUTPUT
+SELECT @hasil AS Kota
+Menampilkan kota customer bedasarkan ID.
+Store prosedur dengan dua variabel
+input dan satu variabel output.
+@var_input1 adalah parameter input pertama yang nilainya
+akan digunakan dalam proses.
+@var_input2
+adalah
+parameter
+input
+kedua
+yang
+akan
+digunakan bersama input1, contoh : ID_customer dan tanggal.
+@var_output
+<tipedata>
+Output
+digunakan
+untuk
+mengembalikan nilai dari procedure.
+Create procedure <nama_prosedure>
+@var_input1 <tipe data > , @var_input2 <tipe data> ,
+@var_output <tipe data> OUTPUT
+As
+Begin
+Query
+end
+go
+Cara menjalankan Query
+Exec nama_procedure untuk menjalan store procedure dengan
+nilai var_input1 adalah nilai untuk parameter input pertama dan
+nilai var_input2 adalah nilai untuk parameter input kedua,
+@var_output OUTPUT adalah mengambil hasil dan menyimpan
+dari procedure.
+Select untuk menampilkan hasil output dengan @var_output
+dan As untuk memberi nama kolom hasil.
+Declare @var_output <tipedata>
+Exec <nama_prosedure> <nilai variabel input1>, <nilai
+variabel input2> @var_output OUTPUT
+Select @var_output as 'nama kolom'
+Contoh query Store Procedure
+dua variabel input dan satu variabel output
+CREATE PROCEDURE dbo.sp_harga_produk
+@nama_produk VARCHAR(40),
+@finish VARCHAR(25),
+@harga DECIMAL(6,2) OUTPUT
+AS
+BEGIN
+SELECT @harga = unit_price
+FROM products
+WHERE product_name = @nama_produk
+AND product_finish = @finish
+END
+GO
+DECLARE @hasil DECIMAL(6,2)
+EXEC dbo.sp_harga_produk 'Writers Desk', 'Maple
+@hasil OUTPUT
+SELECT @hasil AS Harga
+Menampilkan
+harga
+produk
+bedasarkan
+nama dan produk finish.
+Thank you very much!

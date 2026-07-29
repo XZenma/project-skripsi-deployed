@@ -1,0 +1,18 @@
+{
+  "filename": "Week13 DecisionTreeAnalysis-EMV (1).txt",
+  "matkul": "Manajemen Proyek Sistem informasi",
+  "teknik": "semantic",
+  "total_chunks": 2,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 316,
+      "text": "Case 1 : Analisa EMV\nMisalkan organisasi Anda harus memutuskan\nmana dari empat proyek yang akan ditawar,\nseperti yang dirangkum dalam tabel berikut. Asumsikan bahwa semua investasi di muka\ntidak diperoleh kembali, sehingga ditampilkan\nsebagai keuntungan negatif. Gambarlah diagram dan hitung EMV untuk\nsetiap proyek."
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 417,
+      "text": "Tulis beberapa paragraf yang\nmenjelaskan proyek mana yang akan Anda\ntawarkan. Pastikan untuk menggunakan informasi EMV\ndan toleransi risiko pribadi Anda untuk\nmembenarkan jawaban Anda\nSOFIA UMAROH\nProject\nChance of\noutcome\nEstimated\nProfits\nProject 1\n50%\n$120.000\n50%\n-$50,000\nProject 2\n30%\n$100.000\n40%\n$50.000\n30%\n-$60,000\nProject 3\n70%\n$20.000\n30%\n-$5,000\nProject 4\n30%\n$40.000\n30%\n$30.000\n20%\n$20,000\n20%\n-$50,000"
+    }
+  ]
+}

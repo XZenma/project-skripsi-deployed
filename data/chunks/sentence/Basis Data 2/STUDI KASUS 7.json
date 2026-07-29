@@ -1,0 +1,13 @@
+{
+  "filename": "STUDI KASUS 7.txt",
+  "matkul": "Basis Data 2",
+  "teknik": "sentence",
+  "total_chunks": 1,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 975,
+      "text": "STUDI KASUS 7\n\nA database is to be designed for a college to monitor student's progress throughout\ntheir course of study.\n\n\n\nThe students are reading for a degree (such as BA, BA(Hons) MSc, etc) withinthe\nframework of the modular system.\n\n\n\nThe college provides a number of module, each being characterised by its code, title,\ncredit value, module leader,teaching staff and the department they come from.\n\n\n\nA module is co-ordinated by a module leader who shares teaching duties with one or\nmore lecturers.\n\n\n\nA lecturer may teach (and be a module leader for) more than one module.\n\n\n\nStudents are free to choose any module they wish but the following rules must be\nobserved: some modules require pre-requisites modules and some degree programmes\nhave compulsory modules.\n\n\n\nThe database is also to contain some information about students including their\nnumbers, names, addresses, degrees they read for, and their past performance (i.e.\nmodules taken and examination result."
+    }
+  ]
+}

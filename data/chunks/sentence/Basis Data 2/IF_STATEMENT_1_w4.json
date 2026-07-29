@@ -1,0 +1,48 @@
+{
+  "filename": "IF_STATEMENT_1_w4.txt",
+  "matkul": "Basis Data 2",
+  "teknik": "sentence",
+  "total_chunks": 8,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 757,
+      "text": "Introduction to IF STATEMENT\nISA 212 basisdata 2\nweek 4\nMira Musrini Barmawi\nIntroduction\nIn real life, we make decisions based on the conditions.\n\nFor example,\nlook at the following conditions.\n\n\nIf I get a performance bonus this year, I will go for international\nvacation or else I'll take a domestic vacation\nIf the weather becomes good, I will plan to go on a bike trip or else I\nwon't\n\n\nIn these examples, we decide as per the conditions.\n\nFor example, if I get a bonus\nthen only I will go for an international vacation else I will go for domestic vacations.\n\n\nWe need to incorporate these conditions-based decisions in programming logic as\nwell.\n\nSQL Server provides the capability to execute real-time programming logic\nusing SQL IF Statement.\nSyntax"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 970,
+      "text": "We need to incorporate these conditions-based decisions in programming logic as\nwell.\n\nSQL Server provides the capability to execute real-time programming logic\nusing SQL IF Statement.\nSyntax\n\n\nIn the following SQL IF Statement, it evaluates the expression, and if the condition is true, then it\nexecutes the statement mentioned in IF block otherwise statements within ELSE clause is executed.\nIF (Expression )\nBEGIN\n-- If the condition is TRUE then execute the following statement\nTrue Statements;\nEND\nELSE\nBEGIN\n-- If the condition is False then execute the following\nstatement\nFalse Statements\nEND\nFLOW CHART\nThe condition in SQL IF Statement should return a Boolean value to evaluate\n\n\nWe can specify a Select statement as well in a Boolean expression, but it should\nenclose in parentheses\nWe can use BEGIN and END in the IF Statement to identify a statement block\nThe ELSE condition is optional to use\nExample 2: IF Statement with a variable in a\nBoolean expression"
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 971,
+      "text": "In the following example, we use a variable in the Boolean expression to execute\nthe statement based on the condition.\n\nFor example, if a student obtained more\nthan 80% marks, he passes an examination else, he is failed.\nDECLARE @StudentMarks INT= 91;\nIF @StudentMarks >= 80\nPRINT 'Passed, Congratulations!!';\nELSE\nPRINT 'Failed, Try again ';\nExample 2: IF Statement with a variable in a\nBoolean expression\n\n\nIn the following example, we use a variable in the Boolean expression to execute\nthe statement based on the condition.\n\nFor example, if a student obtained more\nthan 80% marks, he passes an examination else, he is failed.\nDECLARE @StudentMarks INT= 91;\nIF @StudentMarks >= 80\nPRINT 'Passed, Congratulations!!';\nELSE\nPRINT 'Failed, Try again ';\nExample 2: IF Statement with a variable in a\nBoolean expression\nExample 3: Multiple IF Statement with a variable in a\nBoolean expression\n\n\nWe can specify multiple SQL IF Statements and execute the statement\naccordingly."
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 746,
+      "text": "We can specify multiple SQL IF Statements and execute the statement\naccordingly.\n\nLook at the following example\na.\n\nIf a student gets more than 90% marks, it should display a message\nfrom the first IF statement\nb.\n\nIf a student gets more than 80% marks, it should display a message\nfrom the second IF statement\nc.\n\nOtherwise, it should print the message mentioned in ELSE\nstatement\nExample 3: Multiple IF Statement with a variable in a\nBoolean expression\nDECLARE @StudentMarks INT= 91;\nIF @StudentMarks >= 90\nPRINT 'Congratulations, You are in Merit list!!';\nIF @StudentMarks >= 80\nPRINT 'Congratulations, You are in First division\nlist!!';\nELSE\nPRINT 'Failed, Try again ';\nExample 3: Multiple IF Statement with a variable in a\nBoolean expression"
+    },
+    {
+      "index": 5,
+      "panjang_karakter": 973,
+      "text": "In this example, student marks 91% satisfy the conditions for both SQL\nIF statements, and it prints a message for both SQL IF statements.\nExample 3: Multiple IF Statement with a variable in a\nBoolean expression\nWe do not want the condition to satisfy both SQL IF statements.\n\nWe\nshould define the condition appropriately.\nDECLARE @StudentMarks INT= 91;\nIF @StudentMarks >= 90\nPRINT 'Congratulations, You are in Merit list!!';\nIF @StudentMarks >= 80 and @StudentMarks < 90\nPRINT 'Congratulations, You are in First division list!!';\nELSE\nPRINT 'Failed, Try again ';\nExample 3: Multiple IF Statement with a variable in a\nBoolean expression\nIn the output, we can see the following\nFirst, IF statement condition is TRUE.\n\nIt prints the message inside the IF\nstatement block\nSecond, IF statement condition is FALSE, it does not print the message\ninside IF statement block\nIt executes the ELSE statement and prints the message for it.\n\nIn this\ncase, we have two SQL IF statements."
+    },
+    {
+      "index": 6,
+      "panjang_karakter": 926,
+      "text": "In this\ncase, we have two SQL IF statements.\n\nThe second IF statement\nevaluates to false, therefore, it executes corresponding ELSE statement\nExample 3: Multiple IF Statement with a variable in a\nBoolean expression\nExample 4: IF Statement without ELSE statement\n\n\nWe specified above that Else statement is optional to use.\n\nWe can use\nSQL IF statement without ELSE as well.\n\n\nIn the following, the expression evaluates to TRUE; therefore, it prints\nthe message.\nDECLARE @StudentMarks INT= 95;\nIF @StudentMarks >= 90\nPRINT 'Congratulations, You are in Merit list!!';\nExample 4: IF Statement without ELSE statement\nExample 4: IF Statement without ELSE statement\nif the expression evaluates to FALSE, it does not return any output.\n\nWe\nshould use ELSE statement so that if an evaluation is not TRUE, we can\nset default output.\nExample 6: IF with BEGIN and END block\nWe can use BEGIN and END statement block in a SQL IF statement."
+    },
+    {
+      "index": 7,
+      "panjang_karakter": 738,
+      "text": "We\nshould use ELSE statement so that if an evaluation is not TRUE, we can\nset default output.\nExample 6: IF with BEGIN and END block\nWe can use BEGIN and END statement block in a SQL IF statement.\n\nOnce a\ncondition is satisfied, it executes the code inside the corresponding BEGIN and End\nblock.\nDECLARE @StudentMarks INT= 70;\nIF @StudentMarks >= 90\nBEGIN\nPRINT 'Congratulations, You are in Merit list!!';\nEND;\nELSE\nBEGIN\nPRINT 'Failed, Try again ';\nEND;\nExample 6: IF with BEGIN and END block\nExample 6: IF with BEGIN and END block\n\n\nWe can specify multiple statements as well with SQL IF statement and\nBEGIN END blocks.\n\nIn the following query, we want to print a message\nfrom two print statements once a condition is satisfied.\n\n\nNote:"
+    },
+    {
+      "index": 8,
+      "panjang_karakter": 506,
+      "text": "In the following query, we want to print a message\nfrom two print statements once a condition is satisfied.\n\n\nNote:\n\nWe should have an END statement with corresponding BEGIN\nblock.\nExample 6: IF with BEGIN and END block\nDECLARE @StudentMarks INT= 70;\nIF @StudentMarks >= 90\nBEGIN\nPRINT 'Congratulations, You are in Merit list!!';\nPrint 'Second statement.'\nEND;\nELSE\nBEGIN\nPRINT 'Failed,Try again ';\nPrint 'Second ELSE statement'\nEND;\nExample 6: IF with BEGIN and END block\nSTORE PROCEDURE WITH IF STATEMENT"
+    }
+  ]
+}

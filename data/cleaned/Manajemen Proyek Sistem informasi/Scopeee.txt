@@ -1,0 +1,132 @@
+The Project Management Process Groups
+111
+3. List what you believe to be the main deliverables for this project.
+4. Which deliverables do you think you will help create or review?
+Erica collected everyone's inputs. She explained that she would take this information
+and work with Jessie to develop the first draft of the scope statement that she would
+e-mail to everyone by the end of the week. She also suggested that they all meet again in
+one week to develop the scope statement further and to start creating the WBS for the
+project.
+Erica and Jessie reviewed all the information and created the first draft of the scope
+statement. At their next team meeting, they discussed the scope statement and got a good
+start on the WBS. Table 3-9 shows a portion of the scope statement that Erica created
+after a few more e-mails and another team meeting. Note that the scope statement lists
+the product characteristics and requirements, summarizes the deliverables, and describes
+project success criteria in detail.
+Project Title: Project Management Intranet Site Project
+Date: May 18
+Prepared by: Erica Bell, Project Manager, erica_bell@jwdconsulting.com
+Project Summary and Justification: Joe Fleming, CEO of JWD Consulting, requested
+this project to assist the company in meeting its strategic goals. The new intranet site
+will increase visibility of the company's expertise to current and potential clients. It will
+also help reduce internal costs and improve profitability by providing standard tools,
+techniques, templates, and project management knowledge to all internal consultants.
+The budget for the project is $140,000. An additional $40,000 per year will be required
+for operational expenses after the project is completed. Estimated benefits are
+$200,000 each year. It is important to focus on the system paying for itself within one
+year of its completion.
+Product Characteristics and Requirements:
+1. Templates and tools: The intranet site will allow authorized users to download
+files they can use to create project management documents and to help them use
+project management tools. These files will be in Microsoft Word, Excel, Access,
+Project, or in HTML or PDF format, as appropriate.
+2. User submissions: Users will be encouraged to e-mail files with sample templates
+and tools to the Webmaster. The Webmaster will forward the files to the
+appropriate person for review and then post the files to the intranet site, if desired.
+3. Articles: Articles posted on the intranet site will have appropriate copyright
+permission. The preferred format for articles will be PDF. The project manager may
+approve other formats.
+4. Requests for articles: The intranet site will include a section for users to ask
+someone from the Project Management Office (PMO) at JWD Consulting to
+research appropriate articles for them. The PMO manager must first approve the
+request and negotiate payments, if appropriate.
+TABLE 3-9 Scope statement draft
+(continued)
+Chapter 3
+112
+5. Links: All links to external sites will be tested on a weekly basis. Broken links will
+be fixed or removed within five working days of discovery.
+6. The Ask the Expert feature must be user-friendly and capable of soliciting
+questions and immediately acknowledging that the question has been received in
+the proper format. The feature must also be capable of forwarding the question to
+the appropriate expert (as maintained in the system's expert database) and capable
+of providing the status of questions that are answered. The system must also allow
+for payment for advice, if appropriate.
+7. Security: The intranet site must provide several levels of security. All internal
+employees will have access to the entire intranet site when they enter their
+security information to access the main, corporate intranet. Part of the intranet
+will be available to the public from the corporate website. Other portions of the
+intranet will be available to current clients based on verification with the current
+client database. Other portions of the intranet will be available after negotiating a
+fee or entering a fixed payment using pre-authorized payment methods.
+8. Search feature: The intranet site must include a search feature for users to search
+by topic and key words.
+9. The intranet site must be accessible using a company-approved Internet browser.
+Users must have appropriate application software to open several of the templates
+and tools.
+10. The intranet site must be available 24 hours a day, 7 days a week, with one
+hour per week for system maintenance and other periodic maintenance, as
+appropriate.
+Summary of Project Deliverables
+Project management-related deliverables: Business case, project charter, team
+charter, scope statement, WBS, schedule, cost baseline, progress reports, final project
+presentation, final project report, lessons-learned report, and any other documents
+required to manage the project.
+Product-related deliverables:
+1. Survey: Survey current consultants and clients to help determine desired content
+and features for the intranet site.
+2. Files for templates: The intranet site will include templates for at least
+20 documents when the system is first implemented, and it will have the
+capacity to store up to 100 documents. The project team will decide on the initial
+20 templates based on survey results.
+3. Examples of completed templates: The intranet site will include examples of
+projects that have used the templates available on the site. For example, if there is
+a template for a business case, there will also be an example of a real business case
+that uses the template.
+TABLE 3-9 Scope statement draft (continued)
+(continued)
+The Project Management Process Groups
+113
+4. Instructions for using project management tools: The intranet site will include
+information on how to use several project management tools, including the
+following as a minimum: work breakdown structures, Gantt charts, network
+diagrams, cost estimates, and earned value management. Where appropriate,
+sample files will be provided in the application software appropriate for the
+tool. For example, Microsoft Project files will be available to show sample work
+breakdown structures, Gantt charts, network diagrams, cost estimates, and
+applications of earned value management. Excel files will be available for sample
+cost estimates and earned value management charts.
+5. Example applications of tools: The intranet site will include examples of real
+projects that have applied the tools listed in number 4.
+6. Articles: The intranet site will include at least 10 useful articles about relevant
+topics in project management. The intranet site will have the capacity to store at
+least 1,000 articles in PDF format with an average length of 10 pages each.
+7. Links: The intranet site will include links with brief descriptions for at least 20
+useful sites. The links will be categorized into meaningful groups.
+8. Expert database: In order to deliver an Ask the Expert feature, the system must
+include and access a database of approved experts and their contact information.
+Users will be able to search for experts by predefined topics.
+9. User Requests feature: The intranet site will include an application to solicit and
+process requests from users.
+10. Intranet site design: An initial design of the new intranet site will include a site
+map, suggested formats, and appropriate graphics. The final design will incorporate
+comments from users on the initial design.
+11. Intranet site content: The intranet site will include content for the templates and
+tools sections, articles section, article retrieval section, links section, Ask the
+Expert section, User Requests feature, security, and payment features.
+12. Test plan: The test plan will document how the intranet site will be tested, who will
+do the testing, and how bugs will be reported.
+13. Promotion: A plan for promoting the intranet site internally and externally will
+describe various approaches for soliciting inputs during design. The promotion
+plan will also announce the availability of the new intranet site.
+14. Project benefit measurement plan: A project benefit plan will measure the financial
+value of the intranet site.
+Project Success Criteria: Our goal is to complete this project within six months for no
+more than $140,000. The project sponsor, Joe Fleming, has emphasized the importance
+of the project paying for itself within one year after the site is complete. To meet this
+financial goal, the intranet site must have strong user inputs. We must also develop a
+method for capturing the benefits while the intranet site is being developed and tested,
+and after it is rolled out. If the project takes a little longer to complete or costs a little
+more than planned, the firm will still view it as a success if it has a good payback and
+helps promote the firm's image as an excellent consulting organization.
+TABLE 3-9 Scope statement draft (continued)

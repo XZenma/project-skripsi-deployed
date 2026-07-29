@@ -1,0 +1,66 @@
+TM-01
+E-COMMERCE - FUNCT. REQUIREMENTS
+ISB-202 Rekayasa Perangkat Lunak
+KURNIA RAMADHAN PUTRA, S.KOM., M.T.
+DESKRIPSI
+SISTEM
+POSTERPEDIA.COM
+Di era digital saat ini, komunikasi memiliki peranan penting dalam praktek bisnis dan organisasi terutama
+pada upaya membangun brand. Pesatnya perkembangan teknologi dan jangkauan internet telah
+mendorong perkembangan komunikasi konvensional menjadi tanpa batas. Komunikasi brand dapat
+membantu pelaku bisnis tidak hanya dalam menjual produknya, namun juga dapat menginspirasi
+pelanggan agar dapat mengidentifikasi brand tersebut. Bentuk komunikasi brand suatu bisnis dapat
+dilakukan dengan memanfaatkan media sosial, blog pribadi, dan website e-commerce sebagai upaya
+meningkatkan komunikasi dengan target pelanggan, jangkauan pemasaran yang lebih luas dan kesadaran
+pelangganterhadap brand yang ditawarkan. Pertumbuhan pasar e-commerce di Indonesia yang meningkat
+17% dalam beberapa tahun terakhir menjadikan Indonesia sebagai pasar potensial dalam bisnis digital. Di
+samping itu promosi brand melalui media online ini juga dapat meningkatkan citra suatu brand kepada
+pelanggandan dari perspektif pelanggan, kenyamanan belanja online saat ini juga sudah menjadi sebuah
+tren baru.
+DESKRIPSI SISTEM (1)
+POSTERPEDIA.COM
+Pemafaatan website sebagai media online saat ini terus dikembangkan sesuai dengan perkembangan
+zaman dan menjadi salah satu strategi branding yang menjanjikan. Meskipun di Indonesia telah banyak
+platform marketplace yang dapat digunakan oleh para pelaku bisnis, namun pemanfaatan website yang
+spesifik untuk mempromosikan suatu brand tertentu tanpa terbatas pada ketentuan marketplace tertentu
+sangatlah penting. Di samping itu, website e-commerce juga dapat memberikan opsi lain dalam cara
+berbelanja kepada pelanggan yang berfokus pada sebuah brand dari produk yang ingin dicari oleh
+pelanggan. Banyak peneltiian yang membahas bagaimana e-commerce dapat meningkatkan kesadaran
+brand dan memperluas jangkauan pelanggan . E-commerce memilki peranan penting dalam mengubah
+strategi pemasaran, pemanfaatan teknologi baru, penyediaan informasi produk, pengambilan keputusan
+yang lebih baik, pemahaman terhadap kebutuhan pelanggan, strategi pemasaran, dan berbagai inovasi
+informasi. Selain itu, kehadiran web e-commerce telah efektif menarik pengunjung dan mencerminkan
+citra positif tentang organisasi di antara pelanggan potensial 
+DESKRIPSI SISTEM (2)
+POSTERPEDIA.COM
+MF Binary Digital Solution adalah perusahaan yang menawarkan berbagai produk dan layanan seperti
+digital printing, mainan edukasi, alat rumah tangga, hingga fesyen anak. Salah satu upaya yang sudah
+dilakukan oleh MF Binary Digital Solution dalam meningkatkan strategi pemasarannya dengan
+menggunakan plaform marketplace dan media sosial. Meskipun demikian, MF Binary masih berupaya
+untuk meningkatkan kesadaran brandnya dan memperluas jangkauan pelanggannya. Untuk dapat
+meningkatkan kesadaran brand dan jangkauan penjualan produknya, maka saat ini MF Binary Digital
+Solution membutuhkan website e-commerce yang dikhususkan untuk media jual-beli dari produk yang
+ditawarkan dengan domain yang diusulkan yaitu posterpedia.com.
+DESKRIPSI SISTEM (3)
+GATHERING
+REQUREMENTS
+HASIL WAWANCARA (1)
+HASIL WAWANCARA (2)
+TUGAS TM-01
+TUGAS TM-01
+ Tuliskan kembali Deskripsi Sistem
+ Tuliskan kembali Hasil Wawancara
+ Buatlah Use Case Diagram End-To-End dari Sistem E-Commerce tersebut
+1.
+2.
+3.
+Gunakan Template Tugas Mandiri
+Kerjakan secara berkelompok, maksimal 2 orang
+Submit dalam format PDF, maksimal 19 Februari 2023 pukul 23.00.
+Ketentuan Tugas:
+Terima Kasih
+KOMBINASI KERJA
+KERAS DAN KERJA
+CERDAS ADALAH
+PEKERJAAN EFISIEN.
+ROBERT HALF

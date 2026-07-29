@@ -1,0 +1,46 @@
+Case 1 : Analisa EMV
+• Misalkan organisasi Anda harus memutuskan 
+mana dari empat proyek yang akan ditawar, 
+seperti yang dirangkum dalam tabel berikut.
+• Asumsikan bahwa semua investasi di muka 
+tidak diperoleh kembali, sehingga ditampilkan 
+sebagai keuntungan negatif.
+• Gambarlah diagram dan hitung EMV untuk 
+setiap proyek. Tulis beberapa paragraf yang 
+menjelaskan proyek mana yang akan Anda 
+tawarkan.
+• Pastikan untuk menggunakan informasi EMV 
+dan toleransi risiko pribadi Anda untuk 
+membenarkan jawaban Anda
+SOFIA UMAROH
+Project
+Chance of
+outcome
+Estimated
+Profits
+Project 1
+50%
+$120.000 
+50%
+–$50,000 
+Project 2
+30%
+$100.000 
+40%
+$50.000 
+30%
+-$60,000
+Project 3
+70%
+$20.000 
+30%
+–$5,000 
+Project 4
+30%
+$40.000 
+30%
+$30.000 
+20%
+$20,000
+20%
+-$50,000

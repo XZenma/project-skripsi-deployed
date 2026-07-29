@@ -1,0 +1,18 @@
+{
+  "filename": "prosedur.txt",
+  "matkul": "Basis Data 2 Praktikum AA",
+  "teknik": "recursive",
+  "total_chunks": 2,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 1000,
+      "text": "Week 2\nSTORE\nPROSEDURE 1\nPRAKTIKUM BASIS DATA 2 AA\nKAL\nStore Prosedure\nStore Prosedure adalah kumpulan perintah\nSQL yang disimpan dan dijalankan langsung\ndi dalam sistem manajemen basis data\n(DBMS) Dengan cara menuliskan query\nsekali saja, lalu memanggilnya berulang kali\ntanpa harus mengetik ulang query yang\nsama.\nKAL\nContoh Query\nPerintah untuk\nmembuat prosedure\ndbo = database owner\nmirip kaya kalian bikin\nsebuah folder, bikin inisial\nnama database di depan\nnama prosedure nya\nas = penghubung\nbegin = titik awal\nend = titik akhir\nKAL\nmanggil prosedur\nEXEC (Execute)\nkata kunci untuk\nrunning jalankan\nprosedur\nAlamat lengkap prosedur\ndbo: Mencari di folder/skema pemilik database.\nSP_daftar_mahasiswa: Nama proseduryang ingin\ndijalankan.\nKAL\nContoh Query dengan input\nBedanya apa?\nKAL\nParameter input\n@var1: nama\nvariabel/parameter\nint: tipe data.\nisi prosedur\nprosedur ini hanya akan mencari baris yang\nmahasiswa_id-nya cocok dengan angka yang kamu\nmasukkan ke @var1.\nManggil prosedur pake input"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 468,
+      "text": "Bedanya apa?\nKAL\nPakai nama variable\nlebih aman terutama jika prosedur\npunya banyak parameter, karena\nkamu menegaskan angka 1 itu\nuntuk siapa\nTanpa nama variable\nSQL akan memasukkan angka 1 ke\nparameter pertama yang dia\ntemukan\nModif prosedur\nKAL\nUntuk memodifikasi Stored Procedure yang\nsudah ada bukan CREATE lagi, tapi pake\nperintah ALTER.\nHapus Prosedur\nKAL\nperintah SQL yang digunakan untuk menghapus\nsecara permanen definisi Stored Procedure dari\ndalam database."
+    }
+  ]
+}

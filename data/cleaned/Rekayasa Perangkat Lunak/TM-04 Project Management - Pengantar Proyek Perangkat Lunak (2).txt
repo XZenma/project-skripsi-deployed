@@ -1,0 +1,283 @@
+I
+Rekayasa
+Perangkat
+Lunak
+TM-05 Project Management
+- Introduction to Project
+Management (2)
+Selasa, 02/03/2021
+NAME OR LOGO
+Materi
+2
+o Introduction to Project Management
+o Project
+o Management
+o Manager
+o Project Management Process
+o Initiating, Planning, Executing, Monitoring, dan Closing
+o Project Management Knowledge Area
+o Integration, Scope, Time, Cost, Quality, Risk, Human Resource, Communication, dan
+Procurement.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Introduction to Project
+Management (2)
+3
+ISA-202 Rekayasa Perangkat Lunak
+o Project Management
+o Project Manager
+NAME OR LOGO
+4
+ISA-202 Rekayasa Perangkat Lunak
+Project Management
+NAME OR LOGO
+Apa itu Manajemen Proyek ? (1) (IT Project Management)
+5
+o
+Manajemen Proyek adalah pengaplikasian
+knowledge, skill, tools, dan techniques pada aktivitas
+proyek untuk mencapai kebutuhan dan tujuan
+proyek.
+o
+Pelaksanaan proyek tidak hanya memenuhi scope,
+time, cost, dan quality sebagai tujuan proyek, namun
+juga harus memfasilitasi seluruh proses untuk
+memenuhi harapan dari seluruh pihak yang terlibat
+(stakeholders).
+ISA-202 Rekayasa Perangkat Lunak
+Manajemen Proyek adalah proses yang mencakup perencanaan, penerapan, pengukuran kinerja
+serta kemajuan proyek (PMP Study Guide).
+NAME OR LOGO
+Stakeholder Proyek
+6
+o
+Sponsor proyek yaitu pemilik pekerjaan, pemberi tugas, dan pemberi pendanaan.
+o
+Manajer proyek yaitu figur sentral yang bekerjasama dengan stakeholder lainnya.
+o
+Tim proyek
+o
+Staf pendukung
+o
+Suplier
+o
+Lingkungan
+o
+Eksekutif
+ISA-202 Rekayasa Perangkat Lunak
+Masing-masing stakeholder memiliki interest (ketertarikan) berbeda-beda, sehingga kebutuhan
+mereka harus diperhatikan sejak awal proyek.
+NAME OR LOGO
+Project Management Body of Knowledge (PMBOK)
+7
+o PMBOK adalah sebuah panduan yang berisi pengetahuan dalam manajemen
+proyek yang selalu diperbarui dalam jangka waktu tertentu.
+o Isi dari PMBOK adalah:
+o Project Process
+o Knowledge Areas
+o Project Process secara umum dibagi ke dalam 2 kategori:
+o Project Management Process: mendeskripsikan, mengorganisir, dan melengkapi
+pekerjaan dari proyek yang dapat diaplikasikan pada semua jenis proyek secara
+umum.
+o Product-oriented Process: menentukan dan membuat produk dari proyek.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Project Management Process (1)
+8
+Proses manajemen proyek dapat dibagi menjadi 5 kelompok:
+o Initiating: melakukan inisialisasi atau otorisasi proyek
+o Planning: mendefinisikan tujuan dan memilih alternatif
+terbaik dalam mencapai tujuan tersebut.
+o Executing: berkoordinasi dengan orang-orang dan sumber
+daya lainnya untuk menjalankan rencana.
+o Controlling: memastikan bahwa tujuan proyek dipenuhi
+dengan cara mengontrol dan mengukur proses secara
+teratur, mengidentifikasi adanya penyimpangan dari
+rencana, kemudian melakukan tindakan perbaikan jika
+diperlukan.
+o Closing: melakukan penutupan proyek secara resmi atau
+serah terima proyek kepada customer.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Project Management Process (2)
+9
+ISA-202 Rekayasa Perangkat Lunak
+Keterkaitan Antar Fase pada Proses Manajemen Proyek
+(Overlapping Phase)
+NAME OR LOGO
+Project Management Knowledge Area (1)
+10
+Core Function
+o Project Scope Management: mendeskripsikan proses yang dibutuhkan untuk menyelesaikan
+proyek dengan sukses.
+o Project Time Management: mendeskripsikan proses yang dibutuhkan untuk memastikan bahwa
+proyek dapat diselesaikan tepat waktu.
+o Project Cost Management: mendeskripsikan proses yang dibutuhkan untuk memastikan bahwa
+proyek dapat diselesaikan dengan biaya yang disetujui.
+o Project Quality Management: mendeskripsikan proses yang dibutuhkan untuk memastikan
+bahwa proyek sesuai dengan kebutuhan kualitas.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Project Management Knowledge Area (2)
+11
+Facilitating Function
+o Project Human Resource Management: mendeskripsikan proses yang dibutuhkan untuk
+membuat orang-orang bekerja lebih efektif di dalam proyek.
+o Project Communication Management: mendeskripsikan proses yang dibutuhkan untuk
+memastikan pengumpulan dan penyebaran informasi tepat waktu dan sesuai.
+o Project Risk Management: mendeskripsikan proses yang berkonsentrasi pada identifikasi,
+analisis, dan respon tehadap risiko proyek.
+o Project Procurement: mendeskripsikan proses yang dibutuhkan untuk melakukan pengadaan
+barang dan jasa dari luar organisasi.
+Overacting Function
+o Project Integration Management: mendeskripsikan proses yang dibutuhkan untuk memastikan
+berbagai jenis elemen dari proyek dikoordinasikan dengan baik.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Project Management Framework
+12
+ISA-202 Rekayasa Perangkat Lunak
+o Project Management Tools
+and Techniques membantu
+tim proyek dalam
+meneyelesaikan seluruh
+pekerjaan yang tercakup ke
+dalam 9 Knowledge Area.
+Contoh: gantt chart, project
+network diagram, dan
+critical path analysis.
+o Project Portofolio
+Management membantu
+untuk mengorganisir hasil
+pelaksanaan proyek sebagai
+portofolio yang selanjutnya
+akan menjadi investasi
+keberhasilan perusahaan.
+NAME OR LOGO
+Fungsi Pekerjaan Manajemen Proyek
+13
+o Mendefinisikan scope dari proyek
+o Mengidentifikasi stakeholder, decision maker,
+dan prosedur eskalasi
+o Membuat Work Breakdown Structure (WBS)
+o Mengestimasi kebutuhan waktu
+o Membuat prosedur atau flowchart persiapan
+manajemen proyek
+o Mengidentifikasi kebutuhan terhadap sumber
+daya dan biaya
+o Mengevaluasi kebutuhan proyek
+o Mengidentifikasi dan mengevaluasi risiko
+ISA-202 Rekayasa Perangkat Lunak
+o Mempersiapkan contingency plan
+o Mengidentifikasi interdependensi
+o Mengidentifikasi milestone yang kritis
+(penting)
+o Berpartisipasi dalam melakukan review
+terhadap proyek
+o Mengamankan sumber daya yang dibutuhkan
+o Mengelola proses pengendalian prubahan
+o Membuat laporan status proyek
+NAME OR LOGO
+Faktor Keberhasilan Proyek
+14
+o Dukungan manajemen
+o Keterlibatan user
+o Project Manager yang berpengalaman
+o Tujuan/sasaran bisnis yang jelas
+o Scope (lingkup) yang fokus
+o Menggunakan standar dalam penggunaan
+infrastruktur software
+o Requirement yang jelas dan tegas
+o Penggunaan metodologi yang formal
+o Estimasi yang dapat dipercaya
+o Kriteria lain seperti small milestone, proper
+planning, competent staff, dan ownership.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+15
+ISA-202 Rekayasa Perangkat Lunak
+Project Manager
+NAME OR LOGO
+Project Manager (PM)
+16
+o
+PM adalah penanggungjawab langsung dan pemimpin pelaksanaan proyek
+o
+Analogi lainnya dari seorang project manager adalah conductor, coach, atau
+captain.
+o
+PM harus familiar dengan 9 Project Management Knowledge Area dan
+berbagai tools yang digunakan pada manajemen proyek.
+o
+PM yang baik lebih mementingkan keberhasilan proyek.
+o
+PM harus dekat dengan stakeholder lain, khususnya sponsor, tim proyek, dan
+pihak-pihak yang terlibat dalam pencapaian tujuan proyek.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Skill Yang Disarankan Untuk PM
+17
+Disarankan mengikuti:
+o
+Project Management Body Of Knowledge (PMBOK)
+o
+9 Knowledge Area, Standard, dan Regulasi
+o
+Pengetahuan tentang lingkungan proyek
+o
+Pengetahuan dan keterampilan manajemen secara umum
+o
+Soft skills dan human relation skills
+o
+Memahami organisasi tempat bekerja
+o
+Nilai tambah: memahami topik-topik berkaitan dengan manajemen finansial,
+akuntansi, pengadaan, penjualan, pemasaran, kontrak dan produksi, distribusi,
+logistic, dll.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Karakteristik PM Yang Efektif
+18
+o
+Lead by example (memberi contoh)
+o
+Visioner (memiliki pandangan jauh ke depan)
+o
+Memiliki kompetensi teknis
+o
+Tegas
+o
+Good communicators
+o
+Good motivators
+o
+Berani menghadapi top management jika dibutuhkan
+o
+Mendukung anggota tim
+o
+Mendorong munculnya ide-ide baru.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Kemampuan Yang Harus Dimiliki PM
+19
+o
+Communication Skills
+o
+Organizational Skills
+o
+Budgeting Skills
+o
+Problem Solving Skills
+o
+Negotiating and Influence Skills
+o
+Leadership Skills
+o
+Team Building and Human Resource Skills
+ISA-202 Rekayasa Perangkat Lunak
+Thank
+You
+Kurnia Ramadhan Putra, S.Kom., M.T.
+kurniaramadhan@itenas.ac.id
+https://www.researchgate.net/profile/Ku
+rnia_Putra3

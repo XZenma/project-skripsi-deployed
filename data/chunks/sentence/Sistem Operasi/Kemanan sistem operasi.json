@@ -1,0 +1,58 @@
+{
+  "filename": "Kemanan sistem operasi.txt",
+  "matkul": "Sistem Operasi",
+  "teknik": "sentence",
+  "total_chunks": 10,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 515,
+      "text": "1\nKEAMANAN SISTEM OPERASI\nKeamanan mengacu pada penyediaan sistem perlindungan terhadap sumber daya sistem\nkomputer seperti CPU, memori, disk, program perangkat lunak, dan yang paling penting data /\ninformasi yang disimpan dalam sistem komputer.\n\nJika program komputer dijalankan oleh\npengguna yang tidak sah, maka ia dapat menyebabkan kerusakan parah pada komputer atau data\nyang tersimpan di dalamnya.\n\nJadi sistem komputer harus dilindungi terhadap akses tidak sah,\nakses jahat ke memori sistem, virus, worm dll."
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 870,
+      "text": "Jadi sistem komputer harus dilindungi terhadap akses tidak sah,\nakses jahat ke memori sistem, virus, worm dll.\n\nCakupan keamanan dalam sistem oeprasi secara\numum meliputi CIA (Confidentiality, Autentication, Integrity)\nConfidentiality\nConfidentiality menyangkut tentang Keamanan Privasi dimana hanya orang-orang yang memiliki\nakses yang bisa masuk ke sistem, dan orang-orang tersebut harus menjaga kerahasiaan terhadap\nsistem yang dipercayakan kepadanya, termasuk data-data penting yang ada dalam sistem.\nIntegrity\nIntegrity menyangkut tentang bagaimana menjaga konsistensi, akurasi, serta kepercayaan terhadap\ndata untuk setiap waktu sampai seterusnya sehingga informasi data tidak diubah oleh orang-orang\nyang tidak bertanggung jawab.\nOtentikasi\nOtentikasi mengacu pada mengidentifikasi setiap pengguna sistem dan mengaitkan program\npelaksana dengan pengguna tersebut."
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 991,
+      "text": "Merupakan tanggung jawab Sistem Operasi untuk membuat\nsistem perlindungan yang memastikan bahwa pengguna yang menjalankan program tertentu\nadalah asli.\n\nSistem Operasi umumnya mengidentifikasi / mengautentikasi\npengguna\nmenggunakan tiga cara berikut:\nNama Pengguna / Kata Sandi - Pengguna harus memasukkan nama pengguna dan kata\nsandi terdaftar dengan sistem Operasi untuk login ke sistem.\n2\nKartu pengguna / kunci - Pengguna perlu memasukkan kartu ke dalam slot kartu, atau\nmemasukkan kunci yang dihasilkan oleh generator kunci dalam opsi yang disediakan oleh\nsistem operasi untuk masuk ke sistem.\nAtribut pengguna - sidik jari / pola retina mata / tanda tangan - Pengguna harus\nmeneruskan atributnya melalui perangkat input yang ditunjuk yang digunakan oleh sistem\noperasi untuk masuk ke sistem.\nOTP\nKata sandi satu kali memberikan keamanan tambahan bersama dengan otentikasi normal.\n\nDalam\nsistem One-Time Password, kata sandi unik diperlukan setiap kali pengguna mencoba masuk ke\nsistem."
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 917,
+      "text": "Dalam\nsistem One-Time Password, kata sandi unik diperlukan setiap kali pengguna mencoba masuk ke\nsistem.\n\nSetelah kata sandi satu kali digunakan, maka kata sandi tidak dapat digunakan lagi.\n\nKata\nsandi satu kali diterapkan dengan berbagai cara, yaitu:\nNomor acak - Pengguna diberikan kartu dengan nomor yang dicetak bersama dengan\nhuruf yang sesuai.\n\nSistem meminta nomor yang sesuai dengan beberapa huruf yang\ndipilih secara acak.\nKunci rahasia - Pengguna diberikan perangkat perangkat keras yang dapat membuat id\nrahasia yang dipetakan dengan id pengguna.\n\nSistem meminta id rahasia seperti itu yang\nakan dihasilkan setiap kali sebelum login.\nKata sandi jaringan - Beberapa aplikasi komersial mengirim kata sandi satu kali kepada\npengguna melalui ponsel / email terdaftar yang harus dimasukkan sebelum login.\nAncaman Program\nProses dan kernel sistem operasi melakukan tugas yang ditunjuk seperti yang diperintahkan."
+    },
+    {
+      "index": 5,
+      "panjang_karakter": 958,
+      "text": "Jika\nprogram pengguna membuat proses ini melakukan tugas jahat, maka itu dikenal sebagai\nAncaman Program.\n\nSalah satu contoh umum ancaman program adalah program yang dipasang di\n3\nkomputer yang dapat menyimpan dan mengirim kredensial pengguna melalui jaringan ke\nbeberapa peretas.\n\nBerikut ini adalah daftar beberapa ancaman program terkenal, diantaranya:\nTrojan Horse - Program semacam ini menjebak kredensial login pengguna dan\nmenyimpannya untuk dikirim ke pengguna jahat yang nantinya bisa login ke komputer\ndan dapat mengakses sumber daya sistem.\nTrap Door - Jika suatu program yang dirancang untuk bekerja sesuai kebutuhan, memiliki\ncelah keamanan dalam kodenya dan melakukan tindakan ilegal tanpa sepengetahuan\npengguna, maka ia disebut memiliki pintu jebakan.\nLogic Bomb - Logic bomb adalah situasi ketika suatu program berperilaku buruk hanya\nketika kondisi tertentu terpenuhi sebaliknya berfungsi sebagai program asli.\n\nLebih sulit\nuntuk dideteksi."
+    },
+    {
+      "index": 6,
+      "panjang_karakter": 970,
+      "text": "Lebih sulit\nuntuk dideteksi.\n\n\nVirus - Virus sesuai dengan namanya dapat mereplikasi dirinya di sistem komputer.\nMereka sangat berbahaya dan dapat memodifikasi / menghapus file pengguna, sistem\ncrash.\n\nVirus pada umumnya adalah kode kecil yang tertanam dalam suatu program.\nKetika pengguna mengakses program, virus mulai tertanam dalam file / program lain dan\ndapat membuat sistem tidak dapat digunakan oleh pengguna\n4\nAncaman Sistem\nAncaman sistem mengacu pada penyalah gunaan layanan sistem dan koneksi jaringan untuk\nmembuat pengguna bermasalah.\n\nAncaman sistem dapat digunakan untuk meluncurkan ancaman\nprogram pada jaringan lengkap yang disebut sebagai serangan program.\n\nAncaman sistem\nmenciptakan lingkungan sehingga sumber daya sistem operasi / file pengguna disalahgunakan.\nBerikut ini adalah daftar beberapa ancaman sistem yang terkenal.\n\n\nWorm - Worm adalah proses yang dapat menghambat kinerja sistem\ndengan\nmenggunakan sumber daya sistem ke tingkat ekstrem."
+    },
+    {
+      "index": 7,
+      "panjang_karakter": 753,
+      "text": "Worm - Worm adalah proses yang dapat menghambat kinerja sistem\ndengan\nmenggunakan sumber daya sistem ke tingkat ekstrem.\n\nProses Worm menghasilkan\nbanyak salinannya di mana setiap salinan menggunakan sumber daya sistem, mencegah\nsemua proses lainnya untuk mendapatkan sumber daya yang diperlukan.\n\nProses cacing\nbahkan dapat mematikan seluruh jaringan.\n\n\nPort Scanning - Port scanning adalah mekanisme atau sarana yang digunakan oleh\nseorang hacker untuk mendeteksi kerentanan sistem untuk melakukan serangan pada\nsistem.\nDenial of Service - Serangan denial of service biasanya mencegah pengguna untuk\nmenggunakan sistem secara sah.\n\nMisalnya, pengguna mungkin tidak dapat menggunakan\ninternet jika penolakan layanan menyerang pengaturan konten browser."
+    },
+    {
+      "index": 8,
+      "panjang_karakter": 824,
+      "text": "Misalnya, pengguna mungkin tidak dapat menggunakan\ninternet jika penolakan layanan menyerang pengaturan konten browser.\n\n\nKlasifikasi Keamanan Komputer\nSesuai Kriteria Evaluasi Sistem Komputer Tepercaya A.S. AS ada empat klasifikasi keamanan\ndalam sistem komputer: A, B, C, dan D. Ini adalah spesifikasi yang banyak digunakan untuk\nmenentukan dan memodelkan keamanan sistem dan solusi keamanan.\n\nBerikut ini adalah uraian\nsingkat masing-masing klasifikasi.\n5\nDeskripsi\nTipe A\nLevel tertinggi.\n\nMenggunakan spesifikasi desain formal dan teknik verifikasi.\n\nMemberikan\njaminan keamanan proses tingkat tinggi.\nTipe B\nMenyediakan sistem perlindungan wajib.\n\nMemiliki semua properti sistem C2 kelas.\nMelampirkan label sensitivitas untuk setiap objek.\n\nAda tiga jenis.\nB1 - Mempertahankan label keamanan setiap objek dalam sistem."
+    },
+    {
+      "index": 9,
+      "panjang_karakter": 955,
+      "text": "Memiliki semua properti sistem C2 kelas.\nMelampirkan label sensitivitas untuk setiap objek.\n\nAda tiga jenis.\nB1 - Mempertahankan label keamanan setiap objek dalam sistem.\n\nLabel digunakan untuk\nmembuat keputusan untuk mengakses kontrol.\nB2 - Memperluas label sensitivitas ke setiap sumber daya sistem, seperti objek penyimpanan,\nmendukung saluran rahasia dan mengaudit acara.\nB3 - Memungkinkan membuat daftar atau grup pengguna untuk kontrol-akses untuk\nmemberikan akses atau mencabut akses ke objek bernama tertentu.\nTipe C\nMemberikan perlindungan dan akuntabilitas pengguna menggunakan kemampuan audit.\n\nAda dua\njenis.\nC1 - Menggabungkan kontrol sehingga pengguna dapat melindungi informasi pribadi mereka dan\nmenjaga pengguna lain dari secara tidak sengaja membaca / menghapus data mereka.\n\nVersi UNIX\nsebagian besar kelas Cl.\nC2 - Menambahkan kontrol akses level individu ke kemampuan sistem level Cl.\nTipe D\nLevel terendah.\n\nPerlindungan minimum.\n\nMS"
+    },
+    {
+      "index": 10,
+      "panjang_karakter": 208,
+      "text": "Versi UNIX\nsebagian besar kelas Cl.\nC2 - Menambahkan kontrol akses level individu ke kemampuan sistem level Cl.\nTipe D\nLevel terendah.\n\nPerlindungan minimum.\n\nMS\n\n-DOS, Window 3.1 termasuk dalam kategori ini."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "filename": "TM-02 E-Commerce - Menampilkan Produk Favorit.txt",
+  "matkul": "Rekayasa Perangkat Lunak",
+  "teknik": "semantic",
+  "total_chunks": 2,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 2055,
+      "text": "TM-02\nE-COMMERCE - DISPLAY PRODUK\nFAVORIT\nISB-202 Rekayasa Perangkat Lunak\nKURNIA RAMADHAN PUTRA, S.KOM., M.T. FRONTEND - DISPLAY PRODUK\nFAVORIT\nTable products pada database\n(SQL)\nKustomisasi halaman utama\n(HTML)\nLogika untuk menampilkan data\n(PHP)\nconnection.php\nKEBUTUHAN\nTABEL PRODUK\nPERSIAPAN APLIKASI\nUnduh template frontend aplikasi yang tersedia di e-learning kemudian simpan\npada lokasi folder C:\\xampp\\htdocs\nRename project atau folder dengan nama malefashion_app kemudian buka\nmenggunakan Visual Studio Code\nRename file index.html menjadi index.php\nKONFIGURASI\nMEMBUAT KONEKSI KE DATABASE\nTambahkan folder server di dalam project malefashion_app, kemudian di dalam folder\nserver buat file baru dan beri nama file dengan connection.php, kemudian tulis kode\nprogram berikut\nCONNECTION.PHP\nUntuk tanda kutip yang kosong \" \" adalah untuk password, isikan jika database Anda\nterhubung menggunakan password\nKUSTOMISASI TAMPILAN (1)\nKode program sebelum dikustomisasi\nINDEX.PHP\nKUSTOMISASI TAMPILAN (2)\nKode program setelah dikustomisasi\nINDEX.PHP\nBuka terminal pada Visual Studio Code, dan ketikkan php -S localhost:8080 untuk\nmenjalakan aplikasi\nLOGIKA MENAMPILKAN DATA\nBuat file baru pada folder server dengan nama controller_favourite_product.php\nCONTROLLER_FAVOURITE_PRODUCT.PHP\nISI DATA PADA TABEL PRODUCTS\nIsi data pada tabel tersebut\nTABLE PRODUCTS\nDISPLAY FAVOURITE PRODUCT (1)\nHapus kode pada index.php dari baris 269 - 508, sehingga tersisa hanya 1 product\nINDEX.PHP\nDISPLAY FAVOURITE PRODUCT (2)\nHapus kode pada index.php dari baris 269 - 508, sehingga tersisa hanya 1 product\nTambahkan kode pada baris 1- 3\nINDEX.PHP\nDISPLAY FAVOURITE PRODUCT (3)\nLanjutan kode dari baris 237 - 249\nINDEX.PHP\nDISPLAY FAVOURITE PRODUCT (4)\nLanjutan kode dari baris 250 - 260\nINDEX.PHP\nDISPLAY FAVOURITE PRODUCT (5)\nLanjutan kode dari baris 260 - 276\nINDEX.PHP\nDISPLAY FAVOURITE PRODUCT (6)\nTampilan aplikasi dimana data\npada database dapat ditampilkan\npada website\nLOCALHOST:8080\nTerima Kasih\nKOMBINASI KERJA\nKERAS DAN KERJA\nCERDAS ADALAH\nPEKERJAAN EFISIEN."
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 11,
+      "text": "ROBERT HALF"
+    }
+  ]
+}

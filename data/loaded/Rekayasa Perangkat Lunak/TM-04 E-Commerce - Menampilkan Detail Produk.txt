@@ -1,0 +1,125 @@
+TM-04
+E-COMMERCE - DISPLAY DETAIL 
+PRODUK DAN SHOPING CART
+ISB-202 Rekayasa Perangkat Lunak
+KURNIA RAMADHAN PUTRA, S.KOM., M.T.
+FRONTEND - DETAIL PRODUK
+Kustomisasi halaman shop-
+details (HTML)
+Logika untuk menampilkan
+detail product (PHP)
+KEBUTUHAN
+PERSIAPAN APLIKASI (1)
+Rename file shop-details.html menjadi shop-
+details.php
+KONFIGURASI
+PERSIAPAN APLIKASI (2)
+Buka file index.php, dan modifikasi pada  bagian kode tombol Add to Cart
+Buka juga file shop.php, dan modifikasi pada bagian kode tombol Add to Cart
+KONFIGURASI (INDEX.PHP DAN SHOP.PHP)
+index.php
+shop.php
+PENGUJIAN TOMBOL ADD TO CART
+Klik tombol "Add to Cart" pada salah satu
+produk, jika berhasil maka akan
+menampilkan halaman details produk
+KUSTOMISASI TAMPILAN (1)
+Tambahkan kode berikut di atas tag <!DOCTYPE html> pada file shop-details.php
+SHOP-DETAILS.PHP
+KUSTOMISASI TAMPILAN (2)
+Tambahkan kode berikut di bawah <section class="shop-details"> dan tutup sebelum
+section
+SHOP-DETAILS.PHP
+KUSTOMISASI TAMPILAN (3)
+Tampilkan detail
+produk (echo)
+sesuai dengan
+produk yang diklik
+pada tombol "Add to
+Cart"
+SHOP-
+DETAILS.PHP
+KUSTOMISASI TAMPILAN (4)
+Tampilkan category dan image produk
+SHOP-DETAILS.PHP
+PENGUJIAN HALAMAN SHOPING-
+DETAILS
+Refresh halaman Shoping
+Details
+Mengaktifkan tombol "Add to
+Cart"
+MENGAKTIFKAN TOMBOL ADD TO CART
+Mengaktifkan tombol "Add to Chart" pada file shop-details.php
+SHOP-DETAILS.PHP
+Rename file shopping-cart.html menjadi
+shopping-cart.php
+KONFIGURASI (SHOPPING-CART.PHP)
+PENGUJIAN HALAMAN SHOPING CART
+Produk yang ditampilkan pada
+shoping cart ini masoh
+dummy, lakukan konfigurasi
+agar data produk yang masuk
+ke keranjang belanja adalah
+produk yang diklik dari
+halaman detail produk
+Sisakan 1 produk pada
+Shoping Cart, dengan
+menghapus <tr>..</tr> di
+bawah <tbody>
+SHOPING-
+CART.PHP
+KUSTOMISASI TAMPILAN (1)
+KUSTOMISASI TAMPILAN (2)
+Tersisa 1 buah produk
+yang akan kita looping
+datanya berdasarkan
+dengan produk yang
+ditambahkan ke
+keranjang belanja
+SHOPING-
+CART.PHP
+KUSTOMISASI TAMPILAN (3)
+Unduh file style.css yang ada pada pertemuan ke-3 di elearning, dapat diakses pada
+tautan berikut: https://elearning.itenas.ac.id/course/view.php?id=9757&section=3
+Copykan semua isi style.css yang telah diunduh tersebut pada file style.css pada
+project css > style.css
+STYLE.CSS
+Tambahkan kode berikut di atas tag <!DOCTYPE html> pada file shoping-cart.php
+SHOPING-CART.PHP
+LINE 1 - 20
+KUSTOMISASI TAMPILAN (4)
+Tambahkan kode berikut di atas tag <!DOCTYPE html> pada file shoping-cart.php
+SHOPING-CART.PHP
+LINE 21 - 33
+KUSTOMISASI TAMPILAN (5)
+Tambahkan kode berikut di atas tag <!DOCTYPE html> pada file shoping-cart.php
+SHOPING-CART.PHP
+LINE 34 - 47
+KUSTOMISASI TAMPILAN (6)
+SHOPING-CART.PHP
+LINE 48 - 65
+KUSTOMISASI TAMPILAN (7)
+Tambahkan kode berikut di atas tag <!DOCTYPE html> pada file shoping-cart.php
+SHOPING-CART.PHP
+LINE 66 - 77
+KUSTOMISASI TAMPILAN (8)
+SHOPING-CART.PHP
+LINE 78 - 96
+KUSTOMISASI
+TAMPILAN (9)
+Update kode <tr>..</tr> di bawah <tbody>
+SHOPING-CART.PHP
+KUSTOMISASI TAMPILAN (10)
+LINE 276 - 291
+Update kode <tr>..</tr> di bawah <tbody>
+SHOPING-CART.PHP
+KUSTOMISASI TAMPILAN (11)
+LINE 292 - 309
+HALAMAN SHOPING CART
+HASIL AKHIR
+Terima Kasih
+KOMBINASI KERJA
+KERAS DAN KERJA
+CERDAS ADALAH
+PEKERJAAN EFISIEN.
+ROBERT HALF

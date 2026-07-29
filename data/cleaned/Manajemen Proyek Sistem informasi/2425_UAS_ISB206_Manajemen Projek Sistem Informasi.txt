@@ -1,0 +1,264 @@
+INSTITUT TEKNOLOGI NASIONAL
+Jalan Penghulu K.H. Mustapa 23 Telp. 7272215, Bandung- 40124
+
+UJIAN AKHIR SEMESTER
+SEMESTER GENAP 2023/ 2024
+
+Mata Kuliah
+: ISB 206 - Manajemen Proyek SI
+Tanggal : 20 Juni 2025
+Program Studi
+: Sistem Informasi
+Waktu : 14.30 s.d 17.00
+Dosen
+: Sofia Umaroh, S.Pd., M.T
+Sifat
+: Non-Test/Take Home
+
+Kelas
+: AA
+
+SubCPMK 5 (bobot nilai 20% dari nilai kelulusan Mata Kuliah) yang terdiri atas:
+-
+Bobot nilai kuis: 3 %
+-
+Bobot nilai tugas terstruktur: 5%
+-
+Bobot nilai EAS :12%
+Tujuan: Mampu menyusun rencana manajemen proyek mencakup sepuluh dimensi
+manajemen proyek yang berfokus pada penyelesaian masalah atau kebutuhan pada kasus
+nyata melalui usulan solusi proyek
+
+Studi Kasus:
+Untuk menyelesaikan tugas ini, Anda diminta untuk membuat sebuah dokumen Perencanaan
+Project IT (Project Plan) secara berkelompok. Kelompok terdiri atas 3 - 5 orang anggota
+dengan satu orang berperan sebagai pemimpin/ketua proyek.
+
+IT Project Plan yang akan dibuat ditujukan untuk satu perusahaan nyata (Organisasi, Institusi,
+pemerintahan, atau perusahaan lainnya) dimana proyek akan dilaksanakan. Perusahaan
+dapat berupa organisasi, komunitas, perusahaan kecil - menengah, start-up maupun
+lingkungan terdekat dengan Anda, dengan ketentuan terdapat demand/needs yang menjadi
+alasan proyek diusulkan.
+
+Untuk mendapatkan business case, setiap kelompok wajib melakukan pengumpulan data
+secara langsung pada perusahaan/sponsor yang bersangkutan. Pengumpulan data dapat
+dilakukan dengan wawancara (offline/online) dan studi dokumen. Berdasarkan data yang
+diperoleh, tim memetakan ke dalam Progress Report 1 (sesuai template) menunjukkan
+bahwa proyek layak dilakukan dan dapat memenuhi tujuan bisnis, jika layak maka tim
+menyusun Perencanaan Proyek IS mengikuti template yang telah disediakan. Lakukan
+diskusi dengan kelompoknya untuk mengidentifikasi usulan/rekomendasi untuk setiap area
+pengetahuan manajemen proyek. Dokumen perencanaan proyek IS memetakan rencana
+setiap area pengetahuan manajemen proyek (sesuai template ProjectPlan).
+Tim wajib membuat Log Activity yang berisi kontribusi masing-masing anggota tim terhadap
+Project Plan (sesuai template).
+Timeline Milestone:
+No
+Assign date
+Due date
+Milestone
+Deliverables
+1
+Week 13
+3 Juni 2025
+Project initiation
+Kick off Meeting
+Presentasi Project Initiation
+Progress Report 1
+Kick off meeting report
+2
+Week 14
+10 Juni 2025 Presentasi Progress IT
+Project Plan (70%)
+Draft IT Project Plan
+document
+3
+Week 15
+20 Juni 2025 Submit Final IS Project Plan
+(100%)
+Presentasi IS Project Plan
+Final IT Project Plan
+Document
+Meeting report
+INSTITUT TEKNOLOGI NASIONAL
+Jalan Penghulu K.H. Mustapa 23 Telp. 7272215, Bandung- 40124
+
+Spesifikasi Milestone:
+
+1. Progress Report 1 (Due: 3 Juni 2025 via Elearning): Bobot 100% dari SubCPMK 4
+dan SubCPMK4
+Tim wajib melakukan survey melalui dokumen maupun wawancara dengan pihak terkait
+untuk mendapatkan informasi kebutuhan proyek dan analisis situasi di lapangan. Tim
+wajib melakukan diskusi/brainstorming dalam menentukan perencanaan di setiap area
+pengetahuan. Setelah mendapatkan pengalaman langsung dalam merencanakan proyek
+di dunia nyata, lakukan analisa kesenjangan antara yang ditemukan di lapagan dengan
+teori yang dipelajari berkaitan dengan manajemen proyek dan area pengetahuan.
+
+Berikan rekomendasi untuk setiap area pengetahuan berdasarkan hasil temuan
+kelompokAsumsikan Anda, manajer proyek dan tim utama proyek, memberikan laporan
+kemajuan resmi kepada manajer senior. Anda akan menyajikan dan meninjau hasil inisiasi
+proyek mencakup informasi berikut (sesuai template 1):
+
+Pengenalan singkat tentang proyek Anda dan tim Anda, menekankan mengapa Anda
+melakukan proyek tersebut, apa hasil utama Anda nantinya, dan bagaimana Anda
+akan mengukur kesuksesan
+
+Laporan kemajuan
+
+Ringkasan hasil komunikasi sejauh ini dengan sponsor proyek dan stakeholder lain
+yang terlibat (dapat berupa komunikasi via email atau notulen rapat yang
+terdokumentasi)
+
+Pernyataan ruang lingkup awal (mengikuti template scope statement)
+
+Ringaksan singkat Jadwal proyek
+
+Ringkasan singkat tentang jenis MBTI tim Anda dan bagaimana pengaruhnya
+terhadap dinamika tim Anda
+
+Tanda tangan manajer proyek dan Anggota tim.
+
+Format:
+o Progress_Report_1_Kel_A.pdf
+o Kick_off_report_Kel_A.pdf
+
+2. IT Project Plan (min. 70%), Due: 10 Juni 2025 jam 23.00 disubmit. Bobot 40% dari
+SubCPMK 5
+
+IT Project Plan (sesuai template2)
+
+Lampiran:
+a. Tabel daftar kontribusi anggota tim (sesuai template3)
+b. Daftar Pustaka
+
+Format: IT_Project_Plan_Tahap1_Kel_A.pdf
+
+3. Final IT Project Plan (100%), Due: Jumat, 19 Juni 2024 jam 23.50 disubmit. Bobot
+60% dari SubCPMK 5
+Deliverables:
+1. IT Project Plan Final (sesuai template2)
+2. Slide Presentasi Pitch deck
+3. Lampiran 1: Tabel daftar kontribusi anggota tim (sesuai template3)
+4. Lampiran 2:
+a. [Link] Rancangan antarmuka Aplikasi/Produk (sertakan link Figma di dalam
+laporan)
+INSTITUT TEKNOLOGI NASIONAL
+Jalan Penghulu K.H. Mustapa 23 Telp. 7272215, Bandung- 40124
+
+b. [Link] Reels Instagram (maks. 3 menit) yang mempromosikan aplikasi yang
+akan dihasilkan. Collab dengan IG @sisteminformasiitenas (sertakan link IG
+di dalam laporan)
+
+Format:
+a. IT_Project_Plan_Final_Kel_A.pdf
+b. Pitch_deck_Kel_A.pdf
+
+Ketentuan EAS:
+
+EAS dikerjakan secara berkelompok
+Feedback kelayakan Topik proyek dan studi kasus akan diberikan saat submit Progress
+Report 1. Jika topik tidak layak dan tidak sesuai dengan karakteristik proyek,
+kelompok harus mengubah topik proyek.
+IT Project Plan dipresentasikan di jadwal EAS durasi maksimal 10 menit
+Tim memakai pakaian yang rapi dan menunjukkan atribut yang disepakati oleh timnya.
+Deliverables di-submit sebelum Due Date.
+Keterlambatan pengiriman tugas maksimal 24 jam setelah Due Date dengan
+konsekuensi pengurangan nilai
+Setiap kecurangan atau plagiarisme mengakibatkan Nilai 0 (Diskualifikasi) untuk
+seluruh anggota kelompok.
+
+Komponen Peniliaian:
+
+No
+Aspek Penilaian
+Bobot
+(%)
+Deskripsi Penilaian
+1
+Rasionalitas Rencana
+Proyek (10 Knowledge
+Areas)
+30%
+Penilaian mencakup sejauh mana tim menyusun
+rencana proyek berdasarkan 10 area
+pengetahuan manajemen proyek secara
+sistematis, logis, dan sesuai konteks studi kasus.
+2
+Value Proposition &
+Business Justification
+15%
+Kejelasan alasan bisnis (business case),
+kebutuhan nyata proyek, serta manfaat (value)
+yang ditawarkan bagi organisasi/perusahaan.
+3
+Kejelasan Gambaran
+Produk (Mockup/
+Antarmuka)
+10%
+Sejauh mana rancangan antarmuka produk
+disampaikan secara jelas dan sesuai dengan
+kebutuhan pengguna (termasuk link Figma).
+4
+Kreativitas & Daya
+Tarik Promosi (Video
+Reels)
+10%
+Orisinalitas, estetika, serta kekuatan pesan
+promosi dalam video reels Instagram (maks. 3
+menit).
+5
+Kontribusi Anggota
+Tim (Log Aktivitas)
+10%
+Keseimbangan kontribusi anggota tim, serta
+pelaporan log aktivitas yang sesuai (transparan
+dan konsisten dengan isi dokumen).
+6
+Presentasi Pitch Deck
+& Gaya Penyampaian
+15%
+Kualitas slide pitch deck, kemampuan
+menjelaskan ide proyek secara singkat, jelas dan
+meyakinkan dalam waktu 10 menit.
+7
+Kedisiplinan &
+Penampilan Saat
+Presentasi
+10%
+Ketepatan waktu pengumpulan, kesesuaian
+dengan ketentuan penampilan, serta
+kekompakan tim saat presentasi.
+Total
+100%
+INSTITUT TEKNOLOGI NASIONAL
+Jalan Penghulu K.H. Mustapa 23 Telp. 7272215, Bandung- 40124
+
+Kriteria Penilaian Berdasarkan Nilai Huruf:
+
+Nilai
+Rentang
+Skor (%)
+Kriteria Penilaian
+A
+85 - 100
+Rencana proyek sangat komprehensif, semua aspek tertangani
+dengan sangat baik, dan presentasi sangat meyakinkan.
+AB
+75 - 84
+Rencana proyek jelas dan cukup lengkap, ada beberapa kekurangan
+minor, namun tidak signifikan.
+B
+65 - 74
+Rencana disusun dengan baik, namun terdapat beberapa aspek
+penting yang kurang dikembangkan.
+BC
+55 - 64
+Rencana kurang menyeluruh, beberapa bagian penting tidak
+dijelaskan atau tidak sesuai konteks.
+C
+45 - 54
+Banyak kekurangan mendasar, rencana tidak menunjukkan
+pemahaman utuh terhadap manajemen proyek.
+D
+< 45
+Rencana proyek tidak layak dinilai, tidak sesuai instruksi, atau sangat
+tidak mencerminkan usaha.

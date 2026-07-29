@@ -1,0 +1,12 @@
+STUDI KASUS 4 
+ 
+ 
+The Johannes County BasketBall Conference ( JCBC) is an amateur Basketball 
+association. Each city in the County has one team that represent it. Each team has 
+maximum 12 players and a minimum of nine players. Each team also has up to three 
+coaches ( offensive,defensive, and PT coaches) .Each team plays two games (home and 
+visitor) against each other team during the season.  
+ 
+1. Define entity and relathionships. 
+2. Draw the ER diagram  with Chen diagram.  
+3. Draw the ER diagram  with Crow Foot diagram.

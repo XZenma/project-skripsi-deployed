@@ -1,0 +1,19 @@
+STUDI KASUS 5
+
+Automata Inc. produces specially vehicles by contract. The company operates several
+departments, each of builds a praticular vehicle, such as limousine, a truck, a van or an
+RV.
+
+When a new vehicle is built, the department places an order with purchasing
+department to request specific component. Automata's purchasing department is
+interested in creating database to keep track of orders and to accelerate the process of
+delivering materials,
+
+The order received by purchasing department can contain several different items . An
+inventory is maintained that is the most frequently requested item is inventory. If an
+item is not in inventory, it must be ordered from a supplier . Each item may have several
+suppliers.
+
+1. Define entity and relathionships.
+2. Draw the ER diagram with Chen diagram.
+3. Draw the ER diagram with Crow Foot diagram.

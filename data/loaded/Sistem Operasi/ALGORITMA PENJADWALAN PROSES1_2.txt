@@ -1,0 +1,55 @@
+Asep Rizal Nurjaman
+Algoritma 
+Proses 
+Penjdawalan
+Asep Rizal Nurjaman
+Algoritma Penjadwalan 
+Proses
+Priority Scheduling
+Round Robin
+Priority Scheduling
+Merupakan algoritma yang mendahulukan 
+proses yang memiliki prioritas tertinggi
+Prioritas proses ditentukan berdasar:
+Time limit
+Memory requirement
+File access
+Perbandingan antara burst proses dengan CPU
+Tingkat kepentinagn proses
+PS (2)
+Priority scheduling dapat dijalankan secara 
+preemptive dan non-preemptive
+Preemptive  jika ada proses yang baru 
+datang memiliki prioritas lebih tinggi dari 
+proses yang sedang berjalan, maka proses 
+yang sedang berjalan tsb dihentikan, lalu CPU 
+dialihkan untuk proses yang baru datang 
+tersebut
+Non preemptive  proses yang baru datang 
+tidak dapat menganggu proses yang sedang 
+berjalan, tapi hanya diletakkan di depan queue
+PS (3)
+Kelemahan PS adalah terjadinya infinite 
+blocking (starvation), yaitu suatu proses 
+dengan prioritas yang rendah memiliki 
+kemungkinan tidak pernah dieksekusi jika 
+terdapat proses lain yang memiliki prioritas 
+lebih tinggi
+Solusi dari starvation adalah aging, yaitu 
+meningkatkan prioritas dari setiap proses 
+yang menunggu dalam queue secara 
+bertahap
+PS (4)
+Contoh : setiap 10 menit, prioritas dari 
+masing-masing proses yang menunggu dalam 
+queue dinaikkan 1 tingkat.
+Maka proses yang memiliki prioritas 127, 
+setidaknya dalam 21 jam 20 menit, proses tsb 
+akan memiliki prioritas 0, yaitu prioritas yang 
+tertinggi
+Contoh 2 - PS
+Diketahui 5 proses dengan urutan proses 
+sbb:
+Gantt chart
+Waiting Time
+AWT

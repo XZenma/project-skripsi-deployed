@@ -1,0 +1,71 @@
+TM-02
+E-COMMERCE - DISPLAY PRODUK
+FAVORIT
+ISB-202 Rekayasa Perangkat Lunak
+KURNIA RAMADHAN PUTRA, S.KOM., M.T.
+FRONTEND - DISPLAY PRODUK
+FAVORIT
+Table products pada database
+(SQL)
+Kustomisasi halaman utama
+(HTML)
+Logika untuk menampilkan data
+(PHP)
+connection.php
+KEBUTUHAN
+TABEL PRODUK
+PERSIAPAN APLIKASI
+Unduh template frontend aplikasi yang tersedia di e-learning kemudian simpan
+pada lokasi folder C:\xampp\htdocs
+Rename project atau folder dengan nama malefashion_app kemudian buka
+menggunakan Visual Studio Code
+Rename file index.html menjadi index.php
+KONFIGURASI
+MEMBUAT KONEKSI KE DATABASE
+Tambahkan folder server di dalam project malefashion_app, kemudian di dalam folder
+server buat file baru dan beri nama file dengan connection.php, kemudian tulis kode
+program berikut
+CONNECTION.PHP
+Untuk tanda kutip yang kosong " " adalah untuk password, isikan jika database Anda
+terhubung menggunakan password
+KUSTOMISASI TAMPILAN (1)
+Kode program sebelum dikustomisasi
+INDEX.PHP
+KUSTOMISASI TAMPILAN (2)
+Kode program setelah dikustomisasi
+INDEX.PHP
+Buka terminal pada Visual Studio Code, dan ketikkan php -S localhost:8080 untuk
+menjalakan aplikasi
+LOGIKA MENAMPILKAN DATA
+Buat file baru pada folder server dengan nama controller_favourite_product.php
+CONTROLLER_FAVOURITE_PRODUCT.PHP
+ISI DATA PADA TABEL PRODUCTS
+Isi data pada tabel tersebut
+TABLE PRODUCTS
+DISPLAY FAVOURITE PRODUCT (1)
+Hapus kode pada index.php dari baris 269 - 508, sehingga tersisa hanya 1 product
+INDEX.PHP
+DISPLAY FAVOURITE PRODUCT (2)
+Hapus kode pada index.php dari baris 269 - 508, sehingga tersisa hanya 1 product
+Tambahkan kode pada baris 1- 3
+INDEX.PHP
+DISPLAY FAVOURITE PRODUCT (3)
+Lanjutan kode dari baris 237 - 249
+INDEX.PHP
+DISPLAY FAVOURITE PRODUCT (4)
+Lanjutan kode dari baris 250 - 260
+INDEX.PHP
+DISPLAY FAVOURITE PRODUCT (5)
+Lanjutan kode dari baris 260 - 276
+INDEX.PHP
+DISPLAY FAVOURITE PRODUCT (6)
+Tampilan aplikasi dimana data
+pada database dapat ditampilkan
+pada website
+LOCALHOST:8080
+Terima Kasih
+KOMBINASI KERJA
+KERAS DAN KERJA
+CERDAS ADALAH
+PEKERJAAN EFISIEN.
+ROBERT HALF

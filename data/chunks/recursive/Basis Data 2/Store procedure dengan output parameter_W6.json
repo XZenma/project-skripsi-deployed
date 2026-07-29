@@ -1,0 +1,33 @@
+{
+  "filename": "Store procedure dengan output parameter_W6.txt",
+  "matkul": "Basis Data 2",
+  "teknik": "recursive",
+  "total_chunks": 5,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 959,
+      "text": "Store procedure dengan output\nparameter\nISA212 Basisdata 2\nminggu 6\nMira Musrini Barmawi M.T.\nContoh tabel\nEmployee table\ncreate database ISA212_minggu6\ngo\nuse ISA212_minggu6\ngo\ncreate table employee\n(ID int primary key , name varchar(40) , Gender varchar(20) ,\ndepartement_id int)\nStore procedure with output parameter\nTo create a stored procedure with output parameter, we use the keywords\nOUT or OUTPUT. @EmployeeCount in the below stored procedure is an\nOUTPUT parameter. Notice that it is specified with OUTPUT keyword.\nCREATE PROCEDURE spGetEmployeeCountByGender\n@Gender nvarchar(20),\n@EmployeeCount int Output\nAS\nBEGIN\nSELECT @EmployeeCount = COUNT(Id)\nFROM tblEmployee\nWHERE Gender = @Gender\nEND\nStore procedure with output parameter\nTo execute this stored procedure with OUTPUT parameter, follow the\nbelow steps:\n1. First, initialise a variable of same datatype as that of the output\nparameter. Here, we have declared @EmployeeTotal integer\nvariable."
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 987,
+      "text": "2. Then pass the @EmployeeTotal variable to the stored procedure.\nYou have to specify the OUTPUT keyword. If you don't specify the\nOUTPUT keyword, the variable will be NULL.\n3. Then execute the stored procedure.\nExecute Store procedure with output\nparameter\nDECLARE @EmployeeTotal int\nEXECUTE spGetEmployeeCountByGender 'Female',\n@EmployeeTotal output\nPRINT @EmployeeTotal\nIf you don't specify the OUTPUT keyword, while executing the stored procedure,\nthe @EmployeeTotal variable will be NULL. In the example below, we have not\nspecified OUTPUT keyword. So while executing the stored procedure, a message of\n@EmployeeTotal is null is printed.\nExecute Store procedure with output\nparameter\nDECLARE @EmployeeTotal int\nEXECUTE spGetEmployeeCountByGender 'Female', @EmployeeTotal\nIF(@EmployeeTotal is null)\nPRINT '@EmployeeTotal is null'\nELSE\nPRINT '@EmployeeTotal is not null'\nExecute Store procedure with output parameter\nWhile using the parameter names, you can pass the parameters in any"
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 981,
+      "text": "order. In the example below, we are first passing the OUTPUT\nparameter and then the input @Gender parameter. But we will get the\ntotal number of male employees without any errors.\nDECLARE @EmployeeTotal int\nEXECUTE spGetEmployeeCountByGender @EmployeeCount =\n@EmployeeTotal OUT, @Gender = 'Male'\nPRINT @EmployeeTotal\nExecute Store procedure with output parameter\nNow let's have a quick look at some of the extremely useful system\nstored procedures.\nsp_help SP_Name: Used to view the information about the stored\nprocedure like parameter names, their datatypes, etc. sp_help can be\nused with any database object, like Tables, Views, SPs, Triggers, etc.\nAlternatively, you can also press ALT+F1, when the name of the object\nis highlighted.\nSp_HELP <sp_helpname>\nSp_help <table_name>\nYou can use sp_help with any database objects like Tables, Views,\nTriggers, etc. For example, when we use sp_help with tblEmployee\ntable, we will get all the information about the table like different"
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 126,
+      "text": "columns present in the table, their data types, indexes associated\nwith the table, constraints associated with the table, etc."
+    },
+    {
+      "index": 5,
+      "panjang_karakter": 569,
+      "text": "Sp_helpText\nsp_helptext SP_Name: Used to view the Text of the stored procedure.\nFor example, when we use <span style=\"color:#800000;\">sp_helptext\n</span>spGetEmployeeCountByGender, we will get the text of this\nstored procedure.\nSP_DEPENDS\nsp_depends SP_Name: Used to view the dependencies of the stored\nprocedure. This system stored procedure is very useful, especially if you want\nto check whether there are any stored procedures that are referencing a\ntable which you are about to drop. sp_depends can also be used with other\ndatabase objects like Tables, Views, etc."
+    }
+  ]
+}

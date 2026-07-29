@@ -1,0 +1,13 @@
+{
+  "filename": "STUDI KASUS 3.txt",
+  "matkul": "Basis Data 2",
+  "teknik": "fixed",
+  "total_chunks": 1,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 832,
+      "text": "STUDI KASUS 3\n\nUse the following business rules to write all appropriate connectivities in the ER diagram\n:\na. A department employs many employees, but each employee is employed by one\ndepartment.\nb. Some employees, known as \"Rovers\" are not assigned to any department.\nc. Divisions operates many departements, but each departments is operated by one\ndivision.\nd. An employee may be assigned to many projects, and a projects may have many\nemployees assigned to it.\ne. a project must have at least one employee assigned to it.\nf. One of the employees manages one department, and each department is managed by\nonly one employee.\ng. One of the employee runs a division, and each division is run by one employee.\n\n1. Define entity and relathionships\n2. Draw the ER diagram with Chen diagram\n3. Draw the ER diagram with Crow Foot diagram"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+LAPORAN UJIAN AKHIR SEMESTER
+SEMESTER GENAP 2022-2023
+ISB 212 BASISDATA 2
+Kelas <AA/BB>
+
+Dosen : Mira Musrini Barmawi
+
+Kelompok <NO>
+1. NRP - NAMA LENGKAP
+2. NRP - NAMA LENGKAP
+3. NRP -NAMA LENGKAP
+
+LOGO ITENAS
+
+PROGRAM STUDI SISTEM INFORMASI
+INSTITUT TEKNOLOGI NASIONAL BANDUNG
+< 2023>
+FORMAT LAPORAN UAS BASISDATA
+BAB I
+Latar Belakang
+BAB II
+Dasar Teori
+Bab III
+Studi Kasus , penjelasan dalam Bahasa Indonesia
+Bab IV
+Analisis
+Identifikasi entitas atribut
+Identifikasi relasi
+Bab V
+Desain
+5.1 Diagram Chen ( beserta dengan penjelasannya)
+5.2 Diagram Crowfoot ( beserta dengan penjelasannya)
+Bab VI
+Implementasi dengan DBMS ( my SQL)
+5.1 DML
+Kalimat Insert Update dan Delete
+5.2 Query
+Advanced Query : 2 buah query advanced yang melibatkan minimal 3 tabel .
+5.3 Bacth programming
+5.3.1 satu batch dengan kalimat IF ( kompleks)
+5.3.2 Satu batch dengan kalimat pengulangan , bisa dengan nested loop, atau loop biasa
+5.4 Store procedure
+5.4.1 dua buah store procedure tanpa input output
+5.4.2 dua buah store procedure dengan input dan output
+5.5 Fungsi
+5.5.1 dua buah fungsi bernilai scalar ( scalar user defined function)
+5.5.2 dua buah fungsi inline table ( Inline table Valued Function = ITVF)
+5.5.3 dua buah fungsi multistatement table ( MSTVF)
+5.6 Triger
+5.6.1 satu buah query yang melibatkan output clause , inserted table dan deleted table
+5.6.2 satu buah trigger for insert
+5.6.3 satu buah trigger for update
+5.6.4 satu buah trigger for delete
+
+5.7 VIEW
+5.7.1 satu buah view berisi advanced query
+5.7.2 satu buah view yang dienkripsi

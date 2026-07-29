@@ -1,0 +1,19 @@
+Sub CPMK 2:
+
+SOAL A:
+Perusahaan XYZ sedang mempertimbangkan untuk mengimplementasikan proyek investasi baru.
+Pada tahun pertama proyek sudah mendapatkan keuntungan hingga tahun ke-4 dengan data sebagai
+berikut:
+Biaya tahun ke-1 sebesar $2000, tahun ke2: $2000, tahun ke3: $2000, tahun ke-4:
+$2000. Pendapatan (benefit) tahunan yang diharapkan mulai pada tahun ke-1 sebesar $1000, tahun
+ke-2 sebesar $2000, tahun ke-3 dan ke-4 sebesar sebesar $4000.
+Dengan tingkat diskonto: 9% tentukan: nilai NPV, ROI dan Payback dengan mengisi tabel berikut!
+
+SOAL B:
+Perusahaan XYZ sedang mempertimbangkan untuk mengimplementasikan proyek investasi baru.
+Pada tahun pertama proyek sudah mendapatkan keuntungan hingga tahun ke-4 dengan data sebagai
+berikut:
+Biaya tahun ke-1 sebesar $1000, tahun ke2: $2000, tahun ke3: $3000, tahun ke-4:
+$4000. Pendapatan (benefit) tahunan yang diharapkan mulai pada tahun ke-1 sebesar $500, tahun
+ke-2 sebesar $2000, tahun ke-3 dan ke-4 sebesar sebesar $5000.
+Dengan tingkat diskonto: 8% tentukan: nilai NPV, ROI dan Payback dengan mengisi tabel berikut!

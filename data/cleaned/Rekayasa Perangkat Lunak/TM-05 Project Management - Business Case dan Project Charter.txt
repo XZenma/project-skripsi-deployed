@@ -1,0 +1,313 @@
+I
+Rekayasa
+Perangkat
+Lunak
+TM-06 Project Management
+- Project Management
+Process
+Senin, 08/03/2021
+NAME OR LOGO
+Tujuan
+o Memahami Proses-Proses
+Pada Manajemen Proyek
+o Mampu Membuat Business
+Case dan Project Charter
+2
+NAME OR LOGO
+Project Management Process (PMBOK GUIDE)
+3
+Proses manajemen proyek dapat dibagi menjadi 5 kelompok:
+o Initiating: melakukan inisialisasi atau otorisasi proyek
+o Planning: mendefinisikan tujuan dan memilih alternatif
+terbaik dalam mencapai tujuan tersebut.
+o Executing: berkoordinasi dengan orang-orang dan sumber
+daya lainnya untuk menjalankan rencana.
+o Controlling: memastikan bahwa tujuan proyek dipenuhi
+dengan cara mengontrol dan mengukur proses secara
+teratur, mengidentifikasi adanya penyimpangan dari
+rencana, kemudian melakukan tindakan perbaikan jika
+diperlukan.
+o Closing: melakukan penutupan proyek secara resmi atau
+serah terima proyek kepada customer.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Project Initiation
+4
+o Yang dilakukan dalam proses inisiasi proyek:
+o Menentukan Project Manager (PM)
+o Mengidentifikasi stakeholder, antara lain sponsor proyek dan anggota tim proyek
+o Mendefinisikan Business Case, yang menyatakan kebutuhan bisnis untuk proyek.
+o Penetapan Project Charter
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Business Case
+5
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Definisi Business Case
+6
+o Mencakup informasi:
+o Intoduction / Background
+o Business Objective
+o Current Situation and Problem Statement
+o Constraint
+o Analysis of Alternative and Recommendation
+o Prelimenary Project Requirements
+o Budget Estimate and Financial Anlysis
+o Schedule Estimate
+o Potential Risk
+o Exhibits (penjelasan tambahan jika perlu)
+ISA-202 Rekayasa Perangkat Lunak
+Business Case adalah analisis dari
+nilai organisasi, kelayakan, biaya,
+manfaat dan risiko-risiko dari
+perencanaan proyek.
+NAME OR LOGO
+Tahapan Mengembangkan Busines Case
+7
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+#1 Select Core Team
+8
+ISA-202 Rekayasa Perangkat Lunak
+o Memilih tim inti dengan tujuan untuk mendapatkan tim yang:
+o Kredibel
+o Sejalan dengan tujuan organisasi
+o Mampu menilai kebutuhan biaya
+#2 Mendefinisikan MOV (1)
+o MOV harus:
+o Dapat diukur
+o Memberikan nilai terhadap organisasi
+o Dapat disetujui
+o Dapat diverifikasi
+NAME OR LOGO
+9
+ISA-202 Rekayasa Perangkat Lunak
+#2 Mendefinisikan MOV (2)
+o MOV harus harus sejalan dengan
+tujuan organisasi.
+o Bandingkan pernyataan MOV
+berikut:
+o Menginstal hardware dan software
+baru untuk memberikan layanan
+kelas dunia kepada customer.
+o Merespon 95% pertanyaan dari
+customer dalam waktu 90 detik
+dengan callback (munculnya
+pertanyaan yang sama) kurang dari
+5%.
+NAME OR LOGO
+10
+ISA-202 Rekayasa Perangkat Lunak
+#2 Mendefinisikan MOV (3)
+Langkah-langkah mendefinisikan MOV:
+o Langkah 1 - Identifikasi area yang
+diinginkan:
+o Strategic : menembus pasar baru,
+meningkatkan market share.
+o Customer : customer menerima
+produk atau layanan yang efektif, dan
+efisien.
+o Financial : meningkatkan profit
+o Operational : hemat biaya sesuai
+kelancaran operasional.
+o Social : edukasi, kesehatan,
+keamanan, lingkungan.
+o Langkah 2 - Identifikasi nilai yang
+diinginkan oleh organisasi:
+o Better : meningkatkan kualitas,
+meningkatkan produktivitas.
+o Faster : meningkatkan efisiensi,
+mengurangi siklus waktu.
+o Cheaper : mengurangi biaya
+o Do more : mengembangkan atau
+memperluas bisnis
+NAME OR LOGO
+11
+ISA-202 Rekayasa Perangkat Lunak
+#2 Mendefinisikan MOV (4)
+Langkah-langkah mendefinisikan MOV:
+o Langkah 3 - Menentukan metric atau
+ukuran yang sesuai (uang,
+persentase (%), nilai numerik):
+o Langkah 4 - Menentukan target
+waktu untuk mencapai MOV
+o Langkah 5 - Melakukan verifikasi dan
+mendapatkan persetujuan dari
+semua stakeholder proyek
+o Langkah 6 - Meringkas MOV dalam
+pernyataan atau tabel yang jelas
+NAME OR LOGO
+#3 Mengidentifikasi Alternatif
+12
+ISA-202 Rekayasa Perangkat Lunak
+o Strategi dari mengidentifikasi alternatif:
+o Mengganti sistem yang ada saat ini
+o Mengadopsi/mengadaptasi dari area bisnis organisasi bisnis lain
+o Reengineering sistem yang ada
+o Membeli paket aplikasi (off-the-self) yang sudah ada
+#4 Mendefinisikan Kelayakan dan Analisis Risiko
+o Feasibility:
+o Economic Feasibility
+o Technical Feasibility
+o Organizational Feasibility, dan
+lain-lain.
+o Risk fokus pada:
+o Identification
+o Assessment
+o Response
+NAME OR LOGO
+#5 Mendefinikan Total Biaya dari Ownership
+13
+ISA-202 Rekayasa Perangkat Lunak
+o Direct cost
+o Indirect Cost
+o On-going Cost, disebut juga
+biaya operasional yang
+dikeluarkan sehari-hari untuk
+administrasi dan pemeliharaan.
+NAME OR LOGO
+#6 Mendefinikan Total Manfaat dari Ownership
+14
+ISA-202 Rekayasa Perangkat Lunak
+o Meningkatkan nilai bisnis
+o Meningkatkan akurasi dan efisiensi
+o Meningkatkan pengambilan keputusan
+o Meningkatkan layanan terhadap customer
+NAME OR LOGO
+#7 Mendefinikan Alternatif Menggunakan Model
+Finansial (1)
+15
+ISA-202 Rekayasa Perangkat Lunak
+Payback Period (PBD)
+o Payback Period adalah teknik penganggaran modal yang paling sederhana,
+dengan cara menghitung jumlah tahun yang dibutuhkan proyek untuk
+memulihkan investasi awal berdasarkan arus kas masuk yang diharapkan di
+masa depan.
+NAME OR LOGO
+#7 Mendefinikan Alternatif Menggunakan Model
+Finansial (2)
+16
+ISA-202 Rekayasa Perangkat Lunak
+Break Even Point (BEP)
+o Menurut Harahap (2004),
+pengertian BEP (Break Even Poin)
+adalah suatu keadaan yang dimana
+perusahaan tidak mendapatkan laba
+tetapi tidak mengalami kerugian.
+Hal ini berarti semua biaya yang
+sudah dikeluarkan khusus untuk
+operasi produksi dapat ditutupi oleh
+pendapatan dari penjualan semua
+produk.
+NAME OR LOGO
+#7 Mendefinikan Alternatif Menggunakan Model
+Finansial (3)
+17
+ISA-202 Rekayasa Perangkat Lunak
+Break Even Point (BEP)
+o BEP dapat dihitung dalam bentuk unit (Q) dan bisa juga dihitung dalam bentuk rupiah.
+o
+BEP Unit
+= (Biaya Tetap) / (Harga per unit - Biaya Variable per Unit)
+o
+BEP Rupiah = (Biaya Tetap) / (1-Biaya Variabel / Harga per Unit)
+o Contoh: Penjualan Putter (Stick Golf)
+Sebuah perusahaan pembuat stick golf memiliki
+modal (fix cost) sebesar $100.000 dan ingin
+menjual stick golf seharga $30 per unit,
+sedangkan biaya variabel nya sebesar $25, maka
+diperoleh profit margin sebesar $5.
+BEP = Initial Investment / Net Profit Margin
+BEP (Q) = $100.000 / ($30 - $25) = 20.000 unit.
+NAME OR LOGO
+#7 Mendefinikan Alternatif Menggunakan Model
+Finansial (4)
+18
+ISA-202 Rekayasa Perangkat Lunak
+Break Even Point (BEP)
+BEP Rupiah = (Biaya Tetap) / (1-Biaya Variabel / Harga per Unit)
+𝐵𝐸𝑃𝑃= 100.000
+1 −(25
+30)
+= $600.000
+NAME OR LOGO
+#7 Mendefinikan Alternatif Menggunakan Model
+Finansial (5)
+19
+ISA-202 Rekayasa Perangkat Lunak
+Return Of Investment (ROI)
+o ROI adalah rasio yang digunakan untuk menghitung antara keuntungan yang diterima dengan
+biaya investasi.
+o 𝑅𝑂𝐼=
+𝑏𝑒𝑛𝑒𝑓𝑖𝑡𝑦𝑎𝑛𝑔𝑑𝑖ℎ𝑎𝑟𝑎𝑝𝑘𝑎𝑛−𝑐𝑜𝑠𝑡𝑦𝑎𝑛𝑔𝑑𝑖𝑘𝑒𝑙𝑢𝑎𝑟𝑘𝑎𝑛
+𝑐𝑜𝑠𝑡𝑦𝑎𝑛𝑔𝑑𝑖𝑘𝑒𝑙𝑢𝑎𝑟𝑘𝑎𝑛
+=
+$115.000−$100.000
+$100.000
+= 15%
+NAME OR LOGO
+#7 Mendefinikan Alternatif Menggunakan Model
+Finansial (6)
+20
+ISA-202 Rekayasa Perangkat Lunak
+Net Present Values (NPV)
+o Net Present Value (NPV) adalah selisih antara nilai arus kas
+masuk dengan nilai arus kas keluar selama periode waktu
+tertentu
+Catatan:
+Jika arus kas yang diharapkan pertahun maka
+gunakan discount rate nya 8%, namun jika perbulan
+maka gunakan 0.64%.
+NAME OR LOGO
+#8 Mengajukan dan Mendukung Rekomendasi
+22
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Project Charter
+23
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Definisi Project Charter
+24
+o Mencakup informasi:
+o Project Title
+o Project Start Date
+o Project Finish Date
+o Budget Information
+o Project Manager
+o Project Objectives
+o Approach
+o Roles and Responsibilities (Sponsor, PM,
+Anggota Tim, Customer, dll)
+ISA-202 Rekayasa Perangkat Lunak
+Project Charter adalah dokumen
+yang secara formal diakui
+keberadaannya dalam sebuah proyek.
+Project Charter harus SMART:
+o Spesific
+o Measurable
+o Achievable
+o Realistic
+o Time Specific
+NAME OR LOGO
+Input dari Project Charter
+25
+ISA-202 Rekayasa Perangkat Lunak
+o Project Scope Statement
+o Business Case
+o Contract
+o Enterprise Environmental Factors
+o Organizational Process Assets
+Manfaat Project Charter
+o Stakeholder didefinisikan secara jelas
+o Role dan responsibilities tergambarkan
+o Scope didefinisikan
+o Meningkatkan Project Management Process
+o Meningkatkan probabilitas kesuksesan proyek
+Thank
+You
+Kurnia Ramadhan Putra, S.Kom., M.T.
+kurniaramadhan@itenas.ac.id
+https://www.researchgate.net/profile/Ku
+rnia_Putra3

@@ -1,0 +1,268 @@
+Decision
+Tree
+Analysis
+Perform Quantitative 
+Risk Analysis 
+SOFIAUMAROH
+SOFIAUMAROH
+Proses Manajemen Risiko Proyek
+Planning risk management 
+Memutuskan bagaimana 
+mendekati dan merencanakan 
+kegiatan manajemen risiko untuk 
+proyek
+1
+2
+3
+4
+5
+6
+Identifying risks 
+Menentukan risiko mana yang 
+mungkin mempengaruhi proyek 
+dan mendokumentasikan 
+karakteristik masing-masing
+Performing quantitative 
+risk analysis 
+Secara numerik memperkirakan 
+efek risiko pada tujuan proyek
+Performing qualitative 
+risk analysis 
+Memprioritaskan risiko 
+berdasarkan probabilitas dan 
+dampak kejadiannya
+Planning risk responses 
+Mengambil langkah-langkah 
+untuk meningkatkan peluang 
+dan mengurangi ancaman untuk 
+memenuhi tujuan proyek
+Controlling risk 
+Memantau risiko teridentifikasi dan 
+residual, mengidentifikasi risiko 
+baru, melaksanakan rencana 
+respons risiko, dan mengevaluasi 
+efektivitas strategi risiko
+SOFIAUMAROH
+Performing 
+Quanitative Risk 
+Analysis
+• Dapat dilakukan bersamaan
+dengan analisis kualitatif
+• Pada proyek besar dan kompleks
+yang melibatkan teknologi
+terdepan seringkali memerlukan
+analisis risiko kuantitatif yang 
+ekstensif
+Alat dan teknik meliputi:
+1
+Decision tree analysis
+2
+Monte Carlo Simulation
+3
+Sensitivity analysis
+SOFIAUMAROH
+Decision Tree Analysis
+• Teknik analisis untuk membantu
+memilih tindakan terbaik dalam situasi
+di mana outcome masa depan tidak
+pasti
+• Aplikasi analisis pohon keputusan yang 
+umum adalah Expected monetary 
+value (EMV).
+• EMV adalah hasil kali probabilitas
+peristiwa risiko (P) dan nilai moneter
+peristiwa risiko.
+SOFIAUMAROH
+Expected Monetary Value (EMV)
+Case:
+Perusahaan ABC mencoba untuk memutuskan
+apakah harus mengajukan proposal untuk Proyek 1, 
+Proyek 2, keduanya, atau tidak satu pun proyek.
+Lakukan analisis kuantitatif dengan Pohon
+Keputusan EMV, apabila diketahui:
+Langkah EMV
+Gambar pohon keputusan dengan
+2 cabang (berhasil/gagal)
+1
+2
+Tentukan peluang setiap
+kemungkinan (jika diketahui) 
+3
+Hitung nilai moneter yang 
+diharapkan setiap cabang
+4
+Hitung nilai moneter setiap proyek
+dengan cara: menjumlahkan EMV 
+setiap cabangnya.
+Project
+Chance of outcome
+Estimated Profits
+Project 1
+20%
+$300.000 
+80%
+–$40,000 
+Project 2
+20%
+-$50.000 
+10%
+-$20.000 
+70%
+$60,000
+5
+Ambil proyek dengan EMV positif
+terbesar
+SOFIAUMAROH
+Langkah 1: Gambar pohon keputusan untuk Proyek 1 
+dan Proyek 2
+Expected Monetary Value (EMV)
+Project
+Chance Of
+Outcome
+Estimated
+Profits
+Project 1
+20%
+$300.000 
+80%
+–$40,000 
+Project 2
+20%
+-$50.000 
+10%
+-$20.000 
+70%
+$60,000
+Proposal 1
+Perusahaan 
+ABC
+Proposal 2
+2 peluang
+3 peluang
+SOFIAUMAROH
+Expected Monetary Value (EMV)
+P= 0.2
+P= 0.8
+Probability (P) Times
+Estimated
+Profits
+*
+*
+$300.000
+–$40,000
+P= 0.2
+P= 0.7
+P= 0.1
+*
+*
+-$50.000
+$60,000
+*
+-$20.000
+Langkah 2: Tentukan peluang dan estimasi Profits setiap
+proyek (jika diketahui) 
+Interpretasi
+Terdapat 20% peluang untuk
+mendapatkan laba $300.000 dari
+Proyek 1
+80% peluang perusahaan akan rugi
+$40.000 untuk proyek 1
+20% peluang perusahaan akan rugi
+$50.000 untuk Proyek 2
+10% peluang perusahaan akan rugi
+$20.000 untuk Proyek 2
+70% peluang perusahaan akan laba
+$60.000 dari proyek 2
+Proposal 1
+Perusahaan 
+ABC
+Proposal 2
+Project
+Chance of
+outcome
+Estimated
+Profits
+Project 1
+20%
+$300.000 
+80%
+–$40,000 
+Project 2
+20%
+-$50.000 
+10%
+-$20.000 
+70%
+$60,000
+SOFIAUMAROH
+Proposal 1
+Perusahaan 
+ABC
+Proposal 2
+P= 0.2
+P= 0.8
+Probability (P) Times
+Estimated
+Profits
+*
+*
+$300.000
+–$40,000
+P= 0.2
+P= 0.7
+P= 0.1
+*
+*
+-$50.000
+$60,000
+*
+-$20.000
+Langkah 3: Hitung nilai moneter setiap proyek berdasarkan
+Probabilitas dan Estimasi Profits di masa depan
+= +$60,000 
+= –$32,000 
+= -$10,000 
+= $42,000 
+= -$2,000
+EMV’s 
+Outcomes
+Expected Monetary Value (EMV)
+Project
+Chance of
+outcome
+Estimated
+Profits
+Project 1
+20%
+$300.000 
+80%
+–$40,000 
+Project 2
+20%
+-$50.000 
+10%
+-$20.000 
+70%
+$60,000
+Proyek 1:
+= $60,000 +(–$32,000)
+= $28,000 
+Diperoleh nilai EMV:
+Proyek 2:
+= –$10,000+(-$2,000) + $42,000 
+= $30,000
+Keputusan: 
+Mengajukan Proyek 2 (EMV terbesar)
+SOFIAUMAROH
+Expected Monetary Value (EMV)
+• Perhatikan, proyek 1 terlihat lebih
+menarik dengan keuntungan
+$300.000, tetapi Proyek 2 hanya bisa
+mendapatkan $60.000 
+• Jika Cliff adalah seorang pencari risiko, 
+dia tentu ingin menawar Proyek 1. 
+• Namun, hanya ada peluang 20% untuk
+mendapatkan $300.000 di Proyek 1, 
+dibandingkan dengan 70 persen
+peluang untuk menghasilkan $60.000 
+di Proyek 2

@@ -1,0 +1,31 @@
+TUGAS SC2 SC3ISB 212 GENAP 25 26 
+TUGAS SC2   
+BATCH PROGRAMMING DALAM SQL SERVER  
+1. SKENARIO : anda adalah seorang dosen di sebuah universitas . Seorang mahasiswa 
+dinyatakan lulus  
+Jika Matakuliah Basisdata2 >=75 dan mk Rekayasa Perangkat lunak >=75 dan Matakuliah 
+pemorgraman dasar >=75    
+              Dan mahasiswa dinyatakan tidak lulus jika salah satu dari matakuliah di atas dibawah 75  
+              Buatlah batch program SQL server untuk scenario di atas . Gunakan 3 buah variabel 
+yang menyimpan nilai mk basisdata2, mk Rekayasa Perangkat luank dan mk Pemrograman dasar  
+2. NIM GENAP: 
+Buatlah program yang menghitung jumlah bilangan genap dari 1 sampai 20  
+NIM GANJIL:    
+Buatlah program yang menghitung jumlah bilangann ganjil dari 1 sampai 20  
+Gunakan for atau While  
+ 
+TUGAS SC3 Store procedure  
+1. Buatlah suatu tabel Mahasiswa dengan struktur ( NRP , nama_mahasiswa) atau tabel lain 
+dengan 2 buah kolom , bisa tabel lain selalin mahasiswa . 
+Buatlah suatu store prosedur yang tujuannya melakukan insert pada tabel tersebut, 
+dengan variabel input , yang menjadi varibel input adalah NRP dan Nama Mahasiswa ( 
+Tabel Mahasiswa) atau kolom 1 dan kolom 2 untuk tabel selain tabel mahasiswa  
+ 
+2. Dengan tabel yang sama dengan nomor 1. Buatlah store procedure untuk melakukan 
+update berdasarkan NRP , ( atau berdasarkan kolom 1) , dan sertakan nama baru kolom ke 
+dua .  
+Jika tabel anda adalah tabel mahasiswa, update berdasarkan NRP tertentu , dan ubah lah 
+nama mahasiswa menjadi nama mahasiswa yang baru .  
+Buat store procedure untuk update dengan variabel input ( nrp  dan nama_mahasiswa 
+yang baru)-- > jika tabel anda mahasiswa
+TUGAS SC3

@@ -1,0 +1,314 @@
+M-09  
+PEMODELAN MENGGUNAKAN 
+USE CASE DIAGRAM
+ISA-202 Rekayasa Perangkat Lunak
+KURNIA RAMADHAN PUTRA, S.KOM., M.T.
+Outline Materi
+01
+02
+03
+04
+Definisi Use Case
+(Dennis, Wixom, Roth), (Dennis, Wixom, Tegarden), dan (Kendall & 
+Kendall)
+Elemen Use Case
+Actor, Use Case, Subject Boundary, Association Relationship, 
+Include Relationship, Extends Relationship, dan Generalization
+Langkah-Langkah Menggambar
+Diagram Use Case
+Studi Kasus
+Campus Housing System
+ISA-202 Rekayasa Perangkat Lunak | TM-09 Pemodelan Menggunakan Use Case Diagram
+2
+Definisi Use Case
+(Dennis, Wixom, Roth), (Dennis, Wixom, Tegarden), dan
+(Kendall & Kendall)
+Definisi Use Case
+Sejak pertama kali UML diperkenalkan, use case
+menjadi sangat populer yang digunakan sebagai
+pendekatan baik pada bagian SDLC maupun
+dalam pemodelan Agile.
+Use case mendeskripsikan apa (what) yang 
+dilakukan oleh sebuah sistem tanpa
+mendeskripsikan bagaimana (how) sistem
+melakukannya
+Use case adalah cara yang lebih
+formal untuk merepresentasikan
+bagaimana sistem bisnis berinteraksi
+dengan lingkungannya.
+Use case mengilustrasikan aktivitas
+yang dilakukan oleh user terhadap
+sistem.
+Use case digunakan untuk
+memahami fungsionalitas dari sistem
+pada tingkat yang lebih tinggi. 
+Kendall & Kendall (2011)
+Dennis, Wixom, Tegarden (2012)
+Use case adalah driver utama dari
+semua teknik pembuatan diagram 
+UML, yang digunakan untuk
+mengkomunikasikan pada tingkat
+yang lebih tinggi tentang apa yang 
+seharusnya dilakukan oleh sistem. 
+Analis dapat menggunakan diagram 
+use case untuk memahami dengan
+lebih baik fungsionalitas dari sistem.
+Use case digunakan pertema kali 
+pada fase SDLC karena use case 
+memberikan cara sederhana untuk
+mengkomunikasikan apa yang 
+dibutuhkan oleh user terhadap sistem.
+Dennis, Wixom, Roth (2012)
+ISA-202 Rekayasa Perangkat Lunak | TM-09 Pemodelan Menggunakan Use Case Diagram 
+4
+Elemen Use Case
+Dennis, Wixon, dan Tegarden (2012)
+Elemen
+Use Case 
+Diagram
+Dennis, Wixom, 
+Tegarden
+(2012)
+Actor digambarkan dengan “stick man”. Actor tidak spesifik
+orang, namun lebih kepada peran dari orang tersebut yang 
+memiliki interaksi dengan sistem.
+Jika actor bukan manusia, maka digambarkan dengan
+“rectangle”, namun di dalamnya diberi stereotypes yang 
+dilambangkan dengan <<actor>>.
+ACTOR
+ISA-202 Rekayasa Perangkat Lunak | TM-09 Pemodelan Menggunakan Use Case Diagram 
+6
+Elemen
+Use Case 
+Diagram
+Dennis, Wixom, 
+Tegarden
+(2012)
+Use case digambarkan dengan “oval” yang merupakan
+proses utama di dalam sistem yang diberi label dengan
+“verb + noun”.
+Contoh penamaan use case, seperti “Manage Appoinment”, 
+“Produce Schedule”, dan “Record Availability”.
+USE CASE
+ISA-202 Rekayasa Perangkat Lunak | TM-09 Pemodelan Menggunakan Use Case Diagram 
+7
+Elemen
+Use Case 
+Diagram
+Dennis, Wixom, Roth
+(2012)
+Subject boundary digambarkan dengan kotak yang 
+mendefinisikan ruang lingkup sistem dan memisahkan
+antara bagian internal dengan bagian eksternal sistem.
+Nama dari subject boundary dapat ditulis di dalam kotak
+atau pada posisi atas kotak. 
+SUBJECT BOUNDARY
+ISA-202 Rekayasa Perangkat Lunak | TM-09 Pemodelan Menggunakan Use Case Diagram 
+8
+Elemen
+Use Case 
+Diagram
+Dennis, Wixom, Roth
+(2012)
+Association relationship digunakan untuk menunjukkan hubungan
+interaksi antara actor dengan use case.
+Garis yang menghubungkan antara actor dengan use case 
+menunjukkan adanya asosiasi.
+Jika komunikasi yang terjadi antara actor dengan use case dua arah, 
+maka pada garis asosiasi diberi tanda bintang (*).
+Contoh: Actor Pasien yang sama dapat Membuat Janji berkali-kali, 
+sedangkan use case Membuat Janji juga dapat dilakukan oleh actor 
+Pasien yang berbeda-beda.
+ASSOCIATION RELATIONSHIP
+ISA-202 Rekayasa Perangkat Lunak | TM-09 Pemodelan Menggunakan Use Case Diagram 
+9
+Elemen
+Use Case 
+Diagram
+Dennis, Wixom, Roth
+(2012)
+Include relationship merepresentasikan sebuah use case yang 
+memiliki ketergantungan terhadap use case lain.
+Arah panah dari based use case menuju common use case.
+INCLUDE RELATIONSHIP
+ISA-202 Rekayasa Perangkat Lunak | TM-09 Pemodelan Menggunakan Use Case Diagram 
+10
+Elemen
+Use Case 
+Diagram
+Dennis, Wixom, Roth
+(2012)
+Extends relationship merepresentasikan perluasan dari use case 
+menjadi beberapa pilihan use case lainnya.
+Arah panah dari extended use case menuju based use case.
+EXTENDS RELATIONSHIP
+ISA-202 Rekayasa Perangkat Lunak | TM-09 Pemodelan Menggunakan Use Case Diagram 
+11
+Elemen
+Use Case 
+Diagram
+Dennis, Wixom, 
+Tegarden
+(2012)
+Generalization relationship merepresentasikan spesialisasi use 
+case yang diturunkan dari base use cased yang berlaku juga untuk
+actor.
+Arah panah dari specialized use case menuju based use case.
+GENERALIZATION RELATIONSHIP
+ISA-202 Rekayasa Perangkat Lunak | TM-09 Pemodelan Menggunakan Use Case Diagram 
+12
+Use Case 
+Relationship
+(Kendall & Kendall)
+(2011)
+
+Communicates: relasi antar actor dengan use case dihubungkan menggunakan
+garis (tanpa arah panah)
+
+Includes: terdiri dari behavior use case yang terhubung ke satu atau lebih use 
+case lainnya.
+
+Extends: use case yang menangani eksepsi dari based use case.
+
+Generalizes: Satu use case yang dapat didekomposisi menjadi beberapa use 
+case lainnya.
+Use Case Relationship
+ISA-202 Rekayasa Perangkat Lunak | TM-09 Pemodelan Menggunakan Use Case Diagram 
+13
+Elemen Use Case
+Dennis, Wixon, dan Roth (2012)
+Elemen Use Case 
+Diagram (1)
+Dennis, Wixom, Roth
+(2012)
+ISA-202 Rekayasa Perangkat Lunak | TM-09 Pemodelan Menggunakan Use Case Diagram 
+15
+Element Use Case Diagram (2)
+Dennis, Wixom, Roth (2012)
+Antara actor dengan use case 
+dihubungkan oleh asosiasi yang 
+menunjukkan adanya interaksi
+antara aktor dengan sistem.
+Asosiasi dilambangkan dengan
+garis yang ditarik dari actor menuju
+use case.
+Asosiasi antara actor dengan use 
+case bisa terjadi dua arah yang 
+diberi tanda bintang (*) pada
+garisnya.
+Actor aktor mirip dengan external entity pada DFD, 
+yaitu orang atau sub-sistem lain yang berinteraksi
+dengan sistem utama. 
+Actor adalah peran dari user saat berinteraksi dengan
+sistem. 
+Actor berada di luar sistem dan memulai kasus
+penggunaan.
+Use case, digambarkan dengan
+bentuk oval, yaitu proses utama yang 
+akan dilakukan oleh sistem dan diberi
+label atau penamaan dengan kata 
+kerja ditambah kata benda.
+System boundary digambarkan dengan kotak
+yang berfungsi untuk memberi batasan antara
+eksternal atau internal sistem.
+Penamaan system boundary dapat ditulis di dalam
+kotak atau di posisi atas kotak.
+Actor
+Use Case
+System Boundary
+Association Relationship
+ISA-202 Rekayasa Perangkat Lunak | TM-09 Pemodelan Menggunakan Use Case Diagram 
+16
+Studi Kasus: Sistem Penjadwalan Kontrol Pasien (1) 
+Rumah Sakit Hermina memiliki "Sistem Penjadwalan Kontrol Pasien", dimana
+terdapat 3 aktor di dalamnya, yaitu Pasien, Dokter, dan Manajemen.
+Pasien dapat dikategorikan menjadi PasienLama dan PasienBaru
+PasienBaru karena belum memiliki rekam medis, maka harus melakukan
+pendaftaran terlebih dahulu melalui bagian Manajemen
+Sedangkan PasienLama dapat langsung Melihat ketersediaan jadwal dokter.
+Jadwal ketersedian dokter tersebut dikelola oleh bagian Managemen, yaitu
+Membuat Jadwal, Memperbarui Jadwal, dan Menghapus Jadwal.
+Dokter dapat mempublikasikan jadwal secara berkala
+ISA-202 Rekayasa Perangkat Lunak | TM-09 Pemodelan Menggunakan Use Case Diagram 
+17
+Studi Kasus: Sistem Penjadwalan Kontrol Pasien (2) 
+Mengidentifikasi Major Use Case (Use Case Utama)
+ISA-202 Rekayasa Perangkat Lunak | TM-09 Pemodelan Menggunakan Use Case Diagram 
+18
+Studi Kasus: Sistem Penjadwalan Kontrol Pasien (3) 
+Me-review Major Use Case (Meninjau Kembali)
+ISA-202 Rekayasa Perangkat Lunak | TM-09 Pemodelan Menggunakan Use Case Diagram 
+19
+Langkah Menentukan Major Use Case
+Membantu Analis Bisnis untuk mendapatkan
+gambaran yang lengkap mengenai proses 
+bisnis yang akan dimodelkan.
+Review Requirements Definition
+Membantu Analis untuk mengidentifikasi
+scope dari sistem
+Identify Subject’s Boundaries
+Aktor berasal dari daftar stakeholder dan user. 
+Stakeholder dapat direpresentasikan sebagai
+orang, kelompok, atau organisasi yang dapat
+terlibat di dalam sistem.
+Identify Primary Actor and Goals
+Daripada membuat use case yang detail dan lengkap
+di awal, sebaiknya identifikasi dahulu use case utama
+yang bertujuan untuk mencegah untuk melupakan
+proses bisnis utama dan membantu pengguna
+menjelaskan keseluruhan rangkaian proses bisnis
+yang menjadi tanggung jawab mereka.
+Indentify Business Process & Major Use Case
+Memungkinkan untuk mendekomposisi
+(membagi) major use case menjadi use 
+case yang lebih detail atau spesifik.
+Review of Current Set Use Case
+01
+02
+03
+04
+06
+ISA-202 Rekayasa Perangkat Lunak | TM-09 Pemodelan Menggunakan Use Case Diagram 
+20
+Langkah Mengambar Diagram Use Case (1)
+Place & Draw Use Case
+01
+02
+Dennis, Wixom, dan Tegarden (2012)
+Place & Draw Actor
+Dokter
+UC-03
+Mempublikasikan Jadwal
+Draw Subject Boundary
+03
+04
+Add Association
+*
+*
+ISA-202 Rekayasa Perangkat Lunak | TM-09 Pemodelan Menggunakan Use Case Diagram 
+21
+Studi Kasus
+Campus Housing System
+Latihan – Campus Housing System
+Identifikasilah sekumpulan major case pada studi kasus Campus Housing System, 
+kemudian review dan dekomposisi menjadi lebih detail.
+Deskripsi Campus Housing System sebagai berikut:
+o
+Layanan dari Campus Housing System memungkinkan untuk membantu
+mahasiswa menemukan kontrakan. 
+o
+Pemilik kontrakan dapat menambahkan info kontrakan dengan memasukkan
+data lokasi, jumlah tempat tidur, dan sewa per bulan.
+o
+Mahasiswa dapat mencari seluruh database kontrakan melalui web yang 
+sesuai dengan kebutuhan mereka.
+o
+Mahasiswa dapat menghubungi secara langsung pemilik kontrakan untuk
+menyewa rumah yang diinginkan. 
+o
+Pemilik kontrakan dapat menghapus data kontrakan jika rumah sudah
+tersewa.
+ISA-202 Rekayasa Perangkat Lunak | TM-09 Pemodelan Menggunakan Use Case Diagram 
+23
+Terima Kasih
+Semoga memperoleh ilmu yang bermanfaat

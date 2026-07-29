@@ -1,0 +1,38 @@
+[
+  {
+    "pertanyaan": "Apa saja dua jenis fungsi bernilai tabel yang ada di SQL Server 2012?",
+    "jawaban": "Inline table valued function dan Multi Statement Table Valued Function.",
+    "sumber": "Fungsi bernilai tabel dalam SQL server 2012 ada dua jenis , yaitu : a. Inline table valued function b. Multi Statement Tabled Valued Function"
+  },
+  {
+    "pertanyaan": "Apa perbedaan utama antara Inline Table Valued Function (ITVF) dan Multi Statement Table Valued Function (MSTVF)?",
+    "jawaban": "ITVF tidak memiliki blok BEGIN...END, tidak dapat menggunakan pernyataan IF atau perulangan, sedangkan MSTVF selalu memiliki blok BEGIN...END, dapat mendeklarasikan variabel, menggunakan IF, WHILE, dan mengembalikan variable table.",
+    "sumber": "Tidak ada blok begin...end. Pada fungsi ini tidak dapat dibuat program seperti kalimat IF dan kalimat pengulangan. Pada MSTVF selalu ada blok begin end, dan tipe data yang dikembalikan berupa variable table ."
+  },
+  {
+    "pertanyaan": "Bagaimana cara mendeklarasikan variabel bertipe tabel di SQL Server?",
+    "jawaban": "Menggunakan perintah DECLARE diikuti nama variabel dan definisi kolom, contoh: DECLARE @LOCAL_TABLEVARIABLE TABLE (column_1 DATATYPE, column_2 DATATYPE, column_N DATATYPE ).",
+    "sumber": "DECLARE @LOCAL_TABLEVARIABLE TABLE (column_1 DATATYPE, column_2 DATATYPE, column_N DATATYPE )"
+  },
+  {
+    "pertanyaan": "Di mana variabel tabel disimpan secara fisik?",
+    "jawaban": "Variabel tabel disimpan dalam database tempdb.",
+    "sumber": "Jawaban atas pertanyaan ini adalah - variabel tabel disimpan dalam database tempdb."
+  },
+  {
+    "pertanyaan": "Berikan contoh fungsi inline table valued yang mengembalikan semua baris dari tabel customers.",
+    "jawaban": "CREATE FUNCTION dbo.fn_daftar_konsumen() RETURNS TABLE AS RETURN (SELECT * FROM customers);",
+    "sumber": "CREATE FUNCTION dbo.fn_daftar_konsumen() RETURNS TABLE AS RETURN (SELECT * from customers) Go"
+  },
+  {
+    "pertanyaan": "Bagaimana contoh fungsi inline table valued yang menerima parameter @id dan mengembalikan baris customers dengan customer_id tertentu?",
+    "jawaban": "ALTER FUNCTION dbo.fn_daftar_konsumen(@id int) RETURNS TABLE AS RETURN (SELECT * FROM customers WHERE customer_id = @id);",
+    "sumber": "ALTER FUNCTION dbo.fn_daftar_konsumen(@id int) RETURNS TABLE AS RETURN (SELECT * from customers where customer_id=@id) Go"
+  },
+  {
+    "pertanyaan": "Tunjukkan contoh Multi Statement Table Valued Function yang mengembalikan nama dan alamat pelanggan.",
+    "jawaban": "CREATE FUNCTION dbo.fn_contacts() RETURNS @contacts TABLE (customer_name VARCHAR(40), customer_address VARCHAR(40)) AS BEGIN INSERT INTO @contacts SELECT Custumer_name, Customer_address FROM customers; RETURN; END;",
+    "sumber": "CREATE FUNCTION dbo.fn_contacts() RETURNS @contacts TABLE ( customer_name VARCHAR(40), customer_address VARCHAR(40) ) AS BEGIN INSERT INTO @contacts SELECT Custumer_name, Customer_address FROM customers; RETURN; END;"
+  },
+  {
+    "pertanyaan": "Apa langkah‑langkah solusi 2 untuk mengh

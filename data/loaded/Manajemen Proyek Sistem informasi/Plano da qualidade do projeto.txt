@@ -1,0 +1,1667 @@
+Team FME
+Project Quality Management
+www.free-management-ebooks.com
+ISBN 978-1-62620-983-5
+Project Skills
+Copyright Notice
+© www.free-management-ebooks.com 2014. All Rights Reserved
+ISBN 978-1-62620-983-5
+The material contained within this electronic publication is protected under International 
+and Federal Copyright Laws and treaties, and as such any unauthorized reprint or use of 
+this material is strictly prohibited.
+You may not copy, forward, or transfer this publication or any part of it, whether in elec-
+tronic or printed form, to another person, or entity.
+Reproduction or translation of any part of this work without the permission of the copy-
+right holder is against the law.
+Your downloading and use of this eBook requires, and is an indication of, your complete 
+acceptance of these ‘Terms of Use.’
+You do not have any right to resell or give away part,
+or the whole, of this eBook.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+1
+Project Quality Management
+Table of Contents
+Preface	
+2
+Visit Our Website	
+3
+About this Knowledge Area	
+4
+Introduction	
+5
+The PMBOK® Project Quality Management Processes	
+8
+8.1 Plan Quality Management	
+9
+8.1.1 Plan Quality Management: Inputs	
+11
+8.1.2 Plan Quality Management: Tools and Techniques	
+13
+8.1.3 Plan Quality Management: Outputs	
+23
+8.2 Perform Quality Assurance	
+25
+8.2.1 Perform Quality Assurance: Inputs	
+26
+8.2.2 Perform Quality Assurance: Tools and Techniques	
+27
+8.2.3 Perform Quality Assurance: Outputs	
+31
+8.3 Perform Quality Control	
+32
+8.3.1 Perform Quality Control: Inputs	
+34
+8.3.2 Perform Quality Control: Tools and Techniques	
+36
+8.3.3 Perform Quality Control: Outputs	
+37
+Summary 	
+38
+Other Free Resources	
+42
+References	
+43
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+2
+Project Quality Management
+Preface
+This eBook describes the process of quality management in projects. It includes the pro-
+cesses and activities of the performing organization that determine quality policies, ob-
+jectives, and responsibilities so that the project will satisfy the needs for which it was 
+undertaken. 
+You will learn:
+●
+●
+Why quality management is treated as a distinct knowledge area
+●
+●
+How to identify quality requirements and set standards
+●
+●
+How to perform quality assurance
+●
+●
+How to monitor and control quality 
+●
+●
+How to tell when a project is out of control
+The Free Management eBooks ‘Project Skills’ series are structured around the ten key 
+knowledge areas of project management detailed in the ‘Project Management Institute, 
+A Guide to the Project Management Body of Knowledge, (PMBOK® Guide)—Fifth Edi-
+tion, Project Management Institute Inc., 2013’. ISBN-13: 978-1935589679.
+The eBooks in this series follow the structure of the PMBOK® Guide because it repre-
+sents a tried and tested framework. We have tried to ensure full alignment of our eBooks 
+with the Guide by using the numbering convention as well as the naming convention.
+If you need more detailed explanation of a particular subject then you can simply refer 
+to the related chapter and paragraph number in the PMBOK® Guide. Remember, many 
+of the generic project management methodologies available refer to the PMBOK® Guide 
+as a basic framework.
+A knowledge of the PMBOK® processes will go a long way towards giving you an under-
+standing of almost any project management methodology that your organization may 
+use.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+3
+Project Quality Management
+Visit Our Website
+More free management eBooks (FME) along with a series of essential templates and 
+checklists for managers are all available to download free of charge to your computer, 
+iPad, or Amazon Kindle.
+The FME online library offers you over 100 free resources for your own professional de-
+velopment. Our eBooks, Checklists, and Templates are designed to help you with the 
+management issues you face every day.
+We are adding new titles every month, so don’t forget to check our website regularly for 
+the latest releases.
+Visit http://www.free-management-ebooks.com
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+4
+Project Quality Management
+About this Knowledge Area
+Project Quality Management includes the processes and activities of the performing or-
+ganization that determine quality policies, objectives, and responsibilities so that the 
+project will satisfy the needs for which it was undertaken. 
+It implements the quality management system through policy and procedures with con-
+tinuous process improvement activities conducted throughout, as appropriate.
+Process
+Project Phase
+Key Deliverables
+8.1 Plan Quality Management
+Planning
+Quality Management Plan,
+Quality Metrics
+8.2 Perform Quality Assurance
+Execution
+Change Requests
+8.3 Control Quality
+Monitoring and 
+Controlling
+Quality control Measurements
+Quality management, like every other aspect of the project management, should be pro-
+active. Limiting the quality management to detecting defects is reactive. 
+You should plan the quality and prepare an environment that does not create defects, 
+instead of finding and repairing defects.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+5
+Project Quality Management
+Introduction
+Many people who are new to project management find it strange that quality is treated 
+as a separate area. Surely, quality should be present in every aspect of the project. This 
+way of thinking begs the question, why is quality treated as something that can be man-
+aged separately? To answer this, we need to define exactly what we mean by ‘quality’ 
+and who gets to decide what this definition is.
+In some situations a quality standard might be obvious, for example a computer system 
+used by customer service staff must be able to deal with peak loads. In this case, a qual-
+ity standard could specify that when one hundred staff are inputting data at the same 
+time, the system response time must still be less than two seconds.
+Quality should 
+always be decided 
+by end user
+rather than by those 
+doing the actual 
+work
+However quality is not always quite so easy to define; consider the design of the com-
+puter interface to capture customer data. 
+The software engineer responsible for the design might consider confor-
+mance to industry standards to be a sign of quality. 
+The user might consider it more important that the design matches the inter-
+faces that they already use. 
+In this example, it is more important that the users will be able to work more 
+efficiently than that the design conforms to some theoretical external stan-
+dard.
+In fact, it should always be the end user who decides what counts as quality rather than 
+the people doing the work. Although this can be complicated when a project has a num-
+ber of users who have different priorities. 
+In the example we have been using, it may be important for customer service staff who 
+deal with billing to see a summary of the past two years of payment history on the ‘home’
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+6
+Project Quality Management
+screen whereas staff who deal with complaints might prefer to see the complaint history. 
+Focusing too much on one group of users may compromise the others and leave them 
+dissatisfied. This illustrates one reason why a system to manage quality is required. 
+Six reasons why poor quality can occur
+Details requested from users was insufﬁ cient
+Not all user groups were asked
+Requirements were not understood
+Quality needs changed during the project
+Quality requirements were exceeded
+Requirements were understood, but not achived
+There are six possible reasons why quality standards might not be met despite everyone 
+on the project team doing their best to deliver the project as specified.
+1.	 The users were not asked to specify their requirements in sufficient detail
+2.	 Not all of the user groups were asked
+3.	 The requirements were not understood
+4.	 They were understood but could not be achieved
+5.	 The quality requirements changed during the project
+6.	 The quality requirements were exceeded
+The first five points are easily understandable, but the last one needs some explanation. 
+If quality requirements have been exceeded then someone somewhere has done more 
+work than has been planned for in that part of the project.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+7
+Project Quality Management
+This work needs to be paid for, in either time or money and this has not been budgeted 
+for. Because there is a lag when comparing actual progress against planned progress and 
+for money actually spent against the budget, this is not usually obvious at the time. 
+The result of exceeding the quality plan is that sooner or later either more 
+money needs to found or the scope of the project needs to be reduced. Nei-
+ther of these things is acceptable.
+The purpose of quality management is to make sure that the project meets the needs 
+for which it was created. To do this it needs to take account of the reasons above why it 
+might not. It needs to ensure that:
+1.	 Users are asked to specify their requirements in sufficient detail
+2.	 Requirements are fully documented 
+3.	 All stakeholders agree to them 
+4.	 There is a recognized process to deal with any changes
+5.	 There is a process for monitoring and controlling quality
+Modern quality management complements project management and both disciplines 
+recognize the importance of:
+●
+●
+Customer Satisfaction—this involves understanding, evaluating, defining, and 
+managing expectations so that customer requirements are met. This requires 
+a combination of conformance to requirements, to ensure the project produces 
+what it was created to produce, and fitness for use (the product or service must 
+satisfy real needs).
+●
+●
+Prevention Over Inspection—one of the fundamental tenets of modern quality 
+management states that quality is planned, designed, and built in rather than in-
+spected in. The cost of preventing mistakes is generally much less than the cost 
+of correcting them when they are found by inspection.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+8
+Project Quality Management
+the importance of—
+Customer Satisfaction, 
+Prevention Over Inspection, 
+Continuous Improvement, 
+Mnagement Responsibility
+Project 
+Management 
+recognizes
+Quality 
+Management 
+recognizes
+●
+●
+Continuous Improvement—the plan-do-check-act cycle is the basis for quality 
+improvement. This is described in detail in the ‘Project Process Groups’ eBook, 
+which can be downloaded free from this website.
+●
+●
+Management Responsibility—success requires the participation of all members 
+of the project team, but remains the responsibility of management to provide the 
+resources needed to succeed.
+The PMBOK® Project Quality Management Processes
+There are three Project Quality Management processes:
+8.1 Plan Quality Management
+8.2 Perform Quality Assurance
+8.3 Control Quality
+These are dealt with in detail in the following chapters of this eBook.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+9
+Project Quality Management
+8.1 Plan Quality Management
+This process is about deciding what quality means for this particular project and its de-
+liverables. This information makes up the quality plan, which is part of the project plan. 
+Planning for quality is no different from planning for any other task. 
+decides what quality 
+menas for project & 
+deliverables
+Quality 
+Mgmt Plan
+Engage key 
+stakeholders in 
+quality mgmt process
+Acts as 
+Communication 
+tool
+It aims to produce a description of what the quality requirements are and how they are 
+going to be achieved. As well as providing a definition of quality the quality plan also acts 
+as a communication tool to engage key stakeholders in the quality management process.
+A quality plan can be as simple or as detailed as warranted by the project. The plan be-
+low is short and simple but it makes it clear to everyone on the project what is expected 
+in terms of quality.
+The PMBOK® defines this process as follows:
+‘Plan Quality is the process of identifying quality requirements and/or stan-
+dards for the project and product, and documenting how the project will 
+demonstrate compliance. 
+Quality planning should be performed in parallel with the other project plan-
+ning processes. 
+For example, 
+Proposed changes in the product to meet identified quality standards may 
+require cost or schedule adjustments and a detailed risk analysis of the im-
+pact to plans.’
+In practice, quality planning is inseparable from general planning because quality criteria 
+are required as part of the product descriptions. That is, they need to be thought about 
+when a deliverable is being specified rather than ‘added on’ afterwards.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+10
+Project Quality Management
+Imagine a project to produce a brochure for a new Smartphone. 
+One of the selling points of this new Smartphone model is that it is extremely 
+rugged.
+The photographs in the brochure need to show the phone being used in vari-
+ous outdoor environments like construction sites and oilrigs.
+The quality criteria for these photographs might specify that the phone must 
+be clearly identifiable in each photo with the brand name visible. 
+In another project one of the final deliverables is a hand held device for scanning bar-
+codes. Quality criteria for this physical product would include things like operational dis-
+tances from the object being scanned, light levels, acceptable error rates, etc.
+used to deﬁ ne 
+Product 
+Characteristics 
+in
+Quantiﬁ able terms
+Measureable terms
+Quality 
+Criteria
+Quality criteria should always be used to define the characteristics of a product in terms 
+that are quantifiable and measurable. The criteria effectively define ‘quality’ and are used 
+as a benchmark against which to measure the finished product. 
+They should be detailed in the related product description and should be established by 
+considering what the important characteristics of a product are in satisfying the need 
+that it addresses. 
+Inputs
+Tools & Techniques
+Outputs
+Project Management Plan
+Cost-Benefit Analysis
+Quality Management Plan
+Stakeholder Register
+Cost of Quality
+Process Improvement Plan
+Risk Register
+Seven Basic Quality Tools
+Quality Metrics
+Requirements Documentation
+Benchmarking
+Quality Checklists
+Enterprise Environmental Factors
+Design of Experiments
+Project Documents Updates
+Organizational Process Assets
+Statistical Sampling
+Additional Quality 
+Planning Tools
+Meetings
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+11
+Project Quality Management
+The quality criteria of a project should always be stated objectively, subjective state-
+ments like ‘quick response’ or ‘maintainable’ are unsatisfactory because they can’t be 
+measured. The inputs, tools and techniques, and outputs of this process are summarized 
+in the table above.
+8.1.1 Plan Quality Management: Inputs
+This process requires the following inputs:
+Plan Quality Management Inputs
+Project 
+Management 
+Plan
+Stakeholder 
+Register
+Risk 
+Register
+Requirements 
+Documentation
+Enterprise 
+Environmental 
+Factors
+Organizational 
+Process Assets
+8.1.1.1 Project Management Plan
+The scope statement contains the project description, major project deliverables, and 
+acceptance criteria. This is an important input to the quality planning process because if 
+something is out of scope than there is no need to worry about its quality. 
+For example, 
+If the aim of the project was to deliver a prototype then it may be safe to 
+ignore some ‘official’ standards because the product is not going to be used 
+outside of the organization. 
+This is often the case when the aim of the project is concerned with prototyping or prov-
+ing a concept rather than producing a marketable product or an IT system that is going 
+to be used operationally. In these cases the scope document can be used to justify why 
+certain ‘standards’ are not being met.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+12
+Project Quality Management
+The product scope description will often contain details of technical issues and other 
+concerns that can affect quality planning. The definition of acceptance criteria can sig-
+nificantly increase or decrease project costs and quality costs. Satisfying all acceptance 
+criteria implies the needs of the customer have been met.
+The Cost Performance Baseline specifies what costs will be incurred and when. This 
+matters because most projects will not receive their funding as a lump sum at the begin-
+ning but will be financed according to a monthly or quarterly budget. It is described in 
+detail in the ‘Project Cost Management’ eBook available free from the online library of 
+this website www.free-management-ebooks.com . 
+The Schedule Baseline is a specific version of the project schedule developed from the 
+schedule network analysis. It is accepted and approved by the project management 
+team as the schedule baseline with baseline start dates and baseline finish dates. It 
+is a component of the project management plan. It is described in detail in the ‘Proj-
+ect Time Management’ eBook available free from the online library of this website 
+www.free-management-ebooks.com . 
+8.1.1.2 Stakeholder Register
+This document identifies stakeholders with a particular interest in, or impact on, quality. 
+It is an important input because it helps to ensure that all of the relevant stakeholders are 
+consulted including the people who will actually do the work. 
+Projects often run into trouble because the technical people who are actually going to 
+do the work have not been properly consulted about what is and is not achievable. This 
+is quite common in IT projects when the project sponsor has little understanding of how 
+the underlying system will work and whose expectations may be based on a combination 
+of the software vendors exaggerated claims and the fact that many IT managers often 
+don’t really understand the technical side of the business. 
+8.1.1.3 Risk Register
+This contains information on threats and opportunities that may impact quality require-
+ments. It is described in detail in the ‘Project Risk Management’ eBook available free 
+from the online library of this website www.free-management-ebooks.com . 
+Meeting quality requirements poses risk to the project. For this reason, the risk register 
+will identify quality-related risks and in particular, those relating to customer acceptance.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+13
+Project Quality Management
+8.1.1.4 Requirements Documentation
+This captures the stakeholder’s quality requirements, among other things. These are 
+used to help plan how quality control will be implemented on the project.
+8.1.1.5 Enterprise Environmental Factors
+These include any special features of the project’s environment that may affect project 
+quality for example, governmental agency regulations, rules, standards, and guidelines 
+specific to the application area.
+8.1.1.6 Organizational Process Assets
+The quality policy of the organization can be adopted ‘as is’ for use by the project. If it 
+lacks a formal quality policy, or if the project involves multiple performing organizations, 
+the project management team will need to develop a quality policy for the project. Re-
+gardless of the origin of the quality policy, the project management team must ensure 
+that the project stakeholders are fully aware of the policy used for the project through the 
+appropriate distribution of information.
+8.1.2 Plan Quality Management: Tools and Techniques
+The PMBOK® lists several tools and techniques that can be used in the quality planning 
+process. It is very unlikely that any individual project manager would be expected to be 
+skilled in using all of them. 
+Plan Quality 
+Management 
+Techniques
+Basic Quality 
+Tools
+Benchmarking
+Design of 
+Experiments
+Statistical 
+Sampling
+Additional 
+Quality 
+Planning Tools
+Meetings
+Cost-Beneﬁ ts 
+Analysis
+Cost of Quality
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+14
+Project Quality Management
+A better approach would be to have an appreciation of what each one involves and then 
+to select the those that best suit the project and delegate the work to project team mem-
+bers who have expertise in that technique. 
+8.1.2.1 Cost-Benefit Analysis
+This is by far the most important decision making tool and involves nothing more than 
+common sense and judgment based on experience. All quality management activities 
+have a related cost and that cost must be justified in terms of benefit to the project spon-
+sor and the organization as a whole.
+ No activities should be performed that would equal or cost more than the expected ben-
+efits. It should show that the level of quality is viable from a cost perspective and justify 
+its inclusion in the quality plan.
+8.1.2.2 Cost of Quality
+This includes all costs incurred over the life of the product and looks at the costs of con-
+formance to quality standards and the costs of nonconformance.
+Cost of Conformance
+Preventions Costs 
+(build a quality product)
+• Training
+• Document processes
+• Equipment
+• Time to do it right
+Cost of Non-conformance
+Internal Failure Costs 
+(failures found by the project)
+• Rework
+• Scrap
+Appraisal Costs 
+(assess the quality)
+• Testing
+• Destructive testing loss
+• Inspections
+External Failure Costs 
+(failures found by the customer)
+• Liabilities
+• Warranty work
+• Lost business
+$’s spent during the project to 
+AVOID FAILURES
+$’s spent during & after the 
+project DUE TO FAILURES
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+15
+Project Quality Management
+For example, the proposed quality standard for the production of a metal pressing might 
+mandate a tolerance of 1mm. In other words the finished part can be up to 1mm bigger or 
+smaller than the specification. 
+The costs of conformance include both the prevention and appraisal costs in-
+curred in conforming to this standard (Training, equipment, additional time, 
+testing and inspections). 
+The costs of nonconformance include internal and external costs that would 
+be incurred if this quality standard were not achieved. These would include the 
+costs of reworking or scrapping the failed parts (internal cost) and the costs 
+associated with sending out parts that were unacceptable to the customer.
+Project decisions can impact operational costs of quality as a result of product returns, 
+warranty claims, and recall campaigns. Therefore, due to the temporary nature of a proj-
+ect, the sponsoring organization may choose to invest in product quality improvement, 
+especially defect prevention and appraisal, to reduce the external cost of quality.
+8.1.2.3 Seven Basic Quality Tools
+Most of the tools and techniques described here are based on statistical analysis and are 
+most appropriate where the project deliverables are products that can be measured in 
+some way. 
+For example, 
+If parts are being produced on a production line then it will be straightfor-
+ward to measure dimensions, tolerances, failure rates, etc. 
+However, many project deliverables are not like this and it is not possible to collect this 
+type of data. For example,
+Anything that provides a user ‘experience’ can be difficult to measure in this 
+way. 
+The best approach is to be aware of what tools and techniques exist and to select those 
+that are appropriate for the project you are working on. It may even be possible to adapt 
+some of them in order to provide useful data about quality even if you are not making a 
+product that can easily be measured.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+16
+Project Quality Management
+One other point is that unless you are taking the PMBOK® exams, you do not really need 
+to understand these techniques at a practitioner level. As a project manager, your job is 
+to oversee the whole project and call on specific expertise as needed, you should not be 
+expected to ‘do’ everything yourself.
+1. Cause and Effect Diagrams
+Also called Ishikawa diagrams or fishbone diagrams, they illustrate how various factors 
+might be linked to potential problems or effects. Factors are usually grouped into major 
+categories as shown:
+●
+●
+People—Anyone involved with the process
+●
+●
+Methods—How the process is performed and the specific requirements for doing 
+it, such as policies, procedures, rules, regulations and laws
+●
+●
+Machines—Any equipment, computers, tools, etc. required to accomplish the job
+●●
+Materials—Raw materials, parts, pens, paper, etc. used to produce the final product
+●
+●
+Measurements—Data generated from the process that are used to evaluate its 
+quality
+●
+●
+Environment—The conditions, such as location, time, temperature, and culture 
+in which the process operates
+Cause
+People
+Process
+Equipment
+Management
+Environment
+Materials
+Effect
+Problem
+Secondary 
+Cause
+Primary 
+Cause
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+17
+Project Quality Management
+This is not a statistical technique and is therefore applicable to almost all types of proj-
+ect. It does have its critics precisely because is not quantitative and requires a lot of 
+subjective analysis and judgment. 
+It’s strengths are that it can help you to make sense of a situation where there are a lot of 
+variables that are interacting with each other, none of which are quantifiable. It is also a 
+powerful visual tool when you are trying to explain your analysis to others. 
+2. Flowcharts
+This is a graphical representation of a process showing the relationships among process 
+steps. There are many styles, but all process flowcharts show 
+●
+●
+Activities, 
+●
+●
+Decision points, and the 
+●
+●
+Order of processing. 
+Flowcharting can help the project team anticipate quality problems that might occur and 
+this awareness can result in the development of test procedures or approaches for deal-
+ing with them.
+A
+B
+E
+H
+G
+F
+D
+C
+I
+BEGIN
+END
+A flowchart is common type of chart that represents an algorithm or process, showing 
+the steps as boxes of various kinds, and their order by connecting them with arrows. 
+There are many different types of flowcharts, and each type has its own repertoire of boxes 
+and notational conventions. The two most common types of boxes in a flowchart are:
+●
+●
+Processing step (usually called activity) is denoted as a rectangular box 
+●
+●
+Decision is usually denoted as a diamond
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+18
+Project Quality Management
+Flowcharts are used in designing and documenting complex processes. Like other types 
+of diagram, they help visualize what is going on and thereby help the viewer to under-
+stand a process, and perhaps also find flaws, bottlenecks, and other less-obvious fea-
+tures within it.
+3. Checksheets
+These are also known as tally sheets and may be used as a checklist when gathering 
+data. 
+Motor Assembly Check Sheet
+Name of Data Recorder:   Lester B. Rapp                                            
+Location:                              Rochester, New York                                 
+Data Collection Dates:      1/17 - 1/23                                 
+Defect Types/
+Event Occurence
+Dates
+TOTAL
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Supplied parts rusted
+|||||||||
+|||||
+||||
+||
+20
+Mislaigned weld
+|||
+||
+5
+Improper test procedure
+0
+Wrong part issued
+|
+||
+3
+Film on parts
+0
+Voids in casting
+||||
+||
+6
+Incorrect dimensions
+||
+2
+Adhesive failure
+0
+Masking insufficient
+|
+1
+Spray failure
+|||||
+5
+Total
+10
+13
+10
+5
+4
+They are used to organize facts in a manner that will facilitate the effective collection of 
+useful data about a potential quality problem and are especially useful for gathering at-
+tributes data while performing inspections to identify defects. 
+4. Pareto Diagram
+This is a special type of histogram where the values being plotted are arranged in de-
+scending order. The graph is accompanied by a line graph that shows the cumulative 
+totals of each category.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+19
+Project Quality Management
+Late Arrivals by Reported Cause
+100
+50
+Trafﬁ c
+Public 
+trasportation
+Weather
+Emergency
+150
+0
+Chil care
+Overslept
+60
+30
+0
+10
+20
+50
+40
+90
+70
+80
+100 %
+●
+●
+Left vertical axis shows the frequency of occurrence, cost or other important unit 
+of measure. 
+●
+●
+Right vertical axis is the cumulative percentage of the total. 
+In quality control, the Pareto chart often represents the most common sources of de-
+fects, the highest occurring type of defect, or the most frequent reasons for customer 
+complaints, etc. The Pareto chart was developed to illustrate the 80-20 Rule, which 
+states that 80 percent of the problems stem from 20 percent of the various causes.
+5. Histogram
+This is a vertical bar chart showing how often a particular variable state occurred, with 
+the height of each column representing the relative frequency. Histograms are useful 
+when presenting project data to stakeholders as they can give a clear indication of which 
+problems are the most important to tackle.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+20
+Project Quality Management
+6. Control Charts
+These answer the question: 
+‘Is this process variance within acceptable limits?’ 
+The pattern of data points on a control chart may reveal random fluctuating values, sud-
+den process jumps, or a gradual trend in increased variation. By monitoring the output of 
+a process over time, a control chart can help assess whether the application of process 
+changes resulted in the desired improvements.
+Consecutive Measurements with Fixed Limits
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+Inspection Number
+Defects Found
+Upper Speciﬁ cation Limit
+Upper Control Limit
+Mean–Goal
+Actual
+Lower Control Limit
+Lower Speciﬁ cation Limit
+When a process is within acceptable limits it is in control and does not need to be ad-
+justed. Conversely, when a process is outside acceptable limits, the process should be 
+adjusted. 
+Seven consecutive points above or below the central line indicate a process 
+that is out of control. 
+The upper control limit and lower control limit are usually set at (plus or minus) three 
+Sigma, where one Sigma is one standard deviation.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+21
+Project Quality Management
+Upper Speciﬁ cation Limit
+Upper Control Limit
+Mean–Goal
+Actual
+Lower Control Limit
+Lower Speciﬁ cation Limit
+Sample Control Chart
+Control charts have three common types of lines:
+1. Upper and lower speciﬁ cation limits
+2.  Upper and lower control limits showing the maximum 
+acceptable values without taking action
+3. Planned or goal value
+The hours recorded for this project started slowly. While still in 
+control, if the trend continues, hours spent will drift out of control.
+Although used most frequently to track repetitive activities required for producing man-
+ufactured lots, control charts may also be used to monitor cost and schedule variances, 
+volume, and frequency of scope changes, or other management results to help deter-
+mine if the project management processes are in control. 
+7. Scatter Diagram
+These use Cartesian coordinates to display values for two variables for a set of data. The 
+data is displayed as a collection of points, each having the value of one variable deter-
+mining the position on the horizontal axis and the value of the other variable determining 
+the position on the vertical axis. 
+A scatter diagram can suggest various kinds of correlations between variables with a 
+certain confidence level. Correlations may be: 
+●
+●
+Positive (rising)—If the pattern of dots slopes from lower left to upper right, it 
+suggests a positive correlation between the variables being studied. 
+●
+●
+Negative (falling)—If the pattern of dots slopes from upper left to lower right, it 
+suggests a negative correlation.
+●
+●
+Null (uncorrelated).
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+22
+Project Quality Management
+A line of best fit can be drawn in order to study the correlation between the variables. 
+One of the most powerful aspects of a scatter diagram is its ability to show nonlinear 
+relationships between variables. 
+8.2.1.4 Benchmarking
+This is simply a quality standard reference that is used for the current project. This may 
+be a benchmark used within the performing organization, or one that is used across a 
+specific industry. It involves comparing actual or planned project practices to those of 
+comparable projects to identify best practices, generate ideas for improvement, and pro-
+vide a basis for measuring performance. 
+The value of using this technique is to compare the current project’s quality standards 
+with those of other similar projects.
+8.1.2.5 Design of Experiments
+This is a statistical method for identifying which factors may influence specific variables 
+of a product or process under development or in production. 
+8.1.2.6 Statistical Sampling
+This involves choosing part of a population of interest for inspection. Sample frequency 
+and sizes should be determined so the cost of quality (described above) will include the 
+number of tests, expected scrap, etc. In some application areas it may be necessary for 
+the project management team to be familiar with a variety of sampling techniques in 
+order to chose the most appropriate one.
+8.1.6.7 Additional Quality Planning Tools
+Other quality planning tools are often used to better define the quality requirements and 
+plan effective quality management activities. These include:
+●
+●
+Brainstorming, 
+●
+●
+Affinity diagrams, 
+●
+●
+Force field analysis, 
+●
+●
+Nominal group techniques, 
+●
+●
+Matrix diagrams, and 
+●
+●
+Prioritization matrices.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+23
+Project Quality Management
+As with proprietary quality management methodologies, if your organization uses these 
+tools then you can expect that the relevant expertise will be made available to you. 
+8.1.6.8 Meetings
+These involve people who are responsible for quality management including the project 
+manager, the project sponsor, selected project team members, selected stakeholders, 
+anyone with responsibility for any of the quality management processes, and others as 
+needed.
+Collective decision-making is very important area of project management that the PM-
+BOK® does not go into any detail about but which can make or break this part of the 
+project. Almost all of the processes that for part of project time management will involve 
+meetings between the project manager, the team and other stakeholders in order to 
+make decisions about the activity definitions and associated estimates. How well these 
+meetings are conducted will have a major impact on how smoothly the project runs.
+If you feel as though your project meetings could be improved then you can download 
+the ‘Meeting Skills’ eBooks from our free online library www.free-management-ebooks.
+com. These free eBooks cover all aspects of meetings including how to set an agenda 
+that will ensure that the meeting achieves it’s aims and how to chair a meeting so that it 
+is as productive as possible.
+8.1.3 Plan Quality Management: Outputs
+This process will create the following outputs shown in the diagram.
+Quality 
+Management 
+Plan
+Quality 
+Management 
+Outputs
+Project 
+Improvement 
+Plan
+Process 
+Improvement 
+Plan
+Quality 
+Checklists
+Metrics
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+24
+Project Quality Management
+8.1.3.1 Quality Management Plan
+This describes how the project management team will implement the quality policy and 
+is a component of the project management plan. The degree of formality and level of 
+detail is determined by the requirements of the project but it should include:
+●
+●
+The quality objectives for the project
+●
+●
+A list of the standards, tools and techniques used
+●
+●
+A statement of how quality will be measured
+8.1.3.2 Process Improvement Plan
+This is a form of lessons learned and is part of the project management plan. It lays out 
+exactly how quality activities will be refined, streamlined, and improved both for this, and 
+future projects.
+8.1.3.3 Quality Metrics
+A quality metric describes, in very specific terms, a project or product attribute and how 
+the quality control process will measure it. Since the success of the project depends upon 
+it meeting the quality metrics, they must be measurable in some way.
+8.1.3.4 Quality Checklists
+This is a structured tool, usually component-specific, used to verify that a set of required 
+steps has been performed. Many organizations have standardized checklists available to 
+ensure consistency in frequently performed tasks. 
+In some application areas, checklists are also available from professional associations or 
+commercial service providers. 
+8.1.3.5 Project Document Updates
+This usually means the specified quality standards.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+25
+Project Quality Management
+8.2 Perform Quality Assurance
+There is a lot of confusion about quality assurance and quality control. The difference is 
+that quality assurance is part of the executing process and is concerned with making sure 
+that the quality objectives are met. It is focused on process improvement. 
+Quality 
+Assurance
+Process—
+Executing
+Focus is 
+on process 
+improvement
+Quality 
+Control
+Process—
+Monitoring & 
+Controlling
+Purpose is to 
+check and test 
+that quality 
+requirements 
+are met
+Quality control, on the other hand, is part of the monitoring and controlling process and 
+is concerned with checking (by means of measuring and testing) that the quality require-
+ments are being met.
+The PMBOK® defines quality assurance as: 
+’The application of planned, systematic quality activities to ensure that the 
+project will employ all processes needed to meet requirements.’
+This process also provides an umbrella for continuous process improvement, which is 
+an iterative means for improving the quality of all processes so as to reduce waste and 
+eliminate activities that do not add value.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+26
+Project Quality Management
+The inputs, tools and techniques, and outputs of this process are summarized in the 
+table below.
+Inputs
+Tools & Techniques
+Outputs
+Quality Management Plan
+Quality Management & 
+Control Tools
+Change Requests
+Process Improvement Plan
+Quality Audits
+Project Management Plan Updates
+Quality Metrics
+Process Analysis
+Project Documents Updates
+Quality Control 
+Measurements
+Organizational Process Assets 
+Updates
+Project Documents
+8.2.1 Perform Quality Assurance: Inputs
+This process requires the following inputs:
+8.2.1.1 Quality Management Plan
+This plan contains the following information that is used to assure quality. It describes 
+how quality assurance will be performed within the project. 
+8.2.1.2 Process Improvement Plan
+This plan details the steps for analyzing processes to identify activities that enhance 
+their value.
+8.2.1.3 Quality Metrics
+As described in the previous process, a quality metric describes, in very specific terms, a 
+project or product attribute and how the quality control process will measure it. 
+8.2.1.4 Quality Control Measurements
+These are the results of the quality control activities described later. They are used to 
+analyze and evaluate the organization’s quality standards and processes.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+27
+Project Quality Management
+Quality Management Plan
+Perform Quality Assurance Inputs
+Process Improvement Plan
+Quality Metrics
+Quality Control Measurements
+Project Documents
+8.2.1.5 Project Documents
+These may influence quality assurance work and should be monitored within the context 
+of a system for configuration management.
+8.2.2 Perform Quality Assurance: Tools and Techniques
+There are three tools and techniques that can be used.
+●
+●
+Quality management and control tools
+●
+●
+Quality Audit
+●
+●
+Process Analysis
+8.2.2.1 Quality Management and Control Tools 
+The tools and techniques from the other two processes in this knowledge area can also 
+be used in this process. In addition, other tools that are available are shown in the dia-
+gram below.
+Additional Quality Control Tools
+PDPC
+Tree diagrams
+Interrelashionship 
+digraphs
+Afﬁ nity 
+diagrams
+Matrix 
+diagrams
+Activity Network 
+diagrams
+Prioritization 
+matrices
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+28
+Project Quality Management
+Affinity diagrams
+The affinity diagram is similar to mind-mapping techniques in that they are used to gen-
+erate ideas that can be linked to form organized patterns of thought about a problem. 
+Using the affinity diagram to give structure to the decomposition of scope may enhance 
+the creation of the WBS.
+Process decision program charts (PDPC)
+These charts are used to understand a goal in relation to the steps for getting to the goal. 
+The PDPC is useful as a method for contingency planning because it aids teams in antici-
+pating intermediate steps that could derail achievement of the goal.
+Interrelationship digraphs. 
+The interrelationship digraphs provide a process for creative problem solving in mod-
+erately complex scenarios that possess intertwined logical relationships for up to 50 
+relevant items. 
+The interrelationship digraph may be developed from data generated in other tools such 
+as the affinity diagram, the tree diagram, or the fishbone diagram.
+Tree diagrams
+Tree or systematic diagrams may be used to represent decomposition hierarchies such 
+as the: 
+●
+●
+WBS (work breakdown structure), 
+●
+●
+RBS (risk breakdown structure), & 
+●
+●
+OBS (organizational breakdown structure). 
+In project management, tree diagrams are useful in visualizing the parent-to-child rela-
+tionships in any decomposition hierarchy that uses a systematic set of rules that define 
+a nesting relationship. 
+Tree diagrams can be depicted horizontally (such as a risk breakdown structure) or verti-
+cally (such as a team hierarchy or OBS). Because tree diagrams permit the creation of 
+nested branches that terminate into a single decision point, they are useful as decision 
+trees for establishing an expected value for a limited number of dependent relationships 
+that have been diagramed systematically.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+29
+Project Quality Management
+Prioritization matrices
+These are used to identify the key issues and the suitable alternatives to be prioritized as 
+a set of decisions for implementation. Criteria are prioritized and weighted before being 
+applied to all available alternatives to obtain a mathematical score that ranks the options.
+Activity network diagrams
+In the past Activity network diagrams have been known as ‘arrow diagrams’. They in-
+clude both the AOA (Activity on Arrow) and, most commonly used, AON (Activity on 
+Node) formats of a network diagram. 
+used with project 
+schedulling 
+methodologies e.g.
+PERT
+PDM
+CPM
+Activity Network Diagrams
+Activity network diagrams are used with project scheduling methodologies such as pro-
+gram evaluation and review technique (PERT), critical path method (CPM), and prece-
+dence diagramming method (PDM).
+Matrix diagrams
+A quality management and control tool used to perform data analysis within the organi-
+zational structure created in the matrix. 
+The matrix diagram seeks to show the strength of relationships between factors, causes, 
+and objectives that exist between the rows and columns that form the matrix.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+30
+Project Quality Management
+8.2.2.2 Quality Audits
+This is a structured, independent review to determine whether project activities comply 
+with organizational and project policies, processes, and procedures. The words ‘inde-
+pendent’ and ‘audit’ are open to interpretation depending on the requirements of the 
+particular project. 
+Quality Audit
+Identiﬁ es where best practices are implemented
+Identiﬁ es where they are not being used
+Share best practices proven in similar projects
+Helps project team implement them
+Assures the project sponsor
+There is no need to use external auditors or to make the process particularly formal or 
+bureaucratic provided that the information fed back from the process is credible to both 
+the project team (who are doing the work) and the sponsor (who is paying for it).
+The audit should:
+●
+●
+Identify where the best practices being implemented
+●
+●
+Identify where they are not being used
+●
+●
+Share best practices proven in similar projects
+●
+●
+Help the project team to implement them
+●
+●
+Assure the project sponsor that work is being done in line with accepted best 
+practices
+This process should result in a reduced cost of quality and an increase in sponsor or cus-
+tomer acceptance of the project’s product. Quality audits can be carried out whenever 
+necessary for either the whole project or a part of it.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+31
+Project Quality Management
+8.2.2.3 Process Analysis
+This tool is used to review the quality process with the aim of ensuring that it works both 
+efficiently and effectively.
+8.2.3 Perform Quality Assurance: Outputs
+This process will create the following outputs:
+Perform Quality 
+Management Outputs
+Project 
+Management 
+Plan Updates
+Project 
+Document 
+Updates
+Organizational 
+Process Assets
+Change 
+Requests
+8.2.3.1 Change Requests
+Quality improvement includes taking action to increase the effectiveness and/or effi-
+ciency of the policies, processes, and procedures of the performing organization. Change 
+requests are created and used as input into the 4.5 Perform Integrated Change Control 
+process (this is described in detail in the ‘Project Integration Management’, which is 
+available from our free online library at www.free-management-ebooks.com ). 
+Change requests can be used to take corrective action or preventive action or to perform 
+defect repair.
+8.2.3.2 Project Management Plan Updates
+This includes updates to the quality, schedule, and cost management plans. 
+8.2.3.3 Project Document Updates
+This usually involves an update to the quality audit reports, training plans and process 
+documentation.
+8.2.3.4 Organizational Process Assets Updates
+This usually involves an update to the quality standards.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+32
+Project Quality Management
+8.3 Perform Quality Control
+The PMBOK® defines quality control as follows:
+‘It involves monitoring specific project results to determine whether they 
+comply with the relevant quality standards and identifying ways to eliminate 
+the cause of unsatisfactory results.’
+In other words, it attempts to answer two questions:
+1.	 Is the project meeting its quality requirements?
+2.	 If not, how can this be addressed?
+The project management team should have a working knowledge of statistical quality 
+control, especially sampling and probability, to help evaluate quality control outputs. 
+a working 
+knowledge 
+of
+Statistical Quality 
+Control— Sampling & 
+Probability
+Project Management Team needs:
+to evaluate 
+quality 
+control 
+outputs
+Before looking at the process in detail, make sure you are familiar with the following terms: 
+●
+●
+Prevention—keeping errors out of the process
+●
+●
+Inspection—keeping errors out of the hands of the customer
+●
+●
+Attribute sampling—the result either conforms or does not conform
+●
+●
+Variables sampling—the result is rated on a continuous scale that measures the 
+degree of conformity
+●
+●
+Tolerances—specified range of acceptable results
+●
+●
+Control limits—thresholds, which indicate whether the process is out of control
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+33
+Project Quality Management
+●
+●
+Grade—is a category assigned to products or services having the same functional 
+use but different technical characteristics. While a quality level that fails to meet 
+quality requirements is always a problem, low grade may not be. 
+For example, 
+A software product can be of high quality (no obvious defects, readable 
+manual) and low grade (a limited number of features).
+The project manager and the project management team are responsible for man-
+aging the tradeoffs involved to deliver the required levels of both quality and 
+grade.
+●
+●
+Precision—means the values of repeated measurements are clustered and have 
+little scatter. 
+●
+●
+Accuracy—the measured value is very close to the true value. 
+The inputs, tools and techniques, and outputs of this process are summarized in the 
+table below.
+Inputs
+Tools & Techniques
+Outputs
+Project Management Plan
+Seven Basic Quality Tools
+Quality Control Measurements
+Quality Metrics
+Statistical Sampling
+Validated Changes
+Quality Checklists
+Inspection
+Verified Deliverables
+Work Performance Data
+Approved Change 
+Requests Review
+Work Performance Information
+Approved Change Requests
+Change Requests
+Deliverables
+Project Management Plan Updates
+Project Documents
+Project Documents Updates
+Organizational Process 
+Assets
+Organizational Process Assets 
+Updates
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+34
+Project Quality Management
+8.3.1 Perform Quality Control: Inputs
+This process requires the following inputs:
+8.3.1.1 Project Management Plan
+This contains the quality management plan, which describes how quality control will be 
+performed within the project.
+8.3.1.2 Quality Metrics
+As described in the Quality Planning process, a quality metric describes, in very specific 
+terms, a project or product attribute and how the quality control process will measure it. 
+Perform Quality 
+Control Inputs
+Quality 
+Checklists
+Work 
+Performance 
+Data
+Approved 
+Change 
+Requests
+Deliverables
+Project 
+Documents
+Organizational 
+Process Assets
+Quality 
+Metrics
+Project 
+Management 
+Plan
+8.3.1.3 Quality Checklists
+This is a structured tool, usually component-specific, used to verify that a set of required 
+steps has been performed. Many organizations have standardized checklists available to 
+ensure consistency in frequently performed tasks. In some application areas, checklists 
+are also available from professional associations or commercial service providers.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+35
+Project Quality Management
+8.3.1.4 Work Performance Data
+These are used to produce project activity metrics to evaluate actual progress as com-
+pared to planned progress. They include:
+●
+●
+Planned vs. actual technical performance,
+●
+●
+Planned vs. actual schedule performance, and
+●
+●
+Planned vs. actual cost performance.
+8.3.1.5 Approved Change Requests
+A change control status update will indicate that some changes are approved and some 
+are not. Approved change requests can include modifications such as defect repairs, 
+revised work methods and revised schedule. 
+8.3.1.6 Deliverables
+An approved deliverable is any unique and verifiable product, result, or capability to per-
+form a service that must be produced to complete a process, phase, or project.
+8.3.1.7 Project Documents
+These include agreements, quality audit reports, and change logs supported with cor-
+rective action plans, training plans and assessments of effectiveness. As well as process 
+documentation such as those obtained using either the seven basic quality tools or the 
+quality management and control tools.
+8.3.1.8 Organizational Process Assets
+The inputs in this section include: 
+●
+●
+Quality standards and policies
+●
+●
+Standard work guidelines
+●
+●
+Issue and defect reporting procedures 
+●
+●
+Communication policies.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+36
+Project Quality Management
+8.3.2 Perform Quality Control: Tools and Techniques
+There are four tools and techniques that can be used.
+Perform 
+Quality 
+Control 
+Techniques
+7 Basic 
+Quality 
+Tools
+Statistical 
+Sampling
+Inspection
+Approved 
+Change 
+Requests 
+Review
+8.3.2.1 Seven Basic Quality Tools
+These were described in detail in the section 8.1.2.3 Seven Basic Quality Tools.
+8.3.2.2 Statistical Sampling
+This involves choosing part of a population of interest for inspection. Sample frequency 
+and sizes should be determined so the cost of quality (described above) will include the 
+number of tests, expected scrap, etc. 
+In some application areas it may be necessary for the project management team to be fa-
+miliar with a variety of sampling techniques in order to chose the most appropriate one.
+8.3.2.3 Inspection
+This is the examination of a product to determine whether it conforms to documented 
+standards. The results of an inspection generally include measurements and may be 
+conducted at any level. For example, 
+●
+●
+Results of a single activity can be inspected, or 
+●
+●
+Final product of the project can be inspected. 
+Inspections may be called reviews, peer reviews, audits, or walkthroughs. 
+8.3.2.4 Approved Change Requests Review
+All approved change requests should be reviewed to verify that they were implemented 
+as approved.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+37
+Project Quality Management
+8.3.3 Perform Quality Control: Outputs
+This process will create the following outputs:
+Outputs of 
+Perform Quality 
+Control
+Change 
+Requests
+Project 
+Management 
+Plan Updates
+Quality Control 
+Measurements
+Work 
+Performance 
+Information
+Organizational 
+Process Assets 
+Updates
+Validated 
+Changes
+Veriﬁ ed 
+Deliverables
+Project 
+Documents 
+Updates
+8.3.3.1 Quality Control Measurements
+These are the documented results of quality control activities in the format specified 
+during quality planning.
+8.3.3.2 Validated Changes
+Any changed or repaired items are inspected and will be either accepted or rejected be-
+fore notification of the decision is provided. 
+8.3.3.3 Verified Deliverables
+The results of the execution quality control processes are validated deliverables.
+8.3.3.4 Work Performance Information
+This is the performance data collected from various controlling processes, analyzed in 
+context and integrated based on relationships across areas. 
+8.3.3.5 Change Requests
+If the recommended corrective or preventive actions or a defect repair requires a change 
+to the project management plan, a change request should be initiated.
+8.3.3.6 Project Management Plan Updates
+These include the quality management plan and the process improvement plan.
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+38
+Project Quality Management
+8.3.3.7 Project Documents Updates
+These project document updates include: 
+●
+●
+Quality standards
+●
+●
+Agreements
+●
+●
+Quality audit reports and change logs supported with corrective action plans
+●
+●
+Training plans and assessments of effectiveness
+●
+●
+Process documentation, such as information obtained using the seven basic qual-
+ity tools or the quality management and control tools.
+8.3.3.8 Organizational Process Assets Updates
+These include any completed checklists plus lessons learned documentation detailing 
+the causes of variances and the reasoning behind the corrective action chosen.
+Summary 
+One of the changes to the 5th Edition PMBOK® Guide is to make the quality manage-
+ment part of project management conform to the International Organization for Stan-
+dardization quality standards. 
+Concepts of ISO Quality Management
+Customer Satisfaction
+Prevention over Inspection
+Continuous Improvement
+Management Responsibility
+Cost of Quality
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+39
+Project Quality Management
+The ISO approach to quality management emphasizes the following concepts:
+●
+●
+Customer Satisfaction
+●
+●
+Prevention over Inspection
+●
+●
+Continuous Improvement
+●
+●
+Management Responsibility
+●
+●
+Cost of Quality
+Customer Satisfaction
+Quality means delivering the product so that its requirements meet the customer’s ex-
+pectations. However, the Project Management Institute does not endorse gold plating, or 
+adding requirements that the customer did not request.
+Prevention over Inspection
+Inspection can reduce the probability of defects, but prevention through planning, de-
+signing, and building in quality can reduce that probability of defects for a lot less cost 
+than through the inspection process.
+Continuous Improvement
+The Plan-Do-Check-Act cycle, which is the basis of the concept of continuous improve-
+ment, goes back to Deming. Total Quality Management, Six Sigma, Lean Six Sigma, and 
+the Japanese Toyota Way are modern quality improvement initiatives that improve the 
+quality of project management while improving the quality of the final deliverables.
+Management Responsibility
+Rather than thinking that quality is what job operators do on the factory floor, the mod-
+ern concept of quality improvement initiatives mentioned in the last paragraph require 
+the approval and active participation of management.
+Cost of Quality
+The cost of implementing quality standards is the cost of conformance. 
+To what level of standards should an organization aspire?
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+40
+Project Quality Management
+This is where the Cost of Quality comes in. What is the cost of nonconformance, or what 
+used to be called the cost of poor quality? 
+●
+●
+If the defect is caught before the product gets shipped to the customer, this is an 
+internal cost of nonconformance. It involves scrapping the part of reworking it so 
+that it is in conformance with the quality standards. 
+●
+●
+However, if the inspection process does not catch the defect, and it goes out to 
+the customer, then the costs could be in terms of the claims the customer makes 
+for replacement or repair under warranty, or product liability, if the customer or a 
+third party is injured. 
+The Quality Management processes includes the following:
+8.1 Plan Quality is the process of identifying quality requirements and/or standards for 
+the project and product, and documenting how the project will demonstrate compliance.
+8.2 Perform Quality Assurance is the process of auditing the quality requirements 
+and the results from quality control measurements to ensure appropriate quality 
+standards and operational definitions are used.
+8.3 Perform Quality Control is the process of monitoring and recording results of exe-
+cuting the quality activities to assess performance and recommend necessary changes.
+Management Principles of ISO 9001
+Customer Focus
+Leadership
+Involvement of People
+Process Approach
+System Approach to Management
+Continual Improvement
+Factual Approach to Decision Making
+Mutually Beneﬁ cial Supplier Relationships
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+41
+Project Quality Management
+The International Standard for Quality management (ISO 9001) adopts a number of man-
+agement principles that can be used to guide organizations towards improved quality. 
+The principles include:
+●
+●
+Customer focus—Since the organizations depend on their customers, they 
+should understand future needs as well as current ones. They also need to meet 
+customer requirements and try to exceed their expectations where possible. 
+An organization attains customer focus when all people in the organization know 
+what customer requirements must be met to ensure that both the internal and 
+external customers are satisfied.
+●
+●
+Leadership—Leaders of an organization establish unity of purpose and direction 
+of it. They should go for creation and maintenance of such an internal environ-
+ment, in which people can become fully involved in achieving the organization’s 
+quality objective.
+●
+●
+Process approach—The desired result can be achieved when activities and re-
+lated resources are managed as processes.
+●●
+System approach to management—Identifying, understanding and managing all in-
+terrelated processes as a system that contributes to an organization’s effectiveness 
+and efficiency in achieving its quality objectives. Quality Control involves checking 
+transformed and transforming resources in all stages of production process.
+●
+●
+Continual improvement—One of the permanent quality objectives of an organi-
+zation should be the continual improvement of its overall performance.
+●
+●
+Factual approach to decision making—Effective decisions are always based on 
+the data analysis and information.
+●
+●
+Mutually beneficial supplier relationships—Since an organization and its sup-
+pliers are interdependent, a mutually beneficial relationship between them in-
+creases the ability of both parties to add value.
+If you want to know more about project management the eBooks in this skill set available 
+from http://www.free-management-ebooks.com/skills-project.htm are: 
+●
+●
+Principles of Project Management
+●
+●
+Process Groups
+●
+●
+Integration Management
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+42
+Project Quality Management
+●
+●
+Scope Management
+●
+●
+Time Management
+●
+●
+Cost Management
+●
+●
+Quality Management
+●
+●
+Human Resources (HR) Management
+●
+●
+Communications Management
+●
+●
+Risk Management
+●
+●
+Procurement Management
+●
+●
+Stakeholder Management
+Other Free Resources
+The Free Management eBooks website offers you over 100 free resources for your own 
+professional development. Our eBooks, Checklists, and Templates are designed to help 
+you with the management issues you face every day. They can be downloaded in PDF, 
+Kindle, ePub, or Doc formats for use on your iPhone, iPad, laptop or desktop.
+eBooks—Our free management eBooks cover everything from accounting principles to 
+business strategy. Each one has been written to provide you with the practical skills you 
+need to succeed as a management professional.
+Templates—Most of the day-to-day management tasks you need to do have already 
+been done by others many times in the past. Our management templates will save you 
+from wasting your valuable time re-inventing the wheel. 
+Checklists—When you are working under pressure or doing a task for the first time, 
+it is easy to overlook something or forget to ask a key question. These management 
+checklists will help you to break down complex management tasks into small control-
+lable steps.  
+FME Newsletter—Subscribe to our free monthly newsletter and stay up to date with the 
+latest professional development resources we add every month.
+Social Media—Share our free management resources with your friends and colleagues 
+by following us on LinkedIn, Facebook, Twitter, Google+, and RSS. 
+Visit www.free-management-ebooks.com
+ISBN 978-1-62620-983-5 © www.free-management-ebooks.com	
+43
+Project Quality Management
+References
+Nokes S., & Kelly, S. (2007) 2nd Edition. The Definitive Guide to Project Management. Pren-
+tice Hill, Financial Times.
+Snijders, P., Wuttke, T. & Zandhuis, A. (2013) 5th Edition. A pocket companion to PMI’s 
+PMBOK® Guide. Van Haren Publishing.
+Lock, D. (2007). 9th Edition. Project Management, MPG Books Ltd.
+Billingham, V. (2008) 3rd Edition. Project management: how to plan & deliver a suc-
+cessful project (studymates), The Project Management Excellence Centre Inc.
+Project Management Institute Global Standard (2008) 4th Edition A guide to the project 
+management body of knowledge (PMBOK® Guide), Project Management Institute.
+Kerzner, H. Ph.D. (2009). 10th Edition. Project Management—a systems approach to plan-
+ning, scheduling & controlling. John Wiley & Sons Inc.
+Larson, E.W. & Gray, C.F. (2010) 5th Edition Project management: the managerial process, 
+McGraw-Hill Higher Ed.
+Lock, D. (2007). 3rd Edition. The Essential Project Management. Gower Publishing Ltd.
+Knapp, B.W. (2010) Essential project management templates, The Project Management 
+Excellence Centre Inc.
+Newton, R. (2007). Project Management step by step—how to plan & manage a highly suc-
+cessful project. Pearson Business.
+Dr Maylor, H. (2010) 4th Edition. Project Management (with MS Project CDRom). Prentice 
+Hill, Financial Times.
+Shenhar, A.J. & Dvir, D. (2007). Reinventing Project Management: the diamond approach to 
+successful growth & innovation. Pearson Business.

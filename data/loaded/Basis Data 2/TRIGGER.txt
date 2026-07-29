@@ -1,0 +1,274 @@
+TRIGGER 
+ISA212 Minggu12 
+Mira Musrini Barmawi
+Materi kuliah
+1. Inserted table 
+2. Deleted table 
+3. Output Clause 
+4. Introduction to trigger 
+5. Trigger for insert
+6. Trigger for update 
+7. Trigger for delete
+Objective learning
+1. Mahasiswa memahami dan mampu menggunakan inserted table 
+dan deleted table. 
+2. Mahasiswa memahami dan mampu menggunakan output clause.
+3. Mahasiswa memahami dan mampu menggunakan trigger for insert.
+4. Mahasiswa memahami dan mampu menggunakan trigger for 
+update .
+5. Mahasiswa memahami dan mampu menggunakan trigger for delete 
+.
+Deleted table inserted table 
+• Jika kita melakukan operasi DML ( insert update delete ) pada suatu
+tabel, maka secara otomatis akan terbentuk tabel virtual INSERTED
+dan DELETED.
+• Misalkan kita memiliki tabel Mahasiswa ,maka jika melakukan operasi
+DML , maka akan terbentuk secara otomatis tabel virtual INSERTED
+dan tabel virtual DELETED yang sesuai dengan struktur tabel
+mahasiswa . Tabel INSERTED dan DELETED ini akan berisi data-data
+yang ditambahkan , dirubah atau dihapus pada tabel Mahasiswa.
+Deleted table inserted table 
+• Jika kita melakukan operasi insert, maka tabel inserted berisi data 
+yang baru , yang ditambahkan. 
+• Jika kita melakukan operasi delete, maka tabel deleted  berisi data 
+lama , yang telah dihapus
+• Jika kita melakukan operasi update, maka tabel deleted  berisi data 
+lama yang telah dirubah, dan tabel inserted beri data baru yang telah
+dimasukkan.
+Deleted table inserted table 
+• Untuk lebih jelasnya , dapat dilihat pada tabel di bawah ini : 
+ID
+Jenis operasi 
+INSERTED 
+DELETED 
+1
+insert
+data yang baru 
+dimasukkan   
+2
+Update 
+data yang baru 
+dimasukkan   
+data lama yang sudah 
+dihapus   
+3
+Delete 
+data lama yang sudah 
+dihapus
+Contoh
+Buatlah basisdata ISA212_lab , dan dalam basisdata tersebut ,  buatlah
+tabel makanan dengan struktur seperti berikut : 
+Integer                 varchar(40)               varchar(40)              integer
+ID_makanan
+nama_makanan
+ukuran
+Harga
+1
+nasi goreng 
+spesial  
+null
+25000
+2 
+sapo tahu 
+seafood 
+medium
+20000
+3
+sapo tahu 
+seafood  
+large 
+30000
+Contoh
+Create database ISA212_lab 
+Use ISA212_lab; 
+create table makanan
+(id_makanan int, nama_makanan varchar(40) , ukuran
+varchar(40) , harga int)
+insert into makanan values
+(1,'nasi goreng spesial','medium',25000),
+(2,'sapo tahu seafood','medium',20000),
+(3,'sapo tahu seafood','large',30000);
+Operasi insert pada tabel makanan
+Gunakan klausa output untuk menampilkan isi dari tabel inserted.
+Use ISA212_lab 
+go
+insert into makanan (ID_makanan, nama_makanan, ukuran, harga) 
+OUTPUT inserted.ID_makanan as new_makanan,inserted.nama_makanan as 
+new_nama_makanan,Inserted.ukuran as new_ukuran,inserted.harga as 
+new_harga
+Values (4,’bihun goreng ayam’,’medium’,20000);
+Operasi update pada tabel makanan
+Gunakan klausa output untuk menampilkan isi dari tabel inserted dan
+tabel deleted 
+Use ISA212_lab 
+go
+update makanan set ukuran=’large’, harga =‘30000’
+OUTPUT inserted.ID_makanan
+as new_id ,inserted.nama_makanan as 
+new_nama_makanan ,Inserted.ukuran as New_ukuran ,inserted.harga as 
+new_harga
+, deleted.ID_makanan as old_id,deleted.nama_makanan as 
+old_nama_Makanan ,deleted.ukuran as Old_ukuran
+,deleted.harga as 
+old_harga
+Where ID_makanan=4 ;
+TRIGGER 
+Definisi : 
+Sekumpulan baris-baris kode program yang dijalankan akibat dari
+adanya aksi user atau event tertentu. 
+Trigger for insert on <tablename> 
+Kode program yang dijalankan akibat adanya aksi insert pada table 
+<tablename> 
+Trigger for update on <tablename>
+Kode program yang dijalankan akibat adanya aksi update pada table 
+<tablename>
+TRIGGER
+Trigger for delete on <tablename>
+Kode program yang dijalankan akibat adanya aksi delete pada table 
+<tablename>
+Manfaat trigger 
+1. Trigger merupakan salah satu mekanisme untuk menjalankan aturan
+bisnis dan menjaga integritas data dalam sebuah basis data. 
+Mekanisme yang lainnya adalah penggunaan CONSTRAINT
+2. Trigger dapat mengevaluasi status dari sebuah tabel sebelum dan
+sesudah terjadi perubahan data dan melakukan aksinya sesuai
+perbedaan yang terjadi
+Contoh
+Kita hendak membuat trigger untuk mencegah user memasukkan nilai
+negatif pada kolom harga di tabel makanan
+Trigger for insert on makanan ( check constraint) 
+Use ISA212_LAB
+Go
+Use makanan
+go
+Create trigger dbo.tr_insert_harga on makanan for insert
+As
+Begin
+declare @harga_new integer 
+select @harga_new = ins.harga from inserted ins 
+if @harga_new<0 then 
+begin 
+rollback 
+print  ’harga makanan yang anda masukkan adalah negatif, 
+sehingga operasi insert dibatalkan’
+End 
+end
+Trigger for update on makanan ( check constraint) 
+Use ISA212_LAB
+Go
+Use makanan
+go
+Create trigger dbo.tr_update_harga on makanan for update
+As
+Begin
+declare @harga_new integer 
+declare @harga_old integer 
+select @harga_new = ins.harga from inserted ins 
+select @harga_old = del.harga from deleted del 
+if @harga_new<0 then 
+begin 
+rollback 
+print  ’harga makanan yang anda masukkan adalah
+negatif, 
+sehingga operasi update dibatalkan’
+End 
+end
+Operasi insert pada makanan
+Selanjutkan kita melakukan operasi insert pada tabel makanan , dengan
+harga <0 . Kita akan mengamati bagaimana reaksi DBMS , setelah
+diimplementasikan trigger .
+Operasi insert  pada tabel makanan. 
+Insert into makanan (id_makanan, nama_makanan, ukuran, harga) 
+Values (4,’bihun goreng ayam’,’medium’,-20000);
+Hasil nya : 
+Aksi user digagalkan oleh DBMS, karena harga makanan yang 
+dimasukkan nilainya negatif. Maka dilakukan lagi operasi insert untuk
+data yang benar
+Operasi insert pada makanan
+Insert into makanan (id_makanan, nama_makanan, ukuran, harga) 
+Values (4,’bihun goreng ayam’,’medium’,20000);
+Hasil nya :
+Operasi update pada makanan
+Selanjutnya kita akan merubah harga makanan pada id_makanan=4 , yaitu
+harga =20000 , menjadi harga = -20000
+Update makanan set harga =-20000
+Where id_makanan=4 
+Hasil :
+Operasi update pada makanan
+Aksi user digagalkan oleh DBMS, karena harga makanan yang 
+dimasukkan nilainya negatif.
+Tabel audit. 
+• Berikutnya akan didemokan manfaat trigger yang berikut nya, yaitu
+• Trigger dapat mengevaluasi status dari sebuah tabel sebelum dan
+sesudah terjadi perubahan data dan melakukan aksinya sesuai
+perbedaan yang terjadi
+Database akademik
+Sebelumnya sudah dibuat oleh para mahasiswa basisdata akademik1, 
+yang berisi dua tabel, yaitu tabel mahasiswa dan tabel wali:
+Melacak perubahan isi tabel dengan trigger 
+1. Jika user memasukkan baris baru pada tabel wali , maka akan
+dimasukkan baris baru di tabel wali_audit. 
+2. Baris baru di tabel wali_audit berisi, keterangan id_wali yang 
+ditambahkan , ditambah informasi waktu dan jam baris baru ini
+ditambahkan. 
+3. Untuk bisa mewujudkan nomor 1 dan nomor 2, kita buat dulu tabel
+wali_audit
+Tabel wali_audit
+Create wali_audit
+(no int identity(1,1),  keterangan_audit varchar(100))
+Membuat trigger insert dan mengisi table wali_audit
+use akademik1
+Go
+Create trigger dbo.tr_insert_wali for insert on wali
+As
+Begin 
+Declare @id int
+Select @id =id_wali from inserted 
+Insert into wali_audit
+Values (‘ wali baru dengan id=’ + cast (@id as nvarchar(5)) +
+‘ditambahkan pada ‘+ cast (getdate() as nvarchar(20) 
+End
+Kalimat insert pada tabel wali
+Insert into wali (id_wali , nama_wali)
+values (5, ‘Corry Caromawati’) 
+Go 
+Select * from wali
+Select * from wali_audit
+Membuat trigger update dan mengisi table wali_audit
+use akademik1
+Go
+Create trigger dbo.tr_delete_update for update on wali
+As
+Begin 
+Declare @id int
+Select @id =id from inserted 
+Insert into wali_audit
+Values (‘ wali dengan
+id=’ + cast (@id as nvarchar(5)) + 
+‘ telah dirubah pada ‘+ cast (getdate() as nvarchar(20)
+end
+Kalimat update pada tabel wali
+Update wali set nama_wali = ‘Budi Rahardjo’ 
+where id_wali =5 
+Go 
+Select * from wali
+Select * from wali_audit
+Membuat trigger delete dan mengisi table wali_audit
+use akademik1
+Go
+Create trigger dbo.tr_delete_wali for delete on wali
+As
+Begin 
+Declare @id int
+Select @id =id from deleted 
+Insert into wali_audit
+Values (‘ wali dengan
+id=’ + cast (@id as nvarchar(5)) + ‘ 
+telah dihapus pada ‘+ cast (getdate() as nvarchar(20) 
+end
+Kalimat delete  pada tabel wali
+Delete from wali
+Where id_wali =5 
+Go 
+Select * from wali
+Select * from wali_audit

@@ -1,0 +1,507 @@
+{
+    "DAFTAR KELOMPOK EAS ISB 212 BASIS DATA 2.txt": [
+        {
+            "pertanyaan": "Siapa ketua kelompok 1 dan apa nomor kasusnya?",
+            "ground_truth": "MIKHAEL PRAWIRA CHANDRA, kasus 9",
+            "sumber_text": "Group 1 - CASE 9\n162024006 MIKHAEL PRAWIRA CHANDRA - KETUA"
+        },
+        {
+            "pertanyaan": "Berapa total kelompok yang tercantum dalam dokumen?",
+            "ground_truth": "11",
+            "sumber_text": "Group 1 - CASE 9\nGroup 2 - CASE 2\nGroup 3 - CASE 3\nGroup 4 - CASE 5\nGroup 5 - CASE 4\nGroup 6 - CASE 1\nGroup 7 - CASE 8\nGroup 8 - CASE 6\nGroup 9 - CASE 7\nGroup 10 - CASE 4\nGroup 11 - CASE 3"
+        },
+        {
+            "pertanyaan": "Siapa saja anggota kelompok 4 selain ketua?",
+            "ground_truth": "AHMAD GUNTUR; MUHAMAD RIDWAN PRATAMA",
+            "sumber_text": "Group 4 - CASE 5\n162024030 AHMAD GUNTUR\n162024015 MUHAMAD RIDWAN PRATAMA\n162024026 JUWITA - KETUA"
+        },
+        {
+            "pertanyaan": "NIM berapa yang menjadi ketua kelompok 6?",
+            "ground_truth": "162024024",
+            "sumber_text": "Group 6 - CASE 1\n162024024 RITA KARMILA - KETUA"
+        },
+        {
+            "pertanyaan": "Kasus apa yang diikuti oleh kelompok yang dipimpin oleh SYIFA MAULIDA?",
+            "ground_truth": "CASE 2",
+            "sumber_text": "Group 2 - CASE 2\n162024032 SYIFA MAULIDA - KETUA"
+        },
+        {
+            "pertanyaan": "Siapa saja anggota kelompok 9 yang bukan ketua?",
+            "ground_truth": "SYIFA ANINDYA; NAZWA ZELVEYRA",
+            "sumber_text": "Group 9 - CASE 7\n162024020 SYIFA ANINDYA\n162024008 NAZRIL PIAGGIO JAMI WAHYUDI - KETUA\n162024031 NAZWA ZELVEYRA"
+        },
+        {
+            "pertanyaan": "Berapa banyak kelompok yang memiliki kasus nomor 4?",
+            "ground_truth": "2",
+            "sumber_text": "Group 5 - CASE 4\nGroup 10 - CASE 4"
+        },
+        {
+            "pertanyaan": "NIM anggota kelompok 8 yang tidak menjadi ketua?",
+            "ground_truth": "162024007; 162024017",
+            "sumber_text": "Group 8 - CASE 6\n162024007 FAJAR PERDANA KURNIAWAN SIAGIAN\n162024003 IRHAM RASYADI - KETUA\n162024017 TAZKIYAH NAFS"
+        },
+        {
+            "pertanyaan": "Siapa ketua kelompok dengan NIM 162024019?",
+            "ground_truth": "SENNA ALMALIA",
+            "sumber_text": "Group 7 - CASE 8\n162024019 SENNA ALMALIA - KETUA"
+        },
+        {
+            "pertanyaan": "Apa nama lengkap anggota kelompok 3 yang menjadi ketua?",
+            "ground_truth": "DYAH WILUJENG SULISTYANINGTYAS",
+            "sumber_text": "Group 3 - CASE 3\n162024002 DYAH WILUJENG SULISTYANINGTYAS - KETUA"
+        }
+    ],
+    "INSTALASI SQL SERVER EXPRESS 2025.txt": [
+        {
+            "pertanyaan": "Apa langkah pertama untuk mengunduh SQL Express 2025?",
+            "ground_truth": "Buka link https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
+            "sumber_text": "BUKA LINK INI : HTTPS://WWW.MICROSOFT.COM/EN-US/SQL-SERVER/SQL-SERVER-DOWNLOADS"
+        },
+        {
+            "pertanyaan": "Setelah membuka situs, apa yang harus dicari untuk mengunduh?",
+            "ground_truth": "Cari SQL Express 2025",
+            "sumber_text": "CARI SQL EXPRESS 2025"
+        },
+        {
+            "pertanyaan": "Setelah file installer diunduh, opsi instalasi apa yang harus dipilih?",
+            "ground_truth": "Pilih Basic",
+            "sumber_text": "Klik dua kali file installer, pilih Basic."
+        },
+        {
+            "pertanyaan": "Apa yang harus dilakukan setelah memilih opsi Basic?",
+            "ground_truth": "Klik Accept dan tunggu sampai proses instalasi selesai",
+            "sumber_text": "Klik Accept. Tunggu sampai proses instalasi selesai"
+        },
+        {
+            "pertanyaan": "Informasi apa yang muncul setelah instalasi selesai dan penting untuk login di SSMS?",
+            "ground_truth": "Muncul SERVER NAME yang akan dipakai untuk login di SSMS",
+            "sumber_text": "Setelah selesai akan muncul SERVER NAME (PENTING UNTUK NANTI DIPAKAI LOGIN DI SSMS)."
+        },
+        {
+            "pertanyaan": "Bagaimana cara menuliskan Server Name pada SSMS agar dapat terhubung?",
+            "ground_truth": "Masukkan Server Name yang disalin dari System Information, kemudian tambahkan \\SQLEXPRESS tanpa spasi",
+            "sumber_text": "MASUK KE SSMS ISI SERVER NAME BISA DILIHAT DI SYSTEM INFORMATION ADA TULISAN \"SERVER NAME\" COPY SYSTEMS NAME MASUKAN SERVERNAME DIIKUTI \\SQLEXPRESS (TANPA SPASI) JIKA TIDAK BISA CONNECT SETELAH MEMASUKAN SERVER NAME."
+        },
+        {
+            "pertanyaan": "Jika tidak dapat terhubung, opsi apa yang harus dicentang?",
+            "ground_truth": "Centang \"Trust Server Certificate\"",
+            "sumber_text": "CENTANG \"TRUST SERVER CERTIFICATE\""
+        },
+        {
+            "pertanyaan": "Apa alternatif Server Name yang dapat dicoba bila SQL Express tidak terdeteksi?",
+            "ground_truth": "Gunakan localhost sebagai Server Name",
+            "sumber_text": "JIKA TIDAK ADA SQL EXPRESS COBA MASUKAN SERVER NAME MENGGUNAKAN LOCAL HOST SEPERTI CONTOH DIBAWAH"
+        },
+        {
+            "pertanyaan": "Sebelum melakukan login ke SSMS, apa syarat utama yang harus dipastikan?",
+            "ground_truth": "SQL Express sudah terinstall",
+            "sumber_text": "PASTIKAN SQL EXPRESS SUDAH TERINSTALL SEBELUM LOGIN"
+        },
+        {
+            "pertanyaan": "Kapan kasus login dianggap berhasil menurut dokumen?",
+            "ground_truth": "Jika di sistem terdapat MSSQLEXPRESS",
+            "sumber_text": "KASUS DIATAS BERHASIL JIKA DI SISTEM ADA MSSQLEXPRESS"
+        }
+    ],
+    "Materi 3.txt": [
+        {
+            "pertanyaan": "Apa yang dimaksud dengan kalimat IF dalam konteks logika pemrograman?",
+            "ground_truth": "Pernyataan aliran kontrol yang memungkinkan eksekusi atau melewati blok pernyataan berdasarkan kondisi tertentu.",
+            "sumber_text": "Apa itu IF? Pernyataan aliran kontrol yang memungkinkan eksekusi atau melewati blok pernyataan berdasarkan kondisi tertentu."
+        },
+        {
+            "pertanyaan": "Apa yang terjadi pada blok pernyataan IF ketika ekspresi Boolean bernilai true?",
+            "ground_truth": "Blok statement di dalam BEGIN ... END akan dijalankan.",
+            "sumber_text": "Jika ekspresi Boolean bernilai true, maka blok statement di dalam BEGIN ... END akan dijalankan."
+        },
+        {
+            "pertanyaan": "Apa yang terjadi pada blok pernyataan IF ketika ekspresi Boolean bernilai false?",
+            "ground_truth": "Blok tersebut akan dilewati dan kontrol program diteruskan setelah kata kunci END.",
+            "sumber_text": "Jika tidak (false), blok tersebut akan dilewati dan kontrol program diteruskan setelah kata kunci END."
+        },
+        {
+            "pertanyaan": "Apa catatan penting terkait penggunaan pernyataan SELECT dalam ekspresi Boolean pada IF?",
+            "ground_truth": "Pernyataan SELECT harus diapit dalam tanda kurung.",
+            "sumber_text": "Catatan Penting: Jika ekspresi Boolean menggunakan pernyataan SELECT, pernyataan tersebut harus diapit dalam tanda kurung."
+        },
+        {
+            "pertanyaan": "Kapan fungsi ELSE digunakan dalam pernyataan IF...ELSE?",
+            "ground_truth": "Ketika kondisi di klausa IF mengevaluasi ke FALSE dan ingin mengeksekusi blok pernyataan lain.",
+            "sumber_text": "Fungsi ELSE: Digunakan ketika kondisi di klausa IF mengevaluasi ke FALSE dan kita ingin mengeksekusi blok pernyataan lain."
+        },
+        {
+            "pertanyaan": "Bagaimana cara kerja pernyataan IF...ELSE ketika kondisi bernilai TRUE?",
+            "ground_truth": "Blok pernyataan di klausa IF dijalankan.",
+            "sumber_text": "Jika kondisi bernilai TRUE, maka blok pernyataan di klausa IF yang dijalankan."
+        },
+        {
+            "pertanyaan": "Bagaimana cara kerja pernyataan IF...ELSE ketika kondisi bernilai FALSE?",
+            "ground_truth": "Blok kode pada klausa ELSE dijalankan.",
+            "sumber_text": "Jika kondisinya SALAH (FALSE), maka blok kode pada klausa ELSE yang dijalankan."
+        },
+        {
+            "pertanyaan": "Apa yang dimaksud dengan IF...ELSE bersarang (nested) dalam SQL Server?",
+            "ground_truth": "Menumpuk pernyataan IF ... ELSE di dalam pernyataan IF ... ELSE lainnya.",
+            "sumber_text": "Konsep: SQL Server memungkinkan kita untuk menumpuk pernyataan IF ... ELSE di dalam pernyataan IF ... ELSE lainnya."
+        }
+    ],
+    "MODUL 5  Praktikum Basdat 2.txt": [
+        {
+            "pertanyaan": "Apa itu store procedure?",
+            "ground_truth": "Store procedure merupakan kumpulan perintah yang disimpan dengan nama tertentu dan diproses sebagai satu kesatuan.",
+            "sumber_text": "Store procedure merupakan kumpulan perintah yang disimpan dengan nama tertentu dan diproses sebagai satu kesatuan."
+        },
+        {
+            "pertanyaan": "Sebutkan tiga keuntungan utama menggunakan store procedure!",
+            "ground_truth": "Portabilitas: Bisa digunakan oleh berbagai aplikasi karena tersimpan di server database; Performa lebih cepat: Diproses di server sehingga tidak membebani client; Keamanan lebih baik: Business logic tersimpan di server dan dapat dienkripsi sehingga tidak mudah diakses pengguna.",
+            "sumber_text": "Portabilitas: Bisa digunakan oleh berbagai aplikasi karena tersimpan di server database\nPerforma lebih cepat: Diproses di server sehingga tidak membebani client\nKeamanan lebih baik: Business logic tersimpan di server dan dapat dienkripsi sehingga tidak mudah diakses pengguna."
+        },
+        {
+            "pertanyaan": "Bagaimana sintaks umum untuk membuat store procedure dengan parameter output?",
+            "ground_truth": "Create procedure nama_procedure @var <tipe data> output As Begin Query END go",
+            "sumber_text": "Create procedure nama_procedure @var <tipe data> output\nAs\nBegin\nQuery\nEND\ngo"
+        },
+        {
+            "pertanyaan": "Apa fungsi perintah DECLARE dalam contoh cara menjalankan query?",
+            "ground_truth": "Declare digunakan untuk membuat variabel hasil dan tipe data harus sama dengan yang diinputkan saat membuat store procedure.",
+            "sumber_text": "Declare digunakan untuk membuat variabel hasil dan tipe data harus sama dengan yang diinputkan saat membuat store procedure."
+        },
+        {
+            "pertanyaan": "Pada contoh prosedur sp_total_customer, apa tipe data variabel output @total_customer?",
+            "ground_truth": "INT",
+            "sumber_text": "CREATE PROCEDURE dbo.sp_total_customer\n@total_customer INT OUTPUT"
+        },
+        {
+            "pertanyaan": "Dalam prosedur sp_kota_customer, nilai apa yang di‑assign ke variabel output @kota?",
+            "ground_truth": "Nilai kolom city dari tabel customers.",
+            "sumber_text": "SELECT @kota = city FROM customers WHERE customer_id = @id_customer"
+        },
+        {
+            "pertanyaan": "Dalam contoh prosedur sp_harga_produk, parameter apa yang digunakan untuk menentukan produk?",
+            "ground_truth": "@nama_produk VARCHAR(40) dan @finish VARCHAR(25)",
+            "sumber_text": "CREATE PROCEDURE dbo.sp_harga_produk\n@nama_produk VARCHAR(40),\n@finish VARCHAR(25),\n@harga DECIMAL(6,2) OUTPUT"
+        },
+        {
+            "pertanyaan": "Bagaimana cara mengeksekusi prosedur sp_harga_produk dan menyimpan hasilnya?",
+            "ground_truth": "DECLARE @hasil DECIMAL(6,2) EXEC dbo.sp_harga_produk 'Writers Desk', 'Maple' @hasil OUTPUT",
+            "sumber_text": "DECLARE @hasil DECIMAL(6,2)\nEXEC dbo.sp_harga_produk 'Writers Desk', 'Maple\n@hasil OUTPUT"
+        },
+        {
+            "pertanyaan": "Apa yang dimaksud dengan parameter @var_output dalam contoh prosedur dengan satu variabel input dan satu variabel output?",
+            "ground_truth": "Variabel output atau hasil dari proses yang digunakan untuk mengembalikan nilai dari procedure.",
+            "sumber_text": "@var_output merupakan variabel output atau hasil dari proses yang digunakan untuk mengembalikan nilai dari procedure."
+        },
+        {
+            "pertanyaan": "Perintah SQL apa yang digunakan untuk menghitung total customer dalam prosedur sp_total_customer?",
+            "ground_truth": "SELECT @total_customer = COUNT(*) FROM customers",
+            "sumber_text": "SELECT @total_customer = COUNT(*)\nFROM customers"
+        }
+    ],
+    "Modul10_Prak212Basdat2.txt": [
+        {
+            "pertanyaan": "Apa yang dimaksud dengan trigger dalam basis data?",
+            "ground_truth": "Trigger adalah sekumpulan kueri (prosedur) SQL yang akan dieksekusi secara otomatis oleh Database Management System (DBMS) ketika terjadi peristiwa (event) modifikasi data pada sebuah tabel.",
+            "sumber_text": "Trigger adalah sekumpulan kueri (prosedur) SQL yang akan dieksekusi secara otomatis (terpicu) oleh Database Management System (DBMS) ketika terjadi peristiwa (event) modifikasi data pada sebuah tabel."
+        },
+        {
+            "pertanyaan": "Sebutkan tiga manfaat utama penggunaan trigger.",
+            "ground_truth": "Integritas Data, Melacak Perubahan Data (Auditing), dan Sinkronisasi.",
+            "sumber_text": "Manfaat utama trigger Integritas Data ... 1 Melacak Perubahan Data (Auditing) ... 3 Sinkronisasi"
+        },
+        {
+            "pertanyaan": "Bagaimana cara kerja trigger tr_cek_kuantitas pada tabel orderline?",
+            "ground_truth": "Trigger memeriksa nilai quantity yang dimasukkan atau diubah; jika quantity ≤ 0, trigger melakukan ROLLBACK dan menampilkan pesan error \"Transaksi Gagal: Kuantitas (quantity) pesanan tidak boleh nol atau negatif!\".",
+            "sumber_text": "IF @qty <= 0 BEGIN ROLLBACK; PRINT 'Transaksi Gagal: Kuantitas (quantity) pesanan tidak boleh nol atau negatif!'; END"
+        },
+        {
+            "pertanyaan": "Apa yang terjadi pada tabel products ketika trigger tr_update_stok dijalankan setelah insert pada orderline?",
+            "ground_truth": "Stok (QOH) pada produk yang dipesan berkurang sebesar quantity yang dipesan; contoh stok berkurang dari 8 menjadi 6.",
+            "sumber_text": "UPDATE products SET QOH = QOH - @qty_pesan WHERE Product_id = @id_produk; ... Stok produk otomatis dikurangi!"
+        },
+        {
+            "pertanyaan": "Apa definisi view dalam basis data?",
+            "ground_truth": "View adalah tabel virtual yang berisi data dari satu atau beberapa tabel fisik dan tidak menyimpan data secara fisik di dalam database.",
+            "sumber_text": "View adalah tabel virtual yang berisi data dari satu atau beberapa tabel fisik. View tidak menyimpan data secara fisik di dalam database."
+        },
+        {
+            "pertanyaan": "Sebutkan tiga fungsi utama view.",
+            "ground_truth": "Menyederhanakan kueri yang kompleks, meningkatkan keamanan dengan menyembunyikan kolom sensitif, dan menyediakan perspektif data yang konsisten untuk pelaporan.",
+            "sumber_text": "Fungsi Utama: Menyederhanakan kueri yang kompleks (JOIN yang panjang). Meningkatkan keamanan dengan menyembunyikan kolom sensitif. Menyediakan perspektif data yang konsisten untuk pelaporan."
+        },
+        {
+            "pertanyaan": "Kolom apa saja yang ditampilkan oleh view V_Katalog_Produk?",
+            "ground_truth": "Nama Produk (Product_name), Bahan/Warna (Product_finish), dan Harga (Unit_price).",
+            "sumber_text": "CREATE VIEW V_Katalog_Produk AS SELECT Product_name AS 'Nama Produk', Product_finish AS 'Bahan/Warna', Unit_price AS 'Harga' FROM products;"
+        },
+        {
+            "pertanyaan": "View V_Laporan_Pesanan menampilkan informasi apa saja tentang pesanan?",
+            "ground_truth": "Nama Pelanggan, Tanggal Pesan, Barang (Product_name), Jumlah (quantity), dan Total Bayar (quantity × Unit_price).",
+            "sumber_text": "SELECT c.Customer_name AS 'Nama Pelanggan', o.orderdate AS 'Tanggal Pesan', p.Product_name AS 'Barang', ol.quantity AS 'Jumlah', (ol.quantity * p.Unit_price) AS 'Total Bayar' ..."
+        },
+        {
+            "pertanyaan": "Pada contoh penggunaan view V_Laporan_Pesanan, filter apa yang diterapkan?",
+            "ground_truth": "Filter baris dimana Nama Pelanggan sama dengan 'Home Furniture'.",
+            "sumber_text": "WHERE [Nama Pelanggan] = 'Home Furniture';"
+        },
+        {
+            "pertanyaan": "Apa pesan yang dicetak oleh trigger tr_update_stok setelah berhasil mengurangi stok?",
+            "ground_truth": "Berhasil: Stok produk otomatis dikurangi!",
+            "sumber_text": "PRINT 'Berhasil: Stok produk otomatis dikurangi!';"
+        }
+    ],
+    "MODUL4.txt": [
+        {
+            "pertanyaan": "Apa fungsi utama pernyataan CASE dalam SQL Server?",
+            "ground_truth": "CASE berfungsi sebagai ekspresi kondisional yang mengevaluasi kondisi dan mengembalikan nilai berbeda, mirip seperti IF‑THEN‑ELSE, dan dapat digunakan dalam query SQL.",
+            "sumber_text": "CASE adalah ekspresi kondisional di SQL Server yang memungkinkan kita mengevaluasi kondisi dan mengembalikan nilai berbeda berdasarkan hasil evaluasi tersebut - mirip seperti IF-THEN-ELSE namun digunakan di dalam query SQL."
+        },
+        {
+            "pertanyaan": "Apa perbedaan utama antara CASE sederhana dan CASE pencarian?",
+            "ground_truth": "CASE sederhana hanya dapat membandingkan kesetaraan (=) dengan satu ekspresi input, sedangkan CASE pencarian tidak memiliki ekspresi input di awal dan setiap WHEN dapat berisi ekspresi Boolean lengkap sehingga dapat menggunakan operator seperti >, <, >=, BETWEEN, dll.",
+            "sumber_text": "CASE Sederhana hanya bisa memeriksa KESETARAAN (=). Untuk perbandingan seperti > atau <, gunakan CASE Pencarian. CASE Pencarian tidak menyertakan ekspresi input di awal. Setiap WHEN berisi ekspresi Boolean lengkap, sehingga bisa menggunakan berbagai operator pembanding."
+        },
+        {
+            "pertanyaan": "Dalam contoh program sederhana, apa output yang dihasilkan ketika variabel @Name berisi 'Deepak'?",
+            "ground_truth": "Hello Deepak!",
+            "sumber_text": "Output: Pesan: Hello Deepak!"
+        },
+        {
+            "pertanyaan": "Bagaimana urutan evaluasi kondisi WHEN pada pernyataan CASE?",
+            "ground_truth": "SQL mengevaluasi kondisi WHEN dari atas ke bawah dan berhenti pada kondisi pertama yang bernilai TRUE.",
+            "sumber_text": "Tips: SQL mengevaluasi kondisi WHEN dari atas ke bawah dan berhenti di kondisi pertama yang BENAR."
+        },
+        {
+            "pertanyaan": "Berikan contoh sintaks CASE yang digunakan dalam klausa WHERE untuk memfilter nilai marks berdasarkan departemen.",
+            "ground_truth": "SELECT * FROM student_table WHERE marks >= CASE WHEN dept = 'Sains' THEN 60 ELSE 50 END;",
+            "sumber_text": "SELECT * FROM student_table WHERE marks >= CASE WHEN dept = 'Sains' THEN 60 ELSE 50 END;"
+        },
+        {
+            "pertanyaan": "Apa yang terjadi ketika pernyataan BREAK dieksekusi di dalam loop WHILE?",
+            "ground_truth": "Eksekusi loop dihentikan secara paksa dan kontrol langsung melompat ke baris setelah END loop.",
+            "sumber_text": "BREAK digunakan untuk menghentikan loop secara paksa sebelum kondisi WHILE menjadi FALSE. Saat SQL menemukan BREAK, eksekusi langsung melompat ke baris setelah END."
+        },
+        {
+            "pertanyaan": "Dalam contoh penggunaan CONTINUE untuk mencetak bilangan genap, nilai apa yang akan dicetak?",
+            "ground_truth": "2 4 6 8 10 12 14 16 18 20",
+            "sumber_text": "Output: 2 4 6 8 10 12 14 16 18 20"
+        },
+        {
+            "pertanyaan": "Apa yang harus selalu dilakukan pada variabel penghitung dalam loop WHILE untuk menghindari infinite loop?",
+            "ground_truth": "Harus melakukan increment (penambahan) pada variabel penghitung di setiap iterasi, misalnya dengan perintah SET @i = @i + 1.",
+            "sumber_text": "Selalu increment counter untuk hindari infinite loop. SET @i = @i + 1; -- WAJIB increment!"
+        },
+        {
+            "pertanyaan": "Bagaimana cara menggunakan CASE dalam klausa ORDER BY untuk memberi prioritas urutan berdasarkan departemen?",
+            "ground_truth": "SELECT * FROM student_table ORDER BY CASE dept WHEN 'Sains' THEN 1 WHEN 'Teknik' THEN 2 ELSE 3 END;",
+            "sumber_text": "SELECT * FROM student_table ORDER BY CASE dept WHEN 'Sains' THEN 1 WHEN 'Teknik' THEN 2 ELSE 3 END;"
+        },
+        {
+            "pertanyaan": "Apa hasil grade mahasiswa dengan nilai marks 82, 67, dan 55 berdasarkan contoh CASE pencarian?",
+            "ground_truth": "82 → A+, 67 → A, 55 → E",
+            "sumber_text": "Deepak 82 A+\\nManoj 67 A\\nSonal 55 E"
+        }
+    ],
+    "MODUL8.txt": [
+        {
+            "pertanyaan": "Apa tujuan penggunaan fungsi di SQL Server?",
+            "ground_truth": "Fungsi di SQL Server digunakan untuk menyederhanakan logika query yang kompleks.",
+            "sumber_text": "Fungsi di SQL Server digunakan untuk menyederhanakan logika query yang kompleks."
+        },
+        {
+            "pertanyaan": "Sebutkan tiga jenis fungsi yang tersedia di SQL Server.",
+            "ground_truth": "Scalar Function Inline Table-Valued Function Multi-Statement Table-Valued Function",
+            "sumber_text": "Scalar Function Inline Table-Valued Function Multi-Statement Table-Valued Function"
+        },
+        {
+            "pertanyaan": "Apa yang dikembalikan oleh Scalar Function?",
+            "ground_truth": "Mengembalikan nilai tunggal (satu nilai).",
+            "sumber_text": "Mengembalikan nilai tunggal (satu nilai)."
+        },
+        {
+            "pertanyaan": "Bagaimana Inline Table-Valued Function berbeda dengan view?",
+            "ground_truth": "Menyerupai view tetapi dapat menerima variabel input.",
+            "sumber_text": "Menyerupai view tetapi dapat menerima variabel input."
+        },
+        {
+            "pertanyaan": "Berapa banyak pernyataan SELECT yang boleh ada dalam Inline TVF?",
+            "ground_truth": "Hanya terdiri dari satu select statement.",
+            "sumber_text": "Hanya terdiri dari satu select statement."
+        },
+        {
+            "pertanyaan": "Sebutkan empat karakteristik utama variabel tabel.",
+            "ground_truth": "Siklus Hidup : Dimulai saat deklarasi, berakhir di akhir batch (setelah GO). Otomatis dihapus.; DML Support : Dapat melakukan insert, update, dan delete pada variabel tabel.; Constraint : Mendukung primary key, unique, not null, dan check constraint.; Join & Alias : Wajib menggunakan alias saat melakukan operasi join antar variabel tabel",
+            "sumber_text": "Siklus Hidup : Dimulai saat deklarasi, berakhir di akhir batch (setelah GO). Otomatis dihapus.\nDML Support : Dapat melakukan insert, update, dan delete pada variabel tabel.\nConstraint : Mendukung primary key, unique, not null, dan check constraint.\nJoin & Alias : Wajib menggunakan alias saat melakukan operasi join antar variabel tabel"
+        },
+        {
+            "pertanyaan": "Bagaimana cara mendefinisikan struktur tabel yang dikembalikan oleh Multi-Statement Table-Valued Function?",
+            "ground_truth": "Dalam fungsi ini, sebuah variabel bertipe tabel didefinisikan strukturnya secara eksplisit pada klausa returns",
+            "sumber_text": "Dalam fungsi ini, sebuah variabel bertipe tabel didefinisikan strukturnya secara eksplisit pada klausa returns"
+        },
+        {
+            "pertanyaan": "Tuliskan pernyataan SQL untuk membuat fungsi yang mengembalikan semua karyawan beserta departemen dan gaji.",
+            "ground_truth": "create function dbo.fn_semua_karyawan() returns table as return ( select employee_id, employee_name, department, salary from employees )",
+            "sumber_text": "create function dbo.fn_semua_karyawan()\nreturns table\nas\nreturn (\nselect employee_id, employee_name,\ndepartment, salary from employees)"
+        },
+        {
+            "pertanyaan": "Pada contoh variabel tabel, kolom 'sks' memiliki constraint apa?",
+            "ground_truth": "check (sks BETWEEN 1 AND 4)",
+            "sumber_text": "check (sks BETWEEN 1 AND 4)"
+        },
+        {
+            "pertanyaan": "Fungsi fn_gaji_atas_rata() memberikan nilai apa pada kolom 'keterangan' untuk karyawan yang gajinya di atas rata-rata?",
+            "ground_truth": "'Di Atas Rata-Rata'",
+            "sumber_text": "'Di Atas Rata-Rata'"
+        }
+    ],
+    "prosedur.txt": [
+        {
+            "pertanyaan": "Apa itu Stored Procedure?",
+            "ground_truth": "Stored Procedure adalah kumpulan perintah SQL yang disimpan dan dijalankan langsung di dalam sistem manajemen basis data (DBMS).",
+            "sumber_text": "Store Prosedure adalah kumpulan perintah SQL yang disimpan dan dijalankan langsung di dalam sistem manajemen basis data (DBMS)"
+        },
+        {
+            "pertanyaan": "Apa keuntungan menggunakan Stored Procedure dibanding menulis query berulang kali?",
+            "ground_truth": "Dengan Stored Procedure, query ditulis sekali saja, lalu dapat dipanggil berulang kali tanpa harus mengetik ulang query yang sama.",
+            "sumber_text": "Dengan cara menuliskan query sekali saja, lalu memanggilnya berulang kali tanpa harus mengetik ulang query yang sama."
+        },
+        {
+            "pertanyaan": "Dalam perintah pembuatan prosedur, apa arti kata kunci 'dbo'?",
+            "ground_truth": "'dbo' merupakan singkatan dari database owner, yang berfungsi sebagai inisial nama database di depan nama prosedur.",
+            "sumber_text": "dbo = database owner mirip kaya kalian bikin sebuah folder, bikin inisial nama database di depan nama prosedure nya"
+        },
+        {
+            "pertanyaan": "Apa fungsi kata kunci 'AS' dalam definisi Stored Procedure?",
+            "ground_truth": "'AS' berfungsi sebagai penghubung antara nama prosedur dan blok perintahnya.",
+            "sumber_text": "as = penghubung"
+        },
+        {
+            "pertanyaan": "Bagaimana cara memanggil sebuah Stored Procedure?",
+            "ground_truth": "Dengan menggunakan kata kunci EXEC (Execute).",
+            "sumber_text": "EXEC (Execute) kata kunci untuk running jalankan prosedur"
+        },
+        {
+            "pertanyaan": "Apa yang dimaksud dengan alamat lengkap prosedur 'dbo:SP_daftar_mahasiswa'?",
+            "ground_truth": "'dbo' menunjukkan folder/skema pemilik database, sedangkan 'SP_daftar_mahasiswa' adalah nama prosedur yang ingin dijalankan.",
+            "sumber_text": "dbo: Mencari di folder/skema pemilik database. SP_daftar_mahasiswa: Nama proseduryang ingin dijalankan."
+        },
+        {
+            "pertanyaan": "Dalam contoh prosedur dengan input, apa nama variabel dan tipe datanya?",
+            "ground_truth": "Nama variabelnya @var1 dengan tipe data int.",
+            "sumber_text": "@var1: nama variabel/parameter int: tipe data."
+        },
+        {
+            "pertanyaan": "Mengapa lebih aman menggunakan nama variabel saat memanggil prosedur yang memiliki banyak parameter?",
+            "ground_truth": "Karena dengan menyebut nama variabel, nilai yang diberikan secara eksplisit ditujukan kepada parameter yang dimaksud, menghindari kebingungan urutan parameter.",
+            "sumber_text": "Pakai nama variable lebih aman terutama jika prosedur punya banyak parameter, karena kamu menegaskan angka 1 itu untuk siapa"
+        },
+        {
+            "pertanyaan": "Perintah apa yang digunakan untuk memodifikasi Stored Procedure yang sudah ada?",
+            "ground_truth": "Perintah ALTER.",
+            "sumber_text": "Untuk memodifikasi Stored Procedure yang sudah ada bukan CREATE lagi, tapi pake perintah ALTER."
+        }
+    ],
+    "UDF Skalar dalam SQL Server 2012.txt": [
+        {
+            "pertanyaan": "Apa tujuan pembelajaran modul ini?",
+            "ground_truth": "Memahami konsep User Defined Function (UDF) dan memahami fungsi skalar beserta karakteristiknya; Mampu membuat dan menjalankan fungsi skalar di SQL Server 2012 dengan benar",
+            "sumber_text": "Tujuan Pembelajaran Memahami konsep User Defined Function (UDF) dan memahami fungsi skalar beserta karakteristiknya Mampu membuat dan menjalankan fungsi skalar di SQL Server 2012 dengan benar"
+        },
+        {
+            "pertanyaan": "Bagaimana definisi User Defined Function (UDF) menurut dokumen?",
+            "ground_truth": "Fungsi yang dibuat oleh pengguna sesuai kebutuhan",
+            "sumber_text": "User Defined Function (UDF) adalah fungsi yang dibuat oleh pengguna sesuai kebutuhan"
+        },
+        {
+            "pertanyaan": "Apa yang selalu dikembalikan oleh sebuah fungsi di SQL Server?",
+            "ground_truth": "nilai (return value)",
+            "sumber_text": "Fungsi selalu mengembalikan nilai (return value)"
+        },
+        {
+            "pertanyaan": "Sebutkan tiga keuntungan utama menggunakan UDF.",
+            "ground_truth": "modularitas, reusability, kemudahan maintenance",
+            "sumber_text": "Keuntungan: modularitas, reusability, kemudahan maintenance"
+        },
+        {
+            "pertanyaan": "Apa perbedaan utama antara Scalar Function dan Table Valued Function?",
+            "ground_truth": "Scalar Function mengembalikan satu nilai tunggal dengan tipe data tertentu, sedangkan Table Valued Function mengembalikan tabel",
+            "sumber_text": "Scalar Function: mengembalikan satu nilai tunggal dengan tipe data tertentu (contoh: INT, VARCHAR, DATE). Inline Table Valued Function: mengembalikan tabel (Inline TVF dari satu SELECT, Multi Statement TVF dari beberapa statement)."
+        },
+        {
+            "pertanyaan": "Di mana nilai yang dikembalikan oleh Scalar Function dapat digunakan?",
+            "ground_truth": "dalam SELECT, WHERE, atau ekspresi lainnya",
+            "sumber_text": "Dapat digunakan dalam SELECT, WHERE, atau ekspresi lainnya"
+        },
+        {
+            "pertanyaan": "Tuliskan struktur dasar sebuah Scalar Function secara singkat.",
+            "ground_truth": "CREATE FUNCTION nama_fungsi (@param TIPE_DATA) RETURNS TIPE_RETURN AS BEGIN DECLARE @hasil TIPE_RETURN; SET @hasil = [Nilai atau Ekspresi]; RETURN @hasil; END GO",
+            "sumber_text": "CREATE FUNCTION nama_fungsi (@param TIPE_DATA) RETURNS TIPE_RETURN AS BEGIN DECLARE @hasil TIPE_RETURN; SET @hasil = [Nilai atau Ekspresi]; RETURN @hasil; END GO"
+        },
+        {
+            "pertanyaan": "Sebutkan dua contoh perhitungan umur yang diberikan dalam materi.",
+            "ground_truth": "Menghitung Umur (Hari) dan Menghitung Umur (Bulan)",
+            "sumber_text": "Contoh 1: Menghitung Umur (Hari) Contoh 2: Menghitung Umur (Bulan)"
+        },
+        {
+            "pertanyaan": "Jenis kontrol alur apa saja yang dapat digunakan dalam fungsi skalar menurut materi?",
+            "ground_truth": "IF, CASE, dan WHILE",
+            "sumber_text": "Dapat menggunakan IF, CASE, dan WHILE untuk logika kompleks"
+        },
+        {
+            "pertanyaan": "Apa manfaat utama penggunaan UDF dalam pengembangan kode?",
+            "ground_truth": "Kode lebih terstruktur, mengurangi duplikasi, mempermudah maintenance",
+            "sumber_text": "Manfaat: Kode lebih terstruktur, mengurangi duplikasi, mempermudah maintenance"
+        }
+    ],
+    "Week9.txt": [
+        {
+            "pertanyaan": "Apa itu tabel Inserted dan kapan tabel tersebut berisi data?",
+            "ground_truth": "Inserted tabel adalah tabel virtual yang berisi data baru ketika menambah atau mengubah data.",
+            "sumber_text": "Inserted tabela dalah tabel virtual yang berisi data baru (ketika menambah atau mengubah data)."
+        },
+        {
+            "pertanyaan": "Apa itu tabel Deleted dan kapan tabel tersebut berisi data?",
+            "ground_truth": "Deleted tabel adalah tabel virtual yang berisi data lama ketika menghapus atau sebelum mengubah data.",
+            "sumber_text": "Deleted tabel adalah tabel virtual yang berisi data lama (ketika menghapus atau sebelum mengubah data)."
+        },
+        {
+            "pertanyaan": "Apa fungsi klausa OUTPUT pada perintah INSERT?",
+            "ground_truth": "OUTPUT menampilkan kembali nilai baris yang baru saja ditambahkan sehingga pengguna dapat memverifikasi data yang masuk tanpa pencarian manual.",
+            "sumber_text": "Bagian OUTPUT berfungsi untuk menampilkan kembali nilai dari baris yang baru saja ditambahkan sehingga pengguna dapat langsung memverifikasi data yang masuk tanpa perlu melakukan perintah pencarian manual."
+        },
+        {
+            "pertanyaan": "Apa fungsi klausa OUTPUT pada perintah DELETE?",
+            "ground_truth": "OUTPUT menampilkan kembali informasi baris yang baru saja dihapus sehingga pengguna dapat melihat detail data yang telah hilang.",
+            "sumber_text": "Bagian OUTPUT berfungsi untuk menampilkan kembali informasi dari baris yang baru saja dihapus ke layar, sehingga pengguna dapat melihat detail data yang telah hilang dari sistem."
+        },
+        {
+            "pertanyaan": "Nama pengawas otomatis apa yang dibuat untuk menangani peristiwa INSERT pada tabel mahasiswa?",
+            "ground_truth": "Pengawas otomatis bernama tr_mahasiswa_insert.",
+            "sumber_text": "Buat sebuah pengawas otomatis bernama tr_mahasiswa_insert ON mahasiswa ... AFTER INSERT adalah Pengawas ini akan bekerja otomatis setelah ada orang menambahkan data ke meja mahasiswa."
+        },
+        {
+            "pertanyaan": "Apa yang terjadi pada Inserted Table ketika perintah INSERT INTO mahasiswa dijalankan?",
+            "ground_truth": "Database secara otomatis menyimpan data baru ke dalam Inserted Table (tabel virtual sementara) sebelum menulis ke tabel mahasiswa yang asli.",
+            "sumber_text": "Ketika perintah INSERT INTO mahasiswa dijalankan, database secara otomatis akan menyimpan data baru tersebut ke dalam Inserted Table (tabel virtual sementara) sebelum benar-benar ditulis ke tabel mahasiswa yang asli."
+        },
+        {
+            "pertanyaan": "Apa yang dilakukan trigger tr_insert_mahasiswa ketika ada data mahasiswa baru ditambahkan?",
+            "ground_truth": "Trigger mengambil data baru (nim, nama, jurusan, ipk) dari Inserted Table beserta nama komputer server dan waktu, lalu menyimpannya ke tabel audit mahasiswa_insert_audit.",
+            "sumber_text": "Trigger tr_insert_mahasiswa pada tabel mahasiswa (FOR INSERT) akan mengambil data baru dari Inserted Table (nim, nama, jurusan, ipk) beserta nama komputer server dan waktu, lalu menyimpannya ke tabel audit mahasiswa_insert_audit setiap kali ada data mahasiswa baru ditambahkan."
+        },
+        {
+            "pertanyaan": "Bagaimana cara kerja trigger untuk UPDATE dalam mencatat perubahan data?",
+            "ground_truth": "Trigger mencatat data lama dari Deleted Table dan data baru dari Inserted Table beserta nama komputer server dan waktu ke tabel audit mahasiswa_update_audit setiap kali ada perubahan.",
+            "sumber_text": "Trigger untuk update mencatat data lama (dari Deleted Table) dan data baru (dari Inserted Table) beserta nama komputer server dan waktu ke tabel audit mahasiswa_update_audit setiap kali ada perubahan data pada tabel mahasiswa."
+        },
+        {
+            "pertanyaan": "Apa yang dicatat oleh trigger untuk DELETE ke dalam tabel audit?",
+            "ground_truth": "Trigger mencatat data mahasiswa yang dihapus (nim, nama, jurusan, ipk) dari Deleted Table beserta nama komputer server dan waktu ke tabel audit mahasiswa_delete_audit.",
+            "sumber_text": "Trigger untuk delete mencatat data mahasiswa yang dihapus (dari Deleted Table) beserta nama komputer server dan waktu ke tabel audit mahasiswa_delete_audit setiap kali ada penghapusan data dari tabel mahasiswa."
+        },
+        {
+            "pertanyaan": "Apa manfaat utama penggunaan trigger pada tabel mahasiswa menurut kesimpulan dokumen?",
+            "ground_truth": "Trigger secara otomatis mencatat setiap perubahan data (INSERT, UPDATE, DELETE) ke dalam tabel audit, sehingga dapat melihat riwayat siapa yang menambahkan, mengubah, atau menghapus data lengkap dengan nilai lama, nilai baru, nama komputer, dan waktu kejadian tanpa menulis kode tambahan.",
+            "sumber_text": "Trigger digunakan untuk secara otomatis mencatat setiap perubahan data (INSERT, UPDATE, DELETE) pada tabel mahasiswa ke dalam tabel audit, sehingga kita bisa melihat riwayat siapa data yang ditambahkan, diubah, atau dihapus, beserta nilai lama, nilai baru, nama komputer, dan waktu kejadian, tanpa perlu menulis kode tambahan secara manual setiap kali ada perubahan data."
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+  "filename": "ALGORITMA PENJADWALAN PROSES2.txt",
+  "matkul": "Sistem Operasi",
+  "teknik": "recursive",
+  "total_chunks": 6,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 972,
+      "text": "Asep Rizal Nurjaman\nAlgoritma\nProses\nPenjdawalan\nAsep Rizal Nurjaman\nAlgoritma Penjadwalan\nProses\nPriority Scheduling\nRound Robin\nPriority Scheduling\nMerupakan algoritma yang mendahulukan\nproses yang memiliki prioritas tertinggi\nPrioritas proses ditentukan berdasar:\nTime limit\nMemory requirement\nFile access\nPerbandingan antara burst proses dengan CPU\nTingkat kepentinagn proses\nPS (2)\nPriority scheduling dapat dijalankan secara\npreemptive dan non-preemptive\nPreemptive jika ada proses yang baru\ndatang memiliki prioritas lebih tinggi dari\nproses yang sedang berjalan, maka proses\nyang sedang berjalan tsb dihentikan, lalu CPU\ndialihkan untuk proses yang baru datang\ntersebut\nNon preemptive proses yang baru datang\ntidak dapat menganggu proses yang sedang\nberjalan, tapi hanya diletakkan di depan queue\nPS (3)\nKelemahan PS adalah terjadinya infinite\nblocking (starvation), yaitu suatu proses\ndengan prioritas yang rendah memiliki\nkemungkinan tidak pernah dieksekusi jika"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 988,
+      "text": "terdapat proses lain yang memiliki prioritas\nlebih tinggi\nSolusi dari starvation adalah aging, yaitu\nmeningkatkan prioritas dari setiap proses\nyang menunggu dalam queue secara\nbertahap\nPS (4)\nContoh : setiap 10 menit, prioritas dari\nmasing-masing proses yang menunggu dalam\nqueue dinaikkan 1 tingkat.\nMaka proses yang memiliki prioritas 127,\nsetidaknya dalam 21 jam 20 menit, proses tsb\nakan memiliki prioritas 0, yaitu prioritas yang\ntertinggi\nContoh 2 - PS\nDiketahui 5 proses dengan urutan proses\nsbb:\nGantt chart\nWaiting Time\nAWT\nROUND ROBIN\nAlgoritma ini menggilir proses yang ada di\nantrian. Proses akan mendapat jatah\nsebesar time quantum. Jika time quantum-nya\nhabis atau proses sudah selesai, CPU akan\ndialokasikan ke proses berikutnya\nProses ini cukup adil, karena tidak ada\nproses yang diprioritaskan\nSemua proses mendapat jatah waktu yang\nsama dari CPU yaitu 1/n, dan tidak akan\nmenunggu lebih lama dari (n-1)q; dimana q\nadalah lama 1 quantum\nAlgoritma RR sepenuhnya bergantung"
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 990,
+      "text": "besarnya time quantum (TQ).\nJika TQ terlalu besar, algoritma ini akan sama\nsaja dengan algoritma FCFS\nJika TQ terlalu kecil, akan semakin banyak\nperalihan proses sehingga banyak waktu\nyang terbuang\nPermasalahan algoritma\nRR\nPermasalahan utamanya adalah menentukan\nbesarnya TQ. Jika TQ yang ditentukan terlalu\nkecil, maka sebagian besar proses tidak akan\nselesai dalam 1 quantum.\nAkibatnya akan terjadi banyak switch, padahal\nCPU memerlukan waktu untuk beralih dari satu\nproses ke proses yang lain (= context switches\ntime)\nSebaliknya, jika TQ yang ditentukan terlalu\nbesar, algoritma RR akan berjalan seperti FCFS\nTQ ideal adalah jika 80% dari total proses\nmemiliki CPU burst time yang lebih kecil dari 1\nTQ\nUrutan Kejadian RR\nPenggunaan TQ\nContoh sederhana\nContoh 2\nDiketahui 3 proses sbb:\nTQ = 3\nGantt chart\nBurst Time\nContoh 3 - RR\nSebuah CPU dengan quantum 4\nmendapat beberapa proses yang\nkedatangannya sebagai berikut:\nProses\nBurst Time\nP1\n4\nP2\n9\nP3\n6\nP4\n5\nP5\n3\nBurst time\nwaktu proses"
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 996,
+      "text": "Gantt Chart\nP1\nP2\nP3\nP4\nP5\nP2\nP3\nP4\nP2\n0\n4\n8\n12\n16\n19\n23\n25\n26\n27\nAWT (average waiting\ntime)\nWaktu tunggu untuk tiap-tiap proses :\nAWT yang terjadi adalah:\n( 0 + 18 + 19 + 21 + 16 ) / 5 = 74 / 5 =\n14,8\nProses\nWaiting Time\nP1\n0\nP2\n4 + (19 - 8) + (26 - 23) = 18\nP3\n8 + (23 - 12) = 19\nP4\n12 + (25 - 16) = 21\nP5\n16\nATR (average turn\naround)\nProses\nSaat\nTiba\nLama\nProses\nSaat\nMulai\nSaat\nSelesai\nTurn Around\nTime\nP1\n0\n4\n0\n4\n4\nP2\n0\n9\n4\n27\n27\nP3\n0\n6\n8\n25\n25\nP4\n0\n5\n12\n26\n26\nP5\n0\n3\n16\n19\n19\nJumlah\nRata-rata\n101\n20,2\nRound Robin dengan Waktu\nTiba berbeda\nNama Proses Saat Tiba\nLama Proses\nA\n0\n5\nB\n1\n3\nC\n5\n7\nD\n6\n1\nE\n7\n6\nJml\n22\nQuantum =\n2\nGantt Chart\nA\nA\nB\nB\nA\nA\nB\nC\nC\nD\nA\nE\nE\nC\nC\nE\nE\nC\nC\nE\nE\nC\n0\n1\n3\n2\n4\n5\n6\n7\n8\n9\n10\n1\n1\n1\n2\n1\n3\n1\n4\n1\n5\n1\n6\n1\n7\n1\n8\n19\n20\n21\n2\n2\nAWT\nNama\nProses\nSaat\nTiba\nLama\nProses\nWaiting Time\nA\n0\n5\n0+(4-2)+(10-6)=6\nB\n1\n3\n(2-1)+(6-4)=3\nC\n5\n7\n(7-5)+(13-9)+(17-15)+(21-19) =10\nD\n6\n1\n(9-6)=3\nE\n7\n6\n(11-7)+(15-13)+(19-17)=8\nAWT = (6+3+10+3+8)/5 = 30/5 = 6\nTurn Around\nNama\nProses\nSaat\nTiba"
+    },
+    {
+      "index": 5,
+      "panjang_karakter": 989,
+      "text": "Lama\nProses\nSaat Mulai\nSaat Selesai\nLama\nProses\nA\n0\n5\n0\n11\n11\nB\n1\n3\n2\n7\n6\nC\n5\n7\n7\n22\n17\nD\n6\n1\n9\n10\n4\nE\n7\n6\n11\n21\n14\nJumlah\nRata-rata\n52\n10,4\nContoh 4\nUntuk memahami dari cara kerja algoritma\npenjadwalan Round Robin ini,mari kita\nkerjakan soal berikut\nPenyelesaian :\nSeperti halnya algoritma penjadwalan sebelumnya, langkah\npertama untuk mencari AWT dengan Algoritma\npenjadwalan Round Robin dilakukan dengan membuat\nGantt Chart prosesnya.\nDari Gantt Chart terlihat bahwa setiap proses\ndikerjakan menurut waktu yaitu setiap proses di\nproses sebesar 5 langkah.\nAwalnya P1 akan di kerjakan sebanyak 5 langkah,\nkemudian, P2 sebanyak 5 langkah, dan begitupun\nselanjutnya hingga P5.\nProses yang sudah di proses menurut porsi waktu\nyang diberikan akan kembali menunggu dan\nberada paling belakang dari antrian proses yang\nada.\nContohnya P1 dikerjakan di awal,\nkemudian ada P2, P3,P4,dan P5 yang\nmengantri di belakangnya.\nJika P1 selesai di proses menurut porsi\nwaktunya maka P1 akan di pindahkan ke"
+    },
+    {
+      "index": 6,
+      "panjang_karakter": 95,
+      "text": "belakang, sehingga urutannya menjadi P2,\nP3, P4, P4, P1. begitupun seterusnya.\nWaiting Time\nAWT"
+    }
+  ]
+}

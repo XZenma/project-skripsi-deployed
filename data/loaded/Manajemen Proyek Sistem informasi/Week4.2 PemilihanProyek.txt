@@ -1,0 +1,691 @@
+Project Integration 
+Management
+SOFIA UMAROH
+Manajemen Integrasi Proyek
+Metode Pemilihan Proyek
+Perencanaan Strategis Proyek 
+Mengembangkan Project Charter
+1
+3
+2
+4
+Today's 
+Agenda
+SOFIA UMAROH
+Let's get started!
+SOFIA UMAROH
+SOFIA UMAROH
+Energic & Cerdas
+Lebih berfokus pada deliver produk tepat waktu
+Namun Jodi...
+Skill teknis yang kuat
+Mampu menyelidiki & 
+mengatasi kendala teknis 
+Tidak menjalin komunikasi dengan manajemen 
+puncak
+Mengabaikan keluhan dan keinginan 
+manajemen puncak
+Berperan sebagai integrator software, bukan 
+manajer proyek
+Tidak memberikan jadwal yang akurat dan 
+perencanaan proyek kepada atasan
+Perencanaan Strategis 
+& Pemilihan Proyek
+SOFIA UMAROH
+Strategic 
+Planning
+Perencanaan strategis melibatkan 
+penentuan tujuan jangka panjang, 
+memprediksi tren masa depan, dan 
+memproyeksikan kebutuhan produk dan 
+layanan baru.
+Analisis SWOT: Strengths, Weaknesses, 
+Opportunities, dan Threats.
+Mengidentifikasi Proyek Potensial
+Menggunakan Metode Realistis 
+untuk memilih proyek yang selaras 
+dengan strategi bisnis
+1
+2
+3
+SOFIA UMAROH
+Sebagai bagian dari perencanaan strategis, 
+organisasi melakukan:
+Meresmikan Inisiasi Proyek dengan 
+menerbitkan Project Charter
+4
+Weaknesses
+Strengths
+Opportunities
+Threates
+SOFIA UMAROH
+Empat orang ingin memulai 
+bisnis baru di industri film. 
+Mereka melakukan analisis 
+SWOT membantu 
+mengidentifikasi proyek 
+potensial. 
+Analisis 
+SWOT
+• Memiliki banyak kontak
+• Keterampilan penjualan 
+dan interpersonal yang 
+kuat.
+• Keterampilan teknis dan 
+perangkat lunak yang kuat
+• Sampel proyek yang baik
+• Klien saat ini ingin kami 
+menawar proyek
+• Industri perfilman terus 
+berkembang.
+• Ada dua konferensi besar 
+untuk promosi
+• Tidak memiliki pengalaman 
+akuntansi atau keuangan.
+• Tidak memiliki strategi 
+pemasaran yang jelas.
+• Sedikit uang investasi 
+• Penggunaan teknologi 
+terbatas
+• Banyak pesaing 
+• Industri mapan lebih 
+diminati pelanggan.
+• Risiko tinggi dalam bisnis 
+film.
+SOFIA UMAROH
+Analisis SWOT dengan 
+Mind Mapping
+© Cengage Learning 2016 using MindView Business Edition by MatchWare.
+SOFIA UMAROH
+1
+2
+3
+4
+Identifikasi Proyek Potensial
+Mengembangkan strategi TI sejalan dengan misi 
+dan visi organisasi. Identifikasi area bisnis utama.
+Menentukan proses bisnis mana yang 
+paling diuntungkan dari proyek TI.
+Organisasi mulai mendefinisikan ruang lingkup, 
+manfaat, dan kendala proyek TI potensial.
+Memilih proyek mana yang akan 
+dikerjakan dan menetapkan sumber daya.
+IT 
+Strategic 
+Planning
+Business Area 
+Analysis
+Project Planning
+Resource 
+Allocation
+Steering Committee 
+(Manajer departemen 
+organisasi), Kepala PMO,
+Berfokus pada kebutuhan organisasi yang 
+luas
+Mengkategorikan proyek TI
+Melakukan analisis keuangan proyek
+1
+2
+3
+Metode 
+Pemilihan 
+Proyek
+Dalam praktiknya, banyak 
+organisasi menggunakan 
+kombinasi pendekatan ini untuk 
+memilih proyek
+SOFIA UMAROH
+5 teknik umum pemilihan proyek:
+Menggunakan model penilaian 
+berbobot
+Menerapkan Balanced Scorecard
+4
+5
+SOFIA UMAROH
+1. Focusing on Broad 
+   Organizational Needs 
+• Seringkali sulit untuk memberikan pembenaran 
+yang kuat untuk banyak proyek TI, tetapi semua 
+orang setuju bahwa mereka memiliki nilai tinggi
+• Organisasi harus mengevaluasi kembali 
+kebutuhan, pendanaan, dan kemauan untuk 
+menentukan apakah proyek harus dilanjutkan, 
+didefinisikan ulang, atau dihentikan.
+3 Kriteria Penting Proyek
+Needs of Project
+Available Funds
+Strong will to success
+SOFIA UMAROH
+2. Categorizing IT Projects 
+• Kategorisasikan proyek IT berdasarkan 
+aspek yang mendorongnya.
+• Kategori pendorong Problems dan 
+Opportunities yang paling mudah 
+disetujui
+• Kategorisasi berdsaarkan waktu: Lama 
+waktu proyek yang dibutuhkan dan kapan 
+proyek dibutuhkan.
+• Kategorisasi berdsaarkan prioritas: tinggi, 
+sedang, atau rendah.
+Kategori Pendorong Proyek IT
+Problems
+Opportunities
+Directives
+Timing
+Biasanya sebuah organisasi memiliki lebih banyak 
+proyek TI potensial daripada waktu dan sumber daya 
+yang tersedia. 
+Jadi sangat penting untuk mengerjakan proyek yang 
+paling penting terlebih dahulu.
+Kathy Scwable
+SOFIA UMAROH
+SOFIA UMAROH
+1
+2
+3
+3. Performing Financial Analyses 
+Net Present Value Analysis (NPV)
+Return on Investment (ROI)
+Payback Analysis 
+Tiga metode utama untuk 
+memproyeksikan nilai finansial proyek:
+Pertimbangan keuangan 
+seringkali menjadi pertimbangan 
+penting dalam memilih proyek
+SOFIA UMAROH
+1. Net Present Value 
+Metode metode yang menghitung selisih 
+antara nilai sekarang dari arus kas masuk dan 
+nilai sekarang dari arus kas keluar dalam 
+suatu proyek.
+NPV positif artinya pengembalian 
+investasi dari suatu proyek melebihi 
+biaya modal
+Untuk menghitung NPV, kita harus 
+mengasumsikan suku bunga (discount 
+rate) tertentu.
+NVP = 
+Formula:
+dimana,
+Ct = Net cash flow
+r = Discount rate
+t = number of time period
+Co = Total initial investment
+SOFIA UMAROH
+Discount Rate
+Pertimbangan menentukan Discount Rate
+•
+Weighted Average Cost of Capital (WACC) 
+•
+Rata-rata biaya modal dari sumber 
+pendanaan seperti ekuitas dan utang. 
+•
+WACC cocok untuk perusahaan besar 
+yang menggunakan kombinasi utang dan 
+ekuitas dalam pendanaan proyek.
+•
+Opportunity Cost of Capital. 
+•
+Jika proyek didanai dari modal sendiri, 
+maka discount rate bisa diset sama 
+dengan return yang diharapkan dari 
+investasi (misal 10%)
+•
+Risk-Adjusted Discount Rate (RADR). 
+•
+Jika proyek memiliki risiko tinggi, 
+tingkat diskonto dapat dinaikkan 
+missal 12%-20%
+•
+Proyek dengan risiko rendah, maka 
+diskoto 4%-6%)
+•
+Cost of Debt
+•
+Jika proyek sepenuhnya didanai 
+dengan utang, tingkat diskonto bisa 
+diambil dari suku bunga pinjaman 
+yang dikenakan oleh bank
+Jika tidak ada informasi khusus, 
+sering digunakan discount rate 
+standar 8%-12% untuk proyek bisnis 
+pada umumnya.
+SOFIA UMAROH
+Proyek SI Manajemen Proyek yang dipimpin Erica mempunyai 
+biaya akuisisi $140.000 dan membutuhkan biaya pemeliharaan 
+selama selama 3 tahun sebesar $40.000/tahun.
+Proyek direncanakan selesai dalam tahun ke-0, dan pada tahun 
+berikutnya memberikan manfaat $200.000 selama 3 tahun.
+Dengan asumsi discount rate 8%, tentukan:
+• Untung/rugi proyek
+• Untung/rugi terkoreksi (NPV)
+Berapa NPV proyek 
+Erica?
+Recall Erica's Project
+SOFIA UMAROH
+Berapa NPV proyek 
+Erica?
+Items
+Kumulatif
+Discount rate: 8%
+1.  Siapkan Tabel Perhitungan NPV, salin 
+    Biaya dan Manfaat ke dalam tabel.
+Tahun 0
+Tahun 1
+Tahun 2
+Tahun 3
+260.000
+140.000
+40.000
+40.000
+40.000
+600.000
+0
+200.000
+200.000
+200.000
+Laba/rugi = Manfaat Kumulatif - Biaya Kumulatif
+                 = 600.000 - 260.000 = 340.000
+Jadi proyek akan memberikan laba sebesar $340.000
+Discount factor
+Costs
+Benefit
+Discounted costs
+Discounted benefit
+Discount factor
+SOFIA UMAROH
+Berapa NPV proyek 
+Erica?
+Items
+Kumulatif
+Discount rate: 8%
+2.  Menentukan Faktor Diskon setiap tahun
+Tahun 0
+Tahun 1
+Tahun 2
+Tahun 3
+260.000
+140.000
+40.000
+40.000
+40.000
+600.000
+0
+200.000
+200.000
+200.000
+1
+0.93
+0.86
+0.79
+𝐷𝑖𝑠𝑐𝑜𝑢𝑛𝑡 𝐹𝑎𝑐𝑡𝑜𝑟=
+1
+(1 + 𝑟)𝑡
+r = Discount rate
+t = Time
+1
+0.93
+0.86
+0.79
+▪Year 0 : 
+discount factor 1/(1 + 0.08)0 = 1
+▪Year 1 : 
+discount factor 1/(1 + 0.08)1 = 0.93
+▪Year 2 : 
+discount factor 1/(1 + 0.08)2 = 0.86
+▪Year 3 : 
+discount factor 1/(1 + 0.08)3 = 0.79 
+▪Year 4:  
+discount factor 1/(1 + 0.08)4 = 0.79 
+Discount factor
+Costs
+Benefit
+Discounted costs
+Discounted benefit
+Discount factor
+0.79
+SOFIA UMAROH
+Berapa NPV proyek 
+Erica?
+Items
+Komulatif
+Discount rate: 8%
+3.  Menghitung Biaya dan Manfaat diskonto
+Tahun 0
+Tahun 1
+Tahun 2
+Tahun 3
+Discount factor
+Costs
+260.000
+140.000
+40.000
+40.000
+40.000
+Benefit
+Discounted costs
+Discounted benefit
+Discount factor
+600.000
+0
+200.000
+200.000
+200.000
+1
+0.93
+0.86
+0.79
+• Discounted costs = costs * discount factor
+• Discounted benefit = benefit * discount factor
+1
+0.93
+0.86
+0.79
+140.000
+37.200
+34.400 
+31.600 
+0
+186.000
+172.000
+158.000
+SOFIA UMAROH
+NPV proyek Erica = 
+USD 272.800
+Items
+Komulatif
+Discount rate: 8%
+4.  Menghitung NPV
+Tahun 0
+Tahun 1
+Tahun 2
+Tahun 3
+Discount factor
+Costs
+260.000
+140.000
+40.000
+40.000
+40.000
+Benefits
+Discounted costs
+Discounted benefits
+Discount factor
+600.000
+0
+200.000
+200.000
+200.000
+1
+0.93
+0.86
+0.79
+• NPV = Σ Doscounted benefit - Σ Doscounted cost
+• Σ Doscounted costs = 140.000 + 37.200 + 34.400 + 31.600 = 243.000
+• Σ Doscounted benefits = 186.000 + 172.000 + 158.000 = 516.000
+1
+0.93
+0.86
+0.79
+243.200 
+140.000
+37.200
+34.400 
+31.600 
+516.000
+0
+186.000
+172.000
+158.000
+NPV = 516.000 – 243.200 = 272.800
+Jadi, proyek akan memberikan laba dengan 8% Discount rate sebesar 272.800
+SOFIA UMAROH
+2. Return on  
+    Investment
+Metode untuk menghitung tingkat 
+pengembalian investasi dibandingkan 
+dengan biaya investasi awal.
+•
+Pengembalian investasi (ROI) dihitung 
+dengan mengurangkan biaya proyek dari 
+manfaat dan kemudian membaginya 
+dengan total biaya
+•
+Semakin tinggi ROI, semakin baik
+•
+Misalnya, jika Anda berinvestasi $100 hari 
+ini dan tahun depan nilainya $110, ROI Anda 
+adalah ($110 – 100)/100 atau 0,10 (10 
+persen).
+ROI = ( σ discounted benefits – σ discounted costs)
+discounted costs 
+Formula:
+SOFIA UMAROH
+ROI proyek Erica = 
+112%
+Discount rate: 8%
+Menghitung ROI Proyek Erica
+ROI = ( σ discounted benefits – σ discounted costs)
+discounted costs 
+Diketahui: 
+ 
+ σ discounted benefits = 516,000
+ 
+ σ discounted costs = 243,200
+Diperoleh:
+ 
+ROI = (516,000 – 243,200)/243,200 x 100%
+ 
+        = 112% 
+Maka, Proyek Erika memiliki 112% pengembalian investasi setelah proyek selesai.
+ROI sebesar 112 persen adalah nilai yang luar biasa.
+SOFIA UMAROH
+3. Payback Period
+Menghitung waktu pengembalian 
+investasi
+•
+Payback terjadi ketika manfaat kumulatif 
+bersih sama dengan biaya kumulatif 
+bersih atau 
+•
+Ketika manfaat kumulatif bersih dikurangi 
+biaya kumulatif bersih sama dengan nol
+SOFIA UMAROH
+Kapan payback proyek 
+Erica?
+Items
+Komulatif
+Discount rate: 8%
+Menghitung Payback Berdasarkan NPV
+Tahun 0
+Tahun 1
+Tahun 2
+Tahun 3
+Discount factor
+Costs
+260.000
+140.000
+40.000
+40.000
+40.000
+Benefits
+Discounted costs
+Discounted benefits
+Discount factor
+600.000
+0
+200.000
+200.000
+200.000
+1
+0.93
+0.86
+0.79
+1
+0.93
+0.86
+0.79
+243.200 
+140.000
+37.200
+34.400 
+31.600 
+516.000
+0
+186.000
+172.000
+158.000
+Cumulative benefits - cost
+Discounted benefits - cost
+-140.000
+148.800
+137.600
+126.400
+-140.000
+8.800
+146.600
+272.800
+Pengembalian investasi terjadi 
+di tahun 1 sebesar $8.800
+SOFIA UMAROH
+Kapan payback proyek 
+Erica?
+Items
+Tahun 4
+Discount rate: 8%
+Menghitung Payback Berdasarkan NPV
+Tahun 0
+Tahun 1
+Tahun 2
+Tahun 3
+Discount factor
+Costs
+40.000
+100.000
+40.000
+40.000
+40.000
+Benefits
+Discounted costs
+Discounted benefits
+Discount factor
+200.000
+0
+200.000
+200.000
+200.000
+1
+0.93
+0.86
+0.79
+1
+0.93
+0.86
+0.79
+29.200
+100.000
+37.200
+34.400 
+31.600 
+146.000
+0
+186.000
+172.000
+158.000
+Cumulative benefits - cost
+Discounted benefits - cost
+-100.000
+148.800
+137.600
+126.400
+-100.000
+8.800
+146.600
+272.800
+Pengembalian investasi terjadi 
+di tahun 1 sebesar $8.800
+Komulatif
+260.000
+800.000
+243.200 
+516.000
+0.73
+0.73
+SOFIA UMAROH
+Kapan payback proyek 
+Erica?
+Discount rate: 8%
+Menghitung Payback Berdasarkan NPV
+Pengembalian investasi terjadi 
+di tahun 1 sebesar $8.800
+Warming Up
+SOFIA UMAROH
+Case 1 : Analisa NPV, ROI dan Payback untuk kelayakan Proyek 1
+Lakukan analisis keuangan untuk sebuah proyek pembangunan Sistem Informasi 
+Wisuda. Asumsikan bahwa biaya dan manfaat yang diproyeksikan untuk proyek ini 
+tersebar selama empat tahun sebagai berikut: Perkiraan biaya adalah $ 2500pada 
+Tahun 1 dan $ 500 setiap tahun pada Tahun 2, 3, dan 4. 
+Perkiraan manfaat adalah $0 pada Tahun 1 $ 1000 setiap tahun pada Tahun 2, 3, 
+dan 4. Gunakan tingkat diskonto 7 persen, dan bulatkan faktor diskonto menjadi 
+dua angka di belakang koma. 
+Buat table untuk menghitung dan menampilkan dengan jelas nilai NPV, ROI, dan 
+Payback dari proyek tersebut.
+Selain itu, tuliskan kesimpulan dari hasil perhitungan yang menjelaskan apakah 
+Anda akan merekomendasikan investasi dalam proyek ini atau tidak, berdasarkan 
+analisis keuangan Anda, jelaskan alasannya!
+Case 2 : Analisa NPV, ROI dan Payback untuk kelayakan Proyek 1
+Lakukan analisis keuangan untuk sebuah proyek pembangunan Sistem Informasi 
+Wisuda. Asumsikan bahwa biaya dan manfaat yang diproyeksikan untuk proyek ini 
+tersebar selama empat tahun sebagai berikut: Perkiraan biaya adalah $ 2500pada 
+Tahun 1 dan $ 500 setiap tahun pada Tahun 2, 3, dan 4. 
+Perkiraan manfaat adalah $0 pada Tahun 1 $ 1000 setiap tahun pada Tahun 2, 3, 
+dan 4. Gunakan tingkat diskonto 7 persen, dan bulatkan faktor diskonto menjadi 
+dua angka di belakang koma. 
+Buat table untuk menghitung dan menampilkan dengan jelas nilai NPV, ROI, dan 
+Payback dari proyek tersebut.
+Selain itu, tuliskan kesimpulan dari hasil perhitungan yang menjelaskan apakah 
+Anda akan merekomendasikan investasi dalam proyek ini atau tidak, berdasarkan 
+analisis keuangan Anda, jelaskan alasannya!
+Weekly Activity 4
+SOFIA UMAROH
+Case 1 : Next-gen DNA-Sequencing Instrument Completion Project
+Nick Carson recently became project manager of a critical biotech enterprise at his Silicon Valley company. 
+This project involved creating the hardware and software for a next generation (next-gen) DNA-sequencing 
+instrument used in assembling and analysing the human genome. Several companies were competing to build 
+smaller, faster sequencing instruments that would reduce the costs and improve the quality of data analysis in 
+this rapidly changing field. The biotech project was the company’s largest endeavour, and it had tremendous 
+potential for future growth and revenue. 
+Unfortunately, there were problems managing this large project. It had been under way for three years and had 
+already gone through three different project managers. Nick had been the lead software developer on the 
+project before top management made him the project manager. The CEO told him to do whatever it took to 
+deliver the first version of the product in four months and a production version in nine months. Negotiations 
+for a potential corporate buyout with a larger company influenced top management’s sense of urgency to 
+complete the project. 
+Highly energetic and intelligent, Nick had the technical background to make the project a success. He delved 
+into the technical problems and found some critical flaws that kept the next-gen DNA-sequencing instrument 
+from working. Nevertheless, he was having difficulty in his new role as project manager. Although Nick and his 
+team got the product out on time, top management was upset because Nick did not focus on managing all 
+aspects of the project. He never provided them with accurate schedules or detailed plans of what was 
+happening on the project. Instead of performing the work of project manager, Nick had taken on the role of 
+software integrator and troubleshooter. Nick, however, did not understand top management’s complaints—he 
+delivered the product, didn’t he? Didn’t they realize how valuable he was?
+SOFIA UMAROH
+Question:
+Was Nick Carson a 
+good project manager? 
+Why or why not?
+1
+2
+What do you think the 
+real problem was in 
+this case?
+What could Nick have 
+done to be a better 
+project manager?
+3
+Tuliskan masing-masing pendapat Anda 
+dari ketiga pertanyaan berikut di forum 
+diskusi 4 di E-Learning.
+Thank you!
+SOFIA UMAROH

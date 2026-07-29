@@ -1,0 +1,38 @@
+{
+  "filename": "Week9.txt",
+  "matkul": "Basis Data 2 Praktikum AA",
+  "teknik": "fixed",
+  "total_chunks": 6,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 1000,
+      "text": "Week 9\nINSERTED & DELETED TABLE +\nTRIGGER AFTER INSERT,\nUPDATE, DELETE\nPRAKTIKUM BASIS DATA 2 AA\nInserted dan Deleted table\nInserted tabela dalah tabel virtual yang\nberisi data baru (ketika menambah atau\nmengubah data).\nDeleted tabel adalah tabel virtual yang\nberisi data lama (ketika menghapus atau\nsebelum mengubah data).\nContoh Query inserted dengan output\nBagian INSERT digunakan untuk\nmemasukkan satu baris data baru\nke dalam tabel mahasiswa dengan\nmenentukan kolom target beserta\nnilai spesifik yang akan disimpan.\nBagian OUTPUT berfungsi untuk menampilkan\nkembali\nnilai\ndari\nbaris\nyang\nbaru\nsaja\nditambahkan sehingga pengguna dapat langsung\nmemverifikasi data yang masuk tanpa perlu\nmelakukan perintah pencarian manual.\nContoh Query Deleted dengan output\nBagian DELETE berfungsi untuk\nmenghapus baris data dari tabel\nmahasiswa yang memiliki nilai nim\nsama dengan 2 sesuai dengan\nkondisi yang ditentukan.\nBagian OUTPUT berfungsi untuk menampilkan\nkembali informasi dari baris yang baru saja dih"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 1000,
+      "text": "apus\nke layar, sehingga pengguna dapat melihat detail\ndata yang telah hilang dari sistem.\nContoh Query inserted\nBuat sebuah pengawas\notomatis bernama\ntr_mahasiswa_insert\nON mahasiswa itu Pengawas ini bertugas\nkhusus untuk meja (tabel) mahasiswa\nsedangkan\nAFTER INSERT adalah Pengawas ini akan\nbekerja otomatis setelah ada orang\nmenambahkan data ke meja mahasiswa\nKetika perintah INSERT INTO mahasiswa dijalankan,\ndatabase secara otomatis akan menyimpan data baru\ntersebut ke dalam Inserted Table (tabel virtual\nsementara) sebelum benar-benar ditulis ke tabel\nmahasiswa yang asli.\nEksekusi inserted\ndigunakan untuk membuat sebuah trigger (pengawas otomatis) bernama\ntr_mahasiswa_delete pada tabel mahasiswa yang akan bekerja setelah ada perintah\nDELETE, lalu menampilkan data-data yang telah dihapus (yang disimpan sementara\ndi Deleted Table).\nContoh deleted table\njalankan delete table\ndigunakan untuk menghapus data\nmahasiswa yang memiliki NIM\n'1234567890' dari tabel mahasiswa.\nTrigger after crud\nK"
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 999,
+      "text": "AL\nadalah pengawas otomatis pada sebuah tabel yang akan bekerja\nsetelah terjadi proses penambahan data (INSERT), pengubahan data\n(UPDATE), atau penghapusan data (DELETE), untuk membaca data\nbaru dari Inserted Table dan data lama dari Deleted Table.\nberfungsi sebagai tempat pencatatan audit (riwayat) dengan kolom id\n(bernomor otomatis dari 1 dan bertambah 1 sebagai kunci utama),\nnim, nama, jurusan, ipk, komputer (nama mesin server), dan waktu\n(tanggal dan jam kejadian).\ntrigger FOR insert\ntrigger FOR insert\nTrigger tr_insert_mahasiswa pada\ntabel mahasiswa (FOR INSERT) akan\nmengambil data baru dari Inserted\nTable (nim, nama, jurusan, ipk)\nbeserta nama komputer server dan\nwaktu, lalu menyimpannya ke tabel\naudit mahasiswa_insert_audit\nsetiap kali ada data mahasiswa\nbaru ditambahkan.\njalankan trigger insert\nDigunakan untuk menambahkan data mahasiswa baru bernama Budif Santoso\ndengan NIM 1236567890, jurusan Informatika, dan IPK 3.75 ke dalam tabel\nmahasiswa.\nSetelah perintah ini dijalankan,"
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 999,
+      "text": "trigger tr_insert_mahasiswa akan bekerja secara\notomatis dan mencatat data tersebut ke tabel audit mahasiswa_insert_audit.\ndigunakan untuk membuat tabel bernama mahasiswa_update_audit yang berfungsi\nsebagai tempat pencatatan audit (riwayat perubahan data) dengan kolom id (bernomor\notomatis dari 1 dan bertambah 1 sebagai kunci utama), nim, nama_lama (sebelum\ndiubah), nama_baru (setelah diubah), jurusan_lama, jurusan_baru, ipk_lama, ipk_baru,\nkomputer (nama mesin server), dan waktu (tanggal dan jam kejadian).\ntrigger FOR update\ntrigger FOR update\ndigunakan untuk membuat trigger yang akan mencatat data lama (dari Deleted\nTable) dan data baru (dari Inserted Table) beserta nama komputer server dan waktu\nke tabel audit mahasiswa_update_audit setiap kali ada perubahan data pada tabel\nmahasiswa.\njalankan trigger update\nPerintah UPDATE akan\nmengubah nama dan IPK\nmahasiswa dengan NIM\n'1236567890', sekaligus memicu\ntrigger untuk mencatat\nperubahan (nilai lama vs baru)\nke tabel audit, lalu SELECT"
+    },
+    {
+      "index": 5,
+      "panjang_karakter": 1000,
+      "text": "digunakan untuk melihat hasil\ncatatannya.\nPerintah CREATE TABLE mahasiswa_delete_audit digunakan untuk membuat tabel\nkhusus sebagai tempat pencatatan riwayat penghapusan data mahasiswa yang\nmenyimpan nim, nama, jurusan, ipk, nama komputer, dan waktu kejadian.\ntrigger FOR delete\ntrigger FOR delete\ndigunakan untuk membuat trigger yang akan mencatat data mahasiswa yang\ndihapus (dari Deleted Table) beserta nama komputer server dan waktu ke tabel\naudit mahasiswa_delete_audit setiap kali ada penghapusan data dari tabel\nmahasiswa.\njalankan trigger delete\nPerintah DELETE akan\nmenghapus data mahasiswa\ndengan NIM '1236567890' dari\ntabel mahasiswa, sekaligus\nmemicu trigger untuk mencatat\ndata yang dihapus ke tabel audit\nmahasiswa_delete_audit, lalu\nSELECT digunakan untuk melihat\nhasil catatan penghapusannya.\nKesimpulan Menggunakan Trigger\nTrigger digunakan untuk secara\notomatis mencatat setiap perubahan\ndata (INSERT, UPDATE, DELETE) pada\ntabel mahasiswa ke dalam tabel audit,\nsehingga kita bisa me"
+    },
+    {
+      "index": 6,
+      "panjang_karakter": 211,
+      "text": "lihat riwayat siapa\ndata yang ditambahkan, diubah, atau\ndihapus, beserta nilai lama, nilai baru,\nnama komputer, dan waktu kejadian,\ntanpa perlu menulis kode tambahan\nsecara manual setiap kali ada\nperubahan data."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+1
+KEAMANAN SISTEM OPERASI
+Keamanan mengacu pada penyediaan sistem perlindungan terhadap sumber daya sistem
+komputer seperti CPU, memori, disk, program perangkat lunak, dan yang paling penting data /
+informasi yang disimpan dalam sistem komputer. Jika program komputer dijalankan oleh
+pengguna yang tidak sah, maka ia dapat menyebabkan kerusakan parah pada komputer atau data
+yang tersimpan di dalamnya. Jadi sistem komputer harus dilindungi terhadap akses tidak sah,
+akses jahat ke memori sistem, virus, worm dll. Cakupan keamanan dalam sistem oeprasi secara
+umum meliputi CIA (Confidentiality, Autentication, Integrity)
+Confidentiality
+Confidentiality  menyangkut tentang Keamanan Privasi dimana hanya orang-orang yang memiliki
+akses yang bisa masuk ke sistem, dan orang-orang tersebut harus menjaga kerahasiaan terhadap
+sistem yang dipercayakan kepadanya, termasuk data-data penting yang ada dalam sistem. 
+Integrity 
+Integrity menyangkut tentang bagaimana menjaga konsistensi, akurasi, serta kepercayaan terhadap
+data untuk setiap waktu sampai seterusnya sehingga informasi data tidak diubah oleh orang-orang
+yang tidak bertanggung jawab. 
+Otentikasi
+Otentikasi mengacu pada mengidentifikasi setiap pengguna sistem dan mengaitkan program
+pelaksana dengan pengguna tersebut. Merupakan tanggung jawab Sistem Operasi untuk membuat
+sistem perlindungan yang memastikan bahwa pengguna yang menjalankan program tertentu
+adalah asli. Sistem Operasi umumnya mengidentifikasi / mengautentikasi 
+pengguna
+menggunakan tiga cara berikut:
+Nama Pengguna / Kata Sandi - Pengguna harus memasukkan nama pengguna dan kata
+sandi terdaftar dengan sistem Operasi untuk login ke sistem.
+2
+Kartu pengguna / kunci - Pengguna perlu memasukkan kartu ke dalam slot kartu, atau
+memasukkan kunci yang dihasilkan oleh generator kunci dalam opsi yang disediakan oleh
+sistem operasi untuk masuk ke sistem.
+Atribut pengguna - sidik jari / pola retina mata / tanda tangan - Pengguna harus
+meneruskan atributnya melalui perangkat input yang ditunjuk yang digunakan oleh sistem
+operasi untuk masuk ke sistem.
+OTP
+Kata sandi satu kali memberikan keamanan tambahan bersama dengan otentikasi normal. Dalam
+sistem One-Time Password, kata sandi unik diperlukan setiap kali pengguna mencoba masuk ke
+sistem. Setelah kata sandi satu kali digunakan, maka kata sandi tidak dapat digunakan lagi. Kata
+sandi satu kali diterapkan dengan berbagai cara, yaitu:
+Nomor acak - Pengguna diberikan kartu dengan nomor yang dicetak bersama dengan
+huruf yang sesuai. Sistem meminta nomor yang sesuai dengan beberapa huruf yang
+dipilih secara acak.
+Kunci rahasia - Pengguna diberikan perangkat perangkat keras yang dapat membuat id
+rahasia yang dipetakan dengan id pengguna. Sistem meminta id rahasia seperti itu yang
+akan dihasilkan setiap kali sebelum login.
+Kata sandi jaringan - Beberapa aplikasi komersial mengirim kata sandi satu kali kepada
+pengguna melalui ponsel / email terdaftar yang harus dimasukkan sebelum login.
+Ancaman Program
+Proses dan kernel sistem operasi melakukan tugas yang ditunjuk seperti yang diperintahkan. Jika
+program pengguna membuat proses ini melakukan tugas jahat, maka itu dikenal sebagai
+Ancaman Program. Salah satu contoh umum ancaman program adalah program yang dipasang di
+3
+komputer yang dapat menyimpan dan mengirim kredensial pengguna melalui jaringan ke
+beberapa peretas. Berikut ini adalah daftar beberapa ancaman program terkenal, diantaranya:
+Trojan Horse - Program semacam ini menjebak kredensial login pengguna dan
+menyimpannya untuk dikirim ke pengguna jahat yang nantinya bisa login ke komputer
+dan dapat mengakses sumber daya sistem.
+Trap Door - Jika suatu program yang dirancang untuk bekerja sesuai kebutuhan, memiliki
+celah keamanan dalam kodenya dan melakukan tindakan ilegal tanpa sepengetahuan
+pengguna, maka ia disebut memiliki pintu jebakan.
+Logic Bomb - Logic bomb adalah situasi ketika suatu program berperilaku buruk hanya
+ketika kondisi tertentu terpenuhi sebaliknya berfungsi sebagai program asli. Lebih sulit
+untuk dideteksi.
+Virus - Virus sesuai dengan namanya dapat mereplikasi dirinya di sistem komputer.
+Mereka sangat berbahaya dan dapat memodifikasi / menghapus file pengguna, sistem
+crash. Virus pada umumnya adalah kode kecil yang tertanam dalam suatu program.
+Ketika pengguna mengakses program, virus mulai tertanam dalam file / program lain dan
+dapat membuat sistem tidak dapat digunakan oleh pengguna
+4
+    Ancaman Sistem
+Ancaman sistem mengacu pada penyalah gunaan layanan sistem dan koneksi jaringan untuk
+membuat pengguna bermasalah. Ancaman sistem dapat digunakan untuk meluncurkan ancaman
+program pada jaringan lengkap yang disebut sebagai serangan program. Ancaman sistem
+menciptakan lingkungan sehingga sumber daya sistem operasi / file pengguna disalahgunakan.
+Berikut ini adalah daftar beberapa ancaman sistem yang terkenal.
+Worm - Worm adalah proses yang dapat menghambat kinerja sistem 
+dengan
+menggunakan sumber daya sistem ke tingkat ekstrem. Proses Worm menghasilkan
+banyak salinannya di mana setiap salinan menggunakan sumber daya sistem, mencegah
+semua proses lainnya untuk mendapatkan sumber daya yang diperlukan. Proses cacing
+bahkan dapat mematikan seluruh jaringan.
+Port Scanning - Port scanning adalah mekanisme atau sarana yang digunakan oleh
+seorang hacker untuk mendeteksi kerentanan sistem untuk melakukan serangan pada
+sistem.
+Denial of Service - Serangan denial of service biasanya mencegah pengguna untuk
+menggunakan sistem secara sah. Misalnya, pengguna mungkin tidak dapat menggunakan
+internet jika penolakan layanan menyerang pengaturan konten browser.
+Klasifikasi Keamanan Komputer
+Sesuai Kriteria Evaluasi Sistem Komputer Tepercaya A.S. AS ada empat klasifikasi keamanan
+dalam sistem komputer: A, B, C, dan D. Ini adalah spesifikasi yang banyak digunakan untuk
+menentukan dan memodelkan keamanan sistem dan solusi keamanan. Berikut ini adalah uraian
+singkat masing-masing klasifikasi.
+5
+Deskripsi
+Tipe A
+Level tertinggi. Menggunakan spesifikasi desain formal dan teknik verifikasi. Memberikan 
+jaminan keamanan proses tingkat tinggi.
+Tipe B
+Menyediakan sistem perlindungan wajib. Memiliki semua properti sistem C2 kelas. 
+Melampirkan label sensitivitas untuk setiap objek. Ada tiga jenis.
+B1 - Mempertahankan label keamanan setiap objek dalam sistem. Label digunakan untuk 
+membuat keputusan untuk mengakses kontrol.
+B2 - Memperluas label sensitivitas ke setiap sumber daya sistem, seperti objek penyimpanan, 
+mendukung saluran rahasia dan mengaudit acara.
+B3 - Memungkinkan membuat daftar atau grup pengguna untuk kontrol-akses untuk 
+memberikan akses atau mencabut akses ke objek bernama tertentu.
+Tipe C
+Memberikan perlindungan dan akuntabilitas pengguna menggunakan kemampuan audit. Ada dua
+jenis.
+C1 - Menggabungkan kontrol sehingga pengguna dapat melindungi informasi pribadi mereka dan
+menjaga pengguna lain dari secara tidak sengaja membaca / menghapus data mereka. Versi UNIX
+sebagian besar kelas Cl. 
+C2 - Menambahkan kontrol akses level individu ke kemampuan sistem level Cl.
+Tipe D
+Level terendah. Perlindungan minimum. MS-DOS, Window 3.1 termasuk dalam kategori ini.

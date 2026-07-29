@@ -1,0 +1,20 @@
+STUDI KASUS 6
+
+A patient can make many appointments with one or more doctors in clinic, and a doctor
+can accept many appoinments with many patients. However, each appointment made
+with only one doctor , and each appointment references a single patient.
+
+Emergency cases do not require an appointment. However an emergency is entered
+into the appointment book as "uncsheduled for appointment management purposes.
+
+If Kept. an appointment yields a visit with the doctor specified in the appointment. The
+visit yields a diagnosis and , when appropriate , treatment.
+
+Each Visit updates the patients records to provide a medical history.
+
+Each patient visit creates a bill. Each Patient visit is billed by one doctor and each doctor
+can bill many patients.
+
+1. Define entity and relationships.
+2. Draw the ER diagram with Chen diagram.
+3. Draw the ER diagram with Crow Foot diagram.

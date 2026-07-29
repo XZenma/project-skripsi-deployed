@@ -1,0 +1,14 @@
+[
+  {
+    "pertanyaan": "Apa tujuan penggunaan fungsi di SQL Server?",
+    "jawaban": "Fungsi di SQL Server digunakan untuk menyederhanakan logika query yang kompleks dan menghindari penulisan ulang query yang sama berulang kali karena cukup dipanggil.",
+    "sumber": "Fungsi di SQL Server digunakan untuk menyederhanakan logika query yang kompleks.;Dengan fungsi, tidak perlu menulis ulang query yang sama berulang kali karena cukup dipanggil."
+  },
+  {
+    "pertanyaan": "Apa perbedaan utama antara Scalar Function dan Inline Table-Valued Function?",
+    "jawaban": "Scalar Function mengembalikan nilai tunggal (satu nilai) sedangkan Inline Table-Valued Function mengembalikan hasil berupa rowset (tabel), dapat menerima parameter input, dan hanya terdiri dari satu SELECT statement.",
+    "sumber": "Scalar Function ... Mengembalikan nilai tunggal (satu nilai).;Inline Table-Valued Function ... Mengembalikan hasil berupa rowset (tabel).;Hanya terdiri dari satu select statement."
+  },
+  {
+    "pertanyaan": "Bagaimana cara memanggil Inline Table-Valued Function dalam klausa FROM pada query SELECT?",
+    "jawaban": "Inline Table-Valued Function dipanggil seperti tabel biasa di

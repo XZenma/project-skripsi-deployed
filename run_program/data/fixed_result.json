@@ -1,0 +1,18 @@
+{
+  "teknik": "fixed",
+  "timestamp_mulai": "2026-07-17T02:01:54.457415",
+  "tahap": {
+    "chunker": {
+      "total_chunks": 2488,
+      "total_dokumen": 88,
+      "durasi_detik": 1.9844
+    },
+    "embedder": {
+      "total_chunks_diembed": 2488,
+      "durasi_detik": 901.6333,
+      "status": "sukses"
+    }
+  },
+  "durasi_total_detik": 903.618,
+  "timestamp_selesai": "2026-07-17T02:16:58.075427"
+}

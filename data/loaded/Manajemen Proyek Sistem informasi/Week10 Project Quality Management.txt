@@ -1,0 +1,561 @@
+Manajemen 
+Kualitas 
+Proyek
+Sesi diskusi visual untuk 
+menambahkan struktur 
+pada proyek kita.
+SOFIAUMAROH
+1
+Agenda 
+Hari Ini
+2
+3
+4
+SOFIAUMAROH
+Definisi Kualitas dan 
+Manajemen Kualitas Proyek
+Terminologi Manajemen 
+Kualitas 
+Proses Manajemen Kualitas 
+Proyek
+Jaminan dan Kendali Kualitas
+
+SOFIAUMAROH
+Kualitas
+Definisi & Terminologi
+"The degree to which a set of 
+inherent characteristics fulfils 
+requirements” 
+(ISO 9000: 2000)
+Quality 
+SOFIAUMAROH
+Pakar lain mendefinisikan Kualitas
+berdasarkan kesesuaian dengan
+persyaratan dan kesesuaian untuk
+digunakan
+1
+2
+Conformance to requirements 
+Fitness for use 
+Proses dan produk proyek 
+memenuhi spesifikasi 
+syarat/kebutuhan tertulis.
+Suatu produk dapat digunakan
+seperti yang dimaksudkan.
+SOFIAUMAROH
+Definition
+SOFIAUMAROH
+• Misalnya sistem informasi yang 
+digunakan oleh Customer Service harus
+mampu menangani beban puncak
+• Standar kualitas: ketika seratus staf
+memasukkan data pada saat yang 
+sama, waktu respons sistem harus
+tetap kurang dari dua detik.
+Quality Might 
+Be Obvious
+UI berbeda 
+dengan sistem 
+yang 
+sebelumnya, 
+jadi lebih sulit?
+However, quality is not always 
+easy to define 
+Software 
+Engineer
+UI 
+Designer
+Customer 
+Service
+Sistem yang 
+baru harus
+mengadaptasi
+standar layanan
+pelanggan
+internasional
+UI sistem lama 
+terlalu kaku, 
+desain aplikasi 
+harus lebih 
+menarik
+SOFIAUMAROH
+SOFIAUMAROH
+• Pengguna akhir yang harus memutuskan
+apa yang dianggap sebagai kualitas
+• Orang yang melakukan pekerjaan itu
+seringkali tidak melihat manfaat atau
+kekurangan yang diraskan oleh pengguna
+Let  End-User  
+Decides
+Apakah itu
+Manajemen 
+Kualitas Proyek?
+SOFIAUMAROH
+Manajemen kualitas proyek
+memastikan bahwa proyek akan 
+memenuhi kebutuhan yang telah 
+ditentukan
+Project 
+Quality 
+Management
+1
+2
+Pengguna diminta untuk menentukan 
+persyaratan mereka secara cukup rinci
+Persyaratan sepenuhnya 
+didokumentasikan
+Perlu dipastikan bahwa:
+3
+Semua pemangku kepentingan 
+menyetujui persyaratan
+4
+Ada proses yang diakui untuk 
+menangani setiap perubahan
+5
+Ada proses untuk memantau dan 
+mengendalikan kualitas
+SOFIAUMAROH
+1
+2
+Project Quality 
+Management Terms
+Customer satisfaction: kombinasi
+conformance to requirements (produk
+proyek sesuai kebutuhan, dan fitness for 
+use (produk digunakan sesuai kebutuhan)
+Prevention over inspection: Kualitas 
+direncanakan, dirancang dan dibangun 
+daripada diinspeksi (pemeriksaan).
+SOFIAUMAROH
+3
+Continuous Improvement: siklus 
+plan-do-check-act adalah dasar 
+untuk peningkatan kualitas
+4
+Management Responsibility: 
+Kesuksesan membutuhkan partisipasi 
+semua anggota tim proyek
+1
+2
+Quality Management 
+Concepts
+Total Quality Management - filosofi 
+manajemen terpadu seputar kualitas 
+dan peningkatan berkelanjutan
+Demming Cycle (Plan-Do-Check-
+Act) - kerangka kerja untuk 
+pengendalian dan peningkatan proses
+SOFIAUMAROH
+3
+Kaizen (Change for better) - filosofi 
+yang mencari perbaikan kecil dan 
+berkelanjutan dalam proses
+4
+Kanban - sistem manajemen 
+persediaan berbasis tarik 
+berdasarkan prinsip just in time (JIT)
+Apa saja
+SOFIAUMAROH
+Proses Manajemen 
+Kualitas Proyek?
+1
+2
+SOFIAUMAROH
+3
+PMBOK mendefinisikan 3 proses dalam
+manajemen kualitas proyek:
+Quality 
+Management 
+Processes
+Plan Project Management
+Perform Quality Assurance
+Control Quality
+SOFIAUMAROH
+• Mengidentifikasi standar kualitas mana yang 
+relevan dengan proyek dan bagaimana
+memenuhinya
+• Memutuskan apa arti kualitas untuk proyek
+dan hasil kerjanya.
+• Informasi ini membentuk rencana kualitas, 
+yang merupakan bagian dari rencana proyek.
+1. Plan Quality 
+Management
+Menghasilkan deskripsi tentang apa
+persyaratan kualitas dan bagaimana
+mereka akan dicapai.
+Rencana kualitas bisa sederhana 
+atau detail yang disepakati oleh 
+proyek
+Tujuan proses:
+"The process of identifying quality requirements and/or 
+standards for the project and product, and documenting 
+how the project will demonstrate compliance” 
+Quality planning should be performed in parallel with 
+the other project planning proceses
+(PMBOK)
+Plan Project Management
+SOFIAUMAROH
+SOFIAUMAROH
+• Selling point: Model Smartphone dapat 
+dilipat dan tahan air
+• Foto di dalam brosur perlu menampilkan 
+smartphone dalam kondisi terlipat di 
+berbagai derajat lipat dan tahan air
+• Kriteria kualitas menentukan karakteristik 
+produk dengan nama merek yang terlihat 
+Bayangkan sebuah proyek untuk 
+menghasilkan brosur 
+Smartphone
+Brand Name
+Water Resistant
+Able to flip
+SOFIAUMAROH
+• Mengacu pada kemampuan untuk
+mengantisipasi situasi dan 
+mempersiapkan tindakan untuk membawa
+hasil yang diinginkan
+• Melibatkan mengkomunikasikan tindakan
+yang benar untuk memastikan kualitas
+dalam format yang dapat dimengerti dan 
+lengkap
+Quality Planning
+Mencegah cacat dengan:
+1
+2
+Memilih bahan yang tepat
+Melatih dan memberikan
+briefing kepada pihak yang 
+terlibat dalam hal kualitas
+3
+Merencanakan proses yang 
+memastikan hasil yang sesuai
+1
+3
+Important Scope 
+Aspects of IT 
+Projects 
+Functionality - sejauh mana suatu 
+sistem melakukan fungsi yang 
+dimaksudkan
+System outputs - layar dan laporan 
+yang dihasilkan sistem
+SOFIAUMAROH
+4
+Performances - membahas seberapa 
+baik produk atau layanan melakukan 
+penggunaan yang dimaksudkan 
+pelanggan
+5
+Reliability - kemampuan produk atau jasa 
+untuk bekerja seperti yang diharapkan 
+dalam kondisi normal
+2
+Features - karakteristik khusus sistem 
+yang menarik bagi pengguna
+6
+Maintainability - membahas kemudahan 
+melakukan perawatan pada suatu produk
+Input, Techniques & Tools & Output
+SOFIAUMAROH
+Source: www.free-management-ebooks.com
+Cost of Quality
+SOFIAUMAROH
+Biaya yang perlu dikeluarkan untuk membuat produk yang berkualitas dengan investasi dalam mencegah
+ketidaksesuaian dengan persyaratan, menilai produk untuk kesesuaian dengan persyaratan, dan produk yang 
+gagal memenuhi persyaratan (rework)
+Cost of Conformance
+Biaya yang dihabiskan selama proyek untuk
+menghindari kegagalan
+• Prevention cost, biaya untuk menghindari
+kesalahan dan menghasilkan produk
+berkualitas.
+⚬Training, dokumentasi, peralatan, dll
+• Appraisal cost, biaya untuk menilai kualitas
+⚬Testing, inspeksi
+Cost of Non-conformance
+Biaya yang dihabiskan selama dan setelah proyek
+selesai karena terjadi kegagalan
+• Internal failure cost, biaya kegagalan sebelum
+produk proyek diluncurkan
+⚬rework, pembatalan, dll
+• External failure cost, biaya untuk kegagalan
+setelah produk diluncurkan kepada pelanggan
+⚬pertanggung jawaban, garansi, kehilangan
+bisnis
+Seven Basic 
+Quality Tools
+SOFIAUMAROH
+1
+3
+Cause-and-effect diagrams -
+menggambarkan berbagai faktor yang 
+berhubungan dengan potensi masalah atau 
+dampak
+Checksheet - untuk mengumpulkan dan 
+menganalisis data.
+4
+Scatter  diagram - membantu untuk 
+menunjukkan apakah ada hubungan 
+antara dua variabel
+5
+Histogram - Sumbu X mewakili atribut,  
+karakteristik masalah atau situasi, dan 
+sumbu Y batang mewakili frekuensinya
+2
+Control chart - untuk menentukan apakah 
+suatu proses berada dalam kendali atau di 
+luar kendali
+6
+Pareto Chart - membantu  
+mengidentifikasi dan memprioritaskan 
+area masalah
+7
+Flowchart - membantu menganalisis 
+bagaimana masalah terjadi dan bagaimana 
+proses dapat ditingkatkan
+Cause-and-effect 
+diagrams 
+SOFIAUMAROH
+• Disebut juga Diagram Ishikawa atau Fishbone, 
+membantu menemukan faktor sebagai akar
+penyebab masalah
+• Faktor biasanya dikelompokkan ke dalam
+kategori utama:
+1
+2
+People: siapaun yang terlibat dalam 
+proses
+Methods: bagaimana proses 
+dilakukan dan persyaratan khusus 
+untuk melakukannya
+3
+Machine: Berbagai perlatan yang  
+diperlukan untuk menyelesaikan 
+pekerjaan itu
+4
+Materials: bahan mentah, peralatan, 
+yang digunakan untuk menghasilkan 
+produk akhir
+5
+Environment: kondisi seperti 
+lokasi, waktu , temperatur, budaya 
+yang mana suatu proses dilakukan
+SOFIAUMAROH
+Cause-
+and-effect 
+diagrams
+SOFIAUMAROH
+Example: 
+Users 
+cannot 
+get into 
+system
+SOFIAUMAROH
+Checksheet
+• Checksheet digunakan untuk mengumpulkan dan menganalisis data
+• Pada Gambar berikut, sebagian besar keluhan datang melalui pesan teks, dan keluhan
+pada hari Senin dan Selasa lebih banyak daripada pada hari-hari lain dalam seminggu
+• Informasi ini mungkin berguna dalam meningkatkan proses penanganan pengaduan
+SOFIAUMAROH
+Pareto Chart
+• Bagan Pareto adalah 
+histogram yang dapat 
+membantu  
+mengidentifikasi dan 
+memprioritaskan area 
+masalah
+•
+Analisis pareto disebut juga aturan 80 -20, artinya 80 persen 
+masalah sering kali disebabkan oleh 20 persen penyebab
+SOFIAUMAROH
+• Penjaminan mutu mencakup semua kegiatan
+yang berkaitan dengan pemenuhan standar
+mutu yang relevan untuk suatu proyek
+• Tujuan: untuk peningkatan kualitas yang 
+berkelanjutan
+2. Perform 
+Quality 
+Assurance
+Quality Assurance Approach:
+1
+2
+Kaizen - kata dalam bahasa Jepang 
+untuk perbaikan atau perubahan 
+menjadi lebih baik
+Lean - melibatkan proses evaluasi
+untuk memaksimalkan nilai
+pelanggan sekaligus meminimalkan
+pemborosan
+SOFIAUMAROH
+Quality Assurance vs Quality Control
+Memastikan
+bahwa sasaran
+mutu terpenuhi
+Memeriksa bahwa
+persyaratan kualitas
+terpenuhi
+SOFIAUMAROH
+Input, Techniques & Tools & Output
+Source: www.free-management-ebooks.com
+SOFIAUMAROH
+Quality Management and 
+Control Tools
+Alat dan teknik dari proses Jaminan Kualitasiditunjukkan pada diagram di bawah ini
+Seperti mind-map, untuk 
+menghasilkan ide-ide yang 
+berkaitan dengan masalah
+Process Decision 
+Program Chart, berguna
+sebagai metode untuk
+perencanaan kontinjensi
+AOA (Actiity on 
+Arrow), AON (Activity 
+on Node), PERT
+SOFIAUMAROH
+Quality Audits
+• Tinjauan terstruktur dan independen
+untuk menentukan apakah aktivitas
+proyek sesuai dengan kebijakan, 
+proses, dan prosedur organisasi dan 
+proyek.
+• Proses ini harus menghasilkan
+pengurangan biaya kualitas dan 
+peningkatan penerimaan sponsor atau
+pelanggan terhadap produk proyek
+SOFIAUMAROH
+• Melibatkan pemantauan hasil proyek
+tertentu untuk menentukan apakah
+hasil mematuhi standar kualitas yang 
+relevan
+• Mengidentifikasi cara untuk
+menghilangkan penyebab hasil yang 
+tidak memuaskan"
+3. Quality 
+Control
+Main outcomes:
+1
+2
+Acceptance decisions: apakah produk 
+atau jasa yang dihasilkan  akan diterima 
+atau ditolak. 
+Rework: tindakan  untuk membawa item 
+yang ditolak agar sesuai dengan 
+persyaratan produk, spesifikasi, atau 
+harapan pemangku kepentingan lainnya
+3
+Control adjustment: memperbaiki atau 
+mencegah masalah kualitas lebih lanjut 
+berdasarkan pengukuran kontrol kualitas.
+SOFIAUMAROH
+Quality Control Example:
+Sebuah proyek direncanakan akan selesai dalam +- 10% dari anggaran. Tiga
+bulan yang lalu, proyek itu melebihi anggaran sebesar 20%. Pengukuran terbaru
+yang dilakukan satu hari yang lalu menunjukkan pembengkakan anggaran
+sebesar 15%
+Karena ada peningkatan 5%, kemungkinan besar selama 3 bulan ke depan
+biaya akan berkurang dan proyek bisa selesai dalam batas yang direncanakan.
+Jika biaya tidak berkurang, tetapi meningkat lebih jauh, tindakan korektif dan 
+pencegahan harus diambil untuk membawa proyek dalam batas yang 
+disepakati.
+SOFIAUMAROH
+Input, Techniques & Tools, and Output
+Source: www.free-management-ebooks.com
+Apa itu
+SOFIAUMAROH
+Six Sigma?
+“Sistem yang komprehensif dan fleksibel untuk mencapai, 
+mempertahankan, dan memaksimalkan kesuksesan bisnis.
+Secara unik didorong oleh pemahaman yang mendalam 
+tentang kebutuhan pelanggan, penggunaan fakta, data, dan 
+analisis statistik secara disiplin, dan perhatian yang tekun 
+untuk mengelola, meningkatkan, dan menemukan kembali 
+proses bisnis"
+(Peter Pande, Robert Neuman, and Roland Cavanagh )
+Six Sigma
+SOFIAUMAROH
+SOFIAUMAROH
+1
+2
+3
+Six Sigma
+Informasi Dasar Six Sigma:
+Target kesempurnaan adalah pencapaian tidak lebih dari 3,4 cacat per sejuta peluang
+Prinsip-prinsip ini dapat diterapkan 
+pada berbagai macam proses
+Proyek Six Sigma biasanya mengikuti 
+proses perbaikan lima fase yang 
+disebut DMAIC
+SOFIAUMAROH
+1
+2
+3
+DMAIC
+DMAIC adalah proses loop tertutup 
+yang sistematis untuk peningkatan 
+berkelanjutan yang ilmiah dan berdasarkan fakta
+Define: Mendefinisikan masalah/peluang, proses, dan kebutuhan pelanggan
+Measure: Tentukan ukuran, lalu 
+kumpulkan, kompilasi, dan tampilkan data
+Analyse: Pelajari detail proses untuk 
+menemukan peluang peningkatan
+DMAIC singkatan dari:
+4
+5
+Improve: Hasilkan solusi dan ide untuk 
+memperbaiki masalah
+Control: Lacak dan verifikasi stabilitas 
+peningkatan dan prediktabilitas solusi
+SOFIAUMAROH
+• Sigma adalah simpangan baku 
+(standar deviasi)
+•
+Standar deviasi mengukur seberapa banyak variasi yang ada dalam distribusi data
+Six Sigma and 
+Statistic
+•
+Standar deviasi adalah faktor kunci dalam menentukan jumlah unit cacat yang dapat 
+diterima yang ditemukan dalam suatu populasi
+•
+Proyek Six Sigma berusaha untuk tidak lebih dari 3,4 cacat per 1 juta peluang, 
+namun jumlah ini membingungkan banyak ahli statistik
+SOFIAUMAROH
+• Standar deviasi kecil berarti cluster 
+data dekat di tengah distribusi dan 
+ada sedikit variabilitas antara data. 
+• Standar deviasi yang besar berarti 
+data tersebar di sekitar tengah 
+distribusi dan variabilitasnya relatif 
+lebih besar
+Six Sigma and 
+Statistic
+•
+Menggunakan kurva normal, jika suatu proses berada pada enam sigma, tidak akan 
+ada lebih dari dua unit cacat per miliar yang diproduksi
+• Yield mewakili jumlah unit yang 
+ditangani dengan benar melalui 
+langkah-langkah proses
+• Defect adalah setiap kejadian di 
+mana produk atau layanan gagal 
+memenuhi persyaratan pelanggan
+SOFIAUMAROH
+Normal Curve, Six Sigma and Defective Unit
+68,3% populasi 
+berada dalam satu 
+sigma (1σ) dari mean
+95,5% populasi 
+berada dalam dua 
+sigma(2σ) dari mean
+99,7% populasi 
+berada dalam tiga 
+sigma (3σ) dari mean
+SOFIAUMAROH
+Six Sigma Conversion Table
+• Yield mewakili jumlah unit yang ditangani dengan benar melalui langkah-langkah proses
+• Defect adalah setiap kejadian di mana produk atau layanan gagal memenuhi persyaratan pelanggan
+• pada 6 sigma, menunjukkan proses yang beroperasi pada six sigma berarti tidak ada lebih dari 3,4 
+cacat per sejuta peluang.
+Semoga hari 
+Anda luar biasa.
+Terima
+kasih
+SOFIAUMAROH

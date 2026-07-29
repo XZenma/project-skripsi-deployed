@@ -1,0 +1,23 @@
+{
+  "filename": "M-11 Bug Pada Software.txt",
+  "matkul": "Rekayasa Perangkat Lunak",
+  "teknik": "recursive",
+  "total_chunks": 3,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 642,
+      "text": "M-11\nBUG PADA SOFTWARE\nISA-202 Rekayasa Perangkat Lunak\nKURNIA RAMADHAN PUTRA, S.KOM., M.T.\nKERANGKA\nMATERI\n1\nSejarah ditemukannya Bug\n2\n3\n4\nBug pada Software\nBiaya untuk memperbaiki\nBug\nPeranan Software Tester\nAPAKAH KAITANNYA ISTILAH\nBUG DENGAN SERANGGA?\nSejarah\nDitemukannya Bug\n1947\nKomputer Mainframe Mark II berhenti\nbekerja secara tiba-tiba karena ada serangga\nyang terjepit pada relay mekanis komputer\ntersebut\nKomputer Mark II, 1947\nKOMPUTER MAINFRAME\nKomputer yang sering digunakan pada\nbidang militer saat itu, dan ukurannya\nhampir sebesar 1 ruangan.\nSUMBER FOTO PHOTOGRAPH\nCOURTESY NAVAL SURFACE WARFARE\nCENTER, DAHLGREN, VIRGINIA"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 972,
+      "text": "Bug yang\nterdokumentasikan\npada Komputer\nMainframe Mark II\nSEKARANG JADI TAHU\nKAN DARI MANA\nMUNCULNYA ISTILAH\nBug\nBug pada software (perangkat lunak)\nadalah sebuah error (kesalahan), flaw\n(kecacatan), | atau fault (kesalahan)\npada program komputer yang\nmenyebabkan kegagalan pada\nperangkat lunak secara keseluruhan\natau tidak bekerja sesuai dengan yang\ndiharapkan. - Merriam Webster -\nBUG PADA\nSOFTWARE\nISITLAH BUG SEMAKIN POPULER DI\nKALANGAN SOFTWARE DEVELOPER ATAU\nSOFTWARE TESTER\nKisah Bug yang\npaling terkenal\nY2K 2000( YEAR 2000)\nSpesifikasi yang tidak\nlengkap\nPenyebab Utama\nTerjadinya Bug\nSpesifikasi yang selalu\nberubah-ubah\nTidak dikomunikasikan\ndengan baik ke suluruh tim\nBiaya untuk\nmemperbaiki Bug\nBiaya untuk memperbaiki Bug\nakan terus meningkat 10 x Lipat\npada setiap fasenya\n(Ian Sommerville, 1982)\nSoftware Tester\nseseorang yang tugas utamanya | untuk\nmelakukan pengujian terhadap kualitas\nperangkat lunak | kemudian mampu\nmenggunakan kakas dan teknik yang"
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 826,
+      "text": "mendukung dalam melakukan pengujian |\nserta memastikan perangkat lunak bekerja\nsesuai dengan fungsinya. - Merriam Webster\nLevel 1: Menemukan Bug\nLevel 2: Menemukan Bug sesegera mungkin\nLevel 3: Menemukan Bug sesegera mungkin\ndan memastika bug tersebut dapat\ndiperbaiki\nPeranan\nSoftware Tester\nSikap\nseorang\nSoftware\nTester\nEXPLORER\nTROUBLESHOTER\nRELENTLESS\nCREATIVE\nPERFECTIONISM\nGOOD JUDGEMENT\nSemakin dini Bug ditemukan maka akan\nsemakin kecil biaya yang harus\ndikeluarkan untuk memerbaiki Bug,\nsehingga Software Tester harus mampu\nmenemukan bug sesegera mungkin dan\nmemastikan bug teresebut dapat\ndiperbaiki.\nSelanjutnya membahas tentang\nSoftware Testing (Pengujian Perangkat\nLunak)\nTETAP SEMANGAT DAN\nJaga Kesehatan\nKESIMPULAN\nTERIMA\nKASIH\nBarang siapa ingin mutiara,\nharus berani terjun di lautan\nyang dalam.\nIr. Soekarno"
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+Week 9:
+Earned Value 
+Management
+Project Cost 
+Management
+SOFIAUMAROH
+Definisi Earned Value Management
+Formula EVM
+Terminologi Kunci EVM
+Menghitung kinerja proyek dengan EVM
+1
+3
+2
+4
+Today's 
+Agenda
+SOFIAUMAROH
+Let's get started!
+Definisi
+Earned Value 
+Management
+SOFIAUMAROH
+Earned Value 
+Management (EVM)
+Teknik pengukuran kinerja proyek
+yang mengintegrasikan data ruang
+lingkup, waktu, dan biaya.
+SOFIAUMAROH
+Menentukan kinerja proyek
+dengan membandingkan informasi
+aktual dan baseline biaya proyek.
+Informasi aktual: Banyak item WBS yang 
+selesai dan tidak, waktu pekerjaan dimulai 
+dan berakhir, dan biaya aktual pekerjaan
+Baseline cost: Biaya anggaran dalam
+rencana proyek ditambah perubahan
+yang disetujui.
+Terminologi EVM
+SOFIAUMAROH
+Acronym
+Term
+Explanation
+PV
+Planned Value
+Anggaran resmi yang ditetapkan untuk pekerjaan yang dijadwalkan
+AV
+Actual Cost
+Biaya aktual yang dikeluarkan dalam pekerjaan yang dilakukan
+EV
+Earned Value
+Pekerjaan yang dilakukan sesuai dengan anggaran yang diotorisasi untuk 
+pekerjaan itu
+BAC
+Budget at Completion
+Jumlah yang dianggarkan untuk total pekerjaan
+EAC
+Estimate at Completion
+Total biaya yang diharapkan untuk proyek
+ETC
+Estimate to Complete
+Biaya yang diharapkan untuk menyelesaikan semua pekerjaan proyek yang 
+tersisa
+VAC
+Variance at Completion
+Proyeksi surplus atau defisit anggaran pada akhir proyek
+RP
+Rate of Performance
+Rasio pekerjaan aktual yang diselesaikan dengan persentase pekerjaan 
+yang direncanakan untuk diselesaikan
+Formula EVM
+SOFIAUMAROH
+Term
+Formula
+Explanation
+EV
+EV = PV to date * RP
+Anggaran resmi yang ditetapkan untuk pekerjaan yang dijadwalkan
+Cost Variance
+CV = EV – AC
+Negative: Over budget; Positive: Under budget
+Schedule Variance
+SV = EV – PV
+Negative: Behind schedule; Positive: ahead of schedule
+Cost Performance 
+Indeks
+CPI = EV / AC
+Nilai pekerjaan yang didapat dari setiap rupiah yang dihabiskan
+CPI < 100% Over budget; CPI > 100 Under budget
+Schedule 
+Performance Indeks
+SPI = EV / PV
+Persentase kemajuan yang dibuat terhadap tingkat yang direncanakan
+EAC
+EAC = BAC/CPI
+Pekerjaan yang dilakukan pada CPI saat ini
+ETC
+BAC/SPI 
+Jumlah yang akan dikenakan biaya proyek dari tanggal saat ini hingga 
+akhir proyek
+VAC
+BAC – EAC
+Jumlah proyek akan melebihi atau gagal dari anggaran yang 
+direncanakan pada akhir proyek
+Kinerja Proyek Dengan
+EVM
+Analisa EVM 
+pada contoh
+kasus
+SOFIAUMAROH
+Case 1: Lakukan perhitungan EVM untuk
+mengetahui kinerja waktu dan biaya proyek di 
+minggu pertama!
+SOFIAUMAROH
+• Misalkan suatu proyek dianggarkan $20.000 
+selama 2 minggu
+• Dalam waktu satu minggu direncanakan biaya
+total untuk jam kerja, perangkat keras, dan 
+perangkat lunak adalah $10.000 (PV).
+• Asumsikan bahwa $15.000 dari biaya aktual ini
+dikeluarkan selama Minggu ke-1 dan $5.000 
+dikeluarkan selama Minggu ke-2 (AC)
+• Diketahui pada minggu ke-1 proyek telah selesai
+50% dari yang direncanakan (RP)
+Jawab:
+Diketahui:
+PV = $10.000
+AC = $15.000 
+Ditanyakan:
+a) Lacak CV dan SV
+b) Indeks performa CPI dan SPI
+c) Estimasikan EAC & ETC
+Lakukan perhitungan EVM untuk
+mengetahui kinerja waktu dan 
+biaya proyek di minggu pertama!
+SOFIAUMAROH
+Langkah 1:
+Untuk menghitung CV dan SV kita harus mengetahui
+nilai EV.
+Jika EV tidak diketahui, cari EV.
+EV = %RP * PV
+Dalam kasus dinyatakan bahwa di minggu ke-1 
+proyek telah selesai 50%, RP = 50%. Maka,
+EV = 50% * %10.000 = $5.000
+Langkah 2:
+Hitung CV dan SV
+Jawab:
+Diketahui:
+PV = $10.000
+AC = $15.000 
+Ditanyakan:
+a) Lacak CV dan SV
+b) Indeks performa CPI dan SPI
+c) Estimasikan EAC dan ETC
+EV = %RP * PV to date
+CV = EV – AC
+SV = EV – PV
+Lakukan perhitungan EVM untuk
+mengetahui kinerja waktu dan 
+biaya proyek di minggu pertama!
+SOFIAUMAROH
+Langkah 2:
+Hitung CV dan SV
+CV = EV – AC
+= $5.000 - $15.000 = -$10.000
+Proyek melebihi anggaran $10.000 di minggu ke-1
+SV = EV – PV
+= $5.000 - $10.000 = -$5.000
+Proyek dikerjakan lebih lama dari jadwal
+Jawab:
+Diketahui:
+PV = $10.000
+AC = $15.000 
+Ditanyakan:
+a) Lacak CV dan SV
+b) Indeks performa CPI dan SPI
+c) Estimasikan EAC dan ETC
+EV = %RP * PV to date
+CV = EV – AC
+SV = EV – PV
+Lakukan perhitungan EVM untuk
+mengetahui kinerja waktu dan 
+biaya proyek di minggu pertama!
+SOFIAUMAROH
+Langkah 3:
+Tentukan indeks performa CPI dan SPI
+CPI = EV / AC
+= $5.000 / $15.000 * 100% = 33%
+CPI < 100%, proyek tersebut melebihi anggaran
+SPI = EV / PV
+= $5.000 / $10.000 = 50%
+SPI < 100%, Proyek terlambat dari jadwal
+Jawab:
+Diketahui:
+PV = $10.000
+AC = $15.000 
+Ditanyakan:
+a) Lacak CV dan SV
+b) Indeks performa CPI dan SPI
+c) Estimasikan EAC dan ETC
+CPI = EV / AC
+SPI = EV / PV
+Lakukan perhitungan EVM untuk
+mengetahui kinerja waktu dan 
+biaya proyek di minggu pertama!
+SOFIAUMAROH
+Langkah 4:
+Tentukan estimasi EAC (Estimate at Completion)
+Di kasus disebutkan bahwa total biaya proyek dalam 2 minggu
+adalah 20.000 (BAC)
+EAC = BAC/CPI
+= $20.000 / 0.33 = $60606
+Jika kondisi proyek di minggu ke-1 tidak berubah, maka biaya
+semula $20.000 membengkak menjadi $60606.
+ETC = BAC/SPI 
+= 2 minggu/0.5 = 4 minggu
+Proyek akan selesai di minggu ke-4, terjadi keterlambatan proyek
+Jawab:
+Diketahui:
+PV = $10.000
+AC = $15.000 
+Ditanyakan:
+a) Lacak CV dan SV
+b) Indeks performa CPI dan SPI
+c) Estimasikan EAC dan ETC
+EAC = BAC/CPI
+ETC = BAC/SPI
+Case 2: Lakukan perhitungan EVM 
+untuk mengetahui kinerja waktu
+dan biaya proyek berikut!
+SOFIAUMAROH
+Suatu proyek direncanakan berlangsung selama 24 bulan
+dan diperkirakan menghabiskan biaya sebesar $250,000.
+Biaya Pekerjaan yang dianggarkan hingga saat ini adalah
+$50.000. Biaya Pekerjaan Aktual yang telah dihabiskan
+hingga saat ini adalah $45.000
+Persentase pekerjaan yang benar-benar selesai sampai
+sekarang adalah 80%.
+Jawab:
+Diketahui:
+PV = $50.000
+AC = $45.000
+BAC = $250,000
+RP = 80%
+Ditanyakan:
+a) Lacak CV dan SV
+b) Indeks performa CPI dan SPI
+c) Estimasikan EAC dan ETC
+Case 2: Lakukan perhitungan EVM 
+untuk mengetahui kinerja waktu
+dan biaya proyek berikut!
+SOFIAUMAROH
+JAWAB:
+Earned Value (EV) =  %RP * PV 
+= 80% *  $50,000 = $40,000 
+a. Cost Variance dan Schedule Variance
+CV =  EV – AC 
+= $40,000 - $45,000 = -$5,000 
+CV minus, Terjadi pembengkakan biaya Proyek sampai saat ini
+SV = EV – PV 
+= $40,000 - $50,000 = - $10,000 
+SV minus, Terjadi keterlambatan jadwal Proyek sampai saat ini
+Jawab:
+Diketahui:
+PV = $50.000
+AC = $45.000
+BAC = $250,000
+RP = 80%
+Ditanyakan:
+a) Lacak CV dan SV
+b) Indeks performa CPI dan SPI
+c) Estimasikan EAC dan ETC
+Case 2: Lakukan perhitungan EVM 
+untuk mengetahui kinerja waktu
+dan biaya proyek berikut!
+SOFIAUMAROH
+b. Indeks Performa CPI dan SPI
+CPI = EV / AC
+= $40,000/$45,000 = 0.89 or 89% 
+CPI < 100%, proyek tersebut melebihi anggaran
+SPI = EV / PV
+= $40,000/$50,000 = 0.80 or 80% 
+SPI < 100%, Proyek terlambat dari jadwal
+Jawab:
+Diketahui:
+PV = $50.000
+AC = $45.000
+BAC = $250,000
+RP = 80%
+Ditanyakan:
+a) Lacak CV dan SV
+b) Indeks performa CPI dan SPI
+c) Estimasikan EAC dan ETC
+Case 2: Lakukan perhitungan EVM 
+untuk mengetahui kinerja waktu
+dan biaya proyek berikut!
+SOFIAUMAROH
+c. Estimasi EAC
+EAC = BAC/CPI
+= $250,000/0.89 = $280,899
+Jika kondisi ini hingga proyek selesai tidak berubah, maka
+biaya semula $250,000 membengkak menjadi $280,899
+ETC = BAC/SPI
+= 24 bulan /0.80 = 30 months
+Proyek diprediksi mengalami keterlambatan 30–24 = 6 bulan.
+Jawab:
+Diketahui:
+PV = $50.000
+AC = $45.000
+BAC = $250,000
+RP = 80%
+Ditanyakan:
+a) Lacak CV dan SV
+b) Indeks performa CPI dan SPI
+c) Estimasikan EAC dan ETC
+Kesimpulan: Berdasarkan hasil perhitungan kinerja hingga saat ini, proyek ini
+berada dalam masalah yang cukup serius.
+SOFIAUMAROH
+Suatu proyek direncanakan berlangsung selama 12 bulan dan diperkirakan
+menghabiskan biaya sebesar $120,000.
+Biaya pekerjaan yang dianggarkan dalam perencanaan hingga saat ini adalah
+$23.000. Adapun biaya yang telah dihabiskan hingga saat ini adalah $25.000.
+Persentase kinerja pekerjaan yang benar-benar selesai sampai sekarang adalah
+87%.
+Lakukan Analisa EVM dan tentukan:
+a)
+Lacak CV dan SV
+b) Indeks performa CPI dan SPI
+c) Estimasikan EAC dan ETC
+d) Jelaskan kondisi keseluruhan proyek berdasarkan kinerja proyek saat ini!
+Weekly Activity 9
+Thank you!
+Have a 
+great day 
+ahead.
+SOFIAUMAROH

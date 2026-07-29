@@ -1,0 +1,69 @@
+Week 2
+STORE
+PROSEDURE 1
+PRAKTIKUM BASIS DATA 2 AA
+KAL
+Store Prosedure
+Store Prosedure adalah kumpulan perintah
+SQL yang disimpan dan dijalankan langsung
+di dalam sistem manajemen basis data
+(DBMS) Dengan cara menuliskan query
+sekali saja, lalu memanggilnya berulang kali
+tanpa harus mengetik ulang query yang
+sama.
+KAL
+Contoh Query
+Perintah untuk
+membuat prosedure
+dbo = database owner 
+mirip kaya kalian bikin
+sebuah folder, bikin inisial
+nama database di depan
+nama prosedure nya
+as = penghubung
+begin = titik awal
+end = titik akhir
+KAL
+manggil prosedur
+EXEC (Execute)
+kata kunci untuk
+running jalankan
+prosedur
+Alamat lengkap prosedur
+dbo: Mencari di folder/skema pemilik database.
+SP_daftar_mahasiswa: Nama proseduryang ingin
+dijalankan.
+KAL
+Contoh Query dengan input
+Bedanya apa?
+KAL
+Parameter input
+@var1: nama
+variabel/parameter
+int: tipe data.
+isi prosedur
+prosedur ini hanya akan mencari baris yang
+mahasiswa_id-nya cocok dengan angka yang kamu
+masukkan ke @var1.
+Manggil prosedur pake input
+Bedanya apa?
+KAL
+Pakai nama variable
+ lebih aman terutama jika prosedur
+punya banyak parameter, karena
+kamu menegaskan angka 1 itu
+untuk siapa
+Tanpa nama variable
+SQL akan memasukkan angka 1 ke
+parameter pertama yang dia
+temukan
+Modif prosedur
+KAL
+Untuk memodifikasi Stored Procedure yang
+sudah ada bukan CREATE lagi, tapi pake
+perintah ALTER.
+Hapus Prosedur
+KAL
+perintah SQL yang digunakan untuk menghapus
+secara permanen definisi Stored Procedure dari
+dalam database.

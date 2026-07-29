@@ -1,0 +1,33 @@
+{
+  "filename": "Modul10_Prak212Basdat2.txt",
+  "matkul": "Basis Data 2 Praktikum AA",
+  "teknik": "sentence",
+  "total_chunks": 5,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 784,
+      "text": "TRIGGER & VIEW\nISB-212 Praktikum Basis Data 2\nApa itu trigger\nTrigger adalah sekumpulan kueri (prosedur)\nSQL yang akan dieksekusi secara otomatis\n(terpicu)\noleh\nDatabase\nManagement\nSystem\n(DBMS)\nketika\nterjadi\nperistiwa\n(event) modifikasi data pada sebuah tabel.\nManfaat utama trigger\nIntegritas Data\nMenjamin\nvaliditas\ndata\nmelalui\nbatasan kompleks (CHECK constraint)\nyang tidak bisa ditangani oleh validasi\nstandar.\n1\nMelacak Perubahan Data (Auditing)\nMencatat setiap aktivitas ke dalam tabel\nlog/audit setiap kali ada data yang\nditambah, diubah, atau dihapus.\n2\nSinkronisasi\nMemperbarui\ntabel\nterkait\nsecara\notomatis\n(misalnya:\nstok\nbarang\nberkurang saat ada transaksi penjualan\nbaru).\n3\nApa itu view?\nView adalah tabel virtual yang berisi data dari satu atau beberapa tabel fisik."
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 856,
+      "text": "View tidak menyimpan data secara fisik di dalam database\nFungsi Utama:\nMenyederhanakan kueri yang kompleks (JOIN yang panjang).\nMeningkatkan keamanan dengan menyembunyikan kolom sensitif.\nMenyediakan perspektif data yang konsisten untuk pelaporan.\nContoh Query trigger integritas :\nCREATE TRIGGER tr_cek_kuantitas ON orderline\nFOR INSERT, UPDATE\nAS\nBEGIN\nDECLARE @qty INT;\nSELECT @qty = ins.quantity FROM inserted ins;\n\n-- Mengecek apakah quantity kurang dari atau sama\ndengan 0\nIF @qty <= 0\nBEGIN\nROLLBACK;\nPRINT 'Transaksi Gagal: Kuantitas (quantity)\npesanan tidak boleh nol atau negatif!';\nEND\nEND\ngo\n-- Mencoba memasukkan pesanan dengan quantity -5\nINSERT INTO orderline (order_id, Product_id, quantity)\nVALUES (1, 3, -5);\nOutput :\nPenjelasan:\nMencegah sistem memasukkan jumlah pesanan barang\n(quantity) yang bernilai 0 atau negatif ke dalam\norderline."
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 564,
+      "text": "Sistem akan langsung menolak (Rollback) data tersebut\nmasuk ke dalam database dan menampilkan pesan\nerror: \"Transaksi Gagal: Kuantitas (quantity) pesanan tidak\nboleh nol atau negatif!\".\nCREATE TRIGGER tr_update_stok ON orderline\nFOR INSERT\nAS\nBEGIN\nDECLARE @id_produk INT, @qty_pesan INT;\n\n-- Mengambil data produk dan jumlah yang baru saja dipesan\nSELECT @id_produk = ins.Product_id, @qty_pesan =\nins.quantity\nFROM inserted ins;\n-- Mengurangi stok (QOH) di tabel products\nUPDATE products\nSET QOH = QOH - @qty_pesan\nWHERE Product_id = @id_produk;\n\nPRINT 'Berhasil:"
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 928,
+      "text": "Stok produk otomatis dikurangi!';\nEND\ngo\nINSERT INTO orderline (order_id, Product_id, quantity) VALUES (3, 1,\n2);\nContoh Query trigger sinkonisasi :\nOutput :\nPenjelasan :\nMemperbarui jumlah stok barang (QOH / Quantity on\nHand) secara otomatis di tabel products setiap kali\nada pesanan baru yang masuk di tabel orderline.\nPesanan berhasil masuk, lalu tanpa perlu jalankan\nperintah update manual, stok produk End Table di tabel\nproducts secara otomatis berkurang dari 8 menjadi 6.\nCREATE VIEW V_Katalog_Produk AS\nSELECT Product_name AS 'Nama Produk',\nProduct_finish AS 'Bahan/Warna',\nUnit_price AS 'Harga'\nFROM products;\ngo\nSELECT * FROM V_Katalog_Produk;\nContoh View menggunakan 1 tabel :\n2\nOutput :\nPenjelasan:\nMembuat katalog harga produk untuk dilihat pelanggan.\nTabel ini hanya menampilkan 3 kolom (Nama Produk,\nBahan/Warna, dan Harga).\nCREATE VIEW V_Laporan_Pesanan AS\nSELECT\nc.Customer_name AS 'Nama Pelanggan',\no.orderdate"
+    },
+    {
+      "index": 5,
+      "panjang_karakter": 680,
+      "text": "AS 'Tanggal Pesan',\np.Product_name AS 'Barang',\nol.quantity AS 'Jumlah',\n(ol.quantity * p.Unit_price) AS 'Total Bayar'\nFROM customers c\nINNER\nJOIN\norders\no\nON\nc.customer_id\n=\no.Customer_id\nINNER JOIN orderline ol ON o.order_id = ol.order_id\nINNER JOIN products p ON ol.Product_id =\np.Product_id;\ngo\nSELECT\n*\nFROM\nV_Laporan_Pesanan\nWHERE\n[Nama Pelanggan] = 'Home Furniture';\nContoh View menggunakan 1 join :\n2\nOutput :\nPenjelasan:\nMenggabungkan tabel customers, orders, orderline, dan\nproducts.\nPembeli Home Furniture memesan barang apa saja, di\ntanggal berapa, berapa jumlahnya, dan berapa total uang\nyang harus di bayar (hasil kali antara harga satuan dan\njumlah beli).\nThank You"
+    }
+  ]
+}

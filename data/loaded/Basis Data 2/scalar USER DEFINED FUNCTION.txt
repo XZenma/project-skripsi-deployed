@@ -1,0 +1,230 @@
+USER DEFINED 
+FUNCTION
+ISA 212 BASISDATA 2
+MIRA MUSRINI BARMAWI
+Types of User defined  function 
+Scalar  Function 
+Inline table-valued function 
+Multi-statement table-valued function
+SCALAR FUNCTION 
+Fungsi skalar SQL Server mengambil satu atau beberapa
+parameter dan mengembalikan satu nilai.
+Fungsi skalar membantu Anda menyederhanakan kode Anda. 
+Misalnya, Anda mungkin memiliki penghitungan kompleks
+yang muncul di banyak kueri. Daripada menyertakan rumus di 
+setiap kueri, Anda bisa membuat fungsi skalar yang 
+merangkum rumus dan menggunakannya di setiap kueri.
+Inline table-valued function 
+Fungsi jenis ini selalu memberikan nilai dalam bentuk rowset .
+Hasil keluaran dari fungsi ini menyerupai view , hanya fungsi
+ini dapat menggunakan variabel input.
+Multi statement table valued function
+Seperti
+halnya
+Inline
+table
+valued
+function,
+fungsi
+ini
+memberikan
+hasil
+keluaran
+berupa
+tabel.
+Perbedaannya
+dengan fungsi inline table , adalah hasil dari query itu
+dimasukkan ke dalam variabel dengan tipe data tabel (
+variabel jenis ini ada di sql server 2012). Variabel tersebut
+didefinisikan strukturnya dalam fungsi.
+CREATE/ALTER/DROP User-Defined 
+Function
+Setiap kali Anda bekerja dengan objek database, Anda akan
+menggunakan perintah ini - BUAT (baru), ALTER (sudah ada),
+dan DROP (sudah ada). Sintaksnya berjalan seperti CREATE /
+ALTER / DROP <tipe objek database> <nama objek> AS. Ini
+sedikit berbeda mengenai tipe objek dan juga jika Anda
+membuat, memodifikasi atau menghapus objek.
+CREATE FUNCTION
+CREATE FUNCTION 
+[database_name.]function_name (parameters)
+RETURNS data_type AS
+BEGIN
+SQL statements
+RETURN value
+END;
+ALTER FUNCTION
+ALTER FUNCTION [database_name.]function_name (parameters)
+RETURNS data_type AS
+BEGIN
+SQL statements
+RETURN value
+END;
+DROP FUNCTION
+DROP FUNCTION [database_name.]function_name;
+FUNCTION
+■Mengambil parameter sebagai masukan
+• Melakukan sesuatu dengan nilai input ini (pernyataan
+SQL). Secara teknis ini akan menggunakan nilai yang 
+diberikan sebagai parameter dan menggabungkannya
+dengan nilai lain (variabel lokal) atau objek database dan
+kemudian mengembalikan hasil dari kombinasi / 
+perhitungan ini.
+• Mengembalikan hasil penghitungan (nilai RETURN) 
+dengan tipe yang ditentukan sebelumnya (RETURNS 
+data_type)
+FUNCTION 
+ALTER hamper sama dengan CREATE , dan ALTER 
+untuk memodifikasi fungsi yang sudah ada. Untuk
+menghapus fungsi, kita menggunakan kalimat DROP 
+FUNCTION diikuti dengan nama fungsi.
+A Simple User-Defined Function
+CREATE FUNCTION east_or_west (
+@long DECIMAL(9,6)
+)
+RETURNS CHAR(4) AS
+BEGIN
+DECLARE @return_value CHAR(4);
+SET @return_value = 'same';
+IF (@long > 0.00) SET @return_value = 'east';
+IF (@long < 0.00) SET @return_value = 'west';
+RETURN @return_value
+END;
+A Simple User-Defined Function
+SELECT dbo.east_or_west(0) AS 
+argument_0, dbo.east_or_west(-1) AS 
+argument_minus_1, dbo.east_or_west(1) 
+AS argument_plus_1;
+Result 
+Anda dapat dengan mudah melihat bahwa kami telah
+memanggil fungsi 3 kali dengan pilihan yang sama,
+dan hasilnya seperti yang diharapkan. Ini sebenarnya
+menguji apakah fungsi kami berfungsi seperti yang
+diharapkan.
+Menghitung nilai tertinggi unit price 
+Dengan menggunakan fungsi :
+create function dbo.fn_maxprice()
+returns decimal(6,2) 
+as
+begin 
+declare @maxprice as decimal(6,2) 
+select @maxprice =  max(Unit_price) from products
+return @maxprice
+end
+go
+select dbo.fn_maxprice()
+select max(Unit_price) from products
+go
+Menentukan nama produk dengan
+harga tertinggi
+select 
+product_id,product_name,dbo.fn_maxprice() as 
+‘ harga tertinggi’ from products where 
+Unit_price =  dbo.fn_maxprice()
+select product_id,product_name from products 
+where Unit_price =  (select max(Unit_price) 
+from products)
+go
+select *from products
+Menghitung nilai terendah unit_price
+create function dbo.fn_minprice()
+returns decimal(6,2) 
+as
+begin 
+declare @minprice as decimal(6,2) 
+select @minprice =  min(Unit_price) from products
+return @minprice
+end
+go
+select *from products
+go
+select dbo.fn_minprice()
+Menentukan nama produk dengan harga
+terendah
+select product_id,product_name, 
+dbo.fn_minprice() as ‘harga terendah’ from 
+products where Unit_price =  
+dbo.fn_minprice()
+go
+select product_id,product_name from products 
+where Unit_price =  (select min(Unit_price) 
+from products)
+go
+Menentukan rata2 nilai unit price 
+create function dbo.fn_avgprice()
+returns decimal(6,2) 
+as
+begin 
+declare @avgprice as decimal(6,2) 
+select @avgprice =  avg(Unit_price) from 
+products
+return @avgprice
+end
+go
+Menentukan id produk ,nama produk dengan
+harga perunit lebih besar dari pada rata-rata
+unit price
+select product_id,product_name from products 
+where Unit_price > dbo.fn_avgprice() 
+Go
+select product_id,product_name, unit_price, 
+dbo.fn_avgprice() from products where 
+Unit_price > dbo.fn_avgprice() 
+go
+select avg(Unit_price) from products
+go
+Menentukan id produk ,nama produk
+dengan harga perunit lebih besar dari pada
+rata-rata unit price 
+Dengan subquery
+Select product_id, product_name, unit_price
+from products where unit_price> ( select 
+avg(price) from products)
+Menentukan id produk ,nama produk dengan
+harga perunit lebih besar dari pada rata-rata
+unit price
+select product_id,product_name, 
+unit_price,dbo.fn_avgprice()  as 'average 
+price'
+from products where unit_price > 
+dbo.fn_avgprice() 
+go
+Menentukan jumlah yang namanya
+mengandung ‘furniture’
+create function dbo.fn_countcustomer()
+returns int
+as
+begin
+declare @count int
+select @count = count (Customer_name) from 
+customers where Customer_name like '%Furniture'
+return @count
+end
+go
+Menentukan jumlah yang namanya
+mengandung ‘furniture’
+select dbo.fn_countcustomer ()
+menampilkan harga untuk id produk,dan nama
+produk tertentu
+create function dbo.fn_infoprice(@product_id int,@product_name
+varchar(40))
+returns decimal(6,2) 
+as
+begin
+declare @unit_price decimal(6,2)
+select @unit_price = Unit_price from products
+where  product_id = @product_id and Product_name = 
+@product_name
+return @unit_price
+end
+Menampilkan harga untuk id produk,dan
+nama produk tertentu
+select dbo.fn_infoprice(2,'Coffe Table') as 
+'Unit_price'
+go
+select dbo.fn_infoprice(3,'Computer Desk') as 
+'Unit_price'
+go
+select dbo.fn_infoprice(4,'Entertainment Center') 
+as 'Unit_price'
+go

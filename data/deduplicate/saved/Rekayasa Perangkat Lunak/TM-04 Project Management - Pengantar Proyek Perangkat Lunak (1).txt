@@ -1,0 +1,363 @@
+I
+Rekayasa
+Perangkat
+Lunak
+TM-04 Project Management
+- Introduction to Project
+Management (1)
+Senin, 01/03/2021
+NAME OR LOGO
+Tujuan
+o Memberikan pengertian dan
+pengetahuan tentang kegiatan
+pengelolaan proyek, mulai dari
+persiapan, perecanaan,
+pelaksanaan, pemantauan,
+dan pengendalian hingga
+pengakhiran sebuah proyek.
+o Melatih keterampilan
+melakukan perencaan proyek
+perangkat lunak.
+2
+NAME OR LOGO
+Materi
+3
+o Introduction to Project Management
+o Project
+o Management
+o Manager
+o Project Management Process
+o Initiating, Planning, Executing, Monitoring, dan Closing
+o Project Management Knowledge Area
+o Integration, Scope, Time, Cost, Quality, Risk, Human Resource, Communication, dan
+Precurement.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Introduction to Project
+Management (1)
+4
+ISA-202 Rekayasa Perangkat Lunak
+o Project
+o Management
+o Manager
+NAME OR LOGO
+5
+ISA-202 Rekayasa Perangkat Lunak
+Definisi Proyek
+NAME OR LOGO
+Apa itu Proyek ? (IT Project Management)
+6
+o
+Proyek adalah kegiatan temporer untuk
+menghasilkan suatu produk atau layanan
+yang spesifik.
+o
+Proyek adalah usaha terkoordinasi
+menggunakan kombinasi dari berbagai
+sumber daya seperti manusia, teknikal,
+administrative, dan finansial untuk
+mencapai tujuan spesifik dalam periode
+waktu yang terbatas.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Kriteria Proyek
+7
+Proyek adalah aktivitas kerja temporer dalam satu waktu, dengan kriteria:
+o
+Memiliki awal dan akhir
+o
+Memiliki jadwal, biaya, dan batasan kualitas
+o
+Memiliki batasan-batasan risiko
+o
+Memiliki sejumlah scope yang harus dilaksanakan
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Ordinary vs Project
+Management
+8
+Ordinary
+Management
+ISA-202 Rekayasa Perangkat Lunak
+o
+Proj.Mgmt. digunakan pada proyek yang
+bersifat sementara dengan waktu yang
+terbatas, Ord.Mgmt. digunakan sebagai
+prosedur yang sedang berlangsung di
+organisasi atau perusahaan.
+o
+Biasanya, di dalam proj.mgmt. sumber
+dayanya terbatas, sedangkan pada
+ord.mgmt sumber daya semakin bertambah
+atau berganti seiringnya waktu.
+o
+Ord.mgmt. adalah disiplin akademis yang
+diajarkan di sekolah maupun universitas,
+sedangkan proj.mgmt. adalah turunan dari
+ord.mgmt. untuk tujuan yang lebih spesifik.
+o
+Perbedaan mendasar keduanya juga
+terletak pada peran dari masing-masing
+orang di dalamnya, dimana perang orang di
+dalam ord.mgmt. lebih luas, sedangkan di
+proj.mgmt. lebih spesfik.
+Project
+Management
+NAME OR LOGO
+Keterkaitan Project Life Cycle dengan SDLC
+9
+o SDLC berada pada fase
+execution (pelaksanaan)
+dari siklus hidup proyek.
+o Istilah build
+menerjamahkan dari hasil
+desain menjadi kode
+program, sedangkan
+implement adalah
+melakukan proses instalasi
+dan operasi.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Atribut Proyek
+10
+o Proyek memiliki tujuan yang spesifik dan jelas
+o Proyek bersifat temporer dimana ada awal dan akhir
+o Proyek dibangun secara eleboratif (dimulai dengan definisi yang luas, didetilkan
+sehingga proyek menjadi jelas)
+o Proyek membutuhkan sumber daya yang beragam, diantaranya orang, perangkat
+keras, perangkat lunak, dan sumber daya lainnya
+o Proyek harus memiliki customer atau sponsor yang memberikan arahan dan
+pendanaan
+o Proyek dapat memunculkan ketidakpastian karena kesulitas memastikan tujuan,
+etimasi penyelesaian, dan perencanaan biaya
+o Proyek complete (lengkap) jika tujuannya tercapai
+o Keberhasilan proyek dicapai jika mampu memenuhi atau melebihi harapan dari
+stakeholder
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Batasan dari Manajemen Proyek
+11
+o Scope: apa yang harus dikerjakan,
+spesifikasi produk, layanan, atau hasil yang
+diharapkan oleh customer atau sponsor
+proyek.
+o Time: waktu untuk menyelesaikan proyek
+(project schedule)
+o Cost: biaya yang harus dikeluarkan untuk
+menyelesaikan proyek.
+ISA-202 Rekayasa Perangkat Lunak
+Triple Constraint
+Management
+NAME OR LOGO
+12
+ISA-202 Rekayasa Perangkat Lunak
+Definisi Manajemen
+NAME OR LOGO
+Apa itu Manajemen ?
+13
+o Manajemen berasal dari (bahasa Italia) maneggiare yang memiliki arti to
+handle yang mengacu pada penanganan kuda untuk olahraga.
+o
+Juga dapat ditelurusi kata manus (latin) yang berarti tangan.
+o
+Manajemen, semula bermakna mengelola, melatih, dan mengarahkan untuk
+dunia olahraga, kemudian housekeeping, dan belakangan untuk bisnis dan
+organisasi.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Definisi Formal Manajemen
+14
+Kita simpulkan:
+"Manajemen adalah proses atau usaha
+dalam membuat, memelihara, dan
+memanfaatkan orang atau sumber daya
+materi lainnya untuk mencapai tujuan
+yang efektif dan efisien"
+o
+Effective: menyelesaikan aktivitas
+sehingga tujuan organisasi tercapai.
+o
+Efficient: memperoleh hasil yang
+maksimal dengan sumber daya yang
+terbatas.
+ISA-202 Rekayasa Perangkat Lunak
+Morse, dkk (2007)
+Manajemen adalah proses pencapaian
+tujuan organisasi yang memadukan empat
+fungsi utama: (1) panning, (2) organizing,
+(3) actuating, dan (4) controlling terhadap
+sumber daya yang terbatas.
+NAME OR LOGO
+Siapa itu Manajer ?
+15
+o Manajer adalah seseorang yang
+berkoordinasi dan melakukan
+pengawasan terhadap pekerjaan
+orang lain sehingga tujuan
+organisasi dapat dicapai.
+o Pekerjaan dari seorang manajer
+tidak hanya untuk pencapaian
+personal, namun juga dapat
+membantu orang lain untuk
+menyelesaikan pekerjaannya.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Tingkatan Manajemen (1)
+16
+o Di dalam organisasi, proses
+pemanfaatan sumber daya dan
+penyediaan lingkungan kerja
+agar dapat mencapai tujuan
+organisasi dengan dengan baik
+terjadi di setiap lapisan
+manajemen.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Tingkatan Manajemen (2)
+17
+ISA-202 Rekayasa Perangkat Lunak
+Menetapkan visi, misi, dan tujuan
+Melakukan evaluasi kemajuan
+Membuat tindakan-tindakan strategis
+Top Level
+Membuat rencana yang merupakan implementasi
+rencana jangka panjang
+Melakukan koordinasi dan evaluasi untuk pencapaian
+tujuan
+Middle Level
+Membuat rencana jangka pendek dan
+melaksanakannya
+Mengawasi pelaksanaan pekerjaan dan
+melakukan evaluasi
+Low Level
+NAME OR LOGO
+Keterampilan Manajerial (1)
+18
+o Technical Skill: keterampilan yang terkait dengan teknis pengerjaan suatu
+pekerjaan seperti akuntansi, perancangan, dan lain-lain.
+o Interpersonal Skill: keterampilan untuk berhubungan dengan orang lain,
+seperti kerja sama, memimpin, dan berkomunikasi.
+o Conceptual Skill: keterampilan untuk melihat jauh ke depan sebagai seorang
+visioner untuk memperkirakan perubahan lingkungan, persaingan, dan lain-
+lain.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Keterampilan Manajerial (2)
+19
+o Technical skill lebih besar bobotnya
+dimiliki oleh seorang lowest manager
+dibanding top manager
+o Interpersonal skill memiliki bobot yang
+sama untuk masing-masing tingkatan
+manajer.
+o Conceptual skill lebih besar bobotnya
+untuk seorang top manager dibanding
+lowest manager.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Peran Manajer
+20
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Fungsi Manajer
+21
+ISA-202 Rekayasa Perangkat Lunak
+o
+Planning:
+o
+menentukan misi dan tujuan organisasi serta kegiatan-kegiatan yang
+harus dilakukan untuk mencapai tujuan
+o
+melakukan pengambilan keputusan yaitu memilih tindakan yang harus
+dilakukan dari sekumpulan alternatif yang ada
+o
+Organizing:
+o
+menentukan struktur organisasi dan melaksanakan tindakan yang telah ditetapkan
+o
+Staffing
+o
+penempatan orang pada struktur organisasi
+o
+Leading
+o
+upaya untuk mempengaruhi orang agar dapat bekerja sama untuk
+mencapai tujuan organisasi
+o
+memerlukan keterampilan interpersonal
+o
+Controlling
+o
+memeriksa apakah pelaksanaan sesuai dengan rencana dan melakukan
+koreksi jika diperlukan
+NAME OR LOGO
+Manajemen sebagai sebuah Proses
+22
+ISA-202 Rekayasa Perangkat Lunak
+o Planning melihat ke depan, sedangkan
+controlling melihat ke belakang.
+o
+Planning, manajemen dalam menentukan
+dimana organisasi seharusnya berada di
+masa depan.
+o
+Organizing, manajemen dalam
+mengalokasikan dan menentukan sumber
+daya berdasarkan hasil perencanaan.
+o
+Actuating, manajemen dalam mempengaruhi
+orang-orang supaya bekerja untuk mencapai
+tujuan organisasi.
+o
+Controlling, manajemen dalam mengurangi
+dan memperbaiki hasil yang tidak sesuai
+dengan rencana.
+NAME OR LOGO
+Planning (1)
+23
+o Menentukan visi
+o Menentukan misi
+o Menentukan metode terperinci untuk mencapai visi dan misi tersebut dengan
+periode waktu yang terbatas dan minimum permasalahan.
+o Rencana jangka pendek
+o Rencana jangka panjang
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Organizing (2)
+24
+o Mengorganisir upaya dari sumber
+daya untuk mencapai tujuan
+o Membuat struktur organisasi: flat
+atau hierarchy
+o Membuat garis authority,
+responsibility, accountability, dan
+communication.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Actuating (3)
+25
+o Menjalankan rencana dan program dari manajemen ke dalam aksi yang
+dilakukan oleh karyawan.
+o Dalam beberapa istilah disebut juga sebagai executing, actuating,
+implementing, dan directing.
+o Membutuhkan pemimpin yang baik.
+o Memberikan motivasi
+o Memberikan insentif
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Controlling (4)
+26
+o Menjamin bahwa kinerja terencana sesuai dengan jadwal.
+o Kegiatan controlling memiliki 3 langkah:
+o membuat rencana
+o melakukan inspeksi (pemeriksaan)
+o melakukan perbaikan
+o Secara teoritis, kegiatan controlling dapat tidak dilakukan jika planning,
+organizing, dan actuating dilakukan secara sempurna, namun jarang terjadi.
+ISA-202 Rekayasa Perangkat Lunak
+Thank
+You
+Kurnia Ramadhan Putra, S.Kom., M.T.
+kurniaramadhan@itenas.ac.id
+https://www.researchgate.net/profile/Ku
+rnia_Putra3

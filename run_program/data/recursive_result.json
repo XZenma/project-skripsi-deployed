@@ -1,0 +1,18 @@
+{
+  "teknik": "recursive",
+  "timestamp_mulai": "2026-07-17T02:16:58.078745",
+  "tahap": {
+    "chunker": {
+      "total_chunks": 2860,
+      "total_dokumen": 88,
+      "durasi_detik": 0.4978
+    },
+    "embedder": {
+      "total_chunks_diembed": 2860,
+      "durasi_detik": 987.6887,
+      "status": "sukses"
+    }
+  },
+  "durasi_total_detik": 988.1867,
+  "timestamp_selesai": "2026-07-17T02:33:26.265462"
+}

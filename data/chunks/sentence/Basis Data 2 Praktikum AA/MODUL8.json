@@ -1,0 +1,28 @@
+{
+  "filename": "MODUL8.txt",
+  "matkul": "Basis Data 2 Praktikum AA",
+  "teknik": "sentence",
+  "total_chunks": 4,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 872,
+      "text": "Praktikum ISB - 212 Basis Data 2\nFungsi Bernilai Tabel\n30 April 2026\nFungsi di SQL Server digunakan untuk\nmenyederhanakan\nlogika\nquery\nyang\nkompleks.\nDengan fungsi, tidak perlu menulis ulang\nquery yang sama berulang kali karena\ncukup dipanggil.\nPengertian Fungsi\nScalar Function\nInline Table-Valued Function\nMulti-Statement Table-Valued Function\nJenis-Jenis Fungsi\nMengembalikan nilai tunggal (satu nilai).\nCocok untuk kalkulasi sederhana seperti\nmenghitung total, konversi nilai, dan\nlainnya.\nMengembalikan hasil berupa rowset (tabel).\nMenyerupai view tetapi dapat menerima\nvariabel input.\nHanya terdiri dari satu select statement.\nMengembalikan hasil berupa tabel, dapat menjalankan beberapa query\ndan memasukkan hasilnya ke variabel bertipe tabel yang sudah\ndidefinisikan.\nInline TVF adalah fungsi yang mengembalikan hasil berupa rowset\natau tabel, bukan nilai tunggal."
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 659,
+      "text": "Fungsi ini menyerupai view, namun\nmemiliki keunggulan karena dapat menerima parameter input\nsehingga lebih fleksibel.\nDi dalamnya hanya terdapat satu select statement yang ditempatkan\ndi dalam klausa return.\n\nUntuk menggunakannya, fungsi dipanggil\nseperti tabel biasa di dalam klausa from pada query select.\nInline Table-Valued Function (ITVF)\nVariabel tabel adalah tipe khusus variabel lokal untuk menyimpan data\nsementara.\n\nMirip tabel temp, tetapi bersifat lokal dan otomatis terhapus\nsetelah batch selesai.\n\n\nTerdapat 4 Karakteristik Variabel Tabel :\nVariabel Bertipe Data Tabel\nSiklus Hidup : Dimulai saat deklarasi, berakhir di akhir batch (setelah GO)."
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 553,
+      "text": "Terdapat 4 Karakteristik Variabel Tabel :\nVariabel Bertipe Data Tabel\nSiklus Hidup : Dimulai saat deklarasi, berakhir di akhir batch (setelah GO).\n\nOtomatis\ndihapus.\nDML Support : Dapat melakukan insert, update, dan delete pada variabel tabel.\nConstraint : Mendukung primary key, unique, not null, dan check constraint.\nJoin & Alias : Wajib menggunakan alias saat melakukan operasi join antar variabel\ntabel\nMulti-Statement Table-Valued\nFunction (MSTVF)\nMSTVF adalah fungsi yang mengembalikan hasil berupa tabel dari beberapa\npernyataan query sekaligus."
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 2130,
+      "text": "Di dalam fungsi ini, sebuah variabel bertipe tabel\ndidefinisikan strukturnya secara eksplisit pada klausa returns,\nkemudian satu atau lebih query dijalankan di dalam blok begin sampai end untuk\nmengisi variabel tabel tersebut sebelum dikembalikan dengan perintah return.\nKarakteristik MSTVF:\nDapat menjalankan beberapa query sekaligus\nMenggunakan variabel tabel sebagai nilai kembalian\nStruktur tabel kembalian didefinisikan dalam fungsi\nLebih fleksibel dibanding Inline TVF\nQuery :\ncreate function dbo.fn_semua_karyawan()\nreturns table\nas\nreturn (\nselect employee_id, employee_name,\ndepartment, salary from employees)\ngo\nselect * from dbo.fn_semua_karyawan()\nContoh Inline Table Valued Function\nFungsi ini tidak memerlukan parameter hanya mengembalikan daftar\nseluruh karyawan beserta departemen dan gaji pokok dari tabel\nemployees menggunakan salu select statement dan dipanggil dalam\nklausa from.\nOutput :\nQuery :\ngo\ndeclare @MataKuliah table( mk_id int primary key,\nmk_nama varchar(50) unique not null, sks int check (sks\nBETWEEN 1 AND 4)\ninsert into @MataKuliah values\n(1, 'Basis Data', 3),\n(2, 'Algoritma Pemrograman',3),\n(3, 'Jaringan Komputer', 2),\n(4, 'Kecerdasan Buatan', 4)\nselect from @MataKuliah\ngo\nContoh Variabel Bertipe Data Tabel\nVariabel tabel dideklarasikan dengan declare menggunakan keyword table.\nConstraint diterapkan langsung pada definisi kolom.\nData insert, update, dan select dilakukan dalam satu batch antara dua go.\nOutput :\nQuery :\ncreate function dbo.fn_gaji_atas_rata()\nreturn @hasil table (\nemployee_id int,\nemployee_name varchar(50),\nsalary decimal(10,2),\nketerangan varchar(30)\n)\nas\nbegin\ninsert into @hasil\nselect employee_id, employee_name, salary,'Di Atas Rata-Rata'\nfrom employees\nwhere salary > (SELECT AVG(salary) FROM employees)\nreturn\nend\ngo\nselect * from dbo.fn_gaji_atas_rata()\nContoh Multi Statement Table Valued\nFunction\nMengembalikan daftar karyawan dengan gaji di atas\nrata-rata dengan mendefinisikan struktur tabel\n(@hasil) secara eksplisit dalam return lalu di dalam\nbegin hingga end, query dieksekusi dan hasilnya di\ninsert ke dalam @hasil sebelum return.\nOutput :\nHatur\nNuhunnn"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+Rekayasa
+Perangkat
+Lunak
+
+TM-12 Jira - Agile Project
+Management Tool
+
+Selasa, 21/03/2022
+NAME OR LOGO
+Outline
+o Pengenalan Tools Jira
+o Bagaimana Menggunakan Tools Jira Pada Cloud
+ISA-202 Rekayasa Perangkat Lunak
+2
+NAME OR LOGO
+
+Pengenalan Tools Jira
+
+ISA-202 Rekayasa Perangkat Lunak
+3
+Apa itu Jira?
+NAME OR LOGO
+ISA-202 Rekayasa Perangkat Lunak
+4
+
+o Jira adalah tool Agile yang dikembangkan
+oleh perusahaan Atlassian, yang digunakan
+untuk:
+o Agile Project Management
+o Bug Tracking
+o Test Management
+Jenis Issue pada Jira
+NAME OR LOGO
+ISA-202 Rekayasa Perangkat Lunak
+5
+
+o Epic: largest requirement from the customer
+o Story: smaller requirement from the
+customer
+o Task: an action need to completed in
+particular story
+o Bug: defect in a software that causes
+incorrect result and need to fixed.
+Bagaimana Menggunakan Jira?
+NAME OR LOGO
+ISA-202 Rekayasa Perangkat Lunak
+6
+
+o Masuk ke halaman website :
+https://www.atlassian.com/software/jira
+o Klik tombol "Get it Free"
+Login Menggunakan Email
+NAME OR LOGO
+ISA-202 Rekayasa Perangkat Lunak
+7
+
+o Jika sudah pernah mendaftar menggunakan akun
+Gmail, maka gunakan akun yang sudah ada tersebut,
+namun jika belum maka harus mendaftar terlebih
+dahulu.
+o Pada kolom Clam your site kita membuat instansiasi
+penyimpanan proyek yang akan kita kelola pada
+Cloud, dengan memberi nama instansiasi tersebut
+o Setelah kolom Work email dan Claim your site terisi
+maka menekan tombol "Agree"
+Personalisasi User
+NAME OR LOGO
+ISA-202 Rekayasa Perangkat Lunak
+8
+
+o Kita diminta untuk
+menjawab beberapa
+pertanyaan yang
+berguna untuk
+membantu personalisasi
+user yang akan
+menggunakan tool Jira.
+Memilih Tools Yang Sering Digunakan
+NAME OR LOGO
+ISA-202 Rekayasa Perangkat Lunak
+9
+
+o Kita diminta untuk memilih tools
+yang sering digunakan untuk
+bekerja.
+Mengundang Tim
+NAME OR LOGO
+ISA-202 Rekayasa Perangkat Lunak
+10
+
+o Mengundang tim yang akan bekerja dalam satu proyek
+menggunakan email.
+o Tim:
+o Product Owner
+o SCRUM Master
+o SCRUM Team:
+Beberapa orang Developer
+Beberapa orang QA/Tester
+o Jika layanan "Free" maka maksimal dapat digunakan oleh
+10 orang yang bekerja pada proyek tersebut.
+Rekomendasi Proyek
+o Jira akan membantu
+NAME OR LOGO
+ISA-202 Rekayasa Perangkat Lunak
+11
+
+melakukan personalisasi
+kembali terkait pengalaman
+user menggunakan Jira,
+untuk merekomendasikan
+jenis framework Agile yang
+cocok dengan user atau tim
+tersebut
+Membuat Proyek
+NAME OR LOGO
+ISA-202 Rekayasa Perangkat Lunak
+12
+
+o Memberi nama proyek: Online Banking
+Application
+o Memberi key: OBA
+o Mengklik tombol "Create"
+Halaman Utama Jira
+NAME OR LOGO
+ISA-202 Rekayasa Perangkat Lunak
+13
+NAME OR LOGO
+
+Membuat Product
+Backlog
+
+ISA-202 Rekayasa Perangkat Lunak
+14
+Versions dan Epic (
+NAME OR LOGO
+ISA-202 Rekayasa Perangkat Lunak
+15
+
+o Ketika membuat Product Backlog pertama kali harus menentukan versi dari
+product dan membuat Epic.
+Versions dan Epic (
+NAME OR LOGO
+ISA-202 Rekayasa Perangkat Lunak
+16
+
+o Version 1.0.0
+o Start date: 16 Maret 2021
+o End date: 05 April 2021
+o Epic:
+o Epic-001: Sebagai seorang nasabah, saya ingin
+menggunakan Online Banking Application
+Sisa Materi
+NAME OR LOGO
+ISA-202 Rekayasa Perangkat Lunak
+17
+
+o Membuat Story
+o Membuat Sprint Backlog
+o Membuat Task
+o Menjalakan Sprint
+o Mengakhiri Sprint
+o Burndown Chart
+
+Akan dipaparkan secara DEMO LIVE: https://www.atlassian.com/software/jira
+Thank
+You
+
+Kurnia Ramadhan Putra, S.Kom., M.T.
+kurniaramadhan@itenas.ac.id
+
+https://www.researchgate.net/profile/Ku
+rnia_Putra3

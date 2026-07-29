@@ -1,0 +1,955 @@
+Week 4:
+Manajemen 
+Integrasi 
+Proyek
+Project Integration 
+Management
+SOFIAUMAROH
+Manajemen Integrasi Proyek
+Metode Pemilihan Proyek
+Perencanaan Strategis Proyek
+Mengembangkan Project Charter
+1
+3
+2
+4
+Today's 
+Agenda
+SOFIAUMAROH
+Let's get started!
+Are you 
+ready?
+SOFIAUMAROH
+SOFIAUMAROH
+Opening Case: Masih 
+ingat Proyek Jodi?
+Energic & Cerdas
+Lebih berfokus pada deliver produk tepat waktu
+Namun Jodi...
+Skill teknis yang kuat
+Mampu menyelidiki & 
+mengatasi kendala teknis 
+Tidak menjalin komunikasi dengan manajemen 
+puncak
+Mengabaikan keluhan dan keinginan 
+manajemen puncak
+Berperan sebagai integrator software, bukan 
+manajer proyek
+Tidak memberikan jadwal yang akurat dan 
+perencanaan proyek kepada atasan
+Apa itu Integrasi 
+Managemen Proyek?
+Seperti 
+mengelola 
+knowldege 
+Area?
+SOFIAUMAROH
+Scope
+Time
+Cost
+Quality
+Procurement
+Stakeholder
+Human Resource
+Communication
+Integration
+Risk
+Kunci Kesuksesan Proyek:
+Manajemen Integrasi Proyek
+yang Baik
+Manajemen integrasi proyek 
+melibatkan koordinasi semua area 
+pengetahuan manajemen proyek 
+lainnya sepanjang siklus hidup 
+proyek.
+10 Knowledge Area
+SOFIAUMAROH
+PM harus mengoordinasikan 
+semua area pengetahuan 
+sepanjang siklus hidup proyek.
+PM bertanggung jawab untuk 
+mengoordinasikan semua orang, 
+rencana, dan pekerjaan
+Manajemen integrasi proyek 
+tidak sama dengan integrasi 
+perangkat lunak
+1
+2
+3
+SOFIAUMAROH
+Proses Integrasi Manajemen
+Proyek
+Mengembangkan Project 
+Charter
+Kerja sama dengan pemangku
+kepentingan untuk membuat dokumen
+yang secara resmi mengesahkan suatu
+proyek charter.
+Mengembangkan
+Perencanaan Proyek
+Melibatkan koordinasi semua
+upaya perencanaan untuk
+membuat dokumen yang 
+konsisten
+Mengarahkan dan mengelola
+pekerjaan proyek
+pelaksanaan rencana manajemen
+proyek dengan melakukan kegiatan
+yang termasuk di dalamnya.
+Menutup proyek
+menyelesaikan semua kegiatan
+untuk secara resmi menutup proyek
+atau fase
+Melakukan kontrol
+perubahan terpadu
+mengidentifikasi, mengevaluasi, dan 
+mengelola perubahan sepanjang
+siklus hidup proyek
+Pemantauan dan 
+pengendalian pekerjaan
+proyek
+kegiatan pengawasan untuk
+memenuhi tujuan kinerja proyek
+Mengelola pengetahuan
+proyek
+Penggunaan pengetahuan yang ada
+dan menciptakan pengetahuan baru
+untuk mencapai tujuan proyek
+1
+2
+3
+4
+7
+6
+5
+SOFIAUMAROH
+Ringkasan
+Integrasi 
+Manajemen 
+Proyek
+Banyak orang menganggap 
+manajemen integrasi proyek 
+sebagai kunci keberhasilan 
+proyek secara keseluruhan.
+Kathy Schwalbe
+SOFIAUMAROH
+Project 
+Charter
+•
+Project Charter adalah dokumen formal 
+yang menyatakan keberadaan proyek dan 
+memberikan arahan akan tujuan dan 
+manajemen proyek.
+•
+Key stakeholder harus menandatangani
+proyek charter untuk mengakui
+kesepakatan tentang proyek
+Statement of work (menggambarkan
+produk/servis yang harus dibuat)
+Business Case
+Kesepakatan
+1
+2
+3
+SOFIAUMAROH
+Input pengembangan Proeject Charter:
+Enterprise environmental factors (struktur
+organisasi, budaya organisasi,dsb)
+4
+Organizational process assets (aturan yang 
+berlaku, prosedur, sistem keuangan, dsb)
+5
+SOFIAUMAROH
+Informasi Dalam Project Charter
+• Budaya organisasi adalah seperangkat asumsi, nilai, dan perilaku bersama yang mencirikan
+berfungsinya suatu organisasi
+• Banyak ahli percaya bahwa penyebab utama dari banyak masalah perusahaan bukanlah struktur atau
+staf, tetapi budaya. Berikut sepuluh ciri Budaya Organisasi :
+1
+Nama Proyek & masa 
+berlaku proyek
+2
+Nama Manajer Proyek
+beserta informasinya
+3
+Ringkasan jadwal proyek
+4
+Ringkasan budget proyek
+5
+Gambaran singkat (tujuan,
+kebutuhan bisnis, dan justifikasi
+lainnya)
+6
+Ringkasan pendekatan
+kebutuhan stakeholders, 
+asumsi, batasan)
+7
+Tugas umum dari anggota
+tim proyek
+8
+Tanda tangan key project 
+stakeholders
+9
+Kolom komentar yang 
+disediakan agar dapat diisi
+oleh stakeholder
+SOFIAUMAROH
+Informasi dalam Project Charter
+1
+Nama Proyek & masa 
+berlaku proyek
+2
+Nama Manajer Proyek
+beserta informasinya
+3
+Ringkasan jadwal proyek
+4
+Ringkasan budget proyek
+5
+Gambaran singkat (tujuan, 
+kebutuhan bisnis, dan justifikasi
+lainnya)
+6
+Ringkasan pendekatan
+kebutuhan stakeholders, 
+asumsi, batasan)
+7
+Tugas umum dari anggota
+tim proyek
+8
+Tanda tangan key project 
+stakeholders
+9
+Kolom komentar yang 
+disediakan agar dapat
+diisi oleh stakeholder
+SOFIAUMAROH
+Contoh Project Charter
+Scope 
+Statement
+Scope statement adalah dokumen
+yang digunakan untuk membangun
+dan mengkonfirmasikan pemahaman
+bersama akan ruang lingkup/batasan
+proyek.
+▷Tujuan proyek
+▷Deskripsi produk/servis
+▷Kriteria produk yang akan diterima
+▷Asumsi dan hambatan terhadap
+proyek
+▷Struktur organisasi
+▷Resiko
+▷Jadwal
+▷Gambaran awal biaya
+SOFIAUMAROH
+Informasi Penting:
+Project Plan
+• Project management plan adalah dokumen
+yang dapat digunakan untuk
+mengkoordinasikan semua dokumen
+perencanaan proyek dan menjadi panduan
+eksekusi dan kontrol proyek
+• Rencana yang dibuat di setiap Area 
+Pengetahuan adalah bagian dari Project 
+Plan
+• Harus dinamis, fleksibel, dapat berubah
+sesuai perubahan lingkungan proyek
+▷Project Charter
+▷Rencana Proses
+▷Faktor Lingkungan
+▷Aset Organisasional
+SOFIAUMAROH
+Input Project Plan:
+SOFIAUMAROH
+Informasi Dalam Project Plan
+1
+Gambaran umum proyek
+(nama proyek, deskripsi, nama sponsor, 
+nama PM dan anggota tim, hasil proyek, 
+material penting, definisi dan akronim)
+2
+Deskripsi bagaimana proyek
+diorganisir
+(struktur organisasi, tanggung jawab, 
+informasi lain)
+3
+Proses-proses manajemen dan teknis
+dalam proyek
+(tujuan manajemen, kontrol proyek, 
+manajemen resiko, staf proyek, proses 
+teknis)
+4
+Pekerjaan-pekerjaan yang harus dilakukan, 
+jadwal dan informasi biaya proyek
+(paket kerja utama, hasil utama, informasi
+lain; rangkuman jadwal dan budget, jadwal dan 
+budget detail, informasi lain)
+Project Plan
+SOFIAUMAROH
+Mengarahkan dan 
+Mengelola Proyek
+SOFIAUMAROH
+o Eksekusi Proyek adalah tahap melaksanakan
+pekerjaan yang telah digambarkan dalam project 
+plan
+o Mayoritas waktu dan uang digunakan dalam
+eksekusi proyek
+o Area aplikasi proyek sangat mempengaruhi
+eksekusi proyek, karena selama eksekusi proyek
+inilah produk dari proyek dihasilkan
+Mengarahkan
+dan Mengelola
+Proyek
+SOFIAUMAROH
+Mengelola dan 
+melakukan pekerjaan
+yang dijelaskan dalam
+rencana manajemen
+proyek
+Koordinasi Perencanaan dan 
+Pelaksanaan
+Kepemimpinan yang Kuat
+dan dukungan budaya
+Alat dan Teknik
+Memanfaatkan
+Pengetahuan Produk
+Eksekusi proyek yang baik
+juga membutuhkan budaya
+organisasi yang mendukung.
+• Expert judgment 
+• Meetings
+• Project management 
+information systems 
+Rencana yang baik harus
+membantu menghasilkan
+dan mendokumentasikan
+produk yang baik
+Simple rule: 
+Those who will do the work 
+should plan the work.
+Manajer proyek perlu memiliki
+pengetahuan produk, bisnis, 
+dan area aplikasi untuk
+menjalankan proyek dengan
+sukses.
+Monitoring & Kontrol
+Proyek
+SOFIAUMAROH
+o Mengumpulkan, mengukur dan menyebarkan informasi
+kinerja proyek
+o Tools & technique yang dapat digunakan antara lain 
+metodologi manajemen proyek, sistem informasi
+manajemen proyek, expert judgement dan earned value 
+management 
+o Input: rencana manajemen proyek, laporan performansi, dan 
+aset organisasi
+o Output: rekomendasi tindakan korektif (meningkatkan
+kinerja proyek) dan preventif (mereduksi probabilitas
+konsekuensi negatif).
+Integrated Change 
+Control
+SOFIAUMAROH
+o Termasuk di dalamnya mengidentifikasi, 
+mengevaluasi dan mengelola perubahan selama
+project life cycle 
+o Tujuan utama pengendalian perubahan : 
+o Memperhitungkan faktor-faktor yang 
+mengakibatkan perubahan dalam rangka
+menjamin bahwa perubahan menguntungkan
+(cross check scope, time, cost & quality) 
+o Menentukan apakah perubahan sudah terjadi
+o Mengelola perubahan yang terjadi
+Baseline is the 
+approved project 
+management plan 
+plus approved 
+changes
+Integrated Change Control
+SOFIAUMAROH
+Change Control on IT Projects 
+Change Control Board
+• Kelompok formal dari orang-orang yang 
+bertanggung jawab untuk menyetujui atau
+menolak perubahan dalam proyek
+• CCB harus memberikan panduan untuk
+mempersiapkan perubahan, mengevaluasi
+perubahan dan mengelola implementasi
+perubahan yang disetujui
+• Anggota CCB biasanya terdiri atas stakeholders 
+dari keseluruhan organisasi
+• Masalah yang dihadapi: 
+• CCB jarang bertemu
+• keputusan akan perubahan membutuhkan
+waktu yang panjang, padahal proyek harus
+terus berjalan sesuai waktu yang disepakati
+• Pandangan lama: Tim Proyek harus melakukan
+apa yang sudah direncanakan tepat waktu dan 
+tepat biaya
+• Masalahnya: Stakeholders jarang sekali
+menyetujui batasan proyek di awal, serta waktu
+dan estimasi biaya seringkali tidak akurat
+• Pandangan Modern: Manajemen Proyek adalah
+proses komunikasi dan negosiasi yang konstan
+• Solusi: Perubahan seringkali memberikan
+keuntungan dan tim proyek harus membuat
+rencana untuk mengakomodasi perubahan
+tersebut
+Integrated 
+Change 
+Control
+SOFIAUMAROH
+SOFIAUMAROH
+Saran untuk melakukan kontrol
+perubahan terintegrasi
+Menutup Proyek
+SOFIAUMAROH
+o Hal yang harus dilakukan : mengakhiri semua
+aktivitas dan menyampaikan hasil kerja proyek
+(tuntas/tidak) pada orang yang tepat
+o Output utama dari penutupan proyek : 
+o prosedur administratif penutupan
+o prosedur penutupan kontrak
+o produk akhir
+o organizational process asset updates
+Baseline is the 
+approved project 
+management plan 
+plus approved 
+changes
+Tanggung 
+Jawab Manajer 
+Proyek
+Mengkoordinasikan
+semua orang, rencana, 
+dan pekerjaan yang 
+diperlukan untuk
+menyelesaikan sebuah
+proyek.
+Fokus pada 
+gambaran besar
+proyek dan 
+mengarahkan tim
+proyek menuju
+penyelesaian yang 
+sukses.
+Membuat
+keputusan akhir
+ketika konflik
+terjadi di antara
+tujuan proyek atau
+orang-orang.
+Mengomunikasikan
+informasi proyek
+utama kepada
+manajemen puncak
+SOFIAUMAROH
+Integrasi Manajemen Proyek
+SOFIAUMAROH
+What went wrong?
+Jodi mengira manajemen integrasi 
+proyek berarti manajemen integrasi 
+perangkat lunak dan lebih berfokus 
+pada masalah teknis proyek
+Mengabaikan Stakeholder Utama
+Keliru memahami Integrasi Proyek
+1
+2
+Jodi merasa nyaman bekerja dengan 
+tim proyek, tetapi dia tidak terbiasa 
+berperan sebagai manajer proyek 
+atau kebutuhan manajemen puncak 
+perusahaan
+Jodi harus 
+memahami 
+Integrasi 
+Manajemen 
+Proyek yang 
+benar
+Jodi seharusnya menanggapi 
+permintaan manajemen puncak, 
+begitu juga management puncak 
+harus menyampaikan isu-isu proyek
+kepada Jodi
+Mengabaikan perubahan proyek
+3
+Perencanaan Strategis 
+& Pemilihan Proyek
+Bagaimana 
+cara memilih 
+proyek yang 
+potensial?
+SOFIAUMAROH
+Strategic 
+Planning
+Perencanaan strategis melibatkan
+penentuan tujuan jangka panjang, 
+memprediksi tren masa depan, dan 
+memproyeksikan kebutuhan produk dan 
+layanan baru.
+Analisis SWOT: Strengths, Weaknesses, 
+Opportunities, dan Threats.
+Mengidentifikasi Proyek Potensial
+Menggunakan Metode Realistis
+untuk memilih proyek yang selaras 
+dengan strategi bisnis
+1
+2
+3
+SOFIAUMAROH
+Sebagai bagian dari perencanaan strategis, 
+organisasi melakukan:
+Meresmikan Inisiasi Proyek dengan 
+menerbitkan Project Charter
+4
+Weaknesses
+Strengths
+Opportunities
+Threates
+SOFIAUMAROH
+Empat orang ingin memulai 
+bisnis baru di industri film. 
+Mereka melakukan analisis 
+SWOT membantu 
+mengidentifikasi proyek 
+potensial. 
+Analisis 
+SWOT
+• Memiliki banyak kontak
+• Keterampilan penjualan dan 
+interpersonal yang kuat.
+• Keterampilan teknis dan 
+perangkat lunak yang kuat
+• Sampel proyek yang baik
+• Klien saat ini ingin kami 
+menawar proyek
+•
+Industri perfilman terus berkembang.
+•
+Ada dua konferensi besar untuk promosi
+• Tidak memiliki pengalaman 
+akuntansi atau keuangan.
+• Tidak memiliki strategi pemasaran yang jelas.
+• Sedikit uang investasi 
+• Penggunaan teknologi terbatas
+• Banyak pesaing 
+• Industri mapan lebih 
+diminati pelanggan.
+• Risiko tinggi dalam bisnis film.
+SOFIAUMAROH
+Analisis SWOT dengan 
+Mind Mapping
+© Cengage Learning 2016 using MindView Business Edition by MatchWare.
+SOFIAUMAROH
+1
+2
+3
+4
+Identifikasi Proyek Potensial
+Mengembangkan strategi TI sejalan dengan misi 
+dan visi organisasi. Identifikasi area bisnis utama.
+Menentukan proses bisnis mana yang 
+paling diuntungkan dari proyek TI.
+Organisasi mulai mendefinisikan ruang lingkup, 
+manfaat, dan kendala proyek TI potensial.
+Memilih proyek mana yang akan 
+dikerjakan dan menetapkan sumber daya.
+IT 
+Strategic 
+Planning
+Business Area 
+Analysis
+Project Planning
+Resource 
+Allocation
+Steering Committee 
+(Manajer departemen 
+organisasi), Kepala PMO,
+Berfokus pada kebutuhan organisasi yang 
+luas
+Mengkategorikan proyek TI
+Melakukan analisis keuangan proyek
+1
+2
+3
+Metode 
+Pemilihan 
+Proyek
+Dalam praktiknya, banyak 
+organisasi menggunakan 
+kombinasi pendekatan ini untuk 
+memilih proyek
+SOFIAUMAROH
+5 teknik umum pemilihan proyek:
+Menggunakan model penilaian 
+berbobot
+Menerapkan Balanced Scorecard
+4
+5
+SOFIAUMAROH
+1. Focusing on Broad 
+Organizational Needs 
+• Seringkali sulit untuk memberikan pembenaran 
+yang kuat untuk banyak proyek TI, tetapi semua 
+orang setuju bahwa mereka memiliki nilai tinggi
+• Organisasi harus mengevaluasi kembali 
+kebutuhan, pendanaan, dan kemauan untuk 
+menentukan apakah proyek harus dilanjutkan, 
+didefinisikan ulang, atau dihentikan.
+3 Kriteria Penting Proyek
+Needs of Project
+Available Funds
+Strong will to success
+SOFIAUMAROH
+2. Categorizing IT Projects 
+• Kategorisasikan proyek IT berdasarkan 
+aspek yang mendorongnya.
+• Kategori pendorong Problems dan 
+Opportunities yang paling mudah 
+disetujui
+• Kategorisasi berdsaarkan waktu: Lama 
+waktu proyek yang dibutuhkan dan kapan 
+proyek dibutuhkan.
+• Kategorisasi berdsaarkan prioritas: tinggi, 
+sedang, atau rendah.
+Kategori Pendorong Proyek IT
+Problems
+Opportunities
+Directives
+Timing
+Biasanya sebuah organisasi memiliki lebih 
+banyak proyek TI potensial daripada waktu 
+dan sumber daya yang tersedia. 
+Jadi sangat penting untuk mengerjakan 
+proyek yang paling penting terlebih dahulu.
+Kathy Scwable
+SOFIAUMAROH
+SOFIAUMAROH
+1
+2
+3
+3. Performing Financial Analyses 
+Net Present Value Analysis 
+(NPV)
+Return on Investment (ROI)
+Payback Analysis 
+Tiga metode utama untuk 
+memproyeksikan nilai finansial proyek:
+Pertimbangan keuangan
+seringkali menjadi pertimbangan
+penting dalam memilih proyek
+SOFIAUMAROH
+1. Net Present Value 
+Metode untuk menghitung 
+laba/rugi suatu poyek.
+NPV positif artinya pengembalian 
+investasi dari suatu proyek melebihi 
+biaya modal
+Untuk menghitung NPV, kita harus 
+mengasumsikan suku bunga (discount 
+rate) tertentu.
+NVP = 
+Formula:
+dimana,
+Ct = Net cash flow
+r = Discount rate
+t = number of time period
+Co = Total initial investment
+SOFIAUMAROH
+Proyek SI Manajemen Proyek yang dipimpin Erica mempunyai 
+biaya akuisisi $140.000 dan membutuhkan biaya pemeliharaan 
+selama selama 3 tahun sebesar $40.000/tahun.
+Proyek direncanakan selesai dalam tahun ke-0, dan pada tahun 
+berikutnya memberikan manfaat $200.000 selama 3 tahun.
+Dengan asumsi discount rate 8%, tentukan:
+• Untung/rugi proyek
+• Untung/rugi terkoreksi (NPV)
+Berapa NPV proyek 
+Erica?
+Recall Erica's Project
+SOFIAUMAROH
+Berapa NPV proyek 
+Erica?
+Items
+Kumulatif
+Discount rate: 8%
+1.  Siapkan Tabel Perhitungan NPV, salin 
+Biaya dan Manfaat ke dalam tabel.
+Tahun 0
+Tahun 1
+Tahun 2
+Tahun 3
+260.000
+140.000
+40.000
+40.000
+40.000
+600.000
+0
+200.000
+200.000
+200.000
+Laba/rugi = Manfaat Kumulatif - Biaya Kumulatif
+= 600.000 - 260.000 = 340.000
+Jadi proyek akan memberikan laba sebesar $340.000
+Discount factor
+Costs
+Benefit
+Discounted costs
+Discounted benefit
+Discount factor
+SOFIAUMAROH
+Berapa NPV proyek 
+Erica?
+Items
+Kumulatif
+Discount rate: 8%
+2.  Menentukan Faktor Diskon setiap tahun
+Tahun 0
+Tahun 1
+Tahun 2
+Tahun 3
+260.000
+140.000
+40.000
+40.000
+40.000
+600.000
+0
+200.000
+200.000
+200.000
+1
+0.93
+0.86
+0.79
+𝐷𝑖𝑠𝑐𝑜𝑢𝑛𝑡𝐹𝑎𝑐𝑡𝑜𝑟=
+1
+(1 + 𝑟)!
+r = Discount rate
+t = Time
+1
+0.93
+0.86
+0.79
+§ Year 0 : 
+discount factor 1/(1 + 0.08)0 = 1
+§ Year 1 : 
+discount factor 1/(1 + 0.08)1 = 0.93
+§ Year 2 : 
+discount factor 1/(1 + 0.08)2 = 0.86
+§ Year 3 : 
+discount factor 1/(1 + 0.08)3 = 0.79 
+Discount factor
+Costs
+Benefit
+Discounted costs
+Discounted benefit
+Discount factor
+SOFIAUMAROH
+Berapa NPV proyek
+Erica?
+Items
+Komulatif
+Discount rate: 8%
+3.  Menghitung Biaya dan Manfaat diskonto
+Tahun 0
+Tahun 1
+Tahun 2
+Tahun 3
+Discount factor
+Costs
+260.000
+140.000
+40.000
+40.000
+40.000
+Benefit
+Discounted costs
+Discounted benefit
+Discount factor
+600.000
+0
+200.000
+200.000
+200.000
+1
+0.93
+0.86
+0.79
+• Discounted costs = costs * discount factor
+• Discounted benefit = benefit * discount factor
+1
+0.93
+0.86
+0.79
+140.000
+37.200
+34.400 
+31.600 
+0
+186.000
+172.000
+158.000
+SOFIAUMAROH
+NPV proyek Erica = 
+USD 272.800
+Items
+Komulatif
+Discount rate: 8%
+4.  Menghitung NPV
+Tahun 0
+Tahun 1
+Tahun 2
+Tahun 3
+Discount factor
+Costs
+260.000
+140.000
+40.000
+40.000
+40.000
+Benefits
+Discounted costs
+Discounted benefits
+Discount factor
+600.000
+0
+200.000
+200.000
+200.000
+1
+0.93
+0.86
+0.79
+• NPV = Σ Doscounted benefit - Σ Doscounted cost
+• Σ Doscounted costs = 140.000 + 37.200 + 34.400 + 31.600 = 243.000
+• Σ Doscounted benefits = 186.000 + 172.000 + 158.000 = 516.000
+1
+0.93
+0.86
+0.79
+243.200 
+140.000
+37.200
+34.400 
+31.600 
+516.000
+0
+186.000
+172.000
+158.000
+NPV = 516.000 – 243.200 = 272.800
+Jadi, proyek akan memberikan laba dengan 8% Discount rate sebesar 272.800
+SOFIAUMAROH
+2. Return on 
+Investment
+Metode untuk menghitung
+laba/rugi suatu poyek.
+•
+Pengembalian investasi (ROI) dihitung dengan mengurangkan
+biaya proyek dari manfaat dan kemudian membaginya dengan
+biaya
+•
+Semakin tinggi ROI, semakin baik
+•
+Misalnya, jika Anda berinvestasi $100 hari ini dan tahun depan
+nilainya $110, ROI Anda adalah ($110 – 100)/100 atau 0,10 (10 
+persen).
+ROI = ( ∑discounted beneﬁts – ∑discounted costs)
+discounted costs
+Formula:
+SOFIAUMAROH
+ROI proyek Erica = 
+112%
+Discount rate: 8%
+Menghitung ROI Proyek Erica
+ROI = ( ∑discounted beneﬁts – ∑discounted costs)
+discounted costs
+Diketahui: 
+∑discounted beneﬁts = 516,000
+∑discounted costs = 243,200
+Diperoleh:
+ROI = (516,000 – 243,200)/243,200 x 100%
+= 112% 
+Maka, Proyek Erika memiliki 112% pengembalian investasi setelah proyek selesai.
+ROI sebesar 112 persen adalah nilai yang luar biasa.
+SOFIAUMAROH
+3. Payback Period
+Menghitung waktu pengembalian
+investasi
+•
+Payback terjadi ketika manfaat kumulatif
+bersih sama dengan biaya kumulatif
+bersih atau
+•
+Ketika manfaat kumulatif bersih dikurangi
+biaya kumulatif bersih sama dengan nol
+SOFIAUMAROH
+Kapan payback proyek
+Erica?
+Items
+Komulatif
+Discount rate: 8%
+Menghitung Payback Berdasarkan NPV
+Tahun 0
+Tahun 1
+Tahun 2
+Tahun 3
+Discount factor
+Costs
+260.000
+140.000
+40.000
+40.000
+40.000
+Benefits
+Discounted costs
+Discounted benefits
+Discount factor
+600.000
+0
+200.000
+200.000
+200.000
+1
+0.93
+0.86
+0.79
+1
+0.93
+0.86
+0.79
+243.200 
+140.000
+37.200
+34.400 
+31.600 
+516.000
+0
+186.000
+172.000
+158.000
+Cumulative benefits - cost
+Discounted benefits - cost
+-140.000
+148.800
+137.600
+126.400
+-140.000
+8.800
+146.600
+272.800
+Pengembalian investasi terjadi
+di tahun 1 sebesar $8.800
+SOFIAUMAROH
+Kapan payback proyek
+Erica?
+Discount rate: 8%
+Menghitung Payback Berdasarkan NPV
+Pengembalian investasi terjadi
+di tahun 1 sebesar $8.800
+Thank you!
+Have a 
+great day 
+ahead.
+SOFIAUMAROH

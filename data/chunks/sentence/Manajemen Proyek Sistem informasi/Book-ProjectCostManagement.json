@@ -1,0 +1,668 @@
+{
+  "filename": "Book-ProjectCostManagement.txt",
+  "matkul": "Manajemen Proyek Sistem informasi",
+  "teknik": "sentence",
+  "total_chunks": 132,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 960,
+      "text": "C H A P T E R7\nPROJECT COST\nMANAGEMENT\nL E A R N I N G O B J E C T I V E S\nAfter reading this chapter, you will be able to:\nr\n\nr\n&\nDPODFQUT\nBOEUFSNT\nr\n%\nr\n%\nr\n\n*5\nQSPKFDU\nr\n\nr\n%\nNBOBHFNFOU\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n$IBQUFS\n264\nO P E N I N G C A S E\nJuan Gonzales was a systems analyst and network specialist for the waterworks depart-\nment of a major Mexican city.\n\nHe enjoyed helping the city develop its infrastructure.\n\n\nHis next career objective was to become a project manager so he could have even more\ninfluence."
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 790,
+      "text": "He enjoyed helping the city develop its infrastructure.\n\n\nHis next career objective was to become a project manager so he could have even more\ninfluence.\n\nOne of his colleagues invited him to attend an important project review meet-\ning for large government projects, including the Surveyor Pro project, in which Juan was\nmost interested.\n\nThe Surveyor Pro project was a concept for developing a sophisticated\ninformation system that included expert systems, object-oriented databases, and wire-\nless communications.\n\nThe system would provide instant, graphical information to help\ngovernment surveyors do their jobs.\n\nFor example, after a surveyor touched a map on the\nscreen of a handheld device, the system would prompt the surveyor to enter the type of\ninformation needed for that area."
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 822,
+      "text": "For example, after a surveyor touched a map on the\nscreen of a handheld device, the system would prompt the surveyor to enter the type of\ninformation needed for that area.\n\nThis system would help in planning and implementing\nmany projects, from laying fiber-optic cable to installing water lines.\nJuan was very surprised, however, that the majority of the meeting was spent dis-\ncussing cost-related issues.\n\nThe government officials were reviewing many existing pro-\njects to evaluate their performance and the potential impact on the government's budget\nbefore discussing funding for any new projects.\n\nJuan did not understand many of the\nterms and charts being presented.\n\nWhat was this \"earned value\" they kept referring to?\n\n\nHow were they estimating what it would cost to complete projects or how long it would\ntake?"
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 914,
+      "text": "What was this \"earned value\" they kept referring to?\n\n\nHow were they estimating what it would cost to complete projects or how long it would\ntake?\n\nJuan thought he would learn more about the new technologies the Surveyor Pro\nproject would use, but he discovered that the cost estimates and projected benefits were\nof most interest to the government officials at the meeting.\n\nIt also seemed that consider-\nable effort would go toward detailed financial studies before any technical work could\neven start.\n\nJuan wished he had taken some accounting and finance courses so he could\nunderstand the acronyms and concepts people were discussing.\n\nAlthough Juan had a\ndegree in electrical engineering, he had no formal education in finance and little experi-\nence with it.\n\nHowever, if Juan could understand information systems and networks, he\nwas confident that he could understand financial issues on projects as well."
+    },
+    {
+      "index": 5,
+      "panjang_karakter": 792,
+      "text": "However, if Juan could understand information systems and networks, he\nwas confident that he could understand financial issues on projects as well.\n\nHe jotted\ndown questions to discuss with his colleagues after the meeting.\n7.1 THE IMPORTANCE OF PROJECT COST MANAGEMENT\nIT projects have a poor track record in meeting budget goals.\n\nA 2011 study published in the\nHarvard Business Review examined IT change initiatives in almost 1,500 projects and re-\nported an average cost overrun of 27 percent.\n\nCost overrun is the additional percentage or\ndollar amount by which actual costs exceed estimates.\n\nThe study was considered the largest\never to analyze IT projects.\n\nThe projects ranged from enterprise resource planning to man-\nagement information and customer relationship management systems."
+    },
+    {
+      "index": 6,
+      "panjang_karakter": 993,
+      "text": "The study was considered the largest\never to analyze IT projects.\n\nThe projects ranged from enterprise resource planning to man-\nagement information and customer relationship management systems.\n\nMost projects incurred\nhigh expenses, with an average cost of $167 million; the largest project cost $33 billion.1\nThe most important finding in the study, however, was the discovery of a large num-\nber of gigantic overages when analyzing the project overrun data.\n\nOne in six of all projects\nstudied contained a \"black swan\": a high-impact event that is rare and unpredictable, but\nnot improbable in retrospect.\n\nThese IT black swan projects had an average cost overrun\nof 200 percent and a schedule overrun of almost 70 percent.\n\n\"This highlights the true pit-\nfall of IT change initiatives: It's not that they're particularly prone to high cost overruns\non average, as management consultants and academic studies have previously suggested.\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved."
+    },
+    {
+      "index": 7,
+      "panjang_karakter": 998,
+      "text": "All Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n1SPKFDU$PTU.BOBHFNFOU\n265\nIt's that an unusually large proportion of them incur massive overages-that is, there are\na disproportionate number of black swans.\n\nBy focusing on averages instead of the more\ndamaging outliers, most managers and consultants have been missing the real problem.\"2\nObviously, IT projects have room for improvement in meeting cost goals.\n\nThis chapter de-\nscribes important concepts in project cost management, particularly planning cost management,\ncreating good estimates, and using earned value management (EVM) to assist in cost control."
+    },
+    {
+      "index": 8,
+      "panjang_karakter": 892,
+      "text": "W H A T W E N T W R O N G ?\nThe United Kingdom's National Health Service (NHS) IT modernization program was\ncalled \"the greatest IT disaster in history\" by one London columnist.\n\nThis 10-year pro-\ngram, which started in 2002, was created to provide an electronic patient records system,\nappointment booking, and a prescription drug system in England and Wales.\n\nBritain's\nLabor government estimates that the program will eventually cost more than $55 bil-\nlion, a $26 billion overrun.\n\nThe program has been plagued by technical problems due to\nincompatible systems, resistance from physicians who say they were not adequately con-\nsulted about system features, and arguments among contractors about who's responsible\nfor what.3 A government audit in June 2006 found that the program, one of the largest\ncivilian IT projects undertaken worldwide, was progressing despite high-profile problems."
+    },
+    {
+      "index": 9,
+      "panjang_karakter": 898,
+      "text": "In an effort to reduce cost overruns, the NHS program would no longer pay for products\nuntil delivery, shifting some financial responsibility to prime contractors, including BT\nGroup, Accenture, and Fujitsu Services.4 On September 22, 2011, government officials\nin the United Kingdom announced that they were scrapping the National Programme for\nHealth IT.\n\nHealth Secretary Andrew Lansley said that the program \"let down the NHS and\nwasted taxpayers' money.\"5\n7.1a What Is Cost?\n\n\nA popular cost accounting textbook states, \"Accountants usually define cost as a resource\nsacrificed or foregone to achieve a specific objective.\"6 Webster's dictionary defines cost as\n\"something given up in exchange.\"\n\nCosts are often measured in monetary amounts, such\nas dollars, that must be paid to acquire goods and services.\n\n(For convenience, the exam-\nples in this chapter use dollars for monetary amounts.)"
+    },
+    {
+      "index": 10,
+      "panjang_karakter": 939,
+      "text": "Costs are often measured in monetary amounts, such\nas dollars, that must be paid to acquire goods and services.\n\n(For convenience, the exam-\nples in this chapter use dollars for monetary amounts.)\n\nBecause projects cost money and\nconsume resources that could be used elsewhere, it is very important for project managers\nto understand project cost management.\nMany IT professionals, however, often react to cost overrun information with a smirk.\nThey know that many of the original cost estimates for IT projects are low or based on\nunclear project requirements, so naturally there will be cost overruns.\n\nNot emphasizing\nthe importance of realistic project cost estimates from the outset is only one part of the\nproblem.\n\nIn addition, many IT professionals think that preparing cost estimates is a job for\naccountants.\n\nOn the contrary, preparing good cost estimates is a demanding, important\nskill that many professionals need to acquire."
+    },
+    {
+      "index": 11,
+      "panjang_karakter": 792,
+      "text": "On the contrary, preparing good cost estimates is a demanding, important\nskill that many professionals need to acquire.\n\n\nAnother perceived reason for cost overruns is that many IT projects involve new tech-\nnology or business processes.\n\nAny new technology or business process is untested and has\ninherent risks.\n\nThus, costs grow and failures are to be expected, right?\n\nWrong.\n\nUsing good\nproject cost management can change this false perception.\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience."
+    },
+    {
+      "index": 12,
+      "panjang_karakter": 911,
+      "text": "Editorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n$IBQUFS\n266\n7.1b What Is Project Cost Management?\nRecall from Chapter 1 that the triple constraint of project management involves balancing\nscope, time, and cost goals.\n\nChapters 5 and 6 discuss project scope and time management,\nand this chapter describes project cost management.\n\nProject cost management includes\nthe processes required to ensure that a project team completes a project within an ap-\nproved budget.\n\nNotice two crucial phrases in this definition: \"a project\" and \"approved\nbudget.\"\n\nProject managers must make sure their projects are well defined, have accurate\ntime and cost estimates, and have a realistic budget that they were involved in approving."
+    },
+    {
+      "index": 13,
+      "panjang_karakter": 983,
+      "text": "Project managers must make sure their projects are well defined, have accurate\ntime and cost estimates, and have a realistic budget that they were involved in approving.\n\n\nIt is the project manager's job to satisfy project stakeholders while continuously striv-\ning to reduce and control costs.\n\nThere are four processes for project cost management:\n1. Planning cost management involves determining the policies, procedures,\nand documentation that will be used for planning, executing, and controlling\nproject cost.\n\nThe main output of this process is a cost management plan.\n2. Estimating costs involves developing an approximation or estimate of the\ncosts of the resources needed to complete a project.\n\nThe main outputs of the\ncost estimating process are activity cost estimates, basis of estimates, and\nproject documents updates.\n3. Determining the budget involves allocating the overall cost estimate to in-\ndividual work items to establish a baseline for measuring performance."
+    },
+    {
+      "index": 14,
+      "panjang_karakter": 994,
+      "text": "The\nmain outputs of the cost budgeting process are a cost baseline, project fund-\ning requirements, and project documents updates.\n4. Controlling costs involves controlling changes to the project budget.\n\nThe\nmain outputs of the cost control process are work performance information,\ncost forecasts, change requests, project management plan updates, project\ndocuments updates, and organizational process assets updates.\nFigure 7-1 summarizes these processes and outputs, showing when they occur in a\ntypical project.\n\n\nTo understand each of the project cost management processes, you must first under-\nstand the basic principles of cost management.\n\nMany of these principles are not unique to\nproject management; however, project managers need to understand how these principles\nrelate to their specific projects.\n7.2 BASIC PRINCIPLES OF COST MANAGEMENT\nMany IT projects are never initiated because IT professionals do not understand the impor-\ntance of basic accounting and finance principles."
+    },
+    {
+      "index": 15,
+      "panjang_karakter": 966,
+      "text": "Important concepts such as net present\nvalue analysis, return on investment, and payback analysis were discussed in Chapter 4,\nProject Integration Management.\n\nLikewise, many projects that are started never finish\nbecause of cost management problems.\n\nMost members of an executive board have a better\nunderstanding of financial terms than IT terms, and are more interested in finance.\n\nThere-\nfore, IT project managers need to be able to present and discuss project information both\nin financial terms and technical terms.\n\nIn addition to net present value analysis, return on\ninvestment, and payback analysis, project managers must understand several other cost\nmanagement principles, concepts, and terms.\n\nThis section describes general topics such\nas profits, life cycle costing, cash flow analysis, tangible and intangible costs and benefits,\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part."
+    },
+    {
+      "index": 16,
+      "panjang_karakter": 903,
+      "text": "All Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n1SPKFDU$PTU.BOBHFNFOU\n\ndirect costs, sunk costs, learning curve theory, and reserves.\n\nAnother important topic-\nearned value management-is one of the key tools and techniques for controlling project\ncosts; it is described in detail in the section on cost control.\nProfits are revenues minus expenditures.\n\nTo increase profits, a company can increase\nrevenues, decrease expenses, or try to do both.\n\nMost executives are more concerned with\nprofits than with other issues."
+    },
+    {
+      "index": 17,
+      "panjang_karakter": 947,
+      "text": "To increase profits, a company can increase\nrevenues, decrease expenses, or try to do both.\n\nMost executives are more concerned with\nprofits than with other issues.\n\nWhen justifying investments in new information systems\nand technology, it is important to focus on the impact on profits, not just revenues or\nexpenses.\n\nConsider an e-commerce application that you estimate will increase revenues\nfor a $100 million company by 10 percent.\n\nYou cannot measure the potential benefits of\nthe application without knowing the profit margin.\n\nProfit margin is the ratio of profits to\nrevenues.\n\nIf revenues of $100 generate $2 in profits, there is a 2 percent profit margin.\n\nIf\nthe company loses $2 for every $100 in revenue, there is a 22 percent profit margin.\nLife cycle costing provides a big-picture view of the cost of a project throughout its\nlife cycle.\n\nThis helps you develop an accurate projection of a project's financial costs and\nbenefits."
+    },
+    {
+      "index": 18,
+      "panjang_karakter": 959,
+      "text": "This helps you develop an accurate projection of a project's financial costs and\nbenefits.\n\nLife cycle costing considers the total cost of ownership, or development plus\nsupport costs, for a project.\n\nFor example, a company might complete a project to develop\nand implement a new customer service system in 1 or 2 years, but the new system could\nbe in place for 10 years.\n\nProject managers, with assistance from financial experts in their\norganizations, should create estimates of the costs and benefits of the project for its entire\nlife cycle (10 years in the preceding example).\n\nRecall from Chapter 4 that the net present\nvalue analysis for the project would include the entire 10-year period of costs and ben-\nefits.\n\nTop management and project managers need to consider the life cycle costs of proj-\nects when they make financial decisions.\nFIGURE 7-1\nPlanning\nProcess: Plan cost management\nOutputs: Cost management plan\nProcess: Estimate costs\nOutputs:"
+    },
+    {
+      "index": 19,
+      "panjang_karakter": 790,
+      "text": "Activity cost estimates, basis of estimates, project documents\n\nupdates\nProcess: Determine budget\nOutputs: Cost baseline, project funding requirements, project\n\ndocuments updates\n\nProject Start\nProject Finish\nMonitoring and Controlling\nProcess: Control costs\nOutputs: Work performance information, cost forecasts, change requests,\n\nproject management plan updates, project documents updates,\n\norganizational process assets updates\n¥$FOHBHF-FBSOJOH\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience."
+    },
+    {
+      "index": 20,
+      "panjang_karakter": 734,
+      "text": "Editorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n$IBQUFS\n268\nM E D I A S N A P S H O T\nA primary goal of many projects is to achieve some type of financial benefits, measured\nusing life cycle costing.\n\nProject success criteria often include reaching a certain return on\ninvestment (ROI) over the life cycle.\n\nYou cannot measure ROI for projects if you do not\nhave a benefits measurement process in place.\n\nHow do you know if you earned or saved\na certain amount each year after the project was completed if you do not have a way to\nmeasure it?"
+    },
+    {
+      "index": 21,
+      "panjang_karakter": 897,
+      "text": "According to a 2015 report by PMI:\nt\nMany organizations do not have a benefits measurement process at all.\nt\nOnly twenty percent of organizations report having a high level of benefits\nrealization maturity.\nt\nThirty-nine percent of high-performing organizations report high benefits\nrealization maturity compared to nine percent of low performers.\n\"Organizations with mature benefits realization processes can benefit from:\nt\nClearly identifying the strategic rewards prior to starting a project\nt\nEffectively assessing and monitoring risks to project success\nt\nProactively planning for making necessary changes in the organization\nt\nExplicitly defining accountability for project success\nt\nRoutinely extending responsibility for integration to the project team.\"7\nOrganizations have a history of not spending enough money in the early phases of\nIT projects, which affects total cost of ownership."
+    },
+    {
+      "index": 22,
+      "panjang_karakter": 188,
+      "text": "For example, it is much more cost-\neffective to spend money on defining user requirements and doing early testing on IT proj-\nects than to wait for problems to appear after implementation."
+    },
+    {
+      "index": 23,
+      "panjang_karakter": 953,
+      "text": "Recall from Chapter 5 that\ncorrecting a software defect late in a project costs much more than fixing the defect early.\nBecause organizations depend on reliable IT, huge costs are associated with downtime.\nt\nWhen Facebook was down for 20 minutes on September 3, 2014, they lost\na little more than $22,453 for every minute or more than $500,000.8\nt\nOn August 19, 2013, Amazon.com went down for about 30 minutes, costing\nthem $66,240 per minute or nearly $2 million.9\nt\nFor Fortune 1000 companies, the average cost of an infrastructure failure\nis $100,000 per hour; the average cost of a critical application failure is\n$500,000 to $1 million per hour, or $8,300 to $16,600 per minute.10\nt\nIn 2014, the average annual cost of unplanned application downtime in\nFortune 1000 companies was $1.25 billion to $2.5 billion.11\nW H A T W E N T R I G H T ?\nAn important cost-cutting strategy has been inspired by the global emphasis on improv-\ning the environment."
+    },
+    {
+      "index": 24,
+      "panjang_karakter": 937,
+      "text": "Investing in green IT and other initiatives has helped both the envi-\nronment and companies' bottom lines.\n\nMichael Dell, CEO of Dell, said he aimed to make\ncontinued\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n1SPKFDU$PTU.BOBHFNFOU\n269\nCash flow analysis is a method for determining the estimated annual costs and benefits\nfor a project and the resulting annual cash flow.\n\nProject managers must conduct cash flow\nanalysis to determine net present value.\n\nMost consumers understand the basic concept of\ncash flow:"
+    },
+    {
+      "index": 25,
+      "panjang_karakter": 993,
+      "text": "Project managers must conduct cash flow\nanalysis to determine net present value.\n\nMost consumers understand the basic concept of\ncash flow:\n\nIf they do not have enough money in their wallets or bank accounts, they can-\nnot purchase something.\n\nTop management must consider cash flow concerns when select-\ning projects in which to invest.\n\nIf top management selects too many projects that have high\ncash flow needs in the same year, the company will not be able to support all of its projects\nand maintain its profitability.\n\nIt is also important to clarify the year used to analyze dollar\namounts.\n\nFor example, if a company bases all costs on 2012 estimates, it would need to\naccount for inflation and other factors when projecting costs and benefits in future-year dollars.\nTangible and intangible costs and benefits are categories for determining how well an\norganization can define the estimated costs and benefits for a project.\n\nTangible costs or\nbenefits are easy to measure in dollars."
+    },
+    {
+      "index": 26,
+      "panjang_karakter": 932,
+      "text": "Tangible costs or\nbenefits are easy to measure in dollars.\n\nFor example, suppose that the Surveyor Pro proj-\nect described in the chapter's opening case included a preliminary feasibility study.\n\nIf a\ncompany completed this study for $100,000, its tangible cost is $100,000.\n\nIf a government\nagency estimated that it could have done the study for $150,000, the tangible benefits of\nthe study would be $50,000 to the government: It could pay for the study and then assign\nthe government workers who would have done the study to other projects.\n\n\nIn contrast, intangible costs or benefits are difficult to measure in dollars.\n\nSuppose\nthat Juan and a few other people spent their own personal time using government-owned\ncomputers, books, and other resources to research areas related to the study.\n\nAlthough\ntheir hours and the government-owned materials would not be billed to the project, they\ncould be considered intangible costs."
+    },
+    {
+      "index": 27,
+      "panjang_karakter": 981,
+      "text": "Although\ntheir hours and the government-owned materials would not be billed to the project, they\ncould be considered intangible costs.\n\nIntangible benefits for projects often include items\nlike goodwill, prestige, and general statements of improved productivity that an organiza-\ntion cannot easily translate into dollar amounts.\n\nBecause intangible costs and benefits are\ndifficult to quantify, they are often harder to justify.\nDirect costs can be directly related to creating the products and services of the proj-\nect.\n\nYou can attribute direct costs to a particular project.\n\nFor example, direct costs include\nhis company \"carbon neutral\" in 2008.\n\n\"The computer giant is looking to zero-out\nits carbon emissions through a number of initiatives, such as offering small busi-\nnesses and consumers curbside recycling of their old computers, stuffing small re-\ncycling bags with free postage into new printer-ink cartridge boxes, and operating a\n'Plant a Tree for Me' program.\"12"
+    },
+    {
+      "index": 28,
+      "panjang_karakter": 931,
+      "text": "Dell did reach his goal; as of March 2012, Dell had\nhelped its customers save almost $7 billion in energy costs.\n\n\nDell continues to practice corporate responsibility by helping the environ-\nment.\n\nIn 2014, they reported the following progress:\nt\nRecovered 230.9 million pounds of used electronics and are on track to\nreach our goal of 2 billion pounds by 2020\nt\nReduced the average energy intensity of our product line by 23.2 percent\ncompared to FY12\nt\nDecreased operational emissions by 10 percent\nt\nUsed more than 10 million pounds of post-consumer recycled plastics\nin our products13\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience."
+    },
+    {
+      "index": 29,
+      "panjang_karakter": 942,
+      "text": "Editorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n$IBQUFS\n\nthe salaries of people working full time on the project and the cost of hardware and soft-\nware purchased specifically for the project.\n\nProject managers should focus on direct costs\nbecause they can be controlled.\nIndirect costs are not directly related to the products or services of the project, but\nare indirectly related to performing work on the project.\n\nFor example, indirect costs would\ninclude the cost of electricity, paper towels, and other necessities in a large building that\nhouses 1,000 employees who work on many projects.\n\nIndirect costs are allocated to\nprojects, and project managers have very little control over them.\n\n\nSunk cost is money that has been spent in the past."
+    },
+    {
+      "index": 30,
+      "panjang_karakter": 963,
+      "text": "Indirect costs are allocated to\nprojects, and project managers have very little control over them.\n\n\nSunk cost is money that has been spent in the past.\n\nConsider it gone, like a sunken\nship that can never be raised.\n\nWhen deciding what projects to invest in or continue, you\nshould not include sunk costs.\n\nFor example, in the chapter's opening case, suppose that\nJuan's office had spent $1 million on a project over the past three years to create a geo-\ngraphic information system, but had never produced anything valuable.\n\nIf his government\nwere evaluating what projects to fund next year and an official suggested continuing to\nfund the geographic information system project because $1 million had been spent on it\nalready, the official would incorrectly be making sunk cost a key factor in the project se-\nlection decision.\n\nMany people fall into the trap of continuing to spend money on a failing\nproject because so much money has been spent on it already."
+    },
+    {
+      "index": 31,
+      "panjang_karakter": 958,
+      "text": "Many people fall into the trap of continuing to spend money on a failing\nproject because so much money has been spent on it already.\n\nThis trap is similar to gam-\nblers who continue betting because they have already lost money.\n\nSunk costs should be\nforgotten, even though it is often difficult to think that way.\n\n\nLearning curve theory states that when many items are produced repetitively, the\nunit cost of those items decreases in a regular pattern as more units are produced.\n\nFor\nexample, suppose that the Surveyor Pro project would potentially produce 1,000 handheld\ndevices that could run the new software and access information via satellite.\n\nThe cost of\nthe first handheld unit would be much higher than the cost of the thousandth unit.\n\nLearn-\ning curve theory can help estimate costs on projects that involve the production of large\nquantities of items.\n\n\nLearning curve theory also applies to the amount of time required to complete some\ntasks."
+    },
+    {
+      "index": 32,
+      "panjang_karakter": 942,
+      "text": "Learning curve theory also applies to the amount of time required to complete some\ntasks.\n\nFor example, the first time a new employee performs a specific task, it will probably\ntake longer than the tenth time that employee performs a very similar task.\n\nEffort esti-\nmates, therefore, should be lower for more experienced workers.\n\n\nReserves are dollar amounts included in a cost estimate to mitigate cost risk by allow-\ning for future situations that are difficult to predict.\n\nContingency reserves allow for future\nsituations that may be partially planned for (sometimes called known unknowns) and are\nincluded in the project cost baseline.\n\nFor example, if an organization knows it has a 20\npercent rate of turnover for IT personnel, it should include contingency reserves to pay\nfor recruiting and training costs of IT personnel.\n\nManagement reserves allow for future\nsituations that are unpredictable (sometimes called unknown unknowns)."
+    },
+    {
+      "index": 33,
+      "panjang_karakter": 902,
+      "text": "Management reserves allow for future\nsituations that are unpredictable (sometimes called unknown unknowns).\n\nFor example,\nif a project manager gets sick for two weeks or an important supplier goes out of business,\nmanagement reserve could be set aside to cover the resulting costs.\n\nManagement reserves\nare not included in a cost baseline, as you will learn later in this chapter.\n7.3 PLANNING COST MANAGEMENT\nThe first step in project cost management is planning how the costs will be managed\nthroughout the life of the project.\n\nProject costs, like project schedules, grow out of the\nbasic documents that initiate a project, like the project charter.\n\nThe project manager and\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s)."
+    },
+    {
+      "index": 34,
+      "panjang_karakter": 974,
+      "text": "All Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n૪ᕪᜰധጱ֕ဌԾኞձ֜հ꧊ጱ᰸ࣁᬰᤈᬟᒽ෸ײଫᧆᘍᡤࣁଫᧆࢩԅ૪ᕪԧဃဌᜰᩇ੪ᖀ\n\n,\n\n,\n\n,\n,\n\n,\n\n1SPKFDU$PTU.BOBHFNFOU\n\nother stakeholders use expert judgment, analytical techniques, and meetings to produce\nthe cost management plan.\n\n\nThe cost management plan, like the scope and schedule management plans, can be\ninformal and broad or formal and detailed, based on the needs of the project.\n\nIn general, a\ncost management plan includes the following information:\nt\nLevel of accuracy:\n\nActivity cost estimates normally have rounding guidelines,\nsuch as rounding to the nearest $100."
+    },
+    {
+      "index": 35,
+      "panjang_karakter": 960,
+      "text": "In general, a\ncost management plan includes the following information:\nt\nLevel of accuracy:\n\nActivity cost estimates normally have rounding guidelines,\nsuch as rounding to the nearest $100.\n\nThere may also be guidelines for the\namount of contingency funds to include, such as 10 or 20 percent.\nt\nUnits of measure: Each unit used in cost measurements, such as labor hours\nor days, should be defined.\nt\nOrganizational procedures links:\n\nMany organizations refer to the work\nbreakdown structure (WBS) component used for project cost accounting as\nthe control account (CA).\n\nEach control account is often assigned a unique\ncode that is used in the organization's accounting system.\n\nProject teams must\nunderstand and use these codes properly.\nt\nControl thresholds: Similar to schedule variance, costs often have a specified\namount of variation allowed before action needs to be taken, such as ±10 per-\ncent of the baseline cost.\nt\nRules of performance measurement:"
+    },
+    {
+      "index": 36,
+      "panjang_karakter": 921,
+      "text": "If the project uses earned value man-\nagement (EVM), as described later in this chapter, the cost management\nplan would define measurement rules, such as how often actual costs will be\ntracked and to what level of detail.\nt\nReporting formats:\n\nThis section would describe the format and frequency of\ncost reports required for the project.\nt\nProcess descriptions:\n\nThe cost management plan would also describe how to\nperform all of the cost management processes.\n7.4 ESTIMATING COSTS\nProject managers must take cost estimates seriously if they want to complete projects\nwithin budget constraints.\n\nAfter developing a good resource requirements list, project\nmanagers and their project teams must develop several estimates of the costs for these\nresources.\n\nRecall from Chapter 6 that an important process in project time management is\nestimating activity resources, which provides a list of activity resource requirements."
+    },
+    {
+      "index": 37,
+      "panjang_karakter": 968,
+      "text": "Recall from Chapter 6 that an important process in project time management is\nestimating activity resources, which provides a list of activity resource requirements.\n\nFor\nexample, if an activity for a project is to perform a particular type of test, the list of activ-\nity resource requirements would describe the skill level of the people needed to perform\nthe test, the number of people and hours suggested to perform the test, the need for spe-\ncial software or equipment, and other requirements.\n\nAll of this information is required to\ndevelop a good cost estimate.\n\nThis section describes various types of cost estimates, tools\nand techniques for estimating costs, typical problems associated with IT cost estimates,\nand a detailed example of a cost estimate for an IT project.\n7.4a Types of Cost Estimates\nOne of the main outputs of project cost management is a cost estimate.\n\nProject managers\nnormally prepare several types of cost estimates for most projects."
+    },
+    {
+      "index": 38,
+      "panjang_karakter": 921,
+      "text": "Project managers\nnormally prepare several types of cost estimates for most projects.\n\nThree basic types of\nestimates include the following:\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n\n,\n\n$IBQUFS\n\nt\nA rough order of magnitude (ROM) estimate provides an estimate of what a\nproject will cost.\n\nA ROM estimate can also be referred to as a ballpark estimate,\na guesstimate, a swag, or a broad gauge.\n\nThis type of estimate is done very early\nin a project or even before a project is officially started."
+    },
+    {
+      "index": 39,
+      "panjang_karakter": 942,
+      "text": "This type of estimate is done very early\nin a project or even before a project is officially started.\n\nProject managers and\ntop management use this estimate to help make project selection decisions.\n\nThe\ntime frame for this type of estimate is often three or more years prior to project\ncompletion.\n\nA ROM estimate's accuracy is typically -50 percent to +100 percent,\nmeaning the project's actual costs could be 50 percent below the ROM estimate\nor 100 percent above.\n\nFor example, the actual cost for a project with a ROM\nestimate of $100,000 could range from $50,000 to $200,000.\n\nFor IT project esti-\nmates, this accuracy range is often much wider.\n\nMany IT professionals automati-\ncally double estimates for software development because of the history of cost\noverruns on IT projects.\nt\nA budgetary estimate is used to allocate money into an organization's bud-\nget.\n\nMany organizations develop budgets at least two years into the future."
+    },
+    {
+      "index": 40,
+      "panjang_karakter": 926,
+      "text": "Many organizations develop budgets at least two years into the future.\n\n\nBudgetary estimates are made one to two years prior to project completion.\nThe accuracy of budgetary estimates is typically -10 percent to +25 percent,\nmeaning the actual costs could be 10 percent less or 25 percent more than\nthe budgetary estimate.\n\nFor example, the actual cost for a project with a bud-\ngetary estimate of $100,000 could range from $90,000 to $125,000.\nt\nA definitive estimate provides an accurate estimate of project costs.\n\nDefini-\ntive estimates are used for making many purchasing decisions for which\naccurate estimates are required and for estimating final project costs.\n\nFor\nexample, if a project involves purchasing 1,000 personal computers from an\noutside supplier in the next three months, a definitive estimate would be re-\nquired to aid in evaluating supplier proposals and allocating the funds to pay\nthe chosen supplier."
+    },
+    {
+      "index": 41,
+      "panjang_karakter": 456,
+      "text": "Definitive estimates are made one year or less prior to\nproject completion.\n\nA definitive estimate should be the most accurate of the\nthree types of estimates.\n\nThe accuracy of this type of estimate is normally -5\npercent to +10 percent, meaning the actual costs could be 5 percent less or\n10 percent more than the definitive estimate.\n\nFor example, the actual cost\nfor a project with a definitive estimate of $100,000 could range from $95,000\nto $110,000."
+    },
+    {
+      "index": 42,
+      "panjang_karakter": 1000,
+      "text": "For example, the actual cost\nfor a project with a definitive estimate of $100,000 could range from $95,000\nto $110,000.\n\nTable 7-1 summarizes the three basic types of cost estimates.\nTABLE 7-1 5ZQFTPGDPTUFTUJNBUFT\nType of Estimate\nWhen Done\nWhy Done\nHow Accurate\nRough order of\nmagnitude (ROM)\nVery early in the project life\ncycle, often 3-5 years before\nproject completion\nProvides estimate of cost for\nselection decisions\n-50% to +100%\nBudgetary\nEarly, 1-2 years out\nPuts dollars in the budget\nplans\n-10% to +25%\nDefinitive\nLater in the project, less than\n1 year out\nProvides details for\npurchases, estimates\nactual costs\n-5% to +10%\nCengage Learning 2016\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience."
+    },
+    {
+      "index": 43,
+      "panjang_karakter": 888,
+      "text": "Editorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n1SPKFDU$PTU.BOBHFNFOU\n\nThe number and type of cost estimates vary by application area.\n\nFor example, the\nAssociation for the Advancement of Cost Engineering (AACE) International identifies five\ntypes of cost estimates for construction projects: order of magnitude, conceptual, prelimi-\nnary, definitive, and control.\n\nThe main point is that estimates are usually done at various\nstages of a project and should become more accurate as time progresses.\n\n\nIn addition to creating cost estimates for the entire project and activity cost esti-\nmates, it is also important to provide supporting details for the estimates and updates to\nproject documents."
+    },
+    {
+      "index": 44,
+      "panjang_karakter": 858,
+      "text": "In addition to creating cost estimates for the entire project and activity cost esti-\nmates, it is also important to provide supporting details for the estimates and updates to\nproject documents.\n\nThe supporting details include the ground rules and assumptions used\nin creating the estimate, a description of the project (such as scope statement and WBS)\nused as a basis for the estimate, and details on the cost estimation tools and techniques\nused to create the estimate.\n\nThese supporting details should make it easier to prepare an\nupdated estimate or similar estimate as needed.\nAnother important consideration in preparing cost estimates is labor costs, because a\nlarge percentage of total project costs are often labor costs.\n\nMany organizations estimate\nthe number of people or hours they need by department or skill over the life cycle of a\nproject."
+    },
+    {
+      "index": 45,
+      "panjang_karakter": 608,
+      "text": "Many organizations estimate\nthe number of people or hours they need by department or skill over the life cycle of a\nproject.\n\nFor example, when Northwest Airlines developed initial cost estimates for its res-\nervation system project, ResNet, it determined the maximum number of full-time equiva-\nlent (FTE) staff it could assign to the project each year by department.\n\nTable 7-2 shows\nthis information.\n\nNote the small number of contractors that Northwest Airlines planned\nto use.\n\nLabor costs are often much higher for contractors, so it is important to distinguish\nbetween internal and external resources."
+    },
+    {
+      "index": 46,
+      "panjang_karakter": 694,
+      "text": "Labor costs are often much higher for contractors, so it is important to distinguish\nbetween internal and external resources.\n\n(See the companion website for this text to read\nthe detailed case study on ResNet, including cost estimates.)\nTABLE 7-2 .BYJNVN'5&CZEFQBSUNFOUCZZFBS\nDepartment\nYear 1\nYear 2\nYear 3\nYear 4\nYear 5\nTotals\nInformation systems\n24\n31\n35\n13\n13\n116\nMarketing systems\n3\n3\n3\n3\n3\n15\nReservations\n12\n29\n33\n9\n7\n90\nContractors\n2\n3\n1\n0\n0\n6\nTotals\n41\n66\n72\n25\n23\n227\nCengage Learning 2016\n7.4b Cost Estimation Tools and Techniques\n\n\nAs you can imagine, developing a good cost estimate is difficult.\n\nFortunately, several tools\nand techniques are available to assist in creating one."
+    },
+    {
+      "index": 47,
+      "panjang_karakter": 965,
+      "text": "As you can imagine, developing a good cost estimate is difficult.\n\nFortunately, several tools\nand techniques are available to assist in creating one.\n\nThese tools and techniques include\nexpert judgment, analogous cost estimating, bottom-up estimating, three-point estimating,\nparametric estimating, the cost of quality, project management estimating software, ven-\ndor bid analysis, and reserve analysis.\nAnalogous estimates, also called top-down estimates, use the actual cost of a pre-\nvious, similar project as the basis for estimating the cost of the current project.\n\nThis\ntechnique requires a good deal of expert judgment and is generally less costly than other\ntechniques, but it is also less accurate.\n\nAnalogous estimates are most reliable when the\nprevious projects are similar in fact, not just in appearance.\n\nIn addition, the groups\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part."
+    },
+    {
+      "index": 48,
+      "panjang_karakter": 777,
+      "text": "In addition, the groups\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n$IBQUFS\n\npreparing cost estimates must have the needed expertise to determine whether certain\nparts of the project will be more or less expensive than analogous projects.\n\nFor example,\nestimators often try to find a similar project and then customize or modify it for known\ndifferences."
+    },
+    {
+      "index": 49,
+      "panjang_karakter": 874,
+      "text": "For example,\nestimators often try to find a similar project and then customize or modify it for known\ndifferences.\n\nHowever, if the project to be estimated involves a new programming language\nor working with a new type of hardware or network, the analogous estimate technique\ncould easily result in too low an estimate.\nBottom-up estimates involve estimating the costs of individual work items or activi-\nties and summing them to get a project total.\n\nThis approach is sometimes referred to as\nactivity-based costing.\n\nThe size of the individual work items and the experience of the\nestimators drive the accuracy of the estimates.\n\nIf a detailed WBS is available for a project,\nthe project manager could require each person who is responsible for a work package to\ndevelop a cost estimate for that work package, or at least an estimate of the amount of re-\nsources required."
+    },
+    {
+      "index": 50,
+      "panjang_karakter": 752,
+      "text": "Someone in the financial area of an organization often provides resource\ncost rates, such as labor rates or costs per pound of materials, which can be entered into\nproject management software to calculate costs.\n\nThe software automatically calculates\ninformation to create cost estimates for each level of the WBS and finally for the entire\nproject.\n\nUsing smaller work items increases the accuracy of the cost estimate because the\npeople assigned to do the work develop the cost estimate instead of someone unfamiliar\nwith the work.\n\nThe drawback with bottom-up estimates is that they are usually time-\nintensive and therefore expensive to develop.\nThree-point estimates involve estimating the most likely, optimistic, and pessimistic\ncosts for items."
+    },
+    {
+      "index": 51,
+      "panjang_karakter": 916,
+      "text": "You can use a formula like the PERT weighted average described in\nChapter 6, Project Time Management, to calculate cost estimates or use a Monte Carlo\nsimulation, described in Chapter 11, Project Risk Management.\nParametric estimating uses project characteristics (parameters) in a mathematical\nmodel to estimate project costs.\n\nFor example, a parametric model might provide an es-\ntimate of $50 per line of code for a software development project based on the program-\nming language the project is using, the level of expertise of the programmers, the size and\ncomplexity of the data involved, and so on.\n\nParametric models are most reliable when the\nhistorical information used to create the model is accurate, the parameters are readily\nquantifiable, and the model is flexible in terms of the project's size.\n\nMany projects involv-\ning building construction use parametric estimates based on cost per square foot."
+    },
+    {
+      "index": 52,
+      "panjang_karakter": 685,
+      "text": "Many projects involv-\ning building construction use parametric estimates based on cost per square foot.\n\nThe\ncosts vary based on the quality of construction, location, materials, and other factors.\n\nIn\npractice, many people find that using a combination or hybrid approach with analogous,\nbottom-up, three-point, and parametric estimating provides the best cost estimates.\n\n\nOther considerations when preparing cost estimates are how much to include in re-\nserves, as described earlier; the cost of quality, as described in Chapter 8, Project Quality\nManagement; and other cost estimating methods such as vendor bid analysis, as described\nin Chapter 12, Project Procurement Management."
+    },
+    {
+      "index": 53,
+      "panjang_karakter": 991,
+      "text": "Using software to assist in cost\nestimating is described later in this chapter.\n7.4c Typical Problems with IT Cost Estimates\nAlthough many tools and techniques can assist in creating project cost estimates, many\nIT project cost estimates are still very inaccurate, especially those for new technologies or\nsoftware development.\n\nTom DeMarco, a well-known author on software development, sug-\ngests four reasons for these inaccuracies and some ways to overcome them.14\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n1SPKFDU$PTU.BOBHFNFOU\n\nt\nEstimates are done too quickly."
+    },
+    {
+      "index": 54,
+      "panjang_karakter": 954,
+      "text": "Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n1SPKFDU$PTU.BOBHFNFOU\n\nt\nEstimates are done too quickly.\n\nDeveloping an estimate for a large software\nproject is a complex task that requires significant effort.\n\nMany estimates must\nbe done quickly and before clear system requirements have been produced.\n\nFor\nexample, the Surveyor Pro project described in the opening case involves a lot of\ncomplex software development.\n\nBefore fully understanding what information sur-\nveyors need in the system, someone would have to create a ROM estimate and\nbudgetary estimates for this project.\n\nRarely are the more precise, later cost esti-\nmates less than the earlier estimates for IT projects.\n\nIt is important to remember\nthat estimates are done at various stages of the project, and project managers\nneed to explain the rationale for each estimate.\nt\nPeople lack estimating experience."
+    },
+    {
+      "index": 55,
+      "panjang_karakter": 769,
+      "text": "It is important to remember\nthat estimates are done at various stages of the project, and project managers\nneed to explain the rationale for each estimate.\nt\nPeople lack estimating experience.\n\nThe people who develop software cost\nestimates often do not have much experience with cost estimation, especially\nfor large projects.\n\nThey also do not have enough accurate, reliable project\ndata on which to base estimates.\n\nIf an organization uses good project man-\nagement techniques and develops a history of keeping reliable project infor-\nmation, including estimates, the organization's estimates should improve.\n\n\nEnabling IT people to receive training and mentoring on cost estimating will\nalso improve cost estimates.\nt\nHuman beings are biased toward underestimation."
+    },
+    {
+      "index": 56,
+      "panjang_karakter": 965,
+      "text": "Enabling IT people to receive training and mentoring on cost estimating will\nalso improve cost estimates.\nt\nHuman beings are biased toward underestimation.\n\nFor example, senior IT\nprofessionals or project managers might make estimates based on their own\nabilities and forget that many younger people will be working on a project.\nEstimators might also forget to allow for extra costs needed for integration\nand testing on large IT projects.\n\nIt is important for project managers and top\nmanagement to review estimates and ask important questions to make sure\nthe estimates are not biased.\nt\nManagement desires accuracy.\n\nManagement might ask for an estimate but\nreally want a more accurate number to help them create a bid to win a ma-\njor contract or get internal funding.\n\nThis problem is similar to the situation\ndiscussed in Chapter 6, Project Time Management, in which top managers or\nother stakeholders want project schedules to be shorter than the estimates."
+    },
+    {
+      "index": 57,
+      "panjang_karakter": 918,
+      "text": "This problem is similar to the situation\ndiscussed in Chapter 6, Project Time Management, in which top managers or\nother stakeholders want project schedules to be shorter than the estimates.\n\n\nIt is important for project managers to help develop good cost and schedule\nestimates and to use their leadership and negotiation skills to stand by those\nestimates.\n\n\nIt is also important to be cautious with initial estimates.\n\nTop management never for-\ngets the first estimate and rarely, if ever, remembers how approved changes affect the\nestimate.\n\nIt is a never-ending and crucial process to keep top management informed about\nrevised cost estimates.\n\nIt should be a formal process, albeit a possibly painful one.\n7.4d How to Develop a Cost Estimate\nOne of the best ways to learn how the cost estimating process works is by studying sample\ncost estimates.\n\nEvery cost estimate is unique, just as every project is unique."
+    },
+    {
+      "index": 58,
+      "panjang_karakter": 784,
+      "text": "Every cost estimate is unique, just as every project is unique.\n\nYou can see\na short sample cost estimate in Chapter 3 for JWD Consulting's project management in-\ntranet site project.\n\nYou can also view the ResNet cost estimate on the companion website\nfor this text.\n\n\nThis section includes a step-by-step approach for developing a cost estimate for the\nSurveyor Pro project described in the opening case.\n\nOf course, it is much shorter and\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience."
+    },
+    {
+      "index": 59,
+      "panjang_karakter": 900,
+      "text": "Editorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n$IBQUFS\n\nsimpler than a real cost estimate, but it illustrates a process to follow and uses several of\nthe tools and techniques described earlier.\nBefore beginning a cost estimate, you must gather as much information as possible\nabout the project and ask how the organization plans to use the cost estimate.\n\nIf the cost\nestimate will be the basis for contract awards and performance reporting, it should be a\ndefinitive estimate and as accurate as possible, as described earlier.\n\n\nIt is also important to clarify the ground rules and assumptions for the estimate.\n\nThe\nSurveyor Pro project cost estimate includes the following ground rules and assumptions:\nt"
+    },
+    {
+      "index": 60,
+      "panjang_karakter": 613,
+      "text": "It is also important to clarify the ground rules and assumptions for the estimate.\n\nThe\nSurveyor Pro project cost estimate includes the following ground rules and assumptions:\nt\n\n\nThis project was preceded by a detailed study and proof of concept to show that\nit was possible to develop the hardware and software needed by surveyors and\nlink the new devices to existing information systems.\n\nThe proof of concept proj-\nect produced a prototype handheld device and much of the software to provide\nbasic functionality and link to the Global Positioning System (GPS) and other\ngovernment databases used by surveyors."
+    },
+    {
+      "index": 61,
+      "panjang_karakter": 932,
+      "text": "Some data is available to help estimate\nfuture labor costs, especially for the software development, and to help estimate\nthe cost of the handheld devices.\nt\nThe main goal of this project is to produce 100 handheld devices, continue\ndeveloping the software (especially the user interface), test the new system in\nthe field, and train 100 surveyors in selected cities to use the new system.\n\nA\nfollow-up contract is expected for a much larger number of devices based on\nthe success of this project.\nt\nThe project has the following WBS:\n\n1. Project management\n\n2. Hardware\n\n2.1 Handheld devices\n\n2.2 Servers\n\n3. Software\n\n3.1 Licensed software\n\n3.2 Software development\n\n4. Testing\n\n5. Training and support\n\n6. Reserves\nt\nCosts must be estimated by WBS and by month.\n\nThe project manager will re-\nport progress on the project using earned value analysis, which requires this\ntype of estimate.\nt\nCosts will be provided in U.S. dollars."
+    },
+    {
+      "index": 62,
+      "panjang_karakter": 995,
+      "text": "The project manager will re-\nport progress on the project using earned value analysis, which requires this\ntype of estimate.\nt\nCosts will be provided in U.S. dollars.\n\nBecause the project length is one year,\ninflation will not be included.\nt\nThe project will be managed by the government's project office.\n\nThe project\nwill require a part-time project manager and four team members.\n\nThe team\nmembers will help manage various parts of the project and provide their\nexpertise in the areas of software development, training, and support.\n\nTheir\ntotal hours will be allocated as follows: 25 percent to project management,\n25 percent to software development, 25 percent to training and support, and\n25 percent to non-project work.\nt\nThe project involves purchasing the handheld devices from the same com-\npany that developed the prototype device.\n\nBased on producing 100 devices,\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part."
+    },
+    {
+      "index": 63,
+      "panjang_karakter": 803,
+      "text": "Based on producing 100 devices,\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n1SPKFDU$PTU.BOBHFNFOU\n\nthe cost rate is estimated to be $600 per unit.\n\nThe project will require four\nadditional servers to run the software required for the devices and for manag-\ning the project.\nt\nThe project requires purchased software licenses for accessing the GPS and\nthree other external systems."
+    },
+    {
+      "index": 64,
+      "panjang_karakter": 439,
+      "text": "Software development includes developing a\ngraphical user interface for the devices, an online help system, and a new\nmodule for tracking surveyor performance using the device.\nt\nTesting costs should be low due to the success of the prototype project.\n\nAn\nestimate based on multiplying the total hardware and software estimates by\n10 percent should be sufficient.\nt\nTraining will include instructor-led classes in five different locations."
+    },
+    {
+      "index": 65,
+      "panjang_karakter": 823,
+      "text": "An\nestimate based on multiplying the total hardware and software estimates by\n10 percent should be sufficient.\nt\nTraining will include instructor-led classes in five different locations.\n\nThe\nproject team believes it will be best to outsource most of the training, includ-\ning developing course materials, holding the sessions, and providing help desk\nsupport for three months as the surveyors start using their devices in the field.\nt\nBecause several risks are related to this project, include 20 percent of the\ntotal estimate as reserves.\nt\nYou must develop a computer model for the estimate so that you can easily\nchange several inputs, such as the number of labor hours for various activi-\nties or labor rates.\nFortunately, the project team can easily access cost estimates and actual information\nfrom similar projects."
+    },
+    {
+      "index": 66,
+      "panjang_karakter": 813,
+      "text": "A great deal of information is available from the proof of concept\nproject, and the team can also talk to contractors from the past project to help them de-\nvelop the estimate.\n\nComputer models are also available, such as a software-estimating tool\nbased on function points.\n\nFunction points are a means of measuring software size based\non what the software does for end users.\n\nFunction points are comprised of inputs, outputs,\ninquiries, internal data, and external interface data.\n\nAllen Albrecht initially defined this\nmetric in the 1970s, and today it is the international standard used to measure software\nsize.\n\nIt is the most commonly used software size metric, followed by lines of code.15\nBecause the estimate must be provided by WBS and by month, the team first reviews\na draft of the project schedule."
+    },
+    {
+      "index": 67,
+      "panjang_karakter": 909,
+      "text": "It is the most commonly used software size metric, followed by lines of code.15\nBecause the estimate must be provided by WBS and by month, the team first reviews\na draft of the project schedule.\n\nThe team decides to begin by estimating the cost of each\nWBS item and then determine when the work will be performed, even though costs may\nbe incurred at different times than when the work is performed.\n\nThe team's budget expert\nhas approved this approach for the estimate.\n\nThe team has further assumptions and infor-\nmation for estimating the costs for each WBS category:\n\n1. Project management:\n\nEstimate based on compensation for the part-time\nproject manager and 25 percent of the four team members' time.\n\nThe bud-\nget expert for this project suggested using a labor rate of $100/hour for the\nproject manager and $75/hour for each team member, based on working an\naverage of 160 hours per month, full time."
+    },
+    {
+      "index": 68,
+      "panjang_karakter": 889,
+      "text": "The bud-\nget expert for this project suggested using a labor rate of $100/hour for the\nproject manager and $75/hour for each team member, based on working an\naverage of 160 hours per month, full time.\n\nTherefore, the total hours for the\nproject manager under this category are 960 (160/2 * 12 5 960).\n\nCosts are\nalso included for the four project team members who are each working\n25 percent of their time: a total of 160 hours per month for all project\npersonnel (160 * 12 5 1920).\n\nAn additional amount for all contracted labor\nis estimated by multiplying 10 percent of the total estimates for software\ndevelopment and testing costs (10% * ($594,000 + $69,000)).\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s)."
+    },
+    {
+      "index": 69,
+      "panjang_karakter": 933,
+      "text": "All Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n$IBQUFS\n\n2. Hardware\n\n2.1 Handheld devices: 100 devices estimated by contractor at $600 per\nunit.\n\n2.2 Servers: Four servers estimated at $4,000 each, based on recent server\npurchases.\n\n3. Software\n\n3.1 Licensed software: License costs will be negotiated with each supplier.\nBecause there is a strong probability of large future contracts and great\npublicity if the system works well, costs are expected to be lower than\nusual.\n\nA cost of $200/handheld device will be used.\n\n3.2 Software development:"
+    },
+    {
+      "index": 70,
+      "panjang_karakter": 920,
+      "text": "A cost of $200/handheld device will be used.\n\n3.2 Software development:\n\nThis estimate will include two approaches: a\nlabor estimate and a function point estimate.\n\nThe higher estimate will\nbe used.\n\nIf the estimates differ by more than 20 percent, the project\nwill require a third estimation approach.\n\nThe supplier who developed\nthe proof of concept project will provide the labor estimate input, and\nlocal technical experts will make the function point estimates.\n\n4. Testing:\n\nBased on similar projects, testing will be estimated as 10 percent of\nthe total hardware and software cost.\n\n5. Training and support:\n\nBased on similar projects, training will be estimated\non a per-trainee basis, plus travel costs.\n\nThe cost per trainee (100 total) will\nbe $500, and travel will cost $700/day/person for the instructors and project\nteam members.\n\nThe team estimates that the project will require a total of 12\ntravel days."
+    },
+    {
+      "index": 71,
+      "panjang_karakter": 906,
+      "text": "The team estimates that the project will require a total of 12\ntravel days.\n\nLabor costs for the project team members will be added to this\nestimate because they will assist in training and providing support after the\ntraining.\n\nThe labor hours estimate for team members is 1,920 hours total.\n\n6. Reserves:\n\nAs directed, reserves will be estimated at 20 percent of the total\nestimate.\n\n\nThe project team then develops a cost model using the preceding information.\nFigure 7-2 shows a spreadsheet that summarizes the costs by WBS item.\n\nNotice that the\nWBS items are listed in the first column, and some are broken down into more detail\nbased on how the costs are estimated.\n\nFor example, the project management category is\nbroken down into three subcategories because the project manager, team members, and\ncontractors will each perform project management activities that must be accounted for in\nthe costs."
+    },
+    {
+      "index": 72,
+      "panjang_karakter": 865,
+      "text": "Also notice the columns for entering the number of units or hours and the cost\nper unit or hour.\n\nSeveral items are estimated using this approach.\n\nThe estimate includes\nsome short comments, such as reserves being 20 percent of the total estimate.\n\nAlso notice\nthat you can easily change several input variables, such as number of hours or cost per\nhour, to revise the estimate.\n\n\nThe asterisk by the software development item in Figure 7-2 provides reference for de-\ntailed information on how this more complicated estimate was made.\n\nRecall the assumption\nthat software development must be estimated using two approaches, and that the higher esti-\nmate would be used as long as both estimates differed by no more than 20 percent.\n\nThe labor\nestimate was used in this case because it was slightly higher than the function point estimate\n($594,000 versus $567,000)."
+    },
+    {
+      "index": 73,
+      "panjang_karakter": 974,
+      "text": "The labor\nestimate was used in this case because it was slightly higher than the function point estimate\n($594,000 versus $567,000).\n\nFigure 7-3 shows how the function point estimate was made,\nand the Best Practice feature provides more information on function point estimates.\n\nAs you\ncan see, many assumptions were made in producing the function point estimate.\n\nBy putting\nthe information into a cost model, you can easily change several inputs to adjust the estimate.\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n1SPKFDU$PTU.BOBHFNFOU\n\n# Units/Hrs."
+    },
+    {
+      "index": 74,
+      "panjang_karakter": 981,
+      "text": "Cost/Unit/Hr.\nSubtotals\nWBS Level 2 Totals % of Total\nWBS Items\n1. Project Management\n$306,300\n20%\nProject manager\n$100\n$96,000\nProject team members\n$75\n$144,000\nContractors (10% of software\ndevelopment and testing)\n$66,300\n2. Hardware\n$76,000\n5%\n2.1 Handheld devices\n$600\n$60,000\n2.2 Servers\n$4,000\n$16,000\n3. Software\n$614,000\n40%\n3.1 Licensed software\n$200\n$20,000\n3.2 Software development*\n$594,000\n4. Testing (10% of total hardware\nand software costs)\n$69,000\n$69,000\n5%\n5. Training and Support\n$202,400\n13%\nTrainee cost\n$500\n$50,000\nTravel cost\n$700\n$8,400\nProject team members\n$75\n$144,000\n6. Reserves (20% of total estimate)\n$253,540\n$253,540\n17%\nTotal project cost estimate\n$1,521,240\n*See software development estimate.\n960\n1920\n100\n4\n100\n100\n12\n1920\nSubtotal\n$1,267,700\nSurveyor Pro Project Cost Estimate Created October 5\nFIGURE 7-2\n¥$FOHBHF-FBSOJOH\nFIGURE 7-3\n¥$FOHBHF-FBSOJOH\nSurveyor Pro Software Development Estimate Created October 5\n1. Labor Estimate\n# Units/Hrs."
+    },
+    {
+      "index": 75,
+      "panjang_karakter": 972,
+      "text": "Cost/Unit/Hr. Subtotals\nCalculations\nContractor labor estimate\n3000\n$150\n$450,000\n3000 ! 150\nProject team member estimate\n1920\n$75\n$144,000\n1920 !\n\n75\nTotal labor estimate\n$594,000\n\n\nSum above two values\n2. Function point estimate\nQuantity\nConversion\nFactor\nFunction\nPoints\nCalculations\nExternal inputs\n10\n4\n40\n10 !\n\n4\nExternal interface ﬁles\n3\n7\n21\n3 !\n\n7\nExternal outputs\n4\n5\n20\n4 !\n\n5\nExternal queries\n6\n4\n24\n6 !\n\n4\nLogical internal tables\n7\n10\n70\n7 !10\nTotal function points\n175\n\n\nSum above function point\nvalues\nJava 2 language equivalency\nvalue\n46\nAssumed value from\nreference\nSource lines of code (SLOC) estimate\n8,050\n175 !\n\n46\nProductivity×KSLOC^Penalty\n(in months)\n29.28\n3.13 !\n\n8.05^1.072\n(see reference)\nTotal labor hours\n(27 hours/function point)*\n4,725\n27*175\nCost/labor hour ($120/hour)\n$120\nAssumed value from\nbudget expert\nTotal function point estimate\n$567,000\n4,725 ! 120\n* Based on historical data\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved."
+    },
+    {
+      "index": 76,
+      "panjang_karakter": 986,
+      "text": "All Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n$IBQUFS\n\nB E S T P R A C T I C E\nSoftware expert and author Alvin Alexander shared his knowledge on the challenging\ntopic of estimating software development costs in several presentations and a book called\nCost Estimating in an Agile Development Environment (2015).\n\nAlexander describes how\nto use Function Point Analysis (FPA) techniques based on his personal experience work-\ning on a multimillion dollar software project over five years.\n\n(Recall that function points\nare a means of measuring software size in terms that are meaningful to end users.)"
+    },
+    {
+      "index": 77,
+      "panjang_karakter": 875,
+      "text": "(Recall that function points\nare a means of measuring software size in terms that are meaningful to end users.)\n\nThe\nproject initially used a more traditional, waterfall approach but later moved to a more\nagile approach.\nAlexander explained that at the beginning of the project, when requirements\ndocuments were very long and detailed, the programming work took about three times\nthe amount of time that was required to create the requirements (a ratio of 3:1).\n\nLater\nin the project, after their client trusted them more and actually knew the developers\nby name, the requirements were much shorter (more like user stories), and the ratio of\nprogramming work to requirements work was much higher-6:1 to 9.5:1.\n\nUser stories\ndescribe what users do or need to do as part of their job function, focusing on the \"who,\"\n\"what,\" and \"why\" of a requirement in a simple, concise way."
+    },
+    {
+      "index": 78,
+      "panjang_karakter": 922,
+      "text": "User stories\ndescribe what users do or need to do as part of their job function, focusing on the \"who,\"\n\"what,\" and \"why\" of a requirement in a simple, concise way.\n\nDevelopers can analyze\nuser stories to estimate the number of internal logical files (ILFs)-a group of logically re-\nlated data that resides entirely within the application boundary and is maintained through\nexternal inputs.\n\nYou can then use the ILFs to approximate the number of function points,\nand then multiply by a certain number of hours/function point to estimate the\nperson-hours needed to develop the software.16\nWorld class organizations take about half as long as average organizations (19 versus\n35 hours) to develop one function point.\n\nThey use consistent documentation (for require-\nments, analysis, and use cases), they follow consistent processes for developing software,\nand their technical staff focus on business instead of technology."
+    },
+    {
+      "index": 79,
+      "panjang_karakter": 905,
+      "text": "\"It is impossible to\nseparate world-class organizations from world-class metrics organizations.\"17\nIt is very important to have several people review the project cost estimate.\n\nIt is also\nhelpful to analyze the total dollar value as well as the percentage of the total amount for\neach major WBS category.\n\nFor example, a senior executive could quickly look at the\nSurveyor Pro project cost estimate and decide if the numbers are reasonable and the\nassumptions are well documented.\n\nIn this case, the government had budgeted $1.5 million\nfor the project, so the estimate was in line with that amount.\n\nThe WBS Level 2 items, such\nas project management, hardware, software, and testing, also seemed to be at appropriate\npercentages of the total cost based on similar past projects.\n\nIn some cases, a project team\nmight also be asked to provide a range estimate for each item instead of one discrete\namount."
+    },
+    {
+      "index": 80,
+      "panjang_karakter": 899,
+      "text": "In some cases, a project team\nmight also be asked to provide a range estimate for each item instead of one discrete\namount.\n\nFor example, the team might estimate that the testing costs will be between\n$60,000 and $80,000 and document their assumptions in determining those values.\n\n\nIt is also important to update cost estimates, especially if any major changes occur on\na project.\n\n\nAfter the total cost estimate is approved, the team can then allocate costs for each\nmonth based on the project schedule and when costs will be incurred.\n\nMany organizations\nalso require that the estimated costs be allocated into certain budget categories, as\ndescribed in the next section.\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s)."
+    },
+    {
+      "index": 81,
+      "panjang_karakter": 958,
+      "text": "All Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n1SPKFDU$PTU.BOBHFNFOU\n\n7.5 DETERMINING THE BUDGET\nDetermining the budget involves allocating the project cost estimate to individual mate-\nrial resources or work items over time.\n\nThese material resources or work items are based\non the activities in the work breakdown structure for the project.\n\nThe cost management\nplan, scope baseline, activity cost estimates, basis of estimates, project schedule, resource\ncalendars, risk register, agreements, and organizational process assets are all inputs for\ndetermining the budget."
+    },
+    {
+      "index": 82,
+      "panjang_karakter": 984,
+      "text": "The main goal of the cost budgeting process is to produce a cost\nbaseline for measuring project performance and to determine project funding require-\nments.\n\nThe process may also result in project documents updates, such as items being\nadded, removed, or modified in the scope statement or project schedule.\nThe Surveyor Pro project team would use the cost estimate from Figure 7-2 along with\nthe project schedule and other information to allocate costs for each month.\n\nFigure 7-4\nprovides an example of a cost baseline for this project.\n\nA cost baseline is a time-phased\nbudget that project managers use to measure and monitor cost performance.\n\nAgain, it's\nimportant for team members to document assumptions they made when developing the\ncost baseline and have several experts review it.\n\n\nMost organizations have a well-established process for preparing budgets.\n\nFor example,\nmany organizations require budget estimates to include the number of FTE for each month\nof the project."
+    },
+    {
+      "index": 83,
+      "panjang_karakter": 976,
+      "text": "Most organizations have a well-established process for preparing budgets.\n\nFor example,\nmany organizations require budget estimates to include the number of FTE for each month\nof the project.\n\nOne FTE normally means 40 hours of work.\n\nOne person could be assigned\nfull-time to a project to provide one FTE, or two people could be assigned half-time to pro-\nvide one FTE.\n\nThis number provides the basis for estimating total compensation costs each\nyear.\n\nMany organizations also want to know the amount of money projected to be paid to\nsuppliers for their labor costs or other purchased goods and services.\n\nOther common\nbudget categories include travel, depreciation, rents and leases, and other supplies and ex-\npenses.\n\nIt is important to understand these budget categories before developing an estimate\nto make sure data is collected accordingly.\n\nOrganizations use this information to track costs\nacross projects and non-project work and to look for ways to reduce costs."
+    },
+    {
+      "index": 84,
+      "panjang_karakter": 1211,
+      "text": "They also use the\ninformation for legal and tax purposes.\nFIGURE 7-4\n¥$FOHBHF-FBSOJOH\nWBS Items\n1. Project Management\n1.1 Project manager\n8,000\n8,000\n8,000\n8,000\n8,000\n8,000\n8,000\n8,000\n8,000\n8,000\n8,000\n8,000\n96,000\n1.2 Project team members\n12,000\n12,000\n12,000\n12,000\n12,000\n12,000\n12,000\n12,000\n12,000\n12,000\n12,000\n12,000\n144,000\n1.3 Contractors\n6,027\n6,027\n6,027\n6,027\n6,027\n6,027\n6,027\n6,027\n6,027\n6,027\n6,027\n66,300\n2. Hardware\n2.1 Handheld devices\n30,000\n30,000\n60,000\n2.2 Servers\n8,000\n8,000\n16,000\n3. Software\n3.1 Licensed software\n10,000\n10,000\n20,000\n3.2 Software development\n60,000\n60,000\n80,000 127,000\n127,000\n90,000\n50,000\n594,000\n4. Testing\n6,000\n8,000\n12,000\n15,000\n15,000\n13,000\n69,000\n5. Training and Support\n5.1 Trainee cost\n50,000\n50,000\n5.2 Travel cost\n8,400\n8,400\n5.3 Project team members\n24,000\n24,000\n24,000\n24,000\n24,000\n24,000\n144,000\n6. Reserves\n10,000\n10,000\n30,000\n30,000\n60,000\n40,000\n40,000\n30,000\n3,540\n253,540\nTotals\n20,000\n86,027\n92,027\n172,027 223,027\n198,027\n185,027\n173,027\n148,427\n90,027\n80,027\n53,567\n1,521,240\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\nTotals\n*See the lecture slides for this chapter on the companion website for a larger view of this and other\nﬁgures in this chapter."
+    },
+    {
+      "index": 85,
+      "panjang_karakter": 995,
+      "text": "Numbers are rounded, so some totals appear to be off.\nSurveyor Pro Project Cost Baseline Created October 10*\nMonths\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n$IBQUFS\n282\nIn addition to providing a cost baseline, estimating costs for each major project ac-\ntivity over time provides project managers and top management with a foundation for\nproject cost control, as described in the next section.\n\nCost budgeting, as well as requested\nchanges or clarifications, may result in updates to the cost management plan, which is a\nsubsidiary part of the project management plan."
+    },
+    {
+      "index": 86,
+      "panjang_karakter": 907,
+      "text": "Cost budgeting, as well as requested\nchanges or clarifications, may result in updates to the cost management plan, which is a\nsubsidiary part of the project management plan.\n\nSee Appendix A for information on using\nProject 2013 for cost control.\nCost budgeting also provides information for project funding requirements.\n\nSome\nprojects have all funds available when the project begins, but others must rely on peri-\nodic funding to avoid cash flow problems.\n\nIf the cost baseline shows that more funds are\nrequired in certain months than are expected to be available, the organization must make\nadjustments to avoid financial problems.\n7.6 CONTROLLING COSTS\nControlling project costs includes monitoring cost performance, ensuring that only ap-\npropriate project changes are included in a revised cost baseline, and informing project\nstakeholders of authorized changes to the project that will affect costs."
+    },
+    {
+      "index": 87,
+      "panjang_karakter": 724,
+      "text": "The project man-\nagement plan, project funding requirements, work performance data, and organizational\nprocess assets are inputs for controlling costs.\n\nOutputs of this process are work perfor-\nmance information, cost forecasts, change requests, project management plan updates,\nproject documents updates, and organizational process asset updates.\nSeveral tools and techniques assist in project cost control.\n\nAs shown in Appendix A,\nProject 2013 has many cost management features to help you enter budgeted costs, set a\nbaseline, enter actuals, calculate variances, and run various cost reports.\n\n\nIn addition to using software, however, you need a change control system to define\nprocedures for changing the cost baseline."
+    },
+    {
+      "index": 88,
+      "panjang_karakter": 672,
+      "text": "In addition to using software, however, you need a change control system to define\nprocedures for changing the cost baseline.\n\nThis cost control change system is part of the\nintegrated change control system described in Chapter 4, Project Integration Management.\nBecause many projects do not progress exactly as planned, new or revised cost estimates\nare often required, as are estimates to evaluate alternate courses of action.\n\n\nPerformance review meetings can be a powerful tool for helping to control project costs.\nPeople often perform better when they know they must report on their progress.\n\nAnother\nvery important tool for cost control is performance measurement."
+    },
+    {
+      "index": 89,
+      "panjang_karakter": 942,
+      "text": "Another\nvery important tool for cost control is performance measurement.\n\nAlthough many general ac-\ncounting approaches are available for measuring cost performance, earned value management\n(EVM) is a powerful cost control technique that is unique to the field of project management.\n7.6a Earned Value Management\nEarned value management (EVM) is a project performance measurement technique that\nintegrates scope, time, and cost data.\n\nGiven a cost performance baseline, project manag-\ners and their teams can determine how well the project is meeting scope, time, and cost\ngoals by entering actual information and then comparing it to the baseline.\n\nA baseline is\nthe budget figure in the original project plan plus approved changes.\n\nActual information\nincludes whether or not a WBS item was completed, approximately how much of the work\nwas completed, when the work actually started and ended, and how much the completed\nwork actually cost."
+    },
+    {
+      "index": 90,
+      "panjang_karakter": 847,
+      "text": "In the past, earned value management was used primarily on large government proj-\nects.\n\nToday, however, more and more companies are realizing the value of using this tool\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n1SPKFDU$PTU.BOBHFNFOU\n\nto help control costs.\n\nMoreover, a discussion by several academic experts in earned value\nmanagement and a real practitioner revealed the need to clarify how to calculate earned\nvalue."
+    },
+    {
+      "index": 91,
+      "panjang_karakter": 917,
+      "text": "Moreover, a discussion by several academic experts in earned value\nmanagement and a real practitioner revealed the need to clarify how to calculate earned\nvalue.\n\nBrenda Taylor, a senior project manager for P2 Project Management Solutions in\nJohannesburg, South Africa, questioned the accuracy of calculating earned value simply\nby multiplying the planned value to date by a percentage complete value.\n\nShe suggested\nusing the rate of performance instead, as described below.\n\n\nEarned value management involves calculating three values for each activity or sum-\nmary activity from a project's WBS.\n\n\n\n1.\n\nThe planned value (PV), also called the budget, is the portion of the\napproved total cost estimate planned to be spent on an activity during a\ngiven period.\n\nTable 7-3 shows an example of earned value calculations.\nSuppose that a project included a summary activity of purchasing and\ninstalling a new web server."
+    },
+    {
+      "index": 92,
+      "panjang_karakter": 894,
+      "text": "Table 7-3 shows an example of earned value calculations.\nSuppose that a project included a summary activity of purchasing and\ninstalling a new web server.\n\nSuppose further that, according to the plan,\nit would take one week and cost a total of $10,000 for the labor hours,\nhardware, and software.\n\nTherefore, the planned value (PV) for the activity\nthat week is $10,000.\n\n2. The actual cost (AC) is the total direct and indirect costs incurred in ac-\ncomplishing work on an activity during a given period.\n\nFor example, suppose\nthat it actually took two weeks and cost $20,000 to purchase and install the\nnew web server.\n\nAssume that $15,000 of these actual costs were incurred\nduring Week 1 and $5,000 was incurred during Week 2. These amounts are\nthe actual cost (AC) for the activity each week.\n\n3. The earned value (EV) is an estimate of the value of the physical work actu-\nally completed."
+    },
+    {
+      "index": 93,
+      "panjang_karakter": 989,
+      "text": "EV is based on the original planned costs for the project or\nactivity and the rate at which the team is completing work on the project\nor activity to date.\n\nThe rate of performance (RP) is the ratio of actual work\ncompleted to the percentage of work planned to have been completed at any\ngiven time during the life of the project or activity.\n\nFor example, suppose\nthat the server installation was halfway completed by the end of Week 1.\nThe rate of performance would be 50 percent because by the end of Week 1,\nthe planned schedule reflects that the task should be complete but only\n50 percent of the work has been completed.\n\nIn Table 7-3, the earned value\nestimate after one week is therefore $5,000.18\nTABLE 7-3 &\nActivity\nWeek 1\nEarned value (EV)\n5,000\nPlanned value (PV)\n10,000\nActual cost (AC)\n15,000\nCost variance (CV)\n-10,000\nSchedule variance (SV)\n-5,000\nCost performance index (CPI)\n33%\nSchedule performance index (SPI)\n50%\nCengage Learning 2016\nCopyright 2016 Cengage Learning."
+    },
+    {
+      "index": 94,
+      "panjang_karakter": 964,
+      "text": "All Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n$IBQUFS\n284\nThe earned value calculations in Table 7-4 are carried out as follows:\nEV 5 10,000 * 50% 5 5,000\nCV 5 5,000 - 15,000 5 -10,000\nSV 5 5,000 - 10,000 5 -5,000\nCPI 5 5,000/15,000 5 33%\nSPI 5 5,000/10,000 5 50%\nTable 7-4 summarizes the formulas used in earned value management.\n\nNote that the\nformulas for variances and indexes start with EV, the earned value.\n\nVariances are calcu-\nlated by subtracting the actual cost or planned value from EV, and indexes are calculated\nby dividing EV by the actual cost or planned value."
+    },
+    {
+      "index": 95,
+      "panjang_karakter": 859,
+      "text": "Variances are calcu-\nlated by subtracting the actual cost or planned value from EV, and indexes are calculated\nby dividing EV by the actual cost or planned value.\n\nAfter you total the EV, AC, and PV data\nfor all activities on a project, you can use the CPI and SPI to project how much it will cost\nand how long it will take to finish the project based on performance to date.\n\nGiven the\nbudget at completion and original time estimate, you can divide by the appropriate index\nto calculate the estimate at completion (EAC) and estimated time to complete, assuming\nthat performance remains the same.\n\nThere are no standard acronyms for the terms\nestimated time to complete or original time estimate.\nCost variance (CV) is the earned value minus the actual cost.\n\nIf cost variance is a neg-\native number, it means that performing the work cost more than planned."
+    },
+    {
+      "index": 96,
+      "panjang_karakter": 871,
+      "text": "If cost variance is a neg-\native number, it means that performing the work cost more than planned.\n\nIf cost variance\nis a positive number, performing the work cost less than planned.\nSchedule variance (SV) is the earned value minus the planned value.\n\nA negative\nschedule variance means that it took longer than planned to perform the work, and\na positive schedule variance means that the work took less time than planned.\n\n\nThe cost performance index (CPI) is the ratio of earned value to actual cost; it can be\nused to estimate the projected cost of completing the project.\n\nIf the CPI is equal to one, or\n100 percent, then the planned and actual costs are equal-the costs are exactly as bud-\ngeted.\n\nIf the CPI is less than one or less than 100 percent, the project is over budget.\n\nIf the\nCPI is greater than one or more than 100 percent, the project is under budget."
+    },
+    {
+      "index": 97,
+      "panjang_karakter": 982,
+      "text": "If the CPI is less than one or less than 100 percent, the project is over budget.\n\nIf the\nCPI is greater than one or more than 100 percent, the project is under budget.\n\n\nThe schedule performance index (SPI) is the ratio of earned value to planned value;\nit can be used to estimate the projected time to complete the project.\n\nSimilar to the cost\nperformance index, an SPI of one, or 100 percent, means the project is on schedule.\n\nIf the\nSPI is greater than one or 100 percent, then the project is ahead of schedule.\n\nIf the SPI is\nless than one or 100 percent, the project is behind schedule.\nTABLE 7-4 &BSOFEWBMVFGPSNVMBT\nTerm\nFormula\nEarned value (EV)\nEV 5 PV to date * RP\nCost variance (CV)\nCV 5 EV - AC\nSchedule variance (SV)\nSV 5 EV - PV\nCost performance index (CPI)\nCPI 5 EV/AC\nSchedule performance index (SPI)\nSPI 5 EV/PV\nEstimate at completion (EAC)\nEAC 5 BAC/CPI\nEstimated time to complete\nOriginal time estimate/SPI\nCengage Learning 2016\nCopyright 2016 Cengage Learning."
+    },
+    {
+      "index": 98,
+      "panjang_karakter": 912,
+      "text": "All Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n1SPKFDU$PTU.BOBHFNFOU\n285\nNote that in general, negative numbers for cost and schedule variance indicate prob-\nlems in those areas.\n\nNegative numbers mean the project is costing more than planned or\ntaking longer than planned.\n\nLikewise, a CPI and SPI of less than one or less than 100 per-\ncent also indicate problems.\n\n\nThe cost performance index can be used to calculate the estimate at completion (EAC)-\nan estimated cost of completing a project based on performance to date."
+    },
+    {
+      "index": 99,
+      "panjang_karakter": 553,
+      "text": "The cost performance index can be used to calculate the estimate at completion (EAC)-\nan estimated cost of completing a project based on performance to date.\n\nSimilarly, the sched-\nule performance index can be used to calculate an estimated time to complete the project.\n\n\nYou can graph earned value information to track project performance.\n\nFigure 7-5\nshows an earned value chart for a one-year project after five months.\n\nNote that the actual\ncost and earned value lines end at five months because the data was collected or esti-\nmated at that point."
+    },
+    {
+      "index": 100,
+      "panjang_karakter": 928,
+      "text": "Note that the actual\ncost and earned value lines end at five months because the data was collected or esti-\nmated at that point.\n\nThe chart includes three lines and two points, as follows:\nt\nPlanned value (PV), the cumulative planned amounts for all activities by month.\nNote that the planned value line extends for the estimated length of the project\nand ends at the BAC point.\nt\nActual cost (AC), the cumulative actual amounts for all activities by month.\nt\nEarned value (EV), the cumulative earned value amounts for all activities by\nmonth.\nt\nBudget at completion (BAC), the original total budget for the project, or\n$100,000 in this example.\n\nThe BAC point is plotted on the chart at the origi-\nnal time estimate of 12 months.\nt\nEstimate at completion (EAC), estimated to be $122,308 in this example.\n\n\nThis number is calculated by taking the BAC, or $100,000 in this case, and\ndividing by the CPI, which was 81.761 percent."
+    },
+    {
+      "index": 101,
+      "panjang_karakter": 972,
+      "text": "This number is calculated by taking the BAC, or $100,000 in this case, and\ndividing by the CPI, which was 81.761 percent.\n\nThis EAC point is plotted on\nthe chart at the estimated time to complete of 12.74 months.\n\nThis number\nFIGURE 7-5 &\n¥$FOHBHF-FBSOJOH\n120,000\nMonth\n80,000\n60,000\n40,000\n20,000\n-\n$\nEarned value (EV)\n1\n2\n3\n4\n5\n6\n7\n8\n100,000\n9\n10\n11\nActual cost (AC)\nPlanned value (PV)\nBudget at completion (BAC)\nEstimate at completion (EAC)\n12\n13\nAn EAC\npoint above\nand to the\nright of the\nBAC point\nmeans the\nproject is\nprojected to\ncost more\nand take\nlonger than\nplanned\nActual cost (AC)\nPlanned value (PV)\nEarned value (EV)\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience."
+    },
+    {
+      "index": 102,
+      "panjang_karakter": 934,
+      "text": "Editorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n$IBQUFS\n286\nis calculated by taking the original time estimate, or 12 months in this case,\nand dividing by the SPI, which in this example was 94.203 percent.\n\n\nViewing earned value information in chart form helps you visualize how the project is\nperforming.\n\nFor example, you can see the planned performance by looking at the planned\nvalue line.\n\nIf the project goes as planned, it will finish in 12 months and cost $100,000.\nNotice in the example in Figure 7-5 that the actual cost line is always on or above the\nearned value line, which indicates that costs are equal to or more than planned.\n\nThe\nplanned value line is close to the earned value line and is slightly higher in the last month."
+    },
+    {
+      "index": 103,
+      "panjang_karakter": 828,
+      "text": "The\nplanned value line is close to the earned value line and is slightly higher in the last month.\n\n\nThis relationship means that the project has been on schedule until the last month, when\nthe project fell behind schedule.\n\n\nTop managers who oversee multiple projects often like to see performance information\nin a graphical form, such as the earned value chart in Figure 7-5.\n\nFor example, in the open-\ning case, the government officials were reviewing earned value charts and EACs for several\ndifferent projects.\n\nEarned value charts allow you to see quickly how projects are perform-\ning.\n\nIf there are serious cost and schedule performance problems, top management may de-\ncide to terminate projects or take other corrective action.\n\nThe EACs are important inputs\nto budget decisions, especially if total funds are limited."
+    },
+    {
+      "index": 104,
+      "panjang_karakter": 890,
+      "text": "The EACs are important inputs\nto budget decisions, especially if total funds are limited.\n\nEarned value management is an\nimportant technique when used effectively, because it helps top management and project\nmanagers evaluate progress and make sound management decisions.\n\nConsult the PMBOK\nGuide and other resources for more information and calculations about earned value.\n\n\nIf earned value management is such a powerful cost control tool, then why doesn't ev-\nery organization use it?\n\nWhy do many government projects require it, but many commer-\ncial projects don't?\n\nTwo reasons are EVM's focus on tracking actual performance versus\nplanned performance and the importance of percentage completion data in making cal-\nculations.\n\nMany projects, particularly IT projects, do not have good planning information,\nso tracking performance against a plan might produce misleading information."
+    },
+    {
+      "index": 105,
+      "panjang_karakter": 977,
+      "text": "Many projects, particularly IT projects, do not have good planning information,\nso tracking performance against a plan might produce misleading information.\n\nSeveral\ncost estimates are usually made on IT projects, and keeping track of the most recent cost\nestimate and the associated actual costs could be cumbersome.\n\nIn addition, estimating\npercentage completion of tasks might produce misleading information.\n\nWhat does it mean\nto say that a task is actually 75 percent complete after three months?\n\nSuch a statement\nis often not synonymous with saying the task will be finished in one more month or after\nspending an additional 25 percent of the planned budget.\n\n\nTo make earned value management simpler to use, organizations can modify the level\nof detail and still reap the benefits of the technique.\n\nFor example, you can use percentage\ncompletion data such as 0 percent for items not yet started, 50 percent for items in prog-\nress, and 100 percent for completed tasks."
+    },
+    {
+      "index": 106,
+      "panjang_karakter": 969,
+      "text": "For example, you can use percentage\ncompletion data such as 0 percent for items not yet started, 50 percent for items in prog-\nress, and 100 percent for completed tasks.\n\nAs long as the project is defined in enough detail,\nthis simplified percentage completion data should provide enough summary information\nto allow managers to see how well a project is doing overall.\n\nYou can get very accurate total\nproject performance information using these simple percentage complete amounts.\n\nFor ex-\nample, using simplified percentage complete amounts for a one-year project with weekly re-\nporting and an average task size of one week, you can expect about a 1 percent error rate.19\nYou can enter and collect earned value data only at summary levels of the WBS.\nQuentin Fleming, author of the book Earned Value Project Management,20 often gives\npresentations about earned value management.\n\nMany people express their frustration in\ntrying to collect such detailed information."
+    },
+    {
+      "index": 107,
+      "panjang_karakter": 910,
+      "text": "Many people express their frustration in\ntrying to collect such detailed information.\n\nFleming explains that you do not have to col-\nlect information at the work package level to use earned value management.\n\nIt is most im-\nportant to have a deliverable-oriented WBS, and many WBS items can summarize several\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n1SPKFDU$PTU.BOBHFNFOU\n\nsubdeliverables.\n\nFor example, you might have a WBS for a house that includes items for\neach room in the house."
+    },
+    {
+      "index": 108,
+      "panjang_karakter": 945,
+      "text": "For example, you might have a WBS for a house that includes items for\neach room in the house.\n\nCollecting earned value data for each room would provide mean-\ningful information instead of trying to collect detailed information for each component in\nthe room, such as flooring, furniture, and lighting.\n\n\nIt is important to remember that the heart and soul of EVM are estimates.\n\nThe entire\nEVM process begins with an estimate; when the estimate is off, all the calculations will be\noff.\n\nBefore an organization attempts to use EVM, it must learn to develop good estimates.\n\n\nEarned value management is the primary method available for integrating perfor-\nmance, cost, and schedule data.\n\nIt can be a powerful tool for project managers and top\nmanagement to use in evaluating project performance.\n\nProject management software,\nsuch as Project 2013, includes tables for collecting earned value data and reports that\ncalculate variance information."
+    },
+    {
+      "index": 109,
+      "panjang_karakter": 982,
+      "text": "Project management software,\nsuch as Project 2013, includes tables for collecting earned value data and reports that\ncalculate variance information.\n\nProject 2013 also allows you to easily produce an earned\nvalue chart, similar to the one in Figure 7-5, without importing the data into Microsoft\nExcel.\n\nSee the project cost management section of Appendix A for an example of using\nearned value management.\nAnother approach to evaluating the performance of multiple projects is project portfo-\nlio management, as described in the following section.\n\n\nG L O B A L I S S U E S\nThe Project Management Institute conducted a major study in 2011 to help understand\nand gauge the current level of EVM practice.\n\nThe researchers surveyed more than 600\nproject management practitioners in 61 countries, providing a cross-sectional view of the\nmost current EVM practices.\n\nRespondents were classified by industry sector, motivation\nfor EVM usage, organizational role, and geographic location."
+    },
+    {
+      "index": 110,
+      "panjang_karakter": 994,
+      "text": "Respondents were classified by industry sector, motivation\nfor EVM usage, organizational role, and geographic location.\n\nThe study included the fol-\nlowing key findings:\nt\nEVM is used worldwide, and it is particularly popular in the Middle East, South\nAsia, Canada, and Europe.\nt\nMost countries require EVM for large defense or government projects, as shown in\nFigure 7-6.\nt\nEVM is also used in such private-industry sectors as IT, construction, energy, and\nmanufacturing.\n\nHowever, most private companies have not yet applied EVM to their\nprojects because management does not require it, feeling it is too complex and not\ncost effective.\nt\nThe level of EVM use and maturity varies among organizations and projects, but\nbudget size appears to be the most important decision factor.\nt\nEVM's contributions and cost effectiveness are widely recognized; most respondents\nsaid they agree or strongly agree that EVM provides early warning signs, helping\nthem to control project scope, time, and cost."
+    },
+    {
+      "index": 111,
+      "panjang_karakter": 937,
+      "text": "EVM's contribution to cost\nperformance was ranked higher than schedule performance, and the difference was\nstatistically significant.\nt\nTop barriers to enhanced use of EVM were lack of motivation and lack of expertise.\nt\nTop management support, buy-in of project staff, training, organizational culture\nand leadership, and maturity of the project management system were the most\nimportant factors in successful use of EVM.21\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n$IBQUFS\n288\n7.6b Project Portfolio Management"
+    },
+    {
+      "index": 112,
+      "panjang_karakter": 974,
+      "text": "Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n$IBQUFS\n288\n7.6b Project Portfolio Management\n\n\nAs you saw in Chapter 1, many organizations now collect and control an entire suite\nof projects or investments as one set of interrelated activities in one place-a portfolio.\nSeveral software tools provide graphics to summarize performance on a portfolio of proj-\nects, as shown in Chapter 4. Key metrics, including cost performance, are often shown in\ngreen, yellow, or red, indicating that things are going as planned, that problems exist, or\nthat major problems exist, respectively.\n\nProject managers need to understand how their\nprojects fit into the bigger picture.\n\nFor example, there can be a portfolio for IT projects\nand portfolios for other types of projects.\n\nLooking at broad categories of similar projects\nenables project managers to help their organizations make wise investment decisions."
+    },
+    {
+      "index": 113,
+      "panjang_karakter": 258,
+      "text": "Looking at broad categories of similar projects\nenables project managers to help their organizations make wise investment decisions.\n\n\nAn organization can view project portfolio management as having five levels, from\nsimplest to most complex, as follows:\n\n1."
+    },
+    {
+      "index": 114,
+      "panjang_karakter": 968,
+      "text": "An organization can view project portfolio management as having five levels, from\nsimplest to most complex, as follows:\n\n1.\n\nPut all your projects in one database.\n\n2. Prioritize the projects in your database.\n\n3. Divide your projects into two or three budgets based on type of investment,\nsuch as utilities or required systems to keep things running, incremental\nupgrades, and strategic investments.\n\n4. Automate the repository.\n\n5. Apply modern portfolio theory, including risk-return tools that map project\nrisk on a curve.\nFIGURE 7-6 &BSOFEWBMVFVTBHF\n4PVSDF-JOHHVBOH4POH\ni&BSOFE7BMVF.BOBHFNFOU\"(MPCBMBOE$SPTT*OEVTUSZ1FSTQFDUJWFPO\n$VSSFOU&7.1SBDUJDF\nu1.*\n\n19.5\n51.3\n29.2\n31.9\n32.2\n35.8\n0\n10\n20\n30\n40\n50\n60\nA few pilot\nprojects\nLarge and critical\nprojects\nOrganization-wide\nstandard for\nall projects\nPercentage\nDefense/Government\nPrivate industry\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part."
+    },
+    {
+      "index": 115,
+      "panjang_karakter": 897,
+      "text": "All Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n289\n1SPKFDU$PTU.BOBHFNFOU\nMany project managers also want to move on to manage larger projects, become pro-\ngram managers, then vice presidents, and eventually CEOs.\n\nUnderstanding project portfo-\nlio management, therefore is important for both project and organizational success.\nJane Walton, the project portfolio manager for IT projects at Schlumberger, saved\nthe company $3 million in one year by organizing the organization's 120 IT projects into\na portfolio."
+    },
+    {
+      "index": 116,
+      "panjang_karakter": 793,
+      "text": "Manufacturing companies have used project portfolio management since the\n1960s, and Walton anticipated the need to justify investments in IT projects just as man-\nagers have to justify capital investment projects.\n\nShe found that 80 percent of the organi-\nzation's projects overlapped, and that 14 separate projects were trying to accomplish the\nsame thing.\n\nOther managers, such as Douglas Hubbard, president of a consulting firm, see\nthe need to use project portfolio management, especially for IT projects.\n\nHubbard sug-\ngests, \"IT investments are huge, risky investments.\n\nIt's time we do this.\"22\nProject portfolio managers can start by using spreadsheet software to develop and\nmanage project portfolios, or they can use sophisticated software designed to help manage\nproject portfolios."
+    },
+    {
+      "index": 117,
+      "panjang_karakter": 986,
+      "text": "Several software tools available today help project portfolio managers\nsummarize earned value and project portfolio information, as described in the following\nsection.\n7.7 USING PROJECT MANAGEMENT SOFTWARE TO ASSIST\nIN PROJECT COST MANAGEMENT\nMost organizations use software to assist with project cost management.\n\nSpreadsheets\nare a common tool for cost estimating, cost budgeting, and cost control.\n\nMany companies\nalso use more sophisticated and centralized financial software to provide important cost-\nrelated information to accounting and finance personnel.\n\nThis section focuses on how you\ncan use project management software in cost management.\n\nAppendix A includes a section\non using the cost management features in Project 2013.\n\n\nProject management software can increase a project manager's effectiveness during\neach process of project cost management.\n\nIt can help you study overall project informa-\ntion or identify and focus on tasks that are over a specified cost limit."
+    },
+    {
+      "index": 118,
+      "panjang_karakter": 993,
+      "text": "It can help you study overall project informa-\ntion or identify and focus on tasks that are over a specified cost limit.\n\nYou can use the soft-\nware to assign costs to resources and tasks, prepare cost estimates, develop cost budgets,\nand monitor cost performance.\n\nProject 2013 has several standard cost reports: cash flow,\nbudget, over-budget tasks, over-budget resources, and earned value reports.\n\nFor several of\nthese reports, you must enter percentage completion information and actual costs, just as\nyou do when manually calculating earned value or other analyses.\nMany IT project managers use other tools to manage cost information because they do\nnot know that they can use project management software, or they do not track costs based\non a WBS, as most project management software does.\n\nInstead of using dedicated project\nmanagement software for cost management, some IT project managers use company ac-\ncounting systems; others use spreadsheet software to achieve more flexibility."
+    },
+    {
+      "index": 119,
+      "panjang_karakter": 998,
+      "text": "Instead of using dedicated project\nmanagement software for cost management, some IT project managers use company ac-\ncounting systems; others use spreadsheet software to achieve more flexibility.\n\nProject\nmanagers who use other software often do so because these other systems are more gener-\nally accepted in their organizations and more people know how to use them.\n\nTo improve\nproject cost management, several companies have developed methods to link data be-\ntween their project management software and their main accounting software.\n\nRegardless,\nusers need training to use dedicated project management software and understand the\navailable features.\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience."
+    },
+    {
+      "index": 120,
+      "panjang_karakter": 876,
+      "text": "Editorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n$IBQUFS\n\nMany organizations are using software to organize and analyze all types of project\ndata into project portfolios and across the entire enterprise.\n\nEnterprise or project port-\nfolio management (PPM) tools integrate information from multiple projects to show the\nprojects' status and health.\n\nIn 2012, over half of the respondents in two different studies\n(PMI's PMI Pulse of the Profession and a PricewaterhouseCoopers survey) reported\nfrequent use of PPM.\n\nThe highest adoption rates were reported by organizations in retail,\ninsurance, auto, banking and capital markets, telecommunications, manufacturing,\nenergy, and defense."
+    },
+    {
+      "index": 121,
+      "panjang_karakter": 990,
+      "text": "The highest adoption rates were reported by organizations in retail,\ninsurance, auto, banking and capital markets, telecommunications, manufacturing,\nenergy, and defense.\n\nThe main reasons organizations use project portfolio management\nincluded customer satisfaction, cost reduction, and revenue growth.23\nMore recently, a 2014 report from Gartner says the market for PPM software contin-\nues to grow, with annual sales over $1.65 billion.\n\n\"Demand for IT PPM applications has not\nwavered in more than 13 years, but, rather, increased exponentially over the past\n10 years.\n\nThe pace of change... is driving continued demand for enterprise software prod-\nucts that can help with the effective planning, execution, and management of projects and\nprograms materializing from the need for today's enterprises to change and adapt quickly\nto shifts in the business climate.\"24\nA study by Forrester estimates that companies are achieving returns of 250 percent\nfrom their investments in PPM tools."
+    },
+    {
+      "index": 122,
+      "panjang_karakter": 775,
+      "text": "At a Planisware PPM Solutions Summit in 2014, cus-\ntomers shared examples of their success stories in achieving even higher returns:\nt\nPfizer uses PPM software to accelerate innovation and improve transparency and\naccountability of resources to deliver scientific excellence.\n\nPfizer can quickly ac-\ncess trusted data analytics to make strategic resource allocations that maximize\nportfolio value.\nt\nFord uses Planisware to gain greater transparency over their portfolio of\nprojects.\n\nGreater transparency gives management a better understanding of\nresources shared across projects, and enhances communication about statuses.\nThey can quickly alert affected program managers and product development\nteams of potential risks so they can implement risk management strategies.25"
+    },
+    {
+      "index": 123,
+      "panjang_karakter": 977,
+      "text": "As with using any software, however, managers must make sure that the data is accu-\nrate and up to date, and ask pertinent questions before making any major decisions.\nC A S E W R A P - U P\nAfter talking to his colleagues about the meeting, Juan had a better idea about the\nimportance of project cost management.\n\nHe understood the value of doing detailed\nstudies before making major expenditures on new projects, especially after learning\nabout the high cost of correcting defects late in a project.\n\nHe also learned the importance\nof developing good cost estimates and keeping costs on track.\n\nHe enjoyed seeing how the\ncost estimate was developed for the Surveyor Pro project, and was eager to learn more\nabout various estimating tools and techniques.\n\n\nAt the meeting, government officials cancelled several projects when the project\nmanagers showed how poorly the projects were performing and admitted that they did\nnot do much planning and analysis early in the projects."
+    },
+    {
+      "index": 124,
+      "panjang_karakter": 636,
+      "text": "Juan knew that he could not fo-\ncus on just the technical aspects of projects if he wanted to move ahead in his career.\n\nHe\nbegan to wonder whether several projects the city was considering were really worth the\ntaxpayers' money.\n\nIssues of cost management added a new dimension to Juan's job.\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience."
+    },
+    {
+      "index": 125,
+      "panjang_karakter": 999,
+      "text": "Editorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n1SPKFDU$PTU.BOBHFNFOU\n\nChapter Summary\n*5QSPKFDUT*5QSPKFDUNBOBHFSTNVTUBD\n\nDPTUDPODFQUT\nDPTUFTUJNBUJOH\nCVEHFUJOH\nBOEDPTUDPOUSPM\n\n*\nMJGFDZDMF\nDPTUJOH\nDBTIGMPXBOBMZTJT\nTVOLDPTUT\nBOEMFBSOJOHDVSWFUIFPSZ\n\nQSPDFEVSFT\nBOEEPDVNFOUB\n\nFYFDVUJOH\n\n&\nUZQFTPGDPTUFTUJNBUFT\n30.\n\nCVEHFUBSZ\nBOEEFGJOJUJWF\n&\nBOEFBDIIBTB\n\nCPUUPNVQFTUJNBUJOH\nQBSBNFUSJDFTUJNBUJOH\nBOEDPNQVUFSJ[FE\nUPPMT'\n%*UJT\n[\nBDDPSEJOHMZ\n$\nSFWJFXJOHDIBOHFT\nBOEOPUJGZJOH\n.\n&\n&\nDPTU\nBOETDIFE\n[\n\nDPTUNBOBHFNFOUGFBUVSFT\n&\n\nQuick Quiz\n\"DDPVOUBOUTVTVBMMZEFGJOF@@@@@@@@@@@@@@@@@@@@@@BTBSFTPVSDFTBDSJGJDFEPS\n\nB\nNPOFZ\nC\nMJBCJMJUZ\nD\nUSBEF\nE\nDPTU\n\nB\n\nC\n\nD\n\nE\nUPFOTVSFUIBUBOPSHBOJ[BUJPOTNPOFZJTVTFEXJTFMZ\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part."
+    },
+    {
+      "index": 126,
+      "panjang_karakter": 308,
+      "text": "All Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience."
+    },
+    {
+      "index": 127,
+      "panjang_karakter": 964,
+      "text": "Editorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n$IBQUFS\n292\n\nFTUJNBUJOHDPTUT\nBDDPSEJOHUPUIFPMBOK Guide?\nB\nBDUJWJUZDPTUFTUJNBUFT\nC\nBDPTUCBTFMJOF\nD\nCBTJTPGFTUJNBUFT\nE\nQSPKFDUEPDVNFOUTVQEBUFT\n*\nXIBUJTUIFQSPGJU\nNBSHJOGPSUIBUQSPEVDU\nB\n-QFSDFOU\nC\nQFSDFOU\nD\n-\nE\n\n@@@@@@@@@@@@@@@@@@@@@@\nB\n$POUJOHFODZ\nC\n'JOBODJBM\nD\n.BOBHFNFOU\nE\n#BTFMJOF\n:\nQVSQPTF\nOVNCFSPG\nTRVBSFGFFU\n\nB\nQBSBNFUSJD\nC\nBOBMPHPVT\nD\nCPUUPNVQ\nE\nUPQEPXO\n@@@@@@@@@@@@@@@@@@@@@@\n\nB\n3FTFSWFBOBMZTJT\nC\n-JGFDZDMFDPTUJOH\nD\n1SPKFDUDPTUCVEHFUJOH\nE\n&BSOFEWBMVFBOBMZTJT\n@@@@@@@@@@@@@@@@@@@@@@@\nJOUFHSBUFTTDPQF\nUJNF\nBOEDPTUEBUB\nB\n3FTFSWFBOBMZTJT\nC\n-JGFDZDMFDPTUJOH\nD\n1SPKFDUDPTUCVEHFUJOH\nE\n&BSOFEWBMVFNBOBHFNFOU\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part."
+    },
+    {
+      "index": 128,
+      "panjang_karakter": 308,
+      "text": "All Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience."
+    },
+    {
+      "index": 129,
+      "panjang_karakter": 955,
+      "text": "Editorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n1SPKFDU$PTU.BOBHFNFOU\n\n*GUIFBDUVBMDPTUGPSB8#4JUFNJT\nBOEJUTFBSOFEWBMVFJT\n\nXIBUJTJUTDPTU\nWBSJBODF\nBOEJTJUVOEFSPSPWFSCVEHFU\nB\n5IFDPTUWBSJBODFJT¢\nXIJDIJTPWFSCVEHFU\nC\n5IFDPTUWBSJBODFJT¢\nXIJDIJTVOEFSCVEHFU\nD\n5IFDPTUWBSJBODFJT\nXIJDIJTPWFSCVEHFU\nE\n5IFDPTUWBSJBODFJT\nXIJDIJTVOEFSCVEHFU\n*\n\nBOEJUTDPTU\n\nIPXJTJUQSPHSFTTJOH\nB\n*\nC\n*\nD\n*\nE\n*\nQuick Quiz Answers\nECCBDBDEEC\nDiscussion Questions\n%JTDVTTXIZNBOZ*\n\n&\nTVDIBTQSPGJUT\nMJGFDZDMFDPTUT\n\nEJSFDUBOEJOEJSFDUDPTUT\nBOESFTFSWFT\n8IBUJTNFBOUCZBTVOLDPTU (*5QSPKFDUBTXFMM\n\nTIPVME\n( 30.\n\nCVEHFUBSZ\nBOE\n*5QSPKFDU(\n\nQBSBNFUSJD\nBOECPUUPNVQ\n&\n& &7.\n\nQSPKFDUQFSGPSNBODF\n\nTDIFEVMFWBSJBODF\nDPTUQFS\nGPSNBODFJOEFY\n\n$\nNBOBHFNFOU\n%\nNBOBHFNFOU\nCopyright 2016 Cengage Learning.\n\nAll Rights Reserved."
+    },
+    {
+      "index": 130,
+      "panjang_karakter": 308,
+      "text": "All Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience."
+    },
+    {
+      "index": 131,
+      "panjang_karakter": 998,
+      "text": "Cengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it.\n$IBQUFS\n294\nExercises\n(\n\nUIBU17JTUIFQMBOOFEWBMVF\n&7JTUIFFBSOFEWBMVF\n\"$JTUIFBDUVBMDPTU\nBOE#\"$JTUIF\nCVEHFUBUDPNQMFUJPO\n17=\n\n&7=\n\n\"$=\n\n#\"$=\n\nB 8IBUJTUIFDPTUWBSJBODF\nTDIFEVMFWBSJBODF\nDPTUQFSGPSNBODFJOEFY $1*\n\nBOE\nTDIFEVMFQFSGPSNBODFJOEFY 41*\nGPSUIFQSPKFDU\nC )PXJTUIFQSPKFDUEPJOH * *TJUVOEFS\nCVEHFUPSPWFSCVEHFU\nD 6TFUIF$1* &\"$\nGPSUIJTQSPKFDU*TUIFQSPKFDU\n\nE 6TFUIF41*\nF\nVTJOH'JHVSFBTBHVJEF\n$\n\nGPSZPVSPSHBOJ[\n[BUJPO\nBOFUXPSLTFSWFS\n*OUFS\nOFUBDDFTTGPSBMMNBDIJOFT\nBOJOTUSVDUPSTUBUJPO\nBOEBQSPKFDUJPOTZTUFN#FTVSFUPJODMVEF\n%PDVNFOUUIF\n\nJO\n\"\nTFDUJPOPG\"QQFOEJY\"\"TLUISFFQFPQMFJOEJGGFSFOU*5PSHBOJ[\n\n3FBEUIFGSFFFCPPLCost Estimating in an Agile Development EnvironmentCZ\"MWJO\n\"MFYBOEFS\n'\n*OZPVSPXOXPSET\nXSJUFBUXPQBHFQBQFS\n\nBQQSPBDIFT\n$\nUPUBMSFWFOVFT\nBOEUPUBMQSPGJUT\n.\nt\n:\nr\n:\n\nr\n:\nTFUVQGFFTPGGPS\nSFHJTUSBUJPO\n\nr\n:\n\nNBOBHJOHUIFQSPKFDU\nBOEHJWJOHUIFBDUVBMDMBTT:PV\n\nCopyright 2016 Cengage Learning."
+    },
+    {
+      "index": 132,
+      "panjang_karakter": 432,
+      "text": "All Rights Reserved.\n\nMay not be copied, scanned, or duplicated, in whole or in part.\n\nDue to electronic rights, some third party content may be suppressed from the eBook and/or eChapter(s).\n\n\nEditorial review has deemed that any suppressed content does not materially affect the overall learning experience.\n\nCengage Learning reserves the right to remove additional content at any time if subsequent rights restrictions require it."
+    }
+  ]
+}

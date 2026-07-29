@@ -1,0 +1,68 @@
+{
+  "filename": "TM-06 - Pengembangan Perangkat Lunak Agile.txt",
+  "matkul": "Rekayasa Perangkat Lunak",
+  "teknik": "recursive",
+  "total_chunks": 12,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 966,
+      "text": "Jurusan Informatika\nFakultas Teknologi Industri\nInstitut Teknologi Nasional Bandung\nISA-202 REKAYASA PERANGKAT LUNAK\nOLEH: KURNIA RAMADHAN PUTRA, M.T.\nTM-08\nMETODOLOGI PENGEMBANGAN\nPERANGKAT LUNAK AGILE\nTUJUAN PERKULIAHAN\nMemahami alasan penggunaan metodologi Agile, Manifesto Agile, dan perbedaan antara\npengembangan perangkat lunak menggunakan metodologi Agile dengan Plan-Driven.\nMengetahui praktik Extreme Programming (XP) dan korelasinya dengan metodologi Agile.\nMemahami pendekatan Scrum untuk manajemen proyek perangkat lunak.\nSadar akan isu dan persoalan metodologi Agile pada skala proyek perangkat lunak yang\nbesar.\nISA-202 Rekayasa Perangkat Lunak\n2\nKONTEN PEMBAHASAN\nMetodologi Agile\nPerbandingan Pengembangan Perangkat Lunak Plan-Driven dan Agile\nExtreme Programming (XP)\nManajemen Proyek Agile\nISA-202 Rekayasa Perangkat Lunak\n3\nMETODOLOGI AGILE\nMETODOLOGI AGILE\nKarakteristik Agile:\no Proses spesifikasi, desain, dan implementasi dilakukan beriringan."
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 975,
+      "text": "o Sistem dikembangkan menghasilkan serangkaian versi.\no Desain antarmuka perangkat lunak yang dikembangkan dibuat secara interaktif.\no Evaluasi setiap versi melibatkan end-user dan pihak yang terlibat pada\npengembangan perangkat lunak.\no Banyak tools yang dapat dimanfaatkan.\no Dokumentasi minimal, lebih berfokus pada kode program.\nISA-202 Rekayasa Perangkat Lunak\n5\nTujuan Agile: mengurangi waktu proses perangkat lunak (mis. membatasi\ndokumentasi) dan untuk dapat merespon dengan cepat perubahan kebutuhan dari\ncustomer tanpa harus melakukan pengerjaan ulang.\nMANIFESTO AGILE\nSetiap individu berinteraksi melalui proses dan tools\nProduk perangkat lunak lebih diutamakan daripada dokumentasi yang lengkap\nKolaborasi customer lebih utama daripada negosiasi kontrak\nMerespon segala perubahan daripada mengikuti rencana yang sudah ada\nISA-202 Rekayasa Perangkat Lunak\n6\nPRINSIP-PRINSIP METODOLOGI AGILE\nISA-202 Rekayasa Perangkat Lunak\n7\nPrinsip\nDeskripsi\nCustomer involvement"
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 979,
+      "text": "Customer harus terlibat selama proses pengembangan. Peran mereka adalah\nmenyediakan\ndan\nmemprioritaskan\nkebutuhan\nsistem\nbaru\ndan\nuntuk\nmengevaluasi iterasi sistem.\nIncremental delivery\nPerangkat lunak dikembangkan secara bertahap dimana customer menentukan\nkebutuhan yang dimasukkan pada setiap incremental.\nPeople not process\nKeterampilan tim developer harus diakui dan dieksploitasi. Tim harus dibiarkan\nmengembangkan perangkat lunak dengan cara mereka sendiri bekerja tanpa\nproses preskriptif.\nEmbrace change\nDesain sistem dapat digunakan untuk mengakomodasi perubahan.\nMaintain simplicity\nFokus\npada\nkesederhanaan\nproses\ndan\nhasil\nperangkat\nlunak\nyang\ndikembangkan serta berusaha untuk mengurangi kerumitan dari sistem.\nPENGAPLIKASIAN METODOLOGI AGILE\nPengembangan produk perangkat kecil skala kecil dan menengah.\nPengembangan perangkat lunak khusus untuk organisasi, di mana ada komitmen yang\njelas dari customer yang dilibatkan dalam proses pengembangan serta tidak banyak"
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 985,
+      "text": "aturan dan kebijakan yang mempengaruhi perangkat lunak.\nISA-202 Rekayasa Perangkat Lunak\n8\nPLAN-DRIVEN VS AGILE\nPlan-Driven\no Setiap fase dari proses perangkat lunak dilakukan\ndengan cara terpisah dan hasil dari produk\nperangkat lunak harus sesuai dengan yang sudah\ndirencanakan sebelumnya.\no Salah satu contohnya adalah model Waterfall.\nAgile\no Spesifikasi, desain, implementasi, dan pengujian\nsaling beriringan dan hasil dari produk perangkat\nlunak diputuskan melalui proses negosiasi selama\nproses pengembangan perangkat lunak.\nISA-202 Rekayasa Perangkat Lunak\n9\nTEKNIK-TEKNIK\nPENGEMBANGAN\nAGILE\nEXTREME PROGRAMMING\nEXTREME PROGRAMMING\nExtreme Programming (XP) menggunakan pendekatan 'ekstrem' untuk\npengembangan perangkat lunak, karena.\no Versi baru dapat dibangun beberapa kali dalam sehari;\no Setiap penambahan fungsi diserahkan kepada customer setiap 2 minggu;\no Semua pengujian harus dijalankan untuk setiap proses build kode program dan hanya diterima jika\npengujian berhasil."
+    },
+    {
+      "index": 5,
+      "panjang_karakter": 983,
+      "text": "ISA-202 Rekayasa Perangkat Lunak\n12\nPRAKTIK PADA EXTREME PROGRAMMING\nISA-202 Rekayasa Perangkat Lunak\n13\nPraktik\nDeskripsi\nUser stories for spesification\nKebutuhan user dicatat pada story card, menentukan waktu untuk yang\ndibutuhkan untuk mengimplementasikan kebutuhan tersebut serta menentukan\nprioritas untuk masing-masing kebutuhan. Developer membagi story tersebut\nke dalam task-task kecil.\nRefactoring\nSemua developer diharapkan untuk terus-menerus memperbaiki kode program\nsecepat mungkin agar kode program tersebut dapat dipelihara\nTest-first development\nMenggunakan framework untuk melakukan pengujian unit secara otomatis.\nPair programming\nDeveloper bekerja berpasangan, memeriksa pekerjaan satu sama lain dan\nmemberikan dukungan untuk selalu melakukan pekerjaan dengan baik.\nCONTOH USER STORIES DAN TASK\nISA-202 Rekayasa Perangkat Lunak\n14\nPAIR PROGRAMMING\nDalam Pair Programming, programmer duduk berpasangan di satu komputer yang sama\nuntuk mengembangkan perangkat lunak."
+    },
+    {
+      "index": 6,
+      "panjang_karakter": 992,
+      "text": "Tim saling bekerja sama selama proses pengembangan.\nBerbagi pengetahuan yang terjadi selama Pair Programming sangat penting karena\nmengurangi risiko keseluruhan proyek ketika anggota tim pergi.\nBekerja secara pasangan lebih efisien dibanding 2 programmer yang bekerja secara\nterpisah.\nISA-202 Rekayasa Perangkat Lunak\n15\nCONTOH PAIR PROGRAMMING\nISA-202 Rekayasa Perangkat Lunak\n16\nCHECK THIS VIDEO:\nHTTPS://WWW.YOUTUBE.COM/WATCH?V=VGKAHOZFH2Q\nMANAJEMEN\nPROYEK\nAGILE\nSCRUM\nSCRUM\nScrum adalah metodologi agile yang berfokus pada manajemen\npengembangan perangkat lunak secara bertahap.\nAda tiga fase dalam Scrum:\no Fase awal adalah fase perencanaan untuk menetapkan tujuan dan merancang\narsitektur perangkat lunak.\no Siklus sprint di mana setiap siklus untuk mengembangkan fitur sistem.\no Fase penutupan proyek yaitu melengkapi dokumentasi yang hanya dibutuhkan\nsaja, seperti manual guide.\nISA-202 Rekayasa Perangkat Lunak\n19\nTIGA PILAR UTAMA SCRUM\nTransparansi: proses harus dapat terlihat oleh"
+    },
+    {
+      "index": 7,
+      "panjang_karakter": 994,
+      "text": "setiap orang yang terlibat di dalam\npengembangan perangkat lunak.\nInspeksi: harus sering menginspeksi artefak\nScrum agar dapat mendeteksi adanya variansi\nhasil yang tidak diharapkan\nAdaptasi: Jika ditemukan ada satu hal atau\nlebih dari proses yang menyimpang yang\nmenyebabkan produk tidak bisa diterima, maka\nproses atau materi yang sedang diproses harus\ndiubah.\nISA-202 Rekayasa Perangkat Lunak\n20\nPROSES PENGEMBANGAN PERANGKAT LUNAK SCRUM\nISA-202 Rekayasa Perangkat Lunak\n21\nPIHAK YANG TERLIBAT DI DALAM SCRUM (SCRUM TEAM)\nProduct Owner: orang yang bertanggung jawab untuk memaksimalkan nilai bisnis\ndari produk yang dihasilkan oleh Development Team.\nScrum Master: orang bertanggung jawab untuk mengenalkan dan menyokong\npenggunaan Scrum dengan membantu orang-orang agar dapat memahami teori,\npraktik-praktik, aturan-aturan dan tata nilai Scrum\nDevelopment Team: orang yang bertanggung jawab mengimplementasikan user\nstories ke dalam kode program sampai dilakukan pengujian dan dirilis kepada"
+    },
+    {
+      "index": 8,
+      "panjang_karakter": 988,
+      "text": "customer.\nISA-202 Rekayasa Perangkat Lunak\n22\nTUGAS PRODUCT OWNER\nMenyampaikan isi dari Product Backlog secara jelas.\nMengurutkan isi Product Backlog sesuai dengan prioritasnya untuk mencapai\ntujuan dan misi dengan cara terbaik.\nMengoptimalkan nilai bisnis dari pekerjaan yang dilakukan oleh Development\nTeam.\nMemastikan agar Product Backlog dapat dilihat, transparan, dan jelas untuk\nsemua pihak, dan menampilkan apa yang akan dikerjakan selanjutnya oleh Scrum\nTeam.\nMemastikan Development Team memahami item dari Product Backlog.\nISA-202 Rekayasa Perangkat Lunak\n23\nTUGAS SCRUM MASTER (1)\nMemastikan tujuan, ruang lingkup dan ranah produk dipahami sebaik mungkin\noleh semua orang di dalam Scrum Team.\nMenemukan teknik yang paling efektif untuk mengelola Product Backlog.\nMembantu Scrum Team untuk memahami perlunya Product Backlog item yang jelas\ndan padat\nMemahami perencanaan pengembangan produk perangkat lunak.\nMemastikan Product Owner paham bagaimana mengelola Product Backlog yang"
+    },
+    {
+      "index": 9,
+      "panjang_karakter": 962,
+      "text": "memaksimalkan nilai bisnis.\nMemahami dan mempraktikkan kecepatan.\nMemfasilitasi acara-acara Scrum bila diminta atau dibutuhkan.\nISA-202 Rekayasa Perangkat Lunak\n24\nLAYANAN SCRUM MASTER KEPADA PRODUCT OWNER\nTUGAS SCRUM MASTER (2)\nMembimbing Development Team untuk mengerjakan produk perangkat lunak\nsesuai dengan Product Backlog.\nMembantu Development Team untuk menghasilkan produk bernilai bisnis tinggi.\nMenghilangkan hambatan yang dapat memperlambat perkembangan pekerjaan\nDevelopment Team.\nMemfasilitasi acara-acara Scrum bila diminta atau dibutuhkan.\nMembimbing Development Team bila belum sepenuhnya mempraktikkan dan\nmemahami Scrum.\nISA-202 Rekayasa Perangkat Lunak\n25\nLAYANAN SCRUM MASTER KEPADA DEVELOPMENT TEAM\nTUGAS DEVELOPMENT TEAM\nMandiri dengan artian tidak ada satu orang pun (bahkan Scrum Master) yang\nmemberitahu Development Team bagaimana mengimplementasikan Product Backlog\nBersifat cross-function yaitu memiliki semua keahlian yang diperlukan."
+    },
+    {
+      "index": 10,
+      "panjang_karakter": 923,
+      "text": "Tidak mengenal jabatan untuk anggota Development Team.\nTidak mengenal pengelompokan di dalam Development Team berdasarkan jenis-\njenis pekerjaan ini\nBertanggung jawab terhadap pekerjaan (task) yang sudah diambil untuk\ndiselesaikan.\nISA-202 Rekayasa Perangkat Lunak\n26\nSCRUM EVENT (ACARA DI DALAM SCRUM)\nSprint: yaitu sebuah batasan waktu dengan durasi satu bulan atau kurang, dimana terdapat proses\npembuatan versi dapat digunakan dan berpotensi untuk dirilis.\nSprint Planning:\no Pekerjaan yang akan dikerjakan di Sprint direncanakan pada saat Sprint Planning.\no Sprint Planning memiliki batasan waktu maksimal delapan jam untuk Sprint yang berdurasi satu bulan. Scrum Master\nmemastikan acara ini diselenggarakan dan peserta memahami tujuannya. Scrum Master mengedukasi Scrum Team\nuntuk menjaganya di dalam batasan waktu.\nSprint Goal: adalah sebuah tujuan Sprint yang dapat dicapai lewat pengimplementasian Product\nBacklog."
+    },
+    {
+      "index": 11,
+      "panjang_karakter": 942,
+      "text": "Daily Scrum: adalah acara untuk Development Team yang memiliki batasan waktu 15 menit. Acara\nini dilakukan setiap hari selama Sprint berlangsung. Di acara ini, Development Team membuat\nrencana kerja untuk 24 jam ke depan.\nSprint Review: diselenggarakan di akhir Sprint untuk menginspeksi Increment dan mengadaptasi\nProduct Backlog bila diperlukan. Pada saat Sprint Review, Scrum Team dan pemegang kepentingan\nberkolaborasi untuk meninjau apa yang sudah diselesaikan selama Sprint.\nSprint Retrospective: adalah sebuah kesempatan bagi Scrum Team untuk menginspeksi dirinya\nsendiri dan membuat perencanaan mengenai peningkatan yang akan dilakukan di Sprint berikutnya.\nSprint Retrospective terselenggara setelah Sprint Review dan sebelum Sprint Planning berikutnya.\nISA-202 Rekayasa Perangkat Lunak\n6\nARTEFAK SCRUM (DOKUMENTASI)\nProduct Backlog:\no Product Backlog adalah daftar terurut semua hal yang telah diketahui hingga saat ini harus ada di"
+    },
+    {
+      "index": 12,
+      "panjang_karakter": 837,
+      "text": "dalam produk. Product Backlog adalah satu-satunya sumber kebutuhan untuk semua perubahan\nyang perlu diberlakukan terhadap produk. Product Owner bertanggung jawab terhadap Product\nBacklog, termasuk isi, ketersediaan, prioritas dan urutannya.\nSprint Backlog\no Sprint Backlog menampilkan seluruh pekerjaan yang sudah dipilih dan menurut Development Team\nperlu dikerjakan untuk mencapai Sprint Goal\nBurn-down Chart\no Grafikyang menunjukkan proses pengerjaan task di dalam proyek\nISA-202 Rekayasa Perangkat Lunak\n28\nCONTOH PRODUCT BACKLOG\nISA-202 Rekayasa Perangkat Lunak\n29\nCONTOH SPRINT BACKLOG\nISA-202 Rekayasa Perangkat Lunak\n30\nCONTOH BURN-DOWN CHART\nISA-202 Rekayasa Perangkat Lunak\n31\nCONTOH SCRUM\nISA-202 Rekayasa Perangkat Lunak\n32\nCHECK THIS VIDEO:\nHTTPS://WWW.YOUTUBE.COM/WATCH?V=9TYCLR0TQFA\n---------------\nSELESAI\n---------------"
+    }
+  ]
+}

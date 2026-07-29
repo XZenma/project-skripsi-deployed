@@ -1,0 +1,35 @@
+# LLM & Orchestration
+langchain
+langchain-community
+langchain-ollama
+langchain-experimental
+langchain-text-splitters
+langchain-core
+ollama
+
+# Vector Database - FAISS
+faiss-cpu
+
+# Chunking - spaCy untuk sentence-aware
+spacy
+
+# cleaning
+emoji
+
+# PDF Parser - PyMuPDFLoader
+pymupdf
+
+# Evaluasi RAGAS
+ragas
+datasets
+
+# UI
+streamlit
+
+# API
+fastapi
+
+# Utilitas
+pandas
+python-dotenv
+tqdm

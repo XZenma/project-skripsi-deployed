@@ -1,0 +1,13 @@
+{
+  "filename": "STUDI KASUS 2.txt",
+  "matkul": "Basis Data 2",
+  "teknik": "sentence",
+  "total_chunks": 1,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 394,
+      "text": "STUDI KASUS 2\nGiven the following business rules :\n- A company operates four departements.\n- Each departement employs employees.\n- Each of the employees may or may not have one or more dependents.\n- Each employee may or may not have an employement history.\n\na.\n\nDefine entity and relathionships\nb. Draw the conceptual model with Chen diagram\nc.\n\nDraw the conceptual model with Crow Foot diagram"
+    }
+  ]
+}

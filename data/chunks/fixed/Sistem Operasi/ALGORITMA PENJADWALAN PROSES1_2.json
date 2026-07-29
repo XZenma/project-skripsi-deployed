@@ -1,0 +1,18 @@
+{
+  "filename": "ALGORITMA PENJADWALAN PROSES1_2.txt",
+  "matkul": "Sistem Operasi",
+  "teknik": "fixed",
+  "total_chunks": 2,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 1000,
+      "text": "Asep Rizal Nurjaman\nAlgoritma\nProses\nPenjdawalan\nAsep Rizal Nurjaman\nAlgoritma Penjadwalan\nProses\nPriority Scheduling\nRound Robin\nPriority Scheduling\nMerupakan algoritma yang mendahulukan\nproses yang memiliki prioritas tertinggi\nPrioritas proses ditentukan berdasar:\nTime limit\nMemory requirement\nFile access\nPerbandingan antara burst proses dengan CPU\nTingkat kepentinagn proses\nPS (2)\nPriority scheduling dapat dijalankan secara\npreemptive dan non-preemptive\nPreemptive jika ada proses yang baru\ndatang memiliki prioritas lebih tinggi dari\nproses yang sedang berjalan, maka proses\nyang sedang berjalan tsb dihentikan, lalu CPU\ndialihkan untuk proses yang baru datang\ntersebut\nNon preemptive proses yang baru datang\ntidak dapat menganggu proses yang sedang\nberjalan, tapi hanya diletakkan di depan queue\nPS (3)\nKelemahan PS adalah terjadinya infinite\nblocking (starvation), yaitu suatu proses\ndengan prioritas yang rendah memiliki\nkemungkinan tidak pernah dieksekusi jika\nterdapat proses lain yang m"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 505,
+      "text": "emiliki prioritas\nlebih tinggi\nSolusi dari starvation adalah aging, yaitu\nmeningkatkan prioritas dari setiap proses\nyang menunggu dalam queue secara\nbertahap\nPS (4)\nContoh : setiap 10 menit, prioritas dari\nmasing-masing proses yang menunggu dalam\nqueue dinaikkan 1 tingkat.\nMaka proses yang memiliki prioritas 127,\nsetidaknya dalam 21 jam 20 menit, proses tsb\nakan memiliki prioritas 0, yaitu prioritas yang\ntertinggi\nContoh 2 - PS\nDiketahui 5 proses dengan urutan proses\nsbb:\nGantt chart\nWaiting Time\nAWT"
+    }
+  ]
+}

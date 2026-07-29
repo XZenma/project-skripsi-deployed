@@ -1,0 +1,98 @@
+{
+  "filename": "Week13 Project Risk Management.txt",
+  "matkul": "Manajemen Proyek Sistem informasi",
+  "teknik": "recursive",
+  "total_chunks": 18,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 995,
+      "text": "Manajemen\nRisiko\nProyek\nProject Risk\nManagement\nSOFIA UMAROH\n1\nAgenda\nHari Ini\n2\n3\n4\nSOFIA UMAROH\nDefinisi Manajemen Risiko\nProyek\nTerminologi Manajemen Risiko\nPRoyek\nProses Manajemen Risiko\nProyek\nAlat dan teknik Manajemen\nRisiko Proyek\nAnalisis Kompetitif\nMerek\nAnda\n1\n2\nKriteria\nLebih\nRendah B\nKriteria\nLebih\nTinggi B\nKriteria\nLebih\nTinggi A\nKriteria\nLebih\nRendah A\nNamai setiap lingkaran\ndengan merek yang\nAnda bandingkan.\nSeret setiap lingkaran\nke kotak sesuai\nperingkat mereka\nberdasarkan Kriteria\nA dan Kriteria B.\n1.\nKompetitor A\nKompetitor B\nKompetitor C\nSOFIA UMAROH\nRisks\nPentingnya Risiko\nProyek\nSOFIA UMAROH\nManajemen risiko proyek adalah seni dan\nilmu untuk mengidentifikasi, menganalisis,\ndan menanggapi risiko sepanjang siklus\nproyek dan untuk kepentingan terbaik\ndalam memenuhi tujuan proyek.\nManajemen risiko dapat memiliki dampak\npositif dalam memilih proyek, menentukan\nruang lingkupnya, dan mengembangkan\njadwal dan perkiraan biaya yang realistis\nPentingnya\nManajemen Risiko"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 725,
+      "text": "Semua industri, terutama industri\npengembangan perangkat lunak,\ncenderung meremehkan pentingnya\nmanajemen risiko proyek\nSOFIA UMAROH\nLbbs dan Kwak:\nmanajemen risiko memiliki\ntingkat terendah\nSurvei perusahaan\npengembangan PL di\nMauritius, Afrika Selatan\n(2003): manajemen risiko\nmemiliki tingkat\nkematangan terendah\nStudi KLCI: manfaat\nmengikuti praktik\nmanajemen risiko\nperangkat lunak yang baik\nHasil Penelitian Terkait Risiko\nSOFIA UMAROH\nSource: Kulik and Weber, KLCI\nResearch Group\nManfaat\nPraktik\nSoftware\nManajemen\nRisiko\nApakah itu\nManajemen\nRisiko Proyek?\nSOFIA UMAROH\nSOFIA UMAROH\n\"Peristiwa atau kondisi yang\ntidak pasti yang dapat\nmempengaruhi proyek secara\npositif atau negatif\"\nRisiko Positif: Good thing happen"
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 512,
+      "text": "Risiko yang mengakibatkan hal-hal\nbaik terjadi; kadang disebut peluang\nDefinisi Risiko\n\"Peluang mendapatkan kerugian\natau akibat buruk lain\"\nRisiko Negatif: Bad thing happen\n\nPeluang yang dapat berpotensi\nmenurunkan keberhasilan dari\npencapaian tujuan organisasi.\nSOFIA UMAROH\n\"Melibatkan pemahaman\npotensi masalah yang mungkin\nterjadi pada proyek dan\nbagaimana hal itu dapat\nmenghambat keberhasilan\nproyek\"\n\nMeminimalkan potensi risiko\nnegatif sambil memaksimalkan\npotensi risiko positif\nManajemen Risiko Proyek"
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 968,
+      "text": "Manajemen risiko adalah\ninvestasi, biaya yang dikeluarkan\ntidak boleh melebihi potensi\nmanfaat\nSOFIA UMAROH\nRisk-Avers: Utilitas meningkat\nsaat menghindari risiko menurun\nRisk-Seeking memiliki toleransi\nyang lebih tinggi terhadap risiko\ndan kepuasan meningkat ketika\nlebih banyak hasil yang\ndipertaruhkan\nRisk-Neutral, risiko dan hasil\nseimbang\nRisk Utility\nUtilitas risiko atau toleransi risiko adalah jumlah kepuasan atau kesenangan\nyang diterima dari hasil potensial\nSOFIA UMAROH\nRisk Weight = Risk Probability * Risk Impact\nRisk\nCalculation\nPenting untuk\nmenghitung nilai Risiko\nRisiko diukur dengan\nmenetapkan nilai\nmoneter\nNilai risiko diperoleh dari\nmengalikan kemungkinan\ndan dampak risiko\nRisk Probability: kemungkinan\nterjadinya peristiwa risiko dan\nRisk Impact: pengaruh pada tujuan\nproyek jika peristiwa risiko terjadi\nDimana:\nSOFIA UMAROH\nRisk\nCategories\n1\n2\nInternal: risiko yang muncul dari dalam\nproyek. Misalnya SDM, pendanaan,\nperubahan lingkup, dll."
+    },
+    {
+      "index": 5,
+      "panjang_karakter": 982,
+      "text": "External - risiko yang muncul dari kebijakan\natau peraturan eksternal. Misal: Kebijakan\npemerintah, pemasok, lingkungan, dll.\n3\nTechnical - risiko yang muncul dari\nteknologi yang digunakan. Misal: kualitas\nteknologi, pihak ketiga, fungionalitas, dll.\nBerdasarkan asal risiko:\n1\nScope risk\n2\nCost risk\n3\nTime risk\n4\nResource risk\n5\nQuality risk\nApa saja\nProses Manajemen\nRisiko Proyek?\nSOFIA UMAROH\nSOFIA UMAROH\nProject Risk Management\nSOFIA UMAROH\nProses Manajemen Risiko Proyek\nPlanning risk management\nMemutuskan bagaimana\nmendekati dan merencanakan\nkegiatan manajemen risiko untuk\nproyek\n1\n2\n3\n4\n5\n6\nIdentifying risks\nMenentukan risiko mana yang\nmungkin mempengaruhi proyek\ndan mendokumentasikan\nkarakteristik masing-masing\nPerforming quantitative\nrisk analysis\nSecara numerik memperkirakan\nefek risiko pada tujuan proyek\nPerforming qualitative\nrisk analysis\nMemprioritaskan risiko\nberdasarkan probabilitas dan\ndampak kejadiannya\nPlanning risk responses\nMengambil langkah-langkah"
+    },
+    {
+      "index": 6,
+      "panjang_karakter": 685,
+      "text": "untuk meningkatkan peluang\ndan mengurangi ancaman untuk\nmemenuhi tujuan proyek\nControlling risk\nMemantau risiko teridentifikasi dan\nresidual, mengidentifikasi risiko\nbaru, melaksanakan rencana\nrespons risiko, dan mengevaluasi\nefektivitas strategi risiko\nSOFIA UMAROH\nProject Risk\nManagement\nSummary\nProses\nManajemen\nRisiko\n1. Planning Risk\nManagement\nSOFIA UMAROH\nSOFIA UMAROH\nRencana yang mendokumentasikan\nprosedur untuk mengelola risiko di\nseluruh proyek\nTim proyek harus meninjau dokumen\nproyek dan memahami pendekatan\norganisasi dan sponsor terhadap risiko\nTingkat detail akan bervariasi sesuai\ndengan kebutuhan proyek\nOutput: Dokumen Rencana Manajemen\nRisiko\nProses ini membahas:"
+    },
+    {
+      "index": 7,
+      "panjang_karakter": 168,
+      "text": "Metodologi\nRisk Management Plan\n\nPeran dan tanggung jawab\n\nAnggaran dan jadwal\n\nKategori risiko\n\nProbabilitas dan dampak risiko\n\nRevisi toleransi stakeholder\n\nPelacakan"
+    },
+    {
+      "index": 8,
+      "panjang_karakter": 965,
+      "text": "Dokumentasi risiko\nAnother topics on Project\nRisk Management\nSOFIA UMAROH\n1\nContingency plan: tindakan yang telah\nditentukan sebelumnya yang akan\ndiambil oleh tim proyek jika peristiwa\nrisiko yang teridentifikasi terjadi\n3\nContingency reserves (contingency\nallowances): dana (baseline biaya) yang\ndapat digunakan untuk mengurangi biaya\natau jadwal yang berlebihan jika risiko\nyang diketahui terjadi.\n2\nFallback plans: rencana untuk risiko\nyang berdampak tinggi pada\npencapaian tujuan proyek dan\nditerapkan jika upaya untuk\nmengurangi risiko tidak berhasil.\n4\nManagement reserves: dana (di luar\nbaseline) yang disimpan untuk risiko\nyang tidak diketahui yang digunakan\nuntuk tujuan pengendalian manajemen.\nCommon Sources of Risk on IT Projects\nSOFIA UMAROH\nBeberapa studi menunjukkan bahwa\nproyek TI memiliki beberapa\nsumber risiko yang sama\nStandish Group mengembangkan\nlembar penilaian potensi\nkeberhasilan TI berdasarkan potensi\nrisiko\nKategori risiko luas lainnya"
+    },
+    {
+      "index": 9,
+      "panjang_karakter": 991,
+      "text": "membantu mengidentifikasi potensi\nrisiko\nBroad categories of risks\nSOFIA UMAROH\nMarket risk: apakah pengguna akan\nmenerima dan menggunakan\nproduk atau layanan?\n1\n2\nFinancial risk: akankah proyek ini\nmemanfaatkan keuangan kita\ndengan sebaik-baiknya?\n3\nTechnology risk: apakah proyek\ntersebut layak secara teknis?\n4\nPeople risk: dapatkah kita\nmenemukan orang yang tepat\nuntuk melakukan pekerjaan itu?\n5\nStructure/process risk: Apakah\norganisasi kami memiliki proses\nuntuk menyelesaikan proyek ini?\nRisk Breakdown Structure\nSOFIA UMAROH\nRisk Breakdown Structure:\nalat untuk membantu\nmanajer proyek\nmempertimbangkan risiko\npotensial dalam kategori\nyang berbeda\nSepertihalnya WBS, RBS\nmenunjukkan hierarki\nkategori risiko potensial\nuntuk suatu proyek.\nPotential Negative Risk Conditions\nAssociated With Each Knowledge Area\nSOFIA UMAROH\nMemahami sumber\numum risiko sangat\nmembantu dalam\nidentifikasi risiko, yang\nmerupakan langkah\nselanjutnya dalam\nmanajemen risiko\nproyek.\nProses\nManajemen\nRisiko"
+    },
+    {
+      "index": 10,
+      "panjang_karakter": 965,
+      "text": "2. Identifying\nRisks\nSOFIA UMAROH\nSOFIA UMAROH\nIdentifying Risks\nProses memahami peristiwa potensial apa\nyang mungkin merugikan atau meningkatkan\nproyek tertentu\nRisiko tidak dapat dikelola jika tidak\ndiidentifikasi terlebih dahulu.\nInput: Dokumen perencanaaan proyek,\nperkiraan biaya dan durasi aktivitas, baseline\nlingkup, daftar stakeholder, faktor lingkungan\nperusahaan, dan aset proses organisasi\nOutput: Risk Register\nAlat dan teknik meliputi:\n1\nBrainstorming\n2\nThe Delphi Technique\n3\nInterviewing\n4\nSWOT analysis\nSOFIA UMAROH\n1\n2\n3\n4\nBrainstorming adalah teknik dimana\nkelompok mencoba untuk menghasilkan\nide-ide atau menemukan solusi untuk\nmasalah tertentu dengan mengumpulkan\nide-ide secara spontan dan tanpa\npenilaian.\nBrainstorming\nYang perlu diperhatikan:\nFasilitator yang berpengalaman harus\nmenjalankan sesi brainstorming\nBerhati-hatilah untuk tidak terlalu sering\nmenggunakan atau menyalahgunakan\nbrainstorming.\nIndividu menghasilkan lebih banyak ide"
+    },
+    {
+      "index": 11,
+      "panjang_karakter": 996,
+      "text": "dengan bekerja sendiri daripada yang\nmereka lakukan melalui brainstorming\ndalam kelompok kecil tatap muka\nEfek kelompok seperti adanya dominasi,\ntakut ada penolakan, sering menghambat\npembentukan ide\nSOFIA UMAROH\n1\n2\nDelphi Technique\n2\nTeknik Delphi digunakan untuk\nmemperoleh konsensus di antara panel\nahli yang membuat prediksi tentang\nperkembangan masa depan\nyang perlu diperhatikan:\nMemberikan masukan independen dan\nanonim mengenai acara mendatang\nMenggunakan pertanyaan berulang dan\ntanggapan tertulis\nMenghindari kemungkinan efek bias\ndalam metode lisan, seperti\nbrainstorming\nSOFIA UMAROH\nInterviewing\nTeknik pencarian fakta untuk\nmengumpulkan informasi dalam diskusi\ntatap muka, telepon, email, atau pesan\ninstan.\nMewawancarai orang-orang dengan\npengalaman proyek serupa merupakan\nalat penting untuk mengidentifikasi\npotensi risiko\nSWOT Analysis\nAnalisis SWOT (strengths, weaknesses,\nopportunities, and threats) dapat\ndigunakan selama identifikasi risiko\nMembantu mengidentifikasi risiko"
+    },
+    {
+      "index": 12,
+      "panjang_karakter": 979,
+      "text": "negatif dan positif yang luas yang\nberlaku untuk sebuah proyek\nMembantu mengidentifikasi risiko dan\npeluang luas yang berlaku dalam\nskenario itu.\nSOFIA UMAROH\nDokumen yang berisi hasil dari berbagai proses manajemen risiko dan sering ditampilkan\ndalam format tabel atau spreadsheet\nAlat untuk mendokumentasikan kejadian risiko potensial dan informasi terkait\nPeristiwa risiko (Risk event) mengacu pada peristiwa spesifik dan tidak pasti yang\nmungkin terjadi sehingga merugikan atau meningkatkan proyek\nRisk Register\nSOFIA UMAROH\nRisk Register Elements\n1\nNomor identifikasi untuk setiap\nperistiwa risiko\n2\nPeringkat untuk setiap peristiwa risiko\n3\nNama setiap peristiwa risiko\n4\nDeskripsi setiap peristiwa risiko\n5\nKategori di mana setiap peristiwa\nrisiko berada\n6\nAkar penyebab setiap risiko\n7\nPemicu/gejala/indikator untuk\nsetiap risiko\n8\nPotensi tanggapan untuk setiap\nrisiko\n9\nPemilik risiko atau orang yang\nbertanggung jawab atas setiap risiko\n10\nProbabilitas dan dampak dari"
+    },
+    {
+      "index": 13,
+      "panjang_karakter": 977,
+      "text": "setiap risiko yang terjadi.\n11\nStatus setiap risiko\nSOFIA UMAROH\nRisk Register Example\nProses\nManajemen\nRisiko\n3. Performing\nQualitative Risk\nAnalysis\nSOFIA UMAROH\nSOFIA UMAROH\n1\n2\n3\nPerforming Qualitative\nRisk Analysis\nAnalisis risiko kualitatif melibatkan\npenilaian kemungkinan dan dampak\ndari risiko yang teridentifikasi untuk\nmenentukan besarnya dan\nprioritasnya.\nMenilai kemungkinan dan dampak dari\nrisiko yang teridentifikasi untuk\nmenentukan besarnya dan\nprioritasnya\nAlat dan teknik meliputi:\nProbability/impact matrix\nTop Ten Risk Item Tracking\nExpert Judgement\nSOFIA UMAROH\n1\n2\n3\nProbability/impact matrix\n4\nMencantumkan probabilitas relatif dari risiko yang terjadi (sumbu Y) dan dampak relatif\ndari risiko yang terjadi (sumbu X) pada bagan.\nCara menggunakan matrix:\nStakeholder proyek membuat daftar risiko\nyang mungkin terjadi pada proyek mereka\nBerikan label risiko probabilitas kejadian:\nhigh, medium, atau low\nBerikan label dampak risiko: high, medium,\natau low"
+    },
+    {
+      "index": 14,
+      "panjang_karakter": 992,
+      "text": "Kemudian PM merangkum hasilnya dalam\nmatriks probabilitas/dampak\nSOFIA UMAROH\nChart Showing High-, Medium-,\nand Low-Risk Technologies\nFaktor risiko digunakan untuk membuat\ngrafik probabilitas kegagalan dan\nkonsekuensi kegagalan\nMengklasifikasikan teknologi potensial\n(titik pada grafik) sebagai risiko tinggi,\nsedang, atau rendah, berdasarkan\nkemungkinan kegagalan dan konsekuensi\nkegagalan.\nSOFIA UMAROH\nTop Ten Risk Item Tracking\nAlat analisis risiko kualitatif yang\nmembantu mengidentifikasi risiko dan\nmempertahankan kesadaran akan risiko\nsepanjang umur proyek\nTetapkan tinjauan berkala atas sepuluh\nitem risiko proyek teratas\nBuat daftar peringkat saat ini, peringkat\nsebelumnya, berapa kali risiko muncul di\ndaftar selama periode waktu tertentu, dan\nringkasan kemajuan yang dibuat dalam\nmenyelesaikan item risiko\n1\n2\n3\nTinjauan manajemen risiko mencapai\nbeberapa tujuan:\nMembuat manajemen dan pelanggan\nsadar akan pengaruh utama yang dapat\nmencegah atau meningkatkan\nkeberhasilan proyek"
+    },
+    {
+      "index": 15,
+      "panjang_karakter": 981,
+      "text": "Dengan melibatkan pelanggan, tim proyek\nmungkin dapat mempertimbangkan\nstrategi alternatif untuk mengatasi risiko\nSarana untuk meningkatkan kepercayaan\ndalam tim proyek dengan menunjukkan\nkepada manajemen dan pelanggan bahwa\ntim sadar akan risikonya, memiliki strategi\ndan menjalankan strategi secara efektif.\nSOFIA UMAROH\nTop Ten Risk Item Tracking\nSOFIA UMAROH\nWatch List\nDaftar pantauan adalah daftar risiko\nyang berprioritas rendah, tetapi masih\ndiidentifikasi sebagai risiko potensial\nAnalisis kualitatif juga dapat\nmengidentifikasi risiko yang harus\ndievaluasi secara kuantitatif\nKeluaran utama dari analisis risiko\nKualitatif adalah memperbarui daftar\nrisiko.\nDaftar pantauan adalah daftar risiko\nyang berprioritas rendah tetapi masih\ndiidentifikasi sebagai risiko potensial\nProses\nManajemen\nRisiko\n4. Performing\nQuatitative Risk\nAnalysis\nSOFIA UMAROH\nSOFIA UMAROH\n1\n2\n3\nPerforming\nQuanitative Risk\nAnalysis\nSering mengikuti analisis risiko\nkualitatif, tetapi keduanya dapat"
+    },
+    {
+      "index": 16,
+      "panjang_karakter": 999,
+      "text": "dilakukan bersama-sama\nProyek besar dan kompleks yang\nmelibatkan teknologi terdepan\nseringkali memerlukan analisis\nrisiko kuantitatif yang ekstensif\nAlat dan teknik meliputi:\nDecision tree analysis\nMonte Carlo Simulation\nSensitivity analysis\nSOFIA UMAROH\nDecision Tree Analysis\nPohon keputusan adalah teknik analisis\ndiagram yang digunakan untuk\nmembantu memilih tindakan terbaik\ndalam situasi di mana hasil masa\ndepan tidak pasti\nAplikasi analisis pohon keputusan yang\numum adalah Expected monetary\nvalue (EMV).\nHasil kali dari probabilitas peristiwa\nrisiko dan nilai moneter peristiwa risiko.\nSOFIA UMAROH\nExpected Monetary Value (EMV)\nProposal 1\nProposal 2\nCliff Company\nP= 0.2\nP= 0.8\nProbability (P)\nPerusahaan Cliff akan memenangkan kontrak\nuntuk Proyek 1, yang diperkirakan laba bernilai\n$300.000\nTimes\nEMV of Outcome\n*\n*\n$300.000 = +$60,000\n-$40,000 = -$32,000\nP= 0.2\nP= 0.7\nProbabilitas 80% perusahaan akan kehilangan\n$40.000 untuk proyek 1\nP= 0.1\n*\n*\n-$50.000 = -$10,000\n$60,000 = $42,000\n*"
+    },
+    {
+      "index": 17,
+      "panjang_karakter": 972,
+      "text": "-$20.000 = -$2,000\nMisalkan probabilitas 20% perusahaan akan\nkehilangan $40.000 untuk Proyek 2\nProbabilitas 10% perusahaan akan kehilangan\n$20.000 untuk Proyek 2\nProbabilitas 70% perusahaan akan\nmemenangkan proyek 2 dengan laba $60.000\nEMV Proyek 1 = $60,000 - $32,000 = $28,000\nEMV Proyek 2 = -$10,000 - $2,000 + $42,000 = $30,000\nDiperoleh:\nKeputusan:\nJika harus memilih antara dua proyek, Perusahaan Cliff harus\nmenawar Proyek 2 karena memiliki EMV yang lebih tinggi dan positif.\nSOFIA UMAROH\nExpected Monetary Value (EMV)\nPerhatikan, proyek 1 terlihat lebih\nmenarik dengan keuntungan 300.000,\ntetapi hanya bisa mendapatkan\n$60.000 Proyek 2\nJika Cliff adalah seorang pencari risiko,\ndia tentu ingin menawar Proyek 1.\nNamun, hanya ada peluang 20% untuk\nmendapatkan $300.000 di Proyek 1,\ndibandingkan dengan 70 persen\npeluang untuk menghasilkan $60.000\ndi Proyek 2\nSOFIA UMAROH\nSimulation\nSimulasi: menggunakan representasi atau\nmodel dari suatu sistem untuk menganalisis"
+    },
+    {
+      "index": 18,
+      "panjang_karakter": 811,
+      "text": "perilaku atau kinerja yang diharapkan dari\nsistem\nAnalisis Monte Carlo: mensimulasikan hasil\nmodel berkali-kali untuk memberikan\ndistribusi statistik dari hasil yang dihitung\nUntuk menggunakan simulasi Monte Carlo,\nAnda harus memiliki tiga perkiraan (most\nlikely, pessimistic, and optimistic) ditambah\nperkiraan likelihood yang berada di antara\nnilai most likely dan optimistic.\n1\n2\n3\nAlat dan teknik meliputi:\nNilai kisaran untuk variabel yang\ndipertimbangkan\nTentukan distribusi probabilitas\nmasing-masing variabel\nUntuk setiap variabel, pilih nilai acak\nberdasarkan distribusi probabilitas\n4\nJalankan analisis deterministik atau\nsatu lintasan melalui model\n5\nUlangi langkah 3 dan 4 berkali-kali\nuntuk mendapatkan distribusi\nprobabilitas dari hasil model\nSemoga hari\nAnda luar biasa.\nTerima\nkasih\nSOFIA UMAROH"
+    }
+  ]
+}

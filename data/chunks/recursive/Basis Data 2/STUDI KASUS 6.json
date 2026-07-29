@@ -1,0 +1,13 @@
+{
+  "filename": "STUDI KASUS 6.txt",
+  "matkul": "Basis Data 2",
+  "teknik": "recursive",
+  "total_chunks": 1,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 878,
+      "text": "STUDI KASUS 6\n\nA patient can make many appointments with one or more doctors in clinic, and a doctor\ncan accept many appoinments with many patients. However, each appointment made\nwith only one doctor , and each appointment references a single patient.\n\nEmergency cases do not require an appointment. However an emergency is entered\ninto the appointment book as \"uncsheduled for appointment management purposes.\n\nIf Kept. an appointment yields a visit with the doctor specified in the appointment. The\nvisit yields a diagnosis and , when appropriate , treatment.\n\nEach Visit updates the patients records to provide a medical history.\n\nEach patient visit creates a bill. Each Patient visit is billed by one doctor and each doctor\ncan bill many patients.\n\n1. Define entity and relationships.\n2. Draw the ER diagram with Chen diagram.\n3. Draw the ER diagram with Crow Foot diagram."
+    }
+  ]
+}

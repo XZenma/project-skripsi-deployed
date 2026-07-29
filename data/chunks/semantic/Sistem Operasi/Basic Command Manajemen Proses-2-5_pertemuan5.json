@@ -1,0 +1,18 @@
+{
+  "filename": "Basic Command Manajemen Proses-2-5_pertemuan5.txt",
+  "matkul": "Sistem Operasi",
+  "teknik": "semantic",
+  "total_chunks": 2,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 290,
+      "text": "Operasi - operasi pada Proses :\n\nPenciptaan proses (create a process). Penghancuran/terminasi proses (destroy a process). Penundaan proses (suspend a process). Pelanjutan kembali proses (resume a process). Mem-block proses. Membangunkan proses. Menjadwalkan proses. Komunikasi Antar Proses."
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 1810,
+      "text": "Nah, dalam praktikum kali ini kita akan mengimplementasikan beberapa operasi - operasi\npada proses dengan menggunakan terminal dan sisanya bisa kalianexplore sendiri ya. Perintah-perintah proses di linux :\nInstruksi ps (process status) digunakan untuk melihat kondisi proses yang ada. PID adalah\nNomor Identitas Proses, TTY adalah nama terminal dimana proses tersebut aktif, STAT\nberisi S (Sleeping) dan R (Running), COMMAND merupakan instruksi yang digunakan. $ ps\n\nUntuk melihat faktor/elemen lainnya, gunakan option -u (user). %CPU adalah presentasi\nCPU time yang digunakan oleh proses tersebut, %MEM adalah presentasi system memori\nyang digunakan proses, SIZE adalah jumlah memori yang digunakan, RSS (Real System\nStorage) adalah jumlah memori yang digunakan, START adalah kapan proses tersebut\ndiaktifkan. $ ps u\nMencari proses yang spesifik untuk pemakai. $ ps -u <user>\n\nMencari proses lainnya gunakan opsi a, au dan aux\n$ ps -a\n$ ps -au\n$ ps -aux\n\nMelihat proses yang sedang berjalan\n$ top\n$ htop\n\nCatatan : untuk install htop ketik command sudo apt-get install htop (perlu koneksi\ninternet)\nMenampilkan hubungan proses parent dan child\n$ ps -eH Menampilkan hubungan proses parent dan child\n\n$ ps -eF Menampilkan hubungan proses parent dan child serta letak prosesnya\nMenampilkan semua proses pada sistem dalam bentuk hirarki parent/child\n$ pstree\n\nMenghentikan suatu proses/job\n$ kill %<nomor job> contoh : kill %1\n$ kill <PID> contoh : kill 1908\n$ pkill <nama proses> contoh : pkill firefox\n$ pkillall <nama proses> contoh : pkillall firefox\nMengubah prioritas suatu proses\n$ renice <prioritas> <PID>\nReferensi:\n\nModul praktikum mata kuliah Sistem Operasi 2012\n\nModul praktikum Manajemen Proses dan Memory di Linux Mint v.14\n\nhttp://rotyyu.blogspot.com/2013/04/linux-basic-command-line-manajemen.html"
+    }
+  ]
+}

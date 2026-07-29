@@ -1,0 +1,606 @@
+Manajemen
+Pengadaan 
+Proyek
+Project Procurement
+Management
+SOFIA UMAROH
+1
+Agenda
+Hari Ini
+2
+3
+4
+SOFIA UMAROH
+Definisi Manajemen Pengadaan
+Proyek
+Terminologi Manajemen
+Pengadaan PRoyek
+Proses Manajemen Pengadaan  
+Proyek
+Alat dan teknik Manajemen
+Pengadaan  Proyek
+SOFIA UMAROH
+Risks
+Pentingnya
+Manajemen
+Pengadaan Proyek
+SOFIA UMAROH
+Pengadaan (procure) berarti memperoleh
+barang dan/atau jasa dari sumber luar
+Keberhasilan banyak proyek TI yang
+menggunakan sumber daya luar seringkali
+disebabkan oleh manajemen pengadaan
+proyek yang baik
+Istilah lainnya adalah  purchasing dan
+outsourcing
+Orang-orang terus memperdebatkan apakah
+offshoring atau outsourcing membantu
+negara mereka sendiri atau tidak
+Pentingnya Manajemen
+Pengadaan Proyek
+Source: https://alcor-bpo.com/
+SOFIA UMAROH
+Outsourcing
+Kontrak kerja ke organisasi eksternal.
+Menyelesaikan pekerjaan di negara lain.
+Offshoring
+Definisi
+Kebutuhan
+Ketika sebuah perusahaan mengontrakkan
+proses tertentu kepada pihak ketiga
+Ketika bisnis mengirim pekerjaan internal
+ke luar negeri.
+Kepentingan klien dan vendor yang tidak
+selaras, peningkatan ketergantungan pada
+pihak ketiga,
+Risiko geopolitik, perbedaan bahasa dan
+komunikasi yang buruk, dll
+Risiko
+Manfaat
+Memanfaatkan keahlian khusus, efisiensi
+biaya, dan fleksibilitas tenaga kerja.
+Biaya lebih rendah, ketersediaan orang-
+orang terampil lebih baik, dan
+menyelesaikan pekerjaan lebih cepat
+melalui kumpulan bakat global.
+SOFIA UMAROH
+Why Outsource? 
+1
+2
+Access skills and technologies. Untuk
+memperoleh akses ke keterampilan
+dan teknologi tertentu saat dibutuhkan 
+Reduce both fixed and recurrent
+costs. Menghindari biaya perekrutan,
+pemecatan, dan penugasan
+3
+Focus on its core business. 
+ Outsourcing  fungsi TI, karyawan dapat
+fokus pada pekerjaan yang penting
+bagi keberhasilan organisasi.
+4
+Provide flexibility. Penambahan staff
+outsource di waktu padat lebih ekonomis
+dan pengerjaan produk lebih cepat
+5
+Provide flexibility. Penambahan staff
+outsource di waktu padat lebih ekonomis
+dan pengerjaan produk lebih cepat
+SOFIA UMAROH
+Outsourching Consideration
+Kendali. Perusahaan tidak memiliki banyak
+kendali atas aspek proyek yang dilakukan
+oleh pemasok (outsource sumber daya)
+Ketergantungan. Organisasi menjadi terlalu
+bergantung pada pemasok tertentu, Jika
+pemasok gulung tikar, dapat menyebabkan
+kerusakan besar pada sebuah proyek.
+Politik. Kebijakan outsourcing di suatu
+negara dapat mempengaruhi keputusan
+outsource
+Keamanan. Mencakup perlindungan
+kekayaan intelektual, integritas data, dan
+keandalan infrastruktur di lokasi offshore
+SOFIA UMAROH
+Successful Outsource Examples
+WhatsApp hired offshore
+developers from Russia because
+“there are excellent engineers there,”
+according to the company's Co-
+Founder, Jan Koum.
+Amazon outsourced its call center
+services to South Africa. It later set
+up a customer service outsourcing
+base in Cebu, the Philippines, in
+2018.
+Slack owes its success to outsourcing,
+as the company hired a Canadian
+design team MetaLab to help them
+develop the beta version into a
+successful product.
+           has offshored its manufacturing
+to countries like the USA, a huge
+consumer of its products. It invested
+$500 million in its Austin
+semiconductor plant in Texas in 2005.
+Apa saja
+Proses
+Manajemen
+Pengadaan Proyek?
+SOFIA UMAROH
+SOFIA UMAROH
+"Mencakup proses yang diperlukan
+untuk memperoleh barang dan jasa
+untuk suatu proyek dari luar
+organisasi pelaksana."
+Manajemen Pengadaan Proyek
+Organisasi dapat berupa pembeli atau
+penjual produk atau layanan berdasarkan
+kontrak atau perjanjian lainnya
+Proses Area Pengetahuan:
+1
+2
+3
+Planning procurement management 
+Conducting procurements 
+Controlling procurements 
+4
+Closing procurements
+SOFIA UMAROH
+
+Kontrak
+Kontrak adalah perjanjian yang saling
+mengikat yang mewajibkan penjual untuk
+menyediakan produk atau layanan
+tertentu dan mewajibkan pembeli untuk
+membayarnya.
+Kontrak dapat memperjelas
+tanggung jawab dan mempertajam
+fokus pada hasil utama proyek
+
+Ada tanggung jawab yang lebih
+besar untuk menyerahkan
+pekerjaan seperti yang tercantum
+dalam kontrak
+SOFIA UMAROH
+Project Procurement Management
+SOFIA UMAROH
+Proses Manajemen Pengadaan Proyek
+Planning procurement
+management 
+
+Mengidentifikasi kebutuhan
+proyek mana yang paling
+baik dapat dipenuhi dengan
+menggunakan produk atau
+layanan di luar organisasi
+
+Keputusan make-or-buy
+1
+2
+3
+4
+Conducting
+procurements 
+
+Memutuskan siapa yang
+diminta melakukan
+pekerjaan, mengirimkan
+dokumentasi kepada penjual
+potensial, memperoleh
+proposal atau penawaran,
+memilih penjual, dan
+memberikan kontrak.
+Controlling
+procurements 
+
+Memastikan bahwa kinerja
+penjual memenuhi
+persyaratan kontrak.
+
+Harus melibatkan
+profesional hukum dan
+kontrak yang sesuai dalam
+penulisan dan administrasi
+kontrak.
+.
+Closing 
+procurements 
+
+Penutupan kontrak 
+ melibatkan penyelesaian
+kontrak dan penyelesaian
+setiap item di dalam kontrak 
+
+Menentukan apakah semua
+pekerjaan yang diperlukan
+dalam setiap kontrak telah
+diselesaikan dengan benar
+dan memuaskan
+SOFIA UMAROH
+Project
+Procurement
+Management
+Processes
+Summary
+Proses
+Manajemen
+Pengadaan 
+1. Plan Procurement 
+   Management 
+SOFIA UMAROH
+Mengidentifikasi kebutuhan proyek mana yang
+paling baik dipenuhi dengan menggunakan produk
+atau layanan di luar organisasi
+Outsourcing sering digunakan ketika orang-orang
+dengan keterampilan khusus dibutuhkan dalam
+waktu singkat.
+Input:
+Make-or-buy analysis 
+Expert judgment
+Contract type selection.
+SOFIA UMAROH
+Tool & Technique
+Key questions:
+Apakah kita perlu melakukan outsourcing?
+Bagaimana kita melakukan outsourcing?
+Apa saja yang harus di-outsource?
+Berapa biaya untuk melakukan outsourcing?
+Kapan pengadaannya?
+1.
+2.
+3.
+4.
+5.
+Rencana manajemen proyek
+Deskripsi Produk
+Pernyataan Ruang Lingkup
+Kendala dan asumsi
+Faktor lingkungan perusahaan
+Plan Procurement Management
+SOFIA UMAROH
+Make-or-buy analysis 
+Analisis make-or-buy digunakan untuk
+memutuskan apakah perlu membuat
+produk/ layanan di dalam organisasi, atau
+membelinya dari organisasi luar.
+Misanya untuk perangkat keras dan
+perangkat lunak TI, penting untuk
+menyertakan biaya pemasangan,
+pelatihan, pemeliharaan, dan dukungan.
+Pertimbangan ahli, baik internal maupun
+eksternal, merupakan aset dalam
+pengambilan keputusan pengadaan.
+Analisis Buy harus mencakup biaya
+aktual untuk membeli produk serta biaya
+tidak langsung untuk mengelola proses
+pembelian.
+Harus mencerminkan perspektif kinerja
+organisasi serta kebutuhan mendesak
+proyek.
+SOFIA UMAROH
+Contoh Make-or-buy
+Artinya: biaya pembelian produk akan
+sama dengan biaya sewa selama 30 hari.
+Jadi, jika peralatan dibutuhkan kurang
+dari 30 hari, sewa akan lebih hemat.
+Asumsikan biaya sewa suatu produk yang dibutuhkan proyek sebesar 8 juta / hari. Untuk
+membuat produk tersebut memerlukan biaya 120 juta ditambah biaya operasional 4 juta / hari.
+Berapa lama waktu operasional (d) sehingga biaya sewa akan sama dengan biaya jika membuat
+sendiri ?
+Solusi:
+8.000.000/day = 120.000.000 + 4.000.000/d
+4.000.000/day = 120.000.000 
+                         d = 30
+SOFIA UMAROH
+Expert Judgement
+Penilaian ahli akan sering diperlukan
+untuk menilai input untuk proses ini. 
+Ahli dapat berasal dari setiap
+kelompok atau individu dengan
+pengetahuan atau pelatihan khusus
+Sumber Ahli:
+1
+Unit lain dalam organisasi
+pelaksana
+2
+Konsultan
+3
+Asosiasi profesional dan teknis.
+4
+Kelompok industri
+SOFIA UMAROH
+Types of Contracts 
+1
+2
+3
+Fixed-price or lump-sum contracts::
+kontrak dengan harga total tetap untuk
+pengiriman produk atau layanan yang
+ditentukan dengan baik.
+Time and material contracts: Kombinasi
+dari kedua metode diatas
+Cost reimbursable contracts: Melibatkan
+pembayaran kepada penjual untuk biaya
+langsung dan tidak langsung
+Harga satuan: Pembayaran
+dilakukan berdasarkan per unit
+produk/jasa. 
+Sebuah kontrak memungkinkan
+memasukkan ke empat kategori
+tersebut.
+SOFIA UMAROH
+Point of Total Assumption (PTA) 
+PTA adalah biaya di mana
+kontraktor memikul tanggung
+jawab total untuk setiap biaya
+tambahan dari biaya kontrak.
+Kontraktor tidak ingin mencapai
+PTA karena merugikan mereka
+secara finansial, sehingga mereka
+memiliki insentif untuk mencegah
+pembengkakan biaya.
+Rumus PTA:
+PTA = 
+(ceiling price - target price)
+government share
++ target cost
+Misalnya diketahui:
+Ceiling price = $1,250
+Target price = $1,100
+Target cost = $1,000 
+Government share: 75percent
+SOFIA UMAROH
+Point of Total Assumption (PTA) 
+Ceiling price = $1,250
+Target price = $1,100
+Target cost = $1,000 
+Government share: 75percent 
+Misalnya diketahui dolar dalam juta:
+Diperoleh:
+Rumus PTA:
+PTA = 
+(ceiling price - target price)
+government share
++ target cost
+PTA = 
+($1,250 - $1,100)
+0.75
++ $1,000  
+= $1,200 juta
+Maka, nilai PTA adalah  $1,200 juta
+Procurement management plan
+Menjelaskan bagaimana proses
+pengadaan yang tersisa (mulai dari
+perencanaan permohonan hingga
+penutupan kontrak) akan dikelola.
+Dapat secara formal atau informal,
+sangat rinci atau secara umum
+disesuaikan dengan kebutuhan proyek
+SOW adalah deskripsi dari pekerjaan
+yang diinginkan untuk pengadaan. 
+SOW adalah salah satu tipe dari
+statemen ruang lingkup. 
+SOW yang baik akan memberikan
+pemahaman yang lebih baik bagi
+pembeli.
+Output:
+SOFIA UMAROH
+Statement of Work (SOW)
+SOFIA UMAROH
+Komponen SOW
+1
+2
+3
+Scope of Work:Detail pekerjaan. Menjelaskan
+hardware dan software yang digunakan dan
+menjadikan pekerjaan lebih operasional. 
+Period of Performance: kapan pekerjaan
+dimulai dan selesai, jam kerja, jumlah jam
+yang dapat gunakan per minggunya,
+kemana pekerjaan harus dicapai, dan
+dikaitkan dengan informasi jadwal. 
+Location of Work: kemana pekerjaan
+harus dicapai. Menjelaskan lokasi
+hardware dan software, dan dimana
+orang-orang harus bekerja. 
+4
+5
+6
+Deliverables Schedule: Daftar hasil
+pekerjaan yang harus diserahkan,
+menggambarkannya lebih detail, dan kapan
+harus diserahkan. 
+Acceptance Criteria: Menggambarkan
+bagaimana menetapkan kriteria pekerjaan
+yang dapat diterima. 
+Applicable Standards: Menjelaskan
+standar khusus pada beberapa
+perusahaan atau industri yang relevan
+untuk mencapai pekerjaan. 
+7
+Special Requirements: permintaan khusus
+seperti sertifikasi H/S, syarat minimal
+lulusan atau pengalaman personel,
+permintaan pengangkutan, dsb.
+SOFIA UMAROH
+Dokumen Pengadaan
+1
+2
+3
+Request for proposal (RFP): digunakan untuk
+memperoleh proposal dari penjual yang
+sesuai.
+Request for Quotes: digunakan untuk
+memperoleh penawaran dari penjual yang
+sesuai.
+Proposal adalah sebuah dokumen yang
+disiapkan oleh penjual untuk memenuhi
+kebutuhan pembeli.
+Proses
+Manajemen
+Pengadaan 
+2. Conduct  
+    Procurement 
+SOFIA UMAROH
+Conduct Procurement 
+SOFIA UMAROH
+1
+2
+Menentukan pihak yang bertanggung
+jawab dalam mengerjakannya.
+Mengirim dokumen ke penjual-
+penjual yang potensial.
+3
+4
+Memperoleh proposal atau penawaran
+Memilih penjual
+5
+Membuat kontrak
+Calon penjual melakukan beberapa
+pekerjaan dan biasanya tanpa biaya kepada
+pembeli atau proyek. 
+Organisasi pembeli bertanggung jawab untuk
+mengiklankan pekerjaan,
+Bagi pengadaan besar, sering mengadakan
+semacam konferensi penawar untuk
+menjawab pertanyaan tentang pekerjaan
+Output:
+Penjual yang terpilih, dan 
+Penghargaan kontrak pengadaan.
+Tahapan proses:
+SOFIA UMAROH
+Mendekati vendor pilihan
+Mendekati beberapa vendor potensial
+Beriklan kepada siapa pun yang tertarik
+Konferensi penawar, pertemuan dengan
+calon penjual sebelum persiapan proposal
+atau penawaran mereka dapat membantu
+memperjelas harapan pembeli
+Organisasi dapat beriklan untuk pengadaan
+barang dan jasa dalam beberapa cara:
+1.
+2.
+3.
+4.
+Approach for
+Procurement 
+Setelah pembeli menerima
+proposal atau tawaran,
+mereka dapat memilih
+pemasok atau memutuskan
+untuk membatalkan
+pengadaan
+Source selection: evaluasi proposal
+atau tawaran dari penjual, memilih yang
+terbaik, menegosiasikan kontrak, dan
+memberikan kontrak
+Disarankan menggunakan formal
+proposal evaluation sheets
+SOFIA UMAROH
+Proposal Evaluation Sheets
+1
+2
+3
+Digunakan untuk membantu menentukan
+daftar tiga hingga lima proposal terbaik
+Tambahkan skor untuk memberikan total
+skor tertimbang (total weighted score)
+untuk setiap proposal.
+Skor kriteria = bobot (weight) * peringkat
+(rating) proposal.
+4
+Jika kriteria dan evaluasi telah dilakukan,
+penjual dengan poin terbanyak
+berdasarkan semua kriteria harus ditawari
+kontrak.
+SOFIA UMAROH
+Seller Selection
+1
+2
+3
+Organisasi sering membuat sebuah daftar
+penjual/rekanan untuk merekam kinerja
+penjual tersebut di proyek sebelumnya. 
+Output akhir adalah kontrak yang sudah
+ditanda tangani oleh pembeli dan penjual
+yang terpilih.
+Penjual/rekanan dapat dipilih dari daftar
+tersebut.
+Merupakan kebiasaan
+untuk melakukan
+negosiasi kontrak selama
+proses pemilihan sumber
+Proses
+Manajemen
+Pengadaan 
+3. Controlling  
+     Procurement 
+SOFIA UMAROH
+Controlling
+Procurement 
+SOFIA UMAROH
+Memastikan bahwa kinerja penjual memenuhi
+persyaratan kontrak
+Kontrak adalah hubungan hukum, jadi penting
+bagi profesional hukum dan kontraktor untuk
+terlibat dalam penulisan dan administrasi
+kontrak
+Manajer proyek dan anggota tim harus
+memperhatikan perintah perubahan yang
+konstruktif (Constructive change orders)
+Constructive change adalah tindakan
+informal yang mengesahkan atau
+memerintahkan suatu modifikasi
+dilapangan yang terjadi oleh karena
+kesalahan dalam melakukan tindakan. 
+Menunjukkan perubahan lingkup
+pekerjaan kontraktor atau metode
+pelaksanaan akibat kesalahan pemilik,
+pihak ketiga seperti sub kontraktor dan
+juga supplier, serta seluruh kesalahan
+diluar dari kontraktor.
+SOFIA UMAROH
+Perubahan Kontrak
+1
+2
+3
+Setiap perubahan didalam kontrak harus
+direview, disetujui dan didokumentasikan.
+Memiliki rencana cadangan
+Setiap perubahan harus memasukan analisa
+dampak yang menggambarkan dampak
+terhadap ruang lingkup, waktu, biaya dan
+kualitas dari produk atau layanan yang
+diberikan.
+Organsiasi perlu
+menyiapkan rencana
+pengelolaan kontrak yang
+menjelaskan bagaimana
+kontrak akan dikelola.
+3
+Gunakan alat bantu dan metode lain
+seperti review kinerja, inspeksi dan audit.
+Proses
+Manajemen
+Pengadaan 
+4. Closing  
+     Procurement 
+SOFIA UMAROH
+SOFIA UMAROH
+Controlling
+Procurement 
+Menyelesaikan dan menetapkan kontrak, serta menyelesaikan
+semua hal yang masih terkendala.
+Tim proyek harus:
+Menentukan semua pekerjaan diselesaikan secara benar dan
+memuaskan.
+Melakukan update yang merefleksikan hasil akhir.
+Mengarsipkan informasi untuk digunakan kedepannya.
+Di dalam kontrak memasukan syarat penerimaan dan
+penutupan proyek yang dilakukan secara formal.
+Semoga hari
+Anda luar biasa.
+Terima
+kasih
+SOFIA UMAROH

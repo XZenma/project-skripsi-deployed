@@ -1,0 +1,33 @@
+{
+  "filename": "TM-03 E-Commerce - Menampilkan Semua Produk dan Filter Produk.txt",
+  "matkul": "Rekayasa Perangkat Lunak",
+  "teknik": "recursive",
+  "total_chunks": 5,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 985,
+      "text": "TM-03\nE-COMMERCE - DISPLAY SEMUA\nPRODUK DAN FILTER PRODUK\nISB-202 Rekayasa Perangkat Lunak\nKURNIA RAMADHAN PUTRA, S.KOM., M.T.\nFRONTEND - DISPLAY SEMUA PRODUK\nKustomisasi halaman shop\n(HTML)\nLogika untuk menampilkan\nsemua products (PHP)\nKEBUTUHAN\nPERSIAPAN APLIKASI (1)\nRename file shop.html menjadi shop.php\nKONFIGURASI\nPERSIAPAN APLIKASI (2)\nBuka file index.php, dan modifikasi pada bagian kode untuk mengganti header menu,\ndengan mengubah href=\"index.html\" menjadi href=\"index.php\", kemudian\nhref=\"shop.html\" menjadi href=\"shop.php\", lakukan hal yang sama pada file shop.php\nKONFIGURASI (INDEX.PHP DAN SHOP.PHP)\nKUSTOMISASI TAMPILAN (1)\nHapus pada bagian filter BRANDING, FILTER PRICE, SIZE, COLORS, dan TAG kemudian\nsisakan bagian CATEGORIES\nSHOP.PHP\nKUSTOMISASI TAMPILAN (2)\nUntuk menghapus filter BRANDING, hapus bagian kode program berikut\nSHOP.PHP\nKUSTOMISASI TAMPILAN (3)\nUntuk menghapus filter FILTER PRICE, hapus bagian kode program berikut\nSHOP.PHP\nKUSTOMISASI TAMPILAN (4)"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 993,
+      "text": "Untuk menghapus filter SIZE, hapus bagian kode program berikut\nSHOP.PHP\nKUSTOMISASI TAMPILAN (5)\nUntuk menghapus filter COLORS, hapus bagian kode program berikut\nSHOP.PHP\nKUSTOMISASI TAMPILAN (6)\nUntuk menghapus filter TAGS, hapus bagian kode program berikut\nSHOP.PHP\nREFRESH TAMPILAN\nRefresh halaman Shop, sehingga yang tersisa hanya filter CATEGORIES, tampilannya\nmenjadi seperti ini:\nSHOP.PHP\nMODIFIKASI KODE(1)\nTambahkan kode <form method=\"POST\" action=\"shop.php\">...</form> di atas <div\nclass=\"accordion>...</div>\nSHOP.PHP\nMODIFIKASI KODE(2)\nTambahkan kode untuk membuat tombol Searching sebelum penutup tag <div\nclass=\"accordion>...</div> (sebelum </div>)\nSHOP.PHP\nMODIFIKASI KODE(3)\nRefresh halaman Shop, sehingga terlihat ada tambahan tombol Pencarian di kiri\nbawah filter CATEGORIES, namun ada bug pada tombol refresh\nSHOP.PHP\nUntuk memperbaiki bug pada tombol Refresh modifikasi kode berikut:\n<button class=\"btn btn-secondary\" onClick=\"history.go(0);\"><i class=\"fas fa-sync-alt\"></i>"
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 975,
+      "text": "</button> mengganti fas fa-sync-alt dengan fa fa-refresh\nMODIFIKASI KODE(4)\nRefresh halaman Shop, sehingga bug pada tombol Refresh sudah dapat diperbaiki\nSHOP.PHP\nMODIFIKASI KODE(5)\nTinggalkan 1 produk yang ditampilkan pada halaman shop, dan hapus sisa produk\nlainnya, sehingga tampilannya seperti ini\nSHOP.PHP\nMODIFIKASI KODE(6)\nMenghapus blok kode <div class=\"col-lg-4 col-md-6 col-sm-6\">...</div> sampai tersisa\nhanya 1 produk\nSHOP.PHP\nLOGIKA MENAMPILKAN DATA (1)\nPada baris pertama sebelum tag kode <!DOCTYPE html> pada file shop.php, tambahkan\nkode berikut:\nSHOP.PHP\nLOGIKA MENAMPILKAN DATA (2)\nDi atas kode <div class=\"col-lg-4 col-md-6 col-sm-6\">...</div> tambahkan kode\n<?php while ($row = $products->fetch_assoc()) { ?> ... <?php } ?>\nSHOP.PHP\nLOGIKA MENAMPILKAN DATA (3)\n<div class=\"product__item__pic set-bg\" data-setbg=\"img/product/<?\nphp echo $row['product_image1']; ?>\">\n<h6><?php echo $row['product_name']; ?></h6>\n<h5><?php echo $row['product_brand']; ?></h5>"
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 992,
+      "text": "<h5>Rp<?php echo $row['product_price']; ?></h5>\nModifikasi kode untuk menampilkan product_name, product_image, dan\nproduct_price\nSHOP.PHP\nLOGIKA MENAMPILKAN DATA (4)\nSHOP.PHP\nREFRESH HALAMAN SHOP\nRefresh halaman Shop, dimana data yang ditampilkan adalah data dari database\nLOCALHOST:8080/SHOP.PHP\nMODIFIKASI CATEGORIES (1)\nMofikasi categories sesuai data yang ada yaitu sepatu, jaket, kaos, tas, dan syal\nHALAMAN SHOP\nMOFIKIKASI CATEGORIES (2)\nSHOP.PHP\nTambahkan kode <li>...</li> yang sama untuk jaket, kaos, tas, dan syal\nREFRESH HALAMAN SHOP\nRefresh halaman Shop, dapat dilihat bahwa categories sudah berganti\nLOCALHOST:8080/SHOP.PHP\nLOGIKA FILTER BERDASARKAN\nCATEGORIES (1)\nPada baris pertama\nsebelum tag kode\n<!DOCTYPE html>\npada file shop.php,\ntambahkan kode\nberikut:\nSHOP.PHP\nREFRESH HALAMAN SHOP\nRefresh halaman Shop, dapat dilihat fungsi filter dapat berjalan dengan baik, namun ada\nbug pada radio button statusnya tidak \"checked\"\nLOCALHOST:8080/SHOP.PHP\nTerima Kasih\nKOMBINASI KERJA"
+    },
+    {
+      "index": 5,
+      "panjang_karakter": 60,
+      "text": "KERAS DAN KERJA\nCERDAS ADALAH\nPEKERJAAN EFISIEN.\nROBERT HALF"
+    }
+  ]
+}

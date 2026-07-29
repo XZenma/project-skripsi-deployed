@@ -1,0 +1,1154 @@
+1
+
+INSTITUT TEKNOLOGI NASIONAL
+FAKULTAS TEKNOLOGI INDUSTRI
+PROGRAM SARJANA SISTEM INFORMASI
+
+RENCANA PEMBELAJARAN SEMESTER
+
+FORM : ITENAS.../F_RPS_..../..
+Mata Kuliah
+Kode
+Bobot sks
+Semester
+Tanggal penyusunan
+Rekayasa Perangkat Lunak
+ISB-202
+4
+4
+19 Desember 2022
+
+Koordinator Pengampu Mata
+Kuliah
+Koordinator RMK/KBI
+Ka Prodi
+Persetujuan (tanda tangan)
+Dekan
+Persetujuan (tanda tangan)
+Kurnia Ramadhan Putra,
+S.Kom., M.T.
+
+Capaian Pembelajaran
+Lulusan (CPL Padu)1) yang
+dibebankan pada mata kuliah
+CPL PADU- YANG DIBEBANKAN PADA MATAKULIAH2)
+
+CPL3: Mampu menganalisis masalah kebutuhan organisasi dengan menerapkan prinsip-prinsip
+pengembangan sistem informasi dengan disiplin ilmu lain yang relevan sesuai etika akademik (38%)
+CPL 4: Mampu merancang, mengimplementasikan, dan mengevaluasi solusi berbasis teknologi informasi untuk
+memenuhi kebutuhan pengguna (38%)
+CPL 8: Mampu merancang dan mengimplementasi model data untuk sebuah sistem informasi (24%)
+CPMK3)
+CAPAIAN PEMBELAJARAN MATA KULIAH (CPMK)
+
+CPMK-1: Mampu memanfaatkan pengetahuan yang dimiliki berkaitan dengan konsep-konsep dasar, prinsip,
+dan metodologi serta mampu menggunakan tools untuk meningkatkan efektivitas dan produktivitas
+dalam proses pengembangan perangkat lunak.
+CPMK-2: Mampu menerapkan konsep-konsep yang berkaitan dengan manajemen informasi, termasuk
+menyusun pemodelan dan abstraksi data serta membangun aplikasi perangkat lunak untuk
+pengorganisasian data yang teruji dan memiliki keamanan akses data
+SUBCPMK4)
+KEMAMPUAN AKHIR TIAP TAHAPAN BELAJAR (SUBCPMK)
+2
+
+SubCPMK-1: Mampu menjelaskan proses dan berbagai metodologi pengembangan perangkat lunak agar
+proses pengembangan menjadi lebih terstruktur dan mengikuti standar
+SubCPMK-2: Mampu menjelaskan manajemen proyek perangkat lunak menggunakan pendekatan prediktif
+untuk menentukan lingkup, waktu, dan biaya agar proyek dapat direncanakan dengan baik
+SubCPMK-3: Mampu menjelaskan manajemen konfigurasi dan manajemen versi perangkat lunak serta
+memanfaatkan tools untuk melakukan penelusuran dan merekam segala perubahan yang terjadi
+pada perangkat lunak
+SubCPMK-4: Mampu berkomunikasi dan berkolaborasi pada manajemen proyek perangkat lunak yang
+dikembangkan dengan metodologi agile
+SubCPMK-5: Mampu merancang perangkat lunak dengan menggunakan pendekatan rancangan prosedural
+dan berorientasi objek
+SubCPMK-6: Mampu menjelaskan prinsip-prinsip pengembangan perangkat lunak berorientsi objek agar kode
+program yang dihasilkan dapat dipelihara dan digunakan kembali
+SubCPMK-7: Mampu melakukan pengujian fungsionalitas perangkat lunak menggunakan skenario kasus
+pengujian dan melakukan penelusuran terhadap kode program menggunakan teknik pengujian
+black-box dan white-box
+SubCPMK-8: Mampu menerapkan pemetaan relasi objek ke database menggunakan framework agar kueri data
+menjadi lebih sederhana dan proses pengembangan menjadi lebih cepat
+SubCPMK-9: Mampu membangun perangkat lunak aplikasi web sederhana yang menyediakan suatu layanan
+melalui API menggunakan framework yang mendukung keamanan data
+
+Korelasi CPL Padu, Indikator CPL, CPMK dan SubCPMK
+
+CPL
+
+Kode
+Indikator CPL
+Padu
+
+No.
+Bobot
+CPMK-1
+CPMK-2
+CPL 3
+38
+3.2
+v
+
+CPL 4
+38
+4.4
+v
+v
+CPL 8
+24
+8.2
+
+v
+3
+
+CPMK-1
+CPMK-2
+SubCPMK-1
+v
+
+SubCPMK-2
+
+v
+SubCPMK-3
+v
+
+SubCPMK-4
+v
+
+SubCPMK-5
+v
+
+SubCPMK-6
+v
+
+SubCPMK-7
+
+v
+SubCPMK-8
+
+v
+SubCPMK-9
+
+v
+Deskripsi Singkat Mata
+Kuliah
+Mata kuliah membahas tentang pendekatan, standar, prinsip, metodologi, dan tools yang digunakan saat
+menyusun, menentukan, merancang, memprogram, mendokumentasikan, menguji, dan memperbaiki bug yang
+yang terjadi pada perangkat lunak.
+Bahan kajian: Materi
+Pembelajaran (sesuai
+SubCPMK)
+Bahan kajian dari mata kuliah ini:
+1.
+Software Development Life Cycle (SDLC)
+2.
+Process Model: Predictive, Iterative, and Rapid Application Development (RAD)
+3.
+Software Project Management
+4.
+Software Semantic Versioning and Version Control System
+5.
+Software Testing: Test Case Design and Test Tools
+6.
+Software Design: Procedural Design and Object Oriented Design
+7.
+Software Development Principle: OOP Principle, Design Pattern, and Clean Code (SOLID, KISS, YAGNI, and
+DRY Principle)
+8.
+Object Relational Mapping: JPA and Hibenate
+9.
+Software Security: Authentication and Authorization
+10. Web Devepment Framework: Spring MVC, Spring Data, Spring REST API, and Spring Security
+
+Kriteria/Teknik Penilaian
+Dan Kaitan Dengan CPMK
+SubCPMK
+Persentas
+e (%)
+CPMK
+Media/Rubrik
+1
+2
+SubCPMK-1
+8%
+v
+
+1. Tugas Terstruktur (3%)
+2. Ujian SubCPMK (5%)
+4
+
+SubCPMK-2
+8%
+
+v
+1. Tugas Terstruktur (3%)
+2. Ujian SubCPMK (5%)
+SubCPMK-3
+10%
+v
+
+1. Tugas Terstruktur (2%)
+2. Kuis/ Latihan (3%)
+3. Ujian SubCPMK (5%)
+SubCPMK-4
+12%
+v
+
+1. Tugas Terstruktur (2%)
+2. Kuis/ Latihan (3%)
+3. Ujian SubCMPK (5%)
+4. Praktik (2%)
+SubCPMK-5
+15%
+v
+
+1. Tugas Terstruktur (2%)
+2. Kuis/ Latihan (3%)
+3. Ujian SubCPMK (5%)
+4. Portofolio Hasil
+Rancangan (5%)
+SubCPMK-6
+12%
+v
+
+1. Tugas Terstruktur (2%)
+2. Kuis/ Latihan (3%)
+3. Ujian SubCPMK (5%)
+4. Portofolio Source Code
+SubCPMK-7
+10%
+
+v
+1. Tugas Terstruktur (2%)
+2. Kuis/ Latihan (3%)
+3. Ujian SubCPMK (5%)
+SubCPMK-8
+10%
+
+v
+1. Tugas Terstruktur (2%)
+2. Ujian SubCPMK (5%)
+3. Portofolio Source Code
+(3%)
+SubCPMK-9
+15%
+
+v
+1. Tugas Terstruktur (3%)
+2. Ujian SubCPMK (4%)
+3. Portofolio Source Code
+(5%)
+4. Presentasi (3%)
+
+100%
+
+100%
+5
+
+Pustaka
+Utama:
+
+1. Sommerville, Ian. 2016. Sofware Engineering 10th Edition. Edinburgh: Pearson Education Limited.
+2. Stephens, Rod. 2015. Beginning Software Engineering. Indianapolis: John WIleys & Sons, Inc.
+3. O'Regan, Gerard. 2017. Concise Guide to Software Engineering From Fundamentals to Application
+Methods. Cham: Springer International Publishing.
+4. Ahmed, Ashfaque & Prasad, Bhanu. 2016. Foundations of Software Engineering. Boca Raton: CRC
+Press.
+5. Lethbridge, Timothy C. & Laganiere, Robert. 2005. Object-Oriented Software Engineering 2nd Edition.
+New York: McGraw-Hill Education.
+Pendukung:
+
+1. Fowler, Martin. 2019. Refactoring Improving the Design of Existing Code 2nd Edition. San Francisco:
+Pearson Education Inc.
+2. Filipova, Olga & Vilao, Rui. 2018. Software Development From A to Z. Berlin: Apres Media.
+3. Dooley, John F. 2017. Software Development, Design and Coding 2nd Edition. Illinois: Apres Media.
+Dosen Pengampu
+Kurnia Ramadhan Putra, S.Kom., M.T.
+Mata Kuliah Prasyarat
+ISB-205 Pemrograman Berorientasi Objek
+ISB-207 Analisis dan Desain Sistem 2
+Mg Ke-
+
+Kemampuan
+Akhir Tiap
+Tahapan Belajar
+(SubCPMK)
+Penilaian
+Bentuk Pembelajaran7);
+Metode Pembelajaran8);
+Penugasan Mahasiswa
+(estimasi waktu)
+Materi
+Pembelajaran9)
+(Pustaka)
+Bobot
+Penilaian10
+(%)
+Indikator5)
+Teknik6)
+(1)
+(2)
+(3)
+(4)
+Luring (5)
+Daring (6)
+(7)
+(8)
+1
+SubCPMK-1:
+Mampu
+menjelaskan
+proses dan
+berbagai
+metodologi
+pengembangan
+perangkat lunak
+1. Ketepatan
+menjelaskan
+pengertian
+rekayasa
+perangkat lunak
+2. Ketepatan
+menjelaskan etika
+dan
+1. Ceramah
+2. Small
+Discussion
+Group
+3. Tugas
+Mandiri
+4. Studi
+Kasus
+PB: Kuliah
+
+TM: [1 x 3 x
+50"]
+MP1:
+Structured
+Overview
+MP2:
+KM: [1 x 3 x
+60"]
+Membaca slide,
+menonton video
+materi yang
+diunggah pada e-
+learning
+PT: [1 x 3 x 60"]
+1. Introductions to
+Software
+Engineering
+2. Software
+Engineering
+Ethics and
+Professionalism
+3. Software Process
+8
+6
+
+prediktif agar
+proses
+pengembangan
+menjadi lebih
+terstruktur dan
+mengikuti standar
+profesionalisme
+dalam rekayasa
+perangkat lunak
+3. Ketepatan
+menjelaskan
+proses perangkat
+lunak
+4. Ketepatan
+menjelaskan
+berbagai
+metodologi
+pengembangan
+perangkat lunak
+Discovery
+Learning
+Latihan 1:
+Mencari studi
+kasus proyek
+pengembangan
+perangkat lunak
+minimal 2
+metodologi yang
+berbeda dan
+dipresentasikan.
+4. Software
+Development
+Methodology
+2-3
+SubCPMK-2:
+Mampu
+menjelaskan
+manajemen
+proyek perangkat
+lunak
+menggunakan
+pendekatan
+prediktif untuk
+menentukan
+lingkup, waktu,
+dan biaya agar
+proyek dapat
+direncanakan
+dengan baik
+kriteria proyek
+yang dikerjakan
+1. Ketepatan
+menjelaskan
+pengertian
+manajemen
+proyek perangkat
+lunak
+2. Ketepatan
+membuat rencana
+penjadwalan
+proyek
+3. Ketepatan
+membuat rencana
+estimasi biaya
+proyek
+4. Ketepatan
+mendefinisikan
+kebutuhan tim
+dalam proyek
+1. Ceramah
+2. Small
+Discussion
+Group
+3. Tugas
+Mandiri
+4. Studi
+Kasus
+PB: Kuliah
+
+TM: [1 x 3 x
+50"]
+MP1:
+Structured
+Overview
+MP2:
+Discovery
+Learning
+KM: [1 x 3 x
+60"]
+Membaca slide,
+menonton video
+materi yang
+diunggah pada e-
+learning
+
+PT: [1 x 3 x 60"]
+Latihan 1:
+Membuat
+dokumentasi
+pengelolan
+proyek
+perangkat lunak
+menggunakan
+pendekatan
+prediktif untuk
+1. Software Project
+Management
+2. PERT Chart
+3. GANTT Chart
+4. COCOMO
+5. Work
+Breakdown
+Structure
+6. Tools: Wrike, Ms.
+Project, Gantt
+Project
+8
+7
+
+5. Ketepatan
+menggunakan
+tools dalam
+membuat rencana
+estimasi
+pengelolaan
+proyek seperti
+PERT Chart, Gantt
+Chart, dan
+COCOMO
+menentukan
+linkup, waktu,
+biaya, dan tim
+4
+SubCMPK-3:
+Mampu
+menjelaskan
+manajemen
+konfigurasi dan
+manajemen versi
+perangkat lunak
+serta
+memanfaatkan
+tools untuk
+melakukan
+penelusuran dan
+merekam segala
+perubahan yang
+terjadi pada
+perangkat lunak
+1. Ketepatan
+menjelaskan
+manajemen
+konfigurasi
+perangkat lunak
+2. Ketepatan
+menjelaskan
+manajemen dan
+semantik versi
+perangkat lunak
+3. Ketepatan
+menggunakan
+tools untuk
+melihat,
+menelusuri, dan
+merekam segala
+perubahan yang
+terjadi pada
+perangkat lunak
+1. Ceramah
+2. Small
+Discussion
+Group
+3. Tugas
+Mandiri
+4. Studi
+Kasus
+PB: Kuliah
+
+TM: [1 x 3 x
+50"]
+MP1:
+Structured
+Overview
+MP2:
+Discovery
+Learning
+MP3:
+Drill and
+Practice
+KM: [1 x 3 x
+60"]
+Membaca slide,
+menonton video
+materi yang
+diunggah pada e-
+learning
+
+PT: [1 x 3 x 60"]
+Latihan 1:
+Menggunakan
+tools distributed
+VCS Git untuk
+mengelola dan
+mencatat
+perubahan yang
+terjadi pada
+perangkat lunak
+1. Software
+Configuration
+Management
+2. Version
+Management,
+Change
+Management,
+and Release
+Management
+3. Version Control
+System (VCS):
+Centralized and
+Distributed VCS
+4. Semantic
+Versioning
+5. Tools: Git
+10
+8
+
+5
+SubCPMK-4:
+Mampu
+berkomunikasi
+dan berkolaborasi
+pada manajemen
+proyek perangkat
+lunak yang
+dikembangkan
+dengan
+metodologi agile
+1. Ketepatan
+menjelaskan
+model Iterative
+2. Ketepatan
+menjelaskan
+model Rapid
+Application
+Development
+3. Ketepatan dalam
+menjelaskan
+teknik-teknik
+agile seperti
+SCRUM, XP, dan
+Kanban
+4. Ketepatan dalam
+menggunakan
+tools yang
+mendukung
+penerapan
+metodologi agile
+1. Ceramah
+2. Small
+Discussion
+Group
+3. Tugas
+Mandiri
+4. Studi
+Kasus
+PB: Kuliah
+
+TM: [1 x 3 x
+50"]
+MP1:
+Structured
+Overview
+MP2:
+Discovery
+Learning
+MP3:
+Drill and
+Practice
+KM: [1 x 3 x
+60"]
+Membaca slide,
+menonton video
+materi yang
+diunggah pada e-
+learning
+
+PT: [1 x 3 x 60"]
+Latihan 1:
+Membuat
+dokumentasi
+pengelolan
+proyek
+perangkat lunak
+menggunakan
+pendekatan agile
+SCRUM dan
+Kanban
+1. Iterative Model
+2. Rapid
+Application
+Development
+(RAD) Model
+3. Agile Model
+4. SCRUM: Product
+Backlog, Sprint
+Backlog, Sprint
+Execution,
+Spring
+Restropective
+5. Extreme
+Programming
+(XP)
+6. Kanban
+7. Tools: Trello,
+JIRA
+12
+6-7
+SubCPMK-5:
+Mampu
+merancang
+perangkat lunak
+dengan
+menggunakan
+pendekatan
+rancangan
+prosedural dan
+berorientasi objek
+1. Ketepatan
+menjelaskan
+desain prosedural
+menggunakan
+diagram
+pemodelan
+Context Diagram
+dan Data Flow
+Diagram
+2. Ketepatan
+menjelaskan
+1. Ceramah
+2. Small
+Discussion
+Group
+3. Tugas
+Mandiri
+4. Studi
+Kasus
+PB: Kuliah
+
+TM: [1 x 3 x
+50"]
+MP1:
+Structured
+Overview
+
+MP2:
+KM: [1 x 3 x
+60"]
+Membaca slide,
+menonton video
+materi yang
+diunggah pada e-
+learning
+
+PT: [1 x 3 x 60"]
+1. Procedural
+Design: Context
+Diagram, Data
+Flow Diagram
+2. OO Design: UML
+Diagram
+3. Database
+Design: ER
+Diagram
+4. High Level
+Design:
+15
+9
+
+desain database
+menggunakan
+Entity
+Relationship
+Diagram
+3. Ketepatan
+menjelaskan dan
+merancang desain
+berorientasi objek
+menggunakan
+diagram
+pemodelan UML
+struktural dan
+beahavioural
+4. Ketepatan
+menjelaskan
+jenis-jenis
+diagram
+arsitektur
+5. Ketepatan
+menjelaskan
+design pattern
+Discovery
+Learning
+MP3:
+Drill and
+Practice
+Latihan 1:
+Membuat
+rancangan
+perangkat lunak
+aplikasi
+menggunakan
+diagram
+pemodelan Data
+Flow Diagram
+dan UML
+Diagram
+Architecture
+Design, Design
+Pattern, Service
+Oriented
+Architecture
+8
+Ujian Tengah Semester
+9
+SubCPMK-6:
+Mampu
+menjelaskan
+prinsip-prinsip
+pengembangan
+perangkat lunak
+berorientsi objek
+agar kode
+1. Ketepatan
+menjelaskan
+prinsip-prinsip
+OOP
+2. Ketepatan
+menjelaskan
+prinsip-prinsip
+Clean Code
+1. Ceramah
+2. Small
+Discussion
+Group
+3. Tugas
+Mandiri
+4. Studi
+Kasus
+PB: Kuliah
+
+TM: [1 x 3 x
+50"]
+MP1:
+Structured
+Overview
+MP2:
+KM: [1 x 3 x
+60"]
+Membaca slide,
+menonton video
+materi yang
+diunggah pada e-
+learning
+
+1. OOP Principle:
+Encapsulation,
+Inheritance,
+Abstraction, and
+Polymorphism
+2. Clean Code
+3. SOLID Principle
+12
+10
+
+program yang
+dihasilkan dapat
+mudah untuk
+dipelihara dan
+digunakan
+kembali
+3. Ketepatan
+menjelaskan
+prinsip SOLID
+4. Ketepatan
+menjelaskan
+prinsip DRY, KISS,
+dan YAGNI
+5. Ketepatan dalam
+menerapkan
+prinsip-prinsip
+Clean Code dalam
+kode program
+sederhana
+Discovery
+Learning
+MP3:
+Drill and
+Practice
+PT: [1 x 3 x 60"]
+Latihan 1:
+Menerapkan
+prinsip-prinsip
+Clean Code
+dalam kode
+program
+sederhana
+4. Don't Repeat
+Yourself (DRY)
+Principle
+5. You Aren't
+Gonna Need It
+(YAGNI)
+Principle
+6. Keep It Simple
+Stupid (KISS)
+Principle
+10-11
+SubCPMK-7:
+Mampu
+melakukan
+pengujian
+fungsionalitas
+perangkat lunak
+menggunakan
+skenario kasus
+pengujian dan
+melakukan
+penelusuran
+terhadap kode
+program
+menggunakan
+teknik pengujian
+black-box dan
+white-box
+1. Ketepatan
+menjelaskan
+pentingnya
+pengujian
+perangkat lunak
+2. Ketepatan
+menjelaskan
+tingkatan
+pengujian
+perangkat lunak
+3. Ketepatan
+menjelaskan
+teknik-teknik
+pengujian
+perangkat lunak
+4. Ketepatan
+membuat
+dokumentasi
+1. Ceramah
+2. Small
+Discussion
+Group
+3. Tugas
+Mandiri
+4. Studi
+Kasus
+PB: Kuliah
+
+TM: [1 x 3 x
+50"]
+MP1:
+Structured
+Overview
+MP2:
+Drill and
+Practice
+KM: [1 x 3 x
+60"]
+Membaca slide,
+menonton video
+materi yang
+diunggah pada e-
+learning
+
+PT: [1 x 3 x 60"]
+Latihan 1:
+Membuat
+dokumentasi
+pengujian black
+box
+fungsionalitas
+perangkat lunak
+menggunakan
+1. Software Testing
+2. Testing Levels:
+Unit,
+Integration,
+System, and
+User Acceptance
+Testing
+3. Testing
+Techniques:
+Exhaustive,
+Black Box, and
+White Box
+4. Testing Habits
+5. Estimating
+Number of Bugs
+6. Test Case
+Scenario
+10
+11
+
+laporan pengujian
+fungsionalitas
+perangkat lunak
+menggunakan
+skenario kasus uji
+5. Ketepatan
+menggunakan tool
+pengujian
+perangkat lunak
+skenario kasus
+uji
+
+PT: [1 x 3 x 60"]
+Latihan 2:
+Melakukan
+pengujian white
+box pada kode
+program
+menggunakan
+tools: Junit dan
+Selenium
+7. Tools: JUnit and
+Selenium
+12
+SubCMPK-8:
+Mampu
+menerapkan
+pemetaan relasi
+objek ke database
+menggunakan
+framework agar
+kueri data menjadi
+lebih sederhana
+dan proses
+pengembangan
+menjadi lebih
+cepat
+1. Ketepatan
+menjelaskan
+pentingnya
+penggunaan tools
+untuk mereduksi
+kompleksitas
+dalam
+pengembangan
+perangkat lunak
+2. Ketepatan
+menjelaskan
+object relational
+mapping
+3. Ketepatan
+menggunakan
+tools ORM pada
+kode program
+sederhana
+1. Ceramah
+2. Small
+Discussion
+Group
+3. Tugas
+Mandiri
+4. Studi
+Kasus
+PB: Kuliah
+
+TM: [1 x 3 x
+50"]
+MP1:
+Structured
+Overview
+MP2:
+Drill and
+Practice
+KM: [1 x 3 x
+60"]
+Membaca slide,
+menonton video
+materi yang
+diunggah pada e-
+learning
+
+PT: [1 x 3 x 60"]
+Latihan 1:
+Menerapkan
+fungsionalitas
+CRUD sederhana
+menggunakan
+tools ORM: JPA
+dan Hibernate
+1. Reduce
+Complexity in
+Software
+Implementation
+2. Understanding
+Object
+Relational
+Mapping (ORM)
+Database
+3. ORM Tools: JPA
+and Hibernate
+10
+12
+
+13-
+14-15
+SubCMPK-9:
+Mampu
+membangun
+perangkat lunak
+aplikasi web
+sederhana yang
+menyediakan
+suatu layanan
+melalui API
+menggunakan
+framework yang
+mendukung
+keamanan data
+1. Ketepatan dalam
+pengembangan
+backend aplikasi
+web sederhana
+yang
+menyediakan
+layanan melalui
+sebuah API dan
+mendukung
+keamanan data
+melalui
+autentikasi dan
+autorisasi
+2. Ketepatan dalam
+pengembangan
+pengembangan
+frontend aplikasi
+web sederhana
+yang dapat
+menampilkan
+data yang
+disediakan oleh
+backend
+3. Ketepatan dalam
+menggunakan
+tools automasi
+dalam
+membangun
+proyek aplikasi
+1. Ceramah
+2. Small
+Discussion
+Group
+3. Tugas
+Mandiri
+4. Studi
+Kasus
+PB: Kuliah
+
+TM: [1 x 3 x
+50"]
+MP1:
+Structured
+Overview
+MP2:
+Drill and
+Practice
+KM: [1 x 3 x
+60"]
+Membaca slide,
+menonton video
+materi yang
+diunggah pada e-
+learning
+
+PT: [1 x 3 x 60"]
+Tugas Besar:
+Membangun
+aplikasi web
+sederhana yang
+menyediakan
+layanan melalui
+API dan
+mendukung
+keamanan data
+1. Software
+Construction
+2. REST API
+3. Web
+Framework:
+Spring Data,
+Spring MVC, and
+Spring Security
+4. REST API Design
+5. Build
+Automation
+Tools: Maven
+15
+16
+UJian Akhir Semester
+13

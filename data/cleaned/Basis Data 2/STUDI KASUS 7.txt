@@ -1,0 +1,23 @@
+STUDI KASUS 7
+
+A database is to be designed for a college to monitor student's progress throughout
+their course of study.
+
+The students are reading for a degree (such as BA, BA(Hons) MSc, etc) withinthe
+framework of the modular system.
+
+The college provides a number of module, each being characterised by its code, title,
+credit value, module leader,teaching staff and the department they come from.
+
+A module is co-ordinated by a module leader who shares teaching duties with one or
+more lecturers.
+
+A lecturer may teach (and be a module leader for) more than one module.
+
+Students are free to choose any module they wish but the following rules must be
+observed: some modules require pre-requisites modules and some degree programmes
+have compulsory modules.
+
+The database is also to contain some information about students including their
+numbers, names, addresses, degrees they read for, and their past performance (i.e.
+modules taken and examination result.

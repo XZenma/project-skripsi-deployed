@@ -1,0 +1,38 @@
+{
+  "filename": "p5.txt",
+  "matkul": "Sistem Operasi",
+  "teknik": "recursive",
+  "total_chunks": 6,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 993,
+      "text": "SISTEM OPERASI\nAsep Rizal Nurjaman\naseprizal@itenas.ac.id\n082320342162\nPROSES-PROSES @ SISTEM OPERASI\nProses\nSuatu proses adalah sebuah program dalam eksekusi.\nEksekusi suatu proses harus berlanjut secara berurutan.\nSuatu proses didefinisikan sebagai entitas yang mewakili\nunit kerja dasar yang akan diimplementasikan dalam\nsistem.\nPROSES-PROSES @ SISTEM OPERASI\nContohnya : saat menulis program komputer dalam file\nteks dan program tersebut dijalankan, itu menjadi proses\nyang melakukan semua tugas yang disebutkan\ndalam program\n.\nKetika suatu program dimuat ke dalam memori dan itu\nmenjadi suatu proses, itu dapat dibagi menjadi empat\nbagian, yaitu :\nstack,\nheap,\ndata, dan\ntext.\nPROSES-PROSES @ SISTEM OPERASI\nGambar yang menunjukkan tata letak proses yang\ndisederhanakan di dalam memori utama\nPROSES-PROSES @ SISTEM OPERASI\n1 Stack\nProses berisi data sementara seperti parameter metode /\nfungsi, alamat pengirim dan variabel lokal.\n2 Heap\nIni adalah memori yang dialokasikan secara dinamis"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 996,
+      "text": "untuk suatu proses selama waktu menjalankannya.\n3 Text\nIni termasuk aktivitas saat ini yang diwakili oleh nilai\nProgram Counter dan isi register prosesor.\n4 Data\nBagian ini berisi variabel global dan statis.\nPROSES-PROSES @ SISTEM OPERASI\nProgram\nSuatu program adalah bagian dari kode yang dapat\nberupa satu baris atau jutaan baris.\nProgram komputer biasanya ditulis oleh seorang\nprogrammer komputer dalam bahasa pemrograman. \\\nBerikut adalah program sederhana yang ditulis dalam\nbahasa pemrograman C.\nPROSES-PROSES @ SISTEM OPERASI\n#include <stdio.h>\nint main () {\nprintf (\"Halo, Dunia! \\ n\");\nreturn 0;\n}\nPROSES-PROSES @ SISTEM OPERASI\nProgram komputer adalah kumpulan instruksi yang\nmelakukan tugas tertentu ketika dijalankan oleh\nkomputer.\nKetika kita membandingkan suatu program dengan suatu\nproses, kita dapat menyimpulkan bahwa suatu proses\nadalah turunan dinamis dari suatu program komputer.\nBagian dari program komputer yang melakukan tugas\nyang didefinisikan dengan baik dikenal sebagai"
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 955,
+      "text": "algoritma. Kumpulan program komputer, perpustakaan,\ndan data terkait disebut sebagai perangkat lunak.\nPROSES-PROSES @ SISTEM OPERASI\nSiklus Hidup Proses\nKetika suatu proses dijalankan, ia melewati berbagai\nkondisi. Tahap-tahap ini mungkin berbeda di sistem\noperasi yang berbeda, dan nama-nama negara ini juga\ntidak standar.\nPROSES-PROSES @ SISTEM OPERASI\nTabel Siklus Hidup Proses\nStart\nAdalah kondisi awal saat proses pertama kali dimulai /\ndibuat.\n2 Ready\nProses sedang menunggu untuk ditugaskan ke prosesor.\nProses siap menunggu prosesor dialokasikan untuk\nmereka oleh sistem operasi sehingga mereka dapat\nberjalan. Proses dapat masuk ke kondisi ini setelah\nkeadaan mulai atau saat menjalankannya tetapi\nterganggu oleh penjadwal untuk menetapkan CPU ke\nbeberapa proses lainnya\nPROSES-PROSES @ SISTEM OPERASI\nRunning\nSetelah proses ditetapkan ke prosesor oleh penjadwal\nOS, status proses diatur ke berjalan dan prosesor\nmenjalankan instruksinya.\nWaiting"
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 977,
+      "text": "Proses berpindah ke status menunggu jika perlu\nmenunggu sumber daya, seperti menunggu input\npengguna, atau menunggu file tersedia.\nTerminated or Exit\nSetelah proses selesai dieksekusi, atau diakhiri oleh\nsistem operasi, ia dipindahkan ke status terminasi di\nmana ia menunggu untuk dihapus dari memori utama.\nPROSES-PROSES @ SISTEM OPERASI\nstart\nterminated\nrunning\nready\nwait\nGambar Siklus Hidup Proses\nPROSES-PROSES @ SISTEM OPERASI\nBlok Kontrol Proses (PCB)\nBlok Kontrol Proses adalah struktur data yang dikelola\noleh Sistem Operasi untuk setiap proses.\nPCB diidentifikasi oleh ID proses integer (PID).\nPCB menyimpan semua informasi yang diperlukan\nuntuk melacak proses sebagaimana tercantum di\nbawah ini dalam tabel 3.\nPROSES-PROSES @ SISTEM OPERASI\nDeskripsi Blok Kontrol Proses (PCB)\nProcess State\nKeadaan proses saat ini yaitu, apakah sudah siap,\nberjalan, menunggu, atau apa pun.\nProcess privileges\nIni diperlukan untuk mengizinkan / melarang\nakses ke sumber daya sistem."
+    },
+    {
+      "index": 5,
+      "panjang_karakter": 965,
+      "text": "PROSES-PROSES @ SISTEM OPERASI\nID proses\nIdentifikasi unik untuk setiap proses dalam sistem\noperasi.\nPointer\nProses penunjuk ke induk.\nProgram Counter\nPenghitung Program adalah penunjuk ke alamat\ninstruksi berikutnya yang akan\ndieksekusi untuk proses ini.\nPROSES-PROSES @ SISTEM OPERASI\nCPU registers\nBerbagai register CPU di mana proses perlu\ndisimpan untuk eksekusi untuk menjalankan\nkondisi.\nCPU Scheduling Information\nPrioritas proses dan informasi penjadwalan\nlainnya yang diperlukan untuk menjadwalkan\nproses.\nPROSES-PROSES @ SISTEM OPERASI\nMemory management information\nTermasuk informasi tabel halaman, batas memori,\ntabel Segmen tergantung pada memori yang\ndigunakan oleh sistem operasi.\nAccounting information\nTermasuk informasi tabel halaman, batas memori,\ntabel Segmen tergantung pada memori yang\ndigunakan oleh sistem operasi.\nIO status information\nTermasuk daftar perangkat I / O yang dialokasikan\nuntuk proses tersebut.\nPROSES-PROSES @ SISTEM OPERASI"
+    },
+    {
+      "index": 6,
+      "panjang_karakter": 361,
+      "text": "Arsitektur PCB sepenuhnya tergantung pada Sistem\nOperasi dan dapat berisi informasi yang berbeda\ndalam sistem operasi yang berbeda.\nBerikut adalah diagram sederhana dari PCB\nPROSES-PROSES @ SISTEM OPERASI\nGambar Alur Block Kontrol Proses\nPCB dikelola\nuntuk suatu\nproses sepanjang\nmasa pakainya,\ndan dihapus\nsetelah proses\nberakhir.\nAda pertanyaan ?\nTerima Kasih"
+    }
+  ]
+}

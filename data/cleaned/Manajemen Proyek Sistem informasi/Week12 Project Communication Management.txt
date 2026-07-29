@@ -1,0 +1,409 @@
+Manajemen
+Komunikasi
+Proyek
+Project Communication
+Management
+SOFIA UMAROH
+1
+Agenda
+Hari Ini
+2
+3
+4
+SOFIA UMAROH
+Definisi Manajemen Komunikasi
+Proyek
+Terminologi Manajemen
+Komunikasi Proyek
+Proses Manajemen Komunikasi
+Proyek
+Alat dan teknik Manajemen
+Komunikasi Proyek
+SOFIA UMAROH
+Komunikasi
+Pentingnya
+Manajemen
+Komunikasi Proyek
+SOFIA UMAROH
+Project Communication
+Management
+" Many experts agree that the greatest threat to
+the success of any project, especially IT projects,
+is a failure to communicate"
+SOFIA UMAROH
+Project Communication
+Management
+" Strong verbal and non-technical skills are a
+key factor in career advancement for IT
+professionals"
+Apakah itu
+Manajemen
+Komunikasi
+Proyek?
+SOFIA UMAROH
+SOFIA UMAROH
+Definition
+Communication
+Proses pertukaran informasi dua arah dari
+satu entitas ke entitas lain
+Manajer proyek bertanggung jawab untuk
+memastikan komunikasi yang tepat ke dan
+dari proyek
+Manajer proyek menghabiskan hampir
+90% waktunya untuk komunikasi
+Project
+Project Stakeholder
+Management
+Top level management
+Komunikasi antara proyek dan pemangku
+kepentingan selalu dua sisi
+SOFIA UMAROH
+Information Transmission
+Shannon's information transmission model,
+Digital
+SOFIA UMAROH
+Project Communication
+Management
+Process
+Project Information
+Generation
+Collection
+Distribution
+Recovery
+Storage
+Timely &
+appropriate
+SOFIA UMAROH
+1
+2
+3
+Komunikasi dapat dibangun secara tertulis
+atau verbal, dan juga formal atau informal
+Communication
+Method
+Formal: aturan tertentu harus diikuti
+Informal: pendekatan santai
+Kombinasi: Tertulis formal,
+tertulis informal, verbal formal,
+verbal informal
+Project
+management plan
+Project charter
+Report
+Presentasi
+FGD
+Formal
+Informal
+Written
+Verbal
+Email
+Notes
+Group chat
+Percakapan
+Face-to-face
+meeting
+SOFIA UMAROH
+Mengacu pada berbagai media yang
+digunakan untuk komunikasi
+Popular: Virtual conference, email, telephone
+Faktor pendukung:
+Availability
+Project environment
+Project Length
+Urgency
+Preparation Level
+Communication
+Technology
+SOFIA UMAROH
+Media yang akan dilalui data/informasi
+pada proses transmisi dalam suatu
+sistem komunikasi
+Kompleksitas komunikasi meningkat
+karena ada lebih banyak saluran
+(channel) atau jalur di mana orang dapat
+berkomunikasi.
+Jumlah saluran komunikasi = n(n-1)/2
+Communication
+Channel
+SOFIA UMAROH
+Project Communication
+Management
+"includes the processes that are required to
+ensure timely and appropriate planning,
+collecting, creation, distribution, storage,
+retrieval of project information"
+SOFIA UMAROH
+Project Communication
+Management Processes
+SOFIA UMAROH
+Project Communication
+Management Processes
+Plan Communication
+Management
+Proses pengembangan
+pendekatan dan rencana untuk
+komunikasi proyek berdasarkan
+kebutuhan dan persyaratan
+informasi stakeholder dan aset
+organisasi yang tersedia
+
+Output: Dokumen Rencana
+Komunikasi
+1
+2
+3
+Manage Communication
+
+Proses membuat, mengumpulkan,
+mendistribusikan, menyimpan,
+mengambil, dan disposisi akhir
+informasi proyek.
+
+Output: Pembaruan rencana
+manajemen proyek.
+Control Communication
+
+Proses pemantauan dan
+pengendalian komunikasi di
+seluruh siklus hidup proyek untuk
+memastikan kebutuhan informasi
+dari stakeholder proyek terpenuhi
+
+Output: Work performance
+indicator, change request,
+document updates.
+Proses
+Manajemen
+Komunikasi
+1. Plan
+Communication
+Management
+SOFIA UMAROH
+SOFIA UMAROH
+Setiap proyek harus menyertakan beberapa
+jenis rencana manajemen komunikasi,
+dokumen yang memandu komunikasi proyek
+Pahami jenis informasi yang akan
+didistribusikan kepada stakeholder
+Melakukan analisis kebutuhan komunikasi
+stakholder
+Plan Communication
+Management
+Dokumen ini harus mencakup:
+1
+2
+Persyaratan komunikasi pemangku
+kepentingan
+Informasi: format, isi, dan tingkat
+detailnya
+3
+Penerima dan pengirim informasi
+4
+Metode/teknologi komunikasi
+5
+Frekuensi komunikasi
+6
+Prosedur eskalasi problem solving
+7
+Prosedur revisi untuk update dokumen
+8
+Daftar istilah umum
+SOFIA UMAROH
+Stakeholder Communication Analysis
+Sample Stakeholder Communication Analysis
+Proses
+Manajemen
+Komunikasi
+2. Manage
+Communication
+SOFIA UMAROH
+SOFIA UMAROH
+Menyampaikan informasi proyek kepada orang
+yang tepat pada waktu yang tepat dan dalam
+format yang berguna sama pentingnya dengan
+mengembangkan informasi di tempat pertama
+Manage
+Communication
+1
+Teknologi
+2
+Metode dan media yang tepat
+untuk digunakan
+3
+Pelaporan kinerja
+Pertimbangan penting:
+Apakah mengirim
+laporan tertulis
+untuk informasi
+proyek cukup?
+Apakah teks saja
+cukup atau perlu
+divisualkan? infografis
+atau video?
+Apakah meeting
+saja cukup untuk
+distribusi
+informasi?
+Bagaimana cara
+distribusi
+informasi terbaik
+untuk tim virtual?
+SOFIA UMAROH
+Teknologi dapat memfasilitasi proses
+pembuatan dan pendistribusian
+informasi, bila digunakan dengan benar
+Penting untuk memilih metode dan
+media komunikasi yang tepat
+Distributing
+Information Through
+Technology
+SOFIA UMAROH
+Classifications for
+Communication Methods
+1
+Interactive communication
+2
+Push communication
+Dua orang atau lebih berinteraksi untuk
+bertukar informasi melalui rapat,
+panggilan telepon, atau konferensi video.
+Informasi dikirim atau didorong ke
+penerima tanpa permintaan melalui
+teknologi/alat komunikasi
+3
+Pull communication
+Informasi dikirim ke penerima
+atas permintaan mereka melalui
+teknologi/alat komunikasi
+SOFIA UMAROH
+Communication
+Media
+Penting untuk mempertimbangkan
+media mana yang akan digunakan
+sesuai dengan karakteristik informasi
+Media dapat berupa:
+Hard copy
+Phone call
+Voice mail
+E-mail
+Meeting
+Website
+SOFIA UMAROH
+Reporting
+Performance
+Status reports: menjelaskan di mana proyek
+berdiri pada titik waktu tertentu
+Progress reports: menggambarkan apa yang
+telah dicapai tim proyek selama periode
+waktu tertentu
+Forecasts: Perakiraan memprediksi status
+dan kemajuan proyek di masa depan
+berdasarkan informasi dan tren masa lalu
+Sample Weekly Progress Report
+Proses
+Manajemen
+Komunikasi
+3. Control
+Communication
+SOFIA UMAROH
+SOFIA UMAROH
+1
+2
+3
+4
+"Memastikan aliran informasi yang
+optimal di seluruh siklus hidup proyek"
+Control
+Communication
+Reporting systems
+Expert judgment
+Meetings
+Tools & Techniques:
+External facilitator
+SOFIA UMAROH
+1
+2
+3
+4
+Komunikasi yang baik sangat
+penting untuk manajemen dan
+keberhasilan proyek TI.
+Suggestion for
+Communication
+Developing Better Communication
+Skills
+Running Effective Meetings
+Using Collaborative Tools
+Effectively
+Gunakan template untuk
+komunikasi proyek
+SOFIA UMAROH
+Pelatihan keterampilan komunikasi:
+kegiatan bermain peran
+Meningkatkan komunikasi dengan orang-
+orang dari berbagai negara dan budaya
+Belajar berpartisipasi dalam pertemuan
+virtual dan panggilan konferensi.
+Dibutuhkan kepemimpinan untuk
+meningkatkan komunikasi
+Developing Better
+Communication Skills
+SOFIA UMAROH
+Running Effective Meetings
+1
+2
+3
+4
+Apakah pertemuan
+dapat dihindari?
+Apa tujuan dan hasil yang
+diharapkan dari pertemuan?
+Siapa yang harus hadir?
+Sediakan agenda
+sebelum rapat
+Jalankan meeting dengan
+profesional
+Apa aturan dasar untuk
+rapat?
+5
+6
+7
+8
+Jalin hubungan baik
+Siapkan handouts dan alat
+bantu visual
+SOFIA UMAROH
+Media kolaboratif sesuai dengan
+kebutuhan
+Mengirim ke orang yang tepat
+Subyek dan body email yang jelas
+Berikan otorisasi berbagi dan mengedit
+yang tepat
+Using Collaborative
+Tools Effectively
+SOFIA UMAROH
+Memberikan contoh dan template
+untuk komunikasi proyek
+menghemat waktu dan biaya
+Penelitian menunjukkan bahwa
+perusahaan yang unggul dalam
+manajemen proyek memanfaatkan
+template secara efektif
+Using Templates
+for Project
+Communications
+SOFIA UMAROH
+Sample Templates for Monthly Progress
+SOFIA UMAROH
+Final Project Documentation Items
+SOFIA UMAROH
+Lesson Learned Report
+source: collegeofeducationargungu.org
+SOFIA UMAROH
+Software to Assist Project Communication
+Source: https://thedigitalprojectmanager.com/
+Semoga hari
+Anda luar biasa.
+Terima
+kasih
+SOFIA UMAROH

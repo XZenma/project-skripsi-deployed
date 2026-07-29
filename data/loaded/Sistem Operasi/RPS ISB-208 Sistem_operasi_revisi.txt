@@ -1,0 +1,543 @@
+1 
+ 
+ 
+INSTITUT TEKNOLOGI NASIONAL 
+FAKULTAS TEKNOLOGI INDUSTRI 
+PROGRAM SARJANA SISTEM INFORMASI 
+ 
+RENCANA PEMBELAJARAN SEMESTER 
+FORM :  ITENAS…/F_RPS_..../.. 
+Mata Kuliah 
+Kode 
+Bobot sks 
+Semester 
+Tanggal penyusunan 
+Sistem Operasi & 
+Keamanan Sistem 
+Informasi 
+ISB 208 
+2 
+4 
+21/08/2022 
+ 
+Koordinator Pengampu 
+MTK 
+Koordinator 
+RMK/KBI 
+Ka Prodi  
+Persetujuan (tanda tangan) 
+Dekan  
+Persetujuan (tanda tangan) 
+ 
+Asep Rizal Nurjaman, 
+S.Kom., M.Kom. 
+ 
+ 
+Mira Musrini Barmawi,S.Si.,M.T. 
+ 
+ 
+ 
+ 
+Jono Suhartono , S.T., M.T., 
+Ph.D. 
+ 
+Capaian Pembelajaran  
+Lulusan (CPL Padu)1) 
+yang dibebankan pada 
+mata kuliah 
+CPL PADU- YANG DIBEBANKAN PADA MATAKULIAH2) 
+ 
+CPL-6 Mampu menerapkan konsep teori dan kerangka kerja tata kelola untuk melakukan evaluasi dan audit sistem informasi  
+CPL-7 Mampu merancang proses bisnis yang sudah diintervensi teknologi informasi untuk memenuhi kebutuhan arsitektur 
+Enterprise dan perbaikan proses bisnis secara kritis dan inovatif pada suatu organisasi 
+CPL-10 Mampu menentukan komponen dasar sistem operasi, jaringan komputer, sistem terdistribusi,  komunikasi data dan 
+keamanan informasi untuk mendukung kebutuhan infrastruktur teknologi informasi organisasi 
+ 
+CPMK3) 
+CAPAIAN PEMBELAJARAN MATA KULIAH (CPMK) 
+ 
+CPMK-1    Mahasiswa  mampu memahami bagian-bagian pokok dari teori dan implementasi sistem operasi  
+                 terutama konsep dasar secara umum Sistem Operasi; Struktur Sistem Operasi; manajemen file ;        
+                 kernel , shell dan utility pada Sistem Operasi; sistem I/O;manajemen memori, konsep penjadwalan
+2 
+ 
+                 Sistem Operasi; masalah deadlock, konsep protokol dan soket serta keterhubungan antar OS yang  
+                 berbeda. (CPL-6, CPL-7) 
+CPMK-2 Mampu menerapkan gagasan yang inovatif dan tepat guna dalam upaya penggunaan sistem operasi komputer yang 
+mendukung capaian teknologi terbarukan (CPL-7, CPL-10) 
+SUBCPMK4) 
+KEMAMPUAN AKHIR TIAP TAHAPAN BELAJAR (SUBCPMK)  
+ 
+SubCPMK-1 Mahasiswa mampu menjelaskan pengertian dasar, manfaat dan cara kerja sistem operasi, baik open source 
+ataupun tidak. (CPMK-1) 
+SubCPMK-2 Mahasiswa mampu menjelaskan konsep dasar, manajmene file, kernel, shell, utility dasar dan manajemen 
+memory pada sistem operasi. (CPMK-1)  
+SubCPMK-3 Mahasiswa mampu menjelaskan System kerja I/O,  konsep penjadwalan  masalah yang terjadi saat deadlock dan 
+serangan yang bisa dilakukan pada sistem operasi (CPMK-1, CPMK-2) 
+SubCPMK-4 Mahasiswa mampu menerapkan konsep dasar protokol, soket dan beberapa perintah commadline pada system 
+operasi linux  (CPMK-1, CPMK-2) 
+SubCPMK-5  Mahasiswa mampu mempresentasikan implementasi keterhubungan  antar OS yang berbeda                              
+                          (CPMK-1,CPMK-2) 
+ 
+Korelasi CPL Padu, Indikator CPL Padu,  CPMK dan SubCPMK 
+ 
+ 
+ 
+CPL 
+Kode Indikator CPL Padu 
+ 
+ 
+No. 
+Bobot (%) 
+CPMK1 
+CPMK2 
+CPL 6 
+14% 
+6a 
+7% 
+7% 
+CPL 7 
+14% 
+7b 
+7% 
+7% 
+CPL 10 
+72% 
+10a 
+39% 
+33% 
+ 
+100% 
+ 
+53% 
+47% 
+ 
+ 
+CPMK-1 
+CPMK-2 
+SubCPMK-1 
+v 
+ 
+SubCPMK-2 
+v 
+ 
+SubCPMK-3 
+v 
+v 
+SubCPMK-4 
+v 
+v 
+SubCPMK-5 
+v 
+v
+3 
+ 
+Deskripsi Singkat Mata 
+Kuliah 
+ 
+Kriteria/Teknik 
+Penilaian Dan Kaitan 
+Dengan CPMK 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SubCPMK 
+Persentase (%) 
+CPMK 
+Media/Rubrik 
+% 
+1 
+2 
+ 
+ 
+SubCPMK-1 
+10% 
+10 
+ 
+Tugas Terstruktur 
+Ujian SubCPMK/UTS 
+    3% 
+7% 
+SubCPMK-2 
+13% 
+13 
+ 
+Tugas Terstruktur 
+Ujian SubCPMK/UTS 
+3% 
+10% 
+SubCPMK-3 
+23% 
+10 
+13 
+Tugas Terstruktur 
+Kuis/Latihan 
+Ujian SubCPMK/UTS 
+5% 
+4% 
+14% 
+SubCPMK-4 
+27% 
+10 
+17 
+Tugas Terstruktur 
+Kuis/Latihan 
+Ujian SubCPMK/UAS 
+7% 
+3% 
+17% 
+SubCPMK-5 
+27% 
+10 
+17 
+Tugas Terstruktur 
+Ujian SubCPMK/UAS 
+9% 
+18% 
+ 
+100% 
+53% 
+47% 
+ 
+100% 
+ 
+Pustaka 
+Utama: 
+ 
+1. 
+Dhananjay M. Dhamdhere, Operating System – A Concept-Based Approach, Mc Graw Hill, 2009 
+2. 
+Avi Silberschatz, Peter Galvin, dan Grag Gagne. 2005. Operating Systems Concepts. Seventh Edition. John Wiley & 
+Sons. 
+Pendukung: 
+ 
+1. Deborah S. Ray, Eric J. Ray, Visual QuickStart Guide Unix and Linux, Peachpit Press 
+2. William E. Shotts, Jr., The Linux Command Line - A Complete Introduction, No Starch Press, 2012 
+3.  J. Purcell, Linux Complete Command Reference, Red Hat Software Inc. SAM Publishing, 1997 
+4. Ahmad Sofyan, ‘Membangun Distro Linux Sendiri”, Dian Rakyat, 2006 
+Dosen Pengampu 
+Asep Rizal Nurjaman, S.Kom., M.Kom.
+4 
+ 
+Mata Kuliah Prasyarat 
+ 
+ 
+Mata kuliah yang mempelajari tentang konsep dasar secara umum SO; Struktur SO; manajemen file ; kernel ,shell 
+dan utility pada SO; sistem I/O;manajemen memori, konsep penjadwalan SO; masalah deadlock, konsep protokol 
+dan soket serta keterhubungan antar OS yang berbeda 
+Mg 
+Ke- 
+ 
+Kemampuan 
+Akhir Tiap 
+Tahapan Belajar 
+(SubCPMK) 
+ 
+Penilaian 
+Bentuk Pembelajaran7);  
+Metode Pembelajaran8);  
+Penugasan Mahasiswa 
+(estimasi waktu) 
+Materi 
+Pembelajaran9) 
+(Pustaka) 
+Bobot 
+Penilaian10 
+(%) 
+Indikator5) 
+Teknik6) 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+Luring (5) 
+Daring (6) 
+(7) 
+(8) 
+ 
+1 
+Kontrak 
+perkuliahan: 
+- CPMK 
+- Bentuk 
+pembelajaran & 
+Penilaian 
+Mhs paham tentang 
+tujuan mtk, bentuk 
+pembelajaran, dan 
+perubahan bentuk 
+pembelajaran secara 
+luring dan daring. 
+- 
+Ceramah Interaktif 
+ 
+Tugas mandiri :  
+ 
+Panduan belajar 
+terbimbing dan 
+mandiri seluruh 
+materi 
+pembelajaran 
+ 
+ 
+ 
+- 
+2-3 
+(SubCPMK-1) 
+ 
+Tugas 
+mandiri 
+Kuliah,diskusi 
+[PB : (2 x 2 x 50”)] 
+Metode: Collaborative 
+Learning 
+Tugas 2 & 3 
+[PT+KM:(1+1)x(2 x 
+60”)] 
+ 
+Tugas mandiri : 
+ 
+ 
+8 
+4-5 
+(SubCPMK-2) 
+ 
+Tugas 
+mandiri  
+Kuliah,diskusi 
+[PB : (2 x 2 x 50”)] 
+Metode: Collaborative 
+Learning 
+Tugas 4 & 5 
+[PT+KM:(1+1)x(2 x 
+60”)] 
+ 
+Tugas mandiri : 
+ 
+ 
+20
+5 
+ 
+6-7 
+ (SubCPMK-3) 
+ 
+Tugas 
+mandiri 
+Kuliah,diskusi 
+[PB : (2 x 2 x 50”)] 
+Metode: Collaborative 
+Learning 
+Tugas 6 & 7 
+[PT+KM:(1+1)x(2 x 
+60”)] 
+ 
+Tugas mandiri :  
+ 
+23 
+8 
+Ujian Tengah Semester 
+9 
+(SubCPMK-4) 
+ 
+Tugas 
+mandiri  
+Kuliah,diskusi 
+[PB : (2 x 2 x 50”)] 
+Metode: Collaborative 
+Learning 
+Tugas 9 
+[PT+KM:(1+1)x(2 x 
+60”)] 
+e-learning (MOODLE): 
+https://elearning.itenas.ac.id/ 
+[Topik  9] 
+ 
+Tugas mandiri : 
+1.  
+10 
+10 
+(SubCPMK-4) 
+ 
+Tugas 
+mandiri  
+Kuliah,diskusi 
+[PB : (2 x 2 x 50”)] 
+Metode: Collaborative 
+Learning 
+Tugas 10  
+[PT+KM:(1+1)x(2 
+x 60”)] 
+e-learning (MOODLE): 
+https://elearning.itenas.ac.id/ 
+[Topik  9] 
+ 
+Tugas mandiri : 
+ 
+9 
+11 
+(SubCPMK-4) 
+ 
+Tugas 
+mandiri  
+Kuliah,diskusi 
+[PB : (2 x 2 x 50”)] 
+Metode: Collaborative 
+Learning 
+Tugas 11 
+[PT+KM:(1+1)x(2 
+x 60”)] 
+e-learning (MOODLE): 
+https://elearning.itenas.ac.id/ 
+[Topik  9] 
+ 
+Tugas mandiri : 
+ 
+9 
+12 
+(SubCPMK-5) 
+ 
+Tugas 
+mandiri  
+Kuliah,diskusi 
+[PB : (2 x 2 x 50”)] 
+Metode: Collaborative 
+Learning 
+Tugas 12 
+[PT+KM:(1+1)x(2 
+x 60”)] 
+e-learning (MOODLE): 
+https://elearning.itenas.ac.id/ 
+[Topik  9] 
+ 
+Tugas mandiri : 
+ 
+10
+6 
+ 
+13 
+(SubCPMK-5) 
+ 
+Tugas 
+mandiri  
+Kuliah,diskusi 
+[PB : (2 x 2 x 50”)] 
+Metode: Collaborative 
+Learning 
+Tugas 13 
+[PT+KM:(1+1)x(2 
+x 60”)] 
+e-learning (MOODLE): 
+https://elearning.itenas.ac.id/ 
+[Topik  9] 
+ 
+Tugas mandiri : 
+ 
+9 
+14 
+(SubCPMK-5) 
+ 
+Tugas 
+mandiri  
+Kuliah,diskusi 
+[PB : (2 x 2 x 50”)] 
+Metode: Collaborative 
+Learning 
+Tugas 14 
+[PT+KM:(1+1)x(2 
+x 60”)] 
+e-learning (MOODLE): 
+https://elearning.itenas.ac.id/ 
+[Topik  9] 
+ 
+Tugas mandiri : 
+ 
+9 
+15 
+Review materi 9 – 
+14 persiapan UAS 
+ 
+ 
+ 
+ 
+ 
+16 
+UJian Akhir Semester 
+Sumber: Dikti, Pedoman KPT 2020 
+ 
+ 
+ 
+ 
+Catatan: 
+1. 
+CPL Padu program studi adalah kemampuan yang dimiliki oleh setiap lulusan program studi yang merupakan bentuk perpaduan dari rumusan 
+CPL SNDikti (internalisasi dari unsur sikap, keterampilan, dan penguasaan pengetahuan) sesuai dengan jenjang prodi. CPL padu diukur dan 
+diperoleh selama melalui proses pembelajaran. 
+2. 
+CPL padu yang dibebankan pada mata kuliah adalah beberapa CPL Padu Prodi yang digunakan untuk pembentukan/pengembangan sebuah 
+mata kuliah. 
+3. 
+CPMK adalah kemampuan yang dijabarkan secara spesific dari CPL Padu yang dibebankan pada mata kuliah, bersifat spesifik terhadap bahan 
+kajian atau materi pembelajaran mata kuliah tersebut. 
+PB = proses belajar (1x50 menit) 
+PT = penugasan terstruktur (1 x60 menit) 
+KM = kegiatan mandiri (1 x 60 menit) 
+1 sks = kegiatan 170 menit
+7 
+ 
+4. 
+SUBCPMK adalah kemampuan yang dijabarkan secara spesific dari CPMK yang dapat diukur atau diamati dan merupakan kemampuan akhir 
+yang direncanakan pada tiap tahap pembelajaran, dan bersifat spesifik terhadap materi pembelajaran mata kuliah tersebut. 
+5. 
+Indikator penilaian kemampuan dalam proses maupun hasil belajar mahasiswa adalah pernyataan spesifik dan terukur yang mengidentifikasi 
+kemampuan atau kriteria hasil belajar mahasiswa yang disertai bukti-bukti. 
+6. 
+Teknik penilaian: tes dan nontes 
+7. 
+Bentuk pembelajaran: kuliah, seminar atau yang setara, responsi, tutorial, praktikum, praktik studio, praktik bengkel, praktik lapangan, 
+penelitian, PkM, dan/atau bentuk pembelajaran lain yang setara 
+8. 
+Metode pembelajaran: small grup discussion, discovery learning, cooperative learning, collaborative learning, contextual learning, project 
+based learning, dan/atau metode lain yang setara.  
+9. 
+Materi pembelajaran adalah rincian atau uraian dari bahan kajian yang dapat disajikan dalam bentuk beberapa pokok bahasan dan subpokok 
+bahasan. 
+10. Bobot penilaian adalah persentase penilaian terhadap setiap pencapaian subcpmk yang besarnya proporsional dengan tingkat kesulitan 
+pencapaian SUBCPMK tsb, totalnya = 100%
+PETA CAPAIAN PEMBELAJARAN MATA KULIAH 
+CPMK Mata Kuliah ISB 208 – Sistem Operasi & Keamanan Sistem Informasi: 
+CPMK-1 : Mahasiswa mampu memahami bagian-bagian pokok dari teori dan implementasi sistem operasi terutama 
+konsep dasar secara umum Sistem Operasi; Struktur Sistem Operasi; manajemen file ; kernel , shell dan utility pada 
+Sistem Operasi; sistem I/O;manajemen memori, konsep penjadwalan 2 Sistem Operasi; masalah deadlock, konsep 
+protokol dan soket serta keterhubungan antar OS yang berbeda. (CPL-6, CPL-7)  
+CPMK-2 : Mampu menerapkan gagasan yang inovatif dan tepat guna dalam upaya penggunaan sistem operasi 
+komputer yang mendukung capaian teknologi terbarukan (CPL-7, CPL-10) 
+Evaluasi / Ujian Akhir Semester (Mg Ke 16) 
+SUB CPMK 5 - Mampu mempresentasikan implementasi keterhubungan 
+antar OS yang berbeda (CPMK-1,CPMK-2) 
+SUB CPMK 4 - Mampu menerapkan konsep dasar protokol, soket dan 
+beberapa perintah commadline pada system operasi linux (CPMK-1, CPMK-2) 
+SUB CPMK 3 - Mampu menjelaskan System kerja I/O, konsep penjadwalan 
+masalah yang terjadi saat deadlock dan serangan yang bisa dilakukan pada 
+sistem operasi (CPMK-1, CPMK-2) 
+Ujian Tengah Semester (Mg Ke 8) 
+SUB CPMK 1 – Mampu menjelaskan pengertian dasar, manfaat dan cara kerja 
+sistem operasi, baik open source ataupun tidak. (CPMK-1) 
+SUB CPMK 2 – Mampu menjelaskan konsep dasar, manajmene file, kernel, 
+shell, utility dasar dan manajemen memory pada sistem operasi. (CPMK-1) 
+Entry Behavior

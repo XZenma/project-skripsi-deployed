@@ -1,0 +1,159 @@
+TRIGGER & VIEW
+ISB-212 Praktikum Basis Data 2
+Apa itu trigger
+Trigger adalah sekumpulan kueri (prosedur)
+SQL yang akan dieksekusi secara otomatis
+(terpicu) 
+oleh 
+Database 
+Management
+System 
+(DBMS) 
+ketika 
+terjadi 
+peristiwa
+(event) modifikasi data pada sebuah tabel.
+Manfaat utama trigger
+Integritas Data
+Menjamin 
+validitas 
+data 
+melalui
+batasan kompleks (CHECK constraint)
+yang tidak bisa ditangani oleh validasi
+standar.
+1
+Melacak Perubahan Data (Auditing)
+Mencatat setiap aktivitas  ke dalam tabel
+log/audit setiap kali ada data yang
+ditambah, diubah, atau dihapus.
+2
+Sinkronisasi
+Memperbarui 
+tabel 
+terkait 
+secara
+otomatis 
+(misalnya: 
+stok 
+barang
+berkurang saat ada transaksi penjualan
+baru).
+3
+Apa itu view?
+View adalah tabel virtual yang berisi data dari satu atau beberapa tabel fisik. 
+View tidak menyimpan data secara fisik di dalam database
+Fungsi Utama: 
+Menyederhanakan kueri yang kompleks (JOIN yang panjang).
+Meningkatkan keamanan dengan menyembunyikan kolom sensitif. 
+Menyediakan perspektif data yang konsisten untuk pelaporan.
+Contoh Query trigger integritas :
+CREATE TRIGGER tr_cek_kuantitas ON orderline 
+FOR INSERT, UPDATE
+AS
+BEGIN
+    DECLARE @qty INT;
+    SELECT @qty = ins.quantity FROM inserted ins;
+    
+    -- Mengecek apakah quantity kurang dari atau sama
+dengan 0
+    IF @qty <= 0
+    BEGIN 
+        ROLLBACK; 
+        PRINT 'Transaksi Gagal: Kuantitas (quantity)
+pesanan tidak boleh nol atau negatif!';
+    END 
+END
+go
+-- Mencoba memasukkan pesanan dengan quantity -5
+INSERT INTO orderline (order_id, Product_id, quantity)
+VALUES (1, 3, -5);
+Output :
+Penjelasan:
+Mencegah sistem memasukkan jumlah pesanan barang
+(quantity) yang bernilai 0 atau negatif ke dalam  
+orderline. 
+Sistem akan langsung menolak (Rollback) data tersebut
+masuk ke dalam database dan menampilkan pesan
+error: "Transaksi Gagal: Kuantitas (quantity) pesanan tidak
+boleh nol atau negatif!".
+CREATE TRIGGER tr_update_stok ON orderline 
+FOR INSERT
+AS
+BEGIN
+    DECLARE @id_produk INT, @qty_pesan INT;
+    
+    -- Mengambil data produk dan jumlah yang baru saja dipesan
+    SELECT @id_produk = ins.Product_id, @qty_pesan =
+ins.quantity 
+    FROM inserted ins;
+    -- Mengurangi stok (QOH) di tabel products
+    UPDATE products
+    SET QOH = QOH - @qty_pesan
+    WHERE Product_id = @id_produk;
+    
+    PRINT 'Berhasil: Stok produk otomatis dikurangi!';
+END
+go
+INSERT INTO orderline (order_id, Product_id, quantity) VALUES (3, 1,
+2);
+Contoh Query trigger sinkonisasi  :
+Output :
+Penjelasan :
+Memperbarui jumlah stok barang (QOH / Quantity on
+Hand) secara otomatis di tabel products setiap kali
+ada pesanan baru yang masuk di tabel orderline.
+Pesanan berhasil masuk, lalu tanpa perlu jalankan
+perintah update manual, stok produk End Table di tabel
+products secara otomatis berkurang dari 8 menjadi 6.
+CREATE VIEW V_Katalog_Produk AS 
+SELECT Product_name AS 'Nama Produk', 
+       Product_finish AS 'Bahan/Warna', 
+       Unit_price AS 'Harga'
+FROM products;
+go
+SELECT * FROM V_Katalog_Produk;
+Contoh View menggunakan 1 tabel :
+2
+Output :
+Penjelasan:
+Membuat katalog harga produk untuk dilihat pelanggan.
+Tabel ini hanya menampilkan 3 kolom (Nama Produk,
+Bahan/Warna, dan Harga).
+CREATE VIEW V_Laporan_Pesanan AS
+SELECT 
+    c.Customer_name AS 'Nama Pelanggan', 
+    o.orderdate AS 'Tanggal Pesan', 
+    p.Product_name AS 'Barang', 
+    ol.quantity AS 'Jumlah', 
+    (ol.quantity * p.Unit_price) AS 'Total Bayar'
+FROM customers c
+INNER 
+JOIN 
+orders 
+o 
+ON 
+c.customer_id 
+=
+o.Customer_id
+INNER JOIN orderline ol ON o.order_id = ol.order_id
+INNER JOIN products p ON ol.Product_id =
+p.Product_id;
+go
+SELECT 
+* 
+FROM 
+V_Laporan_Pesanan 
+WHERE
+[Nama Pelanggan] = 'Home Furniture';
+Contoh View menggunakan 1 join :
+2
+Output :
+Penjelasan:
+Menggabungkan tabel customers, orders, orderline, dan
+products.
+Pembeli Home Furniture memesan barang apa saja, di
+tanggal berapa, berapa jumlahnya, dan berapa total uang
+yang harus di bayar (hasil kali antara harga satuan dan
+jumlah beli).
+Thank You

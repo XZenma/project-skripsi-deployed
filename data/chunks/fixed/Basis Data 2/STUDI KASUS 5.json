@@ -1,0 +1,13 @@
+{
+  "filename": "STUDI KASUS 5.txt",
+  "matkul": "Basis Data 2",
+  "teknik": "fixed",
+  "total_chunks": 1,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 859,
+      "text": "STUDI KASUS 5\n\nAutomata Inc. produces specially vehicles by contract. The company operates several\ndepartments, each of builds a praticular vehicle, such as limousine, a truck, a van or an\nRV.\n\nWhen a new vehicle is built, the department places an order with purchasing\ndepartment to request specific component. Automata's purchasing department is\ninterested in creating database to keep track of orders and to accelerate the process of\ndelivering materials,\n\nThe order received by purchasing department can contain several different items . An\ninventory is maintained that is the most frequently requested item is inventory. If an\nitem is not in inventory, it must be ordered from a supplier . Each item may have several\nsuppliers.\n\n1. Define entity and relathionships.\n2. Draw the ER diagram with Chen diagram.\n3. Draw the ER diagram with Crow Foot diagram."
+    }
+  ]
+}

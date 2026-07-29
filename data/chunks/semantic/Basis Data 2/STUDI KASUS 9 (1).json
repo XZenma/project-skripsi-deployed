@@ -1,0 +1,18 @@
+{
+  "filename": "STUDI KASUS 9 (1).txt",
+  "matkul": "Basis Data 2",
+  "teknik": "semantic",
+  "total_chunks": 2,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 1315,
+      "text": "STUDI KASUS 9 (new)\n\nGiven the following information, produce an ERD - based on Crowfoot model - that can\nbe implemented. Make sure to include all appropriate entities, relationships ,\nconnectivities, and cardinalities. EverFail Company is in the quick oil change dan lube business. Although\ncustomers bring in their cars for what is described as 'Quick oil Change\" , EverFail\nalso replace winshield wippers , oil filters, and air filters, subject to customer\napproval. The invoice contain the charges of the oil used and all part s used, and\na standard labor charge. When the invoice is presented, customers pay cash ,\nuse credit card , or write a check. EverFail does not extend credit . Ever Fail's\ndatabase is to be designed to keep track of all components in all transactions. Given the high part usage of the business operations, EverFail must main tain\ncarefull control of its parts (oil, wipers, oil filters, air filters) inventory. Therefore ,\nif parts reach minimum on-hand Quantity, the parts in low supply must be\nreordered from an appropriate vendor. EverFail maintains a vendor List, which\ncontains both the vendors actually used and the potential vendors. Periodically , EverFail mails updates to customers, based on the date of the car's\nService. everFail also tracks each customer's car mileage. a."
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 58,
+      "text": "Draw ERD ( Chen Diagram)\nb. Draw TRD ( crow Foot Diagram )"
+    }
+  ]
+}

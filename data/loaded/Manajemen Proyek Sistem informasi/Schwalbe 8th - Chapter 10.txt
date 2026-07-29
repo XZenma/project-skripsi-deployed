@@ -1,0 +1,858 @@
+C H A P T E R  10
+PROJECT COMMUNICATIONS 
+MANAGEMENT
+L E A R N I N G  O B J E C T I V E S
+After reading this chapter, you will be able to:
+-
+-
+-
+-
+10.1  THE IMPORTANCE OF PROJECT COMMUNICATIONS 
+MANAGEMENT
+Many experts agree that the greatest threat to the success of any project, especially IT 
+projects, is a failure to communicate. Many problems in other knowledge areas, such as 
+an unclear scope or unrealistic schedules, indicate problems with communication. It is 
+crucial for project managers and their teams to make good communication a priority, 
+ especially with top management and other key stakeholders.
+The IT field is constantly changing, and these changes come with a great deal of 
+technical jargon. When computer professionals communicate with people who aren’t as 
+proficient with or knowledgeable about computers—a group that includes many business 
+professionals and senior managers—technical jargon can often complicate matters and 
+create confusion. Even though most people use computers today, the gap between users 
+and developers increases as technology advances. This gap in knowledge and experience 
+causes some of the communication problems between technical professionals and their 
+business colleagues. Of course, not every computer professional is a poor communicator, 
+but most people in any field can improve their communication skills.
+In addition, many educational systems for IT graduates promote strong technical skills 
+over strong communication and social skills. Most IT-related degree programs have many 
+O P E N I N G  C A S E
+Peter Gumpert worked his way up the corporate ladder in a large telecommunications 
+company. He was intelligent, competent, and a strong leader, but the company’s new 
+ fiber-optic undersea telecommunications program was much larger and more compli-
+cated than anything he had previously worked on, let alone managed. This program 
+consisted of several distinct projects, and Peter was in charge of overseeing them all. The 
+changing marketplace for undersea telecommunications systems and the large number 
+of projects involved made communications and flexibility critical concerns for Peter. For 
+missing milestone and completion dates, his company would suffer financial penalties 
+ranging from thousands of dollars per day for smaller projects to more than $250,000 per 
+day for larger projects. Many projects depended on the success of other projects, so Peter 
+had to understand and actively manage those critical interfaces.
+Peter held several informal and formal discussions with the project managers who 
+reported to him on the program. He worked with them and his project executive assis-
+tant, Christine Braun, to develop a communications plan for the program. He was still 
+unsure, however, about the best way to distribute information and manage all of the in-
+evitable changes that would occur. He also wanted to develop consistent ways for project 
+managers to develop their plans and track performance without stifling their creativity 
+and autonomy. Christine suggested that they consider using some new communica-
+tions technologies to keep important project information up to date and synchronized. 
+Although Peter knew a lot about telecommunications and laying fiber-optic lines, he was 
+not an expert in using information technology (IT) to improve the communication pro-
+cess. In fact, that was part of the reason he had asked Christine to be his assistant. Could 
+they really develop a process for communicating that would be flexible and easy to use? 
+Time was of the essence, as more projects were being added to the fiber-optic undersea 
+telecommunications program every week.
+technical requirements, but few require courses in communications (speaking, writing, lis-
+tening), psychology, sociology, and the humanities. People often assume that learning these 
+soft skills is easy, but they are important skills, so people must learn and develop them.
+Many studies have shown that IT professionals need these soft skills just as much or even 
+more than other skills. You cannot totally separate technical skills and soft skills when working 
+on IT projects. For projects to succeed, every project team member needs both types of skills, 
+and needs to develop them continuously through formal education and on-the-job training.
+Studies continue to show a high demand for IT professionals and the importance of 
+good communication and business skills. According to a 2014 article in the International 
+Journal of Business and Social Science:
+Organizations are looking for workers with the correct mix of technical, soft, and 
+business skills.
+The most important non-technical skills are problem solving, team work, 
+listening, the ability to adapt to new technologies and languages, time man-
+agement, the ability to transfer knowledge to application, multitasking, verbal 
+communication, the ability to visualize and conceptualize, “be the customer” 
+mentality, interpersonal skills, understanding business culture, inter-team 
+communication, and give and receive constructive criticism.
+“The need for these non-technical skills is so great that some IT companies 
+indicate that they will hire individuals with minimum technical skills so long 
+as they demonstrate solid soft and business skills.”1
+This chapter highlights keys to good communications, describes the processes of proj-
+ect communications management, provides suggestions for improving communications, 
+and describes how software can assist in project communications management.
+The goal of project communications management is to ensure timely and appropri-
+ate generation, collection, dissemination, storage, and disposition of project information. 
+There are three main processes in project communications management:
+1. Planning communications management involves determining the informa-
+tion and communications needs of the stakeholders. Who needs what infor-
+mation? When will they need it? How will the information be given to them? 
+The outputs of this process include a communications management plan and 
+project documents updates.
+2. Managing communications involves creating, distributing, storing, retriev-
+ing, and disposing of project communications based on the communications 
+management plan. The main outputs of this process are project communica-
+tions, project documents updates, project management plan updates, and or-
+ganizational process assets updates. Recall from Chapter 4 that organizational 
+process assets include formal and informal plans, policies, procedures, guide-
+lines, information systems, financial systems, management systems, lessons 
+learned, and historical information. These assets help people understand, fol-
+low, and improve business processes in an organization.
+3. Controlling communications involves monitoring and controlling project 
+communications to ensure that stakeholder communication needs are met.
+Figure 10-1 summarizes these processes and outputs, showing when they occur in a 
+typical project.
+392
+10.2 KEYS TO GOOD COMMUNICATIONS
+Project managers say they spend as much as 90 percent of their time communicating.  
+Just as it is difficult to understand people and their motivations, it is also difficult to 
+communicate with people effectively. Several important concepts can help, such as 
+focusing on individual and group communication needs, using formal and informal 
+methods for communicating, providing important information in an effective and timely 
+manner, setting the stage for communicating bad news, and understanding communica-
+tion channels.
+10.2a Focusing on Group and Individual Communication Needs
+Many top managers think they can just add more people to a project that is falling be-
+hind schedule. Unfortunately, this approach often causes more setbacks because of the 
+increased complexity of communications. In his popular book The Mythical Man-Month, 
+Frederick Brooks illustrates this concept very clearly.2 People are not interchangeable 
+parts. You cannot assume that a task scheduled to take two months of one person’s time 
+can be done in one month by two people. A popular analogy is that you cannot take nine 
+women and produce a baby in one month!
+It is important to understand individual and group preferences for communica-
+tions. As you learned in Chapter 9, people have different personality traits that often 
+affect their communication preferences. For example, if you want to praise a project 
+team member for doing a good job, most introverts would be more comfortable receiv-
+ing that praise in private, while most extroverts would like everyone to hear about 
+Planning
+Process: Plan communications management
+Outputs: Communications management plan, project documents updates
+Executing
+Process: Manage communications
+Outputs: Project communications, project documents updates, project
+ 
+management plan updates, and organizational process assets
+ 
+updates
+Monitoring and Controlling
+Process: Control communications
+Outputs: Work performance information, change requests, project
+ 
+documents updates, and organizational process assets updates
+Project Start
+Project Finish
+FIGURE 10-1
+
+
+395
+need to use all of these dimensions in their daily routines. In addition, different people 
+respond positively to different levels or types of communication. For example, a project 
+sponsor may prefer to stay informed through informal discussions held once a week over 
+coffee. The project manager needs to be aware of this preference and take advantage of 
+it. The project sponsor will give better feedback about the project during these informal 
+talks than through some other form of communication. Informal conversations allow the 
+project sponsor to exercise a leadership role and provide insights and information that 
+are critical to the success of the project and the organization as a whole. Short face-to-
+face meetings are often more effective than electronic communications, particularly for 
+ sensitive information.
+10.2c  Distributing Important Information in an Effective  
+and Timely Manner
+It is important to include detailed technical information that affects critical performance 
+features of products or services developed in a project. It is even more important to 
+document any changes in technical specifications that might affect product performance. 
+For example, if the fiber-optic undersea telecommunications program described in the 
+chapter’s opening case included a project to purchase and provide special diving gear, 
+and the supplier of the oxygen tanks enhanced the tanks so divers could stay under 
+water longer, other people would need to know about this important new capability. 
+The information should not be buried in an attachment with the supplier’s new product 
+brochure.
+People have a tendency to avoid reporting bad news. If the oxygen tank vendor was 
+behind on production, the person in charge of the project to purchase the tanks might 
+wait until the last minute to report this critical information. This news could be deliv-
+ered quickly via text through a website, e-mail, text message, or similar means. However, 
+people tend to become overwhelmed by too much information, and they might not under-
+stand what it means to them on their particular project.
+Oral communication via meetings and informal talks helps bring important  
+information—positive or negative—into the open. Because IT projects often require a lot 
+of coordination, it is a good idea to have short, frequent meetings. For example, some IT 
+project managers require all project personnel to attend a “stand-up” meeting every week 
+or even every morning, depending on project needs. Stand-up meetings have no chairs, 
+which forces people to focus on what they need to communicate. Recall that projects us-
+ing an agile approach have daily meetings to make sure everyone is on the same page. If 
+people can’t meet face to face, they can have virtual meetings instead.
+10.2d Setting the Stage for Communicating Bad News
+It is important to put information in context, especially if it’s bad news. If there is a 
+problem, know how it will affect the whole project and the organization. Bad news might 
+seem like a major setback, but you can recommend steps to take to mitigate a problem. 
+Project sponsors and other senior managers want to know that you have evaluated the 
+impact of the situation, considered alternatives, and made a recommendation based on 
+your expertise. Project managers should know how a major problem might affect the 
+bottom line of the organization and be able to use their leadership skills to handle the 
+challenge.
+
+397
+send an e-mail to a very large team of people just as you could to a small one, one CIO 
+answered, “As a group increases in size, you have a whole slew of management challenges. 
+Communicating badly exponentially increases the possibility of making fatal mistakes. 
+A large-scale project has a lot of moving parts, which makes it that much easier to break 
+down. Communication is the oil that keeps everything working properly. It’s much easier 
+to address an atmosphere of distrust among a group of five team members than it is with a 
+team of 500 members.”4
+However, in some situations you cannot have face-to-face meetings and must e-mail a 
+large group of people. Many IT professionals work on virtual projects in which they never 
+meet their project sponsors, other team members, or other project stakeholders. In a vir-
+tual project environment, it is crucial for project managers to develop clear communica-
+tion procedures. They must use e-mail, web conferencing, instant messaging, discussion 
+threads, project websites, and other technologies to communicate most information. They 
+might be able to use phone calls or other media occasionally, but in general, they must 
+rely on good written communications.
+As you can see, project communication involves more than creating and sending sta-
+tus reports or holding periodic meetings. Many good project managers know their personal 
+strengths and weaknesses in this area and surround themselves with people who comple-
+ment their skills, just as Peter Gumpert did in the opening case by asking Christine to be 
+his assistant. It is good practice to share the responsibility for project communications 
+management with the entire project team.
+3 people, 3 communication channels
+2 people, 1 communication channel
+4 people, 6 communication channels, etc.
+number of communication channels = n(n – 1)
+2
+FIGURE 10-2
+398
+10.3 PLANNING COMMUNICATIONS MANAGEMENT
+Because communication is so important on projects, every project should include a  
+communications management plan—a document that guides project communications. 
+This plan should be part of the overall project management plan, as you learned in  
+Chapter 4, Project Integration Management. The communications management plan var-
+ies with the needs of the project, but some type of written plan should always be prepared. 
+For small projects, such as the project management intranet site project described in 
+Chapter 3, the communications management plan can be part of the team contract. For 
+large projects, it should be a separate document. The communications management plan 
+should address the following items:
+ 
+1. Stakeholder communications requirements
+ 
+2.  Information to be communicated, including format, content, and level of 
+detail
+ 
+3. Who will receive the information and who will produce it
+ 
+4. Suggested methods or technologies for conveying the information
+ 
+5. Frequency of communication
+ 
+6. Escalation procedures for resolving issues
+ 
+7. Revision procedures for updating the communications management plan
+ 
+8. A glossary of common terminology
+It is important to know what kinds of information will be distributed to particular 
+stakeholders. By analyzing stakeholder communication needs, you can avoid wasting time 
+or money on creating or disseminating unnecessary information.
+Table 10-1 provides part of a sample stakeholder communications analysis that shows 
+which stakeholders should get particular written communications. Note that the stake-
+holder communications analysis includes columns that list the contact person for the 
+information, when the information is due, and the preferred format for the information. 
+Notice that the first stakeholder, customer management, wants a hard copy of the monthly 
+status reports plus a meeting to talk about them. You can create a similar table to show 
+which stakeholders should attend particular formal project meetings. It is always a good 
+idea to include comment sections with these types of tables to record special consider-
+ations or details related to each stakeholder, document, meeting, or other component. 
+Have stakeholders review and approve the stakeholder communications analysis to ensure 
+that the information is correct and useful.
+Many projects do not include enough initial information on communications. Project 
+managers, top management, and project team members often assume that using exist-
+ing communication channels to relay project information is sufficient. The problem with 
+using existing channels is that each group (as well as other stakeholders) has different 
+communication needs. Creating some sort of communications management plan and 
+reviewing it with project stakeholders early in a project helps prevent or reduce later 
+communication problems. If an organization works on many projects, developing some 
+consistency in handling project communications helps the organization run smoothly.
+Consistent communication helps organizations improve project communications, 
+especially for programs composed of multiple projects. For example, Peter Gumpert, the 
+program manager in the opening case, would benefit greatly from having a communica-
+tions management plan that all of his project managers help develop and follow. Because
+399
+several of the projects have some of the same stakeholders, it is even more important to 
+develop a coordinated communications management plan. For example, if customers re-
+ceive status reports from Peter’s company that have totally different formats and do not 
+coordinate information from related projects within the same company, they will question 
+the ability of Peter’s company to manage large programs.
+Information about the content of essential project communications comes from the 
+work breakdown structure (WBS). In fact, many WBSs include a section for project com-
+munications to ensure that reporting key information is a project deliverable. If reporting 
+essential information is an activity defined in the WBS, it becomes even more important 
+to know what project information to report, when to report it, how to report it, and who is 
+responsible for generating the report.
+10.4 MANAGING COMMUNICATIONS
+Managing communications is a large part of a project manager’s job. Getting project infor-
+mation to the right people at the right time and in a useful format is just as important as 
+developing the information in the first place. The stakeholder communications analysis 
+serves as a good starting point for managing communications. Project managers and their 
+teams must decide who receives particular information, but they must also determine the 
+best way to create and distribute the information. Is it sufficient to send written reports 
+for project information? Is text appropriate, or would visuals or even videos communicate 
+the information better? Are meetings alone effective in distributing some project informa-
+tion? Are meetings and written communications both required for project information? 
+What is the best way to provide information to virtual team members?
+TABLE 10-1 
+Stakeholders
+Document  
+Name
+Document  
+Format
+Contact Person
+Due
+Customer 
+management
+Monthly status 
+report
+Hard copy  
+and meeting
+Tina Erndt,  
+Tom Silva
+First of month
+Customer business 
+staff
+Monthly status 
+report
+Hard copy
+Julie Grant,  
+Sergey Cristobal
+First of month
+Customer 
+technical staff
+Monthly status 
+report
+E-mail
+Li Chau,  
+Nancy Michaels
+First of month
+Internal 
+management
+Monthly status 
+report
+Hard copy and 
+meeting
+Bob Thomson
+First of month
+Internal business 
+and technical staff
+Monthly status 
+report
+Intranet
+Angie Liu
+First of month
+Training 
+subcontractor
+Training plan
+Hard copy
+Jonathan Kraus
+November 1
+Software 
+subcontractor
+Software 
+implementation 
+plan
+E-mail
+Najwa Gates
+June 1
+Comments: Put the titles and dates of documents in e-mail headings and have recipients acknowledge 
+receipt.
+© Cengage Learning 2016
+
+
+
+
+Many people use the two terms interchangeably, but some people distinguish between 
+them as follows:
+Progress reports describe what the project team has accomplished during a 
+certain period. Many projects have each team member prepare a monthly report 
+or sometimes a weekly progress report. Team leaders often create consolidated 
+progress reports based on the information received from team members. A sam-
+ple template for a monthly progress report is provided later in this chapter.
+Status reports describe where the project stands at a specific point in time. Sta-
+tus reports address where the project stands in terms of the triple constraint, 
+meeting scope, time, and cost goals. How much money has been spent to 
+date? How long did it take to do certain tasks? Is work being accomplished as 
+planned? Status reports can take various formats depending on the stakehold-
+ers’ needs. As described in Chapter 2, when using agile project management, 
+progress is communicated via daily Scrum meetings and burndown charts.
+Forecasts predict future project status and progress based on past information and 
+trends. How long will it take to finish the project based on how things are going? How 
+much more money will be needed to complete the project? Project managers can use 
+earned value management (see Chapter 7, Project Cost Management) to answer these 
+questions by estimating the budget at completion and projected completion date based on 
+how the project is progressing.
+An important technique for performance reporting is the status review meeting. Sta-
+tus review meetings, as described in Chapter 4, Project Integration Management, are a 
+good way to highlight information provided in important project documents, empower 
+people to be accountable for their work, and have face-to-face discussions about important 
+project issues. Many program and project managers hold periodic status review meetings 
+to exchange important project information and motivate people to make progress on their 
+parts of the project. Likewise, many top managers hold monthly or quarterly status review 
+meetings in which program and project managers must report overall status information.
+Status review meetings sometimes become battlegrounds where conflicts between dif-
+ferent parties come to a head. Project managers or higher-level top managers should set 
+ground rules for status review meetings to control the amount of conflict and should work 
+to resolve any potential problems. It is important to remember that project stakeholders 
+should work together to address performance problems.
+10.5 CONTROLLING COMMUNICATIONS
+The main goal of controlling communications is to ensure the optimal flow of informa-
+tion throughout the entire project life cycle. The main inputs are the project management 
+plan, project communications, issue logs, work performance data, and organizational 
+process assets. (Issue logs are described in Chapter 13, Project Stakeholder Management.) 
+The project manager and project team should use their various reporting systems, expert 
+judgment, and meetings to assess how well communications are working. If communica-
+tion problems exist, the project manager and team need to take action, which often re-
+quires changes to the earlier processes of planning and managing project communications. 
+The main outputs of controlling communications are work performance information, 
+change requests, project documents updates, and organizational process assets updates.
+It is often beneficial to have a facilitator from outside the project team assess how well 
+communications are working. A facilitator can also help the team solve any communica-
+tion problems. Many project teams need help in improving communications, and many 
+internal and external experts are available to help. The following section also provides sug-
+gestions for improving project communications.
+10.6  SUGGESTIONS FOR IMPROVING PROJECT 
+COMMUNICATIONS
+Good communication is vital to the management and success of IT projects. So far in 
+this chapter, you have learned that project communications management can ensure 
+that essential information reaches the right people at the right time, that feedback and 
+reports are appropriate and useful, and that there are formalized processes for plan-
+ning, managing, and controlling communications. This section highlights a few areas 
+that all project managers and project team members should consider in their quests to 
+improve project communications. This section provides guidelines for developing better 
+communication skills, running effective meetings, using e-mail, instant messaging, tex-
+ting, kanban boards, and collaborative tools effectively, and using templates for project 
+communications.
+10.6a Developing Better Communication Skills
+Some people seem to be born with great communication skills. Others seem to have a 
+knack for picking up technical skills. It is rare to find someone with a natural ability for 
+both. Both types of skills, however, can be developed. Most IT professionals enter the field 
+because of their technical skills. Most find, however, that communication skills are the key 
+to advancing in their careers, especially if they want to become good project managers.
+Most companies spend a lot of money on technical training for their employees, even 
+when employees might benefit more from communications training. Individuals are also 
+more likely to enroll voluntarily in classes to learn the latest technology than in classes 
+that develop soft skills.
+Communication skills training usually includes role-playing activities in which par-
+ticipants learn concepts such as building rapport, as described in Chapter 9, Project Hu-
+man Resource Management. Training sessions also give participants a chance to develop 
+specific skills in small groups. Sessions that focus on presentation skills typically use video 
+to record the participants’ presentations. Most people are surprised to see some of their 
+mannerisms and enjoy the challenge of improving their skills. A minimal investment in 
+communication and presentation training can have a tremendous payback to individuals, 
+their projects, and their organizations.
+As organizations become more global, they realize that they must also invest in ways 
+to improve communication with people from different countries and cultures. For exam-
+ple, Apple released their new 2015 operating system, which included hundreds of diverse 
+emojis to appeal to users all over the world.
+Many Americans are raised to speak their minds, while in some other cultures people 
+are offended by outspokenness. Decision makers from several countries, such as China, 
+focus on building personal relationships and trust rather than on facts and quick re-
+sponses, like Americans. Not understanding how to communicate effectively with people 
+of other cultures and diverse backgrounds hurts projects and businesses. Many training
+
+need approval from a top manager to hire another person for the project team. 
+It could take a week or longer to schedule even a 10-minute meeting on the top 
+manager’s calendar. Instead, an e-mail or phone call describing the situation and 
+justifying the request is a faster, more effective approach than having a meeting. 
+However, you often do need a face-to-face meeting in certain situations because 
+using e-mail or a phone call would be inappropriate. Consider which medium 
+would be most effective.
+Define the purpose and intended outcome of the meeting. Be specific about 
+what should happen as a result of the meeting. Is the purpose to brainstorm 
+ideas, provide status information, or solve a problem? Make the purpose of a 
+meeting very clear to all meeting planners and participants. For example, if a 
+project manager calls a meeting of all project team members without know-
+ing the true purpose of the meeting, everyone will focus on their own agendas 
+and very little will be accomplished. All meetings should have a purpose and 
+intended outcome.
+Determine who should attend the meeting. Do certain stakeholders have to 
+be at a meeting to make it effective? Should only the project team leaders 
+attend a meeting, or should the entire project team be involved? Many meet-
+ings are most effective with the minimum number of participants possible, 
+especially if decisions must be made. Other meetings require many attend-
+ees. It is important to determine who should attend a meeting based on its 
+purpose and intended outcome.
+Provide an agenda to participants before the meeting. Meetings are most 
+effective when the participants come prepared. Did they read reports before 
+the meeting? Did they collect necessary information? Some professionals re-
+fuse to attend meetings if they do not have an agenda ahead of time. Insisting 
+on an agenda forces meeting organizers to plan the meeting and gives poten-
+tial participants the chance to decide whether they need to attend.
+Prepare handouts and visual aids, and make logistical arrangements 
+ahead of time. By creating handouts and visual aids, you must organize 
+thoughts and ideas. This usually helps the entire meeting run more effec-
+tively. It is also important to make logistical arrangements by booking an 
+appropriate room, having necessary equipment available, and providing re-
+freshments or entire meals, if appropriate. It takes time to plan for effective 
+meetings. Project managers and their team members must take time to pre-
+pare for meetings, especially important ones with key stakeholders.
+Run the meeting professionally. Introduce people, restate the purpose of 
+the meeting, and state any ground rules that attendees should follow. Have 
+someone facilitate the meeting to make sure that important items are dis-
+cussed, watch the time, encourage participation, summarize key issues, and 
+clarify decisions and action items. Designate someone to take minutes and 
+then send them to all participants soon after the meeting. Minutes should 
+be short and focus on the crucial decisions and action items from the 
+meeting.
+Set the ground rules for the meeting. State up front how the meeting will be 
+run. For example, can people speak at will, or will the facilitator lead discus-
+sions? Can attendees use their laptops or other electronic devices during the
+
+documents, spreadsheets, and presentations online. A wiki is a website that enables any-
+one who accesses it to contribute to or modify its content. Kanban boards visually show 
+tasks that need to be done, are in progress, or are completed. They have become a popular 
+tool to improve communications, as described in the Best Practice feature.
+Even if people do know when to use e-mail or other tools for project communications, 
+they also need to know how to use the tools. New features are added to software programs 
+with every release, but often users are unaware of these features and do not receive train-
+ing on how to use them. Do you know how to organize and file your e-mail messages, or 
+do you have hundreds of them in your inbox? Do you know how to use your address book 
+or how to create distribution lists? Have you ever used sorting features to find e-mail mes-
+sages or documents by date, author, or key words? Do you use filtering software to prevent 
+spam? Do you know how to share your desktop with instant messaging to teach some-
+one how to use software on your computer? Do you know how to track and incorporate 
+changes in Google Docs to create reports and spreadsheets as a collaborative effort? Does 
+everyone on your project team know how to use important features of your SharePoint 
+portal or wiki? Are you using a software tool for creating kanban boards that is tailored to 
+meet your needs? Project teams and organizations that emphasize using a shared reposi-
+tory for good communications are often more productive. Many project management soft-
+ware tools include the ability to share project documents and other communications, but 
+processes must be established first and followed.
+Something as simple as a standard college course illustrates these issues. Many college 
+courses now use online course management software like Moodle or Blackboard. Instruc-
+tors have learned to post the course syllabus, handouts, lecture notes, and other docu-
+ments for the entire class to share. Students are often required to take quizzes, participate 
+in discussions, and post their own files on a central site. Posting all information in one 
+location enhances communications. If the instructor states in the syllabus that students 
+must check their e-mail frequently for course information, they will do so, even though 
+they might prefer to use text messaging. If they fail to check their e-mail, participate in 
+discussions, or generally use the online course tools, the consequences will affect their 
+grades.
+Even if you know how to use all the features of these communication systems, you 
+will likely still need to learn how to put ideas into words clearly and effectively. For exam-
+ple, the subject line for any e-mail message you write should clearly state the intention of 
+the e-mail. Folder and file names for collaborative projects should be clear and follow file 
+naming conventions, if provided. A business professional who does not write well might 
+prefer to talk to people than to send an e-mail or instant message. Poor writing often leads 
+to misunderstandings and confusion.
+Project managers should do whatever they can to help their project stakeholders use 
+e-mail, instant messaging, texting, and other tools effectively and not waste time with poor 
+or unclear communications. Information sent via e-mail, instant messaging, texting, or 
+a collaborative tool should be appropriate for that medium. If you can communicate the 
+information better with a phone call or meeting, for example, then do so. If you introduce 
+a new technique, such as kanban boards, be sure to tailor it to meet your needs. Do not 
+use new tools because they are the latest fad. Use them because they improve commu-
+nications and productivity. Learn how to use important features of your e-mail, texting, 
+instant messaging, and collaborative software, and make sure that everyone on your team 
+also learns.
+The following guidelines can help you use e-mail as a more effective communication 
+tool:
+Be sure to send e-mail to the right people. Do not automatically “reply to all” on 
+an e-mail, for example, if it is not necessary.
+Use meaningful subject lines in e-mails so readers can quickly see what infor-
+mation the message contains. If the entire message can fit in the subject line, 
+put it there. For example, if a meeting is cancelled, just enter that message 
+in the subject line. Also, do not continue replying to an e-mail thread when 
+the subject has changed without changing the subject line. The subject line 
+should always relate to the latest topic.
+Limit the content of the e-mail to one main subject. Send a second or third 
+e-mail if it relates to a different subject.
+The body of the e-mail should be as clear and concise as possible. Use as few 
+words as possible while maintaining a clear and friendly tone. If three ques-
+tions need to be answered, number them as questions 1, 2, and 3 and put 
+each on a separate line.
+Always reread your e-mail before you send it. Also, be sure to check your 
+spelling using the spell-check function.
+Limit the number and size of e-mail attachments. If you can include a link to 
+an online version of a document instead of attaching a file, do so.
+Delete e-mail that you do not need to save or that does not require a re-
+sponse. Do not even open e-mail that you know is not important, such as 
+spam. Use the e-mail blocking feature of the software, if available, to block 
+unwanted junk mail.
+Make sure that your virus protection software is up to date. Never open e-
+mail attachments if you do not trust the source.
+Respond to e-mail quickly, if possible. It will take you longer to open and read 
+the e-mail again later. In addition, if you send an e-mail that does not require 
+a response, make that clear as well.
+If you need to keep e-mail, file each message appropriately. Create folders 
+with meaningful names to file the e-mail messages you want to keep. File 
+them as soon as possible.
+Most people are comfortable with using e-mail, but some may not be familiar with 
+other technologies. Develop a strategy for getting users up to date, and discuss when it’s 
+best to use other technologies versus e-mail. The following additional guidelines can help 
+you use other communication tools more effectively:
+Collaborative tools continue to advance. Make sure that your team is using a 
+good tool. Many, like Google Docs and several wikis, are available for free.
+Be sure to authorize the right people to share your collaborative documents. 
+Also ensure that other security is in place. Confidential project documents 
+should probably not be stored on Google Docs. Use more secure tools when 
+needed.
+Make sure that the right person can authorize changes to shared documents 
+and that you back up files.
+Develop a logical structure for organizing and filing shared documents. Use 
+good file-naming conventions for folder and document names.
+10.6d Using Templates for Project Communications
+Many intelligent people have a hard time writing a performance report or preparing a 
+10-minute technical presentation for a customer review. Some people in these situations 
+are too embarrassed to ask for help. To make it easier to prepare project communica-
+tions, project managers need to provide examples and templates for common project 
+communications such as project descriptions, project charters, monthly performance 
+reports, and issue logs. Good documentation from past projects can be an ample source 
+of examples. Samples and templates of both written and oral reports are particularly 
+helpful for people who have never had to write project documents or give project presen-
+tations. Finding, developing, and sharing relevant templates and sample documents are 
+important tasks for many project managers. Several examples of project documentation 
+are provided throughout this text, including a business case, project charter, scope state-
+ment, stakeholder analysis, WBS, Gantt chart, and cost estimate. The companion web-
+site for this text includes the actual files used to create the templates for these sample 
+documents. A few of these templates and guidelines for preparing them are provided in 
+this section.
+Figure 10-4 shows a sample template for a brief project description. This form could 
+be used to show a snapshot of an entire project on one page. For example, top managers 
+FIGURE 10-4 
+Start Project
+Main Task 1
+Project X Description
+Scope: Brieýy describe the scope of the project. What business functions are involved,
+and what are the main products the project will produce?
+Summarize the most critical assumptions for the project.
+Assumptions:
+Cost: Provide the total estimated cost of the project. If desired, list the total cost
+each year.
+Schedule: Provide summary information from the project’s Gantt chart, as shown.
+Focus on summary tasks and milestones.
+Deliverable 1
+Main Task 2
+Deliverable 2 
+Main Task 3
+Deliverable 3 
+End Project
+Task Name
+August
+Objective: Describe the objective of the project in one or two sentences. Focus on
+the business beneåts of doing the project. 
+September October November December January February March April
+6/1
+7/26
+10/18
+12/27
+12/27
+TABLE 10-3 
+I.
+Accomplishments for January (or appropriate month):
+Describe most important accomplishments. Relate them to project’s Gantt chart.
+Describe other important accomplishments, one bullet for each. If any issues were resolved 
+from the previous month, list them as accomplishments.
+II.
+Plans for February (or following month):
+Describe most important items to accomplish in the next month. Again, relate them to proj-
+ect’s Gantt chart.
+Describe other important items to accomplish, one bullet for each.
+III.
+Issues: Briefly list important issues that surfaced or are still important. Managers hate surprises 
+and want to help the project succeed, so be sure to list issues.
+IV.
+Project Changes (Dates and Description): List any approved or requested changes to the project. 
+Include the date of the change and a brief description.
+© Cengage Learning 2016
+might require that all project managers provide a brief project description as part of a 
+quarterly management review meeting. Peter Gumpert, the program manager in the open-
+ing case, might request this type of document from all of his project managers to get an 
+overall picture of what each project involves. A project description should include the 
+project objective, scope, assumptions, cost information, and schedule information. This 
+template suggests including information from the project’s Gantt chart to highlight key de-
+liverables and other milestones.
+Table 10-3 shows a template for a monthly progress report. Sections of the progress 
+report include accomplishments from the current period, plans for the next period, issues, 
+and project changes. Recall that progress reports focus on accomplishments during a spe-
+cific time period, while status reports focus on where the project stands at a certain point 
+in time. Because progress and status reports are effective ways to communicate project 
+information, it is important for project teams to tailor the reports to meet their specific 
+needs. Some organizations, such as JWD Consulting from Chapter 3, combine both prog-
+ress and status information on the same template.
+Table 10-4 provides a list of all of the documentation that should be organized and 
+filed at the end of a major project. From this list, you can see that a large project can gen-
+erate a lot of documentation. In fact, some project professionals have observed that docu-
+mentation for designing an airplane seems to weigh more than the airplane itself. (Smaller 
+projects usually generate much less documentation!)
+The project manager and project team members should prepare a lessons-learned 
+report—a reflective statement that documents important information they have learned 
+from working on the project. The project manager often combines information from 
+all of the lessons-learned reports into a project summary report. See Chapter 3 for an 
+example of this type of lessons-learned report. Some items discussed in lessons-learned 
+reports include reflections on whether project goals were met, whether the project was 
+successful or not, the causes of variances on the project, the reasoning behind corrective
+actions chosen, the use of different project management tools and techniques, and 
+personal words of wisdom based on team members’ experiences. On some projects, all 
+project members are required to write a brief lessons-learned report; on other projects, 
+just the team leads or project manager writes the report. These reports provide valuable 
+reflections by people who know what worked or did not work on the project. Everyone 
+learns in different ways and has different insights into a project, so it is helpful to have 
+more than one person provide inputs on the lessons-learned reports. These reports can 
+be an excellent resource and can help future projects run more smoothly. To reinforce 
+the benefits of lessons-learned reports, some companies require new project managers to 
+read past lessons-learned reports and discuss how they will incorporate some of the ideas 
+into their own projects. It is also important to organize and prepare project archives. 
+Project archives are a complete set of organized project records that provide an accurate 
+history of the project. These archives can provide valuable information for future  
+projects as well.
+In the past few years, more and more project teams have started putting all or part 
+of their project information on project websites, including various templates and lessons-
+learned reports. Project websites provide a centralized way of delivering project docu-
+ments and other communications. Project teams can develop project websites using wikis, 
+web authoring tools, or by using free or paid sites available from Google, Basecamp, and 
+many other companies. The project team should be sure to address important issues in 
+creating and using a project website, such as security, access, and the type of content that 
+should be included.
+Project teams can use one of the many software products available to assist in proj-
+ect communications through the web. These products vary considerably in price and 
+TABLE 10-4 
+I.
+Project description
+II.
+Project proposal and backup data (request for proposal, statement of work, proposal 
+correspondence, and so on)
+III.
+Original and revised contract information and client acceptance documents
+IV.
+Original and revised project plans and schedules (WBS, Gantt charts and network diagrams, cost 
+estimates, communications management plan, etc.)
+V.
+Design documents
+VI.
+Final project report
+VII.
+Deliverables, as appropriate
+VIII.
+Audit reports
+IX.
+Lessons-learned reports
+X.
+Copies of all status reports, meeting minutes, change notices, and other written and electronic 
+communications
+© Cengage Learning 2016
+functionality, as you learned in Chapter 1. For example, Figure 10-5 shows examples of 
+using Basecamp on various devices. Many project teams want to access project informa-
+tion on mobile devices, so many tools now include this capability.
+When the project team develops its project communications management plan, 
+it should determine what templates to use for key documentation. To make it more 
+convenient to use templates, the organization should make project templates readily 
+available online. The project team should also understand what types of documents 
+are expected by top management and customers for each project. For example,  
+if a project sponsor or customer wants a one-page monthly progress report for a  
+specific project, but the project team delivers a 20-page report, there are communica-
+tion problems. In addition, if particular customers or top managers want specific items 
+to be included in all final project reports, they should make sure that the project team 
+is aware of those expectations and modifies templates for those reports to account for 
+the requirements.
+10.7  USING SOFTWARE TO ASSIST IN PROJECT 
+COMMUNICATIONS
+Many organizations are discovering how valuable project management software can be in 
+communicating project information across the organization. Project management software 
+can provide different views of information to help meet various communication needs. 
+For example, senior managers might only need to see summary screens with colors indi-
+cating the overall health of all projects. Middle managers often want to see the status of 
+milestones for all of the projects in their area. Project team members often need to see all 
+project documentation. Often, one of the biggest communication problems on projects is 
+providing the most recent project plans, Gantt charts, specifications, meeting information, 
+FIGURE 10-5
+and change requests to stakeholders in a timely fashion. Most project management soft-
+ware allows users to insert hyperlinks to other project-related files. In Project 2013, you 
+can insert a hyperlink from a task or milestone listed in a Gantt chart to another file that 
+contains relevant information. For example, there might be a milestone that the project 
+charter was signed. You can insert a hyperlink from the Gantt chart to the Word file that 
+contains the project charter. You could also link appropriate tasks or milestones to Excel 
+files that contain a staffing management plan or cost estimate or to Microsoft PowerPoint 
+files with important presentations or other information. The Project 2013 file and all as-
+sociated hyperlinked files could then be placed on a local area network server or web 
+server, allowing all project stakeholders easy access to important project information. (See 
+Appendix A for more information on using Microsoft Project 2013 to assist in project com-
+munications management.)
+Even though organizations routinely use many types of hardware and software to 
+enhance communications, they need to take advantage of new technologies and adjust 
+existing systems to serve the special communications needs of customers and project 
+teams. In addition to diverse customer and project needs, they have to address the chang-
+ing expectations of consumers and the workforce. For example, several television shows 
+have harnessed communications technology to engage their audiences by letting them 
+vote online or via cell phone for their favorite singers, e-mail or tweet celebrities, or access 
+information on their websites or Facebook pages. Many people, especially younger people, 
+use instant messaging or text messages every day to communicate with friends. Some 
+business and technical professionals also find instant messaging and text messaging to be 
+useful tools for quickly communicating with colleagues, customers, suppliers, and others. 
+Blogs are journals on the web that allow users to write entries, respond to another poster’s 
+comments, create links, upload pictures, and post comments to journal entries. Blogs have 
+also become popular as a communication technology. If television shows and nontechnical 
+people can use advanced communications technologies, why can’t project stakeholders?
+Employers have made changes to meet changing expectations and needs in commu-
+nications. On several IT projects, project managers have found that their team members 
+can be more productive when they are allowed to work from home. Other project manag-
+ers have no choice in the matter when some or all of their project team members work 
+remotely. As you learned in Chapter 9, Project Human Resource Management, studies 
+show that providing a quiet work environment and a dedicated workspace increases pro-
+grammer productivity. Most people who work from home have well-equipped, comfort-
+able offices with fewer distractions and more space than corporate offices. Workers also 
+appreciate the added bonus of avoiding traffic and having more flexible work schedules. 
+However, it is important to make sure that work is well defined and that communications 
+are in place to allow remote workers to work effectively.
+Several products are available to assist individual consumers and organizations with 
+communications. Many products were developed or enhanced in recent years to address 
+the issue of providing fast, convenient, consistent, and up-to-date project information. 
+Webcasts are now a common tool for presenting video, graphics, sound, voice, and partici-
+pant feedback live over the web. Podcasts and YouTube videos have also become popular 
+tools for providing various types of audio and video information, from exercise instructions 
+to class lectures. Most working adults and students have cell phones that they use to take 
+and send pictures or send and receive text messages or e-mail. Many high school or college 
+students text or tweet their friends to plan social activities or discuss academic topics.
+These same technologies can enhance project communications. For even more pow-
+erful and integrated communications, enterprise project management software provides 
+many workgroup functions that allow a team of people at different locations to work to-
+gether on projects and share project information. Workgroup functions allow the exchange 
+of messages through e-mail, an intranet, wireless devices, or the web. For example, you 
+can use Project 2013 to alert members about new or changed task assignments, and mem-
+bers can return status information and notify other workgroup members about changes in 
+the schedule or other project parameters.
+Microsoft Office Enterprise Project Management (EPM) Solution and similar products 
+also provide the following tools to enhance communications:
+Portfolio management: By providing a centralized and consolidated view of 
+programs and projects, the user can evaluate and prioritize activities across the 
+organization. This feature makes it possible to maximize productivity, minimize 
+costs, and keep activities aligned with strategic objectives.
+Resource management: Maximizing human resources is often the key to 
+minimizing project costs. This feature enables the user to maximize re-
+source use across the organization to help plan and manage the workforce 
+effectively.
+Project collaboration: Sharing project information is often a haphazard en-
+deavor. Project collaboration enables an organization to share knowledge im-
+mediately and consistently to improve communications and decision making, 
+C A S E  W R A P - U P
+Christine Braun worked closely with Peter Gumpert and his project managers to de-
+velop a communications management plan for all of the fiber-optic undersea telecom-
+munications projects. Peter was very skilled at running effective meetings, so everyone 
+focused on meeting specific objectives. Peter emphasized the importance of keeping 
+himself, the project managers, and other major stakeholders informed about the sta-
+tus of all projects. He emphasized that the project managers were in charge of their 
+projects, and that he did not intend to tell them how to do their jobs. He just wanted 
+to have accurate and consistent information to help coordinate all of the projects and 
+make everyone’s jobs easier. When some of the project managers balked at the addi-
+tional work of providing more project information in different formats, Peter openly dis-
+cussed the issues with them in more detail. He then authorized each project manager to 
+use additional staff to help develop and follow standards for all project communications.
+Christine used her strong technical and communications skills to create a website 
+that included samples of important project documents, presentations, and templates for 
+other people to download and use on their own projects. After determining the need for 
+more remote communications and collaboration between projects, Christine and other 
+staff members researched the latest hardware and software products. Peter authorized 
+funds for a new project led by Christine to evaluate and then purchase smartphones, 
+apps, and enterprise project management (EPM) software with wiki capability that could 
+be accessed via the web. All managers and technical staff, including Peter, received their 
+own devices, and any project stakeholder could request one and get one-on-one training 
+for how to use it with the new apps and EPM software.
+eliminate redundancies, and take advantage of best practices for project 
+management.
+Communication is among the more important factors for success in project manage-
+ment. While technology can aid in the communications process and be the easiest aspect 
+of the process to address, it is not the most important. Far more important is improving 
+an organization’s ability to communicate. Improving this ability often requires a cultural 
+change in an organization that takes a lot of time, hard work, and patience. IT personnel, 
+in particular, often need special coaching to improve their communications skills. The 
+project manager’s chief role in the communications process is that of facilitator. Project 
+managers must educate all stakeholders—management, team members, and customers—
+on the importance of good project communications and ensure that the project has a good 
+communications management plan.

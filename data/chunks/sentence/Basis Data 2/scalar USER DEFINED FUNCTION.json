@@ -1,0 +1,38 @@
+{
+  "filename": "scalar USER DEFINED FUNCTION.txt",
+  "matkul": "Basis Data 2",
+  "teknik": "sentence",
+  "total_chunks": 6,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 426,
+      "text": "USER DEFINED\nFUNCTION\nISA 212 BASISDATA 2\nMIRA MUSRINI BARMAWI\nTypes of User defined function\nScalar Function\nInline table-valued function\nMulti-statement table-valued function\nSCALAR FUNCTION\nFungsi skalar SQL Server mengambil satu atau beberapa\nparameter dan mengembalikan satu nilai.\n\n\nFungsi skalar membantu Anda menyederhanakan kode Anda.\nMisalnya, Anda mungkin memiliki penghitungan kompleks\nyang muncul di banyak kueri."
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 765,
+      "text": "Fungsi skalar membantu Anda menyederhanakan kode Anda.\nMisalnya, Anda mungkin memiliki penghitungan kompleks\nyang muncul di banyak kueri.\n\nDaripada menyertakan rumus di\nsetiap kueri, Anda bisa membuat fungsi skalar yang\nmerangkum rumus dan menggunakannya di setiap kueri.\nInline table-valued function\nFungsi jenis ini selalu memberikan nilai dalam bentuk rowset .\nHasil keluaran dari fungsi ini menyerupai view , hanya fungsi\nini dapat menggunakan variabel input.\nMulti statement table valued function\nSeperti\nhalnya\nInline\ntable\nvalued\nfunction,\nfungsi\nini\nmemberikan\nhasil\nkeluaran\nberupa\ntabel.\nPerbedaannya\ndengan fungsi inline table , adalah hasil dari query itu\ndimasukkan ke dalam variabel dengan tipe data tabel (\nvariabel jenis ini ada di sql server 2012)."
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 862,
+      "text": "Variabel tersebut\ndidefinisikan strukturnya dalam fungsi.\nCREATE/ALTER/DROP User-Defined\nFunction\nSetiap kali Anda bekerja dengan objek database, Anda akan\nmenggunakan perintah ini - BUAT (baru), ALTER (sudah ada),\ndan DROP (sudah ada).\n\nSintaksnya berjalan seperti CREATE /\nALTER / DROP <tipe objek database> <nama objek> AS.\n\nIni\nsedikit berbeda mengenai tipe objek dan juga jika Anda\nmembuat, memodifikasi atau menghapus objek.\nCREATE FUNCTION\nCREATE FUNCTION\n[database_name.]function_name (parameters)\nRETURNS data_type AS\nBEGIN\nSQL statements\nRETURN value\nEND;\nALTER FUNCTION\nALTER FUNCTION [database_name.]function_name (parameters)\nRETURNS data_type AS\nBEGIN\nSQL statements\nRETURN value\nEND;\nDROP FUNCTION\nDROP FUNCTION [database_name.]function_name;\nFUNCTION\n■Mengambil parameter sebagai masukan\nMelakukan sesuatu dengan nilai input ini (pernyataan\nSQL)."
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 418,
+      "text": "Secara teknis ini akan menggunakan nilai yang\ndiberikan sebagai parameter dan menggabungkannya\ndengan nilai lain (variabel lokal) atau objek database dan\nkemudian mengembalikan hasil dari kombinasi /\nperhitungan ini.\nMengembalikan hasil penghitungan (nilai RETURN)\ndengan tipe yang ditentukan sebelumnya (RETURNS\ndata_type)\nFUNCTION\nALTER hamper sama dengan CREATE , dan ALTER\nuntuk memodifikasi fungsi yang sudah ada."
+    },
+    {
+      "index": 5,
+      "panjang_karakter": 674,
+      "text": "Untuk\nmenghapus fungsi, kita menggunakan kalimat DROP\nFUNCTION diikuti dengan nama fungsi.\nA Simple User-Defined Function\nCREATE FUNCTION east_or_west (\n@long DECIMAL(9,6)\n)\nRETURNS CHAR(4) AS\nBEGIN\nDECLARE @return_value CHAR(4);\nSET @return_value = 'same';\nIF (@long > 0.00) SET @return_value = 'east';\nIF (@long < 0.00) SET @return_value = 'west';\nRETURN @return_value\nEND;\nA Simple User-Defined Function\nSELECT dbo.east_or_west(0) AS\nargument_0, dbo.east_or_west(-1) AS\nargument_minus_1, dbo.east_or_west(1)\nAS argument_plus_1;\nResult\nAnda dapat dengan mudah melihat bahwa kami telah\nmemanggil fungsi 3 kali dengan pilihan yang sama,\ndan hasilnya seperti yang diharapkan."
+    },
+    {
+      "index": 6,
+      "panjang_karakter": 3119,
+      "text": "Ini sebenarnya\nmenguji apakah fungsi kami berfungsi seperti yang\ndiharapkan.\nMenghitung nilai tertinggi unit price\nDengan menggunakan fungsi :\ncreate function dbo.fn_maxprice()\nreturns decimal(6,2)\nas\nbegin\ndeclare @maxprice as decimal(6,2)\nselect @maxprice = max(Unit_price) from products\nreturn @maxprice\nend\ngo\nselect dbo.fn_maxprice()\nselect max(Unit_price) from products\ngo\nMenentukan nama produk dengan\nharga tertinggi\nselect\nproduct_id,product_name,dbo.fn_maxprice() as\n' harga tertinggi' from products where\nUnit_price = dbo.fn_maxprice()\nselect product_id,product_name from products\nwhere Unit_price = (select max(Unit_price)\nfrom products)\ngo\nselect *from products\nMenghitung nilai terendah unit_price\ncreate function dbo.fn_minprice()\nreturns decimal(6,2)\nas\nbegin\ndeclare @minprice as decimal(6,2)\nselect @minprice = min(Unit_price) from products\nreturn @minprice\nend\ngo\nselect *from products\ngo\nselect dbo.fn_minprice()\nMenentukan nama produk dengan harga\nterendah\nselect product_id,product_name,\ndbo.fn_minprice() as 'harga terendah' from\nproducts where Unit_price =\ndbo.fn_minprice()\ngo\nselect product_id,product_name from products\nwhere Unit_price = (select min(Unit_price)\nfrom products)\ngo\nMenentukan rata2 nilai unit price\ncreate function dbo.fn_avgprice()\nreturns decimal(6,2)\nas\nbegin\ndeclare @avgprice as decimal(6,2)\nselect @avgprice = avg(Unit_price) from\nproducts\nreturn @avgprice\nend\ngo\nMenentukan id produk ,nama produk dengan\nharga perunit lebih besar dari pada rata-rata\nunit price\nselect product_id,product_name from products\nwhere Unit_price > dbo.fn_avgprice()\nGo\nselect product_id,product_name, unit_price,\ndbo.fn_avgprice() from products where\nUnit_price > dbo.fn_avgprice()\ngo\nselect avg(Unit_price) from products\ngo\nMenentukan id produk ,nama produk\ndengan harga perunit lebih besar dari pada\nrata-rata unit price\nDengan subquery\nSelect product_id, product_name, unit_price\nfrom products where unit_price> ( select\navg(price) from products)\nMenentukan id produk ,nama produk dengan\nharga perunit lebih besar dari pada rata-rata\nunit price\nselect product_id,product_name,\nunit_price,dbo.fn_avgprice() as 'average\nprice'\nfrom products where unit_price >\ndbo.fn_avgprice()\ngo\nMenentukan jumlah yang namanya\nmengandung 'furniture'\ncreate function dbo.fn_countcustomer()\nreturns int\nas\nbegin\ndeclare @count int\nselect @count = count (Customer_name) from\ncustomers where Customer_name like '%Furniture'\nreturn @count\nend\ngo\nMenentukan jumlah yang namanya\nmengandung 'furniture'\nselect dbo.fn_countcustomer ()\nmenampilkan harga untuk id produk,dan nama\nproduk tertentu\ncreate function dbo.fn_infoprice(@product_id int,@product_name\nvarchar(40))\nreturns decimal(6,2)\nas\nbegin\ndeclare @unit_price decimal(6,2)\nselect @unit_price = Unit_price from products\nwhere product_id = @product_id and Product_name =\n@product_name\nreturn @unit_price\nend\nMenampilkan harga untuk id produk,dan\nnama produk tertentu\nselect dbo.fn_infoprice(2,'Coffe Table') as\n'Unit_price'\ngo\nselect dbo.fn_infoprice(3,'Computer Desk') as\n'Unit_price'\ngo\nselect dbo.fn_infoprice(4,'Entertainment Center')\nas 'Unit_price'\ngo"
+    }
+  ]
+}

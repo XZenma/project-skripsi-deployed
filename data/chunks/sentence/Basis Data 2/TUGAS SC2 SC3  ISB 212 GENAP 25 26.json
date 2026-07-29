@@ -1,0 +1,18 @@
+{
+  "filename": "TUGAS SC2 SC3  ISB 212 GENAP 25 26.txt",
+  "matkul": "Basis Data 2",
+  "teknik": "sentence",
+  "total_chunks": 2,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 911,
+      "text": "TUGAS SC2 SC3ISB 212 GENAP 25 26\nTUGAS SC2\nBATCH PROGRAMMING DALAM SQL SERVER\n1. SKENARIO : anda adalah seorang dosen di sebuah universitas .\n\nSeorang mahasiswa\ndinyatakan lulus\nJika Matakuliah Basisdata2 >=75 dan mk Rekayasa Perangkat lunak >=75 dan Matakuliah\npemorgraman dasar >=75\nDan mahasiswa dinyatakan tidak lulus jika salah satu dari matakuliah di atas dibawah 75\nBuatlah batch program SQL server untuk scenario di atas .\n\nGunakan 3 buah variabel\nyang menyimpan nilai mk basisdata2, mk Rekayasa Perangkat luank dan mk Pemrograman dasar\n2. NIM GENAP:\nBuatlah program yang menghitung jumlah bilangan genap dari 1 sampai 20\nNIM GANJIL:\nBuatlah program yang menghitung jumlah bilangann ganjil dari 1 sampai 20\nGunakan for atau While\n\nTUGAS SC3 Store procedure\n1. Buatlah suatu tabel Mahasiswa dengan struktur ( NRP , nama_mahasiswa) atau tabel lain\ndengan 2 buah kolom , bisa tabel lain selalin mahasiswa ."
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 686,
+      "text": "Buatlah suatu store prosedur yang tujuannya melakukan insert pada tabel tersebut,\ndengan variabel input , yang menjadi varibel input adalah NRP dan Nama Mahasiswa (\nTabel Mahasiswa) atau kolom 1 dan kolom 2 untuk tabel selain tabel mahasiswa\n\n2. Dengan tabel yang sama dengan nomor 1. Buatlah store procedure untuk melakukan\nupdate berdasarkan NRP , ( atau berdasarkan kolom 1) , dan sertakan nama baru kolom ke\ndua .\nJika tabel anda adalah tabel mahasiswa, update berdasarkan NRP tertentu , dan ubah lah\nnama mahasiswa menjadi nama mahasiswa yang baru .\nBuat store procedure untuk update dengan variabel input ( nrp dan nama_mahasiswa\nyang baru)-- > jika tabel anda mahasiswa\nTUGAS SC3"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+TM-03
+E-COMMERCE - DISPLAY SEMUA 
+PRODUK DAN FILTER PRODUK
+ISB-202 Rekayasa Perangkat Lunak
+KURNIA RAMADHAN PUTRA, S.KOM., M.T.
+FRONTEND - DISPLAY SEMUA PRODUK
+Kustomisasi halaman shop
+(HTML)
+Logika untuk menampilkan
+semua products (PHP)
+KEBUTUHAN
+PERSIAPAN APLIKASI (1)
+Rename file shop.html menjadi shop.php
+KONFIGURASI
+PERSIAPAN APLIKASI (2)
+Buka  file index.php, dan modifikasi pada bagian kode untuk mengganti header menu,
+dengan mengubah href="index.html" menjadi href="index.php", kemudian
+href="shop.html" menjadi href="shop.php", lakukan hal yang sama pada file shop.php
+KONFIGURASI (INDEX.PHP DAN SHOP.PHP)
+KUSTOMISASI TAMPILAN (1)
+Hapus pada bagian filter BRANDING, FILTER PRICE, SIZE, COLORS, dan TAG kemudian
+sisakan bagian CATEGORIES
+SHOP.PHP
+KUSTOMISASI TAMPILAN (2)
+Untuk menghapus filter BRANDING, hapus bagian kode program berikut
+SHOP.PHP
+KUSTOMISASI TAMPILAN (3)
+Untuk menghapus filter FILTER PRICE, hapus bagian kode program berikut
+SHOP.PHP
+KUSTOMISASI TAMPILAN (4)
+Untuk menghapus filter SIZE, hapus bagian kode program berikut
+SHOP.PHP
+KUSTOMISASI TAMPILAN (5)
+Untuk menghapus filter COLORS, hapus bagian kode program berikut
+SHOP.PHP
+KUSTOMISASI TAMPILAN (6)
+Untuk menghapus filter TAGS, hapus bagian kode program berikut
+SHOP.PHP
+REFRESH TAMPILAN
+Refresh halaman Shop, sehingga yang tersisa hanya filter CATEGORIES, tampilannya
+menjadi seperti ini:
+SHOP.PHP
+MODIFIKASI KODE(1)
+Tambahkan kode <form method="POST" action="shop.php">...</form> di atas <div
+class="accordion>...</div>
+SHOP.PHP
+MODIFIKASI KODE(2)
+Tambahkan kode  untuk membuat tombol Searching sebelum penutup tag  <div
+class="accordion>...</div> (sebelum </div>)
+SHOP.PHP
+MODIFIKASI KODE(3)
+Refresh halaman Shop, sehingga terlihat ada tambahan tombol Pencarian di kiri
+bawah filter CATEGORIES, namun ada bug pada tombol refresh
+SHOP.PHP
+Untuk memperbaiki bug pada tombol Refresh modifikasi kode berikut:
+<button class="btn btn-secondary" onClick="history.go(0);"><i class="fas fa-sync-alt"></i>
+</button> mengganti fas fa-sync-alt dengan fa fa-refresh
+MODIFIKASI KODE(4)
+Refresh halaman Shop, sehingga bug pada tombol Refresh sudah dapat diperbaiki
+SHOP.PHP
+MODIFIKASI KODE(5)
+Tinggalkan 1 produk yang ditampilkan pada halaman shop, dan hapus sisa produk
+lainnya, sehingga tampilannya seperti ini
+SHOP.PHP
+MODIFIKASI KODE(6)
+Menghapus blok kode <div class="col-lg-4 col-md-6 col-sm-6">...</div> sampai tersisa
+hanya 1 produk
+SHOP.PHP
+LOGIKA MENAMPILKAN DATA (1)
+Pada baris pertama sebelum tag kode <!DOCTYPE html> pada file shop.php, tambahkan
+kode berikut:
+SHOP.PHP
+LOGIKA MENAMPILKAN DATA (2)
+Di atas kode <div class="col-lg-4 col-md-6 col-sm-6">...</div> tambahkan kode 
+<?php while ($row = $products->fetch_assoc()) { ?> ... <?php } ?>
+SHOP.PHP
+LOGIKA MENAMPILKAN DATA (3)
+<div class="product__item__pic set-bg" data-setbg="img/product/<?
+php echo $row['product_image1']; ?>">
+<h6><?php echo $row['product_name']; ?></h6>
+<h5><?php echo $row['product_brand']; ?></h5>
+<h5>Rp<?php echo $row['product_price']; ?></h5>
+Modifikasi kode untuk menampilkan product_name, product_image, dan
+product_price
+SHOP.PHP
+LOGIKA MENAMPILKAN DATA (4)
+SHOP.PHP
+REFRESH HALAMAN SHOP
+Refresh halaman Shop, dimana data yang ditampilkan adalah data dari database
+LOCALHOST:8080/SHOP.PHP
+MODIFIKASI CATEGORIES (1)
+Mofikasi categories sesuai data yang ada yaitu sepatu, jaket, kaos, tas, dan syal
+HALAMAN SHOP
+MOFIKIKASI CATEGORIES (2)
+SHOP.PHP
+Tambahkan kode <li>...</li> yang sama untuk jaket, kaos, tas, dan syal
+REFRESH HALAMAN SHOP
+Refresh halaman Shop, dapat dilihat bahwa categories sudah berganti
+LOCALHOST:8080/SHOP.PHP
+LOGIKA FILTER BERDASARKAN
+CATEGORIES (1)
+Pada baris pertama
+sebelum tag kode
+<!DOCTYPE html>
+pada file shop.php,
+tambahkan kode
+berikut:
+SHOP.PHP
+REFRESH HALAMAN SHOP
+Refresh halaman Shop, dapat dilihat fungsi filter dapat berjalan dengan baik, namun ada
+bug pada radio button statusnya tidak "checked"
+LOCALHOST:8080/SHOP.PHP
+Terima Kasih
+KOMBINASI KERJA
+KERAS DAN KERJA
+CERDAS ADALAH
+PEKERJAAN EFISIEN.
+ROBERT HALF

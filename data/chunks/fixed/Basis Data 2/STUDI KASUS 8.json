@@ -1,0 +1,18 @@
+{
+  "filename": "STUDI KASUS 8.txt",
+  "matkul": "Basis Data 2",
+  "teknik": "fixed",
+  "total_chunks": 2,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 1000,
+      "text": "STUDI KASUS 8\n\nA relational database is to be designed for a medium sized Company dealing\nwith industrial applications of computers.\n\nThe Company delivers various products to its customers ranging from a single\napplication program through to complete installation of hardware with\ncustomized software.\n\nThe Company employs various experts, consultants and supporting staff.\n\nAll personnel are employed on long-term basis, i.e.there are no short-term or\ntemporary staff.\n\nAlthough the Company is somehow structured for administrative purposes (that\nis, it is divided into departments headed by department managers) all projects\nare carried out in an inter-disciplinary way.\n\nFor each project a project team is selected, grouping employees from different\ndepartments, and a Project Manager (also an employee of the Company) is\nappointed who is entirely and exclusively responsible for the control of the\nproject, quite independently of the Company's hierarchy.\n\nThe following is a brief statement of so"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 45,
+      "text": "me facts and policies adopted by the\nCompany."
+    }
+  ]
+}

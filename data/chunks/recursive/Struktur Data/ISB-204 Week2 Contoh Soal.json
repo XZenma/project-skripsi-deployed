@@ -1,0 +1,23 @@
+{
+  "filename": "ISB-204 Week2 Contoh Soal.txt",
+  "matkul": "Struktur Data",
+  "teknik": "recursive",
+  "total_chunks": 3,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 991,
+      "text": "Contoh Soal:\nPERPANGKATAN\n1. public int power(int base, int exponent) {\n2. if (exponent == 0) {\n3. return 1;\n4. }\n5. return base * power(base,exponent-1);\n6. }\nFAKTORIAL\n1. public int factorial(int num) {\n2. if (num<=1) {\n3. return 1;\n4. }\n5. return num * factorial(num-1);\n6. }\nPERKALIAN ARRAY\n1. public int productofArray(int A[], int N)\n2. {\n3. if (N <= 0)\n4. return 1;\n5. return (productofArray(A, N - 1) * A[N - 1]);\n6. }\nJUMLAH RENTANG NILAI TERTENTU\nMisalnya input angkanya 6 berarti jumlahnya = 6 + 5 + 4 + 3 + 2 + 1 = 21\nMisalnya input angkanya 3 berarti jumlahnya = 3 + 2 + 1 = 6\n1. public int recursiveRange(int num) {\n2. if (num<=0) {\n3. return 0;\n4. }\n5. return num + recursiveRange(num - 1);\n6. }\nDERET FIBONACCI\n1. public int fib(int n) {\n2. if (n<0) {\n3. return -1;\n4. }\n5. if (n==0 || n==1) {\n6. return n;\n7. }\n8. return fib(n-1) + fib(n-2);\n9. }\nREVERSE STRING\n1. public String reverse(String str)\n2. {\n3. if (str.isEmpty())\n4. return str;\n5. //Calling Function Recursively"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 958,
+      "text": "6. return reverse(str.substring(1)) + str.charAt(0);\n7. }\nPALINDROM\n1. public boolean isPalindrome(String s)\n2. { // if length is 0 or 1 then String is palindrome\n3. if(s.length() == 0 || s.length() == 1)\n4. return true;\n5. if(s.charAt(0) == s.charAt(s.length()-1))\n6. return isPalindrome(s.substring(1, s.length()-1));\n7. return false;\n8. }\nKARAKTER PERTAMA UPPERCASE\n1. public static char first(String str) {\n2. if(str.isEmpty()) {\n3. return ' ';\n4. }\n5. if (Character.isUpperCase(str.charAt(0))) {\n6. return str.charAt(0);\n7. }else {\n8. return first(str.substring(1, str.length()));\n9. }\n10. }\nKATA HURUF KAPITAL\n1. public static String capitalizeWord(String str) {\n2.\n3. if(str.isEmpty()) {\n4. return str;\n5. }\n6. char chr = str.charAt(str.length()-1);\n7. if(str.length()==1) {\n8. return Character.toString(Character.toUpperCase(chr));\n9. }\n10. if((str.substring(str.length()-2, str.length()-1).equals(\" \"))) {\n11. chr = Character.toUpperCase(chr);\n12. }"
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 90,
+      "text": "13. return capitalizeWord(str.substring(0,str.length()-1))+\nCharacter.toString(chr);\n14. }"
+    }
+  ]
+}

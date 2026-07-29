@@ -1,0 +1,143 @@
+Week 9
+INSERTED & DELETED TABLE +
+TRIGGER AFTER INSERT,
+UPDATE, DELETE
+PRAKTIKUM BASIS DATA 2 AA
+Inserted dan Deleted table
+Inserted tabela dalah tabel virtual yang
+berisi data baru (ketika menambah atau
+mengubah data).
+Deleted tabel adalah tabel virtual yang
+berisi data lama (ketika menghapus atau
+sebelum mengubah data).
+Contoh Query inserted dengan output
+Bagian INSERT digunakan untuk
+memasukkan satu baris data baru
+ke dalam tabel mahasiswa dengan
+menentukan kolom target beserta
+nilai spesifik yang akan disimpan.
+Bagian OUTPUT berfungsi untuk menampilkan
+kembali 
+nilai 
+dari 
+baris 
+yang 
+baru 
+saja
+ditambahkan sehingga pengguna dapat langsung
+memverifikasi data yang masuk tanpa perlu
+melakukan perintah pencarian manual.
+Contoh Query Deleted dengan output
+Bagian DELETE berfungsi untuk
+menghapus baris data dari tabel
+mahasiswa yang memiliki nilai nim
+sama dengan 2 sesuai dengan
+kondisi yang ditentukan.
+Bagian OUTPUT berfungsi untuk menampilkan
+kembali informasi dari baris yang baru saja dihapus
+ke layar, sehingga pengguna dapat melihat detail
+data yang telah hilang dari sistem.
+Contoh Query inserted
+Buat sebuah pengawas
+otomatis bernama
+tr_mahasiswa_insert
+ON mahasiswa itu Pengawas ini bertugas
+khusus untuk meja (tabel) mahasiswa
+sedangkan
+AFTER INSERT adalah Pengawas ini akan
+bekerja otomatis setelah ada orang
+menambahkan data ke meja mahasiswa
+Ketika perintah INSERT INTO mahasiswa dijalankan,
+database secara otomatis akan menyimpan data baru
+tersebut ke dalam Inserted Table (tabel virtual
+sementara) sebelum benar-benar ditulis ke tabel
+mahasiswa yang asli.
+Eksekusi inserted
+digunakan untuk membuat sebuah trigger (pengawas otomatis) bernama
+tr_mahasiswa_delete pada tabel mahasiswa yang akan bekerja setelah ada perintah
+DELETE, lalu menampilkan data-data yang telah dihapus (yang disimpan sementara
+di Deleted Table).
+Contoh deleted table
+jalankan delete table 
+digunakan untuk menghapus data
+mahasiswa yang memiliki NIM
+'1234567890' dari tabel mahasiswa.
+Trigger after crud
+KAL
+adalah pengawas otomatis pada sebuah tabel yang akan bekerja
+setelah terjadi proses penambahan data (INSERT), pengubahan data
+(UPDATE), atau penghapusan data (DELETE), untuk membaca data
+baru dari Inserted Table dan data lama dari Deleted Table.
+berfungsi sebagai tempat pencatatan audit (riwayat) dengan kolom id
+(bernomor otomatis dari 1 dan bertambah 1 sebagai kunci utama),
+nim, nama, jurusan, ipk, komputer (nama mesin server), dan waktu
+(tanggal dan jam kejadian).
+trigger FOR insert
+trigger FOR insert 
+Trigger tr_insert_mahasiswa pada
+tabel mahasiswa (FOR INSERT) akan
+mengambil data baru dari Inserted
+Table (nim, nama, jurusan, ipk)
+beserta nama komputer server dan
+waktu, lalu menyimpannya ke tabel
+audit mahasiswa_insert_audit
+setiap kali ada data mahasiswa
+baru ditambahkan.
+jalankan trigger insert 
+Digunakan untuk menambahkan data mahasiswa baru bernama Budif Santoso
+dengan NIM 1236567890, jurusan Informatika, dan IPK 3.75 ke dalam tabel
+mahasiswa.
+Setelah perintah ini dijalankan, trigger tr_insert_mahasiswa akan bekerja secara
+otomatis dan mencatat data tersebut ke tabel audit mahasiswa_insert_audit.
+digunakan untuk membuat tabel bernama mahasiswa_update_audit yang berfungsi
+sebagai tempat pencatatan audit (riwayat perubahan data) dengan kolom id (bernomor
+otomatis dari 1 dan bertambah 1 sebagai kunci utama), nim, nama_lama (sebelum
+diubah), nama_baru (setelah diubah), jurusan_lama, jurusan_baru, ipk_lama, ipk_baru,
+komputer (nama mesin server), dan waktu (tanggal dan jam kejadian).
+trigger FOR update
+trigger FOR update 
+digunakan untuk membuat trigger yang akan mencatat data lama (dari Deleted
+Table) dan data baru (dari Inserted Table) beserta nama komputer server dan waktu
+ke tabel audit mahasiswa_update_audit setiap kali ada perubahan data pada tabel
+mahasiswa.
+jalankan trigger update 
+Perintah UPDATE akan
+mengubah nama dan IPK
+mahasiswa dengan NIM
+'1236567890', sekaligus memicu
+trigger untuk mencatat
+perubahan (nilai lama vs baru)
+ke tabel audit, lalu SELECT
+digunakan untuk melihat hasil
+catatannya.
+Perintah CREATE TABLE mahasiswa_delete_audit digunakan untuk membuat tabel
+khusus sebagai tempat pencatatan riwayat penghapusan data mahasiswa yang
+menyimpan nim, nama, jurusan, ipk, nama komputer, dan waktu kejadian.
+trigger FOR delete
+trigger FOR delete 
+digunakan untuk membuat trigger yang akan mencatat data mahasiswa yang
+dihapus (dari Deleted Table) beserta nama komputer server dan waktu ke tabel
+audit mahasiswa_delete_audit setiap kali ada penghapusan data dari tabel
+mahasiswa.
+jalankan trigger delete 
+Perintah DELETE akan
+menghapus data mahasiswa
+dengan NIM '1236567890' dari
+tabel mahasiswa, sekaligus
+memicu trigger untuk mencatat
+data yang dihapus ke tabel audit
+mahasiswa_delete_audit, lalu
+SELECT digunakan untuk melihat
+hasil catatan penghapusannya.
+Kesimpulan Menggunakan Trigger
+Trigger digunakan untuk secara
+otomatis mencatat setiap perubahan
+data (INSERT, UPDATE, DELETE) pada
+tabel mahasiswa ke dalam tabel audit,
+sehingga kita bisa melihat riwayat siapa
+data yang ditambahkan, diubah, atau
+dihapus, beserta nilai lama, nilai baru,
+nama komputer, dan waktu kejadian,
+tanpa perlu menulis kode tambahan
+secara manual setiap kali ada
+perubahan data.

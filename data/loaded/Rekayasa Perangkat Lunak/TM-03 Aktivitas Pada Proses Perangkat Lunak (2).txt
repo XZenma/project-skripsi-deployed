@@ -1,0 +1,291 @@
+TM-04
+AKTIVITAS PADA PROSES
+PERANGKAT LUNAK (2)
+ISA-202 Rekayasa Perangkat Lunak
+KURNIA RAMADHAN PUTRA, S.KOM., M.T.
+I
+Rekayasa
+Perangkat
+Lunak
+TM-02 Software Process (2)
+Selasa, 23/02/2021
+NAME OR LOGO
+Tujuan
+o Memahami kenapa proses 
+perangkat lunak harus
+terogranisir untuk mengatasi
+jika terjadi perubahan.
+o Memahami bahwa Rational 
+Unified Process (RUP) adalah
+salah satu praktik dari proses 
+software engineering untuk
+membuat perangkat lunak
+yang mampu beradaptasi.
+2
+NAME OR LOGO
+Mengatasi Perubahan
+3
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Perubahan
+4
+o Perubahan tidak dapat dihindari pada proyek perangkat lunak yang besar, 
+contohnya:
+o Perubahan bisnis akan berdampak juga pada perubahan kebutuhan untuk
+sistem yang baru
+o Munculnya teknologi baru membuka peluang untuk perubahan implementasi.
+o Perubahan platform juga membutuhkan perubahan aplikasi.
+o Perubahan akan berdampak pada pengerjaan ulang (rework) sehingga biaya
+perubahan untuk pengerjaan ulang tersebut sama halnya dengan biaya
+penerapan fungsi baru.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Mengurangi Biaya Pengerjaan Ulang (Rework)
+5
+o
+Untuk mengurangi biaya pengerjaan ulang, ada dua hal yang dapat dilakukan:
+o
+Change Avoidence: dimana proses perangkat lunak termasuk aktivitas-aktivitasnya dapat
+mengantisipasi kemungkinan perubahan sebelum pengerjaan ulang yang signifikan
+dilakukan.
+•
+Contohnya: Prototipe Sistem dapat digunakan untuk menunjukkan beberapa fitur kunci
+dari sistem kepada customer. Customer dapat melakukan eksperimen dengan prototipe
+sebelum sistem dikembangkan.
+o
+Change Tolerance: dimana proses perangkat lunak dirancang sehingga perubahan dapat
+diakomodasi dengan biaya relatif lebih rendah. 
+•
+Contohnya: Pengembangan Secara Inkremental dapat digunakan untuk
+menunjukkan produk perangkat lunak kepada customer secara bertahap.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Mengantisipasi Perubahan Kebutuhan
+6
+o
+Prototipe Sistem: Versi atau bagian dari sistem dikembangkan dengan cepat untuk 
+memeriksa kebutuhan dari customer dan kelayakan dari desain yang sudah diputuskan. Hal 
+tersebut mendukung untuk mengantisipasi perubahan karena memungkinkan pengguna untuk 
+bereksperimen dengan sistem sebelum penyerahan dan mendefinisikan ulang kebutuhan dari
+customer tersebut. Prototipe sistem mendukung change avoidance.
+o
+Penyerahan Secara Inkremental: sistem dikirimkan kepada customer secara bertahap
+untuk mendapatkan komentar dan eksperimen dar customer. Hal tersebut dapat menghindari
+keputusan yang terlalu dini terhadap kebutuhan dari keseluruhan sistem dan memungkinkan
+dilakukan perubahan secara bertahap dengan biaya yang relative lebih rendah.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Prototipe Sistem
+7
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Prototipe Sistem (1)
+8
+o
+Prototipe adalah versi awal dari sistem yang digunakan untuk menunjukkan
+konsep dan desain.
+o
+Prototipe dapat digunakan di:
+o
+Dalam proses rekayasa kebutuhan untuk membantu elisitasi dan validasi kebutuhan;
+o
+Dalam proses desain untuk mengeksplorasi dan mengembangkan desain UI;
+o
+Dalam proses pengujian untuk menjalankan pengujian back-to-back.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Prototipe Sistem (2)
+9
+o
+Menetapkan Tujuan Prototipe, dimana tujuan prototipe harus dijelaskan secara eksplisit.
+o
+Mengembangkan sebuah prototipe sistem untuk antarmuka user
+o
+Mengembangkan sebuah prototipe sistem untuk memvalidasi kebutuhan fungsional dari sistem
+o
+Mengembangkan sebuah prototipe sistem untuk mendemonstrasikan kelayakan dari sebuah
+aplikasi.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Prototipe Sistem (3)
+10
+o
+Mendefinisikan Fungsionalitas Prototipe, untuk memustukan apa yang perlu dimasukkan dan
+apa yang tidak perlu dicakup di dalam prototipe. Untuk mengurangi biaya pembuatan prototipe
+dan mempercepat jadwal penyerahan, maka tidak mungkin mencakup semua kebutuhan dari
+prototipe baik fungsional maupun non-fungsional. Sehingga untuk non-fungsional dapat sedikit
+dilonggarkan seperti respon waktu, pemanfaatan memory, penanganan error. Kecuali tujuan dari
+prototipe sistem adalah membuat antarmuka user dengan memiliki standar keandalan dan kualitas
+program.
+o
+Mengembangkan Prototipe, untuk membuat prototipe untuk dapat dieksekusi
+o
+Evaluasi Prototipe, selama fase ini merencanakan pelatihan kepada user, menyesuaikan user 
+untuk dapat menggunakan sistem secara normal, kemudian mendapatkan feedback dari user.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Kelebihan Prototipe
+Sistem
+11
+o Meningkatkan kemudahan sistem.
+o Lebih dekat dengan kecocokan
+kebutuhan user.
+o Meningkatkan kualitas desain
+o Meningkatkan pemeliharaan sistem.
+o Mengurangi upaya pengembangan.
+ISA-202 Rekayasa Perangkat Lunak
+Kekurangan
+Prototipe Sistem
+o Memungkinkan untuk membuat
+prototipe sistem hanya untuk kebutuhan
+fungsional saja, namun tidak dapat
+mencakup kebutuhan non-fungsional
+seperti performance, security, 
+robustness, dan reliability.
+o Perubahan yang cepat selama
+pengembangan artinya prototipe tidak
+didokumentasikan.
+o Perubahan yang terjadi selama
+pengembangan menggunakan prototipe
+akan menurunkan struktur dari sistem.
+o Standar kualitas organisasi lebih
+dilonggarkan.
+NAME OR LOGO
+Incremental Delivery
+12
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Penyerahan Secara Inkremental
+13
+o Penyerahan secara inkremental adalah sebuah pendekatan dari pengembangan perangkat
+lunak dimana pengembangan dan penyerahan kepada customer dilakukan secara bertahap.
+o Kebutuhan user harus diprioritaskan dan kebutuhan dengan prioritas tinggi harus masuk ke
+inkremental awal.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Kelebihan
+Incremental Delivery
+14
+o Perubahan dari customer dapat
+diserahkan lebih awal.
+o Membantu memperoleh kebutuhan
+untuk perubahan selanjutnya.
+o Risiko lebih rendah dari kegagalan
+proyek secara keseluruhan.
+o Layanan sistem dengan prioritas
+tertinggi cenderung menerima paling 
+banyak pengujian.
+ISA-202 Rekayasa Perangkat Lunak
+Kekurangan
+Incremental Delivery
+o Karena kebutuhan tidak didefinisikan
+secara terperinci, maka agak sulit untuk
+mengidentifikasi fasilitas yang 
+dibutuhkan untuk setiap inkremental.
+o Sulit untuk maju ke tahap inkremental
+selanjutnya, jika inkremental
+sebelumnya masih dikembangkan dan
+masih banyak mendapat feedback dari
+customer.
+o Sulit untuk diterapkan untuk lembaga
+pemerintahan yang membutuhkan
+dokumentasi secara terperinci, sebagai
+pertimbangan untuk menentukan nilai
+kontrak.
+NAME OR LOGO
+Rational Unified Process
+15
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Rational Unified Process (RUP)
+16
+o RUP adalah model proses modern 
+hybrid yang diturunkan dari Unified 
+Modeling Language (UML) dan Unified 
+Software Development Process (USDP) 
+yang mendukung prototipe sistem dan
+incremental delivery.
+o RUP dapat dideskripsikan dari tiga
+perspektif:
+o
+Perspektif dinamis, menunjukan fase dari model 
+setiap waktu
+o
+Perspektif statis, menunjukkan aktivitas dari
+proses yang diberlakukan
+o
+Perspektif praktis, menyarakan good practice
+untuk digunakan selama proses.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Fase di dalam RUP
+17
+o Inception. Tujuan dari inception adalah untuk membangun business case untuk sistem. Anda
+harus mengidentifikasi semua entitas eksternal (orang dan sistem) yang akan berinteraksi
+dengan sistem dan mendefinisikan interaksinya.
+o Elaboration. Tujuan elaborasi adalah untuk mengembangkan pemahaman tengtang masalah
+domain, membangun framework arsitektur sistem, mengembangkan rencana proyek, dan
+mengidentifikasi risiko proyek.
+o Construction. Fase konstruksi melibatkan desain sistem, pemrograman, dan pengujian. 
+Setelah menyelesaikan fase ini, Anda akan memiliki sistem perangkat lunak yang berfungsi dan
+dokumentasi terkait yang siap diserahkan ke pengguna.
+o Transition. Fase terakhir RUP berkaitan dengan transisi sistem dari pengembangan perangkat
+lunak ke pengguna yang bekerja di lingkungan nyata. 
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Workflow Statis di dalam RUP
+18
+ISA-202 Rekayasa Perangkat Lunak
+Workflow
+Deskripsi
+Business Modeling
+Proses bisnis yang dimodelkan menggunakan use case bisnis
+Requirements
+Aktor yang berinteraksi dengan sistem diidentifikasi menggunakan use case
+Analysis and Design
+Model desain dibuat dan didokumentasikan menggunakan model arsitektur, model 
+komponen, model objek, dan model sequence.
+Implementation
+Komponen di dalam sistem diimplementasikan dan kode program di-generate secara
+otomatis dari hasil desain.
+Testing
+Pengujian dilakukan secara bertahap mulai dari component testing, integration testing, 
+system testing, sampai user acceptance testing.
+Deployment
+Produk dirilis, didistribusikan kepada user, dan diinstal di linkungan kerja mereka.
+Configuration and Change 
+Management
+Melakukan pengelolaan konfigurasi dan perubahan terhadap sistem
+Project Management
+Melakukan pengelolaan proyek, mulai dari biaya, waktu, dan orang.
+Environment
+Berkonsentrasi untuk memnyediakan tools dari software yang cocok digunakan oleh tim
+pengembang.
+NAME OR LOGO
+Best Practice Dalam Menerapkan RUP
+19
+o
+Develop software iteratively : merencanakan tahapan penyerahan sistem kepada customer berdasarkan
+skala prioritas.
+o
+Manage requirements : menyediakan dokumen dari kebutuhan customer dan terus melakukan
+pencatatan terhadap perubahan, dan menganalisis dampak perubahan tersebut sebelum customer 
+menyetujuinya.
+o
+Use component-based architecture : menggunakan komponen-komponen yang sudah tersedia di “pasar” 
+atau sudah pernah dikembangkan sendiri.
+o
+Visually model software : menggunakan representasi grafis model UML untuk melihat static view atau
+dynamic view dari software.
+o
+Verify software quality : memastikan software memenuhi kebutuhan standar kualitas dari organisasi.
+o
+Control change to software : mengelola perubahan software menggunakan sistem pengelolaan
+perubahan, seperti Git, SVN, dll.
+ISA-202 Rekayasa Perangkat Lunak
+Thank 
+You
+Kurnia Ramadhan Putra, S.Kom., M.T.
+kurniaramadhan@itenas.ac.id
+https://www.researchgate.net/profile/Ku
+rnia_Putra3

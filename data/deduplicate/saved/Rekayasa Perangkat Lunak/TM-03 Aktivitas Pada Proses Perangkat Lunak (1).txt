@@ -1,0 +1,221 @@
+TM-04
+AKTIVITAS PADA PROSES
+PERANGKAT LUNAK (1)
+ISA-202 Rekayasa Perangkat Lunak
+KURNIA RAMADHAN PUTRA, S.KOM., M.T.
+NAME OR LOGO
+Tujuan
+o Memahami konsep proses perangkat
+lunak
+o Memahami konsep model-model proses
+perangkat lunak
+o Memahami aktivitas di dalam model
+proses perangkat lunak
+2
+NAME OR LOGO
+Konsep Proses
+Perangkat Lunak
+3
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Software Process
+4
+Proses Perangkat Lunak adalah serangkaian aktivitas yang berkaitan untuk mencapai tahap
+produksi perangkat lunak.
+Ada 4 aktivitas dasar dari proses perangkat lunak:
+o Software specification : fungsionalitas dan batasan dari perangkat lunak yang harus didefinisikan
+o Software design and implementation : perangkat lunak yang memenuhi spesifikasi harus dihasilkan
+o Software validation : perangkat lunak harus divalidasi untuk memastikan bahwa sudah sesuai dengan
+yang customer ingingkan
+o Software evolution : perangkat lunak harus mampu berkembang untuk memenuhi perubahan dari
+customer
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Deskripsi Proses Perangkat Lunak
+5
+o Products: Hasil dari aktivitas proses. Contoh: hasil dari desain arsitektur adalah model arsitektur
+perangkat lunak.
+o Roles: merefleksikan tanggung jawab orang-orang orang yang terlibat di dalam proses perangkat lunak,
+contoh: project manager, configuration manager, programmer, dll.
+o Pre and post conditions: suatu pernyataan yang benar sebelum dan sesudah aktivitas proses
+diberlakukan. Contoh: sebelum desain arsitektur dilakukan maka semua kebutuhan harus disetejui oleh
+customer terlebih dahulu.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Model Proses
+Perangkat Lunak
+6
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Model Proses Perangkat Lunak Secara Umum
+7
+Berikut adalah pemodelan umum dari proses perangkat lunak yang dapat dikembangkan untuk membuat
+proses perangkat lunak yang lebih spesifik, diantaranya:
+o Model Waterfall: model proses perangkat lunak yang berorientasi pada perencanaan, dengan
+memisahkan antara spesifikasi kebutuhan, desain perangkat lunak, implementasi, pengujian,
+dan sebagainya.
+o Incremental Development: model yang menerapkan aktivitas spesifikasi, pengembangan,
+dan validasi secara bersamaan kemudian menghasilkan produk secara inkremental
+(serangkaian versi) dimana setiap versi adalah tambahan fungsionalitas dari versi sebelumnya.
+o Reuse-oriented Software Engineering: model yang memanfaatkan komponen yang sudah
+ada (reusable component), pendekatan yang digunakan yaitu mengintegrasikan komponen
+yang sudah ada tersebut dibandingkan dengan membuat komponen baru (scatch).
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Model Waterfall
+8
+ISA-202 Rekayasa Perangkat Lunak
+
+Requirement Analysis and Definition: layanan
+yang diberikan sistem, batasan, dan tujuan dari
+sistem yang dituangkan ke dalam spesifikasi sistem
+
+System and Software Design: mengidentifikasi
+dan mendeskripsikan rancangan abstrak dari sistem
+perangkat lunak
+
+Implementation and Unit Testing:
+mentransformasikan hasil rancangan menjadi kode
+program dan dilakukan pengujian unit kode program
+tersebut
+
+Integration and System: hasil dari pengujian unit
+diintegrasikan sampai membentuk pengujian yang
+lengkap dan memeriksa apakah susah sesuai
+dengan kebutuhan
+
+Operation and Maintenance: perbaikan-
+perbaikan yang dilakukan setelah perangkat lunak
+dirilis kepada customer
+Notes: Kelemahan dari model Waterfall adalah sulitnya
+untuk mengakomodasi perubahan setelah setiap fase
+berlangsung, sehingga harus dipastikan bahwa setiap
+fase harus lengkap sebelum pindah ke fase selanjutnya.
+NAME OR LOGO
+Model Incremental Development
+9
+ISA-202 Rekayasa Perangkat Lunak
+Notes: Kelemahan dari model Incremental Devp :
+o Proses setiap fase tidak terpantau karena
+dokumentasi bukan menjadi orientasi.
+o Struktur dari perangkat lunak cenderung lebih
+menurun seiring dengan seringnya penambahan
+fitur baru.
+3 kelebihan Incremental Development dibanding
+Waterfall :
+o Biaya untuk mengakomodasi peubahan
+kebutuhan dari customer dapat dikurangi.
+o Mudah untuk mendapatkan feedback dari
+customer ketika fase pengembangan selesai
+dilakukan.
+o Penyerahan produk perangkat lunak dapat
+dilakukan lebih cepat kepada customer bahkan
+jika semua fungsionalitas belum dimasukkan.
+NAME OR LOGO
+Model Reuse-oriented Software Engineering
+10
+ISA-202 Rekayasa Perangkat Lunak
+o Component Analysis, berdasarkan spesifikasi kebutuhan yang diberikan, kemudian dilanjutkan dengan mencari
+komponen yang sesuai dengan spesifikasi kebutuhan tersebut.
+o Requirements Modification: pada fase ini, requirement dianalis menggunakan informasi dari komponen yang
+ditemukan kemudian dimofikasi untuk merefleksikan komponen yang tersedian, jika tidak memungkinkan
+dimodifikasi, maka kembali lagi ke tahap componenent analysis.
+o System Design with Reuse: mendesain framework atau menggunakan framework yang sudah ada.
+o Development and Integration: Component yang tidak dapat dibeli secara eksternal yang disebut juga dengan
+COTS (Code Of The Shelf), sehingga perlu mengembangkan komponen secara mandiri.
+Contoh Reuse-Oriented SE:
+o Web Service
+o Paket Komponen yang
+diintegrasikan dengan
+framework J2EE, .NET
+o Sistem perangkat lunak
+stand-alone
+NAME OR LOGO
+Aktivitas Proses
+Perangkat Lunak
+11
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Software Specification (1)
+12
+ISA-202 Rekayasa Perangkat Lunak
+o Software Spesification atau Requirement Engineering adalah proses untuk memahami dan
+mendefinisikan apa layanan yang dibutuhkan dari sistem, mengidentifikasi batasan dan operasi dari
+pengembangan sistem.
+o Empat aktivitas dari proses Requirement Engineering :
+o
+Feasibility Study (Studi Kelayakan) : mengestimasikan apakah kebutuhan yang diidentifikasi memenuhi
+teknologi software dan hardware saat ini, apakah sistem yang diusulkan memiliki biaya terhadap sudut
+pandang bisni, dan memutuskan apakah akan dilanjutkan ke tahap analisis atau tidak.
+o
+Requirement Elicitation and Analysis (Elisitasi dan Analisis Kebutuhan) : proses memperoleh kebutuhan
+dengan melakukan observasi dari sistem yang sudah ada, diskusi dengan user, analisis dokumen, dll.
+o
+Requirement Spesification : proses mentranslasikan kebutuhan yang diperoleh dari tahap elisitasi menjadi
+lebih formal
+o
+Requirement Validation : proses memeriksa kebenaran, konsistensi, dan kelengkapan dari kebutuhan.
+NAME OR LOGO
+Software Specification (2)
+13
+ISA-202 Rekayasa Perangkat Lunak
+Gambar 4. Tahap Software Specification
+NAME OR LOGO
+Software Design and Implementation (1)
+14
+ISA-202 Rekayasa Perangkat Lunak
+o Software Design adalah deskripsi dari struktur perangkat lunak yang diimplementasikan, model data,
+antarmuka antar komponen, bahkan sampai algoritma yang digunakan.
+o Software Implementation adalah proses mengkonversi dari spesifikasi sistem menjadi sistem yang dapat
+dieksekusi (kode program).
+Gambar 5. Model proses desain perangkat lunak secara umum
+NAME OR LOGO
+Software Design and Implementation (2)
+15
+ISA-202 Rekayasa Perangkat Lunak
+o Proses desain sistem informasi:
+o
+Architectural Design : mengidentifikasi keseluruhan struktur dari sistem, principle component (modul), relasi antar
+komponen, dan bagaimana mendistribusikannya.
+o
+Interface Design : mendefinisikan antarmuka antar komponen secara jelas.
+o
+Component Design : mengambil setiap komponen dan mendesainnya sesuai dengan keinginan bagaimana
+komponen tersebut akan beroperasi.
+o
+Database Design : mendesain struktur data dari sistem dan bagaimana direpresentasikan ke dalam database.
+NAME OR LOGO
+Software Validation (1)
+16
+ISA-202 Rekayasa Perangkat Lunak
+o Software Validation atau dikenal juga dengan Validation and Verification (V&V) digunakan untuk menunjukkan
+bahwa sistem sudah sesuai dengan spesifikasinya dan spesifikasi tersebut sudah memenuhi dari keinginan customer.
+o Validasi mencakup pengujian program dengan mengeksekusi sistem menggunakan data simulasi dan pengecekan
+proses dengan melakukan inspeksi dan review.
+o Tingkatan pengujian:
+o
+Component Testing : pengujian yang dilakukan oleh tim developer untuk menguji setiap komponen terkecil dari sistem, misalnya
+modul, library, class, method.
+o
+System Testing : pengujian yang dilakukan oleh tim developer dengan mengintegrasikan antar komponen yang sudah diuji
+sehingga menjadi pengujian integrasi yang lengkap, yang mana fokusnya adalah untuk menemukan error.
+o
+Acceptance Testing : pengujian tahap terakhir dari fase pengujian yang langsung diuji oleh user sebelum sistem diijinkan untuk
+beroperasi.
+NAME OR LOGO
+Software Validation (2)
+17
+ISA-202 Rekayasa Perangkat Lunak
+Gambar 7. Fase Testing di dalam Proses Perangkat Lunak Plan-Driven Menggunakan V-Model
+NAME OR LOGO
+Software Evolution
+18
+ISA-202 Rekayasa Perangkat Lunak
+Software Evolution adalah perubahan perangkat lunak sesuai dengan kebutuhan user atau kebutuhan
+"pasar" agar terus dapat bertahan seiring dengan perubahan teknologi.
+Thank
+You
+Kurnia Ramadhan Putra, S.Kom., M.T.
+kurniaramadhan@itenas.ac.id
+https://www.researchgate.net/profile/Ku
+rnia_Putra3

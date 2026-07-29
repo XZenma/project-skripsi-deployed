@@ -1,0 +1,50 @@
+[
+  {
+    "pertanyaan": "Apa itu tabel Inserted?",
+    "jawaban": "Tabel Inserted adalah tabel virtual yang berisi data baru (ketika menambah atau mengubah data).",
+    "sumber": "Inserted tabela dalah tabel virtual yang berisi data baru (ketika menambah atau mengubah data)."
+  },
+  {
+    "pertanyaan": "Apa itu tabel Deleted?",
+    "jawaban": "Tabel Deleted adalah tabel virtual yang berisi data lama (ketika menghapus atau sebelum mengubah data).",
+    "sumber": "Deleted tabel adalah tabel virtual yang berisi data lama (ketika menghapus atau sebelum mengubah data)."
+  },
+  {
+    "pertanyaan": "Apa fungsi clause OUTPUT pada perintah INSERT?",
+    "jawaban": "Clause OUTPUT menampilkan kembali nilai dari baris yang baru saja ditambahkan sehingga pengguna dapat langsung memverifikasi data yang masuk tanpa perlu melakukan perintah pencarian manual.",
+    "sumber": "Bagian OUTPUT berfungsi untuk menampilkan kembali nilai dari baris yang baru saja ditambahkan sehingga pengguna dapat langsung memverifikasi data yang masuk tanpa perlu melakukan perintah pencarian manual."
+  },
+  {
+    "pertanyaan": "Apa fungsi clause OUTPUT pada perintah DELETE?",
+    "jawaban": "Clause OUTPUT menampilkan kembali informasi dari baris yang baru saja dihapus ke layar, sehingga pengguna dapat melihat detail data yang telah hilang dari sistem.",
+    "sumber": "Bagian OUTPUT berfungsi untuk menampilkan kembali informasi dari baris yang baru saja dihapus ke layar, sehingga pengguna dapat melihat detail data yang telah hilang dari sistem."
+  },
+  {
+    "pertanyaan": "Apa yang dilakukan trigger tr_insert_mahasiswa?",
+    "jawaban": "Trigger tr_insert_mahasiswa bekerja otomatis setelah INSERT pada tabel mahasiswa, mengambil data baru dari Inserted Table (nim, nama, jurusan, ipk) beserta nama komputer server dan waktu, lalu menyimpannya ke tabel audit mahasiswa_insert_audit setiap kali ada data mahasiswa baru ditambahkan.",
+    "sumber": "Trigger tr_insert_mahasiswa pada tabel mahasiswa (FOR INSERT) akan mengambil data baru dari Inserted Table (nim, nama, jurusan, ipk) beserta nama komputer server dan waktu, lalu menyimpannya ke tabel audit mahasiswa_insert_audit setiap kali ada data mahasiswa baru ditambahkan."
+  },
+  {
+    "pertanyaan": "Apa tujuan tabel audit mahasiswa_update_audit?",
+    "jawaban": "Tabel audit mahasiswa_update_audit berfungsi sebagai tempat pencatatan audit (riwayat perubahan data) dengan kolom id, nim, nama_lama, nama_baru, jurusan_lama, jurusan_baru, ipk_lama, ipk_baru, komputer, dan waktu.",
+    "sumber": "digunakan untuk membuat tabel bernama mahasiswa_update_audit yang berfungsi sebagai tempat pencatatan audit (riwayat perubahan data) dengan kolom id (bernomor otomatis dari 1 dan bertambah 1 sebagai kunci utama), nim, nama_lama (sebelum diubah), nama_baru (setelah diubah), jurusan_lama, jurusan_baru, ipk_lama, ipk_baru, komputer (nama mesin server), dan waktu (tanggal dan jam kejadian)."
+  },
+  {
+    "pertanyaan": "Bagaimana trigger UPDATE mencatat perubahan data?",
+    "jawaban": "Trigger UPDATE mencatat data lama dari Deleted Table dan data baru dari Inserted Table, beserta nama komputer server dan waktu, lalu menyimpannya ke tabel audit mahasiswa_update_audit setiap kali ada perubahan pada tabel mahasiswa.",
+    "sumber": "digunakan untuk membuat trigger yang akan mencatat data lama (dari Deleted Table) dan data baru (dari Inserted Table) beserta nama komputer server dan waktu ke tabel audit mahasiswa_update_audit setiap kali ada perubahan data pada tabel mahasiswa."
+  },
+  {
+    "pertanyaan": "Apa yang dilakukan trigger tr_mahasiswa_delete?",
+    "jawaban": "Trigger tr_mahasiswa_delete bekerja otomatis setelah DELETE pada tabel mahasiswa, mencatat data yang dihapus (dari Deleted Table) beserta nama komputer server dan waktu ke tabel audit mahasiswa_delete_audit setiap kali ada penghapusan data.",
+    "sumber": "digunakan untuk membuat trigger yang akan mencatat data mahasiswa yang dihapus (dari Deleted Table) beserta nama komputer server dan waktu ke tabel audit mahasiswa_delete_audit setiap kali ada penghapusan data dari tabel mahasiswa."
+  },
+  {
+    "pertanyaan": "Apa manfaat penggunaan trigger dalam konteks audit?",
+    "jawaban": "Trigger secara otomatis mencatat setiap perubahan data (INSERT, UPDATE, DELETE) pada tabel mahasiswa ke dalam tabel audit, sehingga dapat melihat riwayat siapa yang menambahkan, mengubah, atau menghapus data beserta nilai lama, nilai baru, nama komputer, dan waktu kejadian tanpa menulis kode tambahan secara manual.",
+    "sumber": "Trigger digunakan untuk secara otomatis mencatat setiap perubahan data (INSERT, UPDATE, DELETE) pada tabel mahasiswa ke dalam tabel audit, sehingga kita bisa melihat riwayat siapa data yang ditambahkan, diubah, atau dihapus, beserta nilai lama, nilai baru, nama komputer, dan waktu kejadian, tanpa perlu menulis kode tambahan secara manual setiap kali ada perubahan data."
+  },
+  {
+    "pertanyaan": "Perintah apa yang digunakan untuk menambahkan data mahasiswa baru bernama Budif Santoso dengan NIM 1236567890?",
+    "jawaban": "Perintah INSERT INTO mahasiswa dengan nilai NIM 1236567890, nama Budif Santoso, jurusan Informatika, dan IPK 3.75.",
+    "sumber": "Digunakan untuk menambahkan data mahasiswa baru bernama Budif Santoso dengan NIM 1236567890, jurusan Informatika, dan IPK 3.75 ke dalam

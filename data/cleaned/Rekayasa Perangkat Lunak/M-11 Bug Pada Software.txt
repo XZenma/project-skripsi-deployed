@@ -1,0 +1,115 @@
+M-11
+BUG PADA SOFTWARE
+ISA-202 Rekayasa Perangkat Lunak
+KURNIA RAMADHAN PUTRA, S.KOM., M.T.
+KERANGKA
+MATERI
+1
+Sejarah ditemukannya Bug
+2
+3
+4
+Bug pada Software
+Biaya untuk memperbaiki
+Bug
+Peranan Software Tester
+APAKAH KAITANNYA ISTILAH
+BUG DENGAN SERANGGA?
+Sejarah
+Ditemukannya Bug
+1947
+Komputer Mainframe Mark II berhenti
+bekerja secara tiba-tiba karena ada serangga
+yang terjepit pada relay mekanis komputer
+tersebut
+Komputer Mark II, 1947
+KOMPUTER MAINFRAME
+Komputer yang sering digunakan pada
+bidang militer saat itu, dan ukurannya
+hampir sebesar 1 ruangan.
+SUMBER FOTO PHOTOGRAPH
+COURTESY NAVAL SURFACE WARFARE
+CENTER, DAHLGREN, VIRGINIA
+
+Bug yang
+terdokumentasikan
+pada Komputer
+Mainframe Mark II
+SEKARANG JADI TAHU
+KAN DARI MANA
+MUNCULNYA ISTILAH
+Bug
+Bug pada software (perangkat lunak)
+adalah sebuah error (kesalahan), flaw
+(kecacatan), | atau fault (kesalahan)
+pada program komputer yang
+menyebabkan kegagalan pada
+perangkat lunak secara keseluruhan
+atau tidak bekerja sesuai dengan yang
+diharapkan. - Merriam Webster -
+BUG PADA
+SOFTWARE
+ISITLAH BUG SEMAKIN POPULER DI
+KALANGAN SOFTWARE DEVELOPER ATAU
+SOFTWARE TESTER
+Kisah Bug yang
+paling terkenal
+Y2K 2000( YEAR 2000)
+Spesifikasi yang tidak
+lengkap
+Penyebab Utama
+Terjadinya Bug
+Spesifikasi yang selalu
+berubah-ubah
+Tidak dikomunikasikan
+dengan baik ke suluruh tim
+Biaya untuk
+memperbaiki Bug
+Biaya untuk memperbaiki Bug
+akan terus meningkat 10 x Lipat
+pada setiap fasenya
+(Ian Sommerville, 1982)
+Software Tester
+seseorang yang tugas utamanya | untuk
+melakukan pengujian terhadap kualitas
+perangkat lunak | kemudian mampu
+menggunakan kakas dan teknik yang
+mendukung dalam melakukan pengujian |
+serta memastikan perangkat lunak bekerja
+sesuai dengan fungsinya. - Merriam Webster
+Level 1: Menemukan Bug
+Level 2: Menemukan Bug sesegera mungkin
+Level 3: Menemukan Bug sesegera mungkin
+dan memastika bug tersebut dapat
+diperbaiki
+Peranan
+Software Tester
+Sikap
+seorang
+Software
+Tester
+EXPLORER
+TROUBLESHOTER
+RELENTLESS
+CREATIVE
+PERFECTIONISM
+GOOD JUDGEMENT
+Semakin dini Bug ditemukan maka akan
+semakin kecil biaya yang harus
+dikeluarkan untuk memerbaiki Bug,
+sehingga Software Tester harus mampu
+menemukan bug sesegera mungkin dan
+memastikan bug teresebut dapat
+diperbaiki.
+Selanjutnya membahas tentang
+Software Testing (Pengujian Perangkat
+Lunak)
+TETAP SEMANGAT DAN
+Jaga Kesehatan
+KESIMPULAN
+TERIMA
+KASIH
+Barang siapa ingin mutiara,
+harus berani terjun di lautan
+yang dalam.
+Ir. Soekarno

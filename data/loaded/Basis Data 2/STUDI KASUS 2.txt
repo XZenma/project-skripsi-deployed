@@ -1,0 +1,10 @@
+STUDI KASUS 2  
+Given the following business rules  :  
+- A company operates four departements. 
+- Each departement employs employees.  
+- Each of the employees may or may not have one or more dependents.   
+- Each employee may or may not have an employement history.  
+ 
+a. Define entity and relathionships  
+b. Draw the conceptual model with Chen diagram  
+c. Draw the conceptual model with Crow Foot diagram

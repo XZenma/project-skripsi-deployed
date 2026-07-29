@@ -1,0 +1,13 @@
+{
+  "filename": "TM-11 Kuis.txt",
+  "matkul": "Rekayasa Perangkat Lunak",
+  "teknik": "sentence",
+  "total_chunks": 1,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 221,
+      "text": "TM-11\nKUIS 1\nISB-202 Rekayasa Perangkat Lunak\nKURNIA RAMADHAN PUTRA, S.KOM., M.T.\nTABEL PASIEN\nADD PASIEN\nEDIT PASIEN\nDELETE PASIEN\nTerima Kasih\nKOMBINASI KERJA\nKERAS DAN KERJA\nCERDAS ADALAH\nPEKERJAAN EFISIEN.\nROBERT HALF"
+    }
+  ]
+}

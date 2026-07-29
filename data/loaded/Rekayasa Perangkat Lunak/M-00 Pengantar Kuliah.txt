@@ -1,0 +1,258 @@
+M-00  
+PENGANTAR KULIAH
+ISA-202 Rekayasa Perangkat Lunak
+KURNIA RAMADHAN PUTRA, S.KOM., M.T.
+Kurnia Ramadhan Putra
+EMAIL
+kurniaramadhan@itenas.ac.id
+NIDN
+0411039104
+PENDIDIKAN
+S1 - Teknik Informatika Itenas Bandung
+S2 - Teknik Informatika ITB
+MATAKULIAH
+Rekayasa Perangkat Lunak, Analisis dan Desain
+Sistem, dan Pengujian Perangkat Lunak
+DESKRIPSI
+MATA KULIAH
+Matakuliah Rekayasa Perangkat Lunak membahas tentang analisis
+kebutuhan sistem, proses atau metodologi pengembangan
+perangkat lunak, manajemen proyek perangkat lunak, analisis
+pemodelan secara prosedural dan berorientasi objek,
+pengembangan perangkat lunak, dan pengujian perangkat lunak.
+KATA KUNCI
+requirement engineering, software process, software project management,
+software analysis and design, software development, dan software testing
+E
+D
+C
+BC
+B
+AB
+A
+100 
+75 
+50 
+25 
+0 
+SKALA NILAI
+Rentang 0 - 100
+80 - 100 : A
+73 - 79 : AB
+65 - 72 : B
+60 - 64 : BC
+50 - 59 : C
+40 - 49 : D
+0 - 39: E
+lulus dengan nilai
+baik
+lulus dengan nilai
+cukup
+tidak lulus
+Tugas 1 (15%)
+Analisis Kebutuhan Sistem,
+Manajemen Proyek Perangkat
+Lunak
+KOMPONEN PENILAIAN
+JUMLAH SKS = 4
+4 x 50 menit kegiatan terjadwal (tatap muka), 4 jam kegiatan terstruktur (mengerjakan tugas), dan 4
+jam kegiatan mandiri (membaca buku, memperdalam materi)
+Tugas 2 (15%)
+Analisis Pemodelan Sistem
+UTS 1 dan UTS 2 (30%)
+Topik Perkuliahan Bagian I dan
+Bagian II
+UAS (30%)
+Proyek Pengembangan Produk
+perangkat lunak
+QUIZ (10%)
+Tugas harian mandiri atau
+kelompok
+Menjelaskan konsep dasar rekayasa
+perangkat lunak
+Menganalisis kebutuhan perangkat
+lunak
+Menganalisis pemodelan perangkat
+lunak menggunakan pendekatan
+struktural dan berorientasi objek
+Mengelola proyek perangkat lunak
+Mengimplementasikan hasil analisis
+pemodelan ke dalam kode program
+Melakukan pengujian perangkat lunak
+Mendokumentasikan proses
+pengembangan perangkat lunak
+Menerapkan prinsip, kakas, dan
+metode dalam pengelolaan
+proyek dan proses rekayasa
+perangkat lunak mulai dari
+tahap analisis kebutuhan,
+analisis pemodelan,
+implementasi kode program,
+pengujian serta membuat
+dokumentasi perangkat lunak
+CAPAIAN
+PEMBELAJARAN
+MATA KULIAH (CPMK)
+SUB CMPK
+TOPIK PERKULIAHAN
+Introduction to Software
+Engineering
+Software Process/ Software
+Development Methodology
+Requirement Engineering
+Software Project Management
+Agile Software Project
+Management
+Software Requirement
+Specification (SRS)
+BAGIAN I
+Procedural Software Modeling
+Object Oriented Software Modeling
+Design Pattern
+Software Development with
+Procedural and Object Oriented
+Concept
+Software Configuration
+Management
+Software Testing
+BAGIAN II
+Ian Sommerville, 6th Edition
+SOFTWARE ENGINEERING
+BUKU
+REFERENSI
+Using UML, Patterns, and Java
+OBJECT ORIENTED SE
+Bernd Bruegge and Allen H. Dutoit
+A Practitioner's Approach
+SOFTWARE ENGINEERING
+Roger S. Pressman
+SOFTWARE CRISIS 1960
+Kenapa
+Software
+Engineering
+Penting?
+Over Budget
+Terminologi yang
+digunakan pada tahun
+1960-an untuk menyatakan
+kegagalan-kegalan yang
+dialami oleh perusahaan
+dalam mengembangkan
+perangkat lunak
+SOFTWARE
+CRISIS
+Running Out
+Time
+Poor Quality
+of Software
+Project didn't
+Manage Well
+Software Complexity
+Increased
+Software Cost
+Increased
+Lack of
+Communication
+Lack of Adequate
+Training in SE
+ARIANE 5 ROCKET
+CONTOH
+KASUS
+SOFTWARE
+CRISIS
+4 Juni 1996, Roket Ariane 5
+meledak dikarenakan
+kegagalan software sehingga
+kerugian mencapai 7 milyar
+dollar
+IBM OS/360
+Pengerjaan proyek yang
+panjang 1960-1970 untuk
+menghasilkan software yang
+kompleks dengan lebih
+kurang 1000 programmer
+menghabiskan milyaran
+dollar
+RADIOTHERAPY MACHINE
+Embedded System yang
+dipasang pada mesin
+radioterapi mengalami
+kegagalan dengan
+memberikan dosis radiasi yang
+mematikan kepada pasien
+FBI VIRTUAL CASE FILE
+FBI mengembangkan
+software untuk pengelolaan
+kasus yang dikenal dengan
+Virtual Case File (VCF) tahun
+2001, namun tahun 2005
+ditinggalkan dan mengalami
+kerugian 104.5 juta dollar.
+SOFWARE
+ENGINEERING
+Software
+(1) Sekumpulan instruksi kode program
+ketika dieksekusi memberikan fungsi
+dan kinerja yang diinginkan, (2) struktur
+data yang memungkinkan program
+untuk memanipulasi informasi dengan
+memadai, dan (3) dokumentasi yang
+mendeskripsikan operasi dan kegunaan
+program.
+Engineering
+Aplikasi teori, metode, dan kakas yang
+sesuai untuk menemukan solusi dalam
+menyelesaikan masalah sehingga
+memperoleh hasil yang berkualitas.
+Software Engineering adalah disiplin ilmu yang menerapkan
+teori, metode, dan kakas pada semua aspek produksi
+perangkat lunak mulai dari tahap spesifikasi sistem sampai
+tahap pemeliharaan perangkat lunak untuk menghasilkan
+perangkat lunak berkualitas.
+- Ian Sommerville -
+Software Engineering
+TOKOH PENULIS
+BUKU  TERKENAL
+SOFTWARE
+ENGINEERING
+Software Engineer, Author,
+Consultant, President of R.S Pressman
+& Associates
+ROGER S.PRESSMAN
+Author of a popular student book on
+Software Engineering, Professor of
+Software Engineering at the University
+of St.Andrews in Scotland.
+IAN SOMMERVILLE
+Software Engineering whos
+developed Unified Modeling
+Language (UML) and work in software
+architecture, software engineering,
+collaborative development
+environments
+GRADY BOOCH
+Keberhasilan bukanlah milik orang
+yang pintar. Keberhasilan adalah
+kepunyaan mereka yang senantiasa
+berusaha.
+B.J. Habibie
+”
+“
+Software Engineering penting karena
+membantu untuk mendeliver produk
+perangkat yang baik (right software)
+dengan cara yang benar (software right)
+Selanjutnya membahas tentang Produk
+Perangkat Lunak
+KESIMPULAN
+TETAP SEMANGAT DAN
+Jaga Kesehatan
+REFERENSI
+Ian Sommerville, Bab I - Introduction to
+Software Engineering
+[1] SOFTWARE ENGINEERING
+Roger S. Pressman, Bab I - The Product
+[2] SOFTWARE ENGINEERING
+What is software engineering? Why we need
+software engineering? (thestudygenius.com)
+[3] SOFTWARE ENGINEERING

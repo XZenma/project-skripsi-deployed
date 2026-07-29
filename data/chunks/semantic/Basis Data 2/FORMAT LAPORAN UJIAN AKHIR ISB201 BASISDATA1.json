@@ -1,0 +1,18 @@
+{
+  "filename": "FORMAT LAPORAN UJIAN AKHIR ISB201 BASISDATA1.txt",
+  "matkul": "Basis Data 2",
+  "teknik": "semantic",
+  "total_chunks": 2,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 157,
+      "text": "LAPORAN UJIAN AKHIR SEMESTER\nSEMESTER GENAP 2022-2023\nISB 212 BASISDATA 2\nKelas <AA/BB>\n\nDosen : Mira Musrini Barmawi\n\nKelompok <NO>\n1. NRP - NAMA LENGKAP\n2."
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 1380,
+      "text": "NRP - NAMA LENGKAP\n3. NRP -NAMA LENGKAP\n\nLOGO ITENAS\n\nPROGRAM STUDI SISTEM INFORMASI\nINSTITUT TEKNOLOGI NASIONAL BANDUNG\n< 2023>\nFORMAT LAPORAN UAS BASISDATA\nBAB I\nLatar Belakang\nBAB II\nDasar Teori\nBab III\nStudi Kasus , penjelasan dalam Bahasa Indonesia\nBab IV\nAnalisis\nIdentifikasi entitas atribut\nIdentifikasi relasi\nBab V\nDesain\n5.1 Diagram Chen ( beserta dengan penjelasannya)\n5.2 Diagram Crowfoot ( beserta dengan penjelasannya)\nBab VI\nImplementasi dengan DBMS ( my SQL)\n5.1 DML\nKalimat Insert Update dan Delete\n5.2 Query\nAdvanced Query : 2 buah query advanced yang melibatkan minimal 3 tabel . 5.3 Bacth programming\n5.3.1 satu batch dengan kalimat IF ( kompleks)\n5.3.2 Satu batch dengan kalimat pengulangan , bisa dengan nested loop, atau loop biasa\n5.4 Store procedure\n5.4.1 dua buah store procedure tanpa input output\n5.4.2 dua buah store procedure dengan input dan output\n5.5 Fungsi\n5.5.1 dua buah fungsi bernilai scalar ( scalar user defined function)\n5.5.2 dua buah fungsi inline table ( Inline table Valued Function = ITVF)\n5.5.3 dua buah fungsi multistatement table ( MSTVF)\n5.6 Triger\n5.6.1 satu buah query yang melibatkan output clause , inserted table dan deleted table\n5.6.2 satu buah trigger for insert\n5.6.3 satu buah trigger for update\n5.6.4 satu buah trigger for delete\n\n5.7 VIEW\n5.7.1 satu buah view berisi advanced query\n5.7.2 satu buah view yang dienkripsi"
+    }
+  ]
+}

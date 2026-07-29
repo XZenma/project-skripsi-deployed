@@ -1,0 +1,28 @@
+{
+  "filename": "TM-04 E-Commerce - Menampilkan Detail Produk.txt",
+  "matkul": "Rekayasa Perangkat Lunak",
+  "teknik": "fixed",
+  "total_chunks": 4,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 1000,
+      "text": "TM-04\nE-COMMERCE - DISPLAY DETAIL\nPRODUK DAN SHOPING CART\nISB-202 Rekayasa Perangkat Lunak\nKURNIA RAMADHAN PUTRA, S.KOM., M.T.\nFRONTEND - DETAIL PRODUK\nKustomisasi halaman shop-\ndetails (HTML)\nLogika untuk menampilkan\ndetail product (PHP)\nKEBUTUHAN\nPERSIAPAN APLIKASI (1)\nRename file shop-details.html menjadi shop-\ndetails.php\nKONFIGURASI\nPERSIAPAN APLIKASI (2)\nBuka file index.php, dan modifikasi pada bagian kode tombol Add to Cart\nBuka juga file shop.php, dan modifikasi pada bagian kode tombol Add to Cart\nKONFIGURASI (INDEX.PHP DAN SHOP.PHP)\nindex.php\nshop.php\nPENGUJIAN TOMBOL ADD TO CART\nKlik tombol \"Add to Cart\" pada salah satu\nproduk, jika berhasil maka akan\nmenampilkan halaman details produk\nKUSTOMISASI TAMPILAN (1)\nTambahkan kode berikut di atas tag <!DOCTYPE html> pada file shop-details.php\nSHOP-DETAILS.PHP\nKUSTOMISASI TAMPILAN (2)\nTambahkan kode berikut di bawah <section class=\"shop-details\"> dan tutup sebelum\nsection\nSHOP-DETAILS.PHP\nKUSTOMISASI TAMPILAN (3)\nTampilkan detail\npr"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 1000,
+      "text": "oduk (echo)\nsesuai dengan\nproduk yang diklik\npada tombol \"Add to\nCart\"\nSHOP-\nDETAILS.PHP\nKUSTOMISASI TAMPILAN (4)\nTampilkan category dan image produk\nSHOP-DETAILS.PHP\nPENGUJIAN HALAMAN SHOPING-\nDETAILS\nRefresh halaman Shoping\nDetails\nMengaktifkan tombol \"Add to\nCart\"\nMENGAKTIFKAN TOMBOL ADD TO CART\nMengaktifkan tombol \"Add to Chart\" pada file shop-details.php\nSHOP-DETAILS.PHP\nRename file shopping-cart.html menjadi\nshopping-cart.php\nKONFIGURASI (SHOPPING-CART.PHP)\nPENGUJIAN HALAMAN SHOPING CART\nProduk yang ditampilkan pada\nshoping cart ini masoh\ndummy, lakukan konfigurasi\nagar data produk yang masuk\nke keranjang belanja adalah\nproduk yang diklik dari\nhalaman detail produk\nSisakan 1 produk pada\nShoping Cart, dengan\nmenghapus <tr>..</tr> di\nbawah <tbody>\nSHOPING-\nCART.PHP\nKUSTOMISASI TAMPILAN (1)\nKUSTOMISASI TAMPILAN (2)\nTersisa 1 buah produk\nyang akan kita looping\ndatanya berdasarkan\ndengan produk yang\nditambahkan ke\nkeranjang belanja\nSHOPING-\nCART.PHP\nKUSTOMISASI TAMPILAN (3)\nUnduh file"
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 999,
+      "text": "style.css yang ada pada pertemuan ke-3 di elearning, dapat diakses pada\ntautan berikut: https://elearning.itenas.ac.id/course/view.php?id=9757&section=3\nCopykan semua isi style.css yang telah diunduh tersebut pada file style.css pada\nproject css > style.css\nSTYLE.CSS\nTambahkan kode berikut di atas tag <!DOCTYPE html> pada file shoping-cart.php\nSHOPING-CART.PHP\nLINE 1 - 20\nKUSTOMISASI TAMPILAN (4)\nTambahkan kode berikut di atas tag <!DOCTYPE html> pada file shoping-cart.php\nSHOPING-CART.PHP\nLINE 21 - 33\nKUSTOMISASI TAMPILAN (5)\nTambahkan kode berikut di atas tag <!DOCTYPE html> pada file shoping-cart.php\nSHOPING-CART.PHP\nLINE 34 - 47\nKUSTOMISASI TAMPILAN (6)\nSHOPING-CART.PHP\nLINE 48 - 65\nKUSTOMISASI TAMPILAN (7)\nTambahkan kode berikut di atas tag <!DOCTYPE html> pada file shoping-cart.php\nSHOPING-CART.PHP\nLINE 66 - 77\nKUSTOMISASI TAMPILAN (8)\nSHOPING-CART.PHP\nLINE 78 - 96\nKUSTOMISASI\nTAMPILAN (9)\nUpdate kode <tr>..</tr> di bawah <tbody>\nSHOPING-CART.PHP\nKUSTOMISASI TAMPILAN (10)\nLINE 2"
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 230,
+      "text": "76 - 291\nUpdate kode <tr>..</tr> di bawah <tbody>\nSHOPING-CART.PHP\nKUSTOMISASI TAMPILAN (11)\nLINE 292 - 309\nHALAMAN SHOPING CART\nHASIL AKHIR\nTerima Kasih\nKOMBINASI KERJA\nKERAS DAN KERJA\nCERDAS ADALAH\nPEKERJAAN EFISIEN.\nROBERT HALF"
+    }
+  ]
+}

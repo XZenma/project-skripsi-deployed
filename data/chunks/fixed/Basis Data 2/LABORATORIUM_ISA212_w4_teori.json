@@ -1,0 +1,43 @@
+{
+  "filename": "LABORATORIUM_ISA212_w4_teori.txt",
+  "matkul": "Basis Data 2",
+  "teknik": "fixed",
+  "total_chunks": 7,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 1000,
+      "text": "MODUL minggu 4\nPraktikum ISA 212 Basisdata\n\nLOGIKA PEMROGRAMAN - KALIMAT CASE OF DAN LOOP\nKALIMAT CASE...OF\n\nPernyataan kasus dapat digunakan dalam dua bentuk di SQL Server:\n1. Kalimat CASE .. OF dengan ekspresi sederhana.\n2. Kalimat Case ..OF dengan perbandingan atau ekspresi yang dicari.\n\nKalimat CASE .. OF dengan ekspresi sederhana.\nKalimat CASE..OF.. sederhana hanya memeriksa nilai yang setara dan tidak dapat berisi ekspresi Boolean.\nKalimat Case ..OF mencari ekspresi pertama dalam daftar klausa, Jika sesuai maka akan mengeksekusi\nkalimat When selanjutnya. Jika tidak ada yang sesuai maka klausa else yang akan dievaluasi. Sintaks\numum dari kalimat Case Of sederhana adalah sebagai berikut:\nCASE expression\nWHEN exp_1 THEN result_1\n[WHEN exp_2 THEN result_2]\n[..................]\n[WHEN exp_n THEN result_n]\n[ELSE expression]\nEND\n\nFlowchart:\nContoh program\nDECLARE @Name varchar(50)\nSET @Name = 'Rohatash'\nSELECT\nCase @Name\nWHEN 'Deepak' THEN 'Name Deepak'\nWHEN 'Manoj' THEN 'Name Found Mano"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 1000,
+      "text": "j'\nWHEN 'Rohatash' THEN 'Name Found Rohatash'\nELSE 'Name not Found'\nEND\n\nKeluaran\n\nSekarang ganti nama Rohatash dengan Rohatash Kumar.\nContoh program\nDECLARE @Name varchar(50)\nSET @Name = 'Rohatash'\nSELECT\nCase @Name\nWHEN 'Deepak' THEN 'Name Found Deepak'\nWHEN 'Manoj' THEN 'Name Found Manoj'\nWHEN 'Rohatash Kumar' THEN 'Name Found Rohatash'\nELSE 'Name not Found'\nEND\n\nKeluaran\nKalimat Case ..OF dengan perbandingan atau ekspresi yang dicari.\nKalimat CASE OF dengan ekspresi pencarian mengandung ekspresi boolean atau operator pembanding.\nDi contoh berikut ini kita hendak melihat bagaimana menggunakan ekspresi pencarian dengan operator\npembanding.\n\nSintaks umum dari kalimat CASE..OF... dengan ekspresi pencarian :\n\nCASE\nWHEN condition_1 THEN result_1\n[WHEN condition_2 THEN result_2]\n[..................]\n[WHEN condition_n THEN result_n]\n[ELSE expression]\n[else result_n]\nEND\n\nFlowchart:\nBuatlah database labISA212_mgg4 , kemudian buatlah table student sebagai berikut :\ncreate table student\n(\nstu"
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 1000,
+      "text": "_id int,\nstu_name varchar(20),\nmarks int\n);\nInsert into student values('101','ravi','65');\nInsert into student values('102','sumit','32');\nInsert into student values('103','rekha','76');\nInsert into student values('104','Yong','34');\nInsert into student values('105','Hem','78');\n\nTabel student akan terlihat sebagai berikut:\nIn the above table students Id, Name and their marks are given. Now I want the following output with\nthe help of a CASE statement:\nDari table yang terdiri dari kolom student_id, name dan marks tersebut kita hendak membuat table\nseperti di bawah ini dengan kalimat CASE...OF ....\nStu_Id\nStu_Name\nMarks\nRemarks\nGrade\n101\nRavi\n65\nPass\nA\n102\nSumit\n32\nFail\nE\n103\nRekha\n76\nPass\nA +\n104\nYong\n34\nPass\nE\n105\nHem\n78\nPass\nA+\n\nMaka kalimat CASE...OF yang harus dibuat adalah sbb:\nSelect Stu_Id,Stu_Name,Marks,\nCase When Marks > 32 Then 'Pass' Else 'Fail'\nEnd as Remarks,\nCase When Marks >= 76 Then 'A+'\nWhen Marks >= 65 Then 'A'\nWhen Marks < 35 Then 'E'\nEnd as Grade\nFrom Student\n\nKelua"
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 1000,
+      "text": "ran :\nKalimat CASE dengan klausa where\nSelect Stu_Id,Stu_Name,Marks,\nCase When Marks > 32 Then 'Pass' Else 'Fail'\nEnd as Remarks,\nCase When Marks >= 76 Then 'A+'\nWhen Marks >= 65 Then 'A'\nWhen Marks < 35 Then 'E'\nEnd as Grade\nFrom Student where marks< 35\n\nKeluaran\n\nKalimat CASE dengan klausa order by\nSelect Stu_Id,Stu_Name,Marks,\nCase When Marks > 32 Then 'Pass' Else 'Fail'\nEnd as Remarks,\nCase When Marks >= 76 Then 'A+'\nWhen Marks >= 65 Then 'A'\nWhen Marks < 35 Then 'E'\nEnd as Grade\nFrom Student order by Marks\n\nKeluaran:\nKALIMAT WHILE DO...LOOP\nDiagram alir berikut menjelaskan struktur pengulangan dari kalimat WHILE di SQL Server :\n\nSeperti yang Anda lihat, di setiap iterasi loop, kondisi yang ditentukan diperiksa, dan kemudian, sesuai\ndengan hasil kondisi, aliran kode ditentukan. Jika hasil dari kondisi benar, pernyataan SQL akan dieksekusi.\nJika tidak, aliran kode akan keluar dari loop. Jika ada pernyataan SQL di luar loop, itu akan dieksekusi.\nSintaks While ...Loop di SQL server 20"
+    },
+    {
+      "index": 5,
+      "panjang_karakter": 1000,
+      "text": "12\nWHILE condition\nBEGIN\n{...statements...}\nEND\nSetelah penjelasan ini, akan diberikan contoh yang sangat sederhana dari loop WHILE dalam SQL. Dalam\ncontoh yang diberikan di bawah ini, contoh loop WHILE akan menulis nilai variabel sepuluh kali, dan\nkemudian loop akan selesai:\nProgram while...do\nDECLARE @Counter INT\nSET @Counter=1\nWHILE ( @Counter <= 10)\nBEGIN\nPRINT 'The counter value is = ' + CONVERT(VARCHAR,@Counter)\nSET @Counter = @Counter + 1\nEND\n\nKeluaran:\n\nDi bagian kode ini, kami mendeklarasikan variabel, dan kami memberikan nilai inisialisasi padanya:\nDECLARE @Counter INT\nSET @Counter=1\n\nBagian kode ini memiliki kondisi yang ditentukan hingga nilai variabel mencapai 10, loop berlanjut dan\nmengeksekusi pernyataan PRINT. Jika tidak, kondisi while tidak akan terjadi, dan loop akan berakhir:\n\nWHILE ( @Counter <= 10)\n\nDi bagian terakhir kode ini, kami mengeksekusi pernyataan SQL, dan kemudian kami menambah nilai\nvariabel\nBEGIN\nPRINT 'The counter value is = ' + CONVERT(VARCHAR,@Counte"
+    },
+    {
+      "index": 6,
+      "panjang_karakter": 999,
+      "text": "r)\nSET @Counter = @Counter + 1\nEND\nDiagram flowchart:\n\nPengulangan SQL While yang tidak berhingga\nDalam loop tak berujung AKA loop tak terbatas, hasil kondisi tidak akan pernah salah, sehingga loop tidak\npernah berakhir dan dapat bekerja selamanya. Bayangkan kita memiliki loop WHILE, dan kita tidak\nmenaikkan nilai variabel. Dalam skenario ini, loop berjalan tanpa henti dan tidak pernah berakhir.\nSekarang, kita akan merealisasikan skenario ini dengan bantuan contoh berikut. Kita perlu\nmemperhitungkan satu hal yang tidak boleh lupa untuk membatalkan eksekusi kueri secara manual:\nContoh program\nDECLARE @Counter INT\nSET @Counter=1\nWHILE ( @Counter <= 10)\nBEGIN\nPRINT 'Somebody stops me!'\n\nEND\nKeluaran:\n\nPada diagram alir berikut, terlihat jelas bahwa nilai variabel tidak pernah berubah; oleh karena itu, loop\ntidak pernah berakhir. Alasan untuk masalah ini adalah variabel selalu sama dengan 1 sehingga kondisi\nmengembalikan nilai true untuk setiap iterasi loop:\nKalimat BREAK\nPernyataan BREAK"
+    },
+    {
+      "index": 7,
+      "panjang_karakter": 956,
+      "text": "digunakan dalam pengulangan SQL WHILE untuk keluar dari pengulangan , yang\nsedang berjalan , jika memenuhi kondisi tertentu. Pada umumnya pernyataan IF... ELSE digunakan\nuntuk memeriksa apakah kondisi tersebut telah terjadi atau tidak.\nContoh program :\nDECLARE @Counter INT\nSET @Counter=1\nWHILE ( @Counter <= 10)\nBEGIN\nPRINT 'The counter value is = ' + CONVERT(VARCHAR,@Counter)\nIF @Counter >=7\nBEGIN\nBREAK\nEND\nSET @Counter = @Counter + 1\nEND\n\nKeluaran :\nFlowchart:\n\nKALIMAT CONTINUE\nJika ada kata continue pada kalimat WHILE SQL , berarti iterasi ke i, akan dilompat . Biasanya kalimat\ncontinue akan dilakukan jika kondisi tertentu terpenuhi. Evaluasi kondisi dengan menggunakan\nIF..THEN..\nContoh program :\nDECLARE @Counter INT\nSET @Counter=1\nWHILE ( @Counter <= 20)\nBEGIN\n\nIF @Counter % 2 =1\nBEGIN\nSET @Counter = @Counter + 1\nCONTINUE\nEND\nPRINT 'The counter value is = ' + CONVERT(VARCHAR,@Counter)\nSET @Counter = @Counter + 1\nEND\n\nKeluaran :\n\nFlowchart:"
+    }
+  ]
+}

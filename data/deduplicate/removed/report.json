@@ -1,0 +1,161 @@
+{
+  "total_dokumen_lolos": 88,
+  "total_dokumen_dibuang": 11,
+  "metode": "Exact string matching (normalized text)",
+  "detail_dibuang": [
+    {
+      "dokumen_dibuang": {
+        "filename": "STUDI KASUS 9.txt",
+        "matkul": "Basis Data 2",
+        "panjang_karakter": 1375,
+        "preview": "STUDI KASUS 9 (new)\n\nGiven the following information, produce an ERD - based on Crowfoot model - that can\nbe implemented. Make sure to include all appropriate entities, relationships ,\nconnectivities,..."
+      },
+      "dokumen_asli": {
+        "filename": "STUDI KASUS 9 (1).txt",
+        "matkul": "Basis Data 2"
+      },
+      "tipe_duplikat": "exact",
+      "similarity_score": 1.0
+    },
+    {
+      "dokumen_dibuang": {
+        "filename": "DAFTAR KELOMPOK EAS ISB 212 BASIS DATA 2.txt",
+        "matkul": "Basis Data 2 Praktikum BB",
+        "panjang_karakter": 1244,
+        "preview": "DAFTAR KELOMPOK EAS\nISB-212 Basis Data 2 Genap 2025/2026\n\nGroup 1 - CASE 9\n162024006 MIKHAEL PRAWIRA CHANDRA - KETUA\n162024010 HANA AMALIA PUTRI\n162024005 DEALOVA QUAYBAH\n\nGroup 2 - CASE 2\n162024023 D..."
+      },
+      "dokumen_asli": {
+        "filename": "DAFTAR KELOMPOK EAS ISB 212 BASIS DATA 2.txt",
+        "matkul": "Basis Data 2 Praktikum AA"
+      },
+      "tipe_duplikat": "exact",
+      "similarity_score": 1.0
+    },
+    {
+      "dokumen_dibuang": {
+        "filename": "INSTALASI SQL SERVER EXPRESS 2025 (1).txt",
+        "matkul": "Basis Data 2 Praktikum BB",
+        "panjang_karakter": 840,
+        "preview": "INSTALASI SQL EXPRESS 2025\n1. BUKA LINK INI : HTTPS://WWW.MICROSOFT.COM/EN-US/SQL-SERVER/SQL-SERVER-\nDOWNLOADS\n2. CARI SQL EXPRESS 2025\nKLIK DOWNLOAD.\n\n3. Klik dua kali file installer, pilih Basic.\n4...."
+      },
+      "dokumen_asli": {
+        "filename": "INSTALASI SQL SERVER EXPRESS 2025.txt",
+        "matkul": "Basis Data 2 Praktikum AA"
+      },
+      "tipe_duplikat": "exact",
+      "similarity_score": 1.0
+    },
+    {
+      "dokumen_dibuang": {
+        "filename": "Materi 3.txt",
+        "matkul": "Basis Data 2 Praktikum BB",
+        "panjang_karakter": 1245,
+        "preview": "LOGIKA PEMROGRAMAN\nANALISA KASUS\nANALISA KASUS\nISB-212 Basis Data 2 (P)\nModul Hari Ini\nMemahami penggunaan kalimat IF.\nMemahami penggunaan kalimat IF...ELSE.\nMemahami penggunaan IF...ELSE Bersarang (N..."
+      },
+      "dokumen_asli": {
+        "filename": "Materi 3.txt",
+        "matkul": "Basis Data 2 Praktikum AA"
+      },
+      "tipe_duplikat": "exact",
+      "similarity_score": 1.0
+    },
+    {
+      "dokumen_dibuang": {
+        "filename": "MODUL 5  Praktikum Basdat 2.txt",
+        "matkul": "Basis Data 2 Praktikum BB",
+        "panjang_karakter": 4522,
+        "preview": "Store procedure\nPraktikum ISB 212 - Basisdata | Modul 5\nApa itu store procedure?\nStore procedure merupakan kumpulan perintah yang disimpan\ndengan nama tertentu dan diproses sebagai satu kesatuan.\nProc..."
+      },
+      "dokumen_asli": {
+        "filename": "MODUL 5  Praktikum Basdat 2.txt",
+        "matkul": "Basis Data 2 Praktikum AA"
+      },
+      "tipe_duplikat": "exact",
+      "similarity_score": 1.0
+    },
+    {
+      "dokumen_dibuang": {
+        "filename": "Modul10_Prak212Basdat2.txt",
+        "matkul": "Basis Data 2 Praktikum BB",
+        "panjang_karakter": 3816,
+        "preview": "TRIGGER & VIEW\nISB-212 Praktikum Basis Data 2\nApa itu trigger\nTrigger adalah sekumpulan kueri (prosedur)\nSQL yang akan dieksekusi secara otomatis\n(terpicu)\noleh\nDatabase\nManagement\nSystem\n(DBMS)\nketik..."
+      },
+      "dokumen_asli": {
+        "filename": "Modul10_Prak212Basdat2.txt",
+        "matkul": "Basis Data 2 Praktikum AA"
+      },
+      "tipe_duplikat": "exact",
+      "similarity_score": 1.0
+    },
+    {
+      "dokumen_dibuang": {
+        "filename": "MODUL4.txt",
+        "matkul": "Basis Data 2 Praktikum BB",
+        "panjang_karakter": 7619,
+        "preview": "-- SQL Server Logic\nDECLARE @grade INT = 85;\nSELECT\nCASE\nWHEN @grade >= 76\nTHEN 'A+'\nWHEN @grade >= 65\nTHEN 'A'\nELSE 'E'\nEND AS Hasil;\nWHILE @i <= 10 BEGIN\nPRINT @i;\nSET @i += 1;\nEND\nL O G I K A P E M..."
+      },
+      "dokumen_asli": {
+        "filename": "MODUL4.txt",
+        "matkul": "Basis Data 2 Praktikum AA"
+      },
+      "tipe_duplikat": "exact",
+      "similarity_score": 1.0
+    },
+    {
+      "dokumen_dibuang": {
+        "filename": "MODUL8.txt",
+        "matkul": "Basis Data 2 Praktikum BB",
+        "panjang_karakter": 4065,
+        "preview": "Praktikum ISB - 212 Basis Data 2\nFungsi Bernilai Tabel\n30 April 2026\nFungsi di SQL Server digunakan untuk\nmenyederhanakan\nlogika\nquery\nyang\nkompleks.\nDengan fungsi, tidak perlu menulis ulang\nquery yan..."
+      },
+      "dokumen_asli": {
+        "filename": "MODUL8.txt",
+        "matkul": "Basis Data 2 Praktikum AA"
+      },
+      "tipe_duplikat": "exact",
+      "similarity_score": 1.0
+    },
+    {
+      "dokumen_dibuang": {
+        "filename": "prosedur.txt",
+        "matkul": "Basis Data 2 Praktikum BB",
+        "panjang_karakter": 1469,
+        "preview": "Week 2\nSTORE\nPROSEDURE 1\nPRAKTIKUM BASIS DATA 2 AA\nKAL\nStore Prosedure\nStore Prosedure adalah kumpulan perintah\nSQL yang disimpan dan dijalankan langsung\ndi dalam sistem manajemen basis data\n(DBMS) De..."
+      },
+      "dokumen_asli": {
+        "filename": "prosedur.txt",
+        "matkul": "Basis Data 2 Praktikum AA"
+      },
+      "tipe_duplikat": "exact",
+      "similarity_score": 1.0
+    },
+    {
+      "dokumen_dibuang": {
+        "filename": "UDF Skalar dalam SQL Server 2012.txt",
+        "matkul": "Basis Data 2 Praktikum BB",
+        "panjang_karakter": 2186,
+        "preview": "User Defined Function (UDF)\nFungsi Skalar\nUser Defined Function (UDF)\nFungsi Skalar\nModul 7\nModul 7\nPraktikum Basis Data 2\nPraktikum Basis Data 2\nTujuan Pembelajaran\nMemahami konsep User Defined Funct..."
+      },
+      "dokumen_asli": {
+        "filename": "UDF Skalar dalam SQL Server 2012.txt",
+        "matkul": "Basis Data 2 Praktikum AA"
+      },
+      "tipe_duplikat": "exact",
+      "similarity_score": 1.0
+    },
+    {
+      "dokumen_dibuang": {
+        "filename": "Week9.txt",
+        "matkul": "Basis Data 2 Praktikum BB",
+        "panjang_karakter": 5211,
+        "preview": "Week 9\nINSERTED & DELETED TABLE +\nTRIGGER AFTER INSERT,\nUPDATE, DELETE\nPRAKTIKUM BASIS DATA 2 AA\nInserted dan Deleted table\nInserted tabela dalah tabel virtual yang\nberisi data baru (ketika menambah a..."
+      },
+      "dokumen_asli": {
+        "filename": "Week9.txt",
+        "matkul": "Basis Data 2 Praktikum AA"
+      },
+      "tipe_duplikat": "exact",
+      "similarity_score": 1.0
+    }
+  ]
+}

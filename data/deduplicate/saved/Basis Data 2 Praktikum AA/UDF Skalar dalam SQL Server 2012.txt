@@ -1,0 +1,86 @@
+User Defined Function (UDF)
+Fungsi Skalar
+User Defined Function (UDF)
+Fungsi Skalar
+Modul 7
+Modul 7
+Praktikum Basis Data 2
+Praktikum Basis Data 2
+Tujuan Pembelajaran
+Memahami konsep User Defined Function
+(UDF) dan memahami fungsi skalar beserta
+karakteristiknya
+Mampu membuat dan menjalankan fungsi
+skalar di SQL Server 2012 dengan benar
+Fungsi adalah blok kode yang dapat dipanggil
+berulang kali untuk melakukan tugas tertentu
+User Defined Function (UDF) adalah fungsi yang
+dibuat oleh pengguna sesuai kebutuhan
+Fungsi selalu mengembalikan nilai (return value)
+Keuntungan: modularitas, reusability, kemudahan
+maintenance
+Pengertian Fungsi (UDF)
+Jenis-Jenis Function di SQL Server
+Scalar Function: mengembalikan satu nilai
+tunggal dengan tipe data tertentu (contoh:
+INT, VARCHAR, DATE). Fokus utama modul ini.
+Inline Table Valued Function: mengembalikan
+tabel (Inline TVF dari satu SELECT, Multi
+Statement TVF dari beberapa statement).
+Multi Statement Table Valued Function:
+fungsi ini memberikan hasil keluaran berupa
+tabel dimana hasil dari query itu dimasukkan
+ke dalam variabel dengan tipe data tabel
+Fungsi yang mengembalikan satu
+nilai dengan tipe data spesifik
+Ciri utama: menghasilkan single
+value, bukan tabel
+Dapat digunakan dalam SELECT,
+WHERE, atau ekspresi lainnya
+Fokus: Scalar Function
+Struktur Dasar Function
+CREATE FUNCTION nama_fungsi (@param TIPE_DATA)
+RETURNS TIPE_RETURN
+AS
+BEGIN
+DECLARE @hasil TIPE_RETURN;
+SET @hasil = [Nilai atau Ekspresi];
+RETURN @hasil;
+END
+GO
+select dbo.<nama_fungsi>
+Cara Menjalankan
+Scalar
+Output
+Contoh 1: Menghitung
+Umur (Hari)
+Contoh 2: Menghitung
+Umur (Bulan)
+Output
+Contoh 2: Menghitung
+Umur (Bulan)
+Penggunaan IF dalam
+Function
+Output
+Penggunaan IF ELSEIF
+Output
+Penggunaan CASE
+Output
+Penggunaan
+Perulangan (WHILE)
+Output
+Kesimpulan:
+UDF memungkinkan membuat fungsi custom sesuai kebutuhan
+Scalar Function mengembalikan satu nilai tunggal
+Meningkatkan modularitas dan reusability kode
+Dapat menggunakan IF, CASE, dan WHILE untuk logika kompleks
+Manfaat: Kode lebih terstruktur, mengurangi duplikasi,
+mempermudah maintenance
+Sesi Tanya Jawab (Q&A)
+Penutup
+Waktunya Live Coding Bareng
+Gusy, Buka SSMS nya Yak!
+Terima
+Terima
+Kasih
+Kasih

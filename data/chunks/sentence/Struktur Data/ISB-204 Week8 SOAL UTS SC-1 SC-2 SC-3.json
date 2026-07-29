@@ -1,0 +1,48 @@
+{
+  "filename": "ISB-204 Week8 SOAL UTS SC-1 SC-2 SC-3.txt",
+  "matkul": "Struktur Data",
+  "teknik": "sentence",
+  "total_chunks": 8,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 419,
+      "text": "Halaman 1 dari 7\n\nINSTITUT TEKNOLOGI NASIONAL\nJalan Penghulu K.H. Mustapa 23 Telp.\n\n7272215, Bandung- 40124\n\nEVALUASI 1\nSEMESTER GENAP 2025/ 2026\n\nMata Kuliah\n: ISB 204 - Struktur Data\nTanggal : 9 April 2026\nProgram Studi\n: Sistem Informasi\nWaktu : Pukul 07.00 - 10.00 (3Jam)\nDosen\n: Kurnia Ramadhan Putra\nSifat\n: Open book, close internet browsing\nKelas\n: AA\n\nA. Aturan\n1. Perhatikan instruksi dari masing-masing soal!"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 1124,
+      "text": "Kerjakan dengan seksama dan jujur.\n2. Setiap lembar jawaban di sebelah kanan atas diberi identitas Nrp dan Nama Lengkap\n3. Segala bentuk kecurangan, apakah pada sebagian atau keseluruhan jawaban diberi nilai\n0 (Nol).\n4. Sebelum masuk ke nomor pegerjaan soal, tuliskan ikrar berikut sesuai dengan teks\naslinya pada lembar pertama jawaban:\n\"Demi Tuhan, saya Nama berjanji untuk melakukan kejujuran (bekerja secara mandiri)\ndalam mengerjakan jawaban Evaluasi 1 ISB-204 pada hari ini, jika saya melakukan\nketidakjujuran saya akan selalu mendapat kesulitan untuk lulus dari ITENAS, namun jika\nsaya berbubat kejujuran akan selalu datang kemudahan dalam menyelesaikan studi di\nITENAS\".\n5. Jika Anda tidak menuliskan ikrar tersebut, berarti Anda dianggap melakukan\nketidakjujuran (menyontek/ memberi contekan).\n6. Soal dibagi ke dalam 2 jenis yaitu soal tertulis dan soal kode program, dimana:\n\nSoal Tertulis: 1, 2, 3, 4, 6, 7, 8 (ditulis di lembar jawaban)\n\nSoal Kode Program: 5, 9, 10, 11 (dikumpulkan dalam satu project di e-learning)\n7. Untuk soal dengan jenis kode program, buat project pada Netbeans dengan nama\nEvaluasi1-NRP."
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 1455,
+      "text": "Di dalam project tersebut buat package untuk masing-masing soal yang\nmemerlukan implementasi kode program, penamaan packager nya sebagai berikut:\nstrukdat.soal5, strukdat.soal9, strukdat.soal10, dan strukdat.soal11.\n8. Kode program disubmit pada TM-08 dengan nama UTS-NRP.rar, segala keterlambatan\npengumpulan kode program dengan alasan apapun akan mendapat pengurangan\npenilaian!\n9. Untuk setiap kelas harap diberi identitas dibagian atas program seperti contoh berikut:\nHalaman 2 dari 7\n\n/*\nKurnia Ramadhan Putra - 120160502\n9 Januari 2026\nProgram untuk menampilkan Hello World\n*/\n\nSUBCPMK\n\nSubCPMK-1: Mampu menenerapkan struktur data linear statis untuk mengakses data\nyang tersimpan di memori yang ditulis dalam kode program (10%)\n\nSubCPMK-2: Mampu menenerapkan struktur data linear dinamis untuk mengakses data\nyang tersimpan di memori yang ditulis dalam kode program (10%)\n\nSubCMPK-3: Mampu menjelaskan kompleksitas waktu dan kompleksitas ruang dari\nstruktur data linear statis dan dinamis (6%)\n\nB. Soal\nB.1 Recursion (SubCPMK-1 (6%))\nPada Nomor 1 s.d 4 telah diberikan potongan program berupa fungsi rekursif, anda diminta\nuntuk menuliskan tabulasi / langkah-langkah dari program tersebut.\nFAKTORIAL\nContoh Tabulasi:\nn = 3\nfactorial(3) = 3 * factorial(2) = 3 * 2 = 6\nfactorial(2) = 2 * factorial(1) = 2 * 1 = 2\nfactorial(1) = 1\n\n1. Berikan input berupa \"katak\", kemudian telusuri setiap langkah serta catat hasil dari\npotongan kode program berikut!"
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 994,
+      "text": "(5 Poin)\nHalaman 3 dari 7\n\npublic boolean isPalindrome(String s) {\nif (s.length() == 0 || s.length == 1) {\n\nreturn true;\n}\nif (s.charAt(0) == s.chartAt(s.length() - 1)) {\n\nreturn isPalindrome(s.substring(1, s.length() - 1));\n}\nreturn false;\n}\n\n2. Berikan input berupa \"Yunani\", kemudian telusuri setiap langkah serta catat hasil dari\npotongan kode program berikut!\n\n(5 Poin)\npublic String reverse(String str) {\nif (str.isEmpty()) {\n\nreturn str;\n}\nreturn reverse(str.substring(1)) + str.chartAt(0);\n}\n\n3. Berikan input dengan nilai \"35\", kemudian telusuri setiap langkah serta catat hasil\ndari potongan kode program berikut (5 Poin)\npublic int decimalToBinary(int nilaiDesimal) {\nif (nilaiDesimal\n\n=\n\n= 0) {\n\nreturn 0;\n}\nreturn n%2 + 10*decimalToBinary(nilaiDesimal/2);\n}\nHalaman 4 dari 7\n\n4. Berikan input dengan nilai \"4\" untuk base dan \"3\" untuk exp sehingga nanti hasil\nakhirnya nanti 4 pangkat 3 sama dengan 64.\n\nTelusuri setiap langkah serta catat hasil\ndari potongan kode program berikut!"
+    },
+    {
+      "index": 5,
+      "panjang_karakter": 341,
+      "text": "Telusuri setiap langkah serta catat hasil\ndari potongan kode program berikut!\n\n(5 Poin)\npublic int power(int base, int exp) {\nif (exp < 0) {\n\nreturn -1;\n}\nif (exp == 0 || exp == 1) {\n\nreturn base;\n}\nreturn base * power(base, exp - 1);\n}\n\n5. Buatlah program untuk menghitung penjumlahan dari setiap angka yang diinputkan\nmenggunakan rekursif!"
+    },
+    {
+      "index": 6,
+      "panjang_karakter": 871,
+      "text": "(10 Poin )\nContoh 1:\nInput: 5\nOuput: 15 karena (5 + 4 + 3 + 2 + 1)\n\nContoh 2:\nInput: 3\nOutput: 6\nHalaman 5 dari 7\n\nB.2 Notasi Big O (SubCPMK-2 (5%))\n6. Jabarkanlah perhitungan time complexity dari kode program berikut (5 Poin):\nstatic int pairSumSequence(int n) {\nvar sum = 0;\nfor (int i = 0; i < n; i++) {\n\nsum = sum + pairSum(i, i+1);\n}\nreturn sum;\n}\n\nstatic int pairSum(int a, int b) {\nreturn a + b;\n}\n7. Jabarkanlah perhitungan time complexity dari kode program berikut (Poin 5):\nstatic void printUnorderPairs(int[] intArray) {\nfor (int i = 0; i < intArray.length; i++) {\n\nfor (for int j = 0; j < intArray.length; j++) {\n\nSystem.out.println(intArray[i] + \", \" +\nintArray[j]);\n\n}\n}\n}\n8. Apakah notasi Big O di bawah ini setara dengan O(n)?\n\nBerikan penjelasannya!\n\n(10\nPoin)\nO(log(n) + n)\nO(log(n) + 𝑛2 + 100 + n)\nO(log(n) + log(n) + 2 + n)\nO(log(n) + log(n) + 2𝑛)\nO(𝑚"
+    },
+    {
+      "index": 7,
+      "panjang_karakter": 726,
+      "text": "Berikan penjelasannya!\n\n(10\nPoin)\nO(log(n) + n)\nO(log(n) + 𝑛2 + 100 + n)\nO(log(n) + log(n) + 2 + n)\nO(log(n) + log(n) + 2𝑛)\nO(𝑚\n\n+ log(n) + 10), dimana 𝑚= √𝑛2\nHalaman 6 dari 7\n\nB.3 Array (SubCPMK-3 (5%))\n9. Lengkapilah kode program berikut (15 Poin):\nclass Soal9 {\npublic int mencariNilaiDalamArray(int[] intArray, int\nnilaiYangDicari) {\n\n...\n}\n}\n\nMain Program :\n\n//Array di deklarasikan di main\nint[] intArray = {20, 10 , 30, 50, 40, 60};\nmencariNilaiDalamArray(intArray, 40); // 4\nTest case 1:\nInput:\n40\nOutput:\nNilai 40 ditemukan pada indeks ke- 4\n\n10.\n\nDiketahui sebuah array memiliki nilai yang terurut.\n\nKemudian anda diminta untuk\nmembuat sebuah fungsi untuk mencari nilai yang hilang dari urutan elemen array\ntersebut."
+    },
+    {
+      "index": 8,
+      "panjang_karakter": 541,
+      "text": "Diketahui sebuah array memiliki nilai yang terurut.\n\nKemudian anda diminta untuk\nmembuat sebuah fungsi untuk mencari nilai yang hilang dari urutan elemen array\ntersebut.\n\nLengkapilah kode program berikut (15 Poin):\nHalaman 7 dari 7\n\nclass Soal10 {\npublic int mencariNilaiYangHilang(int[] intArray) {\n\n...\n}\n}\n\nMain Program :\n\n//Array di deklarasikan di main\nint intArray[] = {1, 2, 3, 5, 6, 7, 8, 9, 10};\nmencariNilaiYangHilang(intArray);\nOutput:\nNilau yang hilang: 4\n\nKet : Nilai yang hilang dari urutan elemen data pada intArray[] yaitu 4."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+STUDI KASUS I  
+ 
+The Hudson Engineering Group (HEG) has contacted you to create a conceptual model 
+whose application will meet the expected database requirements for its training 
+program. The HEG administrator gives you the following description of the training 
+group’s operating environment . 
+The HEG has 12 instructors and can handle up to 30 trainees per class. HEG offers five 
+“Advanced Technology” courses   each will generate several classes. If a class has fewer 
+than 10 trainees in it, it will be canceled. It is, therefore, possible for a course not to 
+generate any classes. Each class is taught by one instructor. Each instructor may teach 
+up to two classes per year.  
+ 
+a. Define entity and relathionships  
+b. Draw the ER diagram  with Chen diagram  
+c. Draw the ER diagram  with Crow Foot diagram

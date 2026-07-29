@@ -1,0 +1,88 @@
+{
+  "filename": "Case of while do ISA212 w5.txt",
+  "matkul": "Basis Data 2",
+  "teknik": "recursive",
+  "total_chunks": 16,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 952,
+      "text": "KALIMAT CASE OF dan While do loop\nISA212 Basisdata 2\nminggu 5\nMira Musrini Barmawi M.T.\nDEFINITION\nThe case statement in SQL returns a value on a specified condition.\nWe can use a Case statement in select queries along with Where,\nOrder By and Group By clause. It can be used in Insert statement as\nwell. In this article, we would explore the CASE statement and its\nvarious use cases.\nSuppose you have a table that stores the ProductID for all products in\na mini-store. You want to get Productname for a particular ProductID.\nexample\nLook at the following example; We declared a variable @ProductID\nand specified value 1 for it. In Case statement, we defined conditions.\nOnce a condition is satisfied, its corresponding value is returned.\nexample\nSimilarly, if we change the condition in a Case statement in SQL, it\nreturns appropriate expression. In the following example, we want to\nget Product name for ProductID 4.it does not satisfy Case statement"
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 965,
+      "text": "condition; therefore, it gave output from Else expression.\nExercise\nLet us explore a few examples of the Case statement in SQL. Before\nwe proceed, create a sample table and insert few records in it.\nexercise\nUSE [SQLShackDemo]\nGO\nCREATE TABLE dbo.Employee\n(\nEmployeeID INT IDENTITY PRIMARY KEY,\nEmployeeName VARCHAR(100) NOT NULL,\nGender VARCHAR(1) NOT NULL,\nStateCode VARCHAR(20) NOT NULL,\nSalary money NOT NULL,\n)\nGO\nUSE [SQLShackDemo]\nGO\nSET IDENTITY_INSERT [dbo].[Employee] ON\nGO\nINSERT [dbo].[Employee] ([EmployeeID], [EmployeeName], [Gender],\n[StateCode], [Salary]) VALUES (201, N'Jerome', N'M', N'FL', 83000.0000)\nGO\nINSERT [dbo].[Employee] ([EmployeeID], [EmployeeName], [Gender],\n[StateCode], [Salary]) VALUES (202, N'Ray', N'M', N'AL', 88000.0000)\nGO\nINSERT [dbo].[Employee] ([EmployeeID], [EmployeeName], [Gender],\n[StateCode], [Salary]) VALUES (203, N'Stella', N'F', N'AL', 76000.0000)\nGO\nINSERT [dbo].[Employee] ([EmployeeID], [EmployeeName], [Gender],"
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 964,
+      "text": "[StateCode], [Salary]) VALUES (204, N'Gilbert', N'M', N'Ar', 42000.0000)\nGO\nINSERT [dbo].[Employee] ([EmployeeID], [EmployeeName], [Gender],\n[StateCode], [Salary]) VALUES (205, N'Edward', N'M', N'FL', 93000.0000)\nGO\nINSERT [dbo].[Employee] ([EmployeeID], [EmployeeName], [Gender],\n[StateCode], [Salary]) VALUES (206, N'Ernest', N'F', N'Al', 64000.0000)\nGO\nINSERT [dbo].[Employee] ([EmployeeID], [EmployeeName], [Gender],\n[StateCode], [Salary]) VALUES (207, N'Jorge', N'F', N'IN', 75000.0000)\nGO\nINSERT [dbo].[Employee] ([EmployeeID], [EmployeeName], [Gender],\n[StateCode], [Salary]) VALUES (208, N'Nicholas', N'F', N'Ge', 71000.0000)\nGO\nINSERT [dbo].[Employee] ([EmployeeID], [EmployeeName], [Gender],\n[StateCode], [Salary]) VALUES (209, N'Lawrence', N'M', N'IN', 95000.0000)\nGO\nINSERT [dbo].[Employee] ([EmployeeID], [EmployeeName], [Gender],\n[StateCode], [Salary]) VALUES (210, N'Salvador', N'M', N'Co', 75000.0000)\nGO\nSET IDENTITY_INSERT [dbo].[Employee] OFF\nGO"
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 999,
+      "text": "We have following records in Employee table.\nA simple CASE statement expression\nIn this format, we evaluate one expression against multiple values. In a\nsimple case statement, it evaluates conditions one by one. Once the\ncondition and expression are matched, it returns the expression\nmentioned in THEN clause.\nWe have following syntax for a case statement in SQL with a simple\nexpression\nA simple CASE statement expression\nSELECT CASE Expression\nWhen expression1 Then Result1\nWhen expression2 Then Result2\n...\nELSE Result\nEND\nA simple CASE statement expression\nUsually, we store abbreviations in a table instead of its full form. For\nexample, in my Employee table, I have used abbreviations in Gender\nand StateCode. I want to use a Case statement to return values as Male\nand Female in the output instead of M and F.\nExecute the following code and notice that we want to evaluate CASE\nGender in this query.\nA simple CASE statement expression\nSelect EmployeeName,\nCASE\nWHEN gender ='F' THEN 'FEMALE'"
+    },
+    {
+      "index": 5,
+      "panjang_karakter": 983,
+      "text": "WHEN gender ='M' THEN 'MALE'\nElse 'Unknown Gender'\nEND AS gender\nfrom Employee\nA simple CASE statement expression\nSelect EmployeeName,\nCASE\nWHEN Salary >=80000 AND Salary <=100000 THEN 'Director'\nWHEN Salary >=50000 AND Salary <80000 THEN 'Senior\nConsultant'\nElse 'Director'\nEND AS Designation\nfrom Employee\nCASE STATEMENT\nSQL Server CASE statement is equivalent to the IF-THEN statement in\nExcel.\nThe CASE statement is used to implement the logic where you want\nto set the value of one column depending upon the values in other\ncolumns.\nThe SQL Server CASE Statement consists of at least one pair of WHEN\nand THEN statements. The WHEN statement specifies the condition\nto be tested. The THEN statement specifies the action if the WHEN\ncondition returns TRUE.\nCASE STATEMENT\nThe ELSE statement is optional and executes when none of the WHEN\nconditions return true. The CASE statement ends with an END\nkeyword.\nIn this article, we will take a look at a number of different examples of"
+    },
+    {
+      "index": 6,
+      "panjang_karakter": 982,
+      "text": "the CASE statement. But before we do that, we'll create some dummy\ndata to work with.\nCreating dummy data\nCREATE Database ShowRoom;\nGO\nUSE ShowRoom;\nCREATE TABLE Cars\n(\nid INT,\nname VARCHAR(50) NOT NULL,\ncompany VARCHAR(50) NOT NULL,\npower INT NOT NULL,\ncolor VARCHAR(50) NOT NULL,\nmodel INT NOT NULL,\ncondition VARCHAR(50) NOT NULL\n)\nCreating dummy data\nNow let's insert some dummy data into the Cars table. Execute the following script:\nUSE ShowRoom\nINSERT INTO Cars VALUES\n(1, 'Corrolla', 'Toyota', 1800, 'red', 1995, 'X'),\n(2, 'City', 'Honda', 1500 , 'black', 2015, 'X'),\n(3, 'C200', 'Mercedez', 2000 , 'white', 1992, 'X'),\n(4, 'Vitz', 'Toyota', 1300 , 'blue', 2007, 'X'),\n(5, 'Baleno', 'Suzuki', 1500 , 'white', 2012, 'X'),\n(6, 'C500', 'Mercedez', 5000 , 'grey', 1994, 'X'),\n(7, '800', 'BMW', 8000 , 'blue', 2016, 'X'),\n(8, 'Mustang', 'Ford', 5000 , 'red', 1997, 'X'),\n(9, '208', 'Peugeot', 5400, 'black', 1999, 'X'),\n(10, 'Prius', 'Toyota', 3200 , 'red', 2003, 'X')\nCARS TABLE"
+    },
+    {
+      "index": 7,
+      "panjang_karakter": 956,
+      "text": "SELECT * FROM Cars\nSQL Server CASE statement syntax\nThe syntax of the CASE statement is pretty straight forward:\nSELECT column1,\ncolumn2,\nCASE WHEN CONDITION THEN 'Value1'\nELSE 'Value2' END AS columnX\nFROM Cars\nThe CASE statement has to be included inside the SELECT Statement. It starts with the CASE\nkeyword followed by the WHEN keyword and then the CONDITION.\nCASE statement examples\nLet's now see the CASE statement in action.\nSELECT name,\nmodel,\nCASE WHEN model > 2000 THEN 'New'\nELSE 'Old' END AS condition\nFROM Cars\nMultiple conditions in CASE statement\nLook at the following script:\nSELECT name,\nmodel,\nCASE WHEN model > 2010 THEN 'New'\nWHEN model > 2000 THEN 'Average'\nWHEN model > 1990 THEN 'Old'\nELSE 'Old' END AS condition\nFROM Cars\nMultiple conditions in CASE statement\nMultiple conditions in CASE statement\nHowever, in the above script, the conditions are overlapping as. the\nmodel with a value greater than 2010 also has a value greater than"
+    },
+    {
+      "index": 8,
+      "panjang_karakter": 967,
+      "text": "2000 and 1990. A better way to implement multiple conditions is to use\nlogical operators like AND, OR, NOT, etc. Look at the following script:\nSELECT name,\nmodel,\nCASE WHEN model > 2010 THEN 'New'\nWHEN model > 2000 AND model <2010 THEN 'Average'\nWHEN model > 1990 AND model <2000 THEN 'Old'\nELSE 'Old' END AS condition\nFROM Cars\nMultiple conditions in CASE statement\nThe output of the script above looks like this:\nMultiple conditions in CASE statement\nSELECT name,\ncolor,\nmodel,\nCASE WHEN model > 2010 AND color = 'white' THEN 'New White'\nWHEN model > 2010 THEN 'New'\nWHEN model > 2000 AND model <2010 THEN 'Average'\nWHEN model > 1990 AND model <2000 THEN 'Old'\nELSE 'Old' END AS condition\nFROM Cars\nMultiple conditions in CASE statement\nUsing GROUP BY with SQL Server CASE statement\nThe CASE statement can also be used in conjunction with the GROUP\nBY statement in order to apply aggregate functions.\nFor example, if we want to count the number of new (model number"
+    },
+    {
+      "index": 9,
+      "panjang_karakter": 991,
+      "text": "greater than 2000) and old (model number less than 2000) vehicles, we\ncan use the GROUP BY clause with the CASE statement as follows:\nUsing GROUP BY with SQL Server CASE statement\nSELECT\nCASE WHEN model > 2000 THEN 'New'\nELSE 'Old' END AS condition,\nCOUNT(1) AS count\nFROM Cars\nGROUP BY CASE WHEN model > 2000 THEN 'New'\nELSE 'Old' END\nUsing GROUP BY with SQL Server CASE statement\nUsing GROUP BY with SQL Server CASE statement\nSimilarly, we can GROUP BY more than two values. Look at the following script:\nSELECT\nCASE WHEN model > 2010 THEN 'New'\nWHEN model > 2000 THEN 'Average'\nWHEN model > 1990 THEN 'Old'\nELSE 'Old' END AS condition,\nCOUNT(1) AS count\nFROM Cars\nGROUP BY CASE WHEN model > 2010 THEN 'New'\nWHEN model > 2000 THEN 'Average'\nWHEN model > 1990 THEN 'Old'\nELSE 'Old' END\nUsing GROUP BY with SQL Server CASE statement\nWHILE LOOP STATEMENT\nSQL WHILE loop provides us with the advantage to execute the SQL\nstatement(s) repeatedly until the specified condition result turn out to"
+    },
+    {
+      "index": 10,
+      "panjang_karakter": 421,
+      "text": "be false.\nIn the following sections of this article, we will use more flowcharts in\norder to explain the notions and examples. For this reason, firstly, we\nwill explain what is a flowchart briefly. The flowchart is a visual\ngeometric symbol that helps to explain algorithms visually. The\nflowchart is used to simply design and document the algorithms. In the\nflowchart, each geometric symbol specifies different meanings."
+    },
+    {
+      "index": 11,
+      "panjang_karakter": 973,
+      "text": "SQL WHILE loop syntax and example\nThe syntax of the WHILE loop in SQL looks like as follows:\nWHILE condition\nBEGIN\n{...statements...}\nEND\nexample\nAfter these explanations, we will give a very simple example of a\nWHILE loop in SQL. In the example given below, the WHILE loop\nexample will write a value of the variable ten times, and then the loop\nwill be completed:\nDECLARE @Counter INT\nSET @Counter=1\nWHILE ( @Counter <= 10)\nBEGIN\nPRINT 'The counter value is = ' + CONVERT(VARCHAR,@Counter)\nSET @Counter = @Counter + 1\nEND\nresult\nIn this part of the code, we declare a variable, and we assign an\ninitializing value to it:\nDECLARE @Counter INT\nSET @Counter=1\nThis part of the code has a specified condition that until the variable\nvalue reaches till 10, the loop continues and executes the PRINT\nstatement. Otherwise, the while condition will not occur, and the loop\nwill end:\nWHILE ( @Counter <= 10)\nIn this last part of the code, we executed the SQL statement, and then we"
+    },
+    {
+      "index": 12,
+      "panjang_karakter": 108,
+      "text": "incremented the value of the variable:\nThe following flowchart illustrates this WHILE loop example visually:"
+    },
+    {
+      "index": 13,
+      "panjang_karakter": 574,
+      "text": "Infinite SQL WHILE loop\nIn the infinite loop AKA endless loop, the condition result will never be\nfalse, so the loop never ends and can work forever. Imagine that we\nhave a WHILE loop, and we don't increment the value of the variable.\nIn this scenario, the loop runs endlessly and never ends. Now, we will\nrealize this scenario with the help of the following example. We need to\ntake account of one thing that we should not forget to cancel the\nexecution of the query manually:\nDECLARE @Counter INT\nSET @Counter=1\nWHILE ( @Counter <= 10)\nBEGIN\nPRINT 'Somebody stops me!'\nEND"
+    },
+    {
+      "index": 14,
+      "panjang_karakter": 666,
+      "text": "BREAK STATEMENT\nBREAK statement is used in the SQL WHILE loop in order to exit the\ncurrent iteration of the loop immediately when certain conditions\noccur. In the generally IF...ELSE statement is used to check whether the\ncondition has occurred or not. Refer to the SQL IF Statement\nintroduction and overview article for more details about the IF...ELSE\nstatement.\nThe following example shows the usage of the BREAK statement in the\nWHILE loop:\nBREAK STATEMENT\nDECLARE @Counter INT\nSET @Counter=1\nWHILE ( @Counter <= 10)\nBEGIN\nPRINT 'The counter value is = ' + CONVERT(VARCHAR,@Counter)\nIF @Counter >=7\nBEGIN\nBREAK\nEND\nSET @Counter = @Counter + 1\nEND\nBREAK STATEMENT"
+    },
+    {
+      "index": 15,
+      "panjang_karakter": 521,
+      "text": "CONTINUE statement\nIn the following example, we will check whether the variable value is odd or even. If the variable value is odd,\nthe code enters the IF...ELSE statement blocks and increment the value of the variable, execute the CONTINUE\nstatement and starts a new iteration:\nDECLARE @Counter INT\nSET @Counter=1\nWHILE ( @Counter <= 20)\nBEGIN\nIF @Counter % 2 =1\nBEGIN\nSET @Counter = @Counter + 1\nCONTINUE\nEND\nPRINT 'The counter value is = ' + CONVERT(VARCHAR,@Counter)\nSET @Counter = @Counter + 1\nEND\nCONTINUE statement"
+    },
+    {
+      "index": 16,
+      "panjang_karakter": 835,
+      "text": "Reading table records through the WHILE loop\nIn the following example, we will read table data, row by row. Firstly we will create a sample\ntable:\nUSE tempdb\nGO\nDROP TABLE IF EXISTS SampleTable\nCREATE TABLE SampleTable\n(Id INT, CountryName NVARCHAR(100), ReadStatus TINYINT)\nGO\nINSERT INTO SampleTable ( Id, CountryName, ReadStatus)\nValues (1, 'Germany', 0),\n(2, 'France', 0),\n(3, 'Italy', 0),\n(4, 'Netherlands', 0) ,\n(5, 'Poland', 0)\nSELECT * FROM SampleTable\nUSE tempdb\nGO\nDECLARE @Counter INT , @MaxId INT,\n@CountryName NVARCHAR(100)\nSELECT @Counter = min(Id) , @MaxId =\nmax(Id)\nFROM SampleTable\nWHILE(@Counter IS NOT NULL\nAND @Counter <= @MaxId)\nBEGIN\nSELECT @CountryName = CountryName\nFROM SampleTable WHERE Id = @Counter\nPRINT CONVERT(VARCHAR,@Counter) + '.\ncountry name is ' + @CountryName\nSET @Counter = @Counter + 1\nEND\nRESULT"
+    }
+  ]
+}

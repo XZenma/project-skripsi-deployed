@@ -1,0 +1,13 @@
+{
+  "filename": "STUDI KASUS 10.txt",
+  "matkul": "Basis Data 2",
+  "teknik": "recursive",
+  "total_chunks": 1,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 779,
+      "text": "STUDI KASUS 10\n\nA publishing company produces scientific books on various subjects.\n\nThe books are written by authors who specialize in one particular subject.\nThe company employs editors who, not necessarily being specialists in a particular area,\neach take sole responsibility for editing one or more publications.\nA publication covers essentially one of the specialist subjects and is normally written by\na single author.\nWhen writing a particular book, each author works with an editor, but may submit\nanother work for publication to be supervised by other editors.\nTo improve their competitiveness, the company tries to employ a variety of authors,\nmore than one author being a specialist in a particular subject.\n\na. Draw ERD ( Chen Diagram)\nb. Draw TRD ( Crowfoot Diagram)"
+    }
+  ]
+}

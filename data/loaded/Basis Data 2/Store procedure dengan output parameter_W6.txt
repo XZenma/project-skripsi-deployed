@@ -1,0 +1,92 @@
+Store procedure dengan output 
+parameter 
+ISA212 Basisdata 2
+minggu 6
+Mira Musrini Barmawi M.T.
+Contoh tabel
+Employee table 
+create database ISA212_minggu6
+go
+use ISA212_minggu6 
+go 
+create table employee
+(ID int primary key , name varchar(40) , Gender varchar(20) , 
+departement_id int)
+Store procedure with output parameter
+To create a stored procedure with output parameter, we use the keywords 
+OUT or OUTPUT. @EmployeeCount in the below stored procedure is an 
+OUTPUT parameter. Notice that it is specified with OUTPUT keyword.
+CREATE PROCEDURE spGetEmployeeCountByGender
+@Gender nvarchar(20),
+@EmployeeCount int Output
+AS
+BEGIN
+SELECT @EmployeeCount = COUNT(Id) 
+FROM tblEmployee
+WHERE Gender = @Gender
+END
+Store procedure with output parameter 
+To execute this stored procedure with OUTPUT parameter, follow the 
+below steps:
+1. First, initialise a variable of same datatype as that of the output 
+parameter. Here, we have declared @EmployeeTotal integer 
+variable.
+2. Then pass the @EmployeeTotal variable to the stored procedure. 
+You have to specify the OUTPUT keyword. If you don’t specify the 
+OUTPUT keyword, the variable will be NULL.
+3. Then execute the stored procedure.
+Execute Store procedure with output 
+parameter 
+DECLARE @EmployeeTotal int
+EXECUTE spGetEmployeeCountByGender ‘Female’, 
+@EmployeeTotal output
+PRINT @EmployeeTotal
+If you don’t specify the OUTPUT keyword, while executing the stored procedure, 
+the @EmployeeTotal variable will be NULL. In the example below, we have not 
+specified OUTPUT keyword. So while executing the stored procedure, a message of 
+@EmployeeTotal is null is printed.
+Execute Store procedure with output 
+parameter 
+DECLARE @EmployeeTotal int
+EXECUTE spGetEmployeeCountByGender ‘Female’, @EmployeeTotal
+IF(@EmployeeTotal is null)
+PRINT ‘@EmployeeTotal is null’
+ELSE
+PRINT ‘@EmployeeTotal is not null’
+Execute Store procedure with output parameter 
+While using the parameter names, you can pass the parameters in any 
+order. In the example below, we are first passing the OUTPUT 
+parameter and then the input @Gender parameter. But we will get the 
+total number of male employees without any errors.
+DECLARE @EmployeeTotal int
+EXECUTE spGetEmployeeCountByGender @EmployeeCount = 
+@EmployeeTotal OUT, @Gender = ‘Male’
+PRINT @EmployeeTotal
+Execute Store procedure with output parameter 
+• Now let’s have a quick look at some of the extremely useful system 
+stored procedures.
+• sp_help SP_Name: Used to view the information about the stored
+procedure like parameter names, their datatypes, etc. sp_help can be
+used with any database object, like Tables, Views, SPs, Triggers, etc.
+Alternatively, you can also press ALT+F1, when the name of the object
+is highlighted.
+Sp_HELP <sp_helpname>
+Sp_help <table_name>
+• You can use sp_help with any database objects like Tables, Views, 
+Triggers, etc. For example, when we use sp_help with tblEmployee
+table, we will get all the information about the table like different 
+columns present in the table, their data types, indexes associated 
+with the table, constraints associated with the table, etc.
+
+Sp_helpText
+sp_helptext SP_Name: Used to view the Text of the stored procedure.
+For example, when we use <span style="color:#800000;">sp_helptext
+</span>spGetEmployeeCountByGender, we will get the text of this 
+stored procedure.
+SP_DEPENDS
+sp_depends SP_Name: Used to view the dependencies of the stored 
+procedure. This system stored procedure is very useful, especially if you want 
+to check whether there are any stored procedures that are referencing a 
+table which you are about to drop. sp_depends can also be used with other 
+database objects like Tables, Views, etc.
+

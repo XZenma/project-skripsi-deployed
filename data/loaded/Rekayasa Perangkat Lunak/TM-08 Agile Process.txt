@@ -1,0 +1,263 @@
+I
+Rekayasa
+Perangkat
+Lunak
+TM-08 Agile Process/ Agile 
+Model/ Agile Methodology
+Senin, 15/03/2021
+NAME OR LOGO
+Outline
+2
+o Apa itu Agile?
+o Apa itu SCRUM?
+o Apa itu Sprint?
+o Apa itu User Strory?
+o Bagaimana memberi/ mengestimasikan Story Points?
+o Apa arti Definition of Done (DoD) dengan Definition of Ready (DoR)?
+o Perbedaan Sprint Activities
+o Sprint Backlog, Sprint Review, dan Sprint Restropective
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Apa itu Agile
+3
+o Agile adalah suatu pendekatan dari pengembangan perangkat lunak yang digunakan
+untuk:
+o (1) menemukan kebutuhan dan mengembangkan solusi melalui upaya kolaboratif
+antara tim proyek dengan customer nya.
+o (2) perencanaan yang adaptif, pengembangan yang ber-evolusi, delivery (pengiriman) 
+lebih awal, perbaikan berkelanjutan, dan merespon terhadap perubahan di tengah-
+tengah pengembangan.
+o Antara fase pengembangan dengan pengujian dilakukan secara bersamaan, tidak
+seperti model Waterfall.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Epic, Stories, dan
+Task (1)
+4
+o
+Epic (Why) mendefinisikan kebutuhan bisnis.
+o
+Stories (What) mendefinisikan kebutuhan customer.
+o
+As a User, I want to bla bla, So that bla bla.
+o
+Task (How) mendefinisikan solusi.
+o
+Contoh Epic (High-Level/Larger 
+Requirements): Sebagai seorang nasabah, saya
+ingin menggunakan Aplikasi Perbankan Online.
+o
+Stories 1 (Smaller Reqs): Sebagai sorang
+nasabah, saya ingin melakukan log in ke aplikasi.
+o
+Stories 2: Sebagai seorang nasabah, saya ingin
+melihat saldo, sehingga saya dapat mengetahui
+berapa sisa saldo dalam rekening.
+o
+Sories 3: Sebagai seorang nasabah, saya ingin
+mentransfer uang ke sesama bank atau ke bank 
+lain, sehingga pengiriman uang dapat dilakukan
+lebih cepat.
+ISA-202 Rekayasa Perangkat Lunak
+Features
+NAME OR LOGO
+Epic, Stories, dan Task (2)
+5
+o
+Stories 1: Sebagai seorang nasabah, saya ingin melakukan login ke aplikasi perbankan online.
+o
+Developer Task:
+•
+Dev-Task 1: Review the Story
+•
+Dev-Task 2: Estimate the Story
+•
+Dev-Task 3: Design
+•
+Dev-Task 4: Coding
+•
+Dev-Task 5: Unit Testing
+•
+Dev-Task 6: Integration Testing
+o
+QA Task:
+•
+QA-Task 1: Review the Story
+•
+QA-Task 2: Prepare the Test Case
+•
+QA-Task 3: Prepare the Test Scenario
+•
+QA-Task 4: Prepare the Test Data
+•
+QA-Task 4: Execute the Test Case
+•
+QA-Task 5: Report the Bugs
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+SCRUM Roles
+6
+o
+Product Owner:
+o
+mendefinisikan fitur dari produk (epic dan stories)
+o
+menentukan tanggal rilis produk
+o
+memprioritaskan fitur berdasarkan nilai pasar
+o
+menyesuaikan fitur dan prioritas setiap iterasi
+o
+menolak atau menerima hasil
+o
+SCRUM Master: 
+o
+sebagai fasilitator untuk Agile Development Team
+o
+memungkinkan kerjasama yang erat antar tim
+o
+Berorientasi pada proses bukan produk:
+•
+Apa kendala yang terjadi, Apa tantangannya, dan
+Bagaimana cara mengatasi tantangan tersebut?
+o
+sebagai mediator antara Product Owner, Developer, QA, 
+dll.
+o
+SCRUM Team:
+o
+Developer
+o
+Quality Assurance (QA)
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Definition of Ready (DoR) dan Definition of Done (DoD)
+7
+o DoR
+o User story jelas
+o User story dapat diuji
+o User story layak
+o User story memenuhi acceptance criteria
+o Keterkaitan antar user story didefinisikan
+o DoD
+o Kode program telah dikembangkan
+o Setiap kode diberi sudah diberi komentar dan di cek di dalam versioning control (Git)
+o Kode program sudah melewati review (pair programming)
+o Kode program tanpa error
+o Unit testing sudah dilakukan
+o Melewati fase UAT
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Agile – SCRUM Framework (1)
+8
+o Product Backlog adalah
+dokumen sederhana yang 
+dipersiapkan oleh Product 
+Owner yang berisi kebutuhan
+(epic, feature, stories) dari
+customer.
+o Sprint Backlog
+o Daily SCRUM Meeting (15 
+menit) :
+o
+Apa yang sudah dilakukan selama 24 
+jam kebelakang ?
+o
+Apa kendalanya?
+o
+Bagaimana cara mengatasinya?
+o
+Apa rencana besok hari?
+o Sprint Restropective :
+o
+Apa yang sudah baik?
+o
+Apa yang masih salah
+o
+Apa yang perlu ditingkatkan
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Agile – SCRUM Framework (3) - Story Points
+9
+o Tidak ada aturan baku dalam
+mendefinisikan Story Points 
+karena story points bukan
+jumlah jam, atau jumlah hari.
+o Biasa nya developer
+menggunakan prinsip deret
+Fibonacci untuk menentukan
+story point: 1, 2, 3, 5, 8, 13, 
+21
+o Artinya semakin besar nilainya
+maka semakin besar upaya
+untuk mengerjakannya
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Agile – SCRUM Framework (3) – Sprint Backlog
+10
+o Sprint Backlog adalah
+dokumen yang berisi
+requirement (stories) yang 
+siap untuk
+diimplementasikan dan diuji
+pada Sprint tertentu.
+o Jika dalam Sprint tidak
+semua user story dapat
+diselesaikan
+(diimplementasikan dan
+diuji) maka user story yang 
+belum selesai tersebut akan
+masuk lagi ke dalam Product 
+Backlog untuk dikerjakan
+pada Sprint berikutnya.
+o Selama pelaksanaan Sprint 
+SCRUM Master memiliki
+peranan yang sangat penting
+untuk memonitor proses 
+Agile berjalan dengan baik
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Agile – SCRUM Framework (3) – Burndown Chart
+11
+o Burndown Chart adalah representasi
+grafis yang digunakan sebagai matrik
+untuk mengetahui pekerjaan yang tersisa
+berdasarkan jumlah poin.
+o Burndown chart dibuat oleh SCRUM 
+Master.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Agile – SCRUM Framework (3) – SCRUM Board
+12
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Keuntungan dari Agile SCRUM
+13
+o Dapat menghemat biaya dan waktu dari pengembangan proyek
+o Kualitas dapat dijamin karena setiap Sprint dilakukan pengujian beberapa kali
+o Dapat mengakomodasi perubahan walaupun sudah masuk pada fase
+pengembangan
+o Semua partisipan di dalam SCRUM transparansi, artinya apa yang mereka
+kerjakan jelas.
+o Setiap Sprint, ada produk yang di-delivery kepada customer, sehingga dapat
+mengetahui apa yang membuat customer puas dan menghindari risiko-risiko
+yang tidak diinginkan oleh customer.
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Contoh Product Backlog
+14
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Contoh Sprint Backlog
+15
+ISA-202 Rekayasa Perangkat Lunak
+NAME OR LOGO
+Contoh Task
+16
+ISA-202 Rekayasa Perangkat Lunak
+Thank 
+You
+Kurnia Ramadhan Putra, S.Kom., M.T.
+kurniaramadhan@itenas.ac.id
+https://www.researchgate.net/profile/Ku
+rnia_Putra3

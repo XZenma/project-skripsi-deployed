@@ -1,0 +1,663 @@
+1
+
+INSTITUT TEKNOLOGI NASIONAL
+FAKULTAS TEKNIK SIPIL DAN PERENCANAAN
+PROGRAM SARJANA/MAGISTER ................
+
+RENCANA PEMBELAJARAN SEMESTER
+FORM : ITENAS.../F_RPS_..../..
+Mata Kuliah
+Kode
+Bobot sks
+Semester
+Tanggal penyusunan
+Basisdata 2
+ISB 212
+4
+
+Koordinator
+Pengampu MTK
+Koordinator RMK/KBI
+Ka Prodi
+Persetujuan (tanda tangan)
+Dekan
+Persetujuan (tanda tangan)
+
+Capaian
+Pembelajaran
+Lulusan (CPL Padu)1)
+yang dibebankan
+pada mata kuliah
+CPL PADU- YANG DIBEBANKAN PADA MATAKULIAH2)
+
+CPL 8: Mampu merancang dan mengimplementasi model data untuk sebuah sistem informasi (62%)
+
+CPL9: Mampu menganalisis informasi dan data menggunakan metode analisis data yang mutakhir untuk mengambil
+keputusan secara tepat (38%)
+
+CPMK3)
+CAPAIAN PEMBELAJARAN MATA KULIAH (CPMK)
+
+CPMK-1 : Mahasiswa mampu menganalisa dan merancang basisdata
+CPMK-2 : Mahasiwa membuat bactth program dalam lingkungan DBMS
+(ada keselarasan yang konstruktif dengan CPL Padu yang dibebankan pada mata kuliah)
+2
+
+SUBCPMK4)
+KEMAMPUAN AKHIR TIAP TAHAPAN BELAJAR (SUBCPMK)
+
+(perlu dilengkapi dengan peta pencapaian CPMK)
+CPMK-1 : Mahasiswa merancang meganalisa dan merancanga basisdata
+subCPMK-1-1 : mahasiswa mampu menganalisa entitas dan relasi untuk studi kasus tertentu
+subCPMK-1-2 : Mahasiswa mampu menggambarkan diagram Chen dan CrowFoot untuk studi kasus tertentu
+CPMK-2 : Mahasiswa mampu membuat program dalam lingkungan DBMS
+sub CPMK 2-1 mahasiswa mampu membuat batch program dalam lingkungan DBMS
+Sub CPMK-2-2 : Mahasiswa membuat store prosedur dalam lingkungan DBMS
+Sub CPMK -2-3 : Mahasiswa membuat fungsi dalam lingkungan DBMS
+Sub CPMK-2-4 : Mahasiswa mampu membuat trigger dalam lingkungan DBMS
+(ada keselarasan yang konstruktif dengan CPL Padu yang dibebankan pada mata kuliah)
+
+Korelasi CPL Padu, Indikator CPL, CPMK dan SubCPMK
+
+Korelasi CPL Padu, Indikator CPL Padu, dan CPMK
+Kode CPL
+Kode Indikator CPL Padu
+CPMK
+CPMK 1
+CPMK 2
+CPMK 3
+CPL 8
+(68%)
+8.a Mampu mengidentifikasi
+dan merancang model data
+sesuai kebutuhan organisasi
+
+v
+
+CPL8
+(68%)
+8b.
+Mampu
+meng-
+implementasikan rancangan
+model data ke dalam DBMS
+
+v
+
+CPL 9
+(32%)
+9b. Mampu menganalisis
+data menggunakan metode
+analisis data yang tepat
+V
+
+Lampirkan
+peta
+kompetensi
+pencapaian
+CPMK
+3
+
+CPL 9
+(32%)
+9c. Mampu menyajikan hasil
+analisis berupa visualisasi
+data untuk membantu dalam
+proses pengambilan
+keputusan
+v
+
+Deskripsi Singkat
+Mata Kuliah
+Matakuliah ini mempelajari perancangan basisdata ( sebagai review dari basisdata1) dan mempelajari tentang semua
+pemrograman dalam lingkungan basisdata ( constraint, kalimat IF, kalimat pengulangan, store prosedur, constraint,
+view, fungsi , trigger)
+Bahan kajian: Materi
+Pembelajaran (sesuai
+SubCPMK)
+Bahan kajian:
+
+Perancangan basisdata
+Constraint
+Kalimat IF
+Kalimat Pengulangan
+Stored Procedure
+Constraint
+View
+Function
+Trigger
+Kriteria/Teknik
+Penilaian Dan Kaitan
+Dengan CPMK
+
+CPMK 1
+CPMK 2
+sub CPMK 1
+v
+sub CPMK 2
+v
+sub CPMK 3
+v
+sub CPMK 4
+v
+sub CPMK 5
+v
+sub CPMK 6
+v
+4
+
+kriteria / teknik penilaian
+presentase CPMK
+CPMK
+media / Rubrik
+( persub CPMK )
+(%)
+1
+2
+
+sub CPMK 1
+16
+v
+
+tugas terstruktur(5%)
+Latihan Kuis (5%)
+Ujian Sub CPMK (UAS)
+(6%)
+sub CPMK 2
+16
+v
+
+tugas terstruktur(5%)
+Latihan Kuis (5%)
+Ujian Sub CPMK (UAS)
+(6%)
+sub CPMK 3
+17
+
+v
+tugas terstruktur (5%)
+Latihan Kuis(5%)
+Ujian Sub CPMK
+(UAS)(7%)
+sub CPMK 4
+17
+
+v
+tugas terstruktur (5%)
+Latihan Kuis(5%)
+Ujian Sub CPMK
+(UAS)(7%)
+sub CPMK 5
+17
+
+v
+tugas terstruktur (5%)
+Latihan Kuis(5%)
+Ujian Sub CPMK
+(UAS)(7%)
+sub CPMK 6
+17
+
+v
+tugas terstruktur (5%)
+Latihan Kuis(5%)
+Ujian Sub CPMK
+(UAS)(7%)
+
+Pustaka
+Utama:
+
+Pendukung:
+5
+
+Dosen Pengampu
+(dosen yang tertulis menyetujui RPS dan bertangung jawab atas pelaksanaan RPS ini)
+Mata Kuliah Prasyarat
+
+ISB 211 Basisdata 1
+Mg
+Ke-
+
+Kemampuan Akhir
+Tiap Tahapan
+Belajar (SubCPMK)
+
+Penilaian
+Bentuk Pembelajaran7);
+Metode Pembelajaran8);
+Penugasan Mahasiswa
+(estimasi waktu)
+Materi Pembelajaran9)
+(Pustaka)
+Bobot
+Penilaian10
+(%)
+Indikator5)
+Teknik6)
+(1)
+(2)
+(3)
+(4)
+Luring (5)
+Daring (6)
+(7)
+(8)
+
+1-2
+
+Mahasiswa mampu
+menganalisa ,
+merancang
+diagram chen dan
+diagram Crow Foot
+untuk studi kasus
+yang diberikan (
+sub CPMK 1)
+Mahasiswa mampu
+menggunakan
+variable ( sub
+CPMK2)
+
+-Ketepatan
+mahasiswa
+menganalisa
+entitas , relasi
+dan derajat
+relasi .
+Ketepatan
+dalam
+membuat
+diagram Chen
+Ketepatan
+dalam
+membuat
+diagram
+CrowFoot
+Ketepatan
+mahasiswa
+dalam
+menggunakan
+variable di
+lingkungan
+DBMS
+Partisipasi
+(Forum dan
+atau Alur
+Pembelajar
+an
+), Tes
+Tertulis
+(Pre Test &
+Post Test)
+dan
+Praktek
+(Tugas)
+PB: Kuliah
+
+TM [2 x 2 x 50"]
+MP1: Structure
+Overview & SDL
+(Pembelajaran
+Mandiri)
+
+KM [2 x 2 x 60"]
+- Membaca Modul
+melalui E-Learning
+
+PT [2 x 2 x 60"]
+Tugas 1 :
+Analisa dan
+perancangan
+
+16
+3-4
+
+Mahasiswa mampu
+membuat
+constraint dan
+mampu membuat
+batch program
+dengan kalimat IF
+-Ketepatan
+dalam
+menuliskan
+constraint pada
+kalimat create
+table dan alter
+table
+-ketepatan
+menuliskan
+Partisipasi
+(Forum dan
+atau Alur
+Pembelajar
+an
+), Tes
+Tertulis
+PB: Kuliah
+
+TM [2 x 3 x 50"]
+MP1: Structure
+Overview & SDL
+(Pembelajaran
+Mandiri)
+
+KM [2 x 3 x 60"]
+- Membaca Modul
+melalui E-Learning
+
+PT [2 x 3 x 60"]
+Tugas 2 :
+
+8
+6
+
+(Sub CPMK 2)
+
+kalimat IF,
+IF..ELSE.., IF
+...ELSE IF....ELSE
+... dan kalimat IF
+berkala
+Ketepatan
+dalam
+menuliskan
+kalimat
+CASE..OF
+(Pre Test &
+Post Test)
+dan
+Praktek
+(Tugas)
+Constraint , kalimat
+IF
+5
+Mahasiswa mampu
+membuat batch
+program dengan
+kalimat
+pengulangan
+(sub CPMK 2)
+Ketepatan
+dalam
+membuat
+kalimat WHILE...
+DO , REPEAT
+....UNTIL , FOR
+...DO...
+Partisipasi
+(Forum dan
+atau Alur
+Pembelajar
+an
+), Tes
+Tertulis
+(Pre Test &
+Post Test)
+dan
+Praktek
+(Tugas)
+PB: Kuliah
+
+TM [1 x 3 x 50"]
+MP1: Structure
+Overview & SDL
+(Pembelajaran
+Mandiri)
+KM [2 x 3 x 60"]
+- Membaca Modul
+melalui E-Learning
+
+PT [2 x 3 x 60"]
+Tugas 3 :
+Kalimat pengulangan
+
+8
+6 -7
+Mahasiswa mampu
+membuat store
+prosedur ( tanpa
+parameter , dengan
+parameter input,
+parameter output )
+( sub CPMK 3)
+Ketepatan
+membuat
+stored
+procedure
+tanpa
+parameter dan
+cara eksekusi .
+Ketepatam buat
+stored
+procedure
+dengan
+parameter
+input, dan cara
+eksekusinya
+Ketepatan
+membuat
+stored
+procedure
+dengan
+parameter
+output dan cara
+eksekusinya .
+Partisipasi
+(Forum dan
+atau Alur
+Pembelajar
+an
+), Tes
+Tertulis
+(Pre Test &
+Post Test)
+dan
+Praktek
+(Tugas)
+PB: Kuliah
+
+TM [2 x 3 x 50"]
+MP1: Structure
+Overview & SDL
+(Pembelajaran
+Mandiri)
+KM [2 x 3 x 60"]
+- Membaca Modul
+melalui E-Learning
+
+PT [2 x 3 x 60"]
+Tugas 4 :
+Stored procedure
+
+17
+7
+
+8
+Ujian Tengah Semester
+9-11
+Mahasiswa mampu
+menuliskan fungsi
+yang bernilai scalar
+, bernilai tabel (
+inline table valued
+function,
+multistatement
+table valued
+function) dan cara
+mengeksekusinya
+(sub CPMK 4)
+
+Ketepatan
+dalam
+menuliskan
+fungsi bernilai
+scalar dan cara
+eksekusinya
+Ketepatan
+dalam
+menuliskan
+fungsi bernilai
+tabel ( inline
+table valued
+Function) dan
+cara
+eksekusinya
+Ketepatan
+dalam
+menuliskan
+fungsi bernilai
+tabel (
+multistatement
+table valued
+Function) dan
+cara
+eksekusinya
+Partisipasi
+(Forum dan
+atau Alur
+Pembelajar
+an
+), Tes
+Tertulis
+(Pre Test &
+Post Test)
+dan
+Praktek
+(Tugas)
+PB: Kuliah
+
+TM [3 x 3 x 50"]
+MP1: Structure
+Overview & SDL
+(Pembelajaran
+Mandiri)
+KM [3 x 3 x 60"]
+- Membaca Modul
+melalui E-Learning
+
+PT [3 x 3 x 60"]
+Tugas 5 :
+Function
+17
+12-
+13
+
+Mahasiswa mampu
+menuliskan triger
+for insert , trigger
+for delete, triger
+for update
+Dan cara
+mengeksekusinya
+(sub CPMK 5)
+
+Ketepatan
+dalam
+menuliskan
+trigger for
+insert , triger
+for delete ,
+triger for
+update dan cara
+eksekusinya
+Partisipasi
+(Forum dan
+atau Alur
+Pembelajar
+an
+), Tes
+Tertulis
+(Pre Test &
+Post Test)
+dan
+Praktek
+(Tugas)
+PB: Kuliah
+
+TM [2 x 3 x 50"]
+MP1: Structure
+Overview & SDL
+(Pembelajaran
+Mandiri)
+KM [2 x 3 x 60"]
+- Membaca Modul
+melalui E-Learning
+
+PT [2 x 3 x 60"]
+Tugas 6 :
+Trigger
+17
+PB = proses belajar (1x50 menit)
+PT = penugasan terstruktur (1 x60 menit)
+KM = kegiatan mandiri (1 x 60 menit)
+1 sks = kegiatan 170 menit
+8
+
+14-
+15
+Mahasiswa mampu
+menuliskan view
+(sub CPMK 6)
+
+Partisipasi
+(Forum dan
+atau Alur
+Pembelajar
+an
+), Tes
+Tertulis
+(Pre Test &
+Post Test)
+dan
+Praktek
+(Tugas)
+PB: Kuliah
+
+TM [2 x 3 x 50"]
+MP1: Structure
+Overview & SDL
+(Pembelajaran
+Mandiri)
+KM [2 x 3 x 60"]
+- Membaca Modul
+melalui E-Learning
+
+PT [2 x 3 x 60"]
+Tugas 7 :
+View
+17
+15/16 UJian Akhir Semester:
+Sumber: Dikti, Pedoman KPT 2020
+Catatan:
+1.
+CPL Padu program studi adalah kemampuan yang dimiliki oleh setiap lulusan program studi yang merupakan bentuk perpaduan dari
+rumusan CPL SNDikti (internalisasi dari unsur sikap, keterampilan, dan penguasaan pengetahuan) sesuai dengan jenjang prodi. CPL padu
+diukur dan diperoleh selama melalui proses pembelajaran.
+2.
+CPL padu yang dibebankan pada mata kuliah adalah beberapa CPL Padu Prodi yang digunakan untuk pembentukan/pengembangan sebuah
+mata kuliah.
+3.
+CPMK adalah kemampuan yang dijabarkan secara spesific dari CPL Padu yang dibebankan pada mata kuliah, bersifat spesifik terhadap bahan
+kajian atau materi pembelajaran mata kuliah tersebut.
+4.
+SUBCPMK adalah kemampuan yang dijabarkan secara spesific dari CPMK yang dapat diukur atau diamati dan merupakan kemampuan akhir
+yang direncanakan pada tiap tahap pembelajaran, dan bersifat spesifik terhadap materi pembelajaran mata kuliah tersebut.
+5.
+Indikator penilaian kemampuan dalam proses maupun hasil belajar mahasiswa adalah pernyataan spesifik dan terukur yang mengidentifikasi
+kemampuan atau kriteria hasil belajar mahasiswa yang disertai bukti-bukti.
+6.
+Teknik penilaian: tes dan nontes
+7.
+Bentuk pembelajaran: kuliah, seminar atau yang setara, responsi, tutorial, praktikum, praktik studio, praktik bengkel, praktik lapangan,
+penelitian, PkM, dan/atau bentuk pembelajaran lain yang setara
+8.
+Metode pembelajaran: small grup discussion, discovery learning, cooperative learning, collaborative learning, contextual learning, project
+based learning, dan/atau metode lain yang setara.
+9
+
+9.
+Materi pembelajaran adalah rincian atau uraian dari bahan kajian yang dapat disajikan dalam bentuk beberapa pokok bahasan dan
+subpokok bahasan.
+10. Bobot penilaian adalah persentase penilaian terhadap setiap pencapaian subcpmk yang besarnya proporsional dengan tingkat kesulitan
+pencapaian SUBCPMK tsb, totalnya = 100%

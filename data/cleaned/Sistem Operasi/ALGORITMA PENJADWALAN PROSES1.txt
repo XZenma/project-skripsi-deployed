@@ -1,0 +1,389 @@
+Algoritma
+Penjadwalan
+Proses
+Asep Rizal Nurjaman
+Penjadwalan Proses
+Penjadwalan proses adalah aktivitas manajer
+proses yang menangani penghapusan
+proses yang berjalan dari CPU dan pemilihan
+proses lain berdasarkan strategi tertentu.
+Penjadwalan proses adalah bagian penting dari
+sistem operasi Multiprogramming. Sistem
+operasi semacam itu memungkinkan lebih dari
+satu proses untuk dimuat ke dalam memori yang
+dapat dieksekusi pada suatu waktu dan proses
+yang
+dimuat
+berbagi
+CPU
+menggunakan
+penggandaan waktu.
+Algoritma Penjadwalan
+Proses
+First Come First Served (FCFS) / FIFO (First
+In First Out)
+SJF (Shortest Job First)
+FCFS
+Merupakan algoritma penjadwalan CPU
+yang paling sederhana
+Proses yang tiba lebih dahulu akan
+dilayani lebih dahulu
+Kalau ada proses tiba pada waktu yang
+sama, maka pelayanan mereka
+dilaksanakan berdasarkan urutan dalam
+antrian
+Proses di antrian belakang harus
+menunggu sampai semua proses di
+depannya selesai.
+Contoh - FCFS
+Diketahui 3 buah proses sbb:
+Gantt chart
+Waiting Time
+AWT
+FCFS (2)
+Contoh soal 1:
+Jika diketahui terdapat 5 macam antrian proses, yaitu
+A-B-C-D-E dengan waktu kedatangan semuanya 0.
+Lama proses berturut-turut antara lain: 5-2-6-8-3.
+Pertanyaan:
+Kapan dimulainya eksekusi dari tiap-tiap antrian
+proses tsb?
+Kapan selesai eksekusinya?
+Hitung Turn Arround Time (TA)-nya?
+Berata rata-rata TA?
+Rumus
+TA = Waktu Tunggu + Lama Eksekusi
+Rata-rata TA = ∑TA / ∑Job
+Waktu Tunggu = Mulai Eksekusi - Waktu Tiba
+FCFS (3)
+Jawaban:
+Nama
+Proses
+Waktu
+Tiba
+Lama
+Eksekusi
+A
+0
+5
+B
+0
+2
+C
+0
+6
+D
+0
+8
+E
+0
+3
+FCFS (4)
+Nama
+Proses
+Waktu
+Tiba
+Lama
+Ekseku
+si
+Mulai
+Ekseku
+si
+Waktu
+Tunggu
+Selesai
+Ekseku
+si
+TA
+A
+0
+5
+0
+0
+5
+5
+B
+0
+2
+5
+5
+7
+7
+C
+0
+6
+7
+7
+13
+13
+D
+0
+8
+13
+13
+21
+21
+E
+0
+3
+21
+21
+24
+24
+∑TA = 70
+rerata TA=14
+FCFS (5)
+Contoh Soal 2: diketahui terdapat 5 macam antrian
+proses, yaitu A-B-C-D-E dengan waktu kedatangan
+semuanya 0-1-2-2-5. Lama proses berturut-turut
+antara lain: 5-2-6-8-3.
+Pertanyaan:
+a. Kapan dimulainya eksekusi dari tiap-tiap antrian
+proses tsb?
+b.Kapan selesai eksekusinya?
+c. Hitung Turn Arround Time (TA)-nya?
+d. Berata rerata TA?
+Rumus
+TA = Waktu Tunggu + Lama Eksekusi
+Rerata TA = ∑TA / ∑Job
+Waktu Tunggu = Mulai Eksekusi - Waktu Tiba
+FCFS (6)
+Nama
+Proses
+Waktu
+Tiba
+Lama
+Eksekusi
+Mulai
+Eksekusi
+Selesai
+Eksekusi
+Waktu
+Tunggu
+TA
+A
+0
+5
+0
+5
+0
+5
+B
+1
+2
+5
+7
+4
+6
+C
+2
+6
+7
+13
+5
+11
+D
+2
+8
+13
+21
+11
+19
+E
+5
+3
+21
+24
+16
+19
+∑TA = 60
+Rerata = 12
+FCFS (7)
+Berdasarkan kriteria penilaian penjadwalan:
+Fairness
+Penjadwalan FCFS adil dalam arti semantiks (dalam arti
+antrian)
+Efesiensi
+Penjadwalan FCFS sangat efisien dalam penggunaan
+pemroses
+Waktu Tanggap
+Penjadwalan sangat tidak memuaskan, karena proses
+dapat menunggu lama
+Turn Arround Time
+Penjadwalan FCFS tidak bagus
+Throughput
+Penjadwalan FCFS tidak bagus.
+Shortest Job First
+Dasar prioritas adalah pendeknya proses.
+Makin pendek/singkat proses makin tinggi
+prioritasnya
+Langkah I: tentukan urutan prioritas berdasarkan
+pendeknya proses yang dilayani
+Langkah II: penentuan proses mana yang dilayani
+oleh pemroses
+Setiap proses yang ada dalam ready queue
+akan dieksekusi berdasarkan burst time
+terkecil
+Hal ini mengakibatkan waiting time yang
+pendek untuk setiap proses, maka rerata
+waiting time (AWT) juga menjadi pendek
+Algoritma ini dikatakan optimal
+SJF (2)
+Contoh Soal 1:
+Nama
+Proses
+Waktu
+Tiba
+Lama
+Eksekusi
+A
+0
+10
+B
+0
+5
+C
+0
+7
+D
+0
+1
+E
+0
+3
+SJF (3)
+Nama Proses
+Waktu Tiba
+Lama
+Eksekusi
+D
+0
+1
+E
+0
+3
+B
+0
+5
+C
+0
+7
+A
+0
+10
+SJF (4)
+Nama
+Proses
+Waktu
+Tiba
+Lama
+Eksekusi
+Mulai
+Eksekusi
+Selesai
+Eksekusi
+TA
+D
+0
+1
+0
+1
+1
+E
+0
+3
+1
+4
+4
+B
+0
+5
+4
+9
+9
+C
+0
+7
+9
+16
+16
+A
+0
+10
+16
+26
+26
+∑TA = 56
+rata2 TA =
+11,2
+SJF (5)
+Nama Proses
+Lama
+Eksekusi
+Waktu Tiba
+D
+1
+0
+E
+3
+2
+B
+5
+5
+C
+7
+7
+A
+10
+9
+SJF (6)
+Nama
+Proses
+Waktu
+Tiba
+Lama
+Eksekusi
+Mulai
+Eksekusi
+Selesai
+Eksekusi
+Waktu
+Tunggu
+TA
+D
+0
+1
+0
+1
+0
+1
+E
+2
+3
+2
+5
+0
+3
+B
+5
+5
+5
+10
+0
+5
+C
+7
+7
+10
+17
+3
+10
+A
+9
+10
+17
+27
+8
+18
+∑TA = 37
+Rerata = 7,4

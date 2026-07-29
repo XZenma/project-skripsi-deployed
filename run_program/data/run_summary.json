@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-17T02:01:47.926987",
+  "tahap_bersama": {
+    "loader": {
+      "total_dokumen": 99,
+      "durasi_detik": 4.1552
+    },
+    "cleaner": {
+      "total_dokumen": 99,
+      "durasi_detik": 1.7814
+    },
+    "deduplicator": {
+      "total_dokumen_sebelum": 99,
+      "total_dokumen_sesudah": 88,
+      "total_dibuang": 11,
+      "durasi_detik": 0.5071
+    }
+  },
+  "per_teknik": {
+    "fixed": {
+      "teknik": "fixed",
+      "timestamp_mulai": "2026-07-17T02:01:54.457415",
+      "tahap": {
+        "chunker": {
+          "total_chunks": 2488,
+          "total_dokumen": 88,
+          "durasi_detik": 1.9844
+        },
+        "embedder": {
+          "total_chunks_diembed": 2488,
+          "durasi_detik": 901.6333,
+          "status": "sukses"
+        }
+      },
+      "durasi_total_detik": 903.618,
+      "timestamp_selesai": "2026-07-17T02:16:58.075427"
+    },
+    "recursive": {
+      "teknik": "recursive",
+      "timestamp_mulai": "2026-07-17T02:16:58.078745",
+      "tahap": {
+        "chunker": {
+          "total_chunks": 2860,
+          "total_dokumen": 88,
+          "durasi_detik": 0.4978
+        },
+        "embedder": {
+          "total_chunks_diembed": 2860,
+          "durasi_detik": 987.6887,
+          "status": "sukses"
+        }
+      },
+      "durasi_total_detik": 988.1867,
+      "timestamp_selesai": "2026-07-17T02:33:26.265462"
+    },
+    "sentence": {
+      "teknik": "sentence",
+      "timestamp_mulai": "2026-07-17T02:33:26.269581",
+      "tahap": {
+        "chunker": {
+          "total_chunks": 2832,
+          "total_dokumen": 88,
+          "durasi_detik": 72.3706
+        },
+        "embedder": {
+          "total_chunks_diembed": 2832,
+          "durasi_detik": 1022.4952,
+          "status": "sukses"
+        }
+      },
+      "durasi_total_detik": 1094.8661,
+      "timestamp_selesai": "2026-07-17T02:51:41.135682"
+    },
+    "semantic": {
+      "teknik": "semantic",
+      "timestamp_mulai": "2026-07-17T02:51:41.139952",
+      "tahap": {
+        "chunker": {
+          "total_chunks": 1032,
+          "total_dokumen": 88,
+          "durasi_detik": 3691.8112
+        },
+        "embedder": {
+          "total_chunks_diembed": 1032,
+          "durasi_detik": 742.7877,
+          "status": "sukses"
+        }
+      },
+      "durasi_total_detik": 4434.6007,
+      "timestamp_selesai": "2026-07-17T04:05:35.740672"
+    }
+  },
+  "timestamp_selesai": "2026-07-17T04:05:35.744675",
+  "ringkasan": {
+    "fixed": {
+      "total_chunks_final": 2488,
+      "durasi_chunking_detik": 1.9844,
+      "durasi_embedding_detik": 901.6333,
+      "durasi_total_detik": 903.618
+    },
+    "recursive": {
+      "total_chunks_final": 2860,
+      "durasi_chunking_detik": 0.4978,
+      "durasi_embedding_detik": 987.6887,
+      "durasi_total_detik": 988.1867
+    },
+    "sentence": {
+      "total_chunks_final": 2832,
+      "durasi_chunking_detik": 72.3706,
+      "durasi_embedding_detik": 1022.4952,
+      "durasi_total_detik": 1094.8661
+    },
+    "semantic": {
+      "total_chunks_final": 1032,
+      "durasi_chunking_detik": 3691.8112,
+      "durasi_embedding_detik": 742.7877,
+      "durasi_total_detik": 4434.6007
+    }
+  }
+}

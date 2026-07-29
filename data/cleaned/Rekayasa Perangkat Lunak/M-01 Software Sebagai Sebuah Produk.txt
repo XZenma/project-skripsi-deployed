@@ -1,0 +1,189 @@
+M-01
+SOFTWARE SEBAGAI SEBUAH PRODUK
+ISA-202 Rekayasa Perangkat Lunak
+KURNIA RAMADHAN PUTRA, S.KOM., M.T.
+Kerangka
+Materi
+Perkembangan Peranan software
+Definisi Software dan Karakteristik
+software
+Jenis Software Aplikasi
+Mitos-mitos pada software
+ULASAN MATERI
+Software adalah kode program, data,
+dan dokumentasi
+APA ITU SOFTWARE
+Software engineer yang mendesain dan
+membangun software, dan semua
+orang di industri sebagai pengguna
+software tersebut.
+SIAPA YANG TERLIBAT DI
+DALAMNYA
+Karena software berdampak pada seluruh aspek
+yang dekat dengan kehidupan, yang sudah
+merasuk pada pemerintahan, perdagangan,
+budaya, dan aktivitas kehidupan lainnya.
+KENAPA SOFTWARE ITU PENTING?
+Membangun software sama halnya dengan
+membuat produk apapun, dengan
+menerapkan proses yang baik maka akan
+menghasilkan produk yang berkualitas dan
+sesuai dengan kebutuhan customer. Proses
+tersebut dicakup dalam pendekatan
+reakayasa perangkat lunak.
+BAGAIMANA LANGKAH-
+LANGKAH NYA?
+Dari sudut pandang software engineer,
+work product itu adalah kode program,
+data dan dokumen, sedangkan dari sudut
+pandang user bahwa produk itu adalah
+informasi yang dihasilkan dapat
+memudahkan pekerjaan mereka.
+APA YANG DIMAKSUD DENGAN
+"WORK PRODUCT"
+Perkembangan Peranan
+Software
+Software digunakan untuk melayani kebutuhan user, baik secara
+personal maupun multi user dalam suatu jaringan.
+SEBAGAI SEBUAH PRODUK (AS A PRODUCT)
+Software digunakan untuk mendeliver sebuah produk, sebagai basis
+pengontrol komputer (sistem operasi), melewatkan informasi melalui
+jaringan dan sebagai pembuat dan pengontrol program lainnya.
+SEBAGAI SEBUAH KENDARAAN/PENGGERAK (AS
+VEHICLE)
+Definisi Software
+Software adalah sekumpulan (1) instruksi kode program dimana
+ketika dieksekusi akan menghasilkan fungsionalitas dan kinerja yang
+diinginkan, (2) struktur data yang memungkinkan program untuk
+memanipulasi informasi dengan memadai dan (3) dokumentasi yang
+mendeskripsikan operasi dan kegunaan program.
+SOFTWARE
+Karakteristik
+Software (1)
+SOFTWARE ITU
+DIKEMBANGKAN /
+DIREKAYASA,
+PROSESNYA MIRIP
+SEPERTI PRODUKSI
+PADA MANUFAKTUR.
+Karakteristik
+Software (2)
+SOFTWARE TIDAK
+PERNAH "USANG"
+Kurva kegagalan
+pada Hardware
+Kurva kegagalan
+pada Software
+Karakteristik
+Software (3)
+KEBANYAKAN SOFTWARE DIBANGUN DARI
+AWAL (SCRATCH) SEDANGKAN PADA
+MANUFAKTUR MENGGUNAKAN KOMPONEN
+YANG SUDAH DIBUAT TERPISAH KEMUDIAN
+DIRAKIT
+JENIS SOFTWARE APLIKASI (1)
+Perangkat lunak yang berfungsi
+untuk melayani perangkat
+lunak lainnya, contohnya
+sistem operasi, compiler, driver,
+dll.
+SYSTEM SOFTWARE
+Sistem Operasi
+JENIS SOFTWARE APLIKASI (2)
+Perangkat lunak yang menangani
+kebutuhan bisnis seperti penggajian,
+inventory, human resource, contohnya
+ERP, aplikasi transaksi point of sales
+BUSINESS SOFTWARE
+Point of Sales System
+JENIS SOFTWARE APLIKASI (3)
+Perangkat lunak yang
+memonitor, menganalisis,
+dan mengontrol kejadian
+real-world (dunia nyata),
+contohnya aplikasi
+monitoring cuaca, harga
+saham, aplikasi pendeteksi
+tsunami. Waktu responnya
+antara (1 ms - 1 s)
+REAL-TIME SOFTWARE
+Aplikasi Monitoring Cuaca
+JENIS SOFTWARE
+APLIKASI (4)
+Perangkat lunak yang
+menangani permasalahan di
+bidang sains dan teknologi,
+contohnya aplikasi astronomi,
+aplikasi perhitungan rumus
+kimia, dan aplikasi simulasi.
+ENGINEERING/
+SCIENTIFIC SOFTWARE
+JENIS SOFTWARE
+APLIKASI (5)
+Perangkat lunak
+yang dijalankan
+melalui browser dan
+diakses melalui
+jaringan internet
+WEB BASE
+SOFTWARE
+JENIS SOFTWARE
+APLIKASI (6)
+Software yang menggunakan
+algoritma non-numerical, seperti
+jaringan syaraf tiruan untuk
+memecahkan masalah yang
+kompleks namun tidak cukup
+hanya menggunakan komputasi
+saja, contohnya Robot.
+ARTIFICIAL INTELLIGENCE
+SOFTWARE
+Mitos: Banyak standar dan prosedur yang telah dikeluarkan, digunakan sebagai
+acuan dan panduan dalam proses rekayasa perangkat lunak.
+Fakta: Standar dan prosedur tersebut memang ada, namun hampir semua praktisi
+pengembang perangkat lunak tidak menggunakannya dengan baik.
+MITOS-MITOS DI DALAM
+SOFTWARE
+MITOS DI DALAM MANAJEMEN PERANGKAT LUNAK (1)
+Mitos: Komponen hardware yang berkualitas tinggi yang digunakan untuk
+pengembangan software maka akan menghasilkan software yang berkualitas.
+Fakta: Computer Aided Software Engineering (CASE) Tools lebih penting dibanding
+hardware untuk mencapat kualitas dan produktivitas yang baik, yang mana
+kebanyakan software developer masih tidak menggunakannya secara efektif.
+Mitos: Kita dapat menambahkan programmer di akhir proyek untuk mempercepat
+penyelesaian pengembangan aplikasi.
+Fakta: Pengembangan perangkat lunak walaupun mirip namun tidak sama dengan
+proses mekanik pada manufaktur, dengan menambahkan teknisi maka perkerjaan
+akan lebih cepat selesai, namun pada software dengan menambahkan
+programmer pada proyek yang sudah berjalan terkadang dapat memperlambat
+penyelesaian proyek karena harus menghabiskan waktu untuk mengedukasi
+programmer baru dan mencocokkan cara kerja dengan programmer lama.
+MITOS DI DALAM MANAJEMEN PERANGKAT LUNAK (2)
+Mitos: Ketika kode program yang dikembangkan bekerja dengan baik artinya
+pekerjaan pengembangan perangkat lunak selesai.
+Fakta: Pengembangan perangkat lunak tidak hanya sampai dengan pembuatan
+kode program, namun juga pengujian, pemeliharaan, dan membuat dokumentasinya.
+MITOS-MITOS DI DALAM
+SOFTWARE
+MITOS DARI SUDUT PANDANG PRAKTISI
+Mitos: Work product untuk proyek pengembangan perangkat lunak yang berhasil
+adalah kode program.
+Fakta: Banyak elemen pentingnya yang harus diserahkan kepada user selain kode
+program, contohnya dokumentasi.
+Mitos: Pernyataan kebutuhan yang umum saja sudah cukup menjadi bekal untuk
+pengembangan perangkat lunak.
+Fakta: Semakin lengkap dan formal penyataan kebutuhan maka akan semakin baik
+kualitas perangkat lunak yang dihasilkan.
+MITOS-MITOS DI DALAM
+SOFTWARE
+MITOS DARI SUDUT PANDANG CUSTOMER
+Mitos: Kebutuhan dari perangkat lunak yang berubah-ubah menjadikan perangkat
+lunak lebih fleksibel.
+Fakta: Kebutuhan yang berubah-ubah saat pengembangan perangkat lunak sudah
+dilakukan akan memperlambat pengerjaan perangkat lunak tersebut.
+Terima kasih
+KOMBINASI KERJA
+KERAS DAN KERJA
+CERDAS ADALAH
+PEKERJAAN EFISIEN.
+ROBERT HALF

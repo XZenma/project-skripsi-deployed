@@ -1,0 +1,298 @@
+12/15/2019
+1
+KEAMANAN SISTEM OPERASI
+Diskusi Kelompok
+Diskusikan dengan 
+kelompok anda, 
+masalah-masalah yang 
+muncul akibat lemahnya 
+sistem operasi dan 
+contoh kasusnya 
+minimal 2 contoh kasus
+Analisis kira-kira apa 
+penyebabnya dan 
+bagaimana 
+pencegahannya
+12/15/2019
+2
+Keamanan Sistem
+Keamanan pada system operasi merupakan 
+kebutuhan yang sangat utama dan penting
+Keamanan pada system operasi merupakan 
+kebutuhan yang sangat utama dan penting
+Jika sebuah system operasi tidak 
+dilengkapi dengan keamanan yang bagus 
+akan selalu mendapat serangan dari 
+virus, spam, worm, dan lain-lain.
+Jika sebuah system operasi tidak 
+dilengkapi dengan keamanan yang bagus 
+akan selalu mendapat serangan dari 
+virus, spam, worm, dan lain-lain.
+Keamanan Sistem
+Pokok masalah keamanan sistem salah 
+satunya disebabkan karena sistem time 
+sharing dan akses jarak jauh, apalagi 
+dengan meningkatnya perkembangan 
+jaringan komputer.
+Pokok masalah keamanan sistem salah 
+satunya disebabkan karena sistem time 
+sharing dan akses jarak jauh, apalagi 
+dengan meningkatnya perkembangan 
+jaringan komputer.
+Keamanan sistem komputer adalah untuk
+menjamin sumber daya sistem tidak
+digunakan / dimodifikasi, diinterupsi dan
+diganggu oleh orang yang tidak
+diotorisasi. 
+Keamanan sistem komputer adalah untuk
+menjamin sumber daya sistem tidak
+digunakan / dimodifikasi, diinterupsi dan
+diganggu oleh orang yang tidak
+diotorisasi.
+12/15/2019
+3
+Keamanan Sistem
+yaitu:
+Pengamanan termasuk masalah teknis, manajerial 
+dan legalitas. Keamanan sistem terbagi menjadi 3, 
+yaitu:
+bencana alam, dll.
+Keamanan eksternal, berkaitan dengan 
+pengamanan fasilitas computer dari penyusup, 
+bencana alam, dll.
+1
+dan data.
+Keamanan interface pemakai, berkaitan dengan 
+identifikasi pemakai sebelum mengakses program 
+dan data.
+2
+program & data.
+Keamanan internal, berkaitan dengan pengaman 
+beragam kendali yang dibangun pada perangkat 
+keras & sistem operasi untuk menjaga integritas 
+program & data.
+3
+Masalah Keamanan Sistem
+Pada keamanan, terdapat 2 masalah
+penting, yaitu :
+Kehilangan data / data loss
+1
+Penyusup / intruder
+2
+12/15/2019
+4
+Masalah Keamanan Sistem
+1. Kehilangan data dapat disebabkan
+oleh:
+Bencana, contohnya kebakaran, banjir, gempa
+bumi, perang, kerusuhan, tikus, dll.
+Kesalahan perangkat keras dan perangkat lunak, 
+contohnya ketidak berfungsinya pemroses, disk / 
+tape yang tidak terbaca, kesalahan komunikasi, 
+kesalahan program / bugs.
+Kesalahan / kelalaian manusia, contohnya
+kesalahan pemasukkan data, memasang tape / 
+disk yang salah, kehilangan disk / tape.
+Masalah Keamanan Sistem
+2. Penyusup / intruder
+Penyusup pasif, yaitu yang membaca data yang 
+tidak terotorisasi
+Penyusup aktif, yaitu mengubah data yang tidak
+terotorisasi.
+Contohnya penyadapan oleh orang dalam, usaha
+hacker dalam mencari uang, spionase militer / 
+bisnis, lirikan pada saat pengetikan password.
+Sasaran keamanan adalah menghindari, 
+mencegah dan mengatasi ancaman terhadap 
+sistem
+Sasaran keamanan adalah menghindari, 
+mencegah dan mengatasi ancaman terhadap 
+sistem
+12/15/2019
+5
+3 Aspek Kebutuhan Keamanan Sistem
+3 aspek kebutuhan keamanan sistem komputer, 
+yaitu :
+Kerahasiaan / secrecy, diantaranya privasi
+Keterjaminan bahwa informasi di sistem komputer hanya
+dapat diakses oleh pihak-pihak yang terotorisasi dan
+modifikasi tetap menjaga konsistensi dan keutuhan data di 
+sistem
+Integritas / integrity
+Keterjaminan bahwa sumber daya sistem komputer hanya
+dapat dimodifikasi oleh pihak-pihak yang terotorisasi
+Ketersediaan / availability
+Keterjaminan bahwa sumber daya sistem komputer
+tersedia bagi pihak-pihak yang diotorisasi saat diperlukan
+Ancaman Terhadap Sistem Komputer
+Tipe ancaman terhadap keamanan sistem komputer 
+dapat dimodelkan dengan memandang fungsi sistem 
+komputeer sebagai penyedia informasi. 
+Sumber 
+informasi
+Sumber 
+informasi
+Tujuan 
+informasi
+Tujuan 
+informasi
+Aliran normal
+12/15/2019
+6
+Ancaman Terhadap Sistem Komputer
+Berdasarkan fungsi ini, ancaman terhadap 
+sistem komputer dikategorikan menjadi 4 
+ancaman, yaitu :
+Interupsi / interuption
+Intersepsi / interception
+Modifikasi / modification
+Fabrikasi / fabrication
+Ancaman Terhadap Sistem Komputer
+Interupsi / interuption
+Sumber daya sistem komputer dihancurkan / 
+menjadi tak tersedia  / tak berguna. Merupakan 
+ancaman terhadap ketersediaan. Contohnya 
+penghancuran harddisk, pemotongan kabel 
+komunikasi.
+Sumber 
+informasi
+Sumber 
+informasi
+Tujuan 
+informasi
+Tujuan 
+informasi
+Interupsi
+12/15/2019
+7
+Ancaman Terhadap Sistem Komputer
+Intersepsi / interception
+Pihak tak diotorisasi dapat mengakses sumber daya. 
+Merupakan ancaman terhadap kerahasiaan. Pihak tak 
+diotorissasi dapat berupa orang / program 
+komputeer. Contohnya penyadapan, mengcopy file 
+tanpa diotorisasi.
+Ancaman Terhadap Sistem Komputer
+Modifikasi / modification
+Pihak tak diotorisasi tidak hanya mengakses tapi juga 
+merusak sumber daya. Merupakan ancaman 
+terhadap integritas. Contohnya mengubah nilai file, 
+mengubah program, memodifikasi pesan
+12/15/2019
+8
+Ancaman Terhadap Sistem Komputer
+Fabrikasi / fabrication
+Pihak tak diotorisasi menyisipkan / memasukkan 
+objek-objek palsu ke sistem. Merupakan ancaman 
+terhadap integritas. Contohnya memasukkan pesan 
+palsu ke jaringan, menambah record file.
+12/15/2019
+9
+Otentifikasi
+Otentifikasi pemakai / user authentification
+adalah identifikasi pemakai ketika login. 
+3 cara otentifikasi :
+Sesuatu yang diketahui pemakai
+1
+Sesuatu yang dimiliki pemakai
+2
+Sesuatu mengenai / merupakan ciri
+3
+Otentifikasi
+Sesuatu yang diketahui pemakai
+Sesuatu yang diketahui pemakai, misalnya password, 
+kombinasi kunci, nama kecil ibu mertua, dll
+Untuk password, pemakai memilih suatu kata kode, 
+mengingatnya dan menggetikkannya saat akan 
+mengakses sistem komputer, saat diketikkan tidak 
+akan terlihat dilayar kecuali misalnya tanda *. 
+Tetapi banyak kelemahan dan mudah ditembus 
+karena pemakai cenderung memilih password yang 
+mudah diingat, misalnya nama kecil, nama 
+panggilan, tanggal lahir, dll.
+12/15/2019
+10
+Otentifikasi
+Upaya pengamanan proteksi password :
+Salting, menambahkan string pendek ke string password 
+yang diberikan pemakai sehingga mencapai panjang 
+password tertentu
+one time password, pemakai harus mengganti password 
+secara teratur, misalnya pemakai mendapat 1 buku daftar 
+password. Setiap kali login pemakai menggunakan 
+password berikutnya yang terdapat pada daftar 
+password.
+satu daftar panjang pertanyan dan jawaban, sehingga 
+pada saat login, komputer memilih salah satu dari 
+pertanyaan secara acak, menanyakan ke pemakai dan 
+memeriksa jawaban yang diberikan.
+Otentifikasi
+Sesuatu yang dimiliki pemakai, misalnya bagde, 
+kartu identitas, kunci, barcode KTM, ATM. 
+Sesuatu mengenai / merupakan ciri pemakai yang di 
+sebut biometrik, misalnya sidik jari, sidik suara, foto, 
+tanda tangan, dll
+12/15/2019
+11
+Otentifikasi
+Untuk memperkecil peluang penembusan 
+keamanan sistem komputer harus diberikan 
+pembatasan, misalnya :
+Pembatasan login, misalnya pada terminal tertentu, pada 
+waktu dan hari tertentu
+Pembatasan dengan call back, yaitu login dapat 
+dilakukan oleh siapapun, bila telah sukses, sistem 
+memutuskan koneksi dan memanggil nomor telepon 
+yang disepakati. Penyusup tidak dapat menghibungu 
+lewat sembarang saluran telepon, tapi hanya pada saluran 
+tetepon tertentu.
+Pembatasan jumlah usaha login, misalnya dibatasi 
+sampai 3 kali, dan segera dikunci dan diberitahukan ke 
+administrator. 
+Program Jahat
+Bacteria
+Mereplikasi dirinya sendiri dengan tujuan mengkonsumsi sumber 
+daya sistem
+Logic bomb
+Memeriksa kondisi di sistem, setelah terpenuhi akan melakukan aksi 
+yang tidak diotorisasi
+Trojan horse
+Subprogram/kode tersembunyi yang ditempelkan pada suatu 
+program biasa. Bila dijalankan melakukan suatu fungsi yang tidak 
+diinginkan.  
+Virus 
+Kode yang menempel pada suatu program yang jika dijalankan akan 
+mereplikasi dirinya dan menginfeksi program/file lain 
+Worm
+Mereplikasi dirinya sendiri (tanpa harus dijalankan) dan menyebar ke 
+komputer lain melalui jaringan dan menjalankan fungsi yang tidak 
+dii
+i k
+12/15/2019
+12
+Tipe Virus
+Parasitic virus
+Menempel ke file exe. Virus akan aktif dan mereplikasi
+dirinya ketika file exe yang terinfeksi dijalankan
+Memory resident virus
+Memuatkan diri ke memori utama sebagai bagian program 
+yang menetap, menginfeksi semua program yang 
+dijalankan
+Boot sector virus
+Berada di boot sector sebuah disk dan menyebar saat boot 
+dari disk tersebut
+Stealth virus
+Dirancang agar tidak terdeteksi antivirus
+Polymorphic virus
+Bermutasi setiap melakukan infeksi
+Anti virus
+Pencegahan
+Mencegah masuknya virus
+Deteksi 
+Deteksi bahwa infeksi terjadi dan lokasi virus
+Identifikasi 
+Mengetahui jenis virus 
+Penghilangan 
+Hilangkan virus dan semua jejaknya 
+Recovery 
+Pengembalian program seperti semula

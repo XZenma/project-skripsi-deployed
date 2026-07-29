@@ -1,0 +1,202 @@
+Perintah Dasar untuk Penanganan File 
+• 
+Membuat direktori 
+mkdir nama_folder 
+Misalkan sobat-sobat akan membuat sebuah folder dengan nama “kodok”, maka 
+pada terminal ketikkan perintah berikut: 
+mkdir kodok 
+setelah itu akan tercipta sebuah folder baru yang bernama “kodok” di direktori 
+yang sedang aktif. 
+ 
+• 
+Menampilkan isi direktori 
+ls 
+Jika dijalankan begitu saja perintah ini akan menampilkan daftar file dan folder 
+yang berada di direktori yang sedang aktif. 
+ 
+2023/2024-2
+Basic Command linux 
+aseprizal@itenas.ac.id
+Perintah ls ini bisa ditambah dengan atribut-atribut yang lain untuk memperoleh 
+tampilan daftar isi direktori yang berbeda. Misalnya saja: 
+• 
+ls -l: memperlihatkan daftar file disertai dengan atribut seperti 
+pemilik, permission, ukuran, dan tanggal modifikasi . 
+• 
+ls -a: memperlihatkan daftar file dan file tersembunyi di dalam 
+direktori sekarang tanpa atribut apapun . 
+• 
+ls -al: menggabungkan opsi perintah -l dan -a untuk ls . 
+• 
+ls 
+/direktori/ehm: 
+memperlihatkan 
+daftar 
+file 
+dari 
+/direktori/ehmketika kita sedang berada di direktori sekarang. 
+ 
+• 
+Berpindah direktori 
+cd direktori_tujuan 
+Perintah ini digunakan untuk berpindah ke direktori yang lain. Contohnya sobat-
+sobat sedang berada di direktori “home” dan ingin berpindah ke direktori lain yang 
+bernama “nama_folder” maka perintah yang bisa dilakukan adalah: 
+cd nama_folder 
+maka seketika sobat-sobat akan berpindah ke dalam direktori “nama_folder” 
+tersebut. Perintah cd ini juga memiliki parameter yang lain untuk berpindah ke 
+folder, diantaranya: 
+• 
+cd direktori/ → pindah direktori ke direktori yang berada di dalam 
+direktori sekarang. 
+• 
+cd → pindah ke direktori home. 
+• 
+cd ~ → pindah ke direktori home. 
+• 
+cd .. → pindah satu direktori ke direktori teratas atau kembali ke 
+direktori sebelumnya. 
+• 
+cd ../../n → pindah n direktori sebelumnya. 
+• 
+cd /direktori/sesuatu → pindah ke direktori tanpa harus mundur ke 
+direktori sebelumnya. Akan pindah jika direktori tersebut ada dan 
+penulisan nama direktorinya benar . Contoh: 
+cd /media/sda6/data/kumpulan3gp 
+perintah diatas akan membuat kita berpindah ke direktori 
+“kumpulan3gp” yang berada di folder media/sda6/data. 
+ 
+• 
+Menampilkan tempat direktori yang aktif 
+pwd 
+Penggunaan perintah ini cukup dengan mengetikan pwd pada terminal. 
+ 
+2023/2024-2
+aseprizal@itenas.ac.id
+• 
+Menyalin file 
+cp file_yang_akan_disalin direktori_tujuan 
+• 
+cp file /path/ke/direktori/sesuatu → mengkopi file tertentu ke 
+direktori tertentu 
+• 
+cp -r folder /path/ke/direktori/sesuatu → mengkopi folder tertentu 
+secara rekursif ke direktori tertentu 
+• 
+cp *.extension /path/ke/direktori/sesuatu → mengkopi file – file 
+yang berekstensi tertentu ke direktori tertentu 
+• 
+cp nama* /path/ke/direktori/sesuatu → mengopi file – file yang 
+namanya diawali dengan  'nama' ke direktori tertentu. 
+ 
+• 
+Memindahkan file 
+mv file_yang_akan_dipindahkan direktori_tujuan 
+Selain berfungsi untuk memindahkan file ke direktori lain, perintah ini juga bisa 
+digunakan untuk mengganti nama (rename) file. 
+mv nama_file_lama.ehm nama_file_baru.ehm 
+Perintah ini memiliki cara kerja yang hampir sama dengan cp. 
+ 
+• 
+Menghapus file 
+• 
+rm file → menghapus file 
+• 
+rm -r folder → menghapus folder 
+• 
+rm -rf folder → menghapus folder secara paksa 
+• 
+Mencari file dalam direktori 
+find nama_file/folder_yang_akan_dicari 
+contoh: 
+find CintaYangHilang.txt 
+Perintah diatas apabila di eksekusi akan mencari file yang bernama 
+“CintaYangHilang.txt” pada direktori yang aktif. Apabila file ditemukan maka file 
+dengan nama itu akan ditampilkan, tapi apabila file tidak ada maka akan muncul 
+notifikasi bahwa file tidak ada. 
+ 
+Perintah Dasar dalam Pemrosesan Teks 
+• 
+Melihat isi file 
+cat 
+Perintah ini digunakan untuk menampilkan isi file kedalam bentuk palin text. 
+Penggunaannya adalah: 
+cat nama_file.ehm 
+perintah diatas akan menampilkan file “nama_file.ehm” kedalam bentuk plain 
+text. 
+2023/2024-2
+aseprizal@itenas.ac.id
+• 
+Menampilkan jumlah baris, jumlah kata, dan ukuran file (dalam byte) suatu 
+file. 
+wc nama_file.txt 
+ 
+ 
+ 
+Perintah Dasar dalam Sistem Administrasi 
+• 
+Menjalankan perintah/program sebagai super user 
+Terkadang suatu perintah/program di dalam linux harus dijalankan dengan 
+menggunakan super user (untuk alasan keamanan). Untuk melakukan itu sobat-
+sobat bisa menggunakan perintah sudo nama_perintah. Contoh: 
+sudo halt 
+perintah diatas artinya sobat-sobat menjalankan perintah “halt” sebagai super 
+user, bukan user biasa. 
+ 
+• 
+Whoami 
+Perintah diatas adalah perintah untuk melihat user yang sedang aktif. Penggunaan 
+perintah tersebut adalah dengan mengetikan langsung whoami pada terminal dan 
+kemudian akan muncul user apa yang sedang aktif. 
+ 
+Perintah Dasar dalam Manajemen Pemrosesan 
+• 
+Menampilkan proses-proses yang sedang berjalan 
+2023/2024-2
+aseprizal@itenas.ac.id
+ps aux 
+Untuk menampilkan proses yang sedang berjalan, dengan perintah ps juga sudah 
+cukup. Namun apabila ingin menampilkan juga proses secara detail maka 
+parameter aux ditambahkan. Penggunaan perintah ini cukup dengan mengetikan 
+ps aux pada jendela terminal. 
+• 
+Mengakhiri proses yang sedang berjalan 
+• 
+kill PID → membunuh sebuah proses yang memiliki PID tertentu 
+• 
+kill program → membunuh sebuah proses yang memiliki nama 
+tertentu 
+• 
+killall program → membunuh semua proses yang memiliki nama 
+tertentu 
+• 
+Menampilkan daftar perangakt yang ditancapkan di port USB 
+lsusb 
+ 
+• 
+Membersihkan tampilan terminal 
+clear 
+ 
+Utilitiy 
+• 
+Merestart sistem 
+reboot 
+ 
+• 
+Mematikan sistem 
+shutdown/halt 
+ 
+• 
+Menampilakn daftar hardware 
+lshw 
+catatan: perintah ini harus dijalankan sebagai super user. 
+ 
+• 
+Menampilkan lamanya sistem telah berjalan 
+uptime 
+ 
+• 
+Kalkulator di dalam terminal 
+bc 
+2023/2024-2
+aseprizal@itenas.ac.id

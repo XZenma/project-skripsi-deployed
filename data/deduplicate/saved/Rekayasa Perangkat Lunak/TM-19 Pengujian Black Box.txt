@@ -1,0 +1,221 @@
+Rekayasa
+Perangkat
+Lunak
+TM-19 Pengujian Black
+Box
+
+Senin, 16/05/2022
+ISA-202
+
+Black Box Testing
+
+o Black Box Testing disebut juga sebagai behavioral, specification-based, atau input-
+output testing.
+o Black Box Testing adalah salah satu metode pengujian perangkat lunak yang
+digunakan oleh tester untuk mengevaluasi fungsionalitas perangkat lunak tanpa
+melihat struktur internal kode program.
+o Black Box Testing dapat diterapkan untuk semua tingkatan pengujian, yaitu mulai dari
+unit, integration, system, dan acceptance testing.
+o
+Untuk melakukan black box testing, tester dapat membuat test scenario atau test case.
+o
+Test Case Template adalah dokumen yang digunakan sebagai artifak oleh seorang tester untuk mengembangkan test case,
+yang di dalam dokumen tersebut mencakup pre-condition, test-data, expected result, post condition, dan actual result.
+
+Test Scenario/ Test Case
+Langkah-Langkah Membuat Test Case
+
+❖ 1. Test Case ID
+o Setiap test case harus direpresentasikan sebagai ID yang unik. Good practice dalam membuat
+ID dari test case sebaiknya disesuaikan dengan fungsionalitas yang diuji, contoh: TC-Login-001,
+dimana TC untuk menunjukkan test case, Login menunjukkan fungsionalitas yang diuji, dan 001
+untuk menunjukkan urutan dari fungsionalitas yang diuji.
+❖ 2. Test Case Description
+o Test description terdiri dari test scenario dan test case
+o Contoh test scenario: Memverifikasi Login Gmail
+o Contoh test case: Memasukkan username yang valid dan password yang valid atau
+memasukkan username yang valid dan password yang tidak valid.
+❖ 3. Pre-Conditions
+o Kondisi yang harus dipenuhi sebelum mengeksekusi test case, sebutkan jika ada. Contoh: perlu
+akun email yang valid untuk melakukan login.
+Langkah-Langkah Membuat Test Case
+
+❖ 4. Test Steps
+o Untuk mengeksekusi test case, Anda perlu menjalankan beberapa aksi. Tuliskan langkah-
+langkah yang sesuai secara detail untuk melihat bagaima test case tersebut dieksekusi dari
+perspektif end-user.
+o Contoh:
+
+Memasukkan username
+
+Memasukkan password
+
+Mengklik tombol Login
+❖ 5. Test Data
+o Perlu data yang akan diuji pada test steps, sehingga harus menggunakan data yang sesuai
+berguna sebagai input dari test case.
+o Contoh: username: kurniaramadhan@gmail.com, password: 123456!
+Langkah-Langkah Membuat Test Case
+
+❖ 6. Expected Result
+o Hasil yang diharapkan setelah test case dieksekusi, misalnya menampilkan "Home Page",
+menampilkan layar yang sesuai, menampilkan pesan kesalahan, dan lain-lain.
+❖ 7. Post Condition
+o Kondisi yang perlu dicapai ketika test case berhasil dieksekusi. Contoh: inbox dari Gmail
+ditampilkan.
+❖ 8. Actual Result
+o Hasil sebenarnya yang ditampilkan setelah test case dieksekusi. Contoh: redirect ke inbox
+Gmail.
+❖ 9. Status
+o Status akhir dari hasil eksekusi test case, seandainya expected result dengan actual result
+sama, maka statusnya PASS/SUCCESS, sedangkan jika berbeda maka statusnya FAIL.
+Teknik Black Box Testing
+
+❖ Equivalence Partioning
+❖ Boundary Value Analysis
+❖ Decision Table
+❖ State Transition
+Black Box Testing - Equivalence Partioning (1)
+
+o
+Valid input: 18 - 56
+o
+Invalid Input: lebih kecil sama dengan 17, lebih
+besar sama dengan 57
+o
+Pembagian kelompok:
+
+Kelompok Valid: 18 - 56
+
+Kelompok Invalid 1: <= 17
+
+Kelompok Invalid 2: >= 57
+
+❖ Equivalence Partioning dikenal juga dengan Equivalence Class Partioning yang mana input
+dikelompokkan, kemudian tester memilih input sesuai dengan kelompok tersebut untuk dilakukan
+pengujian.
+❖ Contoh 1: Menguji input yang umurnya hanya diterima dari 18 - 56 tahun.
+Black Box Testing - Equivalence Partioning (2)
+
+o
+Valid input: 10 digit
+o
+Invalid Input: lebih kecil sama dengan 9 digit, lebih besar
+sama dengan 11 digit.
+o
+Pembagian kelompok:
+
+Kelompok Valid: 10 digit = 9876543210
+
+Kelompok Invalid 1: <= 9 digit = 987654321
+
+Kelompok Invalid 2: >= 11 digit = 98765432109
+
+❖ Contoh 2: Menguji input yang nomor telepon nya hanya diterima 10 digit.
+Black Box Testing - Boundary Value Analysis (1)
+
+❖ Contoh 1: Menguji input nilai yang umurnya hanya diterima dari 18 - 56 tahun.
+o
+Minimum boundary: 18, maksimum boundary: 56
+o
+Valid Input: 18, 19, 55, 56
+o
+Invalid Input: 17 dan 57
+o
+Langkah pengujian:
+
+Test Case 1: Masukkan nilai 17 (18 - 1): invalid
+
+Test Case 2: Masukkan nilai 18: valid
+
+Test Case 3: Masukkan nilai 19 (56 + 1): invalid
+
+❖ Boundary Value Analysis adalah pengujian terhadap batas nilai dari suatu partisi yang valid
+atau partisi yang tidak valid.
+❖ Cara membuat boundary value analysis yaitu dengan menentukan nilai maksimum dan nilai
+minimum dari setiap partisi yang mana nilai tersebut menjadi batas nilai.
+Black Box Testing - Boundary Value Analysis (2)
+
+o
+Langkah pengujian:
+
+Test Case 3: Masukkan nilai 7 (min + 1):
+valid
+
+Test Case 4: Masukkan nilai 11 (max - 1):
+valid
+
+Test Case 5: Masukkan nilai 12 (max):
+valid
+
+Test Case 6: Masukkan nilai 13 (max + 1):
+invalid
+o
+Minimum boundary: 6, maksimum boundary: 12
+o
+Valid Input: 6, 7, 11, 12
+o
+Invalid Input: 5 dan 13
+o
+Langkah pengujian:
+
+Test Case 1: Panjang char 5 (min - 1): invalid
+
+Test Case 2: Panjang char 6 (min): valid
+
+❖ Contoh 1: Menguji panjang karakter yang hanya diterima 16 - 12 karakter.
+Black Box Testing - Decision Table (1)
+
+❖ Contoh : Mentransfer uang secara online ke akun yang sudah ditambahkan/diterima
+o
+Kondisi: ACCOUNT ALREADY APPROVE, OTP MATCHED, SUFFICIENT MONEY IN THE ACCOUNT
+o
+Aksi: TRANSFER MONEY, SHOW A MESSAGE AS INSUFFICIENT AMOUNT, BLOCK THE TRANSACTION
+INCASE OF SUSPICIOUS TRANSACTION.
+
+❖ Decision Table atau dikenal juga dengan Cause-effect Table yang cocok untuk pengujian
+fungsionalitas yang terkait dengan logical expression (il-else logic).
+❖ Untuk melakukan pengujian dengan decision table perlu dipertimbangkan kondisi dan aksinya,
+dimana kondisi sebagai input dan aksi sebagai output.
+Black Box Testing - Decision Table (1)
+
+❖ T: True, F: False, dan X: Not Possible
+❖ Dari test case 3 dan test case 4 dapat dilihat bahwa jika kondisi 2 gagal, maka sistem akan
+mengeksekusi aksi 3. Sehingga kita dapat memilih (mengeliminasi) salah satu test case apakah test
+case 3 atau test case 4 yang akan digunakan.
+❖ Disini kita coba mengeliminasi test case 4, sehingga decision table sebagai berikut:
+Black Box Testing - Decision Table (2)
+Black Box Testing - State Transition (1)
+
+❖ State Transition digunkan untuk
+menguji aplikasi yang mengalami
+transisi perubahan statusnya.
+Contoh nya pada Website,
+Vending Machine atau Traffic
+Light.
+❖ Cara membuat boundary value
+analysis yaitu dengan
+menentukan nilai maksimum dan
+nilai minimum dari setiap partisi
+yang mana nilai tersebut menjadi
+batas nilai.
+Black Box Testing - State Transition (2)
+
+o
+Jika dari state 1 (percobaan pertama)
+login dengan password yang benar
+maka akan masuk ke state 4 (Home
+Page), jika gagal maka lanjut ke state
+2 (percobaan kedua)
+o
+Jika dari state 2 berhasil maka masuk
+ke state 4 (Home Page), namun jika
+gagal maka lanjut state 3 (percobaan
+ketiga)
+o
+Jika dari state 3 berhasil maka masuk
+ke state 4 (Home Page), namun jika
+gagal maka masuk ke state 5
+(Account Locked)
+Thank you
+Insert the title of your subtitle Here

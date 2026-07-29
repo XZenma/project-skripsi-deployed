@@ -1,0 +1,166 @@
+SISTEM OPERASI
+Asep Rizal Nurjaman
+aseprizal@itenas.ac.id
+082320342162
+PROSES-PROSES @ SISTEM OPERASI
+Proses
+Suatu proses adalah sebuah program dalam eksekusi.
+Eksekusi suatu proses harus berlanjut secara berurutan.
+Suatu proses didefinisikan sebagai entitas yang mewakili
+unit kerja dasar yang akan diimplementasikan dalam
+sistem.
+PROSES-PROSES @ SISTEM OPERASI
+Contohnya : saat menulis program komputer dalam file
+teks dan program tersebut dijalankan, itu menjadi proses
+yang melakukan semua tugas yang disebutkan
+dalam program
+.
+Ketika suatu program dimuat ke dalam memori dan itu
+menjadi suatu proses, itu dapat dibagi menjadi empat
+bagian, yaitu :
+stack,
+heap,
+data, dan
+text.
+PROSES-PROSES @ SISTEM OPERASI
+Gambar yang menunjukkan tata letak proses yang
+disederhanakan di dalam memori utama
+PROSES-PROSES @ SISTEM OPERASI
+1 Stack
+Proses berisi data sementara seperti parameter metode /
+fungsi, alamat pengirim dan variabel lokal.
+2 Heap
+Ini adalah memori yang dialokasikan secara dinamis
+untuk suatu proses selama waktu menjalankannya.
+3 Text
+Ini termasuk aktivitas saat ini yang diwakili oleh nilai
+Program Counter dan isi register prosesor.
+4 Data
+Bagian ini berisi variabel global dan statis.
+PROSES-PROSES @ SISTEM OPERASI
+Program
+Suatu program adalah bagian dari kode yang dapat
+berupa satu baris atau jutaan baris.
+Program komputer biasanya ditulis oleh seorang
+programmer komputer dalam bahasa pemrograman. \
+Berikut adalah program sederhana yang ditulis dalam
+bahasa pemrograman C.
+PROSES-PROSES @ SISTEM OPERASI
+#include <stdio.h>
+int main () {
+printf ("Halo, Dunia! \ n");
+return 0;
+}
+PROSES-PROSES @ SISTEM OPERASI
+Program komputer adalah kumpulan instruksi yang
+melakukan tugas tertentu ketika dijalankan oleh
+komputer.
+Ketika kita membandingkan suatu program dengan suatu
+proses, kita dapat menyimpulkan bahwa suatu proses
+adalah turunan dinamis dari suatu program komputer.
+Bagian dari program komputer yang melakukan tugas
+yang didefinisikan dengan baik dikenal sebagai
+algoritma. Kumpulan program komputer, perpustakaan,
+dan data terkait disebut sebagai perangkat lunak.
+PROSES-PROSES @ SISTEM OPERASI
+Siklus Hidup Proses
+Ketika suatu proses dijalankan, ia melewati berbagai
+kondisi. Tahap-tahap ini mungkin berbeda di sistem
+operasi yang berbeda, dan nama-nama negara ini juga
+tidak standar.
+PROSES-PROSES @ SISTEM OPERASI
+Tabel Siklus Hidup Proses
+Start
+Adalah kondisi awal saat proses pertama kali dimulai /
+dibuat.
+2 Ready
+Proses sedang menunggu untuk ditugaskan ke prosesor.
+Proses siap menunggu prosesor dialokasikan untuk
+mereka oleh sistem operasi sehingga mereka dapat
+berjalan. Proses dapat masuk ke kondisi ini setelah
+keadaan mulai atau saat menjalankannya tetapi
+terganggu oleh penjadwal untuk menetapkan CPU ke
+beberapa proses lainnya
+PROSES-PROSES @ SISTEM OPERASI
+Running
+Setelah proses ditetapkan ke prosesor oleh penjadwal
+OS, status proses diatur ke berjalan dan prosesor
+menjalankan instruksinya.
+Waiting
+Proses berpindah ke status menunggu jika perlu
+menunggu sumber daya, seperti menunggu input
+pengguna, atau menunggu file tersedia.
+Terminated or Exit
+Setelah proses selesai dieksekusi, atau diakhiri oleh
+sistem operasi, ia dipindahkan ke status terminasi di
+mana ia menunggu untuk dihapus dari memori utama.
+PROSES-PROSES @ SISTEM OPERASI
+start
+terminated
+running
+ready
+wait
+Gambar Siklus Hidup Proses
+PROSES-PROSES @ SISTEM OPERASI
+Blok Kontrol Proses (PCB)
+Blok Kontrol Proses adalah struktur data yang dikelola
+oleh Sistem Operasi untuk setiap proses.
+PCB diidentifikasi oleh ID proses integer (PID).
+PCB menyimpan semua informasi yang diperlukan
+untuk melacak proses sebagaimana tercantum di
+bawah ini dalam tabel 3.
+PROSES-PROSES @ SISTEM OPERASI
+Deskripsi Blok Kontrol Proses (PCB)
+Process State
+Keadaan proses saat ini yaitu, apakah sudah siap,
+berjalan, menunggu, atau apa pun.
+Process privileges
+Ini diperlukan untuk mengizinkan / melarang
+akses ke sumber daya sistem.
+PROSES-PROSES @ SISTEM OPERASI
+ID proses
+Identifikasi unik untuk setiap proses dalam sistem
+operasi.
+Pointer
+Proses penunjuk ke induk.
+Program Counter
+Penghitung Program adalah penunjuk ke alamat
+instruksi berikutnya yang akan
+dieksekusi untuk proses ini.
+PROSES-PROSES @ SISTEM OPERASI
+CPU registers
+Berbagai register CPU di mana proses perlu
+disimpan untuk eksekusi untuk menjalankan
+kondisi.
+CPU Scheduling Information
+Prioritas proses dan informasi penjadwalan
+lainnya yang diperlukan untuk menjadwalkan
+proses.
+PROSES-PROSES @ SISTEM OPERASI
+Memory management information
+Termasuk informasi tabel halaman, batas memori,
+tabel Segmen tergantung pada memori yang
+digunakan oleh sistem operasi.
+Accounting information
+Termasuk informasi tabel halaman, batas memori,
+tabel Segmen tergantung pada memori yang
+digunakan oleh sistem operasi.
+IO status information
+Termasuk daftar perangkat I / O yang dialokasikan
+untuk proses tersebut.
+PROSES-PROSES @ SISTEM OPERASI
+Arsitektur PCB sepenuhnya tergantung pada Sistem
+Operasi dan dapat berisi informasi yang berbeda
+dalam sistem operasi yang berbeda.
+Berikut adalah diagram sederhana dari PCB
+PROSES-PROSES @ SISTEM OPERASI
+Gambar Alur Block Kontrol Proses
+PCB dikelola
+untuk suatu
+proses sepanjang
+masa pakainya,
+dan dihapus
+setelah proses
+berakhir.
+Ada pertanyaan ?
+Terima Kasih

@@ -1,0 +1,28 @@
+{
+  "filename": "ALGORITMA PENJADWALAN PROSES1.txt",
+  "matkul": "Sistem Operasi",
+  "teknik": "sentence",
+  "total_chunks": 4,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 311,
+      "text": "Algoritma\nPenjadwalan\nProses\nAsep Rizal Nurjaman\nPenjadwalan Proses\nPenjadwalan proses adalah aktivitas manajer\nproses yang menangani penghapusan\nproses yang berjalan dari CPU dan pemilihan\nproses lain berdasarkan strategi tertentu.\nPenjadwalan proses adalah bagian penting dari\nsistem operasi Multiprogramming."
+    },
+    {
+      "index": 2,
+      "panjang_karakter": 1613,
+      "text": "Sistem\noperasi semacam itu memungkinkan lebih dari\nsatu proses untuk dimuat ke dalam memori yang\ndapat dieksekusi pada suatu waktu dan proses\nyang\ndimuat\nberbagi\nCPU\nmenggunakan\npenggandaan waktu.\nAlgoritma Penjadwalan\nProses\nFirst Come First Served (FCFS) / FIFO (First\nIn First Out)\nSJF (Shortest Job First)\nFCFS\nMerupakan algoritma penjadwalan CPU\nyang paling sederhana\nProses yang tiba lebih dahulu akan\ndilayani lebih dahulu\nKalau ada proses tiba pada waktu yang\nsama, maka pelayanan mereka\ndilaksanakan berdasarkan urutan dalam\nantrian\nProses di antrian belakang harus\nmenunggu sampai semua proses di\ndepannya selesai.\nContoh - FCFS\nDiketahui 3 buah proses sbb:\nGantt chart\nWaiting Time\nAWT\nFCFS (2)\nContoh soal 1:\nJika diketahui terdapat 5 macam antrian proses, yaitu\nA-B-C-D-E dengan waktu kedatangan semuanya 0.\nLama proses berturut-turut antara lain: 5-2-6-8-3.\nPertanyaan:\nKapan dimulainya eksekusi dari tiap-tiap antrian\nproses tsb?\nKapan selesai eksekusinya?\nHitung Turn Arround Time (TA)-nya?\nBerata rata-rata TA?\nRumus\nTA = Waktu Tunggu + Lama Eksekusi\nRata-rata TA = ∑TA / ∑Job\nWaktu Tunggu = Mulai Eksekusi - Waktu Tiba\nFCFS (3)\nJawaban:\nNama\nProses\nWaktu\nTiba\nLama\nEksekusi\nA\n0\n5\nB\n0\n2\nC\n0\n6\nD\n0\n8\nE\n0\n3\nFCFS (4)\nNama\nProses\nWaktu\nTiba\nLama\nEkseku\nsi\nMulai\nEkseku\nsi\nWaktu\nTunggu\nSelesai\nEkseku\nsi\nTA\nA\n0\n5\n0\n0\n5\n5\nB\n0\n2\n5\n5\n7\n7\nC\n0\n6\n7\n7\n13\n13\nD\n0\n8\n13\n13\n21\n21\nE\n0\n3\n21\n21\n24\n24\n∑TA = 70\nrerata TA=14\nFCFS (5)\nContoh Soal 2: diketahui terdapat 5 macam antrian\nproses, yaitu A-B-C-D-E dengan waktu kedatangan\nsemuanya 0-1-2-2-5. Lama proses berturut-turut\nantara lain: 5-2-6-8-3.\nPertanyaan:\na."
+    },
+    {
+      "index": 3,
+      "panjang_karakter": 131,
+      "text": "Kapan dimulainya eksekusi dari tiap-tiap antrian\nproses tsb?\nb.Kapan selesai eksekusinya?\nc.\n\nHitung Turn Arround Time (TA)-nya?\nd."
+    },
+    {
+      "index": 4,
+      "panjang_karakter": 1787,
+      "text": "Berata rerata TA?\nRumus\nTA = Waktu Tunggu + Lama Eksekusi\nRerata TA = ∑TA / ∑Job\nWaktu Tunggu = Mulai Eksekusi - Waktu Tiba\nFCFS (6)\nNama\nProses\nWaktu\nTiba\nLama\nEksekusi\nMulai\nEksekusi\nSelesai\nEksekusi\nWaktu\nTunggu\nTA\nA\n0\n5\n0\n5\n0\n5\nB\n1\n2\n5\n7\n4\n6\nC\n2\n6\n7\n13\n5\n11\nD\n2\n8\n13\n21\n11\n19\nE\n5\n3\n21\n24\n16\n19\n∑TA = 60\nRerata = 12\nFCFS (7)\nBerdasarkan kriteria penilaian penjadwalan:\nFairness\nPenjadwalan FCFS adil dalam arti semantiks (dalam arti\nantrian)\nEfesiensi\nPenjadwalan FCFS sangat efisien dalam penggunaan\npemroses\nWaktu Tanggap\nPenjadwalan sangat tidak memuaskan, karena proses\ndapat menunggu lama\nTurn Arround Time\nPenjadwalan FCFS tidak bagus\nThroughput\nPenjadwalan FCFS tidak bagus.\nShortest Job First\nDasar prioritas adalah pendeknya proses.\nMakin pendek/singkat proses makin tinggi\nprioritasnya\nLangkah I: tentukan urutan prioritas berdasarkan\npendeknya proses yang dilayani\nLangkah II: penentuan proses mana yang dilayani\noleh pemroses\nSetiap proses yang ada dalam ready queue\nakan dieksekusi berdasarkan burst time\nterkecil\nHal ini mengakibatkan waiting time yang\npendek untuk setiap proses, maka rerata\nwaiting time (AWT) juga menjadi pendek\nAlgoritma ini dikatakan optimal\nSJF (2)\nContoh Soal 1:\nNama\nProses\nWaktu\nTiba\nLama\nEksekusi\nA\n0\n10\nB\n0\n5\nC\n0\n7\nD\n0\n1\nE\n0\n3\nSJF (3)\nNama Proses\nWaktu Tiba\nLama\nEksekusi\nD\n0\n1\nE\n0\n3\nB\n0\n5\nC\n0\n7\nA\n0\n10\nSJF (4)\nNama\nProses\nWaktu\nTiba\nLama\nEksekusi\nMulai\nEksekusi\nSelesai\nEksekusi\nTA\nD\n0\n1\n0\n1\n1\nE\n0\n3\n1\n4\n4\nB\n0\n5\n4\n9\n9\nC\n0\n7\n9\n16\n16\nA\n0\n10\n16\n26\n26\n∑TA = 56\nrata2 TA =\n11,2\nSJF (5)\nNama Proses\nLama\nEksekusi\nWaktu Tiba\nD\n1\n0\nE\n3\n2\nB\n5\n5\nC\n7\n7\nA\n10\n9\nSJF (6)\nNama\nProses\nWaktu\nTiba\nLama\nEksekusi\nMulai\nEksekusi\nSelesai\nEksekusi\nWaktu\nTunggu\nTA\nD\n0\n1\n0\n1\n0\n1\nE\n2\n3\n2\n5\n0\n3\nB\n5\n5\n5\n10\n0\n5\nC\n7\n7\n10\n17\n3\n10\nA\n9\n10\n17\n27\n8\n18\n∑TA = 37\nRerata = 7,4"
+    }
+  ]
+}

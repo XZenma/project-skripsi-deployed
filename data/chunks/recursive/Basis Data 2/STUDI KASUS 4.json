@@ -1,0 +1,13 @@
+{
+  "filename": "STUDI KASUS 4.txt",
+  "matkul": "Basis Data 2",
+  "teknik": "recursive",
+  "total_chunks": 1,
+  "chunks": [
+    {
+      "index": 1,
+      "panjang_karakter": 516,
+      "text": "STUDI KASUS 4\n\nThe Johannes County BasketBall Conference ( JCBC) is an amateur Basketball\nassociation. Each city in the County has one team that represent it. Each team has\nmaximum 12 players and a minimum of nine players. Each team also has up to three\ncoaches ( offensive,defensive, and PT coaches) .Each team plays two games (home and\nvisitor) against each other team during the season.\n\n1. Define entity and relathionships.\n2. Draw the ER diagram with Chen diagram.\n3. Draw the ER diagram with Crow Foot diagram."
+    }
+  ]
+}

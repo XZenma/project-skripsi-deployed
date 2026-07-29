@@ -1,0 +1,223 @@
+Halaman 1 dari 7 
+ 
+INSTITUT TEKNOLOGI NASIONAL 
+Jalan Penghulu K.H. Mustapa 23 Telp. 7272215, Bandung- 40124 
+ 
+EVALUASI 1 
+SEMESTER GENAP 2025/ 2026 
+ 
+Mata Kuliah   
+: ISB 204 – Struktur Data 
+Tanggal : 9 April 2026 
+Program Studi  
+: Sistem Informasi 
+Waktu : Pukul 07.00 – 10.00 (3Jam) 
+Dosen  
+: Kurnia Ramadhan Putra 
+Sifat  
+: Open book, close internet browsing 
+Kelas   
+: AA 
+ 
+A. Aturan 
+1. Perhatikan instruksi dari masing-masing soal! Kerjakan dengan seksama dan jujur. 
+2. Setiap lembar jawaban di sebelah kanan atas diberi identitas Nrp dan Nama Lengkap 
+3. Segala bentuk kecurangan, apakah pada sebagian atau keseluruhan jawaban diberi nilai 
+0 (Nol). 
+4. Sebelum masuk ke nomor pegerjaan soal, tuliskan ikrar berikut sesuai dengan teks 
+aslinya pada lembar pertama jawaban: 
+“Demi Tuhan, saya Nama berjanji untuk melakukan kejujuran (bekerja secara mandiri) 
+dalam mengerjakan jawaban Evaluasi 1 ISB-204 pada hari ini, jika saya melakukan 
+ketidakjujuran saya akan selalu mendapat kesulitan untuk lulus dari ITENAS, namun jika 
+saya berbubat kejujuran akan selalu datang kemudahan dalam menyelesaikan studi di 
+ITENAS”. 
+5. Jika Anda tidak menuliskan ikrar tersebut, berarti Anda dianggap melakukan 
+ketidakjujuran (menyontek/ memberi contekan). 
+6. Soal dibagi ke dalam 2 jenis yaitu soal tertulis dan soal kode program, dimana: 
+• 
+Soal Tertulis: 1, 2, 3, 4, 6, 7, 8 (ditulis di lembar jawaban) 
+• 
+Soal Kode Program: 5, 9, 10, 11 (dikumpulkan dalam satu project di e-learning) 
+7. Untuk soal dengan jenis kode program, buat project pada Netbeans dengan nama 
+Evaluasi1-NRP. Di dalam project tersebut buat package untuk masing-masing soal yang 
+memerlukan implementasi kode program, penamaan packager nya sebagai berikut: 
+strukdat.soal5, strukdat.soal9, strukdat.soal10, dan strukdat.soal11. 
+8. Kode program disubmit pada TM-08 dengan nama UTS-NRP.rar, segala keterlambatan 
+pengumpulan kode program dengan alasan apapun akan mendapat pengurangan 
+penilaian! 
+9. Untuk setiap kelas harap diberi identitas dibagian atas program seperti contoh berikut:
+Halaman 2 dari 7 
+ 
+/* 
+Kurnia Ramadhan Putra - 120160502 
+9 Januari 2026 
+Program untuk menampilkan Hello World  
+*/ 
+ 
+SUBCPMK 
+• 
+SubCPMK-1: Mampu menenerapkan struktur data linear statis untuk mengakses data 
+yang tersimpan di memori yang ditulis dalam kode program (10%) 
+• 
+SubCPMK-2: Mampu menenerapkan struktur data linear dinamis untuk mengakses data 
+yang tersimpan di memori yang ditulis dalam kode program (10%) 
+• 
+SubCMPK-3: Mampu menjelaskan kompleksitas waktu dan kompleksitas ruang dari 
+struktur data linear statis dan dinamis (6%) 
+ 
+B. Soal 
+B.1 Recursion (SubCPMK-1 (6%)) 
+Pada Nomor 1 s.d 4 telah diberikan potongan program berupa fungsi rekursif, anda diminta 
+untuk menuliskan tabulasi / langkah-langkah dari program tersebut. 
+FAKTORIAL 
+Contoh Tabulasi: 
+n = 3 
+factorial(3) = 3 * factorial(2) = 3 * 2 = 6 
+factorial(2) = 2 * factorial(1) = 2 * 1 = 2 
+factorial(1) = 1 
+ 
+ 
+1. Berikan input berupa “katak”, kemudian telusuri setiap langkah serta catat hasil dari 
+potongan kode program berikut! (5 Poin)
+Halaman 3 dari 7 
+ 
+public boolean isPalindrome(String s) { 
+if (s.length() == 0 || s.length == 1) { 
+ 
+return true; 
+} 
+if (s.charAt(0) == s.chartAt(s.length() - 1)) { 
+ 
+return isPalindrome(s.substring(1, s.length() - 1)); 
+} 
+return false; 
+} 
+ 
+2. Berikan input berupa “Yunani”, kemudian telusuri setiap langkah serta catat hasil dari 
+potongan kode program berikut! (5 Poin) 
+public String reverse(String str) { 
+if (str.isEmpty()) { 
+ 
+return str; 
+} 
+return reverse(str.substring(1)) + str.chartAt(0); 
+} 
+ 
+3. Berikan input dengan nilai “35”, kemudian telusuri setiap langkah serta catat hasil 
+dari potongan kode program berikut (5 Poin) 
+public int decimalToBinary(int nilaiDesimal) { 
+if (nilaiDesimal == 0) { 
+ 
+return 0; 
+} 
+return n%2 + 10*decimalToBinary(nilaiDesimal/2); 
+}
+Halaman 4 dari 7 
+ 
+4. Berikan input dengan nilai “4” untuk base dan “3” untuk exp sehingga nanti hasil 
+akhirnya nanti 4 pangkat 3 sama dengan 64. Telusuri setiap langkah serta catat hasil 
+dari potongan kode program berikut! (5 Poin) 
+public int power(int base, int exp) { 
+if (exp < 0) { 
+ 
+return -1; 
+} 
+if (exp == 0 || exp == 1) { 
+ 
+return base; 
+} 
+return base * power(base, exp - 1); 
+} 
+ 
+ 
+5. Buatlah program untuk menghitung penjumlahan dari setiap angka yang diinputkan 
+menggunakan rekursif! (10 Poin ) 
+Contoh 1: 
+Input: 5 
+Ouput: 15 karena (5 + 4 + 3 + 2 + 1) 
+ 
+Contoh 2: 
+Input: 3 
+Output: 6
+Halaman 5 dari 7 
+ 
+B.2 Notasi Big O (SubCPMK-2 (5%)) 
+6. Jabarkanlah perhitungan time complexity dari kode program berikut (5 Poin): 
+static int pairSumSequence(int n) { 
+var sum = 0; 
+for (int i = 0; i < n; i++) { 
+ 
+sum = sum + pairSum(i, i+1); 
+} 
+return sum; 
+} 
+ 
+static int pairSum(int a, int b) { 
+return a + b; 
+} 
+7. Jabarkanlah perhitungan time complexity dari kode program berikut (Poin 5): 
+static void printUnorderPairs(int[] intArray) { 
+for (int i = 0; i < intArray.length; i++) { 
+ 
+for (for int j = 0; j < intArray.length; j++) { 
+ 
+ 
+System.out.println(intArray[i] + ", " + 
+intArray[j]); 
+ 
+} 
+} 
+} 
+8. Apakah notasi Big O di bawah ini setara dengan O(n)? Berikan penjelasannya! (10 
+Poin) 
+• O(log(n) + n) 
+• O(log(n) + 𝑛2 + 100 + n) 
+• O(log(n) + log(n) + 2 + n) 
+• O(log(n) + log(n) + 2𝑛) 
+• O(𝑚 + log(n) + 10), dimana 𝑚= √𝑛2
+Halaman 6 dari 7 
+ 
+ 
+B.3 Array (SubCPMK-3 (5%)) 
+9. Lengkapilah kode program berikut (15 Poin): 
+class Soal9 { 
+public int mencariNilaiDalamArray(int[] intArray, int 
+nilaiYangDicari) { 
+ 
+... 
+} 
+} 
+ 
+ 
+Main Program :  
+ 
+//Array di deklarasikan di main 
+int[] intArray = {20, 10 , 30, 50, 40, 60};  
+mencariNilaiDalamArray(intArray, 40); // 4 
+Test case 1:  
+Input: 
+40 
+Output: 
+Nilai 40 ditemukan pada indeks ke- 4 
+ 
+10. Diketahui sebuah array memiliki nilai yang terurut. Kemudian anda diminta untuk 
+membuat sebuah fungsi untuk mencari nilai yang hilang dari urutan elemen array 
+tersebut. Lengkapilah kode program berikut (15 Poin):
+Halaman 7 dari 7 
+ 
+class Soal10 { 
+public int mencariNilaiYangHilang(int[] intArray) { 
+ 
+... 
+} 
+} 
+ 
+Main Program :  
+ 
+//Array di deklarasikan di main 
+int intArray[] = {1, 2, 3, 5, 6, 7, 8, 9, 10}; 
+mencariNilaiYangHilang(intArray); 
+Output: 
+Nilau yang hilang: 4 
+ 
+Ket : Nilai yang hilang dari urutan elemen data pada intArray[] yaitu 4.

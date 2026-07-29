@@ -1,0 +1,16 @@
+STUDI KASUS 10
+
+A publishing company produces scientific books on various subjects.
+
+The books are written by authors who specialize in one particular subject.
+The company employs editors who, not necessarily being specialists in a particular area,
+each take sole responsibility for editing one or more publications.
+A publication covers essentially one of the specialist subjects and is normally written by
+a single author.
+When writing a particular book, each author works with an editor, but may submit
+another work for publication to be supervised by other editors.
+To improve their competitiveness, the company tries to employ a variety of authors,
+more than one author being a specialist in a particular subject.
+
+a. Draw ERD ( Chen Diagram)
+b. Draw TRD ( Crowfoot Diagram)

@@ -1,0 +1,68 @@
+Operasi - operasi pada Proses :
+
+Penciptaan proses (create a process).
+
+Penghancuran/terminasi proses (destroy a process).
+
+Penundaan proses (suspend a process).
+
+Pelanjutan kembali proses (resume a process).
+
+Mem-block proses.
+
+Membangunkan proses.
+
+Menjadwalkan proses.
+
+Komunikasi Antar Proses.
+
+Nah, dalam praktikum kali ini kita akan mengimplementasikan beberapa operasi - operasi
+pada proses dengan menggunakan terminal dan sisanya bisa kalianexplore sendiri ya.
+
+Perintah-perintah proses di linux :
+Instruksi ps (process status) digunakan untuk melihat kondisi proses yang ada. PID adalah
+Nomor Identitas Proses, TTY adalah nama terminal dimana proses tersebut aktif, STAT
+berisi S (Sleeping) dan R (Running), COMMAND merupakan instruksi yang digunakan.
+$ ps
+
+Untuk melihat faktor/elemen lainnya, gunakan option -u (user). %CPU adalah presentasi
+CPU time yang digunakan oleh proses tersebut, %MEM adalah presentasi system memori
+yang digunakan proses, SIZE adalah jumlah memori yang digunakan, RSS (Real System
+Storage) adalah jumlah memori yang digunakan, START adalah kapan proses tersebut
+diaktifkan.
+$ ps u
+Mencari proses yang spesifik untuk pemakai.
+$ ps -u <user>
+
+Mencari proses lainnya gunakan opsi a, au dan aux
+$ ps -a
+$ ps -au
+$ ps -aux
+
+Melihat proses yang sedang berjalan
+$ top
+$ htop
+
+Catatan : untuk install htop ketik command sudo apt-get install htop (perlu koneksi
+internet)
+Menampilkan hubungan proses parent dan child
+$ ps -eH Menampilkan hubungan proses parent dan child
+
+$ ps -eF Menampilkan hubungan proses parent dan child serta letak prosesnya
+Menampilkan semua proses pada sistem dalam bentuk hirarki parent/child
+$ pstree
+
+Menghentikan suatu proses/job
+$ kill %<nomor job> contoh : kill %1
+$ kill <PID> contoh : kill 1908
+$ pkill <nama proses> contoh : pkill firefox
+$ pkillall <nama proses> contoh : pkillall firefox
+Mengubah prioritas suatu proses
+$ renice <prioritas> <PID>
+Referensi:
+
+Modul praktikum mata kuliah Sistem Operasi 2012
+
+Modul praktikum Manajemen Proses dan Memory di Linux Mint v.14
+
+http://rotyyu.blogspot.com/2013/04/linux-basic-command-line-manajemen.html

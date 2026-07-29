@@ -1,0 +1,888 @@
+1 
+ 
+ 
+INSTITUT TEKNOLOGI NASIONAL 
+FAKULTAS TEKNOLOGI INDUSTRI 
+PROGRAM SARJANA SISTEM INFORMASI 
+ 
+RENCANA PEMBELAJARAN SEMESTER 
+ 
+FORM :  ITENAS…/F_RPS_..../.. 
+Mata Kuliah 
+Kode 
+Bobot sks 
+Semester 
+Tanggal penyusunan 
+Struktur Data 
+ISB-204 
+3 
+4 
+19 Desember 2022 
+ 
+Koordinator Pengampu 
+Mata Kuliah 
+Koordinator RMK/KBI 
+Ka Prodi  
+Persetujuan (tanda tangan) 
+Dekan  
+Persetujuan (tanda tangan) 
+Kurnia Ramadhan Putra, 
+S.Kom., M.T. 
+ 
+ 
+ 
+Capaian Pembelajaran  
+Lulusan (CPL Padu)1) yang 
+dibebankan pada mata 
+kuliah 
+CPL PADU- YANG DIBEBANKAN PADA MATAKULIAH2) 
+ 
+CPL 4: Mampu merancang, mengimplementasikan, dan mengevaluasi solusi berbasis teknologi informasi 
+untuk memenuhi kebutuhan pengguna (20%) 
+CPL 8:  Mampu merancang dan mengimplementasi model data untuk sebuah sistem informasi (60%) 
+CPL 9: Mampu menganalisis informasi dan data menggunakan metode analisis data yang mutakhir untuk 
+mengambil keputusan secara tepat (20%) 
+CPMK3) 
+CAPAIAN PEMBELAJARAN MATA KULIAH (CPMK) 
+ 
+CPMK-1:  Mampu memilih dan dan manfaatkan struktur data linear yang tepat untuk mengelola 
+kumpulan data terkait dalam memori non-volatile 
+CPMK-2: Mampu memilih dan dan manfaatkan struktur data non-linear yang tepat untuk mengelola 
+kumpulan data terkait dalam memori non-volatile 
+CPMK-3: Mampu memilih dan dan manfaatkan struktur data pemrograman dinamis untuk 
+menyelesaikan studi kasus sistem informasi
+2 
+ 
+SUBCPMK4) 
+KEMAMPUAN AKHIR TIAP TAHAPAN BELAJAR (SUBCPMK)  
+ 
+SubCPMK-1: Mampu menenerapkan struktur data linear statis untuk mengakses data yang tersimpan di 
+memori yang ditulis dalam kode program. 
+SubCPMK-2: Mampu menenerapkan struktur data linear dinamis untuk mengakses data yang tersimpan 
+di memori yang ditulis dalam kode program. 
+SubCPMK-3: Mampu menjelaskan kompleksitas waktu dan kompleksitas ruang dari struktur data linear 
+statis dan dinamis. 
+SubCPMK-4: Mampu menenerapkan struktur data non-linear untuk mengakses data yang tersimpan di 
+memori yang ditulis dalam kode program 
+SubCPMK-5: Mampu menerapkan algoritma sorting pada struktur data untuk melakukan pengurutan 
+data yang tersimpan di dalam memori yang ditulis dalam kode program. 
+SubCPMK-6: Mampu menerapkan algoritma searching pada struktur data untuk melakukan pencarian 
+data yang tersimpan di dalam memori yang ditulis dalam kode program. 
+SubCPMK-7: Mampu menerapkan struktur data pemrograman dinamis untuk menyelesaikan masalah 
+pencarian rute terpendek. 
+ 
+Korelasi CPL Padu, Indikator CPL,  CPMK dan SubCPMK 
+ 
+ 
+ 
+CPL 
+Kode Indikator CPL 
+Padu 
+CPMK 
+No. 
+Bobot 
+(%) 
+CPMK 1 
+CPMK 2 
+CPMK 3 
+CPL 4 
+20 
+4.1 
+v 
+ 
+ 
+CPL 8 
+60 
+8.1 
+ 
+ 
+v 
+CPL 9 
+20 
+9.2 
+ 
+v 
+ 
+ 
+ 
+CPMK-1 
+CPMK-2 
+CPMK-3 
+SubCPMK-1 
+v 
+ 
+ 
+SubCPMK-2 
+v 
+ 
+ 
+SubCPMK-3 
+v 
+v
+3 
+ 
+SubCPMK-4 
+ 
+v 
+ 
+SubCPMK-5 
+ 
+ 
+v 
+SubCPMK-6 
+ 
+ 
+v 
+SubCPMK-7 
+ 
+ 
+v 
+Deskripsi Singkat Mata 
+Kuliah 
+Mata kuliah ini memberikan pengetahuan tentang teori dasar struktur dan penanganan data, jenis 
+struktur data, dan penggunaan struktur data yang digunakan untuk menyelesaikan studi kasus tertentu 
+menggunakan bahasa pemrograman C dan Java. 
+Bahan kajian: Materi 
+Pembelajaran (sesuai 
+SubCPMK) 
+Bahan kajian dari mata kuliah ini: 
+1. 
+Pengenalan struktur data linear dan non-linear 
+2. 
+Menentukan kompleksitas waktu dan kompleksitas ruang menggunakan notasi Big-O dan Big 
+Omega 
+3. 
+Struktur data linear statis Array 
+4. 
+Struktur data linear statis Hash Table 
+5. 
+Struktur data linear dinamis Linked List 
+6. 
+Struktur data linear dinamis Stack 
+7. 
+Struktur data linear dinamis Queue 
+8. 
+Struktur data non-linear Map 
+9. 
+Struktur data non-linear Tree 
+10. Struktur data non-linear Graph 
+11. Struktur data Recursion 
+12. Sorting pada Struktur Data 
+13. Searching pada Struktur Data 
+14. Struktur data Dynamic Programming: BFS, DFS, Greedy 
+ 
+Kriteria/Teknik Penilaian 
+Dan Kaitan Dengan CPMK 
+SubCPMK 
+Persentas
+e (%) 
+CPMK 
+Media/Rubrik 
+1 
+2 
+3 
+SubCPMK-1 
+10% 
+v 
+ 
+ 
+1. Tugas Terstruktur (2%) 
+2. Ujian SubCPMK (5%) 
+3. Portofolio Kode 
+Program (3%)
+4 
+ 
+SubCPMK-2 
+10% 
+v 
+ 
+ 
+1. Tugas Terstruktur (2%) 
+2. Ujian SubCPMK (5%) 
+3. Portofolio Kode 
+Program (3%) 
+SubCPMK-3 
+6% 
+v 
+v 
+ 
+1. Tugas Terstruktur (1%) 
+2. Kuis/ Latihan (2%) 
+3. Ujian SubCMPK (3%) 
+SubCPMK-4 
+20% 
+ 
+v 
+ 
+1. Tugas Terstruktur (2%) 
+2. Kuis/ Latihan (3%) 
+3. Ujian SubCPMK (8%) 
+4. Portofolio Kode 
+Program (7%) 
+SubCPMK-5 
+17% 
+ 
+ 
+ 
+v 
+1. Tugas Terstruktur (4%) 
+2. Ujian SubCPMK (7%) 
+3. Portofolio Kode 
+Program (6%) 
+SubCPMK-6 
+17% 
+ 
+ 
+v 
+1. Tugas Terstruktur (4%) 
+2. Ujian SubCPMK (7%) 
+3. Portofolio Kode 
+Program (6%) 
+SubCPMK-7 
+20% 
+ 
+ 
+v 
+1. Tugas Terstruktur (2%) 
+2. Kuis/ Latihan (3%) 
+3. Ujian SubCPMK (8%) 
+4. Portofolio Kode 
+Program (7%) 
+ 
+100% 
+ 
+ 
+ 
+100% 
+Pustaka 
+Utama: 
+ 
+1. B. Downey, Allen. 2017. Think Data Structures – Algorithm and Information Retrieval in Java. 
+O’Reilly 
+2. Karumanchi, Narasimha. 2017. Data Structure and Algorithm – Made easy in Java. CareerMonk 
+Publications
+5 
+ 
+3. Hubard, John R. 2007. Data Structure with Java – Second Edition. McGraw-Hill 
+Pendukung: 
+ 
+1. Michael T. Goodrich dkk. 2008. Data Structures and Algorithm in Java. Wiley 
+2. Kursus Online Udemy:  Data Structures and Algorithms: Deep Dive Using Java 
+Dosen Pengampu 
+Kurnia Ramadhan Putra, S.Kom., M.T. 
+Mata Kuliah Prasyarat 
+ISB-205 Pemrograman Berorientasi Objek 
+Mg Ke- 
+ 
+Kemampuan 
+Akhir Tiap 
+Tahapan 
+Belajar 
+(SubCPMK) 
+ 
+Penilaian 
+Bentuk Pembelajaran7);  
+Metode Pembelajaran8);  
+Penugasan Mahasiswa 
+(estimasi waktu) 
+Materi Pembelajaran9) 
+(Pustaka) 
+Bobot 
+Penilaian10 
+(%) 
+Indikator5) 
+Teknik6) 
+(1) 
+(2) 
+(3) 
+(4) 
+Luring (5) 
+Daring (6) 
+(7) 
+(8) 
+1-2 
+SubCPMK-1: 
+Mampu 
+menenerapkan 
+struktur data 
+linear statis 
+untuk 
+mengakses data 
+yang tersimpan 
+di memori yang 
+ditulis dalam 
+kode program 
+1. Ketepatan 
+menjelaskan 
+konsep ADT 
+2. Ketepatan 
+menerapkan 
+konsep Array 
+3. Ketepatan 
+menerapkan 
+konsep Hash 
+Table 
+4. Kebenaran 
+sintaks kode 
+program 
+1. Ceramah 
+2. Small 
+Discussion 
+Group 
+3. Tugas 
+Mandiri 
+4. Studi 
+Kasus 
+PB: Kuliah 
+ 
+TM: [1 x 3 x 
+50”] 
+MP1: 
+Structured 
+Overview  
+MP2:  
+Drill and 
+Practice 
+ 
+KM: [1 x 3 x 
+60”] 
+Membaca 
+slide, 
+menonton 
+video materi  
+yang diunggah 
+pada e-
+learning 
+ 
+PT: [1 x 3 x 
+60”] 
+Latihan 1: 
+Mengerjakan 
+latihan 
+struktur data 
+linear statis 
+Array dalam 
+1. Pengenalan Struktur 
+Data 
+2. Pengenalan 
+Algoritma 
+3. Konsep Penting C dan 
+C++: Struct, ADT, 
+Pointer, Fungsi, 
+Prosedur, Rekursif, 
+dan Template Class 
+4. Struktur Data Linear 
+Statis: Array 
+5. Struktur Data Linear 
+Statis: Hash 
+6. Setup IDE: Visual 
+Studio Code, 
+CodeBlocks 
+10%
+6 
+ 
+sintaks kode 
+program 
+ 
+ 
+PT: [1 x 3 x 
+60”] 
+Latihan 2: 
+Mengerjakan 
+latihan 
+struktur data 
+linear statis 
+Hash Table 
+dalam sintaks 
+kode program 
+3-4-5 
+SubCPMK-2: 
+Mampu 
+menenerapkan 
+struktur data 
+linear dinamis 
+untuk 
+mengakses data 
+yang tersimpan 
+di memori yang 
+ditulis dalam 
+kode program 
+1. Ketepatan 
+menerapkan 
+konsep 
+struktur data 
+linear 
+dinamis List 
+2. Ketepatan 
+menerapkan 
+konsep 
+struktur data 
+linear 
+dinamis Stack 
+3. Ketepatan 
+menerapkan 
+konsep 
+struktur data 
+linear 
+1. Ceramah 
+2. Small 
+Discussion 
+Group 
+3. Tugas 
+Mandiri 
+4. Studi 
+Kasus 
+PB: Kuliah 
+ 
+TM: [1 x 3 x 
+50”] 
+MP1: 
+Structured 
+Overview  
+MP2:  
+Drill and 
+Practice 
+ 
+KM: [1 x 3 x 
+60”] 
+Membaca 
+slide, 
+menonton 
+video materi  
+yang diunggah 
+pada e-
+learning 
+ 
+PT: [1 x 3 x 
+60”] 
+Latihan 1: 
+Mengerjakan 
+latihan 
+struktur data 
+linear statis 
+1. Pengenalan konsep 
+dan implementasi 
+strukur data List 
+2. Pengenalan konsep 
+dan implementasi 
+struktur data Stack 
+3. Pengenalan konsep 
+dan implementasi 
+struktur data Queue 
+ 
+10%
+7 
+ 
+dinamis 
+Queue 
+4. Kebenaran 
+sintaks kode 
+program 
+List dalam 
+sintaks kode 
+program 
+ 
+PT: [1 x 3 x 
+60”] 
+Latihan 2: 
+Mengerjakan 
+latihan 
+struktur data 
+linear dinamis 
+Stack dalam 
+sintaks kode 
+program 
+ 
+PT: [1 x 3 x 
+60”] 
+Latihan 1: 
+Mengerjakan 
+latihan 
+struktur data 
+linear dinamis 
+Queue dalam 
+sintaks kode 
+program 
+6-7 
+SubCPMK-3: 
+Mampu 
+menjelaskan 
+kompleksitas 
+waktu dan 
+kompleksitas 
+ruang dari 
+struktur data 
+1. Ketepatan 
+menjelaskan 
+kompleksitas 
+waktu dari 
+struktur data 
+linear statis 
+1. Ceramah 
+2. Small 
+Discussion 
+Group 
+3. Tugas 
+Mandiri 
+PB: Kuliah 
+ 
+TM: [1 x 3 x 
+50”] 
+MP1: 
+Structured 
+PT: [1 x 3 x 
+60”] 
+Latihan 1: 
+Mengerjakan 
+latihan 
+menghitung 
+1. Pengenalan Konsep 
+Time Complexity 
+2. Pengenalan Konsep 
+Space Complexity 
+3. Penggunaan Notasi 
+Big-O 
+6%
+8 
+ 
+linear statis dan 
+dinamis. 
+2. Ketepatan 
+menjelaskan 
+kompleksitas 
+ruang dari 
+struktur data 
+linear statis 
+3. Ketepatan 
+menjelaskan 
+kompleksitas 
+waktu dari 
+struktur data 
+linear 
+dinamis 
+4. Ketepatan 
+menjelaskan 
+kompleksitas 
+ruang dari 
+struktur data 
+linear 
+dinamis 
+Overview  
+MP2:  
+Discovery 
+Learning 
+ 
+kompleksitas 
+waktu dan 
+ruang 
+struktur data 
+linear statis 
+ 
+PT: [1 x 3 x 
+60”] 
+Latihan 1: 
+Mengerjakan 
+latihan 
+menghitung 
+kompleksitas 
+waktu dan 
+ruang 
+struktur data 
+linear dinamis 
+4. Penggunaan Notasi 
+Big Omega 
+8 
+Ujian Tengah Semester 
+9-10-
+11 
+SubCPMK-4: 
+Mampu 
+menenerapkan 
+struktur data 
+non-linear 
+untuk 
+mengakses data 
+yang tersimpan 
+di memori yang 
+ditulis dalam 
+1. Ketepatan 
+menerapkan 
+konsep 
+struktur data 
+linear 
+dinamis List 
+2. Ketepatan 
+menerapkan 
+konsep 
+struktur data 
+1. Ceramah 
+2. Small 
+Discussion 
+Group 
+3. Tugas 
+Mandiri 
+4. Studi 
+Kasus 
+PB: Kuliah 
+ 
+TM: [1 x 3 x 
+50”] 
+MP1: 
+Structured 
+Overview  
+MP2:  
+Drill and 
+Practice 
+KM: [1 x 3 x 
+60”] 
+Membaca 
+slide, 
+menonton 
+video materi  
+yang diunggah 
+pada e-
+learning 
+ 
+1. Pengenalan konsep 
+dan implementasi 
+strukur data List 
+2. Pengenalan konsep 
+dan implementasi 
+struktur data Stack 
+3. Pengenalan konsep 
+dan implementasi 
+struktur data Queue 
+20%
+9 
+ 
+kode program 
+linear 
+dinamis Stack 
+3. Ketepatan 
+menerapkan 
+konsep 
+struktur data 
+linear 
+dinamis 
+Queue 
+4. Kebenaran 
+sintaks kode 
+program 
+ 
+PT: [1 x 3 x 
+60”] 
+Latihan 1: 
+Mengerjakan 
+latihan 
+struktur data 
+non-linear 
+Map dalam 
+sintaks kode 
+program 
+ 
+PT: [1 x 3 x 
+60”] 
+Latihan 2: 
+Mengerjakan 
+latihan 
+struktur data 
+non-linear 
+Tree dalam 
+sintaks kode 
+program 
+ 
+PT: [1 x 3 x 
+60”] 
+Latihan 3: 
+Mengerjakan 
+latihan 
+struktur data 
+non-linear 
+Graf dalam 
+sintaks kode 
+program
+10 
+ 
+12 
+SubCPMK-5: 
+Mampu 
+menerapkan 
+algoritma 
+sorting pada 
+struktur data 
+untuk 
+melakukan 
+pengurutan 
+data yang 
+tersimpan di 
+dalam memori 
+yang ditulis 
+dalam kode 
+program 
+ 
+1. Ceramah 
+2. Small 
+Discussion 
+Group 
+3. Tugas 
+Mandiri 
+4. Studi 
+Kasus 
+PB: Kuliah 
+ 
+TM: [1 x 3 x 
+50”] 
+MP1: 
+Structured 
+Overview  
+MP2:  
+Drill and 
+Practice 
+ 
+KM: [1 x 3 x 
+60”] 
+Membaca 
+slide, 
+menonton 
+video materi  
+yang diunggah 
+pada e-
+learning 
+ 
+PT: [1 x 3 x 
+60”] 
+Latihan 1: 
+Mengerjakan 
+latihan untuk 
+mengurutkan 
+data pada 
+struktur data 
+menggunakan 
+berbagai 
+algoritma 
+sorting 
+1. Pengenalan konsep 
+dan implementasi 
+Quick Sort 
+2. Pengenalan konsep 
+dan implementasi 
+Insertion Sort 
+3. Pengenalan konsep 
+dan implementasi 
+Bubble Sort 
+4. Pengenalan konsep 
+dan implementasi 
+Selection Sort 
+ 
+17% 
+13 
+SubCPMK-6: 
+Mampu 
+menerapkan 
+algoritma 
+searching pada 
+struktur data 
+untuk 
+melakukan 
+pencarian data 
+ 
+1. Ceramah 
+2. Small 
+Discussion 
+Group 
+3. Tugas 
+Mandiri 
+4. Studi 
+Kasus 
+PB: Kuliah 
+ 
+TM: [1 x 3 x 
+50”] 
+MP1: 
+Structured 
+Overview  
+MP2:  
+Drill and 
+KM: [1 x 3 x 
+60”] 
+Membaca 
+slide, 
+menonton 
+video materi  
+yang diunggah 
+pada e-
+learning 
+1. Pengenalan konsep 
+dan implementasi 
+Linear Search 
+2. Pengenalan konsep 
+dan implementasi 
+Binary Search 
+3. Pengenalan konsep 
+dan implementasi 
+Exponential Search 
+17%
+11 
+ 
+ 
+yang tersimpan 
+di dalam 
+memori yang 
+ditulis dalam 
+kode program 
+Practice 
+ 
+ 
+PT: [1 x 3 x 
+60”] 
+Latihan 1: 
+Mengerjakan 
+latihan untuk 
+pencarian 
+data pada 
+struktur data 
+menggunakan 
+berbagai 
+algoritma 
+searching 
+ 
+4. Pengenalan konsep 
+dan implementasi 
+Sequential Search 
+ 
+14-15 
+SubCPMK-7: 
+Mampu 
+menerapakan 
+struktur data 
+pemrograman 
+dinamis untuk 
+menyelesaikan 
+masalah 
+pencarian rute 
+terpendek 
+ 
+ 
+PB: Kuliah 
+ 
+TM: [1 x 3 x 
+50”] 
+MP1: 
+Structured 
+Overview  
+MP2:  
+Drill and 
+Practice 
+ 
+1. Algoritma Bread First 
+Search 
+2. Algoritma Depth First 
+Search 
+3. Algoritma Greedy 
+4. Algoritma Djikstra 
+5. Algoritma Kruskal 
+ 
+20% 
+16 
+UJian Akhir Semester
+12

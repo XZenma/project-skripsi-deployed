@@ -1,0 +1,705 @@
+Manajemen
+Risiko
+Proyek
+Project Risk
+Management
+SOFIA UMAROH
+1
+Agenda
+Hari Ini
+2
+3
+4
+SOFIA UMAROH
+Definisi Manajemen Risiko
+Proyek
+Terminologi Manajemen Risiko
+PRoyek
+Proses Manajemen Risiko
+Proyek
+Alat dan teknik Manajemen
+Risiko Proyek
+Analisis Kompetitif
+Merek
+Anda
+1
+2
+Kriteria
+Lebih
+Rendah B
+Kriteria
+Lebih
+Tinggi B
+Kriteria
+Lebih
+Tinggi A
+Kriteria
+Lebih
+Rendah A
+Namai setiap lingkaran
+dengan merek yang
+Anda bandingkan.
+Seret setiap lingkaran
+ke kotak sesuai
+peringkat mereka
+berdasarkan Kriteria
+A dan Kriteria B.
+1.
+Kompetitor A
+Kompetitor B
+Kompetitor C
+SOFIA UMAROH
+Risks
+Pentingnya Risiko
+Proyek
+SOFIA UMAROH
+Manajemen risiko proyek adalah seni dan
+ilmu untuk mengidentifikasi, menganalisis,
+dan menanggapi risiko sepanjang siklus
+proyek dan untuk kepentingan terbaik
+dalam memenuhi tujuan proyek.
+Manajemen risiko dapat memiliki dampak
+positif dalam memilih proyek, menentukan
+ruang lingkupnya, dan mengembangkan
+jadwal dan perkiraan biaya yang realistis
+Pentingnya
+Manajemen Risiko
+Semua industri, terutama industri
+pengembangan perangkat lunak,
+cenderung meremehkan pentingnya
+manajemen risiko proyek
+SOFIA UMAROH
+Lbbs dan Kwak:
+manajemen risiko memiliki
+tingkat terendah
+Survei perusahaan
+pengembangan PL di
+Mauritius, Afrika Selatan
+(2003): manajemen risiko
+memiliki tingkat
+kematangan terendah
+Studi KLCI: manfaat
+mengikuti praktik
+manajemen risiko
+perangkat lunak yang baik
+Hasil Penelitian Terkait Risiko
+SOFIA UMAROH
+Source: Kulik and Weber, KLCI
+Research Group
+Manfaat
+Praktik
+Software
+Manajemen
+Risiko
+Apakah itu
+Manajemen
+Risiko Proyek?
+SOFIA UMAROH
+SOFIA UMAROH
+"Peristiwa atau kondisi yang
+tidak pasti yang dapat
+mempengaruhi proyek secara
+positif atau negatif"
+Risiko Positif: Good thing happen
+
+Risiko yang mengakibatkan hal-hal
+baik terjadi; kadang disebut peluang
+Definisi Risiko
+"Peluang mendapatkan kerugian
+atau akibat buruk lain"
+Risiko Negatif: Bad thing happen
+
+Peluang yang dapat berpotensi
+menurunkan keberhasilan dari
+pencapaian tujuan organisasi.
+SOFIA UMAROH
+"Melibatkan pemahaman
+potensi masalah yang mungkin
+terjadi pada proyek dan
+bagaimana hal itu dapat
+menghambat keberhasilan
+proyek"
+
+Meminimalkan potensi risiko
+negatif sambil memaksimalkan
+potensi risiko positif
+Manajemen Risiko Proyek
+
+Manajemen risiko adalah
+investasi, biaya yang dikeluarkan
+tidak boleh melebihi potensi
+manfaat
+SOFIA UMAROH
+Risk-Avers: Utilitas meningkat
+saat menghindari risiko menurun
+Risk-Seeking memiliki toleransi
+yang lebih tinggi terhadap risiko
+dan kepuasan meningkat ketika
+lebih banyak hasil yang
+dipertaruhkan
+Risk-Neutral, risiko dan hasil
+seimbang
+Risk Utility
+Utilitas risiko atau toleransi risiko adalah jumlah kepuasan atau kesenangan
+yang diterima dari hasil potensial
+SOFIA UMAROH
+Risk Weight = Risk Probability * Risk Impact
+Risk
+Calculation
+Penting untuk
+menghitung nilai Risiko
+Risiko diukur dengan
+menetapkan nilai
+moneter
+Nilai risiko diperoleh dari
+mengalikan kemungkinan
+dan dampak risiko
+Risk Probability: kemungkinan
+terjadinya peristiwa risiko dan
+Risk Impact: pengaruh pada tujuan
+proyek jika peristiwa risiko terjadi
+Dimana:
+SOFIA UMAROH
+Risk
+Categories
+1
+2
+Internal: risiko yang muncul dari dalam
+proyek. Misalnya SDM, pendanaan,
+perubahan lingkup, dll.
+External - risiko yang muncul dari kebijakan
+atau peraturan eksternal. Misal: Kebijakan
+pemerintah, pemasok, lingkungan, dll.
+3
+Technical - risiko yang muncul dari
+teknologi yang digunakan. Misal: kualitas
+teknologi, pihak ketiga, fungionalitas, dll.
+Berdasarkan asal risiko:
+1
+Scope risk
+2
+Cost risk
+3
+Time risk
+4
+Resource risk
+5
+Quality risk
+Apa saja
+Proses Manajemen
+Risiko Proyek?
+SOFIA UMAROH
+SOFIA UMAROH
+Project Risk Management
+SOFIA UMAROH
+Proses Manajemen Risiko Proyek
+Planning risk management
+Memutuskan bagaimana
+mendekati dan merencanakan
+kegiatan manajemen risiko untuk
+proyek
+1
+2
+3
+4
+5
+6
+Identifying risks
+Menentukan risiko mana yang
+mungkin mempengaruhi proyek
+dan mendokumentasikan
+karakteristik masing-masing
+Performing quantitative
+risk analysis
+Secara numerik memperkirakan
+efek risiko pada tujuan proyek
+Performing qualitative
+risk analysis
+Memprioritaskan risiko
+berdasarkan probabilitas dan
+dampak kejadiannya
+Planning risk responses
+Mengambil langkah-langkah
+untuk meningkatkan peluang
+dan mengurangi ancaman untuk
+memenuhi tujuan proyek
+Controlling risk
+Memantau risiko teridentifikasi dan
+residual, mengidentifikasi risiko
+baru, melaksanakan rencana
+respons risiko, dan mengevaluasi
+efektivitas strategi risiko
+SOFIA UMAROH
+Project Risk
+Management
+Summary
+Proses
+Manajemen
+Risiko
+1. Planning Risk
+Management
+SOFIA UMAROH
+SOFIA UMAROH
+Rencana yang mendokumentasikan
+prosedur untuk mengelola risiko di
+seluruh proyek
+Tim proyek harus meninjau dokumen
+proyek dan memahami pendekatan
+organisasi dan sponsor terhadap risiko
+Tingkat detail akan bervariasi sesuai
+dengan kebutuhan proyek
+Output: Dokumen Rencana Manajemen
+Risiko
+Proses ini membahas:
+
+Metodologi
+Risk Management Plan
+
+Peran dan tanggung jawab
+
+Anggaran dan jadwal
+
+Kategori risiko
+
+Probabilitas dan dampak risiko
+
+Revisi toleransi stakeholder
+
+Pelacakan
+
+Dokumentasi risiko
+Another topics on Project
+Risk Management
+SOFIA UMAROH
+1
+Contingency plan: tindakan yang telah
+ditentukan sebelumnya yang akan
+diambil oleh tim proyek jika peristiwa
+risiko yang teridentifikasi terjadi
+3
+Contingency reserves (contingency
+allowances): dana (baseline biaya) yang
+dapat digunakan untuk mengurangi biaya
+atau jadwal yang berlebihan jika risiko
+yang diketahui terjadi.
+2
+Fallback plans: rencana untuk risiko
+yang berdampak tinggi pada
+pencapaian tujuan proyek dan
+diterapkan jika upaya untuk
+mengurangi risiko tidak berhasil.
+4
+Management reserves: dana (di luar
+baseline) yang disimpan untuk risiko
+yang tidak diketahui yang digunakan
+untuk tujuan pengendalian manajemen.
+Common Sources of Risk on IT Projects
+SOFIA UMAROH
+Beberapa studi menunjukkan bahwa
+proyek TI memiliki beberapa
+sumber risiko yang sama
+Standish Group mengembangkan
+lembar penilaian potensi
+keberhasilan TI berdasarkan potensi
+risiko
+Kategori risiko luas lainnya
+membantu mengidentifikasi potensi
+risiko
+Broad categories of risks
+SOFIA UMAROH
+Market risk: apakah pengguna akan
+menerima dan menggunakan
+produk atau layanan?
+1
+2
+Financial risk: akankah proyek ini
+memanfaatkan keuangan kita
+dengan sebaik-baiknya?
+3
+Technology risk: apakah proyek
+tersebut layak secara teknis?
+4
+People risk: dapatkah kita
+menemukan orang yang tepat
+untuk melakukan pekerjaan itu?
+5
+Structure/process risk: Apakah
+organisasi kami memiliki proses
+untuk menyelesaikan proyek ini?
+Risk Breakdown Structure
+SOFIA UMAROH
+Risk Breakdown Structure:
+alat untuk membantu
+manajer proyek
+mempertimbangkan risiko
+potensial dalam kategori
+yang berbeda
+Sepertihalnya WBS, RBS
+menunjukkan hierarki
+kategori risiko potensial
+untuk suatu proyek.
+Potential Negative Risk Conditions
+Associated With Each Knowledge Area
+SOFIA UMAROH
+Memahami sumber
+umum risiko sangat
+membantu dalam
+identifikasi risiko, yang
+merupakan langkah
+selanjutnya dalam
+manajemen risiko
+proyek.
+Proses
+Manajemen
+Risiko
+2. Identifying
+Risks
+SOFIA UMAROH
+SOFIA UMAROH
+Identifying Risks
+Proses memahami peristiwa potensial apa
+yang mungkin merugikan atau meningkatkan
+proyek tertentu
+Risiko tidak dapat dikelola jika tidak
+diidentifikasi terlebih dahulu.
+Input: Dokumen perencanaaan proyek,
+perkiraan biaya dan durasi aktivitas, baseline
+lingkup, daftar stakeholder, faktor lingkungan
+perusahaan, dan aset proses organisasi
+Output: Risk Register
+Alat dan teknik meliputi:
+1
+Brainstorming
+2
+The Delphi Technique
+3
+Interviewing
+4
+SWOT analysis
+SOFIA UMAROH
+1
+2
+3
+4
+Brainstorming adalah teknik dimana
+kelompok mencoba untuk menghasilkan
+ide-ide atau menemukan solusi untuk
+masalah tertentu dengan mengumpulkan
+ide-ide secara spontan dan tanpa
+penilaian.
+Brainstorming
+Yang perlu diperhatikan:
+Fasilitator yang berpengalaman harus
+menjalankan sesi brainstorming
+Berhati-hatilah untuk tidak terlalu sering
+menggunakan atau menyalahgunakan
+brainstorming.
+Individu menghasilkan lebih banyak ide
+dengan bekerja sendiri daripada yang
+mereka lakukan melalui brainstorming
+dalam kelompok kecil tatap muka
+Efek kelompok seperti adanya dominasi,
+takut ada penolakan, sering menghambat
+pembentukan ide
+SOFIA UMAROH
+1
+2
+Delphi Technique
+2
+Teknik Delphi digunakan untuk
+memperoleh konsensus di antara panel
+ahli yang membuat prediksi tentang
+perkembangan masa depan
+yang perlu diperhatikan:
+Memberikan masukan independen dan
+anonim mengenai acara mendatang
+Menggunakan pertanyaan berulang dan
+tanggapan tertulis
+Menghindari kemungkinan efek bias
+dalam metode lisan, seperti
+brainstorming
+SOFIA UMAROH
+Interviewing
+Teknik pencarian fakta untuk
+mengumpulkan informasi dalam diskusi
+tatap muka, telepon, email, atau pesan
+instan.
+Mewawancarai orang-orang dengan
+pengalaman proyek serupa merupakan
+alat penting untuk mengidentifikasi
+potensi risiko
+SWOT Analysis
+Analisis SWOT (strengths, weaknesses,
+opportunities, and threats) dapat
+digunakan selama identifikasi risiko
+Membantu mengidentifikasi risiko
+negatif dan positif yang luas yang
+berlaku untuk sebuah proyek
+Membantu mengidentifikasi risiko dan
+peluang luas yang berlaku dalam
+skenario itu.
+SOFIA UMAROH
+Dokumen yang berisi hasil dari berbagai proses manajemen risiko dan sering ditampilkan
+dalam format tabel atau spreadsheet
+Alat untuk mendokumentasikan kejadian risiko potensial dan informasi terkait
+Peristiwa risiko (Risk event) mengacu pada peristiwa spesifik dan tidak pasti yang
+mungkin terjadi sehingga merugikan atau meningkatkan proyek
+Risk Register
+SOFIA UMAROH
+Risk Register Elements
+1
+Nomor identifikasi untuk setiap
+peristiwa risiko
+2
+Peringkat untuk setiap peristiwa risiko
+3
+Nama setiap peristiwa risiko
+4
+Deskripsi setiap peristiwa risiko
+5
+Kategori di mana setiap peristiwa
+risiko berada
+6
+Akar penyebab setiap risiko
+7
+Pemicu/gejala/indikator untuk
+setiap risiko
+8
+Potensi tanggapan untuk setiap
+risiko
+9
+Pemilik risiko atau orang yang
+bertanggung jawab atas setiap risiko
+10
+Probabilitas dan dampak dari
+setiap risiko yang terjadi.
+11
+Status setiap risiko
+SOFIA UMAROH
+Risk Register Example
+Proses
+Manajemen
+Risiko
+3. Performing
+Qualitative Risk
+Analysis
+SOFIA UMAROH
+SOFIA UMAROH
+1
+2
+3
+Performing Qualitative
+Risk Analysis
+Analisis risiko kualitatif melibatkan
+penilaian kemungkinan dan dampak
+dari risiko yang teridentifikasi untuk
+menentukan besarnya dan
+prioritasnya.
+Menilai kemungkinan dan dampak dari
+risiko yang teridentifikasi untuk
+menentukan besarnya dan
+prioritasnya
+Alat dan teknik meliputi:
+Probability/impact matrix
+Top Ten Risk Item Tracking
+Expert Judgement
+SOFIA UMAROH
+1
+2
+3
+Probability/impact matrix
+4
+Mencantumkan probabilitas relatif dari risiko yang terjadi (sumbu Y) dan dampak relatif
+dari risiko yang terjadi (sumbu X) pada bagan.
+Cara menggunakan matrix:
+Stakeholder proyek membuat daftar risiko
+yang mungkin terjadi pada proyek mereka
+Berikan label risiko probabilitas kejadian:
+high, medium, atau low
+Berikan label dampak risiko: high, medium,
+atau low
+Kemudian PM merangkum hasilnya dalam
+matriks probabilitas/dampak
+SOFIA UMAROH
+Chart Showing High-, Medium-,
+and Low-Risk Technologies
+Faktor risiko digunakan untuk membuat
+grafik probabilitas kegagalan dan
+konsekuensi kegagalan
+Mengklasifikasikan teknologi potensial
+(titik pada grafik) sebagai risiko tinggi,
+sedang, atau rendah, berdasarkan
+kemungkinan kegagalan dan konsekuensi
+kegagalan.
+SOFIA UMAROH
+Top Ten Risk Item Tracking
+Alat analisis risiko kualitatif yang
+membantu mengidentifikasi risiko dan
+mempertahankan kesadaran akan risiko
+sepanjang umur proyek
+Tetapkan tinjauan berkala atas sepuluh
+item risiko proyek teratas
+Buat daftar peringkat saat ini, peringkat
+sebelumnya, berapa kali risiko muncul di
+daftar selama periode waktu tertentu, dan
+ringkasan kemajuan yang dibuat dalam
+menyelesaikan item risiko
+1
+2
+3
+Tinjauan manajemen risiko mencapai
+beberapa tujuan:
+Membuat manajemen dan pelanggan
+sadar akan pengaruh utama yang dapat
+mencegah atau meningkatkan
+keberhasilan proyek
+Dengan melibatkan pelanggan, tim proyek
+mungkin dapat mempertimbangkan
+strategi alternatif untuk mengatasi risiko
+Sarana untuk meningkatkan kepercayaan
+dalam tim proyek dengan menunjukkan
+kepada manajemen dan pelanggan bahwa
+tim sadar akan risikonya, memiliki strategi
+dan menjalankan strategi secara efektif.
+SOFIA UMAROH
+Top Ten Risk Item Tracking
+SOFIA UMAROH
+Watch List
+Daftar pantauan adalah daftar risiko
+yang berprioritas rendah, tetapi masih
+diidentifikasi sebagai risiko potensial
+Analisis kualitatif juga dapat
+mengidentifikasi risiko yang harus
+dievaluasi secara kuantitatif
+Keluaran utama dari analisis risiko
+Kualitatif adalah memperbarui daftar
+risiko.
+Daftar pantauan adalah daftar risiko
+yang berprioritas rendah tetapi masih
+diidentifikasi sebagai risiko potensial
+Proses
+Manajemen
+Risiko
+4. Performing
+Quatitative Risk
+Analysis
+SOFIA UMAROH
+SOFIA UMAROH
+1
+2
+3
+Performing
+Quanitative Risk
+Analysis
+Sering mengikuti analisis risiko
+kualitatif, tetapi keduanya dapat
+dilakukan bersama-sama
+Proyek besar dan kompleks yang
+melibatkan teknologi terdepan
+seringkali memerlukan analisis
+risiko kuantitatif yang ekstensif
+Alat dan teknik meliputi:
+Decision tree analysis
+Monte Carlo Simulation
+Sensitivity analysis
+SOFIA UMAROH
+Decision Tree Analysis
+Pohon keputusan adalah teknik analisis
+diagram yang digunakan untuk
+membantu memilih tindakan terbaik
+dalam situasi di mana hasil masa
+depan tidak pasti
+Aplikasi analisis pohon keputusan yang
+umum adalah Expected monetary
+value (EMV).
+Hasil kali dari probabilitas peristiwa
+risiko dan nilai moneter peristiwa risiko.
+SOFIA UMAROH
+Expected Monetary Value (EMV)
+Proposal 1
+Proposal 2
+Cliff Company
+P= 0.2
+P= 0.8
+Probability (P)
+Perusahaan Cliff akan memenangkan kontrak
+untuk Proyek 1, yang diperkirakan laba bernilai
+$300.000
+Times
+EMV of Outcome
+*
+*
+$300.000 = +$60,000
+-$40,000 = -$32,000
+P= 0.2
+P= 0.7
+Probabilitas 80% perusahaan akan kehilangan
+$40.000 untuk proyek 1
+P= 0.1
+*
+*
+-$50.000 = -$10,000
+$60,000 = $42,000
+*
+-$20.000 = -$2,000
+Misalkan probabilitas 20% perusahaan akan
+kehilangan $40.000 untuk Proyek 2
+Probabilitas 10% perusahaan akan kehilangan
+$20.000 untuk Proyek 2
+Probabilitas 70% perusahaan akan
+memenangkan proyek 2 dengan laba $60.000
+EMV Proyek 1 = $60,000 - $32,000 = $28,000
+EMV Proyek 2 = -$10,000 - $2,000 + $42,000 = $30,000
+Diperoleh:
+Keputusan:
+Jika harus memilih antara dua proyek, Perusahaan Cliff harus
+menawar Proyek 2 karena memiliki EMV yang lebih tinggi dan positif.
+SOFIA UMAROH
+Expected Monetary Value (EMV)
+Perhatikan, proyek 1 terlihat lebih
+menarik dengan keuntungan 300.000,
+tetapi hanya bisa mendapatkan
+$60.000 Proyek 2
+Jika Cliff adalah seorang pencari risiko,
+dia tentu ingin menawar Proyek 1.
+Namun, hanya ada peluang 20% untuk
+mendapatkan $300.000 di Proyek 1,
+dibandingkan dengan 70 persen
+peluang untuk menghasilkan $60.000
+di Proyek 2
+SOFIA UMAROH
+Simulation
+Simulasi: menggunakan representasi atau
+model dari suatu sistem untuk menganalisis
+perilaku atau kinerja yang diharapkan dari
+sistem
+Analisis Monte Carlo: mensimulasikan hasil
+model berkali-kali untuk memberikan
+distribusi statistik dari hasil yang dihitung
+Untuk menggunakan simulasi Monte Carlo,
+Anda harus memiliki tiga perkiraan (most
+likely, pessimistic, and optimistic) ditambah
+perkiraan likelihood yang berada di antara
+nilai most likely dan optimistic.
+1
+2
+3
+Alat dan teknik meliputi:
+Nilai kisaran untuk variabel yang
+dipertimbangkan
+Tentukan distribusi probabilitas
+masing-masing variabel
+Untuk setiap variabel, pilih nilai acak
+berdasarkan distribusi probabilitas
+4
+Jalankan analisis deterministik atau
+satu lintasan melalui model
+5
+Ulangi langkah 3 dan 4 berkali-kali
+untuk mendapatkan distribusi
+probabilitas dari hasil model
+Semoga hari
+Anda luar biasa.
+Terima
+kasih
+SOFIA UMAROH
