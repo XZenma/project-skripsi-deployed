@@ -9,7 +9,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Sangat disarankan mengatur API key via Environment Variable (misal: os.environ.get("GROQ_API_KEY"))
 # Namun untuk keperluan testing cepat, ini tetap bisa digunakan:
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "xxxx"
 
 # LLM dari API eksternal (Model disesuaikan dengan daftar model Groq yang valid)
 llm = ChatOpenAI(
