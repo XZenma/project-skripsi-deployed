@@ -21,7 +21,7 @@ from pipeline.rag_chain import run_rag
 from pipeline.embedder import get_embeddings
 from config import MODEL_NAME, GROUND_TRUTH_PATH, EVAL_RESULTS_PATH
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "xxxx"
 
 def load_ground_truth(path: str = GROUND_TRUTH_PATH) -> list[dict]:
     """
