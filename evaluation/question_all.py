@@ -12,11 +12,7 @@ TEKNIK_LIST = ["fixed", "recursive", "sentence", "semantic"]
 
 # --- Daftar pertanyaan uji (silakan sesuaikan) ---
 PERTANYAAN_LIST = [
-    "Apa CPL 4 dari mata kuliah Struktur Data?",
-    "Apa itu constraint pada sql?",
-    "apa fungsi not null constraint pada sql?",
-    "apa itu trigger pada database?",
-    "Software Quality Function Deployment (SQFD) model adalah?",
+    "Apakah source code di dalam stored procedure yang dibuat dengan opsi WITH ENCRYPTION dapat ditampilkan kembali menggunakan perintah sp_helptext?",
 ]
 
 OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))

@@ -1,0 +1,26 @@
+{
+  "fixed": {
+    "context_precision": 0.8566,
+    "context_recall": 0.935,
+    "faithfulness": 0.8228,
+    "answer_correctness": 0.6544
+  },
+  "recursive": {
+    "context_precision": 0.8733,
+    "context_recall": 0.8988,
+    "faithfulness": 0.7761,
+    "answer_correctness": 0.6641
+  },
+  "sentence": {
+    "context_precision": 0.8736,
+    "context_recall": 0.91,
+    "faithfulness": 0.6616,
+    "answer_correctness": 0.5845
+  },
+  "semantic": {
+    "context_precision": 0.8233,
+    "context_recall": 0.9471,
+    "faithfulness": 0.5761,
+    "answer_correctness": 0.5115
+  }
+}

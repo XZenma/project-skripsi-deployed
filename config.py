@@ -32,5 +32,5 @@ FAISS_PATHS = {
     "semantic": os.path.join(FAISS_PATH, "semantic"),
 }
 
-GROUND_TRUTH_PATH = os.getenv("GROUND_TRUTH_PATH", "ground_truth_final.json")
+GROUND_TRUTH_PATH = os.getenv("GROUND_TRUTH_PATH", "Dataset_skripsi.json")
 EVAL_RESULTS_PATH = os.getenv("EVAL_RESULTS_PATH", "evaluation_results")

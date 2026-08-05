@@ -1,0 +1,352 @@
+[
+    {
+        "question": "Apa kegunaan dari UNIQUE constraint?",
+        "ground_truth": "Digunakan untuk memastikan tidak ada nilai duplikat yang dapat dimasukkan ke dalam satu kolom atau kombinasi kolom tertentu yang bukan bagian dari PRIMARY KEY. Constraint ini secara otomatis membuat indeks yang menjamin tidak ada dua baris dalam tabel yang memiliki nilai sama pada kolom yang berpartisipasi dalam indeks tersebut, namun tetap mengizinkan penyisipan satu nilai NULL pada kolom tersebut apabila kolom itu mengizinkan NULL.",
+        "major": "Basis Data 2",
+        "document_source": "CONSTRAINT IN SQL SERVER 2012",
+        "question_type": "Deskriptif"
+    },
+    {
+        "question": "Apa saja kelebihan incremental delivery?",
+        "ground_truth": "Perubahan dari customer dapat diserahkan lebih awal, Membantu memperoleh kebutuhan untuk perubahan selanjutnya, Risiko lebih rendah dari kegagalan proyek secara keseluruhan, dan Layanan sistem dengan prioritas tertinggi cenderung menerima paling banyak pengujian",
+        "major": "Rekayasa Perangkat Lunak",
+        "document_source": "TM-03 Aktivitas Pada Proses Perangkat Lunak (2)",
+        "question_type": "Deskriptif"
+    },
+    {
+        "question": "apa itu penjadwalan proses?",
+        "ground_truth": "Aktivitas manajer proses yang menangani penghapusan proses yang berjalan dari CPU dan pemilihan proses lain berdasarkan strategi tertentu dan merupakan bagian penting dari sistem operasi Multiprogramming. Sistem operasi semacam itu memungkinkan lebih dari satu proses untuk dimuat ke dalam memori yang dapat dieksekusi pada suatu waktu dan proses yang dimuat berbagi CPU menggunakan penggandaan waktu.",
+        "major": "Sistem Operasi",
+        "document_source": "ALGORITMA PENJADWALAN PROSES1",
+        "question_type": "Deskriptif"
+    },
+    {
+        "question": "Apa fungsi utama dari Scalar Function pada SQL Server?",
+        "ground_truth": "Fungsi utama Scalar Function adalah mengolah masukan dan mengembalikan satu nilai tunggal (single value) dengan tipe data tertentu seperti INT, VARCHAR, atau DATE.",
+        "major": "Basis Data 2 Praktikum AA",
+        "document_source": "UDF Skalar dalam SQL Server 2012",
+        "question_type": "Deskriptif"
+    },
+    {
+        "question": "Apa CPMK-1 mata kuliah Basis Data 2?",
+        "ground_truth": "Mahasiswa mampu menganalisa dan merancang basisdata",
+        "major": "Basis Data 2",
+        "document_source": "ISB_212_Basisdata2_RPS (1)",
+        "question_type": "Deskriptif"
+    },
+    {
+        "question": "Berapa bobot dari CPL 6 Sistem Operasi?",
+        "ground_truth": "14%",
+        "major": "Sistem Operasi",
+        "document_source": "RPS ISB-208 Sistem_operasi_revisi",
+        "question_type": "Deskriptif"
+    },
+    {
+        "question": "Apa indikator penilaian dari SubCPMK-1 struktur data ?",
+        "ground_truth": "Ketepatan menjelaskan konsep ADT, Ketepatan menerapkan \nkonsep Array, Ketepatan menerapkan konsep Hash, Kebenaran sintaks kode program",
+        "major": "Struktur Data",
+        "document_source": "RPS ISB-204 Struktur Data",
+        "question_type": "Deskriptif"
+    },
+    {
+        "question": "Apa itu The Capability Maturity Model Integration (CMMI)?",
+        "ground_truth": "Model kematangan (maturity model) populer yang dikembangkan oleh Software Engineering Institute (SEI) di Carnegie Mellon University. CMMI merupakan Sebuah pendekatan peningkatan proses yang memberikan elemen-elemen esensial dari proses yang efektif kepada suatu organisasi. Pendekatan ini dapat digunakan untuk memandu peningkatan proses pada lingkup proyek, divisi, atau di seluruh jajaran organisasi. CMMI membantu mengintegrasikan fungsi-fungsi organisasi yang secara tradisional terpisah, menetapkan tujuan dan prioritas peningkatan proses, memberikan panduan untuk menciptakan proses yang berkualitas, serta menyediakan titik acuan untuk mengevaluasi proses yang berjalan saat ini.",
+        "major": "Manajemen Proyek Sistem Informasi",
+        "document_source": "Kathy Schwalbe - Information Technology Project Management-Cengage (2019)",
+        "question_type": "Deskriptif"
+    },
+    {
+        "question": "Apa itu requirements traceability matrix (RTM)?",
+        "ground_truth": "sebuah tabel yang mencantumkan daftar persyaratan, berbagai atributnya, dan status dari persyaratan tersebut untuk memastikan bahwa seluruh persyaratan telah ditangani. Tujuan utama dari RTM adalah untuk memelihara keterkaitan mulai dari sumber setiap persyaratan, melalui proses dekomposisinya, hingga tahap implementasi dan validasi.",
+        "major": "Manajemen Proyek Sistem Informasi",
+        "document_source": "Kathy Schwalbe - Project Scope Management",
+        "question_type": "Deskriptif"
+    },
+    {
+        "question": "Informasi apa saja yang biasanya dimuat di dalam sebuah requirements management plan?",
+        "ground_truth": "Informasi yang biasanya dimuat di dalam sebuah requirements management plan meliputi cara merencanakan, melacak, dan melaporkan aktivitas persyaratan, cara melaksanakan aktivitas manajemen konfigurasi, cara memprioritaskan persyaratan, cara menggunakan metrik produk, serta cara melacak dan mencatat atribut dari persyaratan.",
+        "major": "Manajemen Proyek Sistem Informasi",
+        "document_source": "Kathy Schwalbe - Project Scope Management",
+        "question_type": "Deskriptif"
+    },
+    {
+        "question": "Apa urutan Proses Integrasi Manajemen Proyek?",
+        "ground_truth": "1. Mengembangkan Project Charter\n2. Mengembangkan Perencanaan Proyek\n3. Mengarahkan dan mengelola pekerjaan proyek\n4. Mengelola pengetahuan proyek\n5. Pemantauan dan pengendalian pekerjaan proyek\n6. Melakukan kontrol perubahan terpadu\n7. Menutup proyek",
+        "major": "Manajemen Proyek Sistem Informasi",
+        "document_source": "Week4 Project Integration Management",
+        "question_type": "Prosedural"
+    },
+    {
+        "question": "Bagaimana langkah-langkah instalasi SQL express 2025?",
+        "ground_truth": "1. Buka tautan https://www.microsoft.com/en-us/sql-server/sql-server-downloads.\n2. Cari opsi SQL Express 2025, lalu klik Download.\n3. Klik dua kali pada file installer yang telah diunduh, lalu pilih opsi Basic.\n4. Klik Accept dan tunggu sampai proses instalasi selesai.\n5. Setelah selesai, akan muncul Server Name yang perlu dicatat untuk keperluan login di SSMS nantinya.",
+        "major": "Basis Data Praktikum AA",
+        "document_source": "INSTALASI SQL SERVER EXPRESS 2025",
+        "question_type": "Prosedural"
+    },
+    {
+        "question": "Bagaimana langkah-langkah login SSMS?",
+        "ground_truth": "1. Pastikan SQL Express sudah terinstal sebelum melakukan login.\n2. Masuk ke aplikasi SSMS dan isi kolom Server Name (nama server dapat dilihat pada System Information).\n3. Jika tidak bisa terhubung (connect) setelah memasukkan Server Name, salin nama sistem tersebut dan tambahkan \\SQLEXPRESS di belakangnya tanpa spasi. Jika tidak ada SQL Express, coba gunakan Local Host.\n4. Centang opsi \"Trust Server Certificate\".\n5. Klik tombol Connect.",
+        "major": "Basis Data Praktikum AA",
+        "document_source": "INSTALASI SQL SERVER EXPRESS 2025",
+        "question_type": "Prosedural"
+    },
+    {
+        "question": "Sebutkan dan jelaskan tahapan-tahapan proses manajemen risiko proyek secara berurutan!",
+        "ground_truth": "1. Planning risk management: Memutuskan bagaimana mendekati dan merencanakan kegiatan manajemen risiko untuk proyek.\n2. Identifying risks: Menentukan risiko mana yang mungkin mempengaruhi proyek dan mendokumentasikan karakteristik masing-masing.\n3. Performing qualitative risk analysis: Memprioritaskan risiko berdasarkan probabilitas dan dampak kejadiannya.\n4. Performing quantitative risk analysis: Secara numerik memperkirakan efek risiko pada tujuan proyek.\n5. Planning risk responses: Mengambil langkah-langkah untuk meningkatkan peluang dan mengurangi ancaman untuk memenuhi tujuan proyek.\n6. Controlling risk: Memantau risiko teridentifikasi dan residual, mengidentifikasi risiko baru, melaksanakan rencana respons risiko, dan mengevaluasi efektivitas strategi risiko.",
+        "major": "Manajemen Proyek Sistem Informasi",
+        "document_source": "Week13 Project Risk Management",
+        "question_type": "Prosedural"
+    },
+    {
+        "question": "Apa saja SubCPMK dari mata kuliah Sistem Operasi secara berurutan? Dan apa kemampuan yang harus dimiliki mahasiswa pada masing masing SubCPMK?",
+        "ground_truth": "SubCPMK-1: Mahasiswa mampu menjelaskan pengertian dasar, manfaat dan cara kerja sistem operasi, baik open source ataupun tidak.\nSubCPMK-2: Mahasiswa mampu menjelaskan konsep dasar, manajmene file, kernel, shell, utility dasar dan manajemen \nmemory pada sistem operasi. \nSubCPMK-3: Mahasiswa mampu menjelaskan System kerja I/O,  konsep penjadwalan  masalah yang terjadi saat deadlock dan \nserangan yang bisa dilakukan pada sistem operasi.\nSubCPMK-4: Mahasiswa mampu menerapkan konsep dasar protokol, soket dan beberapa perintah commadline pada system operasi linux.\nSubCPMK-5: Mahasiswa mampu mempresentasikan implementasi keterhubungan antar OS yang berbeda.",
+        "major": "Sistem Operasi",
+        "document_source": "RPS ISB-208 Sistem_operasi_revisi",
+        "question_type": "Prosedural"
+    },
+    {
+        "question": "Apa saja bahan kajian dari mata kuliah Struktur Data secara tururut?",
+        "ground_truth": "1. Pengenalan struktur data linear dan non-linear \n2. Menentukan kompleksitas waktu dan kompleksitas ruang menggunakan notasi Big-O dan Big Omega \n3. Struktur data linear statis Array \n4. Struktur data linear statis Hash Table \n5. Struktur data linear dinamis Linked List \n6. Struktur data linear dinamis Stack \n7. Struktur data linear dinamis Queue \n8. Struktur data non-linear Map \n9. Struktur data non-linear Tree \n10. Struktur data non-linear Graph \n11. Struktur data Recursion \n12. Sorting pada Struktur Data \n13. Searching pada Struktur Data \n14. Struktur data Dynamic Programming: BFS, DFS, Greedy",
+        "major": "Struktur Data",
+        "document_source": "RPS ISB-204 Struktur Data",
+        "question_type": "Prosedural"
+    },
+    {
+        "question": "Bagaimana tahapan urutan SubCPMK mahasiswa dari awal semester hingga pelaksanaan Ujian Tengah Semester (UTS) pada mata kuliah Sistem Operasi?",
+        "ground_truth": "1. SubCPMK-1: Mampu menjelaskan pengertian dasar, manfaat dan cara kerja sistem operasi\n2. SubCPMK-2: Mampu menjelaskan konsep dasar, manajemen file, kernel, shell, utility dasar dan manajemen memory pada sistem operasi\n3. SubCPMK-3: Mampu menjelaskan System kerja I/O, konsep penjadwalan masalah yang terjadi saat deadlock dan serangan yang bisa dilakukan pada sistem operasi, dan \n4. Pelaksanaan Ujian Tengah Semester (UTS) pada minggu ke-8.",
+        "major": "Sistem Operasi",
+        "document_source": "RPS ISB-208 Sistem_operasi_revisi",
+        "question_type": "Prosedural"
+    },
+    {
+        "question": "Apa 14 langkah quality improvement yang dikembangkan oleh Crosby?",
+        "ground_truth": "1. Menegaskan komitmen manajemen terhadap kualitas\n2. Membentuk tim perbaikan kualitas yang mewakili setiap departemen,\n3. Mengidentifikasi lokasi masalah kualitas saat ini dan yang berpotensi terjadi\n4. Mengevaluasi biaya kualitas dan menjelaskan penggunaannya sebagai alat manajemen\n5. Meningkatkan kesadaran kualitas dan kepedulian pribadi seluruh karyawan\n6. Mengambil tindakan korektif untuk mengatasi masalah yang teridentifikasi,\n7. Membentuk komite untuk program bebas cacat (zero-defects)\n8. Melatih para supervisor untuk menjalankan peran mereka dalam program perbaikan kualitas\n9. Mengadakan Zero-Defects Day untuk menyadarkan karyawan akan adanya perubahan\n10. Mendorong individu dan kelompok untuk menetapkan tujuan perbaikan mereka sendiri\n11. Mendorong karyawan mengomunikasikan hambatan yang dihadapi dalam mencapai tujuan kepada manajemen\n12. Memberikan pengakuan dan penghargaan kepada pihak yang berpartisipasi\n13. Membentuk dewan kualitas untuk berkomunikasi secara berkala, dan\n14. Mengulangi seluruh proses dari awal untuk menegaskan bahwa program perbaikan kualitas bersifat berkelanjutan dan tidak pernah berakhir.",
+        "major": "Manajemen Proyek Sistem Informasi",
+        "document_source": "Kathy Schwalbe - Information Technology Project Management-Cengage (2019)",
+        "question_type": "Prosedural"
+    },
+    {
+        "question": "Bagaimana urutan capability levels dalam Capability Maturity Model Integratiomulai dari tingkat terendah hingga tingkat tertinggi?",
+        "ground_truth": "0. Incomplete: Proses tidak dilakukan atau hanya dilakukan sebagian, serta tidak memenuhi satu atau lebih tujuan spesifik area proses.\n1. Performed: Proses telah memenuhi tujuan spesifik area proses dan menghasilkan produk kerja, namun perbaikan yang terjadi dapat hilang jika tidak diinstitusionalkan.\n2. Managed: Proses memiliki infrastruktur dasar, direncanakan dan dieksekusi berdasarkan kebijakan, serta melibatkan staf yang terampil dengan sumber daya memadai.\n3. Defined: Proses didefinisikan secara ketat di mana standar, deskripsi proses, dan prosedur tiap proyek disesuaikan dari proses standar organisasi.\n4. Quantitatively managed: Proses dikendalikan dan dikelola menggunakan teknik statistik serta teknik kuantitatif lainnya.\n5. Optimizing: Proses terus ditingkatkan secara berkelanjutan melalui perbaikan yang bersifat inkremental dan inovatif berdasarkan pemahaman atas penyebab variasi proses.",
+        "major": "Manajemen Proyek Sistem Informasi",
+        "document_source": "Kathy Schwalbe - Information Technology Project Management-Cengage (2019)",
+        "question_type": "Prosedural"
+    },
+    {
+        "question": "Bagaimana urutan tahapan tiga proses utama dalam Manajemen Komunikasi Proyek beserta penjelasannya?",
+        "ground_truth": "1. Planning communications management: Menentukan kebutuhan informasi dan komunikasi dari para stakeholders, seperti siapa yang membutuhkan informasi, kapan dibutuhkan, dan bagaimana cara penyampaiannya. Outputnya meliputi rencana manajemen komunikasi dan pembaruan dokumen proyek.\n2. Managing communications: Membuat, mendistribusikan, menyimpan, mengambil, dan membuang komunikasi proyek berdasarkan rencana manajemen komunikasi yang telah dibuat. Output utamanya meliputi komunikasi proyek, pembaruan dokumen proyek, pembaruan rencana manajemen proyek, dan pembaruan aset proses organisasi.\n3. Controlling communications: Memantau dan mengendalikan komunikasi proyek secara berkelanjutan untuk memastikan bahwa kebutuhan komunikasi seluruh pemangku kepentingan telah terpenuhi.",
+        "major": "Manajemen Proyek Sistem Informasi",
+        "document_source": "Manajemen Proyek Sistem informasi/Schwalbe 8th - Chapter 10",
+        "question_type": "Prosedural"
+    },
+    {
+        "question": "pa perbedaan antara sistem file FAT32 dan NTFS dalam hal kepemilikan fasilitas keamanan file?",
+        "ground_truth": "NTFS memiliki fasilitas keamanan bawaan (built-in security) yang memungkinkan pengaturan izin akses (permission) untuk masing-masing file maupun direktori, sedangkan FAT32 tidak memiliki fasilitas keamanan file tersebut.",
+        "major": "Sistem Operasi",
+        "document_source": "file_system_2_1_ringkas",
+        "question_type": "Komparatif"
+    },
+    {
+        "question": "Apa perbedaan antara Local Temporary Stored Procedure dan Global Temporary Stored Procedure pada SQL Server?",
+        "ground_truth": "Local Temporary Stored Procedure dibuat dengan prefiks # dan hanya dapat diakses di dalam sesi tempat prosedur tersebut dibuat, lalu otomatis dihapus saat koneksi ditutup. Sedangkan Global Temporary Stored Procedure dibuat dengan prefiks ##, dapat diakses oleh sesi/koneksi lain, dan baru otomatis dihapus ketika koneksi pembuatnya ditutup.",
+        "major": "Basis Data 2",
+        "document_source": "PENGENALAN STORED PROCEDURE_w4",
+        "question_type": "Komparatif"
+    },
+    {
+        "question": "Apa perbedaan aksi antara pilihan NO ACTION dan CASCADE pada klausa ON DELETE atau ON UPDATE di FOREIGN KEY constraint?",
+        "ground_truth": "NO ACTION, operasi pembaruan atau penghapusan data pada tabel induk (parent table) akan gagal dan menghasilkan error. Sebaliknya, jika diatur ke CASCADE, tindakan penghapusan atau pembaruan pada tabel induk secara otomatis diterapkan ke baris/nilai yang berhubungan di tabel anak (child table).",
+        "major": "Basis Data 2",
+        "document_source": "Constraint in SQL Server 2012",
+        "question_type": "Komparatif"
+    },
+    {
+        "question": "Apa perbedaan mekanisme penyebaran antara program jahat jenis virus dan worm?",
+        "ground_truth": "Virus adalah kode yang menempel pada suatu program dan baru akan mereplikasi diri serta menginfeksi file lain, sedangkan worm dapat mereplikasi dirinya sendiri tanpa harus dijalankan dan menyebar ke komputer lain melalui jaringan.",
+        "major": "Sistem Operasi",
+        "document_source": "Keamanan Sistem Operasi",
+        "question_type": "Komparatif"
+    },
+    {
+        "question": "Apa perbedaan fokus capaian pembelajaran antara CPMK-1 dan CPMK-2 pada mata kuliah Rekayasa Perangkat Lunak?",
+        "ground_truth": "CPMK-1 berfokus pada pemanfaatan pengetahuan terkait konsep dasar, prinsip, metodologi, serta penggunaan tools untuk meningkatkan efektivitas dan produktivitas proses pengembangan perangkat lunak, sedangkan CPMK-2 berfokus pada penerapan konsep manajemen informasi, penyusunan pemodelan dan abstraksi data, serta pembangunan aplikasi perangkat lunak untuk pengorganisasian data yang teruji dan memiliki keamanan akses.",
+        "major": "Rekayasa Perangkat Lunak",
+        "document_source": "RPS ISB-202 Rekayasa Perangkat Lunak",
+        "question_type": "Komparatif"
+    },
+    {
+        "question": "Pertanyaan: Bagaimana perbandingan bobot SKS antara mata kuliah Struktur Data (ISB-204), Rekayasa Perangkat Lunak (ISB-202), dan Sistem Operasi & Keamanan Sistem Informasi (ISB-208)?",
+        "ground_truth": "Mata kuliah Struktur Data memiliki bobot sebesar 3 sks, Rekayasa Perangkat Lunak memiliki bobot sebesar 4 sks, dan Sistem Operasi memiliki bobot sebesar 2 sks",
+        "major": "Struktur Data, Rekayasa perangkat Lunak, Sistem Operasi",
+        "document_source": "RPS ISB-202 Rekayasa Perangkat Lunak,  RPS ISB-204 Struktur Data, RPS ISB-208 Sistem_operasi_revisi",
+        "question_type": "Komparatif"
+    },
+    {
+        "question": "apa perbedaan indikator pada SubCPMK 2, dan SubCPMK 3 pada matakuliah Struktur Data?",
+        "ground_truth": "pada mata kuliah Struktur Data, SubCPMK 2 memiliki indikator sebagai berikut: ketepatan menerapkan konsep struktur data linear dinamis List, ketepatan menerapkan konsep struktur data linear dinamis Stack, ketepatan menerapkan konsep struktur data linear dinamis Queue, kebenaran sintaks kode program yang ditulis. Sedangkan SubCPMK 3 memiliki indikator sebagai berikut: Ketepatan menjelaskan kompleksitas waktu dari struktur data linear statis, ketepatan menjelaskan kompleksitas ruang dari struktur data linear statis, Ketepatan menjelaskan kompleksitas waktu dari struktur data linear dinamis, dan ketepatan menjelaskan kompleksitas ruang dari struktur data linear dinamis",
+        "major": "Struktur Data",
+        "document_source": "RPS ISB-204 Struktur Data",
+        "question_type": "Komparatif"
+    },
+    {
+        "question": "Apa perbedaan utama antara estimasi Rough Order of Magnitude (ROM) dan Definitive estimate dalam manajemen biaya proyek?",
+        "ground_truth": "Estimasi ROM dilakukan sangat awal dalam siklus proyek (seringkali 3-5 tahun sebelum selesai) dengan tingkat akurasi yang sangat longgar, yaitu -50% hingga +100%. Sebaliknya, Definitive estimate dilakukan menjelang akhir proyek (kurang dari 1 tahun sebelum selesai) untuk memberikan rincian pembelian dan estimasi biaya aktual dengan tingkat akurasi yang jauh lebih ketat, yaitu -5% hingga +10%.",
+        "major": "Manajemen Proyek Sistem Informasi",
+        "document_source": "Book-ProjectCostManagement",
+        "question_type": "Komparatif"
+    },
+    {
+        "question": "Apa perbedaan proses antara Collecting requirements (pengumpulan kebutuhan) dan Defining scope (penentuan lingkup) dalam manajemen lingkup proyek?",
+        "ground_truth": "Collecting requirements berfokus pada pendefinisian dan pendokumentasian fitur serta fungsi produk dan proses pembuatannya berdasarkan ekspektasi pemangku kepentingan. Sementara itu, Defining scope melibatkan peninjauan rencana manajemen lingkup, piagam proyek, dan dokumen kebutuhan untuk menghasilkan pernyataan lingkup (project scope statement) yang lebih rinci dan mendalam.",
+        "major": "Manajemen Proyek Sistem Informasi",
+        "document_source": "Kathy Schwalbe - Project Scope Management",
+        "question_type": "Komparatif"
+    },
+    {
+        "question": "Bagaimana perbandingan cara kerja antara pendekatan pengembangan WBS Top-down dan Bottom-up?",
+        "ground_truth": "Pendekatan top-down dimulai dari mengambil item terbesar dari proyek lalu memecahnya secara berjenjang ke dalam item-item bawahan yang lebih detail. Sebaliknya, pendekatan bottom-up dimulai dengan meminta anggota tim mengidentifikasi sebanyak mungkin tugas spesifik terlebih dahulu, lalu mengelompokkan dan mengagregasikannya ke dalam aktivitas ringkasan di level WBS yang lebih tinggi.",
+        "major": "Manajemen Proyek Sistem Informasi",
+        "document_source": "Kathy Schwalbe - Project Scope Management",
+        "question_type": "Komparatif"
+    },
+    {
+        "question": "Apakah constraint PRIMARY KEY mengizinkan adanya nilai NULL di dalam kolom yang berpartisipasi?",
+        "ground_truth": "Tidak, karena constraint PRIMARY KEY mengombinasikan UNIQUE dan NOT NULL, sehingga kolom yang berpartisipasi di dalamnya tidak menerima dan tidak mengizinkan nilai NULL.",
+        "major": "Basis Data 2",
+        "document_source": "CONSTRAINT IN SQL SERVER 2012",
+        "question_type": "Boolean"
+    },
+    {
+        "question": "Apakah Product Owner dalam kerangka Scrum bertanggung jawab penuh untuk mengimplementasikan user stories ke dalam kode program sampai diuji?",
+        "ground_truth": "Tidak, karena pihak yang bertanggung jawab mengimplementasikan user stories ke dalam kode program hingga pengujian adalah Development Team, sedangkan Product Owner bertanggung jawab memaksimalkan nilai bisnis dan mengelola Product Backlog.",
+        "major": "Rekayasa Perangkat Lunak",
+        "document_source": "TM-06 - Pengembangan Perangkat Lunak Agile",
+        "question_type": "Boolean"
+    },
+    {
+        "question": "Apakah kode sumber (source code) di dalam stored procedure yang dibuat dengan opsi WITH ENCRYPTION dapat ditampilkan kembali menggunakan perintah sp_helptext?",
+        "ground_truth": "Tidak, karena opsi WITH ENCRYPTION telah menyembunyikan kode sumber prosedur tersebut di dalam basis data. Saat mencoba menampilkan teksnya menggunakan sp_helptext, sistem hanya mengembalikan pesan bahwa teks untuk objek tersebut telah terenkripsi.",
+        "major": "Basis Data 2",
+        "document_source": "PENGENALAN STORED PROCEDURE_w4",
+        "question_type": "Boolean"
+    },
+    {
+        "question": "Apakah CASE digunakan untuk membandingkan suatu ekspresi dengan sekumpulan nilai dalam basis data?",
+        "ground_truth": "Ya, CASE digunakan untuk  membandingkan satu ekspresi dengan sekumpulan nilai",
+        "major": "Basis Data 2 Praktikum AA",
+        "document_source": "MODUL4",
+        "question_type": "Boolean"
+    },
+    {
+        "question": "Apakah bahan kajian mata kuliah Rekayasa Perangkat Lunak (ISB-202) mencakup Software Development Life Cycle (SDLC) dan model proses seperti Predictive, Iterative, serta RAD?",
+        "ground_truth": "Ya, bahan kajian utama dari mata kuliah tersebut mencakup Software Development Life Cycle (SDLC) serta berbagai model proses meliputi Predictive, Iterative, dan Rapid Application Development (RAD).",
+        "major": "Rekayasa Perangkat Lunak",
+        "document_source": "RPS ISB-202 Rekayasa Perangkat Lunak",
+        "question_type": "Boolean"
+    },
+    {
+        "question": "Apakah SubCPMK-1 pada mata kuliah Rekayasa Perangkat Lunak secara khusus berfokus pada pembelajaran manajemen proyek dengan pendekatan prediktif?",
+        "ground_truth": "Tidak, karena penjelasan manajemen proyek dengan pendekatan prediktif merupakan fokus dari SubCPMK-2.",
+        "major": "Rekayasa Perangkat Lunak",
+        "document_source": "RPS ISB-202 Rekayasa Perangkat Lunak",
+        "question_type": "Boolean"
+    },
+    {
+        "question": "Apakah buku karya Dhananjay M. Dhamdhere yang berjudul Operating System - A Concept-Based Approach terdaftar sebagai salah satu pustaka utama dalam mata kuliah Sistem Operasi?",
+        "ground_truth": "Ya, buku tersebut tercantum sebagai salah satu referensi pustaka utama mata kuliah Sistem Operasi.",
+        "major": "Sistem Operasi",
+        "document_source": "RPS ISB-208 Sistem_operasi_revisi",
+        "question_type": "Boolean"
+    },
+    {
+        "question": "Apakah pendekatan prediktif cocok digunakan ketika terdapat tingkat perubahan kebutuhan yang sangat tinggi",
+        "ground_truth": "Tidak, karena pendekatan prediktif cocok digunakan saat tingkat perubahan lingkup rendah, sedangkan tingkat perubahan yang tinggi lebih cocok diselesaikan dengan pendekatan adaptif atau agile.",
+        "major": "Manajemen Proyek Sistem Informasi",
+        "document_source": "Kathy Schwalbe - Information Technology Project Management-Cengage (2019)",
+        "question_type": "Boolean"
+    },
+    {
+        "question": "Apakah sunk cost harus dipertimbangkan ketika sebuah organisasi mengambil keputusan untuk melanjutkan atau menghentikan proyek?",
+        "ground_truth": "Tidak, karena sunk cost adalah uang yang telah dikeluarkan di masa lalu dan tidak dapat dikembalikan.",
+        "major": "Manajemen Proyek Sistem Informasi",
+        "document_source": "Book-ProjectCostManagement",
+        "question_type": "Boolean"
+    },
+    {
+        "question": "Apakah melampaui persyaratan kualitas atau exceeding quality requirements dapat berdampak negatif pada anggaran dan jadwal proyek?",
+        "ground_truth": "Ya, karena pekerjaan tambahan untuk melampaui standar membutuhkan biaya berupa waktu atau uang yang tidak dianggarkan sebelumnya, yang memaksa proyek membutuhkan lebih banyak dana atau harus mengurangkan lingkup kerja.",
+        "major": "Manajemen Proyek Sistem Informasi",
+        "document_source": "Plano da qualidade do projeto",
+        "question_type": "Boolean"
+    },
+    {
+        "question": "Mengapa penentuan quantum time yang terlalu kecil pada algoritma Round-Robin Scheduling (RRS) dapat menurunkan kinerja CPU?",
+        "ground_truth": "Quantum time yang terlalu kecil akan menyebabkan frekuensi context switching menjadi sangat tinggi. Hal ini mengakibatkan terjadinya overhead pada CPU.",
+        "major": "Sistem Operasi",
+        "document_source": "RRS",
+        "question_type": "Analitis"
+    },
+    {
+        "question": "Mengapa mekanisme One-Time Password (OTP) mampu memberikan tingkat keamanan yang lebih tinggi dibandingkan kata sandi biasa?",
+        "ground_truth": "Mekanisme OTP memberikan keamanan tambahan karena kata sandi yang dihasilkan bersifat unik dan hanya berlaku untuk satu kali sesi login. Setelah digunakan, kata sandi tersebut kedaluwarsa dan tidak dapat digunakan kembali oleh pihak yang tidak berwenang",
+        "major": "Sistem Operasi",
+        "document_source": "Keamanan Sistem Operasi",
+        "question_type": "Analitis"
+    },
+    {
+        "question": "Mengapa ancaman program berjenis Logic Bomb lebih sulit untuk dideteksi dibandingkan jenis ancaman program biasa?",
+        "ground_truth": "Logic Bomb lebih sulit dideteksi karena program tersebut berfungsi dan berperilaku normal seperti program asli pada kondisi biasa, dan baru akan menjalankan kode jahatnya hanya ketika kondisi tertentu yang disyaratkan telah terpenuhi.",
+        "major": "Sistem Operasi",
+        "document_source": "Keamanan Sistem Operasi",
+        "question_type": "Analitis"
+    },
+    {
+        "question": "Mengapa penerapan teknik Pair Programming dalam Extreme Programming (XP) dapat mengurangi risiko keseluruhan proyek apabila terdapat anggota tim yang mengundurkan diri atau keluar?",
+        "ground_truth": "Pair Programming dapat mengurangi risiko proyek ketika ada anggota tim yang keluar karena terjadi proses berbagi pengetahuan (knowledge sharing) secara intensif dan terus-menerus antar pasangan programmer selama mereka bekerja bersama di satu komputer yang sama.",
+        "major": "Rekayasa Perangkat Lunak",
+        "document_source": "TM-06 - Pengembangan Perangkat Lunak Agile",
+        "question_type": "Analitis"
+    },
+    {
+        "question": "Mengapa pembuatan View dapat dijadikan salah satu strategi untuk meningkatkan keamanan data pada suatu basis data?",
+        "ground_truth": "View meningkatkan keamanan data karena bertindak sebagai tabel virtual yang dapat menyembunyikan kolom-kolom sensitif dari tabel fisik.",
+        "major": "Basis Data Praktikum AA",
+        "document_source": "Modul10_Prak212Basdat2",
+        "question_type": "Analitis"
+    },
+    {
+        "question": "Mengapa manajemen proyek perangkat lunak perlu dipelajari menggunakan pendekatan prediktif pada tahap awal pembelajaran?",
+        "ground_truth": "Pendekatan prediktif digunakan dalam manajemen proyek perangkat lunak untuk menentukan lingkup, waktu, dan biaya secara jelas agar proyek dapat direncanakan dengan baik",
+        "major": "Rekayasa Perangkat Lunak",
+        "document_source": "RPS ISB-202 Rekayasa Perangkat Lunak",
+        "question_type": "Analitis"
+    },
+    {
+        "question": "Mengapa tim pengembang membutuhkan tools Version Control System (seperti Git) dan Semantic Versioning dalam manajemen konfigurasi perangkat lunak?",
+        "ground_truth": "Pemanfaatan tools Version Control System penting dilakukan untuk melakukan penelusuran serta mengelola dan merekam/mencatat segala perubahan yang terjadi pada perangkat lunak.",
+        "major": "Rekayasa Perangkat Lunak",
+        "document_source": "RPS ISB-202 Rekayasa Perangkat Lunak",
+        "question_type": "Analitis"
+    },
+    {
+        "question": "Mengapa penambahan jumlah anggota dalam suatu tim proyek dapat meningkatkan kompleksitas komunikasi secara drastis?",
+        "ground_truth": "Karena jumlah saluran komunikasi bertambah secara eksponensial mengikuti rumus n(n-1)/2 (di mana n adalah jumlah orang), dimana Semakin banyak saluran komunikasi yang terbentuk, semakin tinggi risiko terjadinya miskomunikasi dan hambatan manajemen dalam memastikan informasi tersampaikan serta dipahami dengan benar oleh seluruh anggota.",
+        "major": "Manajemen Proyek Sistem Informasi",
+        "document_source": "Schwalbe 8th - Chapter 10",
+        "question_type": "Analitis"
+    },
+    {
+        "question": "Mengapa prinsip manajemen kualitas modern lebih mengutamakan pendekatan pencegahan (prevention) dibandingkan inspeksi (inspection)?",
+        "ground_truth": "Manajemen kualitas modern mengutamakan pencegahan karena kualitas dirancang dan dibangun sejak awal, di mana biaya untuk mencegah terjadinya kesalahan secara umum jauh lebih murah dibandingkan biaya untuk memperbaiki kesalahan setelah ditemukan melalui proses inspeksi.",
+        "major": "Manajemen Proyek Sistem Informasi",
+        "document_source": "Plano da qualidade do projeto",
+        "question_type": "Analitis"
+    },
+    {
+        "question": "Mengapa metode bottom-up estimating menghasilkan estimasi biaya yang lebih akurat, namun jarang digunakan pada tahap awal proyek?",
+        "ground_truth": "Metode bottom-up estimating lebih akurat karena estimasi dilakukan pada item pekerjaan yang lebih kecil (work package) oleh orang yang secara langsung bertanggung jawab mengerjakan tugas tersebut. Namun, metode ini jarang digunakan di awal proyek karena prosesnya yang time-intensive sehingga mahal untuk dikembangkan.",
+        "major": "Manajemen Proyek Sistem Informasi",
+        "document_source": "Project Cost Management",
+        "question_type": "Analitis"
+    }
+]

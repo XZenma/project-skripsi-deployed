@@ -1,6 +1,0 @@
-question,ground_truth,matkul
-Apa tujuan penggunaan fungsi di SQL Server?,Fungsi di SQL Server digunakan untuk menyederhanakan logika query yang kompleks dan menghindari penulisan ulang query yang sama berulang kali karena cukup dipanggil, Database
-Apa saja fungsi bernilai tabel yang ada di SQL Server 2012?,Inline table valued function dan Multi Statement Table Valued Function.,Database
-Apa fungsi clause OUTPUT pada perintah INSERT?,Clause OUTPUT menampilkan kembali nilai dari baris yang baru saja ditambahkan sehingga pengguna dapat langsung memverifikasi data yang masuk tanpa perlu melakukan perintah pencarian manual.,Database
-Apa manfaat keamanan yang diberikan oleh stored procedure?,Stored procedure mengurangi ancaman dengan menghilangkan akses langsung ke tabel,Rekayasa Perangkat Lunak
-Apa itu trigger dalam SQL?,Trigger adalah sekumpulan kueri (prosedur) SQL yang akan dieksekusi secara otomatis oleh Database Management System (DBMS) ketika terjadi peristiwa (event) modifikasi data pada sebuah tabel.,Database

@@ -2,29 +2,31 @@ import pandas as pd
 import json
 
 # 1. Baca file CSV
-file_csv = "ground_truth_final_2.csv"
-df = pd.read_csv(file_csv)
+file_csv = "dataset_skripsi.csv"
+df = pd.read_csv(file_csv, encoding="utf-8-sig")
 
-# 2. Siapkan dictionary utama
-hasil_json = {}
+# 2. Bersihkan kolom kosong tak bernama (sisa trailing koma di CSV)
+df = df.loc[:, ~df.columns.str.startswith("Unnamed")]
 
-# 3. Tambahkan sort=False agar urutannya tidak diubah jadi alfabetis!
-for sumber_dokumen, group in df.groupby("sumber_dokumen", sort=False):
-    qa_list = []
-    
-    # Looping setiap baris dalam dokumen yang sama
-    for index, row in group.iterrows():
-        qa_list.append({
-            "pertanyaan": row["pertanyaan"],
-            "ground_truth": row["ground_truth"],
-            "sumber_text": row["sumber"] 
-        })
-        
-    hasil_json[sumber_dokumen] = qa_list
+# 3. Bersihkan whitespace di kolom teks (misal " Komparatif" -> "Komparatif")
+for kolom in ["question", "ground_truth", "major", "document_source", "question_type"]:
+    if kolom in df.columns:
+        df[kolom] = df[kolom].astype(str).str.strip()
 
-# 4. Simpan hasilnya ke dalam file .json
-file_json = "ground_truth_final.json"
+# 4. Susun jadi list datar (flat list), sesuai urutan baris di CSV
+hasil_json = []
+for _, row in df.iterrows():
+    hasil_json.append({
+        "question": row["question"],
+        "ground_truth": row["ground_truth"],
+        "major": row["major"],
+        "document_source": row["document_source"],
+        "question_type": row["question_type"],
+    })
+
+# 5. Simpan hasilnya ke dalam file .json
+file_json = "Dataset_skripsi.json"
 with open(file_json, "w", encoding="utf-8") as f:
     json.dump(hasil_json, f, indent=4, ensure_ascii=False)
 
-print("Konversi selesai! Urutan sekarang sudah sesuai dengan baris di CSV.")
+print(f"Konversi selesai! Total {len(hasil_json)} entri disimpan ke {file_json}")

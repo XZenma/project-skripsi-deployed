@@ -5,6 +5,8 @@ langchain-ollama
 langchain-experimental
 langchain-text-splitters
 langchain-core
+langchain-google-genai
+langchain-openai
 ollama
 
 # Vector Database - FAISS
