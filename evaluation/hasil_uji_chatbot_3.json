@@ -1,0 +1,10 @@
+{
+  "fixed": [
+    {
+      "pertanyaan": "Apa itu CMMI",
+      "matkul": "Basis Data 2",
+      "jawaban": "**CMMI (Capability Maturity Model Integration)** adalah kerangka kerja untuk peningkatan proses yang digunakan dalam pengembangan perangkat lunak, manajemen proyek, dan industri terkait. CMMI membantu organisasi mengukur, memperbaiki, dan meningkatkan kematangan proses mereka dengan menyediakan panduan untuk praktik terbaik, standar, dan pengukuran. (Dari definisi resmi CMMI Institute)",
+      "chunks": {}
+    }
+  ]
+}
