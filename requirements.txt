@@ -27,6 +27,7 @@ datasets
 
 # UI
 streamlit
+requests
 
 # API
 fastapi
