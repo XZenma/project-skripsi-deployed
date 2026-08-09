@@ -25,6 +25,18 @@ st.set_page_config(
 # HELPER UI
 # ============================================================
 
+def display_filename(filename: str) -> str:
+    """
+    Metadata filename pada docstore mewarisi nama dari file hasil
+    ekstraksi teks (.txt). Untuk keperluan tampilan ke pengguna,
+    ekstensi ini dikonversi menjadi .pdf agar sesuai dengan file
+    sumber aslinya.
+    """
+    if filename and filename.lower().endswith(".txt"):
+        return filename[:-4] + ".pdf"
+    return filename
+
+
 def get_pdf_url(src: dict) -> str | None:
     """
     Mengubah URL relatif dari API menjadi URL lengkap.
@@ -32,7 +44,7 @@ def get_pdf_url(src: dict) -> str | None:
     pdf_url = src.get("pdf_url")
 
     if not pdf_url:
-        filename = src.get("filename")
+        filename = display_filename(src.get("filename", "Dokumen"))
         matkul = src.get("matkul")
 
         if not filename:
@@ -622,7 +634,6 @@ if prompt := st.chat_input(
                 st.error(
                     "Gagal terhubung ke API. "
                     "Pastikan API berjalan "
-                    "di http://localhost:9001"
                 )
 
             except requests.exceptions.Timeout:
