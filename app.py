@@ -112,7 +112,7 @@ def render_sources(konteks, sumber):
 
     for i, src in enumerate(documents):
 
-        filename = src.get("filename", "Dokumen")
+        filename = display_filename(src.get("filename", "Dokumen"))
         pdf_url = get_pdf_url(src)
 
         if not pdf_url:
