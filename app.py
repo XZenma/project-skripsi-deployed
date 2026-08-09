@@ -252,8 +252,6 @@ with st.sidebar:
     # Filter Mata Kuliah
     # --------------------------------------------------------
 
-    st.subheader("🎓 Mata Kuliah")
-
     matkul_options = ["Pilih mata kuliah..."]
     matkul_ready = False
 
@@ -318,58 +316,6 @@ with st.sidebar:
         st.info(
             "Pilih mata kuliah sebelum bertanya."
         )
-
-    st.divider()
-
-    # --------------------------------------------------------
-    # Status Chatbot
-    # --------------------------------------------------------
-
-    st.subheader("Status Chatbot")
-
-    try:
-
-        res = requests.get(
-            f"{API_BASE_URL}/api/status",
-            params={"teknik": teknik},
-            timeout=30
-        )
-
-        if res.status_code == 200:
-
-            data = res.json()
-
-            st.success(
-                f"✅ Chatbot Ready"
-            )
-
-            index_ready = True
-
-        else:
-
-            st.error(
-                f"❌ Index '{teknik}' belum dibuat.\n\n"
-                "Jalankan proses embedding terlebih dahulu."
-            )
-
-            index_ready = False
-
-    except requests.exceptions.ConnectionError:
-
-        st.error(
-            "❌ Gagal terhubung ke API Server. "
-            "Pastikan `api.py` sedang berjalan."
-        )
-
-        index_ready = False
-
-    except Exception as e:
-
-        st.error(
-            f"❌ Gagal memeriksa status index: {e}"
-        )
-
-        index_ready = False
 
     st.divider()
 
