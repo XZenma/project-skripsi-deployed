@@ -253,7 +253,7 @@ with st.sidebar:
         res = requests.get(
             f"{API_BASE_URL}/api/matkul",
             params={"teknik": teknik},
-            timeout=10
+            timeout=30
         )
 
         if res.status_code == 200:
