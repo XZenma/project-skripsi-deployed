@@ -8,7 +8,8 @@ from html import escape
 # URL API
 # ============================================================
 
-API_BASE_URL = "http://localhost:9001"
+API_BASE_URL = st.secrets["API_BASE_URL"]
+st.write("Daftar rahasia yang terbaca:", list(st.secrets.keys()))
 
 
 # ============================================================
