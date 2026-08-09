@@ -9,8 +9,6 @@ from html import escape
 # ============================================================
 
 API_BASE_URL = st.secrets["API_BASE_URL"]
-st.write("Daftar rahasia yang terbaca:", list(st.secrets.keys()))
-
 
 # ============================================================
 # PAGE CONFIG
