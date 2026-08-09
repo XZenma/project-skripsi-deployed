@@ -323,7 +323,7 @@ with st.sidebar:
         res = requests.get(
             f"{API_BASE_URL}/api/status",
             params={"teknik": teknik},
-            timeout=10
+            timeout=30
         )
 
         if res.status_code == 200:
@@ -560,7 +560,7 @@ if prompt := st.chat_input(
                 response = requests.post(
                     f"{API_BASE_URL}/api/rag",
                     json=payload,
-                    timeout=300
+                    timeout=600
                 )
 
                 if response.status_code == 200:
