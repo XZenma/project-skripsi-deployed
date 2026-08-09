@@ -252,7 +252,7 @@ with st.sidebar:
     # Filter Mata Kuliah
     # --------------------------------------------------------
 
-    matkul_options = ["Pilih mata kuliah..."]
+    matkul_options = ["🎓 Pilih mata kuliah..."]
     matkul_ready = False
 
     try:
