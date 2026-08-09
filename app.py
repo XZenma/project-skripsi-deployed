@@ -252,7 +252,7 @@ with st.sidebar:
     # Filter Mata Kuliah
     # --------------------------------------------------------
 
-    matkul_options = ["🎓 Pilih mata kuliah..."]
+    matkul_options = ["Pilih mata kuliah..."]
     matkul_ready = False
 
     try:
@@ -293,7 +293,7 @@ with st.sidebar:
         )
 
     selected_matkul = st.selectbox(
-        "Pilih mata kuliah:",
+        "🎓 Pilih mata kuliah:",
         options=matkul_options,
         index=0,
         disabled=not matkul_ready
