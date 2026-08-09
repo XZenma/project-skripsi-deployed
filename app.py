@@ -347,11 +347,18 @@ with st.sidebar:
         "🗑️ Reset Chat",
         use_container_width=True
     ):
-
-        st.session_state.messages = []
-
+        pesan_awal = (
+            f"Silakan bertanya terkait materi dari **{matkul}**." 
+            if matkul else 
+            "Halo! Saya chatbot akademik. Silakan pilih mata kuliah pada sidebar terlebih dahulu."
+        )
+        st.session_state.messages = [{
+            "role": "assistant",
+            "content": pesan_awal,
+            "konteks": [],
+            "sumber": []
+        }]
         st.session_state.last_matkul = matkul
-
         st.rerun()
 
 
@@ -360,37 +367,22 @@ with st.sidebar:
 # ============================================================
 
 if "last_matkul" not in st.session_state:
-
     st.session_state.last_matkul = matkul
-
 
 if st.session_state.last_matkul != matkul:
-
-    st.session_state.messages = []
-
+    pesan_awal = (
+        f"Silakan bertanya terkait materi dari **{matkul}**." 
+        if matkul else 
+        "Halo! Saya chatbot akademik. Silakan pilih mata kuliah pada sidebar terlebih dahulu."
+    )
+    st.session_state.messages = [{
+        "role": "assistant",
+        "content": pesan_awal,
+        "konteks": [],
+        "sumber": []
+    }]
     st.session_state.last_matkul = matkul
-
     st.rerun()
-
-
-# ============================================================
-# HEADER
-# ============================================================
-
-st.title("💬 Chatbot Akademik")
-
-
-if matkul:
-
-    st.caption(
-        f"Mata kuliah: **{matkul}**"
-    )
-
-else:
-
-    st.caption(
-        f"Pilih mata kuliah untuk memulai"
-    )
 
 
 # ============================================================
@@ -398,15 +390,15 @@ else:
 # ============================================================
 
 if "messages" not in st.session_state:
-
+    pesan_awal = (
+        f"Silakan bertanya terkait materi dari **{matkul}**." 
+        if matkul else 
+        "Halo! Saya chatbot akademik. Silakan pilih mata kuliah pada sidebar terlebih dahulu."
+    )
     st.session_state.messages = [
         {
             "role": "assistant",
-            "content": (
-                "Halo! Saya chatbot akademik berbasis RAG. "
-                "Silakan pilih mata kuliah pada sidebar, "
-                "kemudian ajukan pertanyaan."
-            ),
+            "content": pesan_awal,
             "konteks": [],
             "sumber": []
         }
@@ -459,17 +451,20 @@ if prompt := st.chat_input(
         st.stop()
 
     # --------------------------------------------------------
-    # Validasi index
+    # Validasi index (Catatan: Pastikan variabel index_ready didefinisikan 
+    # di file Anda jika sebelumnya memang ada)
     # --------------------------------------------------------
-
-    if not index_ready:
-
-        st.error(
-            f"Index untuk teknik '{teknik}' "
-            "belum tersedia atau API Server mati."
-        )
-
-        st.stop()
+    
+    # Jika index_ready tidak didefinisikan di atas, Anda bisa menghapus 
+    # blok pengecekan ini atau menyesuaikannya dengan logika server Anda.
+    # if not index_ready:
+    #
+    #     st.error(
+    #         f"Index untuk teknik '{teknik}' "
+    #         "belum tersedia atau API Server mati."
+    #     )
+    #
+    #     st.stop()
 
     # --------------------------------------------------------
     # Pesan user
