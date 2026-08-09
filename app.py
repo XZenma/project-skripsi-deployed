@@ -15,7 +15,7 @@ API_BASE_URL = st.secrets["API_BASE_URL"]
 # ============================================================
 
 st.set_page_config(
-    page_title="Chatbot Akademik RAG",
+    page_title="Chatbot Akademik",
     page_icon="🎓",
     layout="wide"
 )
@@ -244,9 +244,6 @@ def render_sources(konteks, sumber):
 
 with st.sidebar:
 
-    st.title("⚙️ Konfigurasi RAG")
-    st.divider()
-
     # Deployment menggunakan hasil teknik chunking terpilih.
     # Fixed-size. Tidak ada pilihan teknik lain pada UI.
     teknik = "fixed"
@@ -325,10 +322,10 @@ with st.sidebar:
     st.divider()
 
     # --------------------------------------------------------
-    # Status Index
+    # Status Chatbot
     # --------------------------------------------------------
 
-    st.subheader("Status Index")
+    st.subheader("Status Chatbot")
 
     try:
 
@@ -343,9 +340,7 @@ with st.sidebar:
             data = res.json()
 
             st.success(
-                f"✅ Index tersedia\n\n"
-                f"{data['vektor_total']} vektor | "
-                f"{data['chunk_total']} chunk"
+                f"✅ Chatbot Ready"
             )
 
             index_ready = True
@@ -436,23 +431,19 @@ if st.session_state.last_matkul != matkul:
 # HEADER
 # ============================================================
 
-st.title("💬 Chatbot Akademik RAG")
+st.title("💬 Chatbot Akademik")
 
 
 if matkul:
 
     st.caption(
-        f"Mata kuliah: **{matkul}** | "
-        "Model: Sailor2 | "
-        "Embedding: Qwen3-Embedding"
+        f"Mata kuliah: **{matkul}**"
     )
 
 else:
 
     st.caption(
-        f"Pilih mata kuliah untuk memulai | "   
-        "Model: Sailor2 | "
-        "Embedding: Qwen3-Embedding"
+        f"Pilih mata kuliah untuk memulai"
     )
 
 
