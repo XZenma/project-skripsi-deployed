@@ -546,7 +546,7 @@ if prompt := st.chat_input(
     with st.chat_message("assistant"):
 
         with st.spinner(
-            "Mencari chunk pada mata kuliah terpilih..."
+            "Sedang memproses jawaban..."
         ):
 
             try:
