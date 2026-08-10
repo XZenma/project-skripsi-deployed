@@ -326,7 +326,7 @@ with st.sidebar:
     st.subheader("Model")
 
     st.caption(
-        "🤖 LLM: Sailor2 via Ollama"
+        "👾 LLM: Sailor2 via Ollama"
     )
 
     st.caption(
@@ -409,7 +409,6 @@ for msg in st.session_state.messages:
 
     with st.chat_message(msg["role"]):
 
-        
         st.write(msg["content"])
 
         # ----------------------------------------------------
@@ -514,10 +513,7 @@ if prompt := st.chat_input(
                     # Jawaban
                     # ------------------------------------------------
 
-                    if generation_skipped:
-                        st.warning(hasil["jawaban"], icon="⚠️")
-                    else:
-                        st.write(hasil["jawaban"])
+                    st.write(hasil["jawaban"])
 
                     # ------------------------------------------------
                     # Dokumen sumber
