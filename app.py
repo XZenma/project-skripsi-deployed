@@ -409,10 +409,8 @@ for msg in st.session_state.messages:
 
     with st.chat_message(msg["role"]):
 
-        if msg["role"] == "assistant" and msg.get("generation_skipped"):
-            st.warning(msg["content"], icon="⚠️")
-        else:
-            st.write(msg["content"])
+        
+        st.write(msg["content"])
 
         # ----------------------------------------------------
         # Dokumen hanya muncul pada pesan assistant
