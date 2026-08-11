@@ -56,7 +56,6 @@ def get_pdf_url(src: dict) -> str | None:
         pdf_url = (
             f"/api/pdf?filename={quote(filename)}"
             f"&matkul={quote(matkul or '')}"
-            f"&api_key={quote(API_KEY_NGROK)}" 
         )
 
     if pdf_url.startswith("http://") or pdf_url.startswith("https://"):
