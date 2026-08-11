@@ -9,6 +9,9 @@ from html import escape
 # ============================================================
 
 API_BASE_URL = st.secrets["API_BASE_URL"]
+API_KEY_NGROK = st.secrets["API_KEY_NGROK"]
+
+HEADERS = {"X-API-Key": API_KEY_NGROK}
 
 # ============================================================
 # PAGE CONFIG
@@ -53,6 +56,7 @@ def get_pdf_url(src: dict) -> str | None:
         pdf_url = (
             f"/api/pdf?filename={quote(filename)}"
             f"&matkul={quote(matkul or '')}"
+            f"&api_key={quote(API_KEY_NGROK)}" 
         )
 
     if pdf_url.startswith("http://") or pdf_url.startswith("https://"):
@@ -260,6 +264,7 @@ with st.sidebar:
         res = requests.get(
             f"{API_BASE_URL}/api/matkul",
             params={"teknik": teknik},
+            headers=HEADERS,
             timeout=30
         )
 
@@ -501,6 +506,7 @@ if prompt := st.chat_input(
                 response = requests.post(
                     f"{API_BASE_URL}/api/rag",
                     json=payload,
+                    headers=HEADERS,
                     timeout=600
                 )
 
